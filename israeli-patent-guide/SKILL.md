@@ -231,6 +231,17 @@ The 30-month national phase entry window in Israel is measured from the **earlie
 Attorneys and AI tools trained on US or EU patent law have no frame of reference for the Israeli PTE EU-5 linkage requirement. An agent providing PTE advice without mentioning this requirement is providing incomplete guidance. The practical consequence: if a pharmaceutical product is approved only in Israel without EU-5 SPC protection, PTE in Israel is unavailable, regardless of how long the regulatory approval process took.
 
 
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Israel Patent Office | https://www.gov.il/he/departments/israel_patent_office | Official patent filing procedures, forms, fees, examiner contacts |
+| Patent Law (Knesset) | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Patents Law 1967 and amendments, patentability requirements |
+| WIPO PCT (international filings) | https://www.wipo.int/pct/en/ | Patent Cooperation Treaty, international application routes from Israel |
+| Israel Patent Office search | https://israelpatents.justice.gov.il/en | Free Israeli patent database search, published applications |
+| Ministry of Justice - IP | https://www.gov.il/he/departments/units/ip_office | Trademark, design, patent policy and regulations |
+
 ## Troubleshooting
 
 **Problem**: ILPO database search returns no results for a known Israeli patent.
