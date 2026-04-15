@@ -350,6 +350,17 @@ Result: The termination may be unlawful. The employee should demand in writing t
 - Severance pay must be paid within 15 days of termination, after which penalty interest (pitzuyei halanat pitzuyim) accrues automatically. Agents may cite a 30-day or "reasonable time" standard from other jurisdictions.
 - The pre-termination hearing (shima) is a mandatory procedural requirement in Israel that has no exact equivalent in US at-will employment. Agents may omit this step entirely, which can render the termination unlawful regardless of the substantive grounds.
 
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Kol Zchut (workers' rights) | https://www.kolzchut.org.il/he | Plain-language explanations of labor law entitlements |
+| Ministry of Labor | https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services | Official labor regulations, minimum wage, enforcement |
+| Knesset legislation portal | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Annual Leave Law, Sick Pay Law, Severance Pay Law |
+| Histadrut | https://www.histadrut.org.il | Collective agreements, sector-specific rights |
+| Labor courts in Israel (gov.il) | https://www.gov.il/he/departments/labor_courts_in_israel | Labor court jurisdiction, filing procedures |
+
 ## Troubleshooting
 
 ### Error: "Employer claims overtime exemption"
