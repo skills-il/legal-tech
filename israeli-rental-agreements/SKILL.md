@@ -259,6 +259,16 @@ Warning signs to watch for when reviewing a lease:
 - The small claims court jurisdiction limit (currently NIS 38,900) changes periodically. Agents advising on deposit disputes or rental claims must verify the current threshold rather than relying on training data.
 - A shtar hon (promissory note) is enforceable through the Execution Office without a full court hearing, making it far riskier for tenants than a bank guarantee. Agents unfamiliar with Israeli guarantee instruments may treat all deposit types as equivalent.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Knesset Legislation Portal | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Fair Rental Law 2017, Tenant Protection Law |
+| Kol Zchut – Tenant Rights | https://www.kolzchut.org.il/en/Tenants_and_Landlords | Obligations, deposits, eviction procedures |
+| Ministry of Construction & Housing | https://www.gov.il/en/departments/ministry_of_construction_and_housing | Housing policy, rent-controlled units |
+| CBS Rent Index | https://www.cbs.gov.il/en/Pages/default.aspx | Consumer price index used for rent indexation |
+| Gov.il Rental Contract Template | https://www.gov.il/he/departments/publications/reports/housingrental | Official sample rental contract |
+
 ## Troubleshooting
 
 ### Error: "Landlord refuses to provide a written contract"
