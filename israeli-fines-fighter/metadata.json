@@ -4,8 +4,8 @@
     "en": "Israeli Fines Fighter"
   },
   "display_description": {
-    "he": "ערעור על דוחות חניה וקנסות תנועה בישראל. יוצר מכתבי ערעור בעברית עם נימוקים משפטיים, מסביר את חלון 30 הימים לערעור על דוחות חניה ו-90 הימים לברירות משפט, מכסה את כל מערכות הקנסות העירוניות ואת שיטת הניקוד. השתמשו כשמקבלים קנס חניה או תנועה ורוצים לדעת אם כדאי לערער, איך לנסח את מכתב הערעור, ואיך להגיש אותו. מונע פספוס של מועדים שמכפילים את הסכום. לא מתאים לעבירות פליליות חמורות, תאונות דרכים, או נהיגה בשכרות.",
-    "en": "Appeal parking tickets and traffic fines in Israel. Generates Hebrew appeal letters with legal grounds, explains the 30-day parking fine and 90-day traffic fine appeal windows, covers all municipal fine systems and the points system (shitat hanikud). Use when you receive a parking or traffic fine and want to know whether to appeal, how to draft the appeal letter, and how to submit it. Prevents missing deadlines that double the fine amount. Do NOT use for serious criminal traffic offenses, car accidents, or DUI cases."
+    "he": "ערעור על דוחות חנייה וקנסות תנועה בישראל. יוצר מכתבי ערעור בעברית עם נימוקים משפטיים, מסביר את חלון 30 הימים לבקשה לביטול (גם לחנייה וגם לתנועה) ואת חלון 90 הימים לבקשה להישפט, ומבהיר שהקנס לא 'מוכפל' אחרי 30 יום אלא מקבל תוספת של 50% רק מיום 90, ועוד 5% כל 6 חודשים. מכסה את שיטת הניקוד לפי חלק 14א' לתקנות התעבורה, את ההבדל בין בקשה לביטול, בקשה להישפט וערעור (ercaa), ואת מסלול הוצאה לפועל אחרי כשנה ללא תשלום. השתמשו כשמקבלים קנס חנייה או תנועה ורוצים לדעת אם כדאי לערער, איך לנסח את מכתב הערעור, ואיך להגיש אותו דרך פורטל המוניציפלי או דרך Tzav HaTzav של משרד התחבורה. לא מתאים לעבירות פליליות חמורות, תאונות דרכים עם נפגעים, נהיגה בשכרות, או סכסוכי ביטוח רכב.",
+    "en": "Appeal parking tickets and traffic fines in Israel. Generates Hebrew appeal letters with legal grounds, explains the 30-day cancellation-request window (bakasha le-bitul) for both parking and traffic, and the 90-day court-hearing window (bakasha le-hishafet), and corrects the myth that fines 'double' after 30 days: the actual rule is +50% surcharge starting at day 90, then +5% every 6 months. Covers the points system per Traffic Regulations Part 14A, the distinction between bakasha le-bitul, bakasha le-hishafet and ercaa (appeal of verdict), and the Hotza'a Lapoal collection track after roughly 12 months unpaid. Use when you receive a parking or traffic fine and want to know whether to appeal, how to draft the appeal letter, and how to submit it via the municipal portal or via Misrad Hatachburah's Tzav HaTzav online appeal portal. Do NOT use for serious criminal traffic offenses, accidents involving injuries, DUI cases, or auto-insurance disputes."
   },
   "tags": {
     "he": [
@@ -26,7 +26,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",

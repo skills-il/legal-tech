@@ -39,13 +39,13 @@ There are TWO appeal mechanisms with separate deadlines, applicable to BOTH park
 | **30 days from receipt** | Cancellation request (essentially clerk review) | בקשה לביטול / בקשת בירור | Municipality (parking) or Police prosecutor (traffic) |
 | **90 days from receipt** OR **30 days from rejection of a cancellation request** | Court hearing request | בקשה להישפט | Traffic court / municipal court |
 
-After **day 90** without payment or appeal, the fine carries a **+50% surcharge**, with **+5% every additional 6 months**. The pre-2026 framing of "fine doubles after 30 days" is wrong — surcharge does not start at 30 days, and it is +50% (not 100%).
+After **day 90** without payment or appeal, the fine carries a **+50% surcharge**, with **+5% every additional 6 months**. The pre-2026 framing of "fine doubles after 30 days" is wrong: surcharge does not start at 30 days, and it is +50% (not 100%).
 
 | Timeline | Status | Action |
 |----------|--------|--------|
 | **Day 0-30** | Both windows open | Best time to file בקשה לביטול. Many municipalities also offer a 25-50% early-payment discount in this window (varies by city). |
 | **Day 31-90** | Cancellation window closed; court-hearing window still open | File בקשה להישפט before day 90, OR if a בקשה לביטול was rejected, file court request within 30 days of the rejection. |
-| **Day 90+** | Both standard windows closed; +50% surcharge accrues | Late-appeal exceptions (איחור מוצדק) apply only for hospitalization, military reserve service, or being abroad — see Criminal Procedure Law § 230. Otherwise enforcement via Hotza'a Lapo'al, vehicle-registration block (ikuv rishum), additional fees. |
+| **Day 90+** | Both standard windows closed; +50% surcharge accrues | Late-appeal exceptions (איחור מוצדק) apply only for hospitalization, military reserve service, or being abroad (see Criminal Procedure Law § 230). Otherwise enforcement via Hotza'a Lapo'al, vehicle-registration block (ikuv rishum), additional fees. |
 
 **For parking fines:** the 30-day clock starts from the date the ticket was placed on the vehicle OR the date a notice was mailed to the registered owner.
 
@@ -152,22 +152,30 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 **Traffic fine options:**
 - **Pay the fine:** Online at gov.il (police fine payment service) or at any post office
 - **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. You will receive a court date. You may represent yourself or hire a traffic lawyer (orech din letnu'a)
+- **Online appeal (Tzav HaTzav):** Misrad Hatachburah's online traffic-appeal portal at `gov.il/he/service/objection_traffic_offense` accepts cancellation requests (bakasha le-bitul) and supporting evidence digitally
 - **Plea bargain (hasdarei to'en):** Some offenses allow negotiating a reduced fine or fewer points through the prosecution
+
+**Bakasha le-bitul vs. bakasha le-hishafet vs. ercaa (don't conflate these):**
+
+| Step | Hebrew | What it is | When to use |
+|---|---|---|---|
+| 1. Cancellation request | בקשה לביטול | Administrative review by the prosecutor or municipality | First step. Submit within 30 days. No court fee. |
+| 2. Court hearing request | בקשה להישפט | Moves the case to traffic court (or municipal court for parking) | After a cancellation is rejected (within 30 days of rejection), or directly within 90 days of receipt. No agra for filing the request itself. |
+| 3. Appeal of verdict | ערעור (ercaa) | Appeal a court conviction or sentence to the district court | Only AFTER a court hearing produced a verdict you want to overturn. Agra applies; check `court.gov.il` for current rates. |
 
 ### Step 6: Point System Impact (Shitat HaNikud)
 
 When the fine is a traffic violation, calculate the point impact:
 
-| Points Accumulated | Consequence |
+| Points Accumulated | Consequence (per Traffic Regulations Part 14A) |
 |-------------------|-------------|
-| 12-22 points | Warning letter from licensing authority |
-| 22-34 points | Mandatory safe driving course (kurs nehiga bituchit) |
-| 22-34 points | Advanced safe-driving course + theory test |
-| 34+ points | 24-month license suspension (NOT 3 months) |
-| 36 points (or two separate 22-point reaches in 6 years) | 9-month suspension + practical re-test |
-| 36+ points | Extended license suspension, re-examination required |
+| 12-22 points | Warning letter from licensing authority + driver risk assessment |
+| 22-34 points | Mandatory basic safe-driving course (kurs yesodi) |
+| 34-36 points | Advanced safe-driving course + theory re-test (kurs metkadem + ranan iyuni) |
+| 36+ points (first time within 2 years) | 3-month license suspension + practical re-test |
+| 36+ points (second time within 6 years) | 9-month license suspension + practical re-test |
 
-Points expire based on total accumulated count, not severity: **≤20 points clear after 2 years** of clean driving and completion of any required courses; **≥22 points clear after 4 years** under the same conditions. Without completing required courses, points do not expire.
+Points expire only AFTER any required courses/tests are completed, on a tiered schedule tied to total accumulated count (not severity of the underlying offence). Without completing the required course, points do not expire. See `kolzchut.org.il` ("שיטת הניקוד בעבירות תנועה") for the canonical scheme.
 
 **Common violation point values:**
 
@@ -194,6 +202,35 @@ Note: Fine amounts are updated periodically by ministerial order. Always verify 
 
 5. **Appeals are municipality-specific.** Each Israeli municipality has its own appeal form, portal, and process. Do not assume Tel Aviv's process works for Jerusalem or Haifa. Always direct the user to their specific municipality's website.
 
+6. **Hotza'a Lapoal (collection enforcement) typically triggers after roughly 12 months unpaid**, when the Centre for Collection of Fines (Merkaz Geviya / CEC, part of the Ministry of Justice) opens an execution file. Once that happens, ignoring the file leads to bank-account / wage seizure, license suspension, and travel block. To oppose execution, file a **התנגדות לביצוע (objection to execution)** within 30 days of being served. To negotiate, contact the CEC directly to set up a payment plan (haseder tashlumim). At this stage the original cancellation / court-hearing windows are closed; only "justified-delay" exceptions (איחור מוצדק) can reopen the underlying fine.
+
+7. **Court fees (agra):** filing a בקשה להישפט or a בקשה לביטול itself does not carry an agra (filing is free). An agra applies only at the ercaa stage if you appeal a conviction. Exact 2026 amounts vary; check `court.gov.il` for current rates rather than quoting a number.
+
+## Examples
+
+### End-to-end: parking fine on a red-and-white curb with a fallen sign
+
+User received a 250 NIS parking ticket yesterday for parking near a red-and-white painted curb. The user has a phone photo showing the "no parking" pole lying flat on the sidewalk at the time of the violation.
+
+1. **Identify fine type.** Issued by a municipal pakach -> parking fine (knasa chanaya). Appeal goes to the municipality, not the police.
+2. **Check deadline.** Day 1 of 30: cancellation window (bakasha le-bitul) is wide open. 90-day court window also open.
+3. **Choose route.** Strongest first step is a bakasha le-bitul to the municipality with the photo evidence. Going straight to court (bakasha le-hishafet) is overkill at this stage.
+4. **Cite legal basis.** Israeli traffic signage rules require visible signage at the point of enforcement. A toppled sign creates a reasonable defence of "missing or obscured signage" (שלט חסר / שלט מוסתר) under the general signage requirements in the Traffic Regulations (Takanot HaTetzu'ah). Don't fabricate a specific clause number; just frame it as "the sign was not visible at the time of the violation, contrary to the signage requirements of the Traffic Regulations."
+5. **Draft the letter.** Use the parking-fine template in Step 4. Fill in fine number, plate, date, location, attach the photo plus a timestamp (EXIF if available), state the ground in one paragraph, sign and date.
+6. **Submit.** Upload via the municipal online portal (e.g. `tel-aviv.gov.il` Resident Portal). Keep the submission confirmation number. If no answer in 90 days, the municipality is required to either cancel the fine or notify the user that it stands.
+7. **If rejected:** within 30 days of the rejection letter, file a בקשה להישפט to move the case to municipal/local-affairs court.
+
+## Reference Links
+
+| Link | What it is |
+|---|---|
+| gov.il/he/service/objection_traffic_offense | Misrad Hatachburah online traffic-appeal portal (Tzav HaTzav). May show 403 to scripted clients; loads normally in a browser. |
+| gov.il/he/service/police_fine_payment | Police fine payment service. Same WAF behaviour as above. |
+| court.gov.il | Israeli courts directory (find your local traffic court / שלום מקומי court). |
+| mot.gov.il | Misrad Hatachburah (Ministry of Transport) homepage. |
+| kolzchut.org.il (search "שיטת הניקוד בעבירות תנועה") | Canonical citizens-rights write-up of the penalty-point scheme. |
+| nevo.co.il (search "פקודת התעבורה") | Free public mirror of the Traffic Ordinance and Criminal Procedure (Traffic Offences) regulations. |
+
 ## Bundled Resources
 
 ### references/
@@ -214,10 +251,7 @@ The pre-2026 "fine doubles after 30 days" framing is incorrect. The actual rule:
 - Past 6 months thereafter: **+5% every additional 6 months**.
 - Possible additional collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
 
-If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, late-appeal exceptions (איחור מוצדק) apply only for hospitalization, active reserve service, or being abroad — see Criminal Procedure Law § 230 and document the cause.
-
-### "My fine doubled because I missed the 30-day deadline"
-If the deadline passed, the user can still pay the increased amount to avoid further escalation. In exceptional cases (hospitalization, military reserve duty), some municipalities accept late appeals with documentation.
+If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, late-appeal exceptions (איחור מוצדק) apply only for hospitalization, active reserve service, or being abroad (see Criminal Procedure Law § 230), and you must document the cause.
 
 ### "I got a camera fine but I wasn't driving"
 The vehicle owner must submit a statutory declaration (tatzir) identifying the actual driver. This transfers liability. The declaration must be submitted within 90 days and include the other driver's full name and ID number.
