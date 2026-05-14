@@ -4,7 +4,7 @@ Every Israeli public tender requires a standardized block of declarations (תצ�
 
 ## Core declarations (every tender)
 
-### 1. Proper bookkeeping certificate — אישור ניהול ספרים
+### 1. Proper bookkeeping certificate - אישור ניהול ספרים
 
 - **Legal basis:** Chok Asakot Gufim Tziburiim (Public Bodies Transactions Law)
 - **Issued by:** Israel Tax Authority
@@ -12,33 +12,33 @@ Every Israeli public tender requires a standardized block of declarations (תצ�
 - **Validity window:** Usually 12 months from issuance. Check the tender's specific requirement.
 - **Where to obtain:** Through the tax authority's online services or via an accountant
 
-### 2. Fair employment declaration — תצהיר לפי חוק עסקאות גופים ציבוריים
+### 2. Fair employment declaration - תצהיר לפי חוק עסקאות גופים ציבוריים
 
 - **Legal basis:** Chok Asakot Gufim Tziburiim
 - **Content:** Declares that the bidder (and related parties) has not been convicted of violations of the Minimum Wage Law or the Foreign Workers Law within the lookback period the law defines
 - **Signatories:** An authorized officer of the bidding entity, plus verification by a lawyer
 - **Template:** Must match the template in the tender document exactly
 
-### 3. Workers' rights declaration — תצהיר שמירת זכויות עובדים
+### 3. Workers' rights declaration - תצהיר שמירת זכויות עובדים
 
 - **Legal basis:** Takana 6(a)(4) of Takanot Chovat HaMichrazim
 - **When required:** For labor intensive contracts (for example cleaning, security, catering, manpower services)
 - **Content:** The bidder and related parties declare compliance with the bidder's obligations regarding workers' rights
 - **Related parties:** The declaration extends to בעלי זיקה, meaning controlling shareholders and related companies
 
-### 4. Conflict of interest declaration — תצהיר העדר ניגוד עניינים
+### 4. Conflict of interest declaration - תצהיר העדר ניגוד עניינים
 
 - **Legal basis:** Tender document (derived from administrative law principles)
 - **Content:** The bidder has no conflict of interest that would impair its ability to perform the contract
 - **Usual scope:** Relationships with committee members, prior work with the issuing body, other pending engagements that overlap
 
-### 5. No prior convictions declaration — תצהיר היעדר הרשעות
+### 5. No prior convictions declaration - תצהיר היעדר הרשעות
 
 - **Legal basis:** Tender document
 - **Content:** The bidder, its officers, and its controlling shareholders have not been convicted of offenses that disqualify them from public contracting
 - **Scope:** Usually includes bribery, fraud, tax evasion, and sometimes competition law violations
 
-### 6. Corporate signing authority — אישור עורך דין או רו"ח על זכויות חתימה
+### 6. Corporate signing authority - אישור עורך דין או רו"ח על זכויות חתימה
 
 - **Content:** A lawyer or accountant certifies that the signatories on the tender documents have authority to bind the bidding entity
 - **Required attachments:** Often includes a copy of the articles of association, board resolution, and ID of each signatory

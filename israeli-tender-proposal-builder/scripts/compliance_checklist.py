@@ -72,7 +72,7 @@ def main() -> int:
         print("No threshold conditions provided. Pass --statutory and/or --discretionary.")
         return 1
 
-    print(f"# Compliance Checklist — {args.tender}")
+    print(f"# Compliance Checklist - {args.tender}")
     print()
     print(f"_Generated on {date.today().isoformat()}_")
     print()

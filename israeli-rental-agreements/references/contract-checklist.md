@@ -77,7 +77,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 | Clause | Hebrew | What to Verify | Red Flag |
 |--------|--------|---------------|----------|
 | Deposit type | סוג ערבות | Bank guarantee, checks, cash, shtar hon | Shtar hon (promissory note) without legal advice |
-| Deposit amount | סכום פיקדון | Should not exceed 3 months' rent (Fair Rental Law) | Exceeds 3 months |
+| Deposit amount | סכום פיקדון | Must not exceed the statutory cap: the lower of 3 months' rent or one-third of the total lease value | Exceeds the cap (watch short leases, where one-third binds first) |
 | Return conditions | תנאי החזרה | Specific conditions for full/partial return | Vague or one-sided return conditions |
 | Return timeline | לוח זמנים להחזרה | Should be within 60 days of lease end | No specified timeline or over 60 days |
 | Deduction rules | כללי ניכוי | Itemized deductions with documentation required | Landlord has unlimited deduction rights |
@@ -102,12 +102,13 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 | Emergency repairs | תיקוני חירום | Tenant can arrange emergency repairs | No provision for emergencies |
 | Appliance responsibility | אחריות מכשירים | Who repairs/replaces included appliances | Unclear ownership of appliances |
 
-### Fair Rental Law Requirements
+### Fair-Rental Provision Requirements
 
-Under the Fair Rental Law 2017 (Chok Schirut Hogenet, חוק שכירות הוגנת):
+Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, חוק שכירות הוגנת, formally sections 25א to 25טו of the Rental and Borrowing Law, 5731-1971):
 - The **landlord** must maintain structural elements: roof, exterior walls, plumbing systems, electrical wiring, water heating systems
-- The **tenant** is responsible for day-to-day maintenance and minor repairs resulting from normal use
-- Any clause that shifts ALL repair costs to the tenant may be challenged as violating the law
+- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, the tenant may repair and deduct the cost from rent (keep receipts)
+- The **tenant** is responsible for day-to-day maintenance, minor repairs from normal use, and defects caused by the tenant's improper use
+- A clause that shifts ALL repair costs to the tenant is void to the extent it overrides the landlord's statutory duty. The fair-rental provisions cannot be contracted around and can only be waived in the tenant's favor
 
 ## Section 7: Utilities and Municipal Charges (Cheshbonot v'Tashlumim Ironiyim)
 

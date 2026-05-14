@@ -14,24 +14,27 @@ Israel's residential rental market is governed by several key laws:
 
 | Law | Hebrew | Year | Key Provisions |
 |-----|--------|------|----------------|
-| Fair Rental Law (Chok Schirut Hogenet) | חוק שכירות הוגנת | 2017 | Minimum habitation standards, landlord obligations |
+| Rental and Borrowing Law (Chok HaSchirut VeHaSheila) | חוק השכירות והשאילה | 5731-1971 | The governing statute for residential rentals. The 2017 "fair rental" provisions are an amendment to this law, sections 25א to 25טו, not a separate "Fair Rental Law" |
 | Tenant Protection Law (Chok Haganat HaDayar) | חוק הגנת הדייר | 1972 | Applies to pre-1968 protected tenancies (rare today) |
 | Contract Law (General Part) (Chok HaChozim) | חוק החוזים (חלק כללי) | 1973 | General contract principles |
 | Sale Law (Chok HaMecher) | חוק המכר | 1968 | Implied terms for transactions |
 | Pledge Law (Chok HaMashkon) | חוק המשכון | 1967 | Governs deposit and guarantee mechanisms |
 
-**Fair Rental Law 2017 key provisions:**
+**On naming**: people commonly say "Fair Rental Law 2017" (חוק שכירות הוגנת), but that is not a standalone statute. It is the 2017 amendment that inserted Chapter 9 (sections 25א to 25טו) into the Rental and Borrowing Law, 5731-1971. This skill uses "the fair-rental provisions" or "the 2017 amendment" to refer to those sections. A key feature of those provisions: they cannot be contracted around, and several of them can only be waived in the tenant's favor.
+
+**Fair-rental provisions (2017 amendment) key points:**
 
 | Provision | Details |
 |-----------|---------|
 | Minimum habitation standards (tna'ey dira tikniyim) | Property must have functioning plumbing, electricity, ventilation, structural integrity |
-| Landlord repair obligations | Landlord must fix structural issues, plumbing, electrical systems |
-| Tenant repair obligations | Tenant responsible for day-to-day maintenance and minor repairs |
-| Maximum deposit | Cannot exceed 3 months' rent (for bank guarantee or checks) |
+| Landlord repair obligations | Landlord must fix a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the landlord misses the deadline, the tenant may arrange the repair and deduct the cost from rent (keep receipts) |
+| Tenant repair obligations | Tenant responsible for day-to-day maintenance and minor repairs, and for defects caused by the tenant's improper use |
+| Maximum deposit / guarantee | Capped at the LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term in rent). Not a flat 3 months |
 | Written contract required | Oral agreements technically valid but strongly inadvisable |
 | Termination notice | Must follow contract terms; typically 60-90 days |
+| Provisions cannot be waived | The fair-rental provisions cannot be contracted around. Several can only be waived in the tenant's favor. A lease clause that contradicts them is void and unenforceable |
 
-**Important:** The Fair Rental Law applies to residential rentals only. There is no statutory cap on rent amounts in Israel. Landlords set rent based on market conditions.
+**Important:** The fair-rental provisions apply to residential rentals only. There is no statutory cap on rent amounts in Israel. Landlords set rent based on market conditions.
 
 ### Step 2: Essential Contract Elements
 Every Israeli rental contract (chozeh schirut) should include these elements:
@@ -77,8 +80,8 @@ Israeli rental deposits (arancia or pikadon) are the most critical financial ele
 | Rule | Details |
 |------|---------|
 | Typical deposit | 1-3 months' rent |
-| Maximum allowed (Fair Rental Law) | 3 months' rent for guarantee instruments |
-| Return timeline | Within 60 days of lease end, per Fair Rental Law |
+| Maximum allowed (fair-rental provisions) | The LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term, measured in rent). For a 12-month lease this works out to 3 months; for a shorter lease the one-third cap binds first (a 6-month lease caps at 2 months) |
+| Return timeline | Within 60 days of lease end, per the fair-rental provisions |
 | Deduction conditions | Documented damages beyond normal wear, unpaid rent, unpaid utilities |
 | Dispute over deductions | Landlord must provide itemized list; tenant can contest in court |
 
@@ -194,7 +197,7 @@ How leases end and disputes are resolved in Israel:
 |--------|--------|----------|------|
 | Direct negotiation | משא ומתן ישיר | Minor disputes, communication issues | Free |
 | Mediation (Gishur) | גישור | Moderate disputes, relationship preservation | Low-moderate |
-| Small Claims Court (Tvi'ot Ktanot) | תביעות קטנות | Claims up to NIS 38,900 | Filing fee (~1% of claim) |
+| Small Claims Court (Tvi'ot Ktanot) | תביעות קטנות | Claims up to NIS 39,900 | Filing fee (~1% of claim) |
 | Magistrate Court (Beit Mishpat Shalom) | בית משפט שלום | Larger claims, eviction orders | Court fees + potential lawyer |
 | Rent Tribunal (if applicable) | ועדת שכירות | Protected tenancies (pre-1968, rare) | Minimal |
 
@@ -205,7 +208,7 @@ Warning signs to watch for when reviewing a lease:
 |----------|------------|---------------------|
 | No written contract | ללא חוזה כתוב | No legal protection, hard to prove terms |
 | Shtar Hon (promissory note) required | דרישת שטר הון | Can be enforced as debt without court hearing |
-| Deposit exceeds 3 months | פיקדון מעל 3 חודשים | Exceeds Fair Rental Law maximum |
+| Deposit exceeds the statutory cap | פיקדון מעל המותר בחוק | Exceeds the fair-rental cap: the lower of 3 months' rent or one-third of the total lease value |
 | No itemized property condition report | ללא פרוטוקול מצב דירה | Landlord can claim pre-existing damage is tenant's fault |
 | Waiver of tenant rights clause | סעיף ויתור על זכויות | May be legally void but creates confusion |
 | Automatic renewal without notice | חידוש אוטומטי ללא הודעה | Tenant may be locked into unwanted extension |
@@ -228,11 +231,11 @@ Warning signs to watch for when reviewing a lease:
 
 ### Example 1: Reviewing a Lease Before Signing
 **Input:** "I got a rental contract, what should I check before signing?"
-**Output:** Walk through the essential checklist: verify landlord identity and ownership (request Tabu extract), check all required elements are present (addresses, dates, amounts, deposit terms), review the maintenance clause (landlord should cover structural repairs), check for index-linking (hatzmada) terms, verify deposit type and amount (should not exceed 3 months), look for an option clause for renewal, check the early termination clause, and flag any red flags (shtar hon requirement, waiver of rights, unlimited landlord entry). Recommend photographing the apartment and attaching a condition report (nispach matzav dira) to the contract.
+**Output:** Walk through the essential checklist: verify landlord identity and ownership (request Tabu extract), check all required elements are present (addresses, dates, amounts, deposit terms), review the maintenance clause (landlord should cover structural repairs), check for index-linking (hatzmada) terms, verify deposit type and amount (must not exceed the statutory cap, the lower of 3 months' rent or one-third of the total lease value), look for an option clause for renewal, check the early termination clause, and flag any red flags (shtar hon requirement, waiver of rights, unlimited landlord entry). Recommend photographing the apartment and attaching a condition report (nispach matzav dira) to the contract.
 
 ### Example 2: Deposit Dispute at Lease End
 **Input:** "My landlord won't return my deposit, claims there's damage I didn't cause."
-**Output:** Explain tenant rights: the landlord must return the deposit within 60 days per the Fair Rental Law. Ask if the tenant documented the apartment condition at move-in (photos, written report). If yes, this is evidence against false claims. The landlord must provide an itemized list of claimed damages with cost estimates. The tenant can dispute deductions and demand receipts for any repair work. If unresolved, the tenant can file a claim in small claims court (tvi'ot ktanot) for amounts up to NIS 38,900. Recommend sending a formal written demand (mikhtav drishah) via registered mail before going to court.
+**Output:** Explain tenant rights: the landlord must return the deposit within 60 days under the fair-rental provisions of the Rental and Borrowing Law. Ask if the tenant documented the apartment condition at move-in (photos, written report). If yes, this is evidence against false claims. The landlord must provide an itemized list of claimed damages with cost estimates. The tenant can dispute deductions and demand receipts for any repair work. If unresolved, the tenant can file a claim in small claims court (tvi'ot ktanot) for amounts up to NIS 39,900. Recommend sending a formal written demand (mikhtav drishah) via registered mail before going to court.
 
 ### Example 3: Rent Increase During Lease
 **Input:** "My landlord wants to raise my rent in the middle of the lease, can they do that?"
@@ -246,28 +249,39 @@ Warning signs to watch for when reviewing a lease:
 
 ### References
 - `references/contract-checklist.md` -- Detailed checklist of every clause to verify in an Israeli rental contract, organized by section (parties, property, lease term, rent, deposits, maintenance, utilities, termination). Includes Hebrew terms, common pitfalls, and red flags. Consult when a user is reviewing or negotiating a rental contract.
-- `references/fair-rental-law-summary.md` -- Summary of the Fair Rental Law 2017 (Chok Schirut Hogenet) including minimum habitation standards, landlord and tenant obligations, deposit limitations, termination rules, and enforcement options. Consult when a user asks about tenant rights, landlord obligations, or what the Fair Rental Law covers.
+- `references/fair-rental-law-summary.md` -- Summary of the 2017 fair-rental amendment to the Rental and Borrowing Law, 5731-1971 (sections 25א to 25טו, commonly called Chok Schirut Hogenet) including minimum habitation standards, landlord and tenant obligations, the deposit cap, repair deadlines, termination rules, and enforcement options. Consult when a user asks about tenant rights, landlord obligations, or what the fair-rental provisions cover.
 
 ### Scripts
 - `scripts/rent-index-calculator.py` -- Calculates rent adjustment based on CPI index linking (hatzmada la'madad). Given original rent, start date, and current date, calculates the adjusted rent using historical CPI data. Run: `python scripts/rent-index-calculator.py --help`
 
 ## Gotchas
 
-- The Fair Rental Law 2017 (Chok Schirut Hogenet) applies only to residential rentals. Agents may incorrectly apply its provisions (deposit caps, habitability standards) to commercial leases, where different rules apply.
-- Israeli rental deposits are capped at 3 months' rent under the Fair Rental Law, but agents trained on US/UK norms may suggest higher deposits or fail to flag contracts exceeding this limit.
+- The 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, formally sections 25א to 25טו of the Rental and Borrowing Law, 5731-1971) apply only to residential rentals. Agents may incorrectly apply them (deposit cap, habitability standards) to commercial leases, where different rules apply. Treating "Fair Rental Law 2017" as a standalone statute is also a common error: it is an amendment to the 1971 law.
+- The deposit cap is NOT a flat 3 months' rent. It is the lower of (a) 3 months' rent or (b) one-third of the total lease value. For leases shorter than a year the one-third figure binds first, so an agent that always says "3 months" will overstate the cap on short leases.
+- A lease clause that contradicts the fair-rental provisions is void and unenforceable, not merely "advisory". Several of those provisions can only be waived in the tenant's favor. Agents sometimes soften this to "may be unenforceable" when the law is actually firm.
+- The landlord's repair deadlines are concrete: 30 days for a non-minor defect, 3 days for an urgent defect, measured from the tenant's request. If the landlord misses the deadline, the tenant may repair and deduct the cost from rent. Agents sometimes wrongly say the law sets no timeframe.
 - Index-linked rent (Hatzmada La'Madad) adjusts based on the Israeli CPI, which can go both up and down. Agents may assume rent only increases, missing that deflation periods actually reduce the indexed rent.
-- The small claims court jurisdiction limit (currently NIS 38,900) changes periodically. Agents advising on deposit disputes or rental claims must verify the current threshold rather than relying on training data.
+- The small claims court jurisdiction limit (currently NIS 39,900) changes periodically. Agents advising on deposit disputes or rental claims must verify the current threshold rather than relying on training data.
 - A shtar hon (promissory note) is enforceable through the Execution Office without a full court hearing, making it far riskier for tenants than a bank guarantee. Agents unfamiliar with Israeli guarantee instruments may treat all deposit types as equivalent.
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Knesset Legislation Portal | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Fair Rental Law 2017, Tenant Protection Law |
-| Kol Zchut – Tenant Rights | https://www.kolzchut.org.il/en/Tenants_and_Landlords | Obligations, deposits, eviction procedures |
+| Gov.il – Rental and Borrowing Law amendment | https://www.gov.il/he/pages/rent_law | Official page on the 2017 fair-rental amendment, sample contract |
+| Knesset Legislation Portal | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Rental and Borrowing Law 5731-1971, the 2017 amendment, Tenant Protection Law |
+| Kol Zchut – Apartment renters | https://www.kolzchut.org.il/he/%D7%A9%D7%95%D7%9B%D7%A8%D7%99_%D7%93%D7%99%D7%A8%D7%95%D7%AA | Tenant rights, the deposit cap, repair of defects, eviction procedures |
 | Ministry of Construction & Housing | https://www.gov.il/en/departments/ministry_of_construction_and_housing | Housing policy, rent-controlled units |
 | CBS Rent Index | https://www.cbs.gov.il/en/Pages/default.aspx | Consumer price index used for rent indexation |
-| Gov.il Rental Contract Template | https://www.gov.il/he/departments/publications/reports/housingrental | Official sample rental contract |
+
+## Recommended MCP Servers
+
+These Model Context Protocol servers, available in the skills-il directory, pair well with this skill:
+
+- **israel-law**: programmatic access to Israeli primary legislation. Use it to pull the current text of the Rental and Borrowing Law, 5731-1971, including the 2017 fair-rental amendment (sections 25א to 25טו), when you need to confirm an exact provision such as the deposit cap or the repair deadlines.
+- **kolzchut**: access to Kol Zchut, Israel's plain-language rights portal. Use it to retrieve up-to-date practical guidance on tenant and landlord rights, deposit limits, defect repairs, and dispute procedures.
+
+Always confirm load-bearing numbers (deposit cap, repair deadlines, small claims jurisdiction limit) against the primary source, since amounts and thresholds change.
 
 ## Troubleshooting
 

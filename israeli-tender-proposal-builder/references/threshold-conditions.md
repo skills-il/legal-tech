@@ -2,7 +2,7 @@
 
 Quick reference for the two-tier threshold condition structure under Takana 6 of Takanot Chovat HaMichrazim, 5753-1993.
 
-## Statutory conditions — Takana 6(a)
+## Statutory conditions - Takana 6(a)
 
 These apply to every public tender. The issuing body has no discretion to waive them.
 
@@ -14,7 +14,7 @@ These apply to every public tender. The issuing body has no discretion to waive 
 | 4 | All certificates and declarations under Chok Asakot Gufim Tziburiim | קיומם של כל האישורים והתצהירים הנדרשים לפי חוק עסקאות גופים ציבוריים | Two items: proper bookkeeping and withholding certificate from the tax authority, plus the fair employment declaration |
 | 5 | For labor intensive contracts: declaration on workers' rights | תצהיר שמירת זכויות עובדים | Signed declaration by the bidder and related parties |
 
-## Discretionary conditions — Takana 6(b)
+## Discretionary conditions - Takana 6(b)
 
 Set by the issuing body. Common categories:
 

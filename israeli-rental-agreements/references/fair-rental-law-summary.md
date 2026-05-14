@@ -1,18 +1,20 @@
-# Fair Rental Law 2017 (Chok Schirut Hogenet) Summary
+# Fair-Rental Provisions (2017 Amendment to the Rental and Borrowing Law) Summary
 
-This reference provides a comprehensive summary of the Fair Rental Law 2017 (חוק שכירות הוגנת, 2017), formally known as the Rental and Lending Law (Residential Property) (חוק השכירות והשאילה (נכסי דירה)), enacted to establish minimum standards and protections for residential tenants in Israel.
+This reference summarizes the 2017 "fair rental" provisions of Israeli residential rental law (commonly called חוק שכירות הוגנת). These are NOT a standalone statute. They are an amendment, enacted in 2017, that inserted a dedicated chapter on residential rentals (sections 25א to 25טו) into the Rental and Borrowing Law, 5731-1971 (חוק השכירות והשאילה, תשל"א-1971). The amendment established minimum standards and protections for residential tenants in Israel.
 
 ## Background and Purpose
 
-The Fair Rental Law was passed in 2017 to address the imbalance between landlords and tenants in Israel's rental market. Before this law, tenant protections were scattered across multiple older statutes and common law principles. The law consolidated and strengthened several key protections.
+The 2017 amendment was passed to address the imbalance between landlords and tenants in Israel's rental market. Before it, tenant protections were scattered across older statutes and common law principles. The amendment consolidated and strengthened several key protections, and it made those protections mandatory: the fair-rental provisions cannot be contracted around, and several can only be waived in the tenant's favor.
 
 | Aspect | Details |
 |--------|---------|
-| Official name | Rental and Lending Law (Residential Property) 2017 |
-| Hebrew name | חוק השכירות והשאילה (נכסי דירה), תשע"ז-2017 |
-| Effective date | September 2017 |
+| Governing statute | Rental and Borrowing Law, 5731-1971 (חוק השכירות והשאילה, תשל"א-1971) |
+| Relevant chapter | The 2017 amendment, sections 25א to 25טו |
+| Common name | "Fair Rental Law" / חוק שכירות הוגנת (informal, not the formal title) |
+| Effective | 2017 |
 | Applies to | Residential rentals only (not commercial) |
-| Scope | All new residential rental agreements signed after the law took effect |
+| Scope | New residential rental agreements signed after the amendment took effect |
+| Mandatory | The provisions cannot be waived, except in the tenant's favor where the law allows |
 | Enforcement | Civil courts, small claims courts |
 
 ## Key Provisions
@@ -44,7 +46,7 @@ The landlord must deliver and maintain the property in a condition that meets ba
 | Pre-existing defects | פגמים קיימים | Any defects present at lease start |
 | Building common areas | שטחים משותפים | Via building committee (va'ad bayit) contributions |
 
-**Response obligation**: While the law does not specify an exact timeframe, the landlord must address repair requests within a reasonable time. Failure to do so can constitute a breach of the rental agreement.
+**Response deadlines**: The fair-rental provisions set concrete deadlines. The landlord must repair a non-minor defect within a reasonable time and no later than **30 days** from the tenant's request. For an **urgent** defect (one that materially disrupts use of the apartment, such as a major leak or no water), the deadline is **3 days** from the request. If the landlord misses the deadline, the tenant may arrange the repair through a professional of their choice and **deduct the cost from the rent**, keeping receipts and invoices as proof. This self-repair-and-deduct remedy is the practical enforcement mechanism behind the deadlines.
 
 ### 3. Tenant Repair Obligations (Chovot Tikun shel HaSocher)
 
@@ -57,12 +59,12 @@ The landlord must deliver and maintain the property in a condition that meets ba
 
 ### 4. Deposit Limitations (Hagbalot Pikadon, הגבלות פיקדון)
 
-The law restricts the type and amount of security deposits a landlord can demand.
+The law restricts the type and amount of security deposits (collectively, the "guarantee" / ערובה) a landlord can demand.
 
 | Rule | Details |
 |------|---------|
-| Maximum deposit amount | 3 months' rent for guarantee instruments (bank guarantee, checks) |
-| Cash deposit maximum | No specific limit stated, but 3 months' rent is the accepted standard |
+| Maximum guarantee amount | The total of all guarantees may not exceed the LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term, measured in rent). Example: a 12-month lease at NIS 2,000/month caps at NIS 6,000 (3 months); a 6-month lease at NIS 2,000/month caps at NIS 4,000 (one-third of 6 months = 2 months) |
+| Why it matters | For any lease shorter than a year the one-third figure binds before the 3-month figure. "3 months" is only the cap for leases of 12 months or longer |
 | Deposit return deadline | Within 60 days of lease end |
 | Deduction requirements | Landlord must provide itemized list of claimed damages |
 | Tenant right to dispute | Tenant can contest deductions in court |
@@ -101,15 +103,15 @@ The law restricts the type and amount of security deposits a landlord can demand
 
 ### Protection Against Unfair Clauses
 
-The law, combined with general contract law principles, provides protection against unfair contract terms.
+The fair-rental provisions are mandatory. They cannot be contracted around, and several of them can only be waived in the tenant's favor. A lease clause that contradicts a fair-rental provision is **void and unenforceable**, even if the tenant signed it. This is stronger than ordinary "unfair term" review under general contract law: the tenant does not have to prove the clause is unconscionable, only that it conflicts with the statute.
 
-| Unfair Clause | Legal Status |
+| Lease Clause | Legal Status |
 |---------------|-------------|
-| Waiver of all tenant rights | Potentially void (contrary to public policy) |
-| Tenant pays for all repairs including structural | Challengeable under the law |
-| Deposit exceeding 3 months | Violates the law's deposit limitations |
-| Landlord may enter without any notice | Violates tenant's right to quiet enjoyment |
-| Automatic forfeiture of deposit for any reason | Challengeable; landlord must justify deductions |
+| Waiver of fair-rental tenant rights | Void and unenforceable (the provisions cannot be waived against the tenant) |
+| Tenant pays for all repairs including structural | Void to the extent it shifts the landlord's statutory repair duty |
+| Guarantee exceeding the statutory cap | Void as to the excess: the cap is the lower of 3 months' rent or one-third of the total lease value |
+| Landlord may enter without any notice | Unenforceable; violates the tenant's right to quiet enjoyment |
+| Automatic forfeiture of deposit for any reason | Unenforceable; the landlord must justify each deduction with an itemized list |
 
 ### Tenant's Right to Quiet Enjoyment (Hana'a Shketah, הנאה שקטה)
 
@@ -137,7 +139,7 @@ The law also provides protections for landlords.
 
 | Protection | Details |
 |-----------|---------|
-| Right to deposit/guarantee | Up to 3 months' rent to secure the lease |
+| Right to deposit/guarantee | A guarantee to secure the lease, up to the statutory cap (the lower of 3 months' rent or one-third of the total lease value) |
 | Right to demand repairs for tenant damage | Tenant must pay for damage beyond normal wear |
 | Right to terminate for breach | Non-payment, illegal use, unauthorized subletting |
 | Right to inspect (with notice) | Reasonable inspections with adequate notice |
@@ -147,7 +149,7 @@ The law also provides protections for landlords.
 
 | Law | Hebrew | Relationship |
 |-----|--------|-------------|
-| Contract Law (General Part) 1973 | חוק החוזים (חלק כללי) | General contract principles apply where Fair Rental Law is silent |
+| Contract Law (General Part) 1973 | חוק החוזים (חלק כללי) | General contract principles apply where the fair-rental provisions are silent |
 | Tenant Protection Law 1972 | חוק הגנת הדייר | Applies only to pre-1968 protected tenancies (rare) |
 | Consumer Protection Law 1981 | חוק הגנת הצרכן | Applies to rental transactions through agencies |
 | Pledge Law 1967 | חוק המשכון | Governs deposit/guarantee mechanisms |
@@ -157,7 +159,7 @@ The law also provides protections for landlords.
 
 | Forum | Hebrew | Jurisdiction | Cost |
 |-------|--------|-------------|------|
-| Small Claims Court | בית משפט לתביעות קטנות | Claims up to NIS 38,900 | 1% of claim, minimum NIS 50 |
+| Small Claims Court | בית משפט לתביעות קטנות | Claims up to NIS 39,900 | 1% of claim, minimum NIS 50 |
 | Magistrate Court | בית משפט שלום | Larger claims, eviction orders | Court fees + potential lawyer costs |
 | Mediation | גישור | Any dispute, by agreement | Moderate |
 | Legal aid | סיוע משפטי | For qualifying low-income tenants | Free or reduced |

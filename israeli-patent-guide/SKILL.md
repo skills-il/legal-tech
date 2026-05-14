@@ -13,7 +13,7 @@ This skill covers the end-to-end patent process in Israel as administered by the
 - PCT international filing routed through ILPO as Receiving Office
 - Official fee schedule, the 40% reduction for qualifying applicants, and maintenance fee structure
 - Patent Term Extension (PTE) for pharmaceutical products under Israeli law
-- Key deadlines, objection windows, and IDS (Information Disclosure Statement) obligations unique to Israeli practice
+- Key deadlines, the Section 18 Notice prior to Examination, objection windows, and IDS (Information Disclosure Statement) obligations unique to Israeli practice
 
 This skill does NOT cover trademark registration, industrial design registration, copyright, or utility model protection. It does not replace a licensed Israeli patent attorney for prosecution decisions.
 
@@ -59,9 +59,13 @@ Under Section 18 of the Israeli Patents Law, an applicant has a **continuing dut
 - There is no prescribed form for the IDS in Israel; a letter to the examiner listing the relevant documents is sufficient.
 - Best practice: file an IDS when receiving Office Actions or Search Reports from the USPTO, EPO, or any other office examining a counterpart application.
 
-### Examination is Automatic
+### Examination is Queued Automatically (No Early Examination-Request Election)
 
-Unlike the USPTO or EPO, Israel does NOT require a separate request for substantive examination. Examination begins automatically once the application is complete and the filing fee is paid. There is no deferred examination system. This is a common point of confusion for applicants and agents trained in US or European practice.
+Unlike the EPO (where the applicant actively files a request for examination) or systems with a deferred-examination election made at filing, in Israel substantive examination is **queued automatically**. The applicant does not file an early examination-request form at the time of filing, and there is no separate examination fee beyond the filing fee.
+
+However, this does NOT mean the applicant has nothing to do before examination. About 12 months before substantive examination begins, ILPO issues a **Notice prior to Examination under Section 18** of the Israeli Patents Law. The applicant must respond within a **4-month deadline** (extendable, with fees, up to a total of 12 months). The Section 18 notice is also the trigger for an applicant who wants to **defer** examination to file a deferral request. See the dedicated section below.
+
+So the accurate framing is: examination is queued automatically (no EPO-style request-for-examination filing and no early deferred-examination election at filing), BUT there is a Section 18 Notice prior to Examination with a real response deadline. Telling an applicant "there is nothing to do until the first Office Action" is incorrect.
 
 
 ## Prior Art Search
@@ -86,7 +90,7 @@ The ILPO online patent search is available at **israelpatents.justice.gov.il**. 
 
 ### Search Strategy
 
-1. **IPC classification**: Identify the relevant IPC subgroups for your invention. ILPO search supports IPC filtering. Use the IPC classification tool at ipc.inpit.go.jp to find the right codes.
+1. **IPC classification**: Identify the relevant IPC subgroups for your invention. ILPO search supports IPC filtering. Use WIPO's official IPC classification resource at https://www.wipo.int/classifications/ipc/en/ to find the right codes.
 2. **Keyword synonyms**: Draft a synonym list covering technical terms, trade names, and common alternatives. Run multiple keyword searches; do not rely on a single query.
 3. **Assignee/inventor search**: If you know of competitors or related inventors, search by name in PatentScope and ILPO.
 4. **Non-patent literature**: For biotech and pharma, also search PubMed, journal databases, and conference proceedings. Published scientific papers constitute prior art.
@@ -127,6 +131,38 @@ For PCT applications designating Israel, national phase entry must occur within 
 All official ILPO fees are denominated in New Israeli Shekel (NIS). For foreign applicants paying from abroad, fees are converted at the Bank of Israel official exchange rate on the payment date.
 
 
+## Section 18 Notice prior to Examination and Office Actions
+
+### The Section 18 Notice
+
+After filing, the application waits in the examination queue. Roughly 12 months before substantive examination is scheduled to begin, ILPO sends a **Notice prior to Examination under Section 18** of the Israeli Patents Law. The notice both tells the applicant the estimated examination date and asks the applicant to bring relevant prior art (including foreign search/examination results on counterpart applications) to ILPO's attention.
+
+- **Response deadline**: 4 months from the date of the notice.
+- **Extensions**: the 4-month deadline is extendable, with extension fees, up to a total of 12 months from the original notice date.
+- **Deferral option**: the Section 18 notice is also the point at which an applicant who wants to push examination later can file a request to defer. ILPO will generally grant deferral of up to about 2 years, and the request is handled through the ILPO online portal. Deferral is an active choice made in response to the Section 18 notice, not an automatic state.
+
+Missing the Section 18 response deadline without an extension can lead to the application being deemed abandoned, so it must be docketed like any other hard deadline.
+
+### Office Action Response Deadlines
+
+Once substantive examination starts, ILPO issues examination reports (Office Actions). The applicant must respond within the deadline stated in each report. As a general rule the response period is a few months and is extendable on payment of extension fees, but the exact period and the maximum cumulative extension depend on the specific report and current ILPO practice, so confirm the deadline printed on each Office Action rather than assuming a fixed number. The continuing IDS duty under Section 18 runs in parallel through this whole phase, up to the Notice of Acceptance.
+
+
+## Divisional, Accelerated Examination, and the Absence of a True Provisional
+
+### Divisional Applications
+
+If an application claims more than one invention, or the applicant wants to pursue subject matter separately, a **divisional application** can be filed out of a pending parent. The divisional keeps the parent's filing date for the carved-out subject matter. A divisional must be filed while the parent is still pending (before the parent is granted or finally refused), and it carries its own filing fee.
+
+### Accelerated (Expedited) Examination
+
+ILPO can move an application to the front of the examination queue on an accepted ground, for example applicant age or health, a competing product on the market, an application that is the basis for others, green technology, or via the Patent Prosecution Highway (PPH) using favorable results from a partner office. Accelerated examination is requested with a dedicated fee. This is the route to use when the default queue wait is too long for the applicant's business needs.
+
+### No True Provisional Application
+
+Israel does not have a US-style provisional application. The practical substitute is the **12-month Paris Convention priority year**: file a first application (in Israel or elsewhere), then file the full national or PCT application within 12 months while claiming priority back to that first filing. There is no separate cheaper "provisional" filing track at ILPO.
+
+
 ## Fees and Cost Savings
 
 ### 40% Fee Reduction
@@ -142,17 +178,22 @@ Most early-stage Israeli startups qualify. To claim the reduction, the applicant
 
 ### Fee Structure Overview
 
-Refer to the official ILPO fee schedule at the Ministry of Justice website for current NIS amounts. Key fee categories (approximate, subject to annual CPI adjustment):
+ILPO fees are CPI-indexed and change at the start of each year, so always confirm the current amount on the official ILPO fee portal before paying. The figures below reflect the 2026 schedule (in NIS). Note that substantive examination is **included in the filing fee**; there is no separate "examination fee" for a normal application. A separate fee applies only when the applicant requests **accelerated** examination.
 
-| Fee Type | Full Fee (approx.) | With 40% Reduction |
+| Fee Type | Full Fee (2026, NIS) | With 40% Reduction (approx.) |
 |---|---|---|
-| National application filing | NIS 1,100 | NIS 660 |
-| PCT national phase entry | NIS 1,100 | NIS 660 |
-| Examination fee | NIS 1,500 | NIS 900 |
-| Grant fee | NIS 500 | NIS 300 |
-| Annual/maintenance fees | Varies by year | 40% off applicable years |
+| National application filing (examination included) | 2,402 | ~1,441 |
+| PCT national phase entry (examination included) | 2,402 | ~1,441 |
+| Applicant request for accelerated examination | 1,191 | see official schedule |
+| Grant fee | 841 | ~505 |
+| Renewal, years 7-10 | 1,921 | see official schedule |
+| Renewal, years 11-14 | 2,882 | see official schedule |
+| Renewal, years 15-18 | 4,803 | see official schedule |
+| Renewal, years 19-20 | 6,725 | see official schedule |
+| Opposition (post-allowance) | 2,402 | not reduced |
+| Patent Term Extension application | 1,297 | not reduced |
 
-See `/references/ilpo-fee-schedule.md` for a more detailed breakdown.
+The renewal for years 1-6 is a lump sum paid at grant; confirm its current amount on the official schedule. See `/references/ilpo-fee-schedule.md` for a more detailed breakdown.
 
 ### Maintenance Fee Structure
 
@@ -199,13 +240,13 @@ In practice:
 
 | Resource | URL | Purpose |
 |---|---|---|
-| ILPO Patent Search | israelpatents.justice.gov.il | Search Israeli patent applications and grants |
-| ILPO Official Portal | gov.il/en/departments/ilpo | Official forms, fee schedules, announcements |
-| PCT ePCT Filing | pct.wipo.int | Online PCT application filing and management |
-| WIPO PatentScope | patentscope.wipo.int | International prior art search (110M+ documents) |
-| WIPO PCT Guide for Israel | pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL | Country-specific PCT requirements for Israel |
-| IPC Classification Tool | ipc.inpit.go.jp | Find IPC codes for prior art searches |
-| Bank of Israel Exchange Rates | boi.org.il/en/markets/exchange-rates | Official exchange rates for fee conversion |
+| ILPO Patent Search | https://israelpatents.justice.gov.il/en | Search Israeli patent applications and grants |
+| ILPO Portal (Ministry of Justice) | https://patents.justice.gov.il | Official forms, fee schedules, announcements (the older israelpatents.justice.gov.il host still resolves) |
+| PCT ePCT Filing | https://pct.wipo.int | Online PCT application filing and management |
+| WIPO PatentScope | https://patentscope.wipo.int | International prior art search (110M+ documents) |
+| WIPO PCT Guide for Israel | https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL | Country-specific PCT requirements for Israel |
+| IPC Classification (WIPO) | https://www.wipo.int/classifications/ipc/en/ | Find IPC codes for prior art searches |
+| Bank of Israel Exchange Rates | https://www.boi.org.il/en/markets/exchange-rates/ | Official exchange rates for fee conversion |
 
 
 ## Gotchas
@@ -214,9 +255,9 @@ In practice:
 
 Unlike the USPTO where an IDS is typically filed once at defined stages, Israeli law (Section 18) imposes a **continuing duty** of disclosure throughout the entire prosecution lifecycle, from filing through the date of Notice of Acceptance. This means that if your US counterpart receives an Office Action citing new art after you filed your Israeli IDS, you must file a supplemental disclosure in Israel. Agents unfamiliar with Israeli practice routinely miss this. Failing to disclose material prior art known to the applicant can result in the patent being held invalid even after grant.
 
-### 2. Examination is Automatic -- Do Not Wait for a Request
+### 2. No EPO-Style Examination Request, But the Section 18 Notice Still Has a Deadline
 
-Agents trained on USPTO or EPO procedure often instruct clients to "request examination" or warn about examination deadlines. In Israel, there is no examination request. Substantive examination begins automatically once the application is complete and fees are paid. If an agent or tool tells you to file an "examination request" for an Israeli national application, that instruction is incorrect.
+Agents trained on EPO procedure often instruct clients to file a "request for examination" by a fixed deadline. In Israel there is no such examination-request filing and no early deferred-examination election at filing time. But it is equally wrong to tell a client "there is nothing to do until the first Office Action." About 12 months before examination, ILPO issues a **Section 18 Notice prior to Examination**, and the applicant must respond within **4 months** (extendable with fees up to 12 months total). The Section 18 notice is also the moment to file a deferral request if the applicant wants to push examination later. Treat the Section 18 notice as a hard, dockable deadline.
 
 ### 3. The 40% Fee Reduction Threshold is NIS 10M Turnover, Not Profit
 
@@ -241,6 +282,15 @@ Attorneys and AI tools trained on US or EU patent law have no frame of reference
 | WIPO PCT (international filings) | https://www.wipo.int/pct/en/ | Patent Cooperation Treaty, international application routes from Israel |
 | Israel Patent Office search | https://israelpatents.justice.gov.il/en | Free Israeli patent database search, published applications |
 | Ministry of Justice - IP | https://www.gov.il/he/departments/units/ip_office | Trademark, design, patent policy and regulations |
+
+## Recommended MCP Servers
+
+These Model Context Protocol servers, available in the skills-il directory, pair well with this skill:
+
+- **israel-law**: programmatic access to Israeli primary legislation. Use it to pull the current text of the Patents Law, 5727-1967, and its amendments when you need to confirm a section reference (for example Section 18 on the duty of disclosure and the Notice prior to Examination).
+- **boi-exchange**: Bank of Israel exchange-rate data. Use it to convert ILPO fees to a foreign currency at the official rate when a foreign applicant is budgeting a filing.
+
+Always confirm fee figures against the official ILPO portal, since the schedule is CPI-indexed and changes each year.
 
 ## Troubleshooting
 

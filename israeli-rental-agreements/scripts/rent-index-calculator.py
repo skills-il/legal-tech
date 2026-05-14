@@ -52,21 +52,16 @@ def parse_date(date_str: str) -> str:
 
 
 def get_cpi(date_key: str) -> float:
-    """Get CPI value for a given month, or estimate if not available."""
-    if date_key in CPI_DATA:
-        return CPI_DATA[date_key]
+    """Return the CPI value for a given month.
 
-    # Try to estimate based on nearest available data
-    available_dates = sorted(CPI_DATA.keys())
-    if not available_dates:
-        return 0.0
-
-    if date_key < available_dates[0]:
-        return 0.0
-    if date_key > available_dates[-1]:
-        return 0.0
-
-    return 0.0
+    This function does NOT estimate or interpolate. The bundled CPI_DATA
+    table covers a fixed range only (see CPI_DATA above). If the requested
+    month is outside that range, or otherwise missing from the table, the
+    function returns 0.0 and the caller treats that as "data not available"
+    rather than guessing a value. To support dates beyond the table, extend
+    CPI_DATA with verified figures from the Central Bureau of Statistics.
+    """
+    return CPI_DATA.get(date_key, 0.0)
 
 
 def calculate_adjustment(

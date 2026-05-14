@@ -2,15 +2,15 @@
 
 The Mandatory Tenders Law (חוק חובת המכרזים, התשנ"ב-1992) and its regulations define several categories of tender. Knowing which one you are dealing with shapes every subsequent decision.
 
-## מכרז פומבי — Open (public) tender
+## מכרז פומבי - Open (public) tender
 
 - **Who can bid:** Any qualifying bidder
 - **Publication:** Public (press, official gazette, government procurement portal)
 - **Typical use:** Most state procurement defaults to this unless an exemption applies
-- **Process:** Full cycle — publication, site visit if applicable, clarification questions, submission, opening, evaluation, award
+- **Process:** Full cycle - publication, site visit if applicable, clarification questions, submission, opening, evaluation, award
 - **Competition:** High. Expect a large pool of bidders, especially for standardized goods and services.
 
-## מכרז סגור / מוגבל — Closed (limited) tender
+## מכרז סגור / מוגבל - Closed (limited) tender
 
 - **Who can bid:** Only pre qualified bidders invited by the issuing body
 - **Publication:** Private invitation, often following a prior pre qualification round
@@ -18,15 +18,15 @@ The Mandatory Tenders Law (חוק חובת המכרזים, התשנ"ב-1992) and
 - **Process:** Similar to open tender but the invitation list replaces the public call
 - **Competition:** Lower than open tenders, but bidders are typically better matched to the requirement
 
-## מכרז מסגרת — Framework tender
+## מכרז מסגרת - Framework tender
 
 - **Who can bid:** Any qualifying bidder for the initial framework
 - **Publication:** Public for the framework, then call offs within the framework
 - **Typical use:** Recurring requirements where the issuing body wants to lock in multiple vendors and then issue specific call offs from the pool over the framework's lifetime
-- **Process:** Two stages — qualification into the framework, then individual mini competitions or direct call offs
+- **Process:** Two stages - qualification into the framework, then individual mini competitions or direct call offs
 - **Commitment:** Being selected into the framework does not guarantee work. Call offs are allocated at the issuing body's discretion per the framework rules.
 
-## פטור ממכרז — Tender exemption
+## פטור ממכרז - Tender exemption
 
 The regulations define approximately 30 cases where the issuing body does not need to run a full tender. Common categories:
 
@@ -39,7 +39,7 @@ The regulations define approximately 30 cases where the issuing body does not ne
 | Specialized knowledge | ידע מיוחד | Consultants or experts with unique expertise |
 | Inter governmental | התקשרות עם גוף ציבורי אחר | Contracting with another public body |
 
-Even under an exemption, the issuing body usually runs a lighter weight process — for example a price survey (בירור מחירים) or a limited written solicitation. Bidders should treat exemption solicitations with the same care as formal tenders because the documentation requirements are often similar.
+Even under an exemption, the issuing body usually runs a lighter weight process - for example a price survey (בירור מחירים) or a limited written solicitation. Bidders should treat exemption solicitations with the same care as formal tenders because the documentation requirements are often similar.
 
 ## Local authority tenders
 

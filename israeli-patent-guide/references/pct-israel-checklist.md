@@ -66,7 +66,7 @@ URL: pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
 ## Step 7: Post-Filing Actions
 
 - [ ] Docket the national application number and monitor ILPO correspondence (sent to the Israeli address for service).
-- [ ] Prepare for automatic substantive examination (no separate request needed -- examination begins automatically).
+- [ ] Examination is queued automatically. There is no EPO-style request-for-examination filing, but watch for the **Section 18 Notice prior to Examination**, which ILPO issues roughly 12 months before substantive examination. The response deadline is **4 months** from the notice (extendable, with fees, up to 12 months total). The Section 18 notice is also the point to file a deferral request if the applicant wants to push examination later.
 - [ ] Set up an IDS (Information Disclosure Statement) tracking system. Under Section 18 of the Israeli Patents Law, you must continue to disclose material prior art throughout prosecution up to the Notice of Acceptance. Monitor counterpart applications (especially US and EP) for new Office Actions and cited art.
 - [ ] Note the 3-month objection period after Notice of Acceptance -- this window cannot be extended.
 
@@ -90,5 +90,5 @@ If the 30-month deadline was missed unintentionally, Israel allows reinstatement
 | WIPO PCT Guide for Israel | pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL |
 | ePCT Online Filing | pct.wipo.int |
 | WIPO PatentScope (PCT search) | patentscope.wipo.int |
-| Bank of Israel Exchange Rates | boi.org.il/en/markets/exchange-rates |
+| Bank of Israel Exchange Rates | https://www.boi.org.il/en/markets/exchange-rates/ |
 | ILPO Patent Search Database | israelpatents.justice.gov.il |
