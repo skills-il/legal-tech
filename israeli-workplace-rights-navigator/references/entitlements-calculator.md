@@ -115,6 +115,19 @@ Convalescence pay = 7 days x NIS 418 x 50% = NIS 1,463
 After proportional 1-day deduction: (7 - 1) x NIS 418 x 50% = NIS 1,254
 ```
 
+## Minimum Wage (Minimum Wage Law, 1987)
+
+| Effective date | Monthly (full-time) | Hourly |
+|----------------|---------------------|--------|
+| 1 April 2026 | NIS 6,443.85 | NIS 35.40 |
+
+**Notes:**
+- Updated every April so the monthly figure is at least 47.5% of the national average wage as set on 1 January of that year.
+- The hourly figure applies to part-time and hourly employees; the monthly minimum is pro-rated for part-time positions.
+- Youth (under 18) and apprentices have separate, lower statutory rates.
+- The minimum wage is a cogent statutory floor; a contract cannot set pay below it. Paying below the minimum exposes the employer to criminal and civil liability.
+- Source: kolzchut.org.il, Minimum Wage Law 1987. Verify the current rate annually.
+
 ## Notice Period (Prior Notice Law, 2001)
 
 ### Monthly Salaried Employees

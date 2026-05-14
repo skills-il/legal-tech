@@ -39,9 +39,9 @@ Scan the contract for each item in the checklist below. For every finding, recor
 
 | Item | Must include | If missing | Citation |
 |------|-------------|------------|----------|
-| Job title and scope | Clear role description | Major: employer can reassign arbitrarily | Written Employment Terms Notice Law 2002 |
+| Job title and scope | Clear role description | Major: employer can reassign arbitrarily | Notice to Employee and Job Candidate (Employment Conditions and Screening/Hiring Procedures) Law, 5762-2002 |
 | Start date | Exact date | Blocker: contract is incomplete | - |
-| Gross monthly salary | Explicit number | Blocker: negotiate before signing | Written Employment Terms Notice Law 2002 |
+| Gross monthly salary | Explicit number | Blocker: negotiate before signing | Notice to Employee and Job Candidate (Employment Conditions and Screening/Hiring Procedures) Law, 5762-2002 |
 | Working hours | Weekly total and daily range | Major: overtime calculation becomes ambiguous | Hours of Work and Rest Law 1951 |
 | Pension from day 1 | Contribution clause | Blocker: employer is legally required | Mandatory Pension Order 2008 / Expansion Order |
 | Hoda'at mukdemet (advance notice) | At least statutory minimum | Major: defaults to law anyway, but absence is a red flag | Prior Notice of Dismissal and Resignation Law 2001 |
@@ -60,6 +60,8 @@ Scan the contract for each item in the checklist below. For every finding, recor
 | Non-compete (`ekronot i-tachrut`) exceeding 6-12 months | Israeli courts rarely enforce non-competes beyond protecting trade secrets. Clauses of 2+ years are typically unenforceable, but create chilling effect | Major. Negotiate down to 6 months max, narrow geographic scope, narrow competitor definition |
 | Non-compete without compensation during the restriction period | Unenforceable unless trade secret is genuinely at stake and the employee was compensated for the restriction | Major. Remove or demand compensation equal to salary during the restricted period |
 | Assignment of "all inventions ever" including personal projects | Employee Inventions Law protects off-work inventions unless directly related to the job | Major. Narrow to inventions made during work hours using work resources, related to the employer's business |
+| Stated gross salary below the statutory minimum wage | As of 1 April 2026 the minimum wage is 6,443.85 NIS/month full-time (35.40 NIS/hour). A contract cannot set pay below this cogent floor; the figure is updated every April | Blocker. The salary must be raised to at least the current minimum wage. Verify the current rate, since it changes each April |
+| "Global" or "comprehensive" overtime (`shaot globaliyot`) bundled into the base salary with no breakdown | Israeli courts often strike clauses that fold an unspecified, open-ended amount of overtime into one flat figure, because they mask unpaid overtime and defeat the Hours of Work and Rest Law. A global-overtime arrangement is only valid when it is a separate, quantified, capped component that is genuinely no less than the statutory 125%/150% rates for the hours actually worked | Major. Require overtime to be a separate line item with a stated hour cap and explicit 125%/150% rates, or removed in favor of hourly overtime tracking |
 | Salary defined as "gross" or "net" ambiguously | Can cost the employee 30%+ in unexpected deductions | Blocker. Require explicit "gross" (brutto) and state the components |
 | Bonus described as "at the sole discretion of the employer" without trigger | Employer can deny forever. If it's labeled "bonus" it is not deferred compensation | Minor if user accepts the risk. Major if the role was pitched with a large bonus component |
 | Working hours beyond 42/week without overtime clause | Hours of Work and Rest Law caps standard workweek at 42 hours for 5-day weeks | Major. Overtime must be 125% for first 2 hours, 150% after |
@@ -75,6 +77,7 @@ Compute these from the contract figures and flag anomalies:
 
 | Check | Formula | Expected |
 |-------|---------|----------|
+| Minimum wage floor | Stated gross monthly salary (or hourly rate) | At least 6,443.85 NIS/month full-time, or 35.40 NIS/hour, as of 1 April 2026. Below this is a blocker. Verify the current rate |
 | Employer pension contribution | Claimed % of gross | At least 6.5% benefits + 6% or 8.33% severance component |
 | Employee pension contribution | Claimed % of gross | Max 6% (above is rare and unusual) |
 | Keren hishtalmut split | Employer / employee % | Standard 7.5% / 2.5% |
@@ -142,6 +145,24 @@ blockers, or for senior / executive positions, consult an Israeli labor attorney
 - nevo.co.il (legal database)
 - Bituach Leumi official guidance
 ```
+
+## Examples
+
+### Example 1: Section 14 waiver with a base-only salary definition
+
+**Clause as written:** "The employee agrees to the arrangement under Section 14 of the Severance Pay Law. The employer's contributions to the pension fund, calculated on the base salary, replace severance pay in full."
+
+**Finding:** Major. The Section 14 waiver itself is legitimate, but "calculated on the base salary" is the trap: the employee's role pays a 12,000 NIS base plus a recurring 4,000 NIS fixed travel-and-role allowance. Because the waiver covers only the base, the employee loses the severance value of the allowance, and on termination receives less than the statutory calculation would yield.
+
+**Recommended replacement:** "The Section 14 arrangement applies to the employee's full salary, including all fixed components subject to pension contributions (base salary, fixed allowances, and any other regular fixed payment), and not to the base salary alone."
+
+### Example 2: Advance notice set below the statutory minimum
+
+**Clause as written:** "Either party may terminate this agreement by giving 7 days written notice."
+
+**Finding:** Blocker. The contract is for a permanent role with no tenure cap. A flat 7-day notice is below the statutory minimum for any employee past the first 7 months: after one full year the minimum is 30 calendar days (see `references/hoda-at-mukdemet-table.md`). The clause is unenforceable against the employee, but it signals the employer is not drafting to Israeli law.
+
+**Recommended replacement:** "Advance notice of termination, by either party, shall be the statutory minimum under the Prior Notice of Dismissal and Resignation Law, 5761-2001, by length of service: in the first six months, one day per month worked; in months seven to twelve, six days plus two and a half days for each month after the sixth; and from one year of service onward, 30 calendar days."
 
 ## Bundled Resources
 

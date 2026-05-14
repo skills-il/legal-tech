@@ -1,6 +1,6 @@
 ---
 name: israeli-employment-contracts
-description: Generate, review, and validate Israeli employment contracts (chozeh avoda) with all mandatory clauses per Israeli labor law. Use when user asks to create an employment contract, review employment terms, calculate mandatory benefits, or asks about "chozeh avoda", "Section 14", "Saif 14", "Keren Hishtalmut", "Dmei Havra'a", "convalescence pay", "severance", "pitzuim", Israeli pension obligations, non-compete clauses in Israel, or Israeli employment compliance. Covers full-time, part-time, and contractor classification. Do NOT use for freelance service agreements, commercial contracts, or non-Israeli employment law.
+description: Draft Israeli employment contracts (chozeh avoda) with all mandatory clauses per Israeli labor law. Use when user asks to create or generate an employment contract, calculate mandatory benefits for a contract, or asks about "chozeh avoda", "Section 14", "Saif 14", "Keren Hishtalmut", "Dmei Havra'a", "convalescence pay", "severance", "pitzuim", Israeli pension obligations, non-compete clauses in Israel, or Israeli employment compliance. Covers full-time, part-time, and contractor classification. Do NOT use for reviewing or auditing an existing contract (use israeli-employment-contract-reviewer), employee-rights questions (use israeli-workplace-rights-navigator), freelance service agreements, commercial contracts, or non-Israeli employment law.
 license: MIT
 allowed-tools: Bash(python:*)
 compatibility: Works with Claude Code, Cursor, GitHub Copilot, Windsurf, OpenCode, Codex. Python 3.8+ required for generate_contract.py script.
@@ -25,6 +25,11 @@ Ask the user what type of employment relationship they need to document:
 ### Step 2: Calculate Mandatory Benefits
 
 All rates below are current as of 2025-2026. Verify rates annually as they may be updated by extension orders (Tzav Harchava).
+
+**Minimum wage (Chok Schar Minimum, 1987):**
+- As of 1 April 2026 the minimum wage is **6,443.85 NIS per month** for a full-time position and **35.40 NIS per hour**. The stated gross salary in any contract must meet or exceed this floor
+- The minimum is updated every April (set at no less than 47.5% of the national average wage). Verify the current rate annually before finalizing a contract
+- For part-time positions, the hourly minimum applies and the monthly figure is pro-rated
 
 **Pension (mandatory per Tzav Harchava 2008):**
 
@@ -60,7 +65,7 @@ Section 14 of the Severance Pay Law (1963) allows the employer to designate pens
 | Years 16-19 | 9 days | Per-day rate x days |
 | Year 20+ | 10 days | Per-day rate x days |
 
-The per-day rate is updated annually by extension order. Check the current rate at the Ministry of Economy website. Typically paid as a lump sum in June-July.
+The per-day rate is updated annually by extension order. As of 2026 the private-sector rate is approximately **418 NIS per day**; the public-sector rate is approximately **471.4 NIS per day** per collective agreement. Verify the current rate annually (the 2025-2026 private-sector freeze window has now passed). Typically paid as a lump sum in June-July.
 
 **Annual leave (Chofsha) per Annual Leave Law:**
 
@@ -136,7 +141,7 @@ See references/mandatory-clauses.md for exact bilingual clause templates.
 
 **Non-compete clauses in Israel -- very limited enforceability:**
 
-Israeli courts consistently restrict non-compete clauses. The Supreme Court (particularly the Tzik Lip v. Plapol ruling and subsequent case law) established that non-compete is enforceable only when ALL of the following exist:
+Israeli courts consistently restrict non-compete clauses. The National Labor Court (particularly the Check Point ruling, ע"ע 164/99 Frumer and Check Point v. Radguard, and subsequent case law) established that non-compete is enforceable only when ALL of the following exist:
 
 1. The employer has a legitimate interest to protect (genuine trade secrets, not just general know-how)
 2. The restriction is reasonable in scope, geography, and duration
@@ -160,7 +165,7 @@ Israeli courts consistently restrict non-compete clauses. The Supreme Court (par
 
 Run through this checklist before finalizing any employment contract:
 
-- [ ] Written contract provided (mandatory per Notification to Employee Law, 2002)
+- [ ] Written contract provided (mandatory per the Notice to Employee and Job Candidate (Employment Conditions and Screening and Hiring Procedures) Law, 5762-2002)
 - [ ] All mandatory benefits included (pension, convalescence, leave, sick days)
 - [ ] Section 14 arrangement documented with employee acknowledgment
 - [ ] Keren Hishtalmut terms specified (if offered -- not mandatory but very standard in tech)
@@ -193,7 +198,7 @@ After the contract is signed, the employer must complete:
    - Report new employee to Tax Authority
 
 4. **Provide written notification:**
-   - Per the Notification to Employee Law (2002), employer must provide written details of employment terms within 30 days of start
+   - Per the Notice to Employee and Job Candidate (Employment Conditions and Screening and Hiring Procedures) Law, 5762-2002 (formerly the Notification to Employee Law), the employer must provide written details of employment terms within 30 days of start
 
 5. **Record keeping:**
    - Maintain attendance records (Hours of Work and Rest Law)
@@ -222,14 +227,14 @@ Actions:
 4. Review: Ensure part-time rights clearly stated (same hourly benefits as full-time)
 Result: Part-time contract with pro-rata benefits correctly calculated.
 
-### Example 3: Reviewing an Existing Contract
-User says: "Review this employment contract and tell me what's missing"
+### Example 3: Drafting a Contract from an Existing Draft
+User says: "Here is a rough offer letter, turn it into a full employment contract"
 Actions:
-1. Parse: Read the provided contract text
-2. Check: Compare against mandatory clauses checklist (Step 5)
-3. Flag: Missing Section 14 arrangement, no pension fund specified, non-compete too broad (2 years, global scope)
-4. Recommend: Add Section 14 clause, specify pension fund and rates, narrow non-compete to 12 months and specific competitors
-Result: Detailed gap analysis with specific clause recommendations.
+1. Parse: Read the offer letter for the terms already agreed (role, salary, start date, work percentage)
+2. Build: Generate the full contract using Step 3, filling every mandatory section the offer letter omitted (Section 14 election, pension fund, Keren Hishtalmut, convalescence, leave, sick days, notice period, IP assignment)
+3. Calculate: Apply current benefit rates from Step 2, verifying the gross salary meets the minimum wage floor
+4. Checklist: Run Step 5 to confirm all mandatory items are present
+Result: A complete bilingual employment contract built from the partial draft, ready for legal review and signing. If the user instead wants an independent pre-signing audit of a contract someone else drafted, point them to the `israeli-employment-contract-reviewer` skill.
 
 ### Example 4: Contractor vs. Employee Assessment
 User says: "I have someone working for me full-time from our office, should they be a contractor or employee?"
@@ -246,7 +251,7 @@ Result: Classification recommendation with risk analysis and next steps.
 - `scripts/generate_contract.py` -- Generates an Israeli employment contract template with calculated benefit rates. Accepts employee details (name, position, salary, start date, work percentage) and outputs a structured contract with all mandatory Israeli clauses pre-filled. Includes Section 14 arrangement text, pension and Keren Hishtalmut rates, and notice period calculations. Run: `python scripts/generate_contract.py --help`
 
 ### References
-- `references/labor-law.md` -- Comprehensive summary of Israeli labor laws governing employment contracts: Severance Pay Law (1963), Annual Leave Law (1951), Sick Pay Law (1976), Hours of Work and Rest Law (1951), Notification to Employee Law (2002), Protection of Wages Law (1958), and key extension orders (Tzav Harchava). Consult when verifying statutory requirements or resolving disputes about employee entitlements.
+- `references/labor-law.md` -- Comprehensive summary of Israeli labor laws governing employment contracts: Severance Pay Law (1963), Annual Leave Law (1951), Sick Pay Law (1976), Hours of Work and Rest Law (1951), the Notice to Employee and Job Candidate (Employment Conditions and Screening and Hiring Procedures) Law, 5762-2002, Protection of Wages Law (1958), and key extension orders (Tzav Harchava). Consult when verifying statutory requirements or resolving disputes about employee entitlements.
 - `references/mandatory-clauses.md` -- Bilingual (Hebrew and English) employment contract clause templates covering all mandatory provisions: parties, position, salary, pension with Section 14, Keren Hishtalmut, convalescence pay, leave, sick days, notice period, confidentiality, IP assignment, and non-compete. Consult when drafting or reviewing specific contract sections.
 
 ## Gotchas
@@ -255,7 +260,7 @@ Result: Classification recommendation with risk analysis and next steps.
 - Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
 - The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
 - Israeli law does not recognize automatic "work-for-hire" for all intellectual property as US law does. Agents drafting contracts without an explicit IP assignment clause will leave IP ownership ambiguous, especially for software.
-- The convalescence pay (Dmei Havra'a) per-day rate is updated annually by extension order. Agents using a fixed amount from their training data will produce incorrect calculations. Check the current rate at the Ministry of Economy website.
+- The convalescence pay (Dmei Havra'a) per-day rate is updated annually by extension order (approximately 418 NIS/day private sector, 471.4 NIS/day public sector as of 2026). Agents using a fixed amount from their training data will produce incorrect calculations. Verify the current rate annually against the Ministry of Economy or a current labor-law source.
 
 ## Troubleshooting
 
@@ -278,3 +283,23 @@ Solution: Verify current minimum wage rate (updated periodically by government o
 ### Error: "Missing Bituach Leumi registration"
 Cause: Employer did not register employee with National Insurance within required timeframe
 Solution: Register immediately via the Bituach Leumi employer portal. Late registration may incur penalties and leaves the employee without coverage.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Kol Zchut: personal employment contract | https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99 | Plain-language explanation of contract terms and mandatory clauses |
+| Ministry of Labor | https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services | Official labor regulations, minimum wage, extension orders |
+| Nevo: Notice to Employee Law full text | https://www.nevo.co.il/law_html/law00/71702.htm | Notice to Employee and Job Candidate Law, 5762-2002 statutory text |
+| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/055_001.htm | Severance Pay Law, 1963 statutory text (Section 14, calculation, payment deadline) |
+| Bituach Leumi: employer registration | https://www.btl.gov.il/Insurance/Maasik/MToshavYisrael/Pages/PtichatTik.aspx | Opening an employer deductions file with National Insurance |
+| Tax Authority: Form 101 | https://www.gov.il/he/service/form_101 | Employee tax declaration form for new hires |
+
+## Recommended MCP Servers
+
+| MCP | When to pair | Purpose |
+|-----|--------------|---------|
+| `israel-law` | For authoritative citations to statute text | Looks up the exact text of the Severance Pay Law, Annual Leave Law, Hours of Work and Rest Law, and the Notice to Employee Law |
+| `kolzchut` | For plain-language rule summaries and exceptions | Cross-references contract clauses against the All-Rights (Kol Zchut) database |
+
+The skill works without these MCPs using the built-in reference tables, but the citations become less specific.

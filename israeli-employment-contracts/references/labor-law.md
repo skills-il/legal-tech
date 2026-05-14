@@ -54,7 +54,9 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 - **Night work:** 7-hour day for night shifts (21:00 - 06:00)
 - **Exemptions:** Certain management/trust positions may be exempt, but exemption is narrowly interpreted by courts
 
-### Notification to Employee Law (Chok Hodaa LeOved), 2002
+### Notice to Employee and Job Candidate (Employment Conditions and Screening and Hiring Procedures) Law, 5762-2002 (Chok Hodaa LeOved VeLeMuamad LaAvoda)
+
+Originally enacted as the Notification to Employee Law; the title was expanded by amendment to cover job candidates and screening and hiring procedures. Commonly still referred to as "Chok Hodaa LeOved".
 
 - **Written notice required:** Employer must provide written details of employment terms within 30 days of start
 - **Required information:**
@@ -84,7 +86,7 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 
 ### Minimum Wage Law (Chok Schar Minimum), 1987
 
-- **Monthly minimum:** Updated periodically by government order (verify current rate)
+- **Monthly minimum:** Updated every April by government order. As of 1 April 2026: NIS 6,443.85/month full-time, NIS 35.40/hour. Set at no less than 47.5% of the national average wage. Verify the current rate annually
 - **Hourly minimum:** Monthly minimum divided by 182 hours (for full-time)
 - **Youth rates:** Different rates apply for employees under 18
 - **Part-time:** Hourly rate applies; monthly minimum is pro-rata
@@ -116,7 +118,7 @@ The most significant extension order in Israeli labor law:
   - Years 11-15: 8 days
   - Years 16-19: 9 days
   - Year 20+: 10 days
-- **Daily rate:** Updated annually (check current rate at Ministry of Economy)
+- **Daily rate:** Updated annually. As of 2026, approximately NIS 418/day private sector and NIS 471.4/day public sector. Verify the current rate annually at the Ministry of Economy
 - **Payment timing:** Typically June-July as annual lump sum
 - **Calculation:** Days x daily rate (no additional tax withholding beyond regular income tax)
 
@@ -131,7 +133,7 @@ The most significant extension order in Israeli labor law:
 
 ### Non-Compete (Haskamot Ee Tcharut)
 
-**Tzik Lip v. Plapol (HCJ 1683/93)** and subsequent rulings established that non-compete clauses are enforceable only when:
+**Check Point (National Labor Court, ע"ע 164/99, Frumer and Check Point Software Technologies v. Radguard)** and subsequent rulings established that non-compete clauses are enforceable only when:
 1. Employer has a legitimate protectable interest (genuine trade secrets, not general skills)
 2. Restriction is reasonable in scope, geography, and time
 3. Employee received special consideration beyond standard compensation

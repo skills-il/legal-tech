@@ -1,6 +1,6 @@
 ---
 name: israeli-workplace-rights-navigator
-description: Understand and exercise employee rights under Israeli labor law, including vacation days (chofsha), sick leave (machala), overtime pay, maternity and paternity leave, severance pay (pitzuyim), convalescence pay (dmei havra'a), and pension contributions. Use when user asks about "employee rights in Israel", "how many vacation days", "sick pay Israel", "pitzuyei piturim", "dmei havra'a", "chofeshat leidah", "shaat nosafot", or "zchuyot ovdim". Covers Annual Leave Law, Sick Pay Law, Hours of Work and Rest Law, Employment of Women Law, Severance Pay Law, sexual harassment protections, and disability accommodations. Do NOT use for employment contract generation (use israeli-employment-contracts), salary negotiation (use israeli-tech-salary-negotiator), reserve duty rights (use israeli-miluim-manager), or freelancer operations (use israeli-freelancer-ops).
+description: Understand and exercise employee rights under Israeli labor law, including vacation days (chofsha), sick leave (machala), overtime pay, the Birth and Parenting Period and paternity leave, severance pay (pitzuyim), convalescence pay (dmei havra'a), minimum wage, and pension contributions. Use when user asks about "employee rights in Israel", "how many vacation days", "sick pay Israel", "pitzuyei piturim", "dmei havra'a", "minimum wage Israel", "shaat nosafot", or "zchuyot ovdim". Covers Annual Leave Law, Sick Pay Law, Hours of Work and Rest Law, Employment of Women Law, Severance Pay Law, and Minimum Wage Law. Do NOT use for drafting an employment contract (use israeli-employment-contracts), reviewing or auditing an existing employment contract (use israeli-employment-contract-reviewer), salary negotiation (use israeli-tech-salary-negotiator), reserve duty rights (use israeli-miluim-manager), or freelancer operations (use israeli-freelancer-ops).
 license: MIT
 allowed-tools: Bash(python:*)
 compatibility: No special requirements. Works with Claude Code, Cursor, Windsurf.
@@ -100,25 +100,34 @@ Per the **Hours of Work and Rest Law, 1951 (Chok Sha'ot Avoda U'Menucha)**:
 - Certain sectors and positions (managers, those requiring a high degree of personal trust) may be exempt from overtime rules under specific legal conditions
 - The employer must keep accurate records of work hours
 
-### Step 5: Maternity and Paternity Leave (Chofeshat Leidah)
+**Minimum wage (Chok Schar Minimum, 1987):**
+- As of 1 April 2026 the minimum wage is **6,443.85 NIS per month** for a full-time position and **35.40 NIS per hour**
+- The monthly minimum is updated every April so it is at least 47.5% of the national average wage; verify the current rate annually
+- For part-time employees the hourly minimum applies and the monthly figure is pro-rated
+- Paying below the minimum wage exposes the employer to criminal penalties and civil liability; the floor cannot be waived in a contract
 
-Per the **Employment of Women Law, 1954 (Chok Avdat Nashim)**:
+### Step 5: Birth and Parenting Period and Paternity Leave (Tkufat Leidah VeHorut)
 
-**Maternity leave:**
+Per the **Employment of Women Law, 1954 (Chok Avdat Nashim)**. The leave is now officially called the **Birth and Parenting Period (tkufat leidah vehorut)**, not "maternity leave" (chofshat leidah); the older term is still common in everyday speech.
+
+**Birth and Parenting Period (the parent who gave birth):**
 - Total duration: 26 weeks from the date of birth
-- Paid portion: 15 weeks of maternity allowance (dmei leidah) from Bituach Leumi, for employees who paid national insurance for at least 10 of the 14 months preceding the birth, or 15 of the 22 months
+- Paid portion: 15 weeks of birth allowance (dmei leidah) from Bituach Leumi, for employees who paid national insurance for at least 10 of the 14 months preceding the birth, or 15 of the 22 months
 - Employees with less than 10 months of insurance contributions: 8 weeks paid
 - The remaining weeks (11 or 18) are unpaid leave
 - The employee can start leave up to 7 weeks before the due date (deducted from the 26 weeks)
+- **Complex-disability extension (from 1 April 2026):** a parent of a child born with a complex disability recognized by Bituach Leumi is entitled to an additional 5 paid weeks. Total extension periods of the birth allowance are capped at 20 weeks combined
 
 **Job protection:**
 - An employer cannot fire a pregnant employee without a permit from the Ministry of Labor
-- An employer cannot fire an employee for 60 days after maternity leave ends
+- An employer cannot fire an employee for 60 days after the Birth and Parenting Period ends
 - The employee is entitled to return to the same position or an equivalent one
 
-**Paternity leave:**
-- 5 paid days immediately after birth (3 days from the employer, 2 days from vacation balance)
-- The father can take up to 6 weeks of the remaining maternity leave (transferred from the mother) after she has taken at least 6 weeks
+**Paternity leave / second parent (the parent who did not give birth):**
+- Absence right around the birth: up to 5 calendar days right after the birth (plus the day of birth itself), with no need for employer consent. The first 3 days are taken from the annual vacation balance (or unpaid if the balance is insufficient); the 4th and 5th days are treated as paid sick days
+- Separately, a concurrent paternity-leave week: the second parent may take one week of the Birth and Parenting Period at the same time as the parent who gave birth, and receive a birth allowance for that week from Bituach Leumi (subject to its eligibility conditions)
+- Taken together, the second parent can typically be home for about 7 paid days in the first month after the birth
+- The second parent can also take a longer share of the Birth and Parenting Period (transferred from the other parent) after that parent has used at least 6 weeks
 
 **Additional protections:**
 - Fertility treatments: employees undergoing fertility treatments receive absences as sick days and are protected from termination during treatment
@@ -177,7 +186,7 @@ Every employee who has completed at least one year of employment is entitled to 
 | 20+ | 10 days |
 
 **Daily rate:**
-- Updated annually by the Ministry of Economy. For 2026 the rate is frozen at NIS 418 per day (private sector); public sector is NIS 471.4 per day per collective agreement
+- Updated annually by the Ministry of Economy. For 2026 the rate is NIS 418 per day (private sector); public sector is NIS 471.4 per day per collective agreement. The 2025-2026 private-sector freeze window has now passed, so verify the rate again after 1 July 2026 in case it is updated
 - For 2025 and 2026, employers are required to deduct one convalescence day from each employee's annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist support
 
 **Payment:**
@@ -222,6 +231,8 @@ Israeli law requires specific procedures before terminating an employee:
 | 6-12 months | 6 days + 2.5 days per month after the 6th |
 | 1+ years | 1 month |
 
+This is a summary. For the exact month-by-month figures for both monthly-paid and hourly/daily employees, use the detailed table in `references/entitlements-calculator.md`, which is the authoritative source for notice-period calculations.
+
 **Pre-termination hearing (shima):**
 - The employer must hold a hearing before making the final decision to terminate
 - The employee must receive written notice of the hearing in advance, including the reasons being considered
@@ -232,8 +243,8 @@ Israeli law requires specific procedures before terminating an employee:
 **Protected employees:**
 - Pregnant women: cannot be terminated without a permit from the Ministry of Labor
 - Employees on sick leave: protected during the first 90 days of accumulated sick leave
-- Employees on maternity leave: protected during leave and for 60 days after
-- Employees during military reserve duty (miluim): protected during and for 30 days after
+- Employees on the Birth and Parenting Period: protected during leave and for 60 days after
+- Employees during military reserve duty (miluim): protected during the service and for 30 days after it ends for ordinary call-ups (service of more than 2 consecutive days). For long call-ups during the Swords of Iron period, the protected window is extended to 60 days after the service for an employee who served at least 60 days within the relevant statutory windows. Dismissal inside the protected window requires approval from the Defense Ministry employment committee (and, for days 31 to 60, the Labor Ministry oversight committee). Verify the current rule, since the temporary extensions are periodically renewed
 - Employees who filed complaints (e.g., sexual harassment, safety): protected from retaliatory dismissal
 
 **Wrongful termination remedies:**
@@ -368,9 +379,19 @@ Result: The termination may be unlawful. The employee should demand in writing t
 |--------|-----|---------------|
 | Kol Zchut (workers' rights) | https://www.kolzchut.org.il/he | Plain-language explanations of labor law entitlements |
 | Ministry of Labor | https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services | Official labor regulations, minimum wage, enforcement |
-| Knesset legislation portal | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Annual Leave Law, Sick Pay Law, Severance Pay Law |
-| Histadrut | https://www.histadrut.org.il | Collective agreements, sector-specific rights |
+| Kol Zchut: minimum wage | https://www.kolzchut.org.il/he/%D7%A9%D7%9B%D7%A8_%D7%9E%D7%99%D7%A0%D7%99%D7%9E%D7%95%D7%9D | Current monthly and hourly minimum wage |
+| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/055_001.htm | Severance Pay Law, 1963 statutory text |
+| Bituach Leumi: birth allowance | https://www.btl.gov.il/benefits/maternity/Pages/default.aspx | Birth and Parenting Period allowance eligibility and amounts |
 | Labor courts in Israel (gov.il) | https://www.gov.il/he/departments/labor_courts_in_israel | Labor court jurisdiction, filing procedures |
+
+## Recommended MCP Servers
+
+| MCP | When to pair | Purpose |
+|-----|--------------|---------|
+| `kolzchut` | For plain-language rule summaries and exceptions | Cross-references entitlement questions against the All-Rights (Kol Zchut) database |
+| `israel-law` | For authoritative citations to statute text | Looks up the exact text of the Annual Leave Law, Sick Pay Law, Hours of Work and Rest Law, Severance Pay Law, and Minimum Wage Law |
+
+The skill works without these MCPs using the built-in reference tables, but the citations become less specific.
 
 ## Troubleshooting
 

@@ -11,7 +11,7 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 | Hours of Work and Rest Law | חוק שעות עבודה ומנוחה | 1951 | 8-hour workday, 42-hour week. Overtime: 125% first 2 hours, 150% after. Weekly rest of 36 hours |
 | Severance Pay Law | חוק פיצויי פיטורים | 1963 | One month salary per year after 1+ year. Section 14 pension fund arrangement. 15-day payment deadline |
 | Employment of Women Law | חוק עבודת נשים | 1954 | 26-week maternity leave (15 weeks paid via Bituach Leumi). Termination protections for pregnant employees |
-| Minimum Wage Law | חוק שכר מינימום | 1987 | Monthly minimum wage updated periodically. Hourly minimum for part-time workers |
+| Minimum Wage Law | חוק שכר מינימום | 1987 | Monthly minimum wage updated every April. As of 1 April 2026: NIS 6,443.85/month full-time, NIS 35.40/hour. Set at no less than 47.5% of the national average wage. Verify the current rate annually |
 | Prior Notice of Termination and Resignation Law | חוק הודעה מוקדמת לפיטורים ולהתפטרות | 2001 | Notice period requirements based on employment duration |
 | Sexual Harassment Prevention Law | חוק למניעת הטרדה מינית | 1998 | Employer obligations for prevention policy. Complaint procedures. Protection from retaliation |
 | Equal Rights for People with Disabilities Law | חוק שוויון זכויות לאנשים עם מוגבלויות | 1998 | Reasonable accommodations. Non-discrimination in hiring, promotion, termination. Workplace accessibility |
