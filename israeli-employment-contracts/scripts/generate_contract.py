@@ -29,19 +29,28 @@ from datetime import datetime, timedelta
 from typing import Optional
 
 
-# --- Current rates (2025-2026) ---
-# Update these annually when extension orders change
+# --- Current rates ---
+# Last verified: 2026-05-09. Update annually when extension orders change.
+# Sources:
+#   Minimum wage: Histadrut announcement, effective 2026-04-01
+#     https://global.histadrut.org.il/news/israels-minimum-wage-to-rise-by-3-3/
+#   Dmei Havra'a (private sector): Kolzchut -- frozen at 2023 level
+#     https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94
+#   Work hours: Hours of Work and Rest Law, 1951, as amended by extension order
+#     effective 2018-04-01 (workweek reduced from 43 to 42 hours)
 
 PENSION_EMPLOYER_RATE = 0.065       # 6.5%
 PENSION_EMPLOYEE_RATE = 0.06        # 6%
 SEVERANCE_RATE = 0.0833             # 8.33%
 HISHTALMUT_EMPLOYER_RATE = 0.075    # 7.5%
 HISHTALMUT_EMPLOYEE_RATE = 0.025    # 2.5%
-HAVRA_A_DAILY_RATE = 418.0          # NIS per day (verify current rate)
-MINIMUM_WAGE_MONTHLY = 5880.02      # NIS (verify current rate)
-MINIMUM_WAGE_HOURLY = 32.30         # NIS (verify current rate)
-STANDARD_WORK_HOURS_DAY = 8.6       # hours (since April 2018)
-STANDARD_WORK_HOURS_WEEK = 43.0     # hours
+HAVRA_A_DAILY_RATE = 418.0          # NIS per day, private sector. Frozen at 2023 rate.
+                                    # In 2024-2025, employers deduct one day's value from
+                                    # the annual payment to fund reservist benefits.
+MINIMUM_WAGE_MONTHLY = 6443.85      # NIS, effective 2026-04-01 (prior: 6,247.67)
+MINIMUM_WAGE_HOURLY = 35.40         # NIS, based on 182 hours/month (42h x 52 / 12)
+STANDARD_WORK_HOURS_DAY = 8.4       # hours per day, 5-day week (5 x 8.4 = 42)
+STANDARD_WORK_HOURS_WEEK = 42.0     # hours per week (since 2018-04-01)
 STANDARD_WORK_DAYS_WEEK = 5         # days
 
 # Convalescence days by seniority year
