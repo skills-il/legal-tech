@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-patent-guide",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "amendment-15-published",
+      "claim": "The Patents Law (Amendment No. 15) Bill, 5786-2025 was published by the Israeli government on 30 December 2025.",
+      "source_url": "https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/",
+      "raw_snippet": "On December 30, 2025, the Israeli government published the Patent Law (Amendment No. 15) Bill-2025, representing the most comprehensive overhaul of Israel's patent system in decades.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL_HE.md#tikun-15"]
+    },
+    {
+      "claim_id": "amendment-15-examination-on-request",
+      "claim": "Amendment 15 proposes an examination-on-request system with a mandatory 4-year deadline from filing.",
+      "source_url": "https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/",
+      "raw_snippet": "The amendment proposes transitioning to an 'examination on request' system, with examination of a patent application commencing only upon filing a 'Request for Examination' within four years from the application filing date.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL_HE.md#tikun-15"]
+    },
+    {
+      "claim_id": "amendment-15-provisional-applications",
+      "claim": "Amendment 15 proposes introducing a new domestic provisional application route in Israel, which today has no US-style provisional.",
+      "source_url": "https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/",
+      "raw_snippet": "A new 'provisional application' route will allow applicants to secure an early filing date under relaxed formal requirements.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL.md#no-true-provisional-application", "SKILL_HE.md#tikun-15", "SKILL_HE.md#ein-bakasha-areyit"]
+    },
+    {
+      "claim_id": "amendment-15-grace-period",
+      "claim": "Amendment 15 proposes a statutory 12-month grace period for inventor-originated pre-filing disclosures.",
+      "source_url": "https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/",
+      "raw_snippet": "According to the proposed amendment, the grace period for prior disclosure will be set to 12 months, and an inventor's right to obtain a patent will not be prejudiced by a disclosure made within 12 months prior to the filing date of the application, provided the disclosure was made by the inventor or with their consent.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL_HE.md#tikun-15"]
+    },
+    {
+      "claim_id": "amendment-15-third-party-observations-expanded",
+      "claim": "Amendment 15 expands third-party observations so they may be submitted throughout the entire examination period, not only in narrow current windows.",
+      "source_url": "https://www.iam-media.com/review/the-patent-prosecution-review/2026/article/israel-essential-updates-national-prosecution-processes",
+      "raw_snippet": "Third parties would be permitted to submit observations and prior art to the examiner throughout the entire examination period.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL_HE.md#tikun-15"]
+    },
+    {
+      "claim_id": "amendment-15-effective-dates",
+      "claim": "Most Amendment 15 provisions would take effect one month after publication, while examination-on-request, provisional applications, and confidential prior-use protections would take effect one year after publication.",
+      "source_url": "https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/",
+      "raw_snippet": "Many provisions will take effect one month after publication, while provisions on examination-on-request, provisional applications, and confidential prior use will take effect one year later.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL_HE.md#tikun-15"]
+    },
+    {
+      "claim_id": "ilpo-2026-fee-schedule-effective-date",
+      "claim": "The ILPO official 2026 fee schedule is published at gov.il/he/pages/ilpo-fees, effective 1 January 2026.",
+      "source_url": "https://www.gov.il/he/pages/ilpo-fees",
+      "raw_snippet": "לוח אגרות רשות הפטנטים, התעריפים בתוקף מיום 1 בינואר 2026 (פורסם באתר רשמי gov.il).",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#fee-structure-overview", "SKILL.md#references", "SKILL_HE.md#mivne-haagrot", "SKILL_HE.md#mekorot"]
+    },
+    {
+      "claim_id": "ilpo-2024-annual-report-43-months-average",
+      "claim": "According to the ILPO 2024 Annual Report, the average filing-to-end-of-examination time is around 43 months overall, around 51.3 months for biotechnology, and around 39.3 months for mechanical/electronics/physics applications.",
+      "source_url": "https://www.iam-media.com/review/the-patent-prosecution-review/2026/article/israel-essential-updates-national-prosecution-processes",
+      "raw_snippet": "According to the last published Annual Report of the ILPO for 2024, the average time from the filing of an application until the end of examination is 43 months. Different technological fields average different amounts of time, with examination of applications in biotechnology being the longest (on average 51.3 months from filing of the application) and mechanics, electronics and physics being the shortest (on average 39.3 months from the filing of the application).",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#current-examination-backlog", "SKILL_HE.md#omes-hbchina"]
+    },
+    {
+      "claim_id": "isa-il-search-fee-1333-usd-march-2026",
+      "claim": "The ISA/IL international search fee is USD 1,333 effective 1 March 2026, per the WIPO PCT Applicant's Guide Israel chapter.",
+      "source_url": "https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL",
+      "raw_snippet": "The new dollar amount of the search fee required by the ILPO (Israel Patent Office) when acting as an International Searching Authority is $1,333 and will go into effect March 1, 2026.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#international-searching-authority-isa-options", "SKILL.md#references", "SKILL_HE.md#efsharuyot-isa", "SKILL_HE.md#mekorot"]
+    },
+    {
+      "claim_id": "patent-cooperation-treaty-source",
+      "claim": "Israel is a contracting state of the Patent Cooperation Treaty (PCT) and ILPO acts as Receiving Office, ISA, and IPEA; country-specific requirements appear in the WIPO PCT Applicant's Guide, Israel chapter.",
+      "source_url": "https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL",
+      "raw_snippet": "PCT Applicant's Guide - Israel - country chapter maintained by WIPO with Israel-specific filing requirements, ISA/IPEA elections, fee amounts in USD, and national-phase information.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pct-international-filing-from-israel", "SKILL.md#references", "SKILL_HE.md#hagasha-pct"]
+    },
+    {
+      "claim_id": "ilpo-portal-url",
+      "claim": "The Israel Patent Office portal is at gov.il/en/departments/israel_patent_office (English) and gov.il/he/departments/israel_patent_office (Hebrew).",
+      "source_url": "https://www.gov.il/en/departments/israel_patent_office",
+      "raw_snippet": "Israel Patent Office - official portal on gov.il publishes patent forms, fees, ISA/IPEA notices, the annual report, and the legislative process status.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#references", "SKILL_HE.md#mekorot"]
+    },
+    {
+      "claim_id": "knesset-status",
+      "claim": "As of May 2026, the Amendment 15 bill is in the Knesset Constitution, Law and Justice Committee following its first reading; it is not yet enacted.",
+      "source_url": "https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/",
+      "raw_snippet": "The bill will proceed to the Knesset's Constitution, Law and Justice Committee following its first reading.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": ["SKILL.md#pending-patent-law-amendment-no-15-2025-2026-reform", "SKILL_HE.md#tikun-15"]
+    }
+  ]
+}

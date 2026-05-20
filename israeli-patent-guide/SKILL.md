@@ -2,6 +2,7 @@
 name: israeli-patent-guide
 description: "Full guidance through the Israeli patent process: prior art search on ILPO database, national application filing, PCT international filing via ILPO, fees, and maintenance. Use when you need to check invention novelty, file a patent in Israel, track payment deadlines, or understand pharmaceutical patent term extension (PTE). Saves hours of research and prevents costly filing mistakes. Do NOT use for trademark registration, design patents, or legal advice replacing a licensed patent attorney."
 license: MIT
+version: 1.2.0
 ---
 
 ## Overview
@@ -115,7 +116,7 @@ ILPO was recognized as an ISA/IPEA in 2012. Applicants filing through RO/IL can 
 | EPO (ISA/EP) | Widely respected; higher cost; English, French, or German required |
 | USPTO (ISA/US) | Available for Israeli applicants; search report in English |
 
-The choice of ISA affects search quality perception in national phases and the cost of the international phase.
+The choice of ISA affects search quality perception in national phases and the cost of the international phase. The **ISA/IL international search fee** is set at **USD 1,333** effective **1 March 2026** (WIPO PCT Applicant's Guide, Israel chapter). Always confirm the current PCT fee in the WIPO Applicant's Guide before filing, since WIPO updates the dollar-denominated fee periodically.
 
 ### National Phase Entry in Israel
 
@@ -147,6 +148,35 @@ Missing the Section 18 response deadline without an extension can lead to the ap
 
 Once substantive examination starts, ILPO issues examination reports (Office Actions). The applicant must respond within the deadline stated in each report. As a general rule the response period is a few months and is extendable on payment of extension fees, but the exact period and the maximum cumulative extension depend on the specific report and current ILPO practice, so confirm the deadline printed on each Office Action rather than assuming a fixed number. The continuing IDS duty under Section 18 runs in parallel through this whole phase, up to the Notice of Acceptance.
 
+### Current Examination Backlog
+
+According to the ILPO 2024 Annual Report, the average elapsed time from filing to the end of substantive examination is around **43 months**. The figure varies materially by technology:
+
+- **Biotechnology**: around **51.3 months** on average
+- **Mechanical, electronics, and physics**: around **39.3 months** on average
+
+These are averages, not commitments. They explain why accelerated examination (PPH, green-tech, competitor-on-market, age/health) is a real lever for applicants whose business cannot wait three to four years for an enforceable patent. They are also part of the policy backdrop for the pending Amendment 15 reform discussed below.
+
+
+## Pending Patent Law Amendment No. 15 (2025-2026 reform)
+
+On **30 December 2025** the Israeli government published the **Patents Law (Amendment No. 15) Bill, 5786-2025**, the most substantial overhaul of Israeli patent procedure in decades. As of May 2026 the bill is **in the Knesset Constitution, Law and Justice Committee following first reading**; it is not yet in force. Practitioners should track it because the proposed changes touch filing strategy, queue management, and grace-period reliance.
+
+### Headline changes proposed by Amendment 15
+
+1. **Examination on request, with a 4-year mandatory deadline.** Israel would move from the current automatic-queue model to an "examination on request" system similar to the EPO. The applicant would have to file a Request for Examination within **4 years** from the filing date. Miss the 4-year window and the application is deemed abandoned. This replaces the Section 18 "Notice prior to Examination" timing mechanic described above.
+2. **Domestic provisional applications.** A new Israeli **provisional application** route would be introduced. Today Israel has no US-style provisional (see "No True Provisional Application" below). The reform would let applicants secure an early Israeli filing date with relaxed formal requirements, then convert or claim priority within the Paris year. This directly addresses a long-standing gap.
+3. **12-month grace period.** A statutory **12-month grace period** would protect an inventor's right to a patent against the inventor's own pre-filing disclosures (or disclosures made with consent), provided the application is filed within 12 months of the disclosure. This is longer than the narrow grace currently available under Israeli case law and aligns Israel more closely with the United States and Japan.
+4. **Expanded third-party observations.** Third parties would be permitted to submit observations and prior art to the examiner **throughout the entire examination period**, not only inside specific narrow windows as is the case today.
+5. **Staged effective dates.** Most provisions would enter into force **1 month after publication** in the Official Gazette once the law is enacted. The bigger structural pieces (examination on request, the new provisional route, and confidential prior-use protections) would enter into force **1 year after publication** to give ILPO and the bar time to adapt.
+
+### Practical implications for filing today (May 2026)
+
+- **Do not assume the new regime is in force.** Until the bill clears second and third readings and is published, the automatic-queue + Section 18 Notice model still governs. Continue docketing Section 18 deadlines.
+- **Reconsider US-only provisional reliance.** If a domestic provisional becomes available in Israel, future filings may be structured to claim priority from an Israeli provisional rather than a US one. This is a strategy decision to revisit once the law is in force.
+- **Track the grace-period commencement.** A 12-month grace is helpful only if the conversion deadline is met. Even after Amendment 15 enters into force, public disclosure remains risky in jurisdictions without an equivalent grace (most of the EU and China).
+- **Monitor Reinhold Cohn, IAM, and ILPO portal updates** for the final version of the text as it moves through the Constitution Committee.
+
 
 ## Divisional, Accelerated Examination, and the Absence of a True Provisional
 
@@ -160,7 +190,9 @@ ILPO can move an application to the front of the examination queue on an accepte
 
 ### No True Provisional Application
 
-Israel does not have a US-style provisional application. The practical substitute is the **12-month Paris Convention priority year**: file a first application (in Israel or elsewhere), then file the full national or PCT application within 12 months while claiming priority back to that first filing. There is no separate cheaper "provisional" filing track at ILPO.
+Israel does not have a US-style provisional application **today**. The practical substitute is the **12-month Paris Convention priority year**: file a first application (in Israel or elsewhere), then file the full national or PCT application within 12 months while claiming priority back to that first filing. There is no separate cheaper "provisional" filing track at ILPO under the current law.
+
+This may change. The pending **Patents Law (Amendment No. 15) Bill, 5786-2025** (published 30 December 2025) proposes a new Israeli domestic provisional application with relaxed formal requirements, with a staged effective date of one year after publication once enacted. See the dedicated "Pending Patent Law Amendment No. 15" section above. Until the bill is enacted and the effective date arrives, treat the lack of a domestic provisional as the binding rule.
 
 
 ## Fees and Cost Savings
@@ -178,7 +210,7 @@ Most early-stage Israeli startups qualify. To claim the reduction, the applicant
 
 ### Fee Structure Overview
 
-ILPO fees are CPI-indexed and change at the start of each year, so always confirm the current amount on the official ILPO fee portal before paying. The figures below reflect the 2026 schedule (in NIS). Note that substantive examination is **included in the filing fee**; there is no separate "examination fee" for a normal application. A separate fee applies only when the applicant requests **accelerated** examination.
+ILPO fees are CPI-indexed and change at the start of each year, so always confirm the current amount on the **official 2026 ILPO fee schedule at https://www.gov.il/he/pages/ilpo-fees** (published 1 January 2026) before paying. The figures below reflect the 2026 schedule (in NIS). Note that substantive examination is **included in the filing fee**; there is no separate "examination fee" for a normal application. A separate fee applies only when the applicant requests **accelerated** examination.
 
 | Fee Type | Full Fee (2026, NIS) | With 40% Reduction (approx.) |
 |---|---|---|
@@ -310,8 +342,11 @@ Always confirm fee figures against the official ILPO portal, since the schedule 
 ## References
 
 - Israeli Patents Law, 5727-1967 (as amended): Available via the Israeli Ministry of Justice (laws.justice.gov.il)
-- ILPO Official Fee Schedule: gov.il/en/departments/ilpo (updated annually; fees are CPI-indexed)
-- WIPO PCT Applicant's Guide, Israel Chapter: pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
+- ILPO Official Fee Schedule 2026: https://www.gov.il/he/pages/ilpo-fees (published 1 January 2026; CPI-indexed)
+- ILPO portal (English): https://www.gov.il/en/departments/israel_patent_office
+- ILPO 2024 Annual Report (filing-to-end-of-examination averages): see the publications listing at https://www.gov.il/he/Departments/israel_patent_office
+- Patents Law (Amendment No. 15) Bill, 5786-2025, published 30 December 2025: Reinhold Cohn Group client alert, https://rcip.co.il/articles/client-alert-comprehensive-overview-of-the-proposed-israel-patent-law-amendment-no-15-2025/ ; IAM 2026 Patent Prosecution Review (Israel chapter), https://www.iam-media.com/review/the-patent-prosecution-review/2026/article/israel-essential-updates-national-prosecution-processes
+- WIPO PCT Applicant's Guide, Israel Chapter (valid from 1 March 2026, ISA/IL search fee USD 1,333): https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
 - Patent Cooperation Treaty Regulations, Rule 49.6 (reinstatement)
 - Israeli Patents Regulations, 5729-1969
 - See also: `/references/ilpo-fee-schedule.md`, `/references/pct-israel-checklist.md`
