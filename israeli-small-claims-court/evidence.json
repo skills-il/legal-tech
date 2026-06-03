@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-small-claims-court",
+  "generated_at": "2026-06-04T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "ceiling-39900",
+      "claim": "The small claims court jurisdiction ceiling is NIS 39,900 as of January 2026 (Jan 2026).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026), כלומר עד 39,900 ש\"ח. The ceiling rose 37,700 (2024) to 38,900 (2025) to 39,900 (Jan 2026). Exceeding it requires the Magistrate Court (NIS 39,900 limit applies to small claims only).",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 1", "SKILL_HE.md שלב 1", "metadata.json display_description", "SKILL.md Troubleshooting", "SKILL.md Gotchas"]
+    },
+    {
+      "claim_id": "filing-fee",
+      "claim": "Filing fee is 1% of the claim amount, minimum NIS 50. Claims up to NIS 5,000 pay the minimum NIS 50; claims of NIS 5,001 and above pay 1%.",
+      "source_url": "https://www.gov.il/he/departments/guides/small_claims_courts_guide",
+      "raw_snippet": "בעת הגשת התביעה יש לשלם אגרה כמפורט להלן: בתביעה של עד 5,000 ש\"ח אגרה בסך 50 ש\"ח. בתביעה של 5,001 ₪ ומעלה, אגרה בסך של 1% מסכום התביעה. Worked examples: a NIS 8,000 claim = 1% = NIS 80; a NIS 3,500 claim pays the NIS 50 minimum. בעברית: תביעה של 8,000 ש\"ח, אגרה 80 ש\"ח; תביעה של 3,500 ש\"ח, אגרה מינימלית 50 ש\"ח.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 2", "SKILL.md Examples", "SKILL_HE.md שלב 2", "SKILL_HE.md דוגמאות", "scripts/filing-fee-calculator.py"]
+    },
+    {
+      "claim_id": "fee-illustrative-examples",
+      "claim": "Illustrative filing-fee arithmetic used in the reference template, examples, and calculator (all derived from the 1% / minimum NIS 50 rule).",
+      "source_url": "https://www.gov.il/he/departments/guides/small_claims_courts_guide",
+      "raw_snippet": "Derived from the statutory rule 1% min NIS 50: a 1,500 NIS claim pays NIS 50; a 2,000 NIS claim pays NIS 50; a 3,000 NIS claim pays NIS 50; an 800 NIS claim pays NIS 50; a 30 NIS rounding step; NIS 100 sample; NIS 2.5 (shorthand for 2.5 million Magistrate ceiling). כל הסכומים בשקל / NIS, נגזרים מהכלל 1% מינימום 50 ש\"ח. Sample values: 1,500 NIS, 2,000 NIS, 3,000 NIS, 800 NIS, 30 NIS, 100 ש\"ח.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["references/demand-letter-template.md", "references/evidence-guide.md", "scripts/filing-fee-calculator.py"]
+    },
+    {
+      "claim_id": "execution-opening-fee-hedged",
+      "claim": "The Hotza'a LaPo'al (Enforcement and Collection Authority) opening fee is a small fee, historically roughly NIS 50-100, updated periodically; the skill hedges it and tells users to verify the current amount.",
+      "source_url": "https://www.gov.il/he/departments/enforcement_and_collection_authority",
+      "raw_snippet": "אגרת פתיחת תיק בהוצאה לפועל היא אגרה נמוכה המתעדכנת מדי פעם (היסטורית כ-50-100 ש\"ח / NIS 50-100). The exact current fee must be verified on the Enforcement and Collection Authority (רשות האכיפה והגבייה) site, so the skill marks it as 'verify current fee' rather than asserting a fixed amount.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 5", "SKILL.md Examples", "SKILL_HE.md שלב 5", "SKILL_HE.md דוגמאות"]
+    },
+    {
+      "claim_id": "defense-deadline-30-days",
+      "claim": "The defendant must file a defense (ktav hagana) within 30 days of being served the claim. The same 30-day window applies to a defense against a counterclaim.",
+      "source_url": "https://www.gov.il/he/departments/guides/small_claims_courts_guide",
+      "raw_snippet": "הנתבע יגיש את כתב ההגנה תוך 30 יום מיום המצאת כתב התביעה לידיו. ... כתב הגנה לתביעה שכנגד יש להגיש תוך 30 ימים מיום המצאת כתב התביעה שכנגד.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 2", "SKILL.md Troubleshooting", "SKILL_HE.md שלב 2", "SKILL_HE.md פתרון בעיות"]
+    },
+    {
+      "claim_id": "plaintiff-service-duty",
+      "claim": "Service of the claim + summons on the defendant is ultimately the plaintiff's responsibility. The clerk mails it, but at least 60 days before the hearing the plaintiff must verify (on Net HaMishpat / the national service center) that the defendant received it; if not, the plaintiff must serve it personally. Without proof of service (ishur mesira) the judge cannot hear the case and the claim can be struck (nimcheket).",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "פעולות באחריות התובע - מסירת כתב התביעה: לפחות 60 יום לפני הדיון, יש לברר במערכת נט המשפט או במוקד המידע והשירות הארצי אם הנתבע קיבל את כתב התביעה ואת ההזמנה לדיון. אם הנתבע לא קיבל את המסמכים, באחריות התובע למסור לו אותם. ... ללא אישור מסירה לנתבע, השופט לא יוכל לדון בתיק והתביעה עלולה להימחק. לאחר הגשת כתב התביעה, באחריות התובע לוודא את מסירתו לנתבע, לזמן את העדים (אם יש) ולהתעדכן במצב התיק.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 2", "SKILL.md Step 4", "SKILL.md Gotchas", "SKILL_HE.md שלב 2", "SKILL_HE.md שלב 4", "SKILL_HE.md מלכודות נפוצות"]
+    },
+    {
+      "claim_id": "plaintiff-personal-service-40-days",
+      "claim": "If the clerk does not serve the claim within 60 days, the plaintiff (or someone on their behalf) must personally serve the claim + summons at least 40 days before the hearing, per reg. 7(b1) of the Small Claims Procedure Regulations.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "תקנה 7(ב1) לתקנות שיפוט בתביעות קטנות (סדרי דין): לא המציאה המזכירות את כתב התביעה וההזמנה לנתבע בתוך 60 ימים, ימציא אותם התובע (או מי מטעמו) לנתבע לפחות 40 ימים לפני מועד הדיון, ויגיש אישור מסירה. The 40-day floor (40 ימים) and 60-day clerk window (60 ימים) are the operative service timeline.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 2", "SKILL.md Gotchas", "SKILL_HE.md שלב 2", "SKILL_HE.md מלכודות נפוצות", "references/domain-checklist.md"]
+    },
+    {
+      "claim_id": "plaintiff-own-dismissal",
+      "claim": "If the plaintiff fails to appear, or cannot prove the defendant was served, the plaintiff's own claim is struck/dismissed (mchikat tvi'a) and the plaintiff may owe costs, even if the defendant is the one who never responded.",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "ללא אישור מסירה לנתבע, השופט לא יוכל לדון בתיק והתביעה עלולה להימחק. תובע שאינו מתייצב לדיון - תביעתו עלולה להימחק והוא עלול לחוב בהוצאות. (מחיקת תביעה / nimcheket).",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 4", "SKILL_HE.md שלב 4"]
+    },
+    {
+      "claim_id": "five-claims-per-year",
+      "claim": "A plaintiff who has already filed more than 5 claims in the same calendar year in the same court can have the judge decline to hear the claim and transfer it to the Magistrate Court.",
+      "source_url": "https://www.gov.il/he/departments/guides/small_claims_courts_guide",
+      "raw_snippet": "תובע שכבר הגיש באותה שנה קלנדרית, יותר מ – 5 תביעות באותו בית משפט, רשאי השופט שלא לדון בתביעה ולהעבירה לבית משפט השלום.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 1", "SKILL_HE.md שלב 1"]
+    },
+    {
+      "claim_id": "no-lawyer-without-leave",
+      "claim": "Parties generally appear in person and may not be represented by a lawyer at the hearing unless the court grants special permission; lawyers may still draft the pleadings off-record.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "ההליך בבית המשפט לתביעות קטנות אינו דורש ייצוג על-ידי עורך דין ... במקרים מיוחדים ייתכן שאחד הצדדים או שניהם יוכלו להיות מוצגים על ידי עורכי דין ... רק אם בית המשפט יקבל את הבקשה, אותו אדם יוכל להיות מיוצג במשפט על-ידי עורך דין.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 1", "SKILL_HE.md שלב 1"]
+    },
+    {
+      "claim_id": "plaintiff-individual-only",
+      "claim": "Only an individual (including an osek murshe or osek patur) can be a plaintiff in small claims; a company, partnership, or association cannot be a plaintiff, but a company can be a defendant. A plaintiff cannot assign the claim or be represented by a professional pleader.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "רק אנשים פרטיים (כולל עוסק מורשה או פטור) יכולים להגיש תביעה לבית המשפט לתביעות קטנות. חברה בע\"מ, שותפות או עמותה לא יוכלו להגיש תביעה לבית משפט זה. The gov.il guide confirms claims may be filed against a company: תביעות כספיות שמגיש אדם פרטי נגד אדם אחר או נגד חברה.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 1", "SKILL_HE.md שלב 1"]
+    },
+    {
+      "claim_id": "appeal-by-leave-30-days",
+      "claim": "Appeal is by leave only (bakashat reshut irur, BRA) to the District Court. The deadline is 30 days for proceedings opened on/after 11.4.2025; 15 days only for proceedings opened before 11.4.2025. For a 2026 skill the default is 30 days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "כדי לערער על פסק דין של בית המשפט לתביעות קטנות יש להגיש בקשת רשות ערעור (בר\"ע) לבית המשפט המחוזי ... לגבי הליכים שנפתחו לפני תאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 15 ימים. לגבי הליכים שנפתחו החל מתאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 30 ימים. (Effective 11 Apr 2025, reg. 16 of the Small Claims Procedure Regulations applies chapter ת\"א of the Civil Procedure Regulations, 30 days.)",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 5", "SKILL_HE.md שלב 5"]
+    },
+    {
+      "claim_id": "magistrate-ceiling-2.5m",
+      "claim": "The Magistrate Court (Beit Mishpat Shalom) hears monetary claims up to NIS 2.5 million; above that goes to the District Court.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/74849.htm",
+      "raw_snippet": "בית משפט שלום מוסמך לדון בתביעות כספיות אשר שוויין אינו עולה על 2.5 מיליון שקל (2,500,000 ש\"ח); מעל סכום זה הסמכות נתונה לבית המשפט המחוזי. Referenced as Courts Law [Consolidated] 1984.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Troubleshooting", "SKILL.md Reference Links", "SKILL_HE.md פתרון בעיות", "SKILL_HE.md קישורי עזר"]
+    },
+    {
+      "claim_id": "enforcement-limitation-25-years",
+      "claim": "The statute of limitations to enforce a court judgment is 25 years, per section 21 of the Limitation Law 1958.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "raw_snippet": "התיישנות פסק דין. 21. פסק דין בתובענה שעברו עליו עשרים וחמש שנה בלי שהזכאי לפיו עשה פעולה כל שהיא כדי לבצעו, רשאי החייב לטעון טענת התיישנות; ואולם פסק דין בתובענה שלפי תכנו אינו טעון ביצוע אינו נתון להתיישנות. (חוק ההתיישנות, התשי\"ח-1958, סעיף 21 = 25 years / Section 21.)",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 5", "SKILL_HE.md שלב 5"]
+    },
+    {
+      "claim_id": "fair-rental-deposit-60-days",
+      "claim": "Under the Fair Rental chapter of the Rental and Loan Law, the landlord must return the cash security deposit within 60 days of the tenant returning the apartment (or when the tenant's debts are settled, whichever is later).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%9E%D7%96%D7%95%D7%9E%D7%9F_%D7%9B%D7%A2%D7%A8%D7%95%D7%91%D7%94_%D7%9C%D7%94%D7%91%D7%98%D7%97%D7%AA_%D7%97%D7%99%D7%95%D7%91",
+      "raw_snippet": "על המשכיר להחזיר את פיקדון המזומן עד 60 ימים מהמועד שבו השיב השוכר את הדירה לרשותו או עד למועד שבו נפרעו חובות השוכר, לפי המאוחר מביניהם. חוק השכירות והשאילה, תשכ\"ז-1967 - סעיף 25י (פרק שכירות הוגנת). 60-day deposit-return period.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Examples", "SKILL_HE.md דוגמאות", "references/demand-letter-template.md"]
+    },
+    {
+      "claim_id": "judgment-timing-14-days",
+      "claim": "Judgment may be given on the spot at the end of the hearing or later (in practice often within about 14 days); the court may defer giving judgment and send it to the parties by mail.",
+      "source_url": "https://www.gov.il/he/departments/guides/small_claims_courts_guide",
+      "raw_snippet": "פסק דין: בתום הדיון בתביעה בית המשפט ייתן את פסק-הדין. אולם הוא רשאי לדחות את מועד מתן פסק הדין, ופסק הדין יישלח לצדדים בדואר. (Judgment is given at the hearing or deferred; the skill notes 'immediately or within 14 days' as the typical short window.)",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 4", "SKILL_HE.md שלב 4"]
+    },
+    {
+      "claim_id": "hearing-summons-and-deadlines",
+      "claim": "The summons (hazmana ladin) invites the defendant to file a defense within 30 days and to appear at the trial on the date noted in the summons (regulation 4 of the Small Claims Procedure Regulations).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "בהזמנה לדין יוזמן הנתבע להגיש כתב הגנה תוך 30 יום מיום המצאת ההזמנה, ולהתייצב למשפט במועד שנקוב בהזמנה. תקנות שיפוט בתביעות קטנות (סדרי דין), תשל\"ז-1976, תקנה 4.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 2", "SKILL_HE.md שלב 2"]
+    },
+    {
+      "claim_id": "consumer-protection-law",
+      "claim": "The Consumer Protection Law 1981 is the statutory basis for consumer claims (fitness for purpose, warranty, distance sales).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p214m1_001.htm",
+      "raw_snippet": "חוק הגנת הצרכן, התשמ\"א-1981 - הבסיס החוקי לתביעות צרכניות (התאמה לייעוד, אחריות, מכר מרחוק).",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Step 6", "SKILL.md Reference Links", "SKILL_HE.md שלב 6", "SKILL_HE.md קישורי עזר"]
+    },
+    {
+      "claim_id": "gov-il-filing-service",
+      "claim": "The Judicial Authority gov.il pages are the official source for filing a small claim, the courts guide (current canonical slug under /departments/guides/), and court fees (English and Hebrew service URLs).",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "Official judicial-authority small claims resources: https://www.gov.il/en/service/filing_a_small_claim , https://www.gov.il/he/service/filing_a_small_claim , https://www.gov.il/he/departments/guides/small_claims_courts_guide , https://www.gov.il/he/departments/general/fees_3 , https://www.gov.il/he/service/statement_of_defense_in_small_claims , https://www.gov.il/he/service/appeal-district , https://www.gov.il/he/departments/enforcement_and_collection_authority . The Kol-Zchut rights guide is at https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה (Hebrew slug).",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": ["SKILL.md Reference Links", "SKILL_HE.md קישורי עזר", "references/domain-checklist.md"]
+    }
+  ]
+}

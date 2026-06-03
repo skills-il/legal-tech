@@ -14,11 +14,13 @@ Small claims court (Beit Mishpat LeTvi'ot Ktanot) is a division of the Magistrat
 
 | Parameter | Details |
 |-----------|---------|
-| Maximum claim amount | NIS 39,900 (as of January 2026, updated periodically) |
+| Maximum claim amount | NIS 39,900 (Jan 2026, updated periodically) |
 | Minimum filing fee | NIS 50 (or 1% of claim, whichever is higher) |
-| Lawyer representation | Not required; self-representation is the norm |
-| Legal entities | Both individuals and businesses can file/be sued |
-| Appeals | Very limited; appeal only on points of law to District Court |
+| Lawyer representation | Barred without court leave; lawyers may draft pleadings but generally cannot appear (court may grant special permission for special reasons) |
+| Who can be a plaintiff | Only an individual (including an osek murshe/patur); a company, partnership, or association cannot be a plaintiff (but can be a defendant), and a plaintiff cannot assign the claim or use a professional pleader |
+| Max claims per plaintiff | Up to 5 per calendar year in the same court (more requires court leave) |
+| Legal entities | Individuals file; companies and businesses can be sued as defendants |
+| Appeals | Very limited; leave to appeal (bakashat reshut irur) on points of law to District Court |
 
 **Types of claims accepted:**
 
@@ -52,9 +54,10 @@ How to file a small claims case in Israel:
 | 2. Prepare the claim form | הכנת טופס תביעה | Form available on gov.il under "tviyot ktanot" |
 | 3. Calculate filing fee | חישוב אגרה | 1% of claim amount, minimum NIS 50 |
 | 4. Submit the claim | הגשת התביעה | Online via gov.il, by mail, or in person at court |
-| 5. Court sends summons | בית המשפט שולח הזמנה | Defendant notified by registered mail |
-| 6. Defendant responds | הנתבע מגיב | 15 days to file a response (ktav hagana) |
-| 7. Hearing scheduled | קביעת מועד דיון | Court sets hearing date |
+| 5. Court sends summons | בית המשפט שולח הזמנה | The clerk mails the claim + summons to the defendant by registered mail |
+| 6. Verify service (plaintiff's duty) | מסירה באחריות התובע | At least 60 days before the hearing, check Net HaMishpat / the national service center that the defendant actually received the claim + summons. If not served (clerk has 60 days), YOU must serve it personally and file proof of service (ishur mesira). Without proof of service the judge cannot hear the case and your claim can be struck |
+| 7. Defendant responds | הנתבע מגיב | 30 days to file a defense (ktav hagana) from receiving the claim |
+| 8. Hearing scheduled | קביעת מועד דיון | Court sets hearing date; defendant is summoned to appear on the date noted in the summons |
 
 **Filing fee calculation:**
 
@@ -147,13 +150,14 @@ What to expect at the small claims court hearing:
 | Be respectful to opponent | Judges notice hostile or aggressive behavior |
 | Accept mediation if offered | Often results in faster, mutually acceptable resolution |
 
-**If the defendant does not appear:**
+**If a party does not appear (works both ways):**
 
 | Scenario | Result |
 |----------|--------|
 | Defendant absent without notice | Judge may grant default judgment (psak din be'he'eder) in plaintiff's favor |
 | Defendant requested postponement | Judge may reschedule |
-| Plaintiff absent | Case may be dismissed (mchikat tvi'a) |
+| Plaintiff absent | The plaintiff's own claim is struck/dismissed (mchikat tvi'a) and the plaintiff may owe costs |
+| Plaintiff cannot prove the defendant was served | The judge cannot hear the case and the claim can be struck, even if the defendant is the one who never showed |
 
 ### Step 5: Judgments and Enforcement
 After the hearing, understanding the judgment and enforcement process:
@@ -179,7 +183,7 @@ After the hearing, understanding the judgment and enforcement process:
 
 | Item | Details |
 |------|---------|
-| Opening fee | Approximately NIS 50-100 |
+| Opening fee | A small opening fee applies (roughly NIS 50-100 historically); verify the current fee on the Enforcement and Collection Authority site, as it is updated periodically |
 | Interest | Judgment amount accrues interest from ruling date |
 | Lawyer for enforcement | Optional; many handle enforcement themselves |
 | Timeline to enforcement | 30 days after judgment + processing time |
@@ -192,8 +196,8 @@ After the hearing, understanding the judgment and enforcement process:
 | Who can appeal | Losing party |
 | Appeal to | District Court (Beit Mishpat Mechozi) |
 | Grounds | Points of law only (not factual disagreements) |
-| Timeline | 15 days from receiving the judgment |
-| Permission required | Must request leave to appeal (reshut le'irur) |
+| Timeline | 30 days from receiving the judgment (15 days for proceedings opened before 11 Apr 2025) |
+| Permission required | Must request leave to appeal (bakashat reshut irur) |
 | Success rate | Low; small claims judgments are rarely overturned |
 
 ### Step 6: Common Case Types
@@ -251,7 +255,7 @@ Typical small claims cases and their specific considerations:
 
 ### Example 4: Enforcing a Judgment
 **Input:** "I won my small claims case but the defendant hasn't paid. What now?"
-**Output:** Explain the enforcement process: wait for the 30-day voluntary compliance period to expire. Then open an execution file (tik hotza'a lapo'al) at the nearest Execution Office. Bring the original judgment and your identification. Pay the opening fee (approximately NIS 50-100). The Execution Office will send the defendant a warning notice (azhara). If the defendant still does not pay, enforcement measures include: wage garnishment (ikul mishkoret), bank account seizure (ikul cheshbon bank), property liens (shi'abud), and potentially travel restrictions. The judgment amount will accrue interest from the ruling date. Many defendants pay after receiving the Execution Office warning.
+**Output:** Explain the enforcement process: wait for the 30-day voluntary compliance period to expire. Then open an execution file (tik hotza'a lapo'al) at the nearest Execution Office. Bring the original judgment and your identification. Pay the opening fee (a small fee, roughly NIS 50-100 historically; verify the current amount on the Enforcement and Collection Authority site). The Execution Office will send the defendant a warning notice (azhara). If the defendant still does not pay, enforcement measures include: wage garnishment (ikul mishkoret), bank account seizure (ikul cheshbon bank), property liens (shi'abud), and potentially travel restrictions. The judgment amount will accrue interest from the ruling date. Many defendants pay after receiving the Execution Office warning.
 
 ## Bundled Resources
 
@@ -271,6 +275,7 @@ Typical small claims cases and their specific considerations:
 
 ## Gotchas
 
+- Service on the defendant is ultimately the PLAINTIFF's responsibility, and this is the most common reason a self-filer's case is struck. The court clerk mails the claim + summons, but if it is not delivered within 60 days the plaintiff must serve it personally (at least 40 days before the hearing) and file proof of service (ishur mesira). At least 60 days before the hearing, verify on Net HaMishpat or the national service center that the defendant actually received it, so there is time to arrange personal service if the mail bounced. Without proof of service the judge cannot hear the case and the claim is struck (nimcheket), even though the defendant is the one who failed to respond.
 - The small claims court jurisdiction limit (NIS 39,900 as of January 2026) is updated periodically by the Ministry of Justice. Agents using an outdated limit will give incorrect filing advice. Always verify the current threshold.
 - Israeli legal citation format uses "Psakei Din" style, not Bluebook or OSCOLA. Agents trained on US or UK legal norms will produce improperly formatted citations in demand letters and court filings.
 - Filing fees in Israeli small claims court are calculated as 1% of the claim amount (minimum NIS 50), not a flat fee. Agents familiar with US small claims (which use flat filing fees) will miscalculate costs.
@@ -282,7 +287,7 @@ Typical small claims cases and their specific considerations:
 | Source | URL | What to Check |
 |--------|-----|--------------|
 | Judicial Authority -- Filing a Small Claim | https://www.gov.il/en/service/filing_a_small_claim | Current jurisdiction limit, procedure, and official filing service |
-| Judicial Authority -- Small Claims Courts Guide | https://www.gov.il/en/pages/small_claims_courts_guide | Official overview of the court, jurisdiction rules, and forms |
+| Judicial Authority -- Small Claims Courts Guide | https://www.gov.il/he/departments/guides/small_claims_courts_guide | Official overview of the court, jurisdiction rules, and forms |
 | Judicial Authority -- Court Fees | https://www.gov.il/he/departments/general/fees_3 | Current filing fee formulas for small claims and related courts |
 | Kol-Zchut -- Filing a Small Claim | https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה | Step-by-step rights guide in Hebrew (unofficial but well-sourced) |
 | Consumer Protection Law 1981 | https://www.nevo.co.il/law_html/law01/p214m1_001.htm | Statutory basis for consumer claims (fitness for purpose, warranty, distance sales) |
@@ -300,4 +305,4 @@ Solution: Try these methods to find the defendant's address: check the original 
 
 ### Error: "Defendant filed a counterclaim (tvi'a negdit)"
 Cause: The defendant is claiming money from you as part of the same dispute.
-Solution: A counterclaim is common, especially in landlord-tenant and service disputes. You must respond to the counterclaim within 15 days, just as the defendant had to respond to your claim. Prepare evidence refuting the counterclaim. Both the original claim and counterclaim will be heard together in the same hearing. The judge will decide both claims. Do not panic; counterclaims are often a negotiation tactic. Focus on strengthening your original case with solid evidence.
+Solution: A counterclaim is common, especially in landlord-tenant and service disputes. You must respond to the counterclaim within 30 days, just as the defendant had to respond to your claim. Prepare evidence refuting the counterclaim. Both the original claim and counterclaim will be heard together in the same hearing. The judge will decide both claims. Do not panic; counterclaims are often a negotiation tactic. Focus on strengthening your original case with solid evidence.
