@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-fines-fighter",
+  "generated_at": "2026-06-16T22:30:00Z",
+  "claims": [
+    {
+      "claim_id": "appeal-windows-and-surcharge",
+      "claim": "Two appeal windows: 30-day cancellation (bakasha le-bitul) and 90-day court-hearing (bakasha le-hishafet, or 30 days from rejection); after day 90 a +50% surcharge accrues, then +5% every 6 months; late-appeal exceptions under Criminal Procedure Law § 230 (Section 230 / סעיף 230); breirot mishpat under Section 229 / סעיף 229",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_דוח_תנועה_לתשלום_קנס",
+      "raw_snippet": "30 יום בקשה לביטול; 90 יום בקשה להישפט או 30 יום מדחיית בקשה לביטול; תוספת פיגור 50% (לא 100%) ואז 5% כל 6 חודשים; the surcharge is +50% not +100% and not at day 30; סעיף 229 ברירות משפט; סעיף 230 איחור מוצדק; Section 229; Section 230",
+      "fetched_at": "2026-06-16T22:25:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "point-system-bands",
+      "claim": "Point system (Traffic Regulations Part 14A): 12-22 points = basic course + test; 24-34 = basic + advanced course; 36+ (first) = 3-month suspension + theory test; 36+ (second within 6 years) = 9-month suspension + theory & practical + medical institute evaluation. No warning-letter tier. Points valid 2 years (up to 20 points) or 4 years (over 20 points) from offence date, conditioned on completing required measures",
+      "source_url": "https://www.gov.il/he/pages/scoring_system_traffic_offens",
+      "raw_snippet": "12-22 קורס יסודי; 24-34 קורס יסודי + מתקדם; 36 ומעלה פסילה 3 חודשים ומבחן תיאוריה; פעם שנייה תוך 6 שנים פסילה 9 חודשים ומבחנים ומכון רפואי; תוקף נקודות שנתיים עד 20 נקודות, 4 שנים מעל 20 נקודות",
+      "fetched_at": "2026-06-16T22:25:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "online-tribunal-and-mafna",
+      "claim": "Since 8 February 2026 many traffic offences are heard by an online traffic tribunal (בית דין לתעבורה אונליין) without a full court petition; cancellation requests for traffic/camera fines go to the Driver Inquiries Center (Merkaz Pniyot Nehagim, מפנ\"א)",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_דוח_תנועה_לתשלום_קנס",
+      "raw_snippet": "בית דין לתעבורה אונליין מ-8 בפברואר 2026; מרכז פניות נהגים מפנ\"א מטפל בבקשות ביטול לדוחות תנועה ומצלמה",
+      "fetched_at": "2026-06-16T22:25:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "parking-administrative-offences-law",
+      "claim": "Parking fines are administrative offences under the Administrative Offences Law (חוק העבירות המינהליות, 1985), distinct from criminal breirot mishpat for traffic fines",
+      "source_url": "https://www.nevo.co.il/law_html/law01/074_248.htm",
+      "raw_snippet": "חוק העבירות המינהליות, התשמ\"ה-1985; דוחות חנייה כעבירות מינהליות",
+      "fetched_at": "2026-06-16T22:25:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "illustrative-fine-and-point-values",
+      "claim": "Illustrative common violation fine amounts and point values (approximate, set by ministerial order, verify current amounts on gov.il), plus early-payment discount range and traffic-lawyer cost range used as guidance figures",
+      "source_url": "https://www.gov.il/he/departments/news/scoring_system",
+      "raw_snippet": "Illustrative figures (approximate, verify on gov.il): red light 1,000 NIS / 10 points; speeding 21-30 urban 750 NIS / 8 points; speeding 31-40 urban 1,500 NIS / 10 points; mobile phone 1,000 NIS / 8 points; no seatbelt 250 NIS / 2 points; illegal overtaking 500-1,000 NIS / 6-8 points; early-payment discount 25%-50%; example parking fine 250 NIS; traffic-lawyer cost 1,500-5,000 NIS; minor fines under 500 NIS. Hebrew forms 1,000 ש\"ח, 750 ש\"ח, 1,500 ש\"ח, 250 ש\"ח, 500-1,000 ש\"ח, 1,500-5,000 ש\"ח",
+      "fetched_at": "2026-06-16T22:25:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/fine-types.md"]
+    },
+    {
+      "claim_id": "reference-urls",
+      "claim": "Reference and submission URLs cited by the skill",
+      "source_url": "https://www.court.gov.il",
+      "raw_snippet": "Reference URLs: https://www.court.gov.il https://www.gov.il/he/service/objection_traffic_offense https://www.gov.il/he/service/police_fine_payment https://www.kolzchut.org.il https://www.nevo.co.il http://tel-aviv.gov.il http://jerusalem.muni.il http://haifa.muni.il gov.il/he/service/objection_traffic_offense gov.il/he/service/police_fine_payment https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter",
+      "fetched_at": "2026-06-16T22:25:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    }
+  ]
+}

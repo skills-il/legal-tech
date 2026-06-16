@@ -151,7 +151,8 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 
 **Traffic fine options:**
 - **Pay the fine:** Online at gov.il (police fine payment service) or at any post office
-- **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. You will receive a court date. You may represent yourself or hire a traffic lawyer (orech din letnu'a)
+- **Cancellation request (bakasha le-bitul):** For police/camera traffic fines the cancellation request goes to the **Driver Inquiries Center (Merkaz Pniyot Nehagim, מפנ"א)** of the traffic prosecution, not to a generic "police station". Camera (A3 / דוח מצלמה) fines route through מפנ"א.
+- **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. Since **8 February 2026** many traffic offences can be heard by an **online traffic tribunal** (בית דין לתעבורה אונליין), the objection is submitted and adjudicated online without filing a full court petition for eligible offences; otherwise you receive an in-person court date. You may represent yourself or hire a traffic lawyer (orech din letnu'a).
 - **Online appeal (Tzav HaTzav):** Misrad Hatachburah's online traffic-appeal portal at `gov.il/he/service/objection_traffic_offense` accepts cancellation requests (bakasha le-bitul) and supporting evidence digitally
 - **Plea bargain (hasdarei to'en):** Some offenses allow negotiating a reduced fine or fewer points through the prosecution
 
@@ -169,13 +170,14 @@ When the fine is a traffic violation, calculate the point impact:
 
 | Points Accumulated | Consequence (per Traffic Regulations Part 14A) |
 |-------------------|-------------|
-| 12-22 points | Warning letter from licensing authority + driver risk assessment |
-| 22-34 points | Mandatory basic safe-driving course (kurs yesodi) |
-| 34-36 points | Advanced safe-driving course + theory re-test (kurs metkadem + ranan iyuni) |
-| 36+ points (first time within 2 years) | 3-month license suspension + practical re-test |
-| 36+ points (second time within 6 years) | 9-month license suspension + practical re-test |
+| 12-22 points | Mandatory basic safe-driving course (kurs yesodi) + test at its end |
+| 24-34 points | Basic course + advanced safe-driving course (kurs metkadem) |
+| 36+ points (first time) | 3-month license suspension + theory test (must re-qualify) |
+| 36+ points (second time within 6 years) | 9-month license suspension + theory & practical tests + medical/institute (Machon HaRefui) evaluation |
 
-Points expire only AFTER any required courses/tests are completed, on a tiered schedule tied to total accumulated count (not severity of the underlying offence). Without completing the required course, points do not expire. See `kolzchut.org.il` ("שיטת הניקוד בעבירות תנועה") for the canonical scheme.
+There is no "warning letter" tier and no standalone "theory re-test at 34-36" tier; the bands are 12-22, 24-34, and 36+ as above. See the Ministry of Transport scoring page (gov.il, "שיטת הניקוד") and `kolzchut.org.il` ("שיטת הניקוד בעבירות תנועה") for the canonical scheme.
+
+**Point validity clock.** Points are recorded for a fixed period from the **offence date**: **2 years** for a driver who accumulated **up to 20 points** in the period, **4 years** for a driver who passed **20 points**. Expiry is ALSO conditioned on completing any required measures (course/test/suspension): if the driver has not completed the imposed measure, the points (and the obligation) do not lapse when the clock runs out. So both conditions must be met, the validity window elapsed AND the required measures completed.
 
 **Common violation point values:**
 
@@ -192,7 +194,7 @@ Note: Fine amounts are updated periodically by ministerial order. Always verify 
 
 ## Gotchas
 
-1. **Municipal vs. police fines are different legal processes.** Parking tickets from a municipal inspector (paqach) follow the municipal appeal process (bakasha leitul). Traffic fines from police or cameras follow criminal traffic law (breirot mishpat). Mixing up the appeal process wastes the deadline.
+1. **Municipal vs. police fines are different legal regimes.** Parking tickets from a municipal inspector (paqach) are **administrative offences** under the Administrative Offences Law (חוק העבירות המינהליות, 1985) and follow the municipal appeal process (bakasha le-bitul). Traffic fines from police or cameras are **breirot mishpat** under criminal traffic procedure (Criminal Procedure Law § 229). The 30-day / 90-day mechanics in Step 2 mirror each other in practice, but the two tracks rest on different statutes, so a parking case that reaches court goes to the administrative-affairs track, not the traffic court. Mixing up the appeal route wastes the deadline.
 
 2. **The 30-day and 90-day deadlines are from receipt date, not violation date.** For mailed notices, receipt date is presumed to be a few days after mailing. If the user says "I got a fine from 2 months ago," clarify when they actually received the notice.
 
@@ -226,8 +228,8 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 |---|---|
 | gov.il/he/service/objection_traffic_offense | Misrad Hatachburah online traffic-appeal portal (Tzav HaTzav). May show 403 to scripted clients; loads normally in a browser. |
 | gov.il/he/service/police_fine_payment | Police fine payment service. Same WAF behaviour as above. |
-| court.gov.il | Israeli courts directory (find your local traffic court / שלום מקומי court). |
-| mot.gov.il | Misrad Hatachburah (Ministry of Transport) homepage. |
+| www.court.gov.il | Israeli courts directory (find your local traffic court / שלום מקומי court). Use the `www.` host; the bare `court.gov.il` does not resolve cleanly. |
+| gov.il (search "משרד התחבורה") | Ministry of Transport content now lives under gov.il; the legacy `mot.gov.il` host is deprecated. |
 | kolzchut.org.il (search "שיטת הניקוד בעבירות תנועה") | Canonical citizens-rights write-up of the penalty-point scheme. |
 | nevo.co.il (search "פקודת התעבורה") | Free public mirror of the Traffic Ordinance and Criminal Procedure (Traffic Offences) regulations. |
 
