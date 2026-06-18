@@ -2,14 +2,14 @@
 name: israeli-wills-inheritance
 description: >-
   Draft a legally-valid Israeli will and navigate the inheritance process under the
-  Succession Law 1965. Drafts a witnessed will (צוואה בעדים), which needs NO lawyer:
-  the testator writes the wishes, dates and signs, and two witnesses (who may not be
-  beneficiaries or their spouses) sign. Explains the four will types, depositing the
-  will with the Inheritance Registrar, and obtaining a succession order (צו ירושה,
-  when there is no will) or a probate order (צו קיום צוואה, when there is a will).
-  Use when a user asks to "write a will", "draft a will leaving X to Y", "deposit my
-  will", "get a succession order", "my parent died without a will", "צוואה", "צו ירושה",
-  or "צו קיום צוואה". Prevents the common self-made-will mistakes that void bequests.
+  Succession Law 1965. Drafts a witnessed will (צוואה בעדים), which Israeli law does
+  not require a lawyer for (one is still recommended): the testator writes the wishes,
+  dates and signs, and two witnesses (who may not be beneficiaries or their spouses)
+  sign. Explains the four will types, depositing the will with the Inheritance
+  Registrar, and obtaining a succession order (צו ירושה, when there is no will) or a
+  probate order (צו קיום צוואה, when there is a will). Use when a user asks to "write
+  a will", "deposit my will", "get a succession order", "my parent died without a will",
+  "צוואה", "צו ירושה", or "צו קיום צוואה". Prevents common self-made-will mistakes.
   Do NOT use for binding enduring power of attorney (ייפוי כוח מתמשך needs a certified
   attorney, see israeli-elder-care-navigator), guardianship, contested-estate litigation
   between heirs (use a lawyer), or formal legal advice on complex estates.
@@ -25,7 +25,7 @@ compatibility: >-
 
 ## Problem
 
-Most Israelis put off writing a will because they assume it needs an expensive lawyer, and the ones who try it alone often void part of it without knowing: the most common mistake is letting a beneficiary (or a beneficiary's spouse) sign as a witness, which cancels that bequest. People also confuse the two inheritance orders, asking for a succession order when there is a will or a probate order when there is none, and waste weeks at the wrong door. This skill drafts a correctly-structured witnessed will (which the Succession Law allows with no lawyer at all), keeps the witnesses valid, and routes the user to the right order at the Inheritance Registrar.
+Most Israelis put off writing a will because they assume it needs an expensive lawyer, and the ones who try it alone often void part of it without knowing: the most common mistake is letting a beneficiary (or a beneficiary's spouse) sign as a witness, which cancels that bequest. People also confuse the two inheritance orders, asking for a succession order when there is a will or a probate order when there is none, and waste weeks at the wrong door. This skill drafts a correctly-structured witnessed will (which the Succession Law lets you make yourself, though having an inheritance lawyer draft or review it is recommended), keeps the witnesses valid, and routes the user to the right order at the Inheritance Registrar.
 
 ## Instructions
 
@@ -35,14 +35,14 @@ The skill does three jobs. Identify which the user needs.
 
 Israel's Succession Law recognises four will forms. Pick the right one, then draft it.
 
-| Will type | When it fits | Lawyer needed? |
+| Will type | When it fits | Lawyer required by law? |
 |-----------|--------------|----------------|
-| צוואה בעדים (witnesses) | The default for most people. Typed or written, signed before 2 witnesses. | No |
-| צוואה בכתב יד (handwritten) | Written entirely in the testator's own hand, dated, signed. No witnesses. | No |
-| צוואה בפני רשות (before an authority) | Declared before a judge, registrar, notary, or religious-court official. | An authority, not necessarily a private lawyer |
+| צוואה בעדים (witnesses) | The default for most people. Typed or written, signed before 2 witnesses. | No (but recommended) |
+| צוואה בכתב יד (handwritten) | Written entirely in the testator's own hand, dated, signed. No witnesses. | No (but recommended) |
+| צוואה בפני רשות (before an authority) | Declared before a judge, registrar, notary, or religious-court official. | An authority, e.g. a notary, takes it |
 | צוואה בעל פה (oral / שכיב מרע) | Only for someone on their deathbed or in mortal danger; expires if they recover. | No, but very limited |
 
-**The witnessed will is the skill's main deliverable.** Under the Succession Law it requires NO lawyer, but it has FOUR formal elements (Section 20), and missing any one risks voiding the will. State all four:
+**The witnessed will is the skill's main deliverable.** The Succession Law does not require a lawyer for it, but using an inheritance lawyer to draft or review the will is recommended, especially to reduce the chance it is later challenged. It has FOUR formal elements (Section 20), and missing any one risks voiding the will. State all four:
 1. **In writing** (typed is fine).
 2. **Dated.**
 3. The testator **declares before two witnesses** that this is their will and **signs** it.
@@ -141,7 +141,7 @@ These help confirm current procedure and terminology; the will drafting itself i
 - **The witnessed will has FOUR elements, not three (Section 20).** Agents routinely write "testator declares and signs, witnesses sign" and drop the fourth: the witnesses must CONFIRM IN WRITING ON THE WILL, by their signature, that the testator declared and signed. Without that confirmation clause the will is defective. Always include the Section 20 witness-confirmation wording.
 - **A beneficiary, their spouse, OR anyone who helped prepare the will must not benefit if they were involved in making it (Section 35).** The witness rule is the common case, but Section 35 is broader: a gift to whoever wrote, witnessed, or took part in making the will (or their spouse) is void. Since an AI is helping draft, make sure a beneficiary is not the one preparing it, and use two neutral witnesses.
 - **The testator must be 18+ and of sound mind (Section 26).** A will by a minor, a legally incompetent person, or someone who did not understand what they were signing is void. Do not draft for a minor.
-- **A witnessed will needs no lawyer and no notary.** The Succession Law explicitly allows a witnessed will with just the testator and two qualified witnesses.
+- **A witnessed will is not legally required to go through a lawyer or notary, but recommend one anyway.** The Succession Law allows a witnessed will with just the testator and two qualified witnesses, so agents should not claim notarization is mandatory. Still advise the user that an inheritance lawyer's review reduces the risk of a later challenge.
 - **Do not confuse the two orders.** Succession order (צו ירושה) is for NO will; probate order (צו קיום צוואה) is for WHEN there IS a will. The Inheritance Registrar issues both online; the Family Court enters when an objection is filed (and in certain other cases), not as the default.
 - **Deposit is not validity.** Depositing the will with the Registrar protects the paper, it does not make an otherwise-defective will valid, and skipping deposit does not make a valid will invalid.
 
@@ -157,4 +157,4 @@ Solution: when a will exists, apply for a probate order (צו קיום צווא�
 
 ### Error: "Is my typed will valid without a lawyer?"
 Cause: assuming a lawyer or notary is required.
-Solution: a typed witnessed will is valid if the testator dates and signs it and declares before two qualified witnesses who also sign. No lawyer is needed for a simple estate.
+Solution: a typed witnessed will is legally valid if the testator dates and signs it and declares before two qualified witnesses who also confirm it in writing. The law does not require a lawyer for a simple estate, but having an inheritance lawyer review the will is recommended to reduce the chance it is challenged.

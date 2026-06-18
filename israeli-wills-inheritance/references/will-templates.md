@@ -4,7 +4,7 @@ These are fill-in templates for a self-made will. Replace bracketed slots. They 
 
 ## Witnessed will (צוואה בעדים), the default
 
-Under the Succession Law a witnessed will needs no lawyer. The testator declares before two witnesses that this is their will and signs it by hand in front of them; the witnesses sign too. The witnesses, and their spouses, must NOT be beneficiaries.
+Under the Succession Law a witnessed will is not legally required to be made through a lawyer, though having an inheritance lawyer draft or review it is recommended. The testator declares before two witnesses that this is their will and signs it by hand in front of them; the witnesses sign too. The witnesses, and their spouses, must NOT be beneficiaries.
 
 ```
 צוואה

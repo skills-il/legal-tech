@@ -6,7 +6,7 @@ Scope: help an Israeli (1) draft a legally-valid will (focus on the witnessed wi
 
 ## Must cover (core)
 - [ ] The four will types under the Succession Law: בכתב יד (handwritten), בעדים (witnesses), בפני רשות (before an authority), בעל פה (oral / שכיב מרע). source: kolzchut צוואה. why core: the user must know which form fits.
-- [ ] Witnessed will (צוואה בעדים) requirements, the skill's primary deliverable: NO lawyer required; the testator writes/types the wishes, dates it, declares before two witnesses that it is their will, and signs by hand in front of them; the two witnesses sign. source: kolzchut צוואה בעדים. why core: this is what the skill drafts.
+- [ ] Witnessed will (צוואה בעדים) requirements, the skill's primary deliverable: not legally required to use a lawyer (but a lawyer is recommended); the testator writes/types the wishes, dates it, declares before two witnesses that it is their will, and signs by hand in front of them; the two witnesses confirm in writing on the will. source: kolzchut צוואה בעדים. why core: this is what the skill drafts.
 - [ ] Witness disqualification: a witness, and the witness's spouse, cannot be a beneficiary of the will (a bequest to such a person is void). source: kolzchut צוואה בעדים. why core: the single most common way a self-made will is partially invalidated.
 - [ ] Will deposit with the Inheritance Registrar (הרשם לענייני ירושה): optional, not required for validity, safeguards the document. source: kolzchut הפקדת צוואה. why core: users ask how to protect the will.
 - [ ] Succession order (צו ירושה): filed when the deceased left NO will; heirs receive their share by law (spouse, children, parents per the Succession Law order). source: kolzchut צו ירושה. why core: the no-will path.
