@@ -1,0 +1,160 @@
+{
+  "skill_slug": "israeli-wills-inheritance",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-18",
+  "claims": [
+    {
+      "id": "witnessed-will-no-lawyer",
+      "claim": "A will with witnesses (צוואה בעדים) can be made without the presence or signature of a lawyer",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "ניתן לערוך צוואה בעדים ללא צורך בנוכחותו או בחתימתו של עורך-דין",
+      "confidence": "high"
+    },
+    {
+      "id": "witnessed-will-procedure",
+      "claim": "For a witnessed will the testator declares before two witnesses that this is their will and signs it by hand in front of the two witnesses",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "על המצווה להצהיר בפני שני עדים...חותם המצווה על הצוואה בכתב ידו בפני שני העדים",
+      "confidence": "high"
+    },
+    {
+      "id": "witness-cannot-be-beneficiary",
+      "claim": "The witnesses, and their spouses, are not allowed to be among the beneficiaries of the will",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "לעדים, ולבני/בנות זוגם, אסור להיות חלק מהנהנים מהצוואה",
+      "confidence": "high"
+    },
+    {
+      "id": "four-will-types",
+      "claim": "The Succession Law sets out four ways a person can make a legally binding will",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/צוואה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "החוק קובע 4 דרכים אפשריות שבהן אדם יכול לערוך צוואה, כך שיהיה לה תוקף משפטי מחייב",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-optional",
+      "claim": "Depositing a will with the Inheritance Registrar is optional; a will does not need to be deposited to be valid",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "הפקדת צוואה היא רשות - אין חובה להפקיד את הצוואה כדי שתהיה תקפה",
+      "confidence": "high"
+    },
+    {
+      "id": "succession-order-no-will",
+      "claim": "A succession order (צו ירושה) is the application filed when the deceased did not make a will, so heirs receive their share of the estate by law, submitted to the Inheritance Registrar",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "כדי שיורש יוכל לקבל את חלקו מתוך העיזבון (ירושה) של המנוח, יש להגיש בקשה שמכונה 'בקשה לצו ירושה'",
+      "confidence": "high"
+    },
+    {
+      "id": "probate-order-with-will",
+      "claim": "A probate / will-execution order (צו קיום צוואה) is required to distribute the estate as written in the will and give the will binding effect, submitted to the Inheritance Registrar",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_קיום_צוואה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "צו קיום צוואה נדרש כדי לחלק את העיזבון כפי שרשום בהוראות צוואה ולתת תוקף מחייב להוראות הצוואה",
+      "confidence": "high"
+    },
+    {
+      "id": "order-fees-2026",
+      "claim": "As of 2026 the online application fee to the Inheritance Registrar is 507 NIS plus a 66 NIS publication fee",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "אגרת פתיחת בקשה - 507 ₪ ... אגרת הוצאות פרסום - 66 ₪",
+      "confidence": "high"
+    },
+    {
+      "id": "registrar-portal",
+      "claim": "The Inheritance Registrar runs an online portal for inheritance applications",
+      "claim_type": "url",
+      "source_url": "https://inheritance.justice.gov.il/",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "הרשם לענייני ירושה אונליין",
+      "confidence": "high"
+    },
+    {
+      "id": "section-20-full",
+      "claim": "Section 20 (סעיף 20): a witnessed will is in writing, dated, and signed by the testator before two witnesses after declaring it is their will, and the two witnesses confirm in writing on the will, by their signature, that the testator declared and signed",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "צוואה בעדים תהיה בכתב, תצויין בתאריך ותיחתם ביד המצווה בפני שני עדים לאחר שהצהיר בפניהם שזו צוואתו; העדים יאשרו באותו מעמד בחתימת ידם על פני הצוואה שהמצווה הצהיר וחתם כאמור.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-26-capacity",
+      "claim": "Section 26 (סעיף 26): a will made by a minor, by someone declared legally incompetent, or made when the testator did not understand its nature, is void",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "צוואה שנעשתה על ידי קטין או על ידי מי שהוכרז פסול־דין או שנעשתה בשעה שהמצווה לא ידע להבחין בטיבה של צוואה - בטלה.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-35-beneficiary-involvement",
+      "claim": "Section 35 (סעיף 35): a will provision in favour of someone who wrote the will, witnessed it, or otherwise took part in making it, and a provision in favour of that person's spouse, is void",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "הוראת צוואה, פרט לצוואה בעל־פה, המזכה את מי שערך אותה או היה עד לעשייתה או לקח באופן אחר חלק בעריכתה, והוראת צוואה המזכה בן־זוגו של אחד מאלה - בטלה.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-19-handwritten",
+      "claim": "Section 19 (סעיף 19): a handwritten will must be written entirely in the testator's own hand, bear a date written in their hand, and be signed by them",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "צוואה בכתב יד תיכתב כולה ביד המצווה, תישא תאריך כתוב בידו ותיחתם בידו.",
+      "confidence": "high"
+    },
+    {
+      "id": "heir-shares-spouse",
+      "claim": "Section 11 (סעיף 11): the surviving spouse takes the household chattels including a passenger car, and of the rest of the estate takes one-half when there are children/descendants or parents, two-thirds when there are siblings/descendants or grandparents, and the whole estate if none of those relatives survive",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "בן־זוגו של המוריש נוטל את המיטלטלין, כולל מכונית נוסעים, השייכים, לפי המקובל ולפי הנסיבות, למשק הבית המשותף, ונוטל משאר העזבון - (1) אם הניח המוריש ילדים או צאצאיהם או הורים - חצי; (2) אם הניח המוריש אחים או צאצאיהם או הורי הורים - שני שלישים",
+      "confidence": "high"
+    },
+    {
+      "id": "maintenance-from-estate",
+      "claim": "Section 56 (סעיף 56): a spouse, children, or parents of the deceased who need maintenance are entitled to maintenance from the estate, whether the inheritance is by law or by will",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "הניח המוריש בן־זוג, ילדים או הורים והם זקוקים למזונות, זכאים הם למזונות מן העזבון לפי הוראות פרק זה, בין בירושה על פי דין ובין בירושה על פי צוואה.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-24-witness-competence",
+      "claim": "Section 24 (סעיף 24): a minor and a person declared legally incompetent are not competent to be witnesses to a will",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "קטין ומי שהוכרז פסול־דין אינם כשרים להיות עדים לעשיית צוואה לפי סימן זה",
+      "confidence": "high"
+    },
+    {
+      "id": "objection-window-14-days",
+      "claim": "An objection to an inheritance-order application must be filed within 14 days of the publication of the notice, provided the order has not yet been issued",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_למתן_צו_ירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "יש להגיש את ההתנגדות בתוך 14 ימים מהיום שפורסמה ההודעה ובתנאי שטרם ניתן הצו",
+      "confidence": "high"
+    }
+  ]
+}
