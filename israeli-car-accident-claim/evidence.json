@@ -1,0 +1,187 @@
+{
+  "skill_slug": "israeli-car-accident-claim",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-23",
+  "claims": [
+    {
+      "id": "platd-no-fault",
+      "claim": "Under Section 2 of the Road Accident Victims Compensation Law, 1975 (PLATD), and in Hebrew סעיף 2, the vehicle user (driver) must compensate the injured party for bodily injury caused in a road accident in which the vehicle was involved, regardless of fault (no-fault / absolute liability)",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "המשתמש ברכב מנועי חייב לפצות את הנפגע על נזק גוף שנגרם לו בתאונת דרכים שבה מעורב הרכב",
+      "confidence": "high"
+    },
+    {
+      "id": "road-accident-def",
+      "claim": "A road accident (תאונת דרכים) under PLATD is an event in which a person suffers bodily injury due to use of a motor vehicle for transport purposes",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "מאורע שבו נגרם לאדם נזק גוף עקב שימוש ברכב מנועי למטרות תחבורה",
+      "confidence": "high"
+    },
+    {
+      "id": "platd-allocation-section-3",
+      "claim": "Under Section 3 of PLATD (סעיף 3), in a multi-vehicle road accident each driver bears liability for the bodily injury of whoever rode in his own vehicle, and a person injured outside the vehicles (a pedestrian or cyclist) may claim against the involved drivers jointly and severally",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "בתאונת דרכים שבה היו מעורבים מספר כלי רכב, תחול על כל נוהג האחריות לנזקי הגוף של מי שנסע בכלי הרכב שלו. נפגע אדם מחוץ לכלי הרכב, בתאונת דרכים שבה היו מעורבים מספר כלי רכב, יהיו הנוהגים חייבים כלפיו יחד ולחוד",
+      "confidence": "high"
+    },
+    {
+      "id": "platd-exclusions-section-7",
+      "claim": "Under Section 7 of PLATD (סעיף 7), some injured people are not entitled to compensation: a person who caused the accident deliberately, a person who drove without permission or a stolen vehicle, a person who drove with no valid driving licence (except a licence lapsed only for non-payment of the fee), a person who used the vehicle to commit a felony, a person who drove with no compulsory insurance, and an owner who let another drive uninsured",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "נפגעים אלה אינם זכאים לפיצויים לפי חוק זה: (1) מי שגרם לתאונה במתכוון; (2) מי שנהג ברכב תוך הפרת החוק לתיקון דיני העונשין (שימוש ברכב ללא רשות); (3) מי שנהג ברכב כשאין לו רשיון לנהוג בו, למעט רשיון שפקע מחמת אי תשלום אגרה; (4) מי שהרכב שימש לו, או סייע בידו, לביצוע פשע; (5) מי שנהג ברכב ללא ביטוח לפי פקודת הביטוח",
+      "confidence": "high"
+    },
+    {
+      "id": "compulsory-bodily-only",
+      "claim": "Compulsory motor insurance (ביטוח חובה) covers bodily injury only (driver, passengers, and people outside the vehicle) and is mandatory; it does not cover property damage",
+      "claim_type": "law",
+      "source_url": "https://www.clalbit.co.il/carinsurance/faq/whatarethedifferences/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "ביטוח חובה הוא ביטוח לנזקי גוף (פציעה או מוות) שעלולים להיגרם לנהג, לנוסעי הרכב או לאנשים שמחוץ לרכב בתאונת דרכים",
+      "confidence": "high"
+    },
+    {
+      "id": "comprehensive-covers",
+      "claim": "Comprehensive insurance (ביטוח מקיף, also called ביטוח רכוש) is not mandatory and covers two things: damage to your own vehicle (theft, collision, fire, flood and the like) plus legal liability to a third party for property damage",
+      "claim_type": "law",
+      "source_url": "https://www.clalbit.co.il/carinsurance/faq/whatarethedifferences/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "ביטוח מקיף נקרא גם ביטוח רכוש, אינו חובה על פי חוק, וכולל שני סוגי ביטוח",
+      "confidence": "high"
+    },
+    {
+      "id": "third-party-property",
+      "claim": "Third-party property insurance (ביטוח צד ג') covers the insured's liability for damage caused to a third party's property by use of the vehicle; it is optional and does not cover your own vehicle",
+      "claim_type": "law",
+      "source_url": "https://www.kalir.co.il/articles/1592",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "מקרה הביטוח הוא חבות המבוטח בשל נזק שייגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח",
+      "confidence": "high"
+    },
+    {
+      "id": "duty-notify",
+      "claim": "Under Section 22 of the Insurance Contract Law (סעיף 22), when the insured event occurs the insured must notify the insurer immediately after becoming aware of it",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "קרה מקרה הביטוח, על המבוטח להודיע על כך למבטח מיד לאחר שנודע לו",
+      "confidence": "high"
+    },
+    {
+      "id": "policy-notify-27a",
+      "claim": "The standard private-vehicle policy, Section 27 (Section 27(a)), requires the insured or beneficiary to notify the insurer immediately after becoming aware that an insured event occurred",
+      "claim_type": "law",
+      "source_url": "https://www.kalir.co.il/articles/1592",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "קרה מקרה ביטוח, על המבוטח או המוטב להודיע על כך למבטח מיד לאחר שנודע לו על כך",
+      "confidence": "high"
+    },
+    {
+      "id": "subrogation",
+      "claim": "Under Section 62 of the Insurance Contract Law (סעיף 62), where the insured also has a right to compensation against a third party for the insured event, that right passes to the insurer (subrogation), which is how a not-at-fault driver's insurer recovers from the at-fault party",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "היתה למבוטח בשל מקרה הביטוח גם זכות פיצוי כלפי אדם שלישי, עוברת זכות זו למבטח",
+      "confidence": "high"
+    },
+    {
+      "id": "limitation-7y",
+      "claim": "Under Section 5 of the Limitation Law, 1958 (סעיף 5), the limitation period for a non-land civil claim (including property-damage and PLATD bodily-injury claims) is 7 years",
+      "claim_type": "date",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה היא בשאינו מקרקעין שבע שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "limitation-minors",
+      "claim": "Under Section 10 of the Limitation Law (סעיף 10), the limitation period does not count time during which the claimant was under 18, so a minor injured in a road accident can sue until about age 25",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "בחישוב תקופת ההתיישנות לא יבוא במנין הזמן שבו עדיין לא מלאו לתובע שמונה עשרה שנה",
+      "confidence": "high"
+    },
+    {
+      "id": "karnit-role",
+      "claim": "Karnit (קרנית), the Fund for Compensating Road Accident Victims established under PLATD, compensates an injured party who cannot claim from an insurer because the responsible driver is unknown (hit-and-run) or has no covering insurance",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "תפקידה של הקרן היא לפצות נפגע הזכאי לפיצויים לפי חוק זה ואין בידו לתבוע פיצויים מאת מבטח",
+      "confidence": "high"
+    },
+    {
+      "id": "karnit-cases",
+      "claim": "Karnit pays bodily-injury compensation to road-accident victims who cannot claim from another insurer in a hit-and-run (unidentified driver), an at-fault insurer in liquidation, or an at-fault vehicle with no insurance coverage",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_על_תאונת_פגע_וברח",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "לא ידוע מי נהג ברכב הפוגע ובאיזו חברה הרכב מבוטח (בתאונת 'פגע וברח'). חברת הביטוח של הרכב הפוגע נמצאת בהליכי פירוק. לרכב הפוגע לא היה כיסוי ביטוחי",
+      "confidence": "high"
+    },
+    {
+      "id": "duty-to-stop",
+      "claim": "Under Section 64 of the Traffic Ordinance (the leaving-after-an-accident offense, סעיף 64א), a driver who fails to stop or summon aid where a person was injured is liable to up to 7 years imprisonment, rising to up to 14 years where serious injury or death resulted",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_001.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "נוהג רכב המעורב בתאונה שבה נפגע אדם, ולא עצר במקום התאונה כדי לעמוד על תוצאות התאונה, או עצר כאמור ולא הזעיק עזרה, דינו מאסר שבע שנים. נוהג רכב המעורב בתאונה שבה נגרמה לאדם חבלה חמורה או שבה נהרג אדם, ולא עצר או לא הזעיק עזרה כאמור, דינו מאסר 14 שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "reg-144-injury",
+      "claim": "Under תקנה 144 of the Traffic Regulations, a driver in an accident that injured or killed someone must stop immediately and not move the vehicle, render appropriate aid, summon emergency services, give details, and immediately report to the nearest police station",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "נוהג רכב המעורב בתאונה שכתוצאה ממנה נהרג אדם או נפגע, יפעל לפי הוראות אלה",
+      "confidence": "high"
+    },
+    {
+      "id": "reg-145-property",
+      "claim": "Under תקנה 145 of the Traffic Regulations, in a property-only accident the driver must give the other driver or property owner or an officer present his name and address, license number, and vehicle registration and owner details on the spot",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "נוהג רכב המעורב בתאונה או בפגיעה ברכב אחר, או ברכוש אחר, הנמצא על הדרך או סמוך לה, ונגרם נזק לרכב האחר או לרכוש האמור בלבד, ימסור בו במקום",
+      "confidence": "high"
+    },
+    {
+      "id": "police-confirmation",
+      "claim": "A police confirmation (אישור משטרתי) is a mandatory precondition for filing the insurance claim; the gov.il online light-accident service issues it by email for exercising rights against medical institutions and insurers",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/service/traffic-accident-notice",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "שירות זה מאפשר לדווח באופן מקוון על תאונת דרכים קלה ולקבל אישור משטרתי לדואר האלקטרוני, לצורך מימוש זכויות מול מוסדות רפואיים ותביעת חברות הביטוח",
+      "confidence": "high"
+    },
+    {
+      "id": "light-accident-eligibility",
+      "claim": "The gov.il online light-accident report applies only when there are no injuries, or injured persons were treated and released from a medical institution within 24 hours; otherwise call 110 or go to a police station",
+      "claim_type": "threshold",
+      "source_url": "https://www.gov.il/he/service/traffic-accident-notice",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "אין נפגעים / יש נפגעים שטופלו ושוחררו ממוסד רפואי תוך 24 שעות. במקרים אחרים ניתן להתקשר למוקד 110 או לגשת לתחנת משטרה",
+      "confidence": "high"
+    },
+    {
+      "id": "ombudsman",
+      "claim": "Disputes with an insurer can be taken to the Public Inquiries Unit of the Capital Market, Insurance and Savings Authority, which handles complaints in insurance, provident, and pension matters, and this does not bar going to court",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/departments/general/consumer-info-public-inquiries",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "היחידה לפניות הציבור ברשות שוק ההון, ביטוח וחיסכון מטפלת בתלונות ופניות בענייני ביטוח, גמל ופנסיה",
+      "confidence": "medium"
+    }
+  ]
+}

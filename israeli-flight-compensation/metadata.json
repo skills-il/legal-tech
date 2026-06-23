@@ -1,0 +1,37 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": ["פיצוי טיסה", "חוק טיבי", "ביטול טיסה", "זכויות נוסעים", "תביעה קטנה", "ישראל"],
+    "en": ["flight compensation", "tibi law", "flight cancellation", "passenger rights", "small claims", "israel"]
+  },
+  "display_name": {
+    "he": "פיצוי על טיסות בישראל",
+    "en": "Israeli Flight Compensation"
+  },
+  "display_description": {
+    "he": "מחשב כמה פיצוי מגיע לכם על טיסה לישראל או ממנה שבוטלה, התעכבה, נמכרה ביתר או הוקדמה, לפי חוק שירותי תעופה (חוק טיבי, 2012), ומנסח מכתב דרישה מוכן לחברת התעופה. מתאים כשהטיסה השתבשה ואתם רוצים לתבוע בעצמכם בלי לשלם עמלה לחברת תביעות. מבחין בין החוק הישראלי לתקנה האירופית (סכומים וספים שונים), מסביר גם את זכויות הסיוע, ומפנה לתביעה קטנה אם החברה מסרבת. אל תשתמשו לאיתור והזמנת טיסות, לכבודה שאבדה, או לטיסות בלי קשר לישראל.",
+    "en": "Works out exactly how much compensation you are owed for a flight to or from Israel that was cancelled, delayed, overbooked, or moved earlier, under Israel's Aviation Services Law (the Tibi Law, 2012), and drafts a ready-to-send Hebrew demand letter to the airline. Use it when a flight went wrong and you want to claim yourself instead of handing a claim-handling service a cut of the payout. It separates the Israeli law from the European rules (different amounts and thresholds), explains your assistance rights, and routes refusals to small claims. Do NOT use for booking flights, lost or damaged baggage, or flights with no Israeli departure or arrival."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    { "url": "https://www.nevo.co.il/law_html/law00/119611.htm", "type": "statute", "language": "he" },
+    { "url": "https://www.gov.il/he/departments/civil_aviation_authority_of_israel", "type": "regulator", "language": "he" },
+    { "url": "https://www.consumers.org.il/category/aviation-law-benefits", "type": "consumer-body", "language": "he" }
+  ],
+  "domain_checklist_version": 1
+}

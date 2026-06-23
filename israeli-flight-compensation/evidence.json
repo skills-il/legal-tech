@@ -1,0 +1,241 @@
+{
+  "skill_slug": "israeli-flight-compensation",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-23",
+  "claims": [
+    {
+      "id": "amount-band-1-2026",
+      "claim": "As of 2026, compensation for a flight up to 2,000 km is 1,530 NIS (1,530 ש\"ח) under the Aviation Services Law",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_במקרה_של_טיסה_שהתבטלה",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "עד 2,000 ק\"מ: 1,530 ₪",
+      "confidence": "high"
+    },
+    {
+      "id": "amount-band-2-2026",
+      "claim": "As of 2026, compensation for a flight of 2,000 to 4,500 km is 2,450 NIS (2,450 ש\"ח)",
+      "claim_type": "currency",
+      "source_url": "https://rotbaumlaw.com/חוק-טיבי/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "2,000-4,500 ק\"מ: 2,450 ₪",
+      "confidence": "high"
+    },
+    {
+      "id": "amount-band-3-2026",
+      "claim": "As of 2026, compensation for a flight over 4,500 km is 3,670 NIS (3,670 ש\"ח)",
+      "claim_type": "currency",
+      "source_url": "https://rotbaumlaw.com/חוק-טיבי/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "מעל 4,500 ק\"מ: 3,670 ₪",
+      "confidence": "high"
+    },
+    {
+      "id": "amounts-three-bands",
+      "claim": "The three statutory compensation amounts are 1,530 NIS, 2,450 NIS, or 3,670 NIS depending on the distance between origin and destination",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_במקרה_של_טיסה_שהתבטלה",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "1,530 ₪, 2,450 ₪ או 3,670 ₪, בהתאם למרחק שבין מקום היציאה למקום היעד",
+      "confidence": "high"
+    },
+    {
+      "id": "cpi-annual-update",
+      "claim": "Under Section 13 of the law, the compensation amounts are updated on January 1 each year by the rise in the Consumer Price Index and rounded to the nearest 10 NIS, so the in-force figure changes annually",
+      "claim_type": "currency",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "הסכומים הנקובים בחוק זה יעודכנו ב-1 בינואר בכל שנה בהתאם לשיעור עליית המדד החדש לעומת המדד הבסיסי, ויעוגלו לסכום הקרוב שהוא מכפלה של עשרה שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "delay-8h-cancellation",
+      "claim": "An international flight that departs 8 or more hours late is treated as a cancelled flight, triggering monetary compensation",
+      "claim_type": "threshold",
+      "source_url": "https://www.elal.com/SiteCollectionDocuments/About-ELAL/Passengers-Rights/Aviation-Services-Law-HE-200918.pdf",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "אם טיסתך לא התקיימה או המריאה באיחור של מעל 8 שעות, תהיה זכאי להטבות",
+      "confidence": "high"
+    },
+    {
+      "id": "delay-2h-assistance",
+      "claim": "A delay of more than 2 hours and under 5 hours entitles the passenger to food and beverages reasonable to the waiting time, plus communication services",
+      "claim_type": "threshold",
+      "source_url": "https://www.elal.com/SiteCollectionDocuments/About-ELAL/Passengers-Rights/Aviation-Services-Law-HE-200918.pdf",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "במקרה של עיכוב בטיסה העולה על שעתיים ופחות מחמש שעות א) מזון ומשקאות ביחס סביר לזמן ההמתנה",
+      "confidence": "high"
+    },
+    {
+      "id": "delay-5h-accommodation",
+      "claim": "A delay of more than 5 hours and under 8 hours adds accommodation and ground transport, or a choice of refund or alternative flight",
+      "claim_type": "threshold",
+      "source_url": "https://www.elal.com/SiteCollectionDocuments/About-ELAL/Passengers-Rights/Aviation-Services-Law-HE-200918.pdf",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "אם העיכוב בטיסה נמשך יותר מחמש שעות ופחות משמונה שעות הנך זכאי בנוסף תהא זכאי גם לסידורי לינה ותחבורה יבשתית",
+      "confidence": "high"
+    },
+    {
+      "id": "communication-services",
+      "claim": "Communication services are defined as up to 2 phone calls plus one fax or email message, at the passenger's choice",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_במקרה_של_טיסה_שהמריאה_באיחור_או_שהוקדמה",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "שירותי תקשורת (שתי שיחות טלפון ומשלוח הודעה באמצעות פקס או דואר אלקטרוני, לפי בחירת הנוסע)",
+      "confidence": "high"
+    },
+    {
+      "id": "fifty-percent-reduction",
+      "claim": "The airline may reduce the monetary compensation by 50% (half) if it offered an accepted alternative flight that arrives within the per-distance window",
+      "claim_type": "percentage",
+      "source_url": "https://www.elal.com/SiteCollectionDocuments/About-ELAL/Passengers-Rights/Aviation-Services-Law-HE-200918.pdf",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "אם בחרת בטיסה חלופית נהיה רשאים להפחית במחצית את סכום הפיצוי הכספי",
+      "confidence": "high"
+    },
+    {
+      "id": "fifty-percent-windows",
+      "claim": "The 50% reduction windows are arrival within up to 2 hours for a flight up to 2,000 km, up to 3 hours for a flight up to 4,500 km, and up to 4 hours for a flight over 4,500 km",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "עד שעתיים אם הטיסה היא במרחק שאינו עולה על 2,000 ק\"מ; עד שלוש שעות אם הטיסה היא במרחק שאינו עולה על 4,500 ק\"מ; עד ארבע שעות אם הטיסה היא במרחק העולה על 4,500 ק\"מ",
+      "confidence": "high"
+    },
+    {
+      "id": "cancellation-14-days",
+      "claim": "A cancellation triggers compensation when notice is given less than 14 days before the scheduled departure and no qualifying alternative is offered",
+      "claim_type": "threshold",
+      "source_url": "https://rotbaumlaw.com/חוק-שירותי-תעופה/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "כאשר חברת התעופה מבטלת את הטיסה פחות מ-14 ימים לפני מועד ההמראה הנקוב ואינה מציעה חלופה העומדת בתנאי החוק",
+      "confidence": "high"
+    },
+    {
+      "id": "scope-departing-arriving",
+      "claim": "The law applies to a flight departing from Israel or arriving to Israel, including flights with a stopover",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "טיסה הממריאה מתחומי מדינת ישראל או אליה",
+      "confidence": "high"
+    },
+    {
+      "id": "limitation-4-years",
+      "claim": "The limitation period for a claim under the Aviation Services Law is 4 years from when the cause of entitlement arose",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_במקרה_של_טיסה_שהתבטלה",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "תקופת ההתיישנות של תביעה לפי החוק היא ארבע שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "denied-boarding",
+      "claim": "A passenger who is involuntarily denied boarding (overbooking) and did not voluntarily give up the seat is entitled to the assistance benefits and to request the statutory monetary compensation in writing",
+      "claim_type": "law",
+      "source_url": "https://www.elal.com/SiteCollectionDocuments/About-ELAL/Passengers-Rights/Aviation-Services-Law-HE-200918.pdf",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "אם נדחית מטיסה ולא הסכמת לוותר מרצונך על מקומך בטיסה כי אז תהא זכאי להטבות וכן לבקש בכתב קבלת פיצוי כספי הקבוע בתוספת הראשונה לחוק",
+      "confidence": "high"
+    },
+    {
+      "id": "denied-boarding-exemptions",
+      "claim": "Denied-boarding benefits do not apply if the passenger could not be flown for security reasons, health condition, flight-safety concern, or lack of proper travel documents",
+      "claim_type": "law",
+      "source_url": "https://www.elal.com/SiteCollectionDocuments/About-ELAL/Passengers-Rights/Aviation-Services-Law-HE-200918.pdf",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "לא תהא זכאי להטבות האמורות אם לא ניתן להטיסך בשל טעמי ביטחון בשל מצבך הבריאותי בשל חשש לפגיעה בבטיחות הטיסה או אם אין בידך מסמכי נסיעה נאותים",
+      "confidence": "high"
+    },
+    {
+      "id": "extraordinary-circumstances",
+      "claim": "The airline is exempt from monetary compensation if the cancellation or delay was due to extraordinary circumstances beyond its control, provided it did everything it could to operate the flight",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_במקרה_של_טיסה_שהתבטלה",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "נסיבות מיוחדות שלא היו בשליטת חברת התעופה ובלבד שהחברה עשתה כל שביכולתה לקיים את הנסיעה למרות נסיבות אלה",
+      "confidence": "high"
+    },
+    {
+      "id": "domestic-3h",
+      "claim": "For domestic Israeli flights a delay of more than 3 hours is treated as a cancellation, a different threshold from the 8-hour international rule",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_במקרה_של_טיסה_שהמריאה_באיחור_או_שהוקדמה",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "טיסות פנים-ארציות: עד 3 שעות - אין פיצוי; מעל 3 שעות - נחשבת לביטול טיסה",
+      "confidence": "medium"
+    },
+    {
+      "id": "iron-swords-exemption",
+      "claim": "Amendment No. 2 (Iron Swords) exempts airlines from the monetary compensation obligation for specific war-period flight-date ranges, while assistance, refund, and alternative-flight obligations still apply",
+      "claim_type": "date",
+      "source_url": "https://rotbaumlaw.com/חוק-טיבי/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "תיקון מס' 2 ('חרבות ברזל'), הפוטר חברות תעופה מפיצוי בגין טיסות שבוטלו או התעכבו במועדים",
+      "confidence": "medium"
+    },
+    {
+      "id": "refund-21-days",
+      "claim": "When the passenger chooses a refund instead of an alternative flight, the airline must refund the fare within 21 days of the passenger's written request",
+      "claim_type": "date",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "מפעיל טיסה או מארגן ישיב לנוסע את התמורה בתוך 21 ימים מהיום שהנוסע או נותן שירות סוכנות הנסיעות כאמור בסעיף 15, לפי העניין, פנה אליו בכתב",
+      "confidence": "high"
+    },
+    {
+      "id": "comp-45-days",
+      "claim": "The airline must pay the monetary compensation under the First Schedule (cancellation, long delay, early departure) within 45 days of the passenger's written request",
+      "claim_type": "date",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "מפעיל טיסה או מארגן ישלם את הפיצוי האמור לנוסע בתוך 45 ימים מהיום שהנוסע או נותן שירותי סוכנות הנסיעות כאמור בסעיף 15, לפי הענין, פנה אליו בכתב",
+      "confidence": "high"
+    },
+    {
+      "id": "downgrade-second-schedule",
+      "claim": "The Second Schedule sets downgrade compensation as a percentage of the ticket price the passenger paid: First to Business 60%, Business to Economy 80%, First to Economy 90%, and First or Business to Economy on a flight over 4,500 km 100%",
+      "claim_type": "percentage",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "פיצוי כספי בשל שינוי בתנאי כרטיס הטיסה. השיעור ממחיר כרטיס הטיסה ששילם הנוסע: העברה ממחלקה ראשונה למחלקת עסקים 60% ; העברה ממחלקת עסקים למחלקת תיירים 80% ; העברה ממחלקה ראשונה למחלקת תיירים 90% ; העברה ממחלקה ראשונה או ממחלקת עסקים למחלקת תיירים, בטיסה למרחק העולה על 4,500 ק\"מ 100%",
+      "confidence": "high"
+    },
+    {
+      "id": "early-departure-tiers",
+      "claim": "An early departure of more than 5 and up to 8 hours with under 14 days notice entitles the passenger to a refund or alternative flight, and an early departure of more than 8 hours adds the First Schedule monetary compensation",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/119611.htm",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "נוסע שהונפק לו כרטיס טיסה לטיסה שמועד המראתה הוקדם ביותר מחמש שעות ולא יותר משמונה שעות, וקיבל הודעה על כך ממפעיל הטיסה פחות מ-14 ימים לפני מועד הטיסה הנקוב בכרטיס הטיסה, יהיה זכאי להשבת תמורה או לכרטיס טיסה חלופי, לפי בחירתו",
+      "confidence": "high"
+    },
+    {
+      "id": "regulator-caa",
+      "claim": "The Civil Aviation Authority of Israel is the authority that enforces the Aviation Services Law and receives passenger complaints",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/departments/civil_aviation_authority_of_israel",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "רשות התעופה האזרחית אחראית על יישום חוק שירותי תעופה",
+      "confidence": "medium"
+    },
+    {
+      "id": "consumer-council-source",
+      "claim": "The Israeli Consumer Council publishes guidance on passenger rights under the Aviation Services Law",
+      "claim_type": "url",
+      "source_url": "https://www.consumers.org.il/category/aviation-law-benefits",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "https://www.consumers.org.il/category/aviation-law-benefits",
+      "confidence": "medium"
+    },
+    {
+      "id": "bgn-flights-mcp",
+      "claim": "Ben Gurion Airport real-time arrivals and departures are available from the Israel Airports Authority data feed (used to evidence a flight delay or cancellation)",
+      "claim_type": "url",
+      "source_url": "https://www.iaa.gov.il/",
+      "source_fetched_at": "2026-06-23T00:00:00Z",
+      "raw_snippet": "https://www.iaa.gov.il/",
+      "confidence": "medium"
+    }
+  ]
+}
