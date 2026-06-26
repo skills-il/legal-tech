@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "name": "divorce-actuary",
+  "version": "2.0.0",
+  "license": "MIT",
+  "category": "legal-tech",
+  "author": "Roei Basha",
+  "email": "roei.bas@gmail.com",
+  "description": "Expert actuarial and forensic accounting skill for Israeli divorce proceedings and asset division. Use when user uploads bank statements, salary slips, pension reports, provident fund documents, tax forms (106/135), or asks about \"izun mishaba'im\", \"halakat nechasim\", \"knas girushin\", \"chovat tashlum\", \"pitzui gerushin\", \"chelek bapensiya\", \"divorzio\", \"mah magiya li\", \"hafrashat pitzuim\", \"yom hakera\", or requests actuarial expert opinion for family court. Performs full asset mapping, pension valuation, suspicious transfer detection, and post-separation activity analysis. Produces court-ready Word reports. Do NOT use for general tax returns or business accounting (use tax-refund-106 instead).",
+  "compatibility": "No network required for document analysis. docx skill required for Word output. Works with Claude Code, Claude.ai, Cursor.",
+  "allowed_tools": "Bash(python:*)",
+  "display_name": {
+    "he": "חוות דעת אקטוארית — גירושין ואיזון משאבים",
+    "en": "Divorce Actuarial Expert Opinion"
+  },
+  "display_description": {
+    "he": "ניתוח אקטוארי מקצועי לאיזון משאבים בגירושין. מזהה נכסים, חשבונות סמויים, העברות חשודות ומפיק דוחות לבית המשפט.",
+    "en": "Professional actuarial analysis for Israeli divorce asset division. Identifies assets, hidden accounts, suspicious transfers, and produces court-ready reports."
+  },
+  "tags": {
+    "he": [
+      "גירושין",
+      "איזון-משאבים",
+      "אקטואר",
+      "פנסיה",
+      "חוות-דעת",
+      "בית-משפט",
+      "ישראל"
+    ],
+    "en": [
+      "divorce",
+      "asset-division",
+      "actuarial",
+      "pension",
+      "expert-opinion",
+      "family-court",
+      "israel"
+    ]
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex"
+  ],
+  "files": {
+    "skill": "SKILL.md",
+    "skill_he": "SKILL_HE.md",
+    "references": [
+      "post-separation-activity.md",
+      "red-flags-guide.md"
+    ],
+    "scripts": []
+  },
+  "stats": {
+    "body_word_count": 1630,
+    "reference_count": 2,
+    "script_count": 0
+  },
+  "trigger_phrases": [
+    "izun mishaba'im",
+    "halakat nechasim",
+    "pitzui gerushin",
+    "chelek bapensiya",
+    "yom hakera",
+    "mah magiya li",
+    "hafrashat pitzuim",
+    "knas girushin",
+    "chovat tashlum",
+    "divorzio",
+    "איזון משאבים",
+    "חלוקת נכסים",
+    "חוות דעת אקטוארית",
+    "גירושין",
+    "פנסיה בגירושין"
+  ],
+  "anti_triggers": [
+    "tax return",
+    "business accounting",
+    "general financial planning"
+  ],
+  "related_skills": [
+    "tax-refund-106"
+  ],
+  "submission_url": "https://agentskills.co.il/en/submit",
+  "created_at": "2025-05-02",
+  "updated_at": "2026-05-03"
+}
