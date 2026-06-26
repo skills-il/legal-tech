@@ -79,7 +79,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 | Deposit type | סוג ערבות | Bank guarantee, checks, cash, shtar hon | Shtar hon (promissory note) without legal advice |
 | Deposit amount | סכום פיקדון | Must not exceed the statutory cap: the lower of 3 months' rent or one-third of the total lease value | Exceeds the cap (watch short leases, where one-third binds first) |
 | Return conditions | תנאי החזרה | Specific conditions for full/partial return | Vague or one-sided return conditions |
-| Return timeline | לוח זמנים להחזרה | Should be within 60 days of lease end | No specified timeline or over 60 days |
+| Return timeline | לוח זמנים להחזרה | Should be within 60 days of the tenant vacating the apartment (or settling outstanding debts, whichever is later) | No specified timeline or over 60 days |
 | Deduction rules | כללי ניכוי | Itemized deductions with documentation required | Landlord has unlimited deduction rights |
 | Receipt for deposit | קבלה על פיקדון | Written receipt upon deposit payment | No receipt provided |
 
@@ -162,4 +162,4 @@ Before putting pen to paper:
 - [ ] Understand termination and renewal conditions
 - [ ] Check for any blank spaces that could be filled in later
 - [ ] Get a signed copy for yourself
-- [ ] Consider having a lawyer review the contract (cost: 500-1,500 NIS)
+- [ ] Consider having a lawyer review the contract (fees vary by lawyer and complexity; get a quote)

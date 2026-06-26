@@ -46,7 +46,7 @@ A Section 14 waiver should:
 |----------|----------------|
 | Waiver applies to "base salary only" | Strips severance rights from bonus components |
 | Waiver is one-sided (employee signs, employer does not commit to 8.33%) | Worst of both worlds - employee loses, employer keeps liability |
-| Refers to 6% severance component instead of 8.33% | 6% is the old rate; the full Section 14 waiver requires 8.33% |
+| Refers to 6% severance component when a FULL Section 14 waiver is intended | 6% severance is the legal mandatory minimum and is perfectly legal on its own. But a FULL Section 14 waiver (one that completely replaces statutory severance) requires the severance component to be 8.33%. At 6% the waiver only partially funds severance, so the employee can still claim the gap. This is not illegal, it just means the waiver is partial |
 | Waiver applies retroactively to prior tenure | Cannot waive severance already accrued |
 | No reference to the General Authorization | Without proper invocation, the waiver may be partial or ineffective |
 | Employer pays into provident fund without Section 14 clause | Double liability: pays 8.33% AND still owes statutory severance |
@@ -56,7 +56,7 @@ A Section 14 waiver should:
 Push for:
 
 1. **Full salary definition**: "Salary" for Section 14 purposes includes base + all fixed recurring components + regularly paid bonuses
-2. **Full 8.33% rate**: not 6%
+2. **Full 8.33% severance rate for the waiver**: 6% is the legal minimum and is fine on its own, but only an 8.33% severance component makes the Section 14 waiver fully replace statutory severance
 3. **From day 1**: not after any probation
 4. **Proper invocation**: explicit reference to Section 14 of the Severance Pay Law and the General Authorization
 5. **Employer signature**: employer explicitly commits to the 8.33% contribution, not just "employee waives"
@@ -71,12 +71,12 @@ Why this matters when reviewing a contract:
 - The credit is automatic on payroll for salaried employees, but only on contributions made via the payroll deduction (not on personal deposits from a bank account).
 - The credit is distinct from Section 47 (deduction for pension contributions from tax-favored income). Most salaried employees use Section 45a; self-employed and personal contributions use Section 47.
 
-Source: Section 45a of the Income Tax Ordinance -- [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99).
+Source: Section 45a of the Income Tax Ordinance -- [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני).
 
 ## Sources
 
-- [Kolzchut: Section 14](https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D)
+- [Kolzchut: Section 14](https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים)
 - [General Authorization text (Nevo)](https://www.nevo.co.il/law_html/law01/055_001.htm)
-- [Kolzchut: Section 45a tax credit](https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99)
+- [Kolzchut: Section 45a tax credit](https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני)
 - Severance Pay Law 1963, Section 14
 - Income Tax Ordinance, Section 45a

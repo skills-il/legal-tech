@@ -65,7 +65,7 @@ The law restricts the type and amount of security deposits (collectively, the "g
 |------|---------|
 | Maximum guarantee amount | The total of all guarantees may not exceed the LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term, measured in rent). Example: a 12-month lease at NIS 2,000/month caps at NIS 6,000 (3 months); a 6-month lease at NIS 2,000/month caps at NIS 4,000 (one-third of 6 months = 2 months) |
 | Why it matters | For any lease shorter than a year the one-third figure binds before the 3-month figure. "3 months" is only the cap for leases of 12 months or longer |
-| Deposit return deadline | Within 60 days of lease end |
+| Deposit return deadline | Within 60 days of the tenant vacating the apartment (or settling outstanding debts, whichever is later) |
 | Deduction requirements | Landlord must provide itemized list of claimed damages |
 | Tenant right to dispute | Tenant can contest deductions in court |
 
@@ -79,16 +79,17 @@ The law restricts the type and amount of security deposits (collectively, the "g
 | Promissory note (shtar hon) | שטר הון | Permitted but high-risk | High for tenant |
 | Personal guarantors | ערבים אישיים | Yes | Varies |
 
-### 5. Written Contract Requirement
+### 5. Written Contract Requirement and Landlord Disclosure (Section 25ב)
 
 | Aspect | Details |
 |--------|---------|
-| Written contract | Strongly recommended but oral agreements are technically valid |
+| Written contract (statutory norm) | Section 25ב requires a residential lease to be made IN WRITING, signed by both parties, with each party receiving a signed copy. This is the statutory form, not merely a recommendation |
+| Landlord pre-contract disclosure | Before signing, the landlord must disclose any non-minor defect known to them in the apartment, AND anything in the apartment or its surroundings, known to the landlord at contract formation, that causes or is likely to cause material disruption (hafra'a shel mamash) to the use of the apartment |
 | Contract language | Hebrew is standard; bilingual contracts are acceptable |
 | Required elements | Parties, property, term, rent, deposit, maintenance obligations |
 | Copies | Both parties must receive a signed copy |
 
-**Note**: While oral agreements are technically valid under Israeli law, they offer minimal protection and are extremely difficult to enforce. Always insist on a written contract.
+**Note**: Section 25ב makes the written, signed contract the statutory norm for residential leases. As a secondary nuance, an oral lease is not automatically void under Israeli law, but it falls short of the statutory form, offers minimal protection, and is extremely difficult to enforce. Always insist on a written contract. The landlord's disclosure duty is independent: concealing a known non-minor defect, or a known nuisance in the apartment's surroundings causing material disruption, breaches section 25ב.
 
 ### 6. Termination and Notice Requirements
 
@@ -173,12 +174,12 @@ The law also provides protections for landlords.
 5. **Know your municipality's Arnona rates** before signing
 6. **Ask about building issues** (elevator maintenance, roof repairs, va'ad bayit finances)
 7. **Request a Tabu extract** to verify ownership
-8. **Consider legal review** (500-1,500 NIS) for peace of mind, especially for expensive properties
+8. **Consider legal review** for peace of mind (lawyer fees vary; get a quote), especially for expensive properties
 
 ## Practical Tips for Landlords
 
 1. **Use a proper written contract** covering all essential terms
-2. **Disclose known defects** before signing (failure to disclose can lead to liability)
+2. **Disclose known defects** before signing, as required by section 25ב: any non-minor defect in the apartment, and any nuisance in the apartment or its surroundings causing material disruption, that the landlord knows about (failure to disclose can lead to liability)
 3. **Create a property condition report** at move-in with the tenant
 4. **Report rental income** to the Tax Authority (Mas Hachnasa) to avoid penalties
 5. **Respond to repair requests** promptly and in writing

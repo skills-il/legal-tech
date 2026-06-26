@@ -1,0 +1,25 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "2026 model-lease regulation draft (טיוטת תקנות חוזה שכירות) out for public comment; check next cycle if enacted.",
+        "CPI table in rent-index-calculator.py ends 2026-03; top up next cycle.",
+        "Deferred MINOR: 2024 broker ethics regulations תקנות המתווכים תשפ\"ד-2024 (bans דמי רצינות); add next cycle."
+      ]
+    },
+    {
+      "version": "1.2.0-fix",
+      "date": "2026-06-25",
+      "lessons": [
+        "Expert FAIL fix-round: corrected the §25ב written-form rule from 'strongly recommended' to the affirmative statutory norm (in writing, signed by both parties, each receiving a copy); kept 'oral lease not automatically void' as a secondary nuance only. Fixed SKILL.md, SKILL_HE.md, and references/fair-rental-law-summary.md §5.",
+        "Added the §25ב landlord pre-contract disclosure duty as a named landlord obligation (known non-minor defect + anything in apartment/surroundings causing material disruption, hafra'a shel mamash) plus a 'landlord concealed a known defect' red flag.",
+        "Anchored the deposit cap to §25י explicitly in the body (Step 1 + Step 3 tables).",
+        "Added a scope note that the 90/60 notice periods, deposit cap, and repair duties are part of the §25 chapter and subject to the §25טו exclusions.",
+        "Evidence sourced from kolzchut חוזה_שכירות_למגורים (the חוק_השכירות_והשאילה slug 404s; gov.il/he/pages/rent_law returns 403 to WebFetch) — verbatim Hebrew snippets copied for both new claims.",
+        "Should-cover items still DEFERRED to next cycle: (1) the precise §25ב statutory wording verbatim in the reference body; (2) guarantor (ערב) protections under the Guarantee Law 1967 (חוק הערבות, התשכ\"ז-1967), esp. ערב יחיד / ערב מוגן distinctions; (3) contents-vs-structure insurance (ביטוח תכולה מול ביטוח מבנה) — who insures what in a rental."
+      ]
+    }
+  ]
+}

@@ -35,7 +35,7 @@ All rates below are current as of 2025-2026. Verify rates annually as they may b
 
 | Component | Employer | Employee | Notes |
 |-----------|----------|----------|-------|
-| Pension fund contribution | 6.5% of salary | 6% of salary | Mandatory from day 1 for new employees (or after 6 months if no prior pension) |
+| Pension fund contribution | 6.5% of salary | 6% of salary | Mandatory from day 1 if the employee has prior pension coverage; otherwise after 6 months |
 | Severance component (within pension) | 8.33% of salary | -- | Part of the 6.5% or in addition, per arrangement |
 | Total employer cost | Up to 14.83% | -- | If Section 14 applies |
 
@@ -45,6 +45,11 @@ Section 14 of the Severance Pay Law (1963) allows the employer to designate pens
 - Upon termination, employee receives the pension fund balance instead of calculated severance
 - Employer is exempt from paying additional severance beyond what was deposited
 - Must be documented explicitly in the contract with employee consent
+
+**Statutory severance (Pitzuei Piturin, Severance Pay Law 1963):**
+- The baseline entitlement is one month's last salary for each year of employment with the same employer or workplace (Severance Pay Law 1963, Section 12), pro-rated for partial years. For an hourly worker with fluctuating hours, the last salary is figured on the average position scope over the whole employment period
+- Severance is normally owed on dismissal. Some resignations are also recognized as entitling the employee to severance: a move of residence (mostly for a spouse's relocation), poor health of the employee or a family member, a tangible worsening of employment terms by the employer, and resignation within the protected window after giving birth or adoption to care for the child
+- When Section 14 applies, the monthly pension/insurance deposits stand in for this statutory severance for the salary and period they cover. When Section 14 does NOT apply, the employer still owes the full Section 12 calculation on termination
 
 **Keren Hishtalmut (education fund):**
 
@@ -65,7 +70,7 @@ Section 14 of the Severance Pay Law (1963) allows the employer to designate pens
 | Years 16-19 | 9 days | Per-day rate x days |
 | Year 20+ | 10 days | Per-day rate x days |
 
-The per-day rate is updated annually by extension order. As of 2026 the private-sector rate is approximately **418 NIS per day**; the public-sector rate is approximately **471.4 NIS per day** per collective agreement. Verify the current rate annually (the 2025-2026 private-sector freeze window has now passed). Typically paid as a lump sum in June-July.
+The per-day rate is updated by extension order. As of June 2026 the in-force private-sector rate is **418 NIS per day**. The Histadrut and the employers' organizations signed an agreement on 22 June 2026 to raise it to **451.5 NIS per day**, but it takes effect only once the Ministry of Labor signs the extension order (tzav harchava), and it then applies retroactively. Public-sector rates are set separately and are higher. Always verify the current rate before calculating. Typically paid as a lump sum in June-July.
 
 **Annual leave (Chofsha) per Annual Leave Law:**
 
@@ -82,15 +87,17 @@ Many employers offer more generous leave. These are statutory minimums.
 - Accrual: 1.5 days per month of employment (18 days per year)
 - Maximum accumulation: 90 days
 - Payment: Day 1 unpaid, days 2-3 at 50% salary, day 4 onward at 100% salary
-- Requires medical certificate from day 1 (or per company policy)
+- Requires a medical certificate as the employer reasonably specifies (commonly from the first day of absence)
 
 **Notice periods:**
 
 | Seniority | Monthly-paid employee | Daily/hourly-paid employee |
 |-----------|----------------------|---------------------------|
-| Months 1-6 | 1 day per month worked | 1 day per month worked |
-| Months 7-12 | 6 days + 2.5 days per month from month 7 | 6 days + 2.5 days per month from month 7 |
+| Months 1-6 | 1 day per month worked | 1 day per month worked (all 12 months) |
+| Months 7-12 | 6 days + 2.5 days per month from month 7 | 1 day per month worked (all 12 months) |
 | Year 2+ | 1 month | 1 month |
+
+The two first-year columns differ. A monthly-paid employee earns 1 day per month for months 1-6, then 6 days plus 2.5 days for each month from month 7. A daily/hourly-paid employee (oved be'sachar) earns a flat 1 day of notice per month worked across the whole first year, reaching up to 12 days at year-end.
 
 **Overtime (per Hours of Work and Rest Law):**
 - Standard work week: 42 hours (since April 2018)
@@ -185,7 +192,7 @@ After the contract is signed, the employer must complete:
 1. **Bituach Leumi (National Insurance Institute) registration:**
    - Register new employee within 7 days of start date
    - Report via Form 126 (monthly payroll report)
-   - Employer pays approximately 3.55% (reduced rate) to 7.6% (full rate) depending on salary bracket
+   - Employer pays 4.51% (reduced rate, on the lower salary bracket) to 7.6% (full rate, on the higher bracket) in 2026, depending on salary
 
 2. **Pension fund enrollment:**
    - Enroll employee in chosen pension fund
@@ -260,7 +267,8 @@ Result: Classification recommendation with risk analysis and next steps.
 - Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
 - The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
 - Israeli law does not recognize automatic "work-for-hire" for all intellectual property as US law does. Agents drafting contracts without an explicit IP assignment clause will leave IP ownership ambiguous, especially for software.
-- The convalescence pay (Dmei Havra'a) per-day rate is updated annually by extension order (approximately 418 NIS/day private sector, 471.4 NIS/day public sector as of 2026). Agents using a fixed amount from their training data will produce incorrect calculations. Verify the current rate annually against the Ministry of Economy or a current labor-law source.
+- The convalescence pay (Dmei Havra'a) per-day rate is updated by extension order. As of June 2026 the in-force private-sector rate is 418 NIS/day; a signed agreement to raise it to 451.5 NIS/day awaits a Ministry of Labor extension order and then applies retroactively. Agents using a fixed amount from their training data will produce incorrect calculations. Verify the current rate against a current labor-law source before calculating.
+- Section 14 only covers severance for the period from the date the written consent is signed. If it is activated mid-employment, the years worked before signing still owe a full severance top-up; do not present a mid-tenure Section 14 signature as wiping out prior-year severance liability.
 
 ## Troubleshooting
 
@@ -291,7 +299,7 @@ Solution: Register immediately via the Bituach Leumi employer portal. Late regis
 | Kol Zchut: personal employment contract | https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99 | Plain-language explanation of contract terms and mandatory clauses |
 | Ministry of Labor | https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services | Official labor regulations, minimum wage, extension orders |
 | Nevo: Notice to Employee Law full text | https://www.nevo.co.il/law_html/law00/71702.htm | Notice to Employee and Job Candidate Law, 5762-2002 statutory text |
-| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/055_001.htm | Severance Pay Law, 1963 statutory text (Section 14, calculation, payment deadline) |
+| Kol Zchut: Severance Pay (Pitzuei Piturin) | https://www.kolzchut.org.il/he/פיצויי_פיטורים | Severance Pay Law, 1963 explained (Section 14, calculation, payment deadline) |
 | Bituach Leumi: employer registration | https://www.btl.gov.il/Insurance/Maasik/MToshavYisrael/Pages/PtichatTik.aspx | Opening an employer deductions file with National Insurance |
 | Tax Authority: Form 101 | https://www.gov.il/he/service/form_101 | Employee tax declaration form for new hires |
 

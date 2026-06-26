@@ -118,7 +118,7 @@ The most significant extension order in Israeli labor law:
   - Years 11-15: 8 days
   - Years 16-19: 9 days
   - Year 20+: 10 days
-- **Daily rate:** Updated annually. As of 2026, approximately NIS 418/day private sector and NIS 471.4/day public sector. Verify the current rate annually at the Ministry of Economy
+- **Daily rate:** Updated by extension order. As of June 2026 the in-force private-sector rate is NIS 418/day; a signed agreement to raise it to NIS 451.5/day awaits a Ministry of Labor extension order and then applies retroactively. Public-sector rates are set separately and are higher. Verify the current rate before use
 - **Payment timing:** Typically June-July as annual lump sum
 - **Calculation:** Days x daily rate (no additional tax withholding beyond regular income tax)
 

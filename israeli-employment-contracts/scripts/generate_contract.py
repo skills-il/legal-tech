@@ -44,9 +44,9 @@ PENSION_EMPLOYEE_RATE = 0.06        # 6%
 SEVERANCE_RATE = 0.0833             # 8.33%
 HISHTALMUT_EMPLOYER_RATE = 0.075    # 7.5%
 HISHTALMUT_EMPLOYEE_RATE = 0.025    # 2.5%
-HAVRA_A_DAILY_RATE = 418.0          # NIS per day, private sector. Frozen at 2023 rate.
-                                    # In 2024-2025, employers deduct one day's value from
-                                    # the annual payment to fund reservist benefits.
+HAVRA_A_DAILY_RATE = 418.0          # NIS per day, in-force private-sector rate as of June 2026.
+                                    # A signed agreement to raise it to 451.5 awaits a Ministry of
+                                    # Labor extension order, then applies retroactively. Verify before use.
 MINIMUM_WAGE_MONTHLY = 6443.85      # NIS, effective 2026-04-01 (prior: 6,247.67)
 MINIMUM_WAGE_HOURLY = 35.40         # NIS, based on 182 hours/month (42h x 52 / 12)
 STANDARD_WORK_HOURS_DAY = 8.4       # hours per day, 5-day week (5 x 8.4 = 42)
@@ -89,15 +89,29 @@ def get_annual_leave_days(seniority_years: int) -> int:
     return ANNUAL_LEAVE_DAYS.get(seniority_years, 12)
 
 
-def calculate_notice_period_days(seniority_months: int) -> int:
-    """Calculate notice period in days based on seniority."""
+def calculate_notice_period_days(seniority_months: int, pay_basis: str = "monthly") -> int:
+    """Calculate notice period in days based on seniority and pay basis.
+
+    The first-year ladder differs by pay basis (Prior Notice for Dismissal and
+    Resignation Law, 2001):
+      - monthly-paid (oved be'mascoret): months 1-6 = 1 day/month;
+        months 7-12 = 6 days + 2.5 days per month from month 7.
+      - daily/hourly-paid (oved be'sachar): a flat 1 day per month worked across
+        the whole first year (up to 12 days at year-end).
+    From year 2 onward both reach 30 days (1 month).
+    """
+    if seniority_months > 12:
+        return 30  # 1 month, both pay bases
+
+    if pay_basis == "hourly":
+        # Daily/hourly worker: 1 day per month worked, all 12 months.
+        return min(seniority_months, 12)
+
+    # Monthly-paid worker.
     if seniority_months <= 6:
         return seniority_months  # 1 day per month
-    elif seniority_months <= 12:
-        months_after_6 = seniority_months - 6
-        return 6 + int(months_after_6 * 2.5)
-    else:
-        return 30  # 1 month
+    months_after_6 = seniority_months - 6
+    return 6 + int(months_after_6 * 2.5)
 
 
 def calculate_benefits(salary: float, work_percent: float) -> dict:
@@ -132,6 +146,9 @@ def calculate_benefits(salary: float, work_percent: float) -> dict:
         "notice_period_month1": calculate_notice_period_days(1),
         "notice_period_month6": calculate_notice_period_days(6),
         "notice_period_year2": calculate_notice_period_days(24),
+        # Daily/hourly-paid (oved be'sachar) first-year notice differs: 1 day/month.
+        "notice_period_hourly_month12": calculate_notice_period_days(12, pay_basis="hourly"),
+        "notice_period_monthly_month12": calculate_notice_period_days(12, pay_basis="monthly"),
     }
 
 
@@ -205,7 +222,7 @@ The Employee's responsibilities include: [DESCRIBE RESPONSIBILITIES].
 - **Start date:** {start_formatted}
 - **Employment type:** {work_type}
 - **Probation period (Tkufat Nisayon):** 6 months, ending {probation_formatted}
-- During probation, either party may terminate with shortened notice per law.
+- During probation, either party may terminate; the statutory notice period applies (there is no statutory "shortened notice" during probation).
 - Successful completion of probation does not require formal notice; employment continues automatically.
 
 ---
@@ -254,6 +271,11 @@ shall be released from any additional severance payment obligation with respect
 to these components.
 
 **Employee acknowledgment:** _____________________ Date: __________
+
+**Severance basis (if Section 14 is NOT elected):** Absent a Section 14
+arrangement, the Employee's statutory severance under the Severance Pay Law,
+1963 (Section 12) is one month's last salary for each year of employment with
+the Employer, pro-rated for partial years, payable on termination.
 
 ---
 
@@ -308,11 +330,16 @@ Per the Annual Leave Law (1951):
 
 Either party may terminate this agreement by providing written notice:
 
-| Seniority | Notice Period |
-|-----------|---------------|
-| Months 1-6 | 1 day per month of employment |
-| Months 7-12 | 6 days + 2.5 days per additional month |
-| Year 2+ | 30 days (1 month) |
+| Seniority | Monthly-paid (oved be'mascoret) | Daily/hourly-paid (oved be'sachar) |
+|-----------|----------------------------------|-------------------------------------|
+| Months 1-6 | 1 day per month of employment | 1 day per month worked (all 12 months) |
+| Months 7-12 | 6 days + 2.5 days per additional month | 1 day per month worked (all 12 months) |
+| Year 2+ | 30 days (1 month) | 30 days (1 month) |
+
+The first-year ladders differ by pay basis: a daily/hourly-paid worker earns a
+flat 1 day of notice per month worked across the whole first year (up to 12 days
+at year-end), while a monthly-paid worker earns the 6-days-plus-2.5-per-month
+schedule for months 7-12.
 
 ---
 

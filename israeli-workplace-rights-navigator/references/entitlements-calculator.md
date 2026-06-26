@@ -58,7 +58,8 @@ The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. 
 |-------------------|------------------------|
 | Child under 16 | 8 days |
 | Child with disability | 16 days |
-| Child with terminal illness | 90 days |
+| Child with terminal (malignant) illness or on dialysis, two parents (shared pool) | 90 days |
+| Single parent, child with terminal (malignant) illness or on dialysis | 110 days |
 | Single parent, child under 16 | 16 days |
 
 ## Convalescence Pay (Dmei Havra'a)
@@ -95,11 +96,13 @@ The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. 
 | 2023 | 378 |
 | 2024 | 400 |
 | 2025 | 418 |
-| 2026 | 418 (frozen) |
+| 2026 | 418 (in force as of June 2026) |
+
+**Pending increase:** The Histadrut and the employers signed an agreement on 22 June 2026 to raise the private-sector rate to NIS 451.5 per day. It takes effect only when the Ministry of Labor signs the extension order (tzav harchava), and is then applied retroactively. Until that order is signed, NIS 418 remains the binding rate.
 
 **Reservist-support deduction (2025-2026):** For each employee, the employer must deduct one day's worth of convalescence pay from the annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist benefits. This applies as long as the temporary order remains in force.
 
-**Note:** The daily rate is updated annually by extension order. Public sector employees receive a higher rate (NIS 471.4 in 2026) per collective agreement. Check the Ministry of Economy website for the current rate.
+**Note:** The daily rate is updated by extension order. Public sector employees receive a higher rate (NIS 511.6 in 2026) per collective agreement. Check the Ministry of Economy website for the current rate.
 
 ### Calculation Example
 
@@ -114,6 +117,17 @@ Part-time employee (50% position) with 5 years:
 Convalescence pay = 7 days x NIS 418 x 50% = NIS 1,463
 After proportional 1-day deduction: (7 - 1) x NIS 418 x 50% = NIS 1,254
 ```
+
+## Travel Reimbursement (Dmei Nesia, Travel-to-Work Extension Order)
+
+| Parameter (2026) | Value |
+|------------------|-------|
+| Daily cap | NIS 22.60 per day |
+| Reimbursement basis | The lower of actual public-transport fare (discounted multi-ride / monthly pass) or the daily cap |
+| Carve-out | No reimbursement if the employee does not need public transport (workplace within walking distance, or employer provides organized transport) |
+| Update cadence | Updated periodically by extension order, verify the current daily cap |
+
+Source: kolzchut.org.il, Travel-to-Work Extension Order.
 
 ## Minimum Wage (Minimum Wage Law, 1987)
 
@@ -171,6 +185,14 @@ Severance = Last Monthly Salary x Years of Employment
 Severance = Last Monthly Salary x (Full Years + Remaining Months / 12)
 ```
 
+### Income-Tax Exemption Ceiling
+
+Severance is exempt from income tax up to the lower of:
+- NIS 13,750 (2026) x years of employment, or
+- 1.5 x last monthly salary x years of employment
+
+The 13,750 figure is updated annually, verify the current ceiling. Severance above the ceiling is taxable; tax-spreading (perisat mas) may reduce the tax. Source: kolzchut.org.il, severance pay / income-tax exemption.
+
 ### Quick Reference
 
 | Years | Months | Multiplier |
@@ -217,4 +239,4 @@ The employee's 6% pension contribution qualifies for a 35% income-tax credit und
 
 Contributions above 7% of salary, or above the annual ceiling, do not receive the credit and remain fully taxable.
 
-Source: [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99)
+Source: [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני)

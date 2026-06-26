@@ -187,18 +187,22 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 11. Notice Period / הודעה מוקדמת
 
 **English:**
-> Either party may terminate this Agreement by providing written notice as follows:
+> Either party may terminate this Agreement by providing written notice. For a MONTHLY-paid employee:
 > - Months 1-6 of employment: 1 day of notice per month of employment
 > - Months 7-12 of employment: 6 days plus 2.5 days for each month beyond the 6th
 > - After 1 year of employment: 30 days (one month)
 >
+> For a DAILY/HOURLY-paid employee (oved be'sachar) the first-year ladder differs: 1 day of notice per month worked across the whole first year (up to 12 days at year-end); after 1 year the entitlement reaches 30 days (one month).
+>
 > During the notice period, the Employee shall continue to fulfill their duties unless otherwise agreed. The Employer may waive the notice period and pay the Employee in lieu of notice.
 
 **Hebrew / עברית:**
-> כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת בכתב כדלקמן:
+> כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת בכתב. לעובד במשכורת חודשית:
 > - חודשים 1-6 להעסקה: יום הודעה אחד לכל חודש עבודה
 > - חודשים 7-12 להעסקה: 6 ימים ועוד 2.5 ימים לכל חודש מעבר לשישי
 > - לאחר שנת עבודה: 30 ימים (חודש)
+>
+> לעובד בשכר (יומי/שעתי) הסולם של השנה הראשונה שונה: יום הודעה אחד לכל חודש עבודה לכל אורך השנה הראשונה (עד 12 ימים בסוף השנה); לאחר שנה הזכאות מגיעה ל-30 ימים (חודש).
 >
 > במהלך תקופת ההודעה המוקדמת, העובד/ת ימשיך/תמשיך למלא את תפקידו/ה אלא אם הוסכם אחרת. המעסיק רשאי לוותר על תקופת ההודעה המוקדמת ולשלם לעובד/ת תמורת הודעה מוקדמת.
 

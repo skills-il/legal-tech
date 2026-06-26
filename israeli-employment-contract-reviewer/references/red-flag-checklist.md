@@ -8,7 +8,7 @@ These findings are illegal or grossly unfair. The contract must be amended befor
 
 | # | Clause pattern | Legal basis | Why it is a blocker |
 |---|---------------|-------------|---------------------|
-| A1 | Pension contribution less than 6.5% benefits or less than 6% employee / 6%-8.33% severance | Mandatory Pension Expansion Order 2008 | Employer cannot contract below the statutory minimum |
+| A1 | Pension contribution below the mandatory minimum: employer 6.5% benefits, employer 6% severance, or employee 6% (18.5% total) | Mandatory Pension Expansion Order 2008 | Employer cannot contract below the statutory minimum. NOTE: a 6% severance component is legal. 8.33% is NOT a legal minimum, it is only the severance rate needed to fully fund a Section 14 waiver, so a sub-8.33% severance is "does not fully fund a Section 14 waiver", not a blocker |
 | A2 | "At-will employment" without subordination to Israeli law | No such concept in Israeli labor law | Clause is unenforceable and signals bad drafting |
 | A3 | Hoda'at Mukdemet below statutory minimum by tenure | Prior Notice Law 2001 | Cannot contract below the minimum |
 | A4 | Salary not clearly stated as brutto (gross) or netto (net) | Written Employment Terms Notice Law 2002 | Ambiguity is itself a violation |
@@ -16,6 +16,7 @@ These findings are illegal or grossly unfair. The contract must be amended befor
 | A6 | No written contract offered despite explicit request | Written Employment Terms Notice Law 2002 | Employer must provide terms in writing |
 | A7 | Conditioning employment on pregnancy status, marriage status, age, or religion | Employment Equal Opportunities Law 1988 | Prohibited basis for hiring |
 | A8 | Forced arbitration in a foreign jurisdiction | Labor Courts Law | Israeli labor courts have exclusive jurisdiction for many disputes |
+| A9 | Penalty/fine, training-cost clawback, equipment-loss, or cash-register shortfall deducted from pay | Wage Protection Law 1958, section 25 | Lawful deductions are a closed list (tax/BTL/health, pension and provident contributions, union dues, employee-authorized debt capped at 25% of wages). Anything else is void, even with employee consent |
 
 ## Category B: Major (Negotiate Before Signing)
 
@@ -35,6 +36,10 @@ Below market standard or legally questionable. Push back before signing.
 | B10 | Sick days below 18/yr accrual | Increase to 1.5 days/month = 18/year |
 | B11 | Dmei havra'a clause absent | Add per Extension Order |
 | B12 | Broad confidentiality extending beyond 5 years | Scope to trade secrets only, time-limited |
+| B13 | Dismissal clause with no carve-out for pregnancy / maternity leave / fertility treatment | Add that any dismissal or pay/scope reduction during these periods (at 6+ months tenure) is subject to a Ministry of Labor permit (heter) under the Employment of Women Law 5714-1954 |
+| B14 | Contract implies cash pay or omits any payslip obligation | Require an explicit monthly detailed payslip clause per the Wage Protection Law Amendment 24 (2008); no payslip enables hidden illegal deductions |
+| B15 | "All-inclusive" salary declaring gross includes pension/havra'a/overtime/vacation | Void as to cogent components. Require pension, dmei havra'a, overtime, and annual leave each stated and funded separately, on top of base pay |
+| B16 | Contractor/freelancer (kablan) agreement carrying employee hallmarks | Apply the subordination/integration test (fixed hours + subordination + integration + exclusivity). Flag retroactive-reclassification risk; recommend either a genuine independent arrangement or an employee contract with full rights |
 
 ## Category C: Minor (Note But Acceptable)
 
@@ -58,6 +63,7 @@ If any of these are absent, request them:
 - [ ] Work location (office, hybrid, remote)
 - [ ] Gross monthly salary stated explicitly
 - [ ] Payment date (e.g., by the 9th of each month)
+- [ ] Monthly detailed payslip (tlush sachar) obligation
 - [ ] Working hours per week
 - [ ] Overtime rules
 - [ ] Pension contribution percentages (employer + employee)

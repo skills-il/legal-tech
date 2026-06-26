@@ -28,17 +28,19 @@ Phase 3 (after year 1): 30 calendar days, flat
 
 ## Hourly / Daily Employees (oved sha'ati / yomi)
 
+Hourly and daily workers use a DIFFERENT statutory schedule from monthly workers. Do not borrow the monthly formula.
+
 | Tenure | Advance notice days |
 |--------|---------------------|
-| Month 1-6 of year 1 | 1 day per month |
-| Year 1 full | 6 days |
-| Year 2 | 12 days |
-| Year 2 + 2.5 days per month after | up to 30 |
-| Year 3+ | 30 days |
+| During year 1 | 1 day for each month worked |
+| During year 2 | 14 days + 1 day for every 2 months worked in year 2 |
+| During year 3 | 21 days + 1 day for every 2 months worked in year 3 |
+| 3 years and onward | 30 days (one month), flat |
 
-Phase 1: 1 day per month in months 1-6
-Phase 2 (from month 7 onward): 2.5 days per month
-Phase 3 (after 3 years): 30 calendar days, flat
+Year 1: 1 day per month of work.
+Year 2: starts at 14 days, plus 1 day for each additional 2 months worked during year 2.
+Year 3: starts at 21 days, plus 1 day for each additional 2 months worked during year 3.
+After 3 years: 30 calendar days, flat.
 
 ## Key Rules
 
@@ -55,7 +57,7 @@ Phase 3 (after 3 years): 30 calendar days, flat
 | Monthly employee, 2 years tenure, fired | 30 days |
 | Monthly employee, 3 months tenure, resigning | 3 days |
 | Monthly employee, 9 months tenure, fired | 13.5 days (round up) |
-| Hourly employee, 1.5 years, fired | approx 21 days |
+| Hourly employee, 1.5 years (6 months into year 2), fired | 14 + 3 = 17 days |
 | Monthly employee, 11 years, fired | 30 days (flat after year 1) |
 
 ## How to Use This in Contract Review

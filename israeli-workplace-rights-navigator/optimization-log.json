@@ -1,0 +1,26 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "Dmei havra'a 451.5 increase signed 2026-06-22, pending Ministry of Labor extension order; flip 418->451.5 next cycle if tzav harchava signed.",
+        "Deferred MAJOR: maternity birth-allowance daily cap figure - add when verified against btl.gov.il.",
+        "Deferred MINOR: dmei nesia daily cap, annual-leave pidyon statute-of-limitations."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-06-26",
+      "round": "judge+expert fix-round",
+      "lessons": [
+        "CRITICAL fixed: added travel reimbursement (dmei nesia) as Step 12 - 2026 daily cap WebFetch-confirmed at 22.60 NIS/day from kolzchut.org.il/he/החזר_הוצאות_נסיעה; lower-of-actual-fare-or-cap rule + close-workplace carve-out documented.",
+        "CRITICAL fixed: pregnancy-dismissal permit (Employment of Women Law s.9(a)) now conditioned on >=6 months tenure in both Step 5 and Step 9; below 6 months reframed as a discrimination question (Equal Opportunities), not a permit question. Verbatim Hebrew snippet from kolzchut piturim-of-pregnant-employee page.",
+        "JUDGE-BROKEN fixed: public-sector dmei havra'a corrected 471.4 -> 511.6 NIS/day (2026) across SKILL.md, SKILL_HE.md, references/entitlements-calculator.md, references/labor-laws-summary.md. WebFetch-confirmed.",
+        "MAJOR fixed: severance income-tax exemption ceiling 13,750 NIS/year (2026, WebFetch-confirmed) added to Step 6 + reference; pay slip (tlush) as a standalone right under Wage Protection Law s.24 added to Step 12 + laws summary; Bituach Leumi pointers for dmei avtala + nifgaei avoda added to Step 12.",
+        "Deferred MINOR (not blocking, address on next substantive update): festival pay (chag) entitlement; youth (under-18) minimum wage scale; overtime weekly-cap liberalization (the 16h weekly-overtime reform); a Section-14 effective-amount line in the severance script that nets the 8.33% fund balance against the 1-month-per-year statutory amount.",
+        "Process note: kolzchut Hebrew-slug URLs 404 via WebFetch on percent-decoded form; fetch with the percent-ENCODED slug, or use WebSearch allowed_domains=kolzchut.org.il to surface the canonical encoded URL first."
+      ]
+    }
+  ]
+}

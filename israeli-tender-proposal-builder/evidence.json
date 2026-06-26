@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-tender-proposal-builder",
+  "generated_at": "2026-06-26T00:08:55Z",
+  "claims": [
+    {
+      "claim_id": "takanot-5753-1993",
+      "claim": "The operative regulations are Takanot Chovat HaMichrazim, 5753-1993, and Takana 6 sets the threshold conditions (registration in legally required registries plus required licenses).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
+      "raw_snippet": "תקנות חובת המכרזים, תשנ\"ג-1993 ... תקנה 6 ... השתתפות במכרז תהיה מותנית בתנאים הבאים: רישום בכל מירשם המתנהל על פי דין...וכן קיומם של הרשיונות הנדרשים על פי דין",
+      "fetched_at": "2026-06-26T00:05:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/threshold-conditions.md", "metadata.json"]
+    },
+    {
+      "claim_id": "chok-5752-1992-covered-bodies",
+      "claim": "Chok Chovat HaMichrazim (5752-1992) requires a tender before a public/governmental body signs a contract for work or a transaction.",
+      "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
+      "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "metadata.json"]
+    },
+    {
+      "claim_id": "israeli-product-preference-15pct",
+      "claim": "Under Takanot Chovat HaMichrazim (Israeli-Product Preference), 5755-1995, an Israeli-made-goods offer wins the price criterion if its price is not more than 15% above the imported-goods offer; the committee divides the Israeli offer price by 1.15 for the comparison.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
+      "raw_snippet": "תינתן העדפה...להצעות לרכישת טובין מתוצרת הארץ שמחירם אינו עולה על מחיר הצעות לרכישת טובין מיובאים בתוספת של 15% ... מחיר ההצעה של טובין מתוצרת הארץ מחולק ב-1.15",
+      "fetched_at": "2026-06-26T00:06:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "women-controlled-preference-amendment15",
+      "claim": "Amendment 15 to the Mandatory Tenders Law (Section 2B / סעיף 2ב, 2002) gives a women-controlled business an identical-score tie-breaker: when two or more offers tie on the highest weighted score and one is from a woman-controlled business, it wins, provided an accountant's certificate and an affidavit are attached.",
+      "source_url": "https://www.michrazim-law.co.il/woman-controlled-business-preference/",
+      "raw_snippet": "כאשר לאחר שקלול התוצאות קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של עסק בשליטת אישה, תיבחר ההצעה האמורה כזוכה במכרז, ובלבד שצורף לה אישור ותצהיר. ... אישור הוא אישור של רואה חשבון כי בעסק מסוים אישה מחזיקה בשליטה ... תצהיר הוא תצהיר של מחזיקה בשליטה שהעסק הוא בשליטת אישה",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "reserve-preference-amendment26-50pct-20days",
+      "claim": "Amendment 26 to the Mandatory Tenders Law adds an identical-score tie-breaker for a business at least 50% controlled by an active reserve servicemember who served at least 20 days of reserve duty in the 12 months before the offer-submission deadline; on a tie the reserve-service offer wins if the bidder declared eligibility in the bid.",
+      "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
+      "raw_snippet": "לפחות 50% מהמציע מוחזק על ידי משרת מילואים פעיל ... משרת המילואים שירת במילואים במשך 20 ימים לפחות במהלך 12 החודשים שקדמו ... במקרה בו מתקבלות מספר הצעות מיטביות עם ניקוד זהה, יזכה במכרז עסק המוחזק בידי משרת מילואים",
+      "fetched_at": "2026-06-26T00:07:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "reserve-preference-enacted-5-11-2024",
+      "claim": "Amendment 26 was approved by the Knesset on 5 November 2024.",
+      "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
+      "raw_snippet": "ביום 5.11.2024 אישרה הכנסת את תיקון מס' 26",
+      "fetched_at": "2026-06-26T00:07:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "reserve-preference-supplements-amendment15",
+      "claim": "Amendment 26 supplements Amendment 15 (2002), which set a similar-format preference for women-controlled businesses.",
+      "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
+      "raw_snippet": "תיקון זה מתווסף לתיקון מס' 15, שחוקק בשנת 2002, במסגרתו נקבעה העדפה במתכונת דומה לעסקים הנשלטים על ידי נשים",
+      "fetched_at": "2026-06-26T00:07:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "mr-gov-il-procurement-portal-yahalom",
+      "claim": "mr.gov.il is the Government Procurement Administration portal, and its upgraded Yahalom system includes a digital tender box.",
+      "source_url": "https://www.mr.gov.il/",
+      "raw_snippet": "מערכת יהלום המשודרגת גם הליך מקוצר וגם תיבה דיגיטלית במקום אחד",
+      "fetched_at": "2026-06-26T00:04:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-nevo-takanot",
+      "claim": "Reference link: Takanot Chovat HaMichrazim 5753-1993 on Nevo resolves and shows Takana 6.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
+      "raw_snippet": "תקנות חובת המכרזים, תשנ\"ג-1993",
+      "fetched_at": "2026-06-26T00:05:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-nevo-product-preference",
+      "claim": "Reference link: Takanot (Israeli-Product Preference) 5755-1995 on Nevo resolves and shows the 15% mechanism.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
+      "raw_snippet": "תקנות חובת המכרזים (העדפת תוצרת הארץ), תשנ\"ה-1995",
+      "fetched_at": "2026-06-26T00:06:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-kolzchut-law",
+      "claim": "Reference link: kolzchut plain-language page on Chok Chovat HaMichrazim resolves.",
+      "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
+      "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-michrazim-law-women",
+      "claim": "Reference link: law-firm page on Section 2B women-controlled-business preference resolves and describes the tie-breaker plus required affidavit and accountant certificate.",
+      "source_url": "https://www.michrazim-law.co.il/woman-controlled-business-preference/",
+      "raw_snippet": "כאשר לאחר שקלול התוצאות קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של עסק בשליטת אישה, תיבחר ההצעה האמורה כזוכה במכרז, ובלבד שצורף לה אישור ותצהיר",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-sfa-amendment26",
+      "claim": "Reference link: SFA law-firm client update on Amendment 26 resolves and states the 50% control, 20-day service, tie-breaker, and 5.11.2024 approval.",
+      "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
+      "raw_snippet": "ביום 5.11.2024 אישרה הכנסת את תיקון מס' 26 ... לפחות 50% מהמציע מוחזק על ידי משרת מילואים פעיל ... 20 ימים לפחות במהלך 12 החודשים שקדמו",
+      "fetched_at": "2026-06-26T00:07:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-mr-gov-il-portal",
+      "claim": "Reference link: mr.gov.il (Government Procurement Administration portal) resolves with HTTP 200 and replaces the prior 403-prone gov.il accountant-general URL.",
+      "source_url": "https://www.mr.gov.il/",
+      "raw_snippet": "מערכת יהלום המשודרגת גם הליך מקוצר וגם תיבה דיגיטלית במקום אחד",
+      "fetched_at": "2026-06-26T00:04:30Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-wikipedia-michraz",
+      "claim": "Reference link: Hebrew Wikipedia article on מכרז resolves and explains Chok Chovat HaMichrazim scope and covered bodies.",
+      "source_url": "https://he.wikipedia.org/wiki/מכרז",
+      "raw_snippet": "החובה מוטלת עליהם מכוח חוק חובת מכרזים, התשנ\"ב-1992 והתקנות שהותקנו על פיו.",
+      "fetched_at": "2026-06-26T00:12:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "bid-guarantee-autonomous-norms",
+      "claim": "Public tenders typically require an autonomous bank guarantee (ervut bankait otonomit) callable on demand, with exact amount, validity period (often submission deadline plus 90 days), and template wording; deviations are grounds for disqualification under strict Israeli case law.",
+      "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
+      "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/mandatory-declarations.md"]
+    }
+  ]
+}

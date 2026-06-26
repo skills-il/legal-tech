@@ -46,12 +46,25 @@ def required_notice_days_monthly(tenure_months: int) -> float:
 
 
 def required_notice_days_hourly(tenure_months: int) -> float:
+    """Statutory advance notice for hourly/daily workers (oved sha'ati/yomi).
+
+    This is a DIFFERENT schedule from monthly workers, per the Prior Notice Law
+    2001 as summarized by Kolzchut:
+      - Year 1 (months 1-12):  1 day per month worked.
+      - Year 2 (months 13-24): 14 days + 1 day for every 2 months worked in year 2.
+      - Year 3 (months 25-36): 21 days + 1 day for every 2 months worked in year 3.
+      - 3+ years (month 37+):  30 days, flat.
+    """
     if tenure_months <= 0:
         return 0
-    if tenure_months <= 6:
+    if tenure_months <= 12:
         return float(tenure_months)
+    if tenure_months <= 24:
+        months_into_year = tenure_months - 12
+        return 14 + (months_into_year // 2)
     if tenure_months <= 36:
-        return 6 + 2.5 * (tenure_months - 6)
+        months_into_year = tenure_months - 24
+        return 21 + (months_into_year // 2)
     return 30.0
 
 
@@ -217,7 +230,26 @@ def main() -> int:
     parser.add_argument("--sick", type=int, help="Annual sick days")
     parser.add_argument("--kh-employer", type=float, help="Keren Hishtalmut employer %", default=None)
     parser.add_argument("--example", action="store_true", help="Run with a sample contract")
+    parser.add_argument("--self-test", action="store_true", help="Run golden-case assertions for the notice schedules")
     args = parser.parse_args()
+
+    if args.self_test:
+        # Monthly worker golden cases.
+        assert required_notice_days_monthly(3) == 3.0, "monthly m3"
+        assert required_notice_days_monthly(6) == 6.0, "monthly m6"
+        assert required_notice_days_monthly(12) == 21.0, "monthly m12 (6 + 2.5*6)"
+        assert required_notice_days_monthly(24) == 30.0, "monthly 2yr flat"
+        # Hourly worker golden cases (different schedule).
+        assert required_notice_days_hourly(1) == 1.0, "hourly m1"
+        assert required_notice_days_hourly(12) == 12.0, "hourly end of year 1"
+        assert required_notice_days_hourly(13) == 14.0, "hourly start of year 2 = 14"
+        assert required_notice_days_hourly(18) == 17.0, "hourly 1.5yr = 14 + (6//2) = 17"
+        assert required_notice_days_hourly(24) == 20.0, "hourly end year 2 = 14 + (12//2) = 20"
+        assert required_notice_days_hourly(25) == 21.0, "hourly start year 3 = 21"
+        assert required_notice_days_hourly(36) == 27.0, "hourly end year 3 = 21 + (12//2) = 27"
+        assert required_notice_days_hourly(37) == 30.0, "hourly 3yr+ flat = 30"
+        print("All notice-schedule golden cases passed.")
+        return 0
 
     if args.example:
         print("Example: 2-year contract, pension 6.5%/8.33%/6%, 30 days notice, 12 days vacation, 18 sick, KH 7.5%")

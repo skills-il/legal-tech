@@ -64,7 +64,7 @@ Work section by section. Match the order and numbering required by the tender do
 
 1. **מכתב נלווה (Cover letter)** - Bidder details, tender reference number, statement of intent to bid, list of enclosed documents.
 2. **פרופיל החברה (Company profile)** - Legal name, HP/Teudat Zehut number, registered address, year established, ownership structure, core activities. Keep it tight and tender relevant.
-3. **טבלת ניסיון קודם (Past experience table)** - One row per relevant past contract: client, subject matter, scope in NIS, period, contact person for reference. Only include contracts that genuinely match the discretionary experience condition. Padding with irrelevant entries is a red flag for the committee.
+3. **טבלת ניסיון קודם (Past experience table)** - One row per relevant past contract: client, subject matter, contract value in shekels, period, contact person for reference. Only include contracts that genuinely match the discretionary experience condition. Padding with irrelevant entries is a red flag for the committee.
 4. **מענה מקצועי (Professional response)** - Your technical approach: methodology, team, work plan, milestones, risks and mitigations. Map each requirement in the tender's professional chapter to a specific paragraph in your response.
 5. **הצעה כספית (Price offer)** - In a separate sealed envelope (מעטפה נפרדת) if the tender is two envelope. Price structure must exactly match the template the tender provides. Never add line items, never remove line items.
 6. **הצהרות ותצהירים (Declarations and affidavits)** - The block of mandatory declarations (see Step 5).
@@ -93,9 +93,9 @@ For each declaration, confirm:
 - The lawyer or accountant verification is attached if required.
 - The declaration is dated within the validity window the tender specifies.
 
-### Step 6: Handle the Bid Guarantee and Israeli-Product Preference
+### Step 6: Handle the Bid Guarantee and the Preference Regimes
 
-Two recurring elements decide tenders before the substance is even read: the bid guarantee, and the Israeli-product price preference.
+Two recurring elements decide tenders before the substance is even read: the bid guarantee, and the statutory preference regimes (Israeli-product, women-controlled business, and reserve-service business).
 
 **Bid guarantee (ערבות מכרז).**
 
@@ -108,16 +108,31 @@ Most public tenders require the bidder to attach a bid guarantee with the offer,
 
 Treat the guarantee like a threshold condition: wrong amount, expired validity, non-autonomous type, or off-template wording is, in practice, automatic disqualification. Verify the bank issued exactly what the template requires before you submit.
 
-**Israeli-product preference (העדפת תוצרת הארץ).**
+**The three preference regimes.**
 
-Under the Mandatory Tenders Regulations (Israeli-Product Preference), 5755-1995, a tender for goods gives a price preference to Israeli-made goods. The preference works through the price comparison, not by adding points: an Israeli-product offer wins the price criterion as long as its price is not more than 15% above the competing imported-goods offer. In practice the committee re-scores by dividing the Israeli offer's price by 1.15 for the price comparison, so an Israeli offer priced up to about 15% higher than an import can still come out ahead on price.
+Three statutory preferences run side by side. The first works on price; the other two are identical-score tie-breakers. Know which ones the bidder can claim and attach the proof up front.
 
-What this means for the bidder:
+| Regime | Hebrew | Legal basis | How it works |
+|--------|--------|-------------|--------------|
+| Israeli-product preference | העדפת תוצרת הארץ | תקנות חובת המכרזים (העדפת תוצרת הארץ), תשנ"ה-1995 | Price preference: an Israeli-made-goods offer wins the price criterion as long as its price is not more than 15% above the competing imported-goods offer. The committee divides the Israeli offer's price by 1.15 for the comparison. |
+| Women-controlled business | העדפת עסק בשליטת אישה | תיקון 15 לחוק חובת המכרזים (סעיף 2ב), 2002 | Identical-score tie-breaker: when two or more offers tie on the highest weighted score, an offer from a business controlled by a woman wins, provided the bidder attached the required affidavit and accountant's certificate. |
+| Reserve-service business | העדפת עסק בשליטת משרת מילואים פעיל | תיקון 26 לחוק חובת המכרזים (אושר 5.11.2024, אינו רטרואקטיבי) | Identical-score tie-breaker: when offers tie on the highest weighted score, an offer from a business at least 50% controlled by an active reserve servicemember wins, provided the bidder declared it within the bid. |
+
+**Israeli-product preference (העדפת תוצרת הארץ), 5755-1995.** A tender for goods gives a price preference to Israeli-made goods. The preference works through the price comparison, not by adding points: an Israeli-product offer wins the price criterion as long as its price is not more than 15% above the competing imported-goods offer. In practice the committee re-scores by dividing the Israeli offer's price by 1.15 for the price comparison, so an Israeli offer priced up to about 15% higher than an import can still come out ahead on price.
+
 - If your offer qualifies as Israeli-made goods, say so explicitly and attach whatever proof of Israeli origin the tender requires. Do not leave the committee to guess.
 - If you are bidding imported goods against a likely Israeli competitor, build the 15% preference into your expectations. Your nominal price has to beat the Israeli competitor's price divided by 1.15, not just their raw price.
 - Separate, additional preference regimes exist for goods from national-priority areas. If the tender mentions אזורי עדיפות לאומית, check those regulations too, as they stack differently.
 
-Always confirm the current preference percentage and mechanics against the regulations, since the tender document itself will also restate the rule that applies to that specific procurement.
+**Women-controlled business (העדפת עסק בשליטת אישה), Amendment 15 / 2002.** This is a tie-breaker, not a price discount. When two or more offers receive an identical weighted score that is the highest score, and one of them is from a business controlled by a woman, that offer wins. To claim it the bidder must attach, with the offer itself, an accountant's certificate confirming a woman holds control of the business plus an affidavit by the controlling woman to the same effect. No certificate, no preference.
+
+**Reserve-service business (העדפת עסק בשליטת משרת מילואים פעיל), Amendment 26.** Amendment 26 to the Mandatory Tenders Law was approved by the Knesset on 5 November 2024 and is not retroactive. It adds a parallel identical-score tie-breaker for businesses controlled by active reserve servicemembers, in the same mould as the women-controlled preference. When offers tie on the highest weighted score and one is from a qualifying reserve-service business, that offer wins.
+
+- Eligibility: the business must be at least 50% controlled by an active reserve servicemember (משרת מילואים פעיל), and that person must have served at least 20 days of reserve duty in the 12 months before the offer-submission deadline. The bidder must declare its eligibility within the offer itself.
+- Verify the exact eligibility thresholds (the 50% control share and the 20-day service requirement) and the precise documentation against the current statute and the specific tender document before relying on them, since the rule is recent and the implementing detail (for example whether an accountant's certificate is also required, as it is for the women-controlled preference) may be refined.
+- The law does not yet resolve what happens when tying offers include both a women-controlled business and a reserve-service business. Flag this to the user rather than guessing the order of priority.
+
+Always confirm the current preference percentages and mechanics against the regulations and the specific tender document, since the tender will also restate the rules that apply to that procurement.
 
 ### Step 7: Calculate the Submission Timeline
 
@@ -129,12 +144,21 @@ Tenders have multiple overlapping deadlines. Build a timeline and share it with 
 | Site visit (סיור קבלנים) | If required, usually days 5 to 10 | Attend, record every statement made, preserve the minutes |
 | Clarification questions (שאלות הבהרה) | Specified in the tender, often one week before submission | Submit written questions in the format the tender requires. Do not call and ask verbally. |
 | Clarification answers published | A few days after the question deadline | Re-read the answers carefully. They are binding and amend the tender document. |
-| Submission deadline (מועד הגשה) | The hard gate | Submit by the method the tender specifies, before the stated hour. Late is late. Some tenders still require physical submission into a tender box at a stated address with an exact number of copies; many government tenders now use a digital tender box (for example the "Yahalom" digital submission system on mr.gov.il). Confirm which method this tender uses and never assume. |
+| Submission deadline (מועד הגשה) | The hard gate | Submit by the method the tender specifies, before the stated hour. Late is late. Confirm whether this tender uses the electronic tender box or physical submission (see the submission-path note below) and never assume. |
 | Opening of offers | Usually within days after submission | Some tenders permit bidder attendance at the opening |
 | Clarifications and presentations | Committee initiated | Respond within the window the committee sets |
 | Award notice | Variable | Losing bidders have a short window to request materials and file a challenge |
 
 Always read the exact dates in the tender document. The generic windows above are orientation, not substitutes for the published schedule.
+
+**Submission path: the electronic tender box.** Central-government tenders are increasingly submitted through the electronic tender box rather than a physical box. The Government Procurement Administration (מינהל הרכש הממשלתי) runs the procurement portal at https://www.mr.gov.il/, and its upgraded "Yahalom" (יהלום) system, built on the Merkava (מרכבה) platform, includes a digital tender box (תיבה דיגיטלית) for online submission. When the tender routes through the electronic tender box:
+- Register on the portal early. Account setup, vendor verification, and any digital-certificate enrollment take time and cannot be rushed in the final hour.
+- The תצהיר (sworn affidavit) workflow is affected. A physically signed and lawyer-verified affidavit usually has to be scanned and uploaded, and some electronic submissions require a digital certificate or qualified e-signature on the upload itself. Confirm in the tender document whether a scanned wet-ink affidavit is accepted or whether an electronic-signature certificate is mandatory, and leave time to obtain the certificate if it is.
+- Upload well before the cutoff. The system timestamps submission, and a connection problem at the deadline is still a late submission.
+
+Some tenders, especially local-authority ones, still require physical submission into a tender box at a stated address with an exact number of copies. Always confirm which path applies before finalizing.
+
+A note on thresholds: the financial threshold that separates an open tender (מכרז פומבי) from a closed "zuta" tender (מכרז זוטא), and the mandatory-tender floor below which a tender is not required at all, are under active reform, including devolution of exemption authority toward ministry tender committees and a reported rise in the mandatory-tender floor. Do not classify a tender from a remembered threshold number. Verify the current NIS thresholds at https://www.mr.gov.il/ or in the regulations before deciding which track a procurement falls into.
 
 ### Step 8: Price Intelligence via MCP Servers
 
@@ -168,7 +192,7 @@ Domain specific failure modes an AI agent is likely to hit if not explicitly war
 3. **Local authority tenders are a different regime.** Chok Chovat HaMichrazim covers state bodies. Municipal tenders are governed by parallel regulations under the Municipalities Ordinance. If the issuer is a city, a regional council, or a local authority, the structure is similar but specific clauses differ. Call it out.
 4. **Two envelope tenders mean two sealed envelopes.** If the tender specifies two envelopes (מעטפה א for qualifications, מעטפה ב for price), putting the price anywhere in the qualifications envelope is an automatic disqualification. Check twice before finalizing.
 5. **Clarification answers override the tender document.** Once the committee publishes written answers, those answers amend the tender. Any draft written from the original document alone is stale. Always re-read the published clarifications before submission.
-6. **Exact arithmetic.** Agents are sloppy with pricing worksheets. Every line total, subtotal, VAT line, and grand total must reconcile to the agora. A 1 NIS mismatch between subtotal and total has been used as a ground for disqualification.
+6. **Exact arithmetic.** Agents are sloppy with pricing worksheets. Every line total, subtotal, VAT line, and grand total must reconcile to the agora. A one-shekel mismatch between subtotal and total has been used as a ground for disqualification.
 
 ## Reference Links
 
@@ -177,10 +201,12 @@ Authoritative sources used to verify the facts in this skill:
 | Source | URL | What to check |
 |--------|-----|---------------|
 | תקנות חובת המכרזים, תשנ"ג-1993 (Nevo) | https://www.nevo.co.il/law_html/law01/242_002.htm | Current text of the regulations, including Takana 6 |
-| מכרז - ויקיפדיה | https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%A8%D7%96 | Overview of Chok Chovat HaMichrazim scope, covered bodies, exemption categories |
-| חוק חובת המכרזים (כל זכות) | https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D | Plain-language explanation of the Mandatory Tenders Law, covered bodies, and Takana 6 threshold conditions |
+| מכרז - ויקיפדיה | https://he.wikipedia.org/wiki/מכרז | Overview of Chok Chovat HaMichrazim scope, covered bodies, exemption categories |
+| חוק חובת המכרזים (כל זכות) | https://www.kolzchut.org.il/he/חוק_חובת_המכרזים | Plain-language explanation of the Mandatory Tenders Law, covered bodies, and Takana 6 threshold conditions |
 | תקנות העדפת תוצרת הארץ, תשנ"ה-1995 (Nevo) | https://www.nevo.co.il/law_html/law00/72502.htm | Current text of the Israeli-product preference regulations and the 15% mechanism |
-| מינהל הרכש הממשלתי (gov.il) | https://www.gov.il/he/departments/ministry_of_finance/govunits/accountant_general_department/about | Government Procurement Administration under the Accountant General |
+| העדפת עסק בשליטת אישה (משרד עו"ד) | https://www.michrazim-law.co.il/woman-controlled-business-preference/ | Amendment 15 / Section 2B women-controlled-business tie-breaker, required affidavit + accountant certificate |
+| עדכון לקוחות: תיקון 26 לחוק חובת המכרזים (SFA) | https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/ | Amendment 26 reserve-service preference: 50% control, 20 days in prior 12 months, identical-score tie-breaker, approved 5.11.2024 |
+| מינהל הרכש הממשלתי (mr.gov.il) | https://www.mr.gov.il/ | Government Procurement Administration portal, Yahalom electronic tender box, current tender thresholds |
 | BudgetKey MCP on skills-il | https://agentskills.co.il/en/mcp/budgetkey | Reference for pairing MCP for procurement contract queries |
 | IL Budget MCP on skills-il | https://agentskills.co.il/en/mcp/il-budget | Reference for pairing MCP for OpenBudget contract queries |
 

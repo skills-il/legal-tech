@@ -13,6 +13,7 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 | Employment of Women Law | חוק עבודת נשים | 1954 | 26-week maternity leave (15 weeks paid via Bituach Leumi). Termination protections for pregnant employees |
 | Minimum Wage Law | חוק שכר מינימום | 1987 | Monthly minimum wage updated every April. As of 1 April 2026: NIS 6,443.85/month full-time, NIS 35.40/hour. Set at no less than 47.5% of the national average wage. Verify the current rate annually |
 | Prior Notice of Termination and Resignation Law | חוק הודעה מוקדמת לפיטורים ולהתפטרות | 2001 | Notice period requirements based on employment duration |
+| Wage Protection Law | חוק הגנת השכר | 1958 | Employer must provide a detailed pay slip (tlush) each period (s.24); wage payment deadlines and penalty interest for late wages |
 | Sexual Harassment Prevention Law | חוק למניעת הטרדה מינית | 1998 | Employer obligations for prevention policy. Complaint procedures. Protection from retaliation |
 | Equal Rights for People with Disabilities Law | חוק שוויון זכויות לאנשים עם מוגבלויות | 1998 | Reasonable accommodations. Non-discrimination in hiring, promotion, termination. Workplace accessibility |
 | Equal Pay Law | חוק שכר שווה לעובדת ולעובד | 1996 | Equal pay for substantially equal work regardless of gender |
@@ -24,7 +25,7 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 | Regulation | Hebrew Name | Year | Key Provisions |
 |------------|-------------|------|----------------|
 | Mandatory Pension Extension Order | צו הרחבה לפנסיה חובה | 2008 | 6% employee + 6.5% employer pension contributions + 8.33% employer severance. Applies from day 1 for employees with prior pension, after 6 months (retroactive to day 1) for new pension holders |
-| Convalescence Pay Extension Order | צו הרחבה דמי הבראה | Various | 5-10 convalescence days by seniority. 2026 rate: NIS 418/day private sector, NIS 471.4/day public sector. Reservist-support 1-day deduction applies in 2025-2026 |
+| Convalescence Pay Extension Order | צו הרחבה דמי הבראה | Various | 5-10 convalescence days by seniority. 2026 rate: NIS 418/day private sector, NIS 511.6/day public sector. Reservist-support 1-day deduction applies in 2025-2026 |
 | Section 45a, Income Tax Ordinance | סעיף 45א לפקודת מס הכנסה | Ongoing | 35% income-tax credit on the employee's pension contribution up to 7% of salary (approx. NIS 8,148/year ceiling in 2026). Applied automatically in payroll |
 
 ## Collective Labor Relations

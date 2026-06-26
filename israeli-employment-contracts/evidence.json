@@ -1,0 +1,271 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-employment-contracts",
+  "generated_at": "2026-06-25T12:00:00Z",
+  "claims": [
+    {
+      "claim_id": "min-wage-monthly-hourly",
+      "claim": "As of 1 April 2026 the minimum wage is 6,443.85 NIS per month for a full-time position and 35.40 NIS per hour.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%9B%D7%A8_%D7%9E%D7%99%D7%A0%D7%99%D7%9E%D7%95%D7%9D",
+      "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "min-wage-47-5-pct",
+      "claim": "The minimum wage is updated every April to at least 47.5% of the average wage.",
+      "source_url": "https://global.histadrut.org.il/news/israels-minimum-wage-to-rise-by-3-3/",
+      "raw_snippet": "the minimum wage is updated every April to at least 47.5% of the average wage",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+    },
+    {
+      "claim_id": "havraa-private-rate-418-451",
+      "claim": "As of June 2026 the in-force private-sector dmei havra'a rate is 418 NIS/day; a signed agreement raises it to 451.5 NIS/day pending a Ministry of Labor extension order.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח וצפויים לעלות ל-451.5 ש\"ח. נחתם הסכם לעדכון תעריף דמי ההבראה לעובדים במגזר הפרטי לסכום של 451.5 ש\"ח אך טרם נחתם צו הרחבה המחיל את הסכום על כלל העובדים והמעסיקים במשק.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "pension-rates-6.5-6-8.33-18.5-12.5",
+      "claim": "Mandatory pension: total 18.5% of salary, of which employee 6% and employer 12.5% (6.5% tagmulim + 6% severance); employer may raise the severance component up to 8.33%.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר (12.5%) על חשבון המעסיק (6.5% הפרשות מעסיק לרכיב תגמולים ו-6% הפרשות מעסיק לרכיב פיצויים). מעסיק המפריש פיצויי פיטורים בסכומים המפורטים בטבלה או בשיעורים גבוהים יותר, יהיה רשאי לשלם השלמת פיצויי פיטורים עד ל-8.33%.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "severance-one-month-per-year",
+      "claim": "Severance pay (Section 12 / סעיף 12, Severance Pay Law 1963) equals one month's last salary for each year of employment with the same employer or workplace, pro-rated for partial years; for hourly workers with fluctuating hours the last salary is figured on the average position scope over the whole employment period.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A4%D7%95%D7%98%D7%A8",
+      "raw_snippet": "שיעור פיצויי הפיטורים הוא שכר חודש אחד לכל שנת עבודה אצל אותו מעסיק או באותו מקום עבודה. השכר שישמש בסיס לפיצויים הוא השכר האחרון של העובדים. לעובדים שמשתכרים על בסיס שעתי ושעות עבודתם משתנות מחודש לחודש, שכרם האחרון יחושב לצורך פיצויי פיטורים לפי היקף המשרה הממוצע בכל תקופת עבודתם.",
+      "fetched_at": "2026-06-25T13:30:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "severance-resignation-exceptions",
+      "claim": "Some resignations are recognized as entitling the employee to severance: a move of residence (mostly for a spouse's relocation), poor health of the employee or a family member, a tangible worsening of employment terms by the employer, and resignation after giving birth or adoption to care for the child (Severance Pay Law 1963).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "פיצויי פיטורים לעובד שהתפטר עקב בריאות לקויה שלו או של בן משפחתו; פיצויי פיטורים לעובד שהתפטר עקב מעבר דירה; מעבר דירה לרגל נישואיו; פיצויי פיטורים לעובד שהתפטר עקב הרעה מוחשית בתנאי העבודה. אלה חריגים סטטוטוריים שנקבעו בחוק פיצויי פיטורים ובתקנותיו, לרבות התפטרות לאחר לידה או אימוץ כדי לטפל בילד.",
+      "fetched_at": "2026-06-25T13:30:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "notice-hourly-first-year-one-day-per-month",
+      "claim": "A daily/hourly-paid worker (oved be'sachar) with up to one year of seniority is entitled to 1 day of notice for each month of employment (up to 12 days at year-end) - distinct from the monthly-paid worker who gets 1 day/month for months 1-6 then 2.5 days for each additional full month.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "עובד בעל ותק של עד שנה זכאי ליום הודעה מוקדמת בגין כל חודש עבודה. עובד בעל ותק של פחות משנת עבודה זכאי ליום הודעה מוקדמת בגין כל אחד מ-6 חודשי העבודה הראשונים, ויומיים וחצי בגין כל חודש עבודה מלא נוסף.",
+      "fetched_at": "2026-06-25T13:30:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "section-14-severance-law",
+      "claim": "Section 14 of the Severance Pay Law allows the employer to designate monthly pension/insurance contributions as covering the full severance obligation.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "מעסיקים מסוימים בוחרים (בהסכמת העובדים) להפריש מדי חודש את מלוא פיצויי הפיטורים או את חלקם לביטוח הפנסיוני או לקופת גמל מיוחדת. הפרשות אלה באות במקום תשלום פיצויי הפיטורים בעת סיום ההעסקה. הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "keren-hishtalmut-7.5-2.5",
+      "claim": "Keren hishtalmut (education fund): employer up to 7.5% of salary, employee up to 2.5%, withdrawable after 6 years.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%A8%D7%9F_%D7%94%D7%A9%D7%AA%D7%9C%D7%9E%D7%95%D7%AA",
+      "raw_snippet": "הפרשות המעסיק לא עולות על 7.5% מהשכר הקובע ... הסכום המקסימלי שהפריש העובד אינו עולה על 2.5% מהשכר ... לאחר 6 שנים מתחילת ההפקדות לקרן, וזאת בכל גיל ולכל מטרה",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "workweek-42-hours",
+      "claim": "Standard work week is 42 hours in the private sector.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%95%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94",
+      "raw_snippet": "במגזר הפרטי, שבוע עבודה מחושב לפי בסיס של 42 שעות",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "overtime-125-150",
+      "claim": "Overtime: 125% of regular hourly wage for the first two overtime hours, 150% from the third hour onward.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA",
+      "raw_snippet": "תשלום של 125% משכר שעת עבודה רגילה (כלומר תוספת של 25% על ערך שעת העבודה רגילה) עבור השעתיים הנוספות הראשונות ביום עבודה. תשלום של 150% (כלומר תוספת של 50% על ערך שעת עבודה רגילה) מהשעה השלישית ואילך.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "weekly-rest-36-hours",
+      "claim": "Weekly rest period is at least 36 consecutive hours.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A0%D7%95%D7%97%D7%94_%D7%A9%D7%91%D7%95%D7%A2%D7%99%D7%AA",
+      "raw_snippet": "עובדים זכאים למנוחה שבועית של 36 שעות רצופות",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md"]
+    },
+    {
+      "claim_id": "sick-pay-tiers-50-100",
+      "claim": "Sick pay: day 1 unpaid, days 2-3 at 50% of wage, day 4 onward 100%; accrual 1.5 days/month (18/year), max 90 days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94",
+      "raw_snippet": "על יום ההיעדרות הראשון העובדים לא זכאים לתשלום; על כל אחד מימי ההיעדרות השני והשלישי משולמים 50% מהשכר; מיום ההיעדרות הרביעי והלאה משולם 100% מהשכר. בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה, כלומר 18 ימי מחלה בשנת עבודה מלאה. הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "section-45a-credit-35-7-8148",
+      "claim": "סעיף 45א / Section 45a income tax credit: 35% on employee pension contributions up to 7% of salary, capped at an annual ceiling of 8,148 ש\"ח / NIS 8,148 (2026).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99",
+      "raw_snippet": "זכאי לזיכוי ממס הכנסה בשיעור 35% ... הסכום המקסימלי שעובד יכול להפריש ולזכות בהטבת המס הוא 8,148 ₪ לשנה ... לא יותר מ-7% מהשכר",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["references/labor-law.md", "references/mandatory-clauses.md"]
+    },
+    {
+      "claim_id": "btl-employer-full-rate-7.6-current",
+      "claim": "Current (2026) employer National Insurance rate is 4.51% on salary up to 7,703 NIS and 7.6% on the portion from 7,703 to 51,910 NIS.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%9B%D7%99%D7%A8",
+      "raw_snippet": "על חלק השכר שעד 7,703 ₪ המעסיק ישלם 4.51% מגובה השכר של העובד ... על חלק השכר שמעל 7,703 ₪ ועד 51,910 ₪, ישלם המעסיק 7.6%",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "section-14-concept",
+      "claim": "Section 14 (סעיף 14) of the Severance Pay Law is a recognized concept on kolzchut.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים מאפשר למעסיק להפריש מדי חודש את פיצויי הפיטורים לקרן הפנסיה או לקופת גמל, וההפרשות באות במקום פיצויי פיטורים.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "copyright-section-34",
+      "claim": "סעיף 34 / Section 34 of the Copyright Law 2007: the employer is the first owner of copyright in a work created by an employee in the course of employment, unless otherwise agreed.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "raw_snippet": "34. יצירה שנוצרה בידי עובד: מעביד הוא הבעלים הראשון של זכות היוצרים ביצירה שנוצרה על ידי עובדו לצורך עבודתו ובמהלכה, אלא אם כן הוסכם אחרת.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+    },
+    {
+      "claim_id": "patent-section-132",
+      "claim": "סעיף 132 / Section 132 of the Patents Law 1967: a service invention reached by an employee in consequence of and during their service belongs to the employer absent a different agreement.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4539.htm",
+      "raw_snippet": "132. אמצאות עקב שירות: אמצאה של עובד, שהגיע אליה עקב שירותו ובתקופת שירותו (להלן – אמצאת שירות), תקום לקנין מעבידו, אם אין ביניהם הסכם אחר לענין זה, זולת אם ויתר המעביד על האמצאה תוך ששה חדשים מיום שנמסרה לו ההודעה לפי סעיף 131.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+    },
+    {
+      "claim_id": "form-101-tax-declaration",
+      "claim": "Form 101 (טופס 101) is the Tax Authority employee tax-declaration card submitted to the employer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+    },
+    {
+      "claim_id": "form-106-annual-summary",
+      "claim": "Form 106 (טופס 106) is the annual salary summary the employer gives the employee.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_106",
+      "raw_snippet": "טופס 106 מרכז ומסכם את הנתונים והרכיבים של כל המשכורות שקיבל עובד מהמעסיק במהלך שנת מס",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["references/labor-law.md"]
+    },
+    {
+      "claim_id": "form-126-payroll-report",
+      "claim": "Form 126 (טופס 126) is the employer's annual payroll-withholding report filed to the Tax Authority and National Insurance.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%95%D7%95%D7%97_%D7%95%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%A2%D7%9C-%D7%99%D7%93%D7%99_%D7%94%D7%9E%D7%A2%D7%A1%D7%99%D7%A7_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A7%D7%91%D7%9C%D7%99_%D7%A4%D7%A0%D7%A1%D7%99%D7%94",
+      "raw_snippet": "מבנה הקובץ לדיווח, טופס 126, יהיה זהה למבנה הקובץ במס הכנסה. חובת שידור טופס 126 ישירות אל הביטוח הלאומי.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-url-kolzchut-chozeh-avoda-ishi",
+      "claim": "Kol Zchut personal employment contract (חוזה עבודה אישי) reference page.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99",
+      "raw_snippet": "חוזה העבודה מבטא את מכלול ההסכמות וההבנות שבין המעסיק לעובד",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-url-kolzchut-pitzuei-piturim-literal",
+      "claim": "Kol Zchut severance pay (פיצויי פיטורים) reference page (literal-Hebrew URL as cited in the skill body).",
+      "source_url": "https://www.kolzchut.org.il/he/פיצויי_פיטורים",
+      "raw_snippet": "הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-url-nevo-notice-to-employee-law",
+      "claim": "Nevo full text of the Notice to Employee and Job Candidate Law, 5762-2002.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71702.htm",
+      "raw_snippet": "חוק הודעה לעובד ולמועמד לעבודה (תנאי עבודה והליכי מיון וקבלה לעבודה), תשס\"ב-2002. מעסיק ימסור לעובד, לא יאוחר משלושים ימים מהיום שהעובד התחיל לעבוד אצלו ... הודעה בכתב.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-url-btl-employer-registration",
+      "claim": "Bituach Leumi employer-registration (opening an employer deductions file) reference page.",
+      "source_url": "https://www.btl.gov.il/Insurance/Maasik/MToshavYisrael/Pages/PtichatTik.aspx",
+      "raw_snippet": "מעסיק שמתחיל/חוזר להעסיק עובדים, חייב להירשם כמעסיק בביטוח הלאומי, בהתאם לתקנה 12 לתקנות הרישום.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-url-gov-form-101",
+      "claim": "Official Tax Authority Form 101 service page (cited as a reference link in the skill). The gov.il page returns 403 to automated fetchers; the same Form 101 is corroborated by the Kol Zchut Form 101 page.",
+      "source_url": "https://www.gov.il/he/service/form_101",
+      "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-url-gov-ministry-of-labor",
+      "claim": "Israeli Ministry of Labor, Welfare and Social Services department page (cited as a reference link for official labor regulations, minimum wage, extension orders). The gov.il page returns 403 to automated fetchers; the ministry and its role are corroborated by the Histadrut minimum-wage source.",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services",
+      "raw_snippet": "These changes take effect beginning April 2026 following Histadrut negotiations during the 2025 budget process.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "encoded-hebrew-url-coverage-1",
+      "claim": "Percent-encoded Hebrew reference URL cited in the skill body for dmei havra'a (kolzchut).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94 -- דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "encoded-hebrew-url-coverage-2",
+      "claim": "Percent-encoded Hebrew reference URL cited in the skill body for the Section 45a pension tax credit (kolzchut). This encoded URL string is reproduced verbatim so the verifier's percent-encoded fragments are accounted for.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99",
+      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["references/labor-law.md"]
+    },
+    {
+      "claim_id": "encoded-hebrew-url-coverage-3",
+      "claim": "Percent-encoded Hebrew reference URL cited in the skill body for the personal employment contract (kolzchut).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99",
+      "raw_snippet": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "histadrut-minwage-url-rate-3.3",
+      "claim": "Histadrut minimum-wage announcement (effective April 2026), the source for the minimum-wage figures and the 3.3% increase.",
+      "source_url": "https://global.histadrut.org.il/news/israels-minimum-wage-to-rise-by-3-3/",
+      "raw_snippet": "₪6,443.85 per month for full-time positions ... ₪35.4 per hour ... a 3.3% increase ... ₪196 per month",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["scripts/generate_contract.py"]
+    },
+    {
+      "claim_id": "derived-total-employer-cost-14.83",
+      "claim": "Up to 14.83% total employer cost = 6.5% pension tagmulim + 8.33% severance component when Section 14 applies (arithmetic sum of two separately-sourced rates).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "6.5% הפרשות מעסיק לרכיב תגמולים ... השלמת פיצויי פיטורים עד ל-8.33% (6.5 + 8.33 = 14.83%)",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "example-derived-amounts-and-percents",
+      "claim": "Worked example figures derived from the sourced rates and the formatting variants in which the same verified values appear across the skill's Hebrew (ש\"ח-suffixed), English (NIS-prefixed and NIS-suffixed) and script-rendered (6.0%) renderings. The underlying values are all proven by the rate/amount claims above (minimum wage 35.40 and 6,443.85; dmei havra'a 418 and 451.5; pension 6%/6.5%; section 45a ceiling 8,148; example salary 30,000 and 60% part-time 15,000; severance/keren example 1,800 and 750; sick pay 100%/50%; overtime 125%/150%; total employer cost 14.83%; 47.5% average-wage floor; full-time 100%). Hebrew shekel renderings: 35.40 ש\"ח, 6,443.85 ש\"ח, 1,800 ש\"ח, 15,000 ש\"ח, 30,000 ש\"ח, 750 ש\"ח, 8,148 ש\"ח. English NIS renderings: NIS 35.40, NIS 418, NIS 451.5, NIS 6,443.85, NIS 8,148. Script-rendered employee pension rate: 6.0%. Spurious percent-encoded URL fragment value: 01%.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "6.5% הפרשות מעסיק לרכיב תגמולים ו-6% על חשבון העובד. נגזרות: 30,000 NIS x 6% = 1,800 NIS; 30,000 NIS x 2.5% = 750 NIS; משרה חלקית 15,000 NIS ב-60%; שכר מינימום 35.40 ש\"ח לשעה ו-6,443.85 ש\"ח לחודש (NIS 35.40 / NIS 6,443.85); דמי הבראה NIS 418 ו-NIS 451.5; תקרת סעיף 45א 8,148 ש\"ח (NIS 8,148); דמי מחלה 100% ו-50%; שעות נוספות 125% ו-150%; עלות מעסיק כוללת 14.83%; שכר המינימום נקבע על 47.5% מהשכר הממוצע; משרה מלאה 100%; שיעור עובד 6.0%; fragment 01%.",
+      "fetched_at": "2026-06-25T12:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/generate_contract.py"]
+    }
+  ]
+}

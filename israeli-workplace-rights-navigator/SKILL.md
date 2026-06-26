@@ -112,14 +112,16 @@ Per the **Employment of Women Law, 1954 (Chok Avdat Nashim)**. The leave is now 
 
 **Birth and Parenting Period (the parent who gave birth):**
 - Total duration: 26 weeks from the date of birth
-- Paid portion: 15 weeks of birth allowance (dmei leidah) from Bituach Leumi, for employees who paid national insurance for at least 10 of the 14 months preceding the birth, or 15 of the 22 months
-- Employees with less than 10 months of insurance contributions: 8 weeks paid
+- Paid portion: 15 weeks of birth allowance (dmei leidah) from Bituach Leumi, for employees who paid national insurance for at least 10 of the 14 months preceding the work stoppage, or 15 of the 22 months
+- Employees who paid national insurance for at least 6 of the 14 months preceding the work stoppage (but not enough for the full allowance) receive a partial allowance of 56 days (8 weeks)
 - The remaining weeks (11 or 18) are unpaid leave
+- The daily birth allowance equals the employee's average daily wage, capped at a statutory maximum of NIS 1,752.33 per day in 2026
 - The employee can start leave up to 7 weeks before the due date (deducted from the 26 weeks)
 - **Complex-disability extension (from 1 April 2026):** a parent of a child born with a complex disability recognized by Bituach Leumi is entitled to an additional 5 paid weeks. Total extension periods of the birth allowance are capped at 20 weeks combined
 
 **Job protection:**
-- An employer cannot fire a pregnant employee without a permit from the Ministry of Labor
+- Under the Employment of Women Law s.9(a), once a pregnant employee has at least 6 months of tenure with that employer, the employer cannot dismiss her (or reduce her position scope) without a permit from the Ministry of Labor. This applies regardless of the reason for dismissal
+- Below 6 months of tenure, dismissal is lawful and no permit is needed UNLESS the dismissal is because of the pregnancy. That is a discrimination question under the Equal Employment Opportunities Law, not a permit question, and the employee can still challenge it on discrimination grounds
 - An employer cannot fire an employee for 60 days after the Birth and Parenting Period ends
 - The employee is entitled to return to the same position or an equivalent one
 
@@ -165,6 +167,10 @@ python scripts/severance-calculator.py --help
 - The standard contribution rate for severance: 8.33% of salary (equivalent to 1/12 of monthly salary)
 - Upon termination, the employee receives the accumulated fund balance as severance
 
+**Tax exemption on severance:**
+- Severance pay is exempt from income tax up to a ceiling per year of tenure. The 2026 ceiling is **13,750 NIS per year of employment** (the exempt amount is the lower of this figure times years of service, or 1.5 times the last monthly salary times years of service). Verify the current ceiling, which is updated annually
+- Severance above the exemption ceiling is taxable; the employee can request tax-spreading (perisat mas) to reduce the tax
+
 **Key rules:**
 - Severance must be paid within 15 days of termination
 - Late payment accrues penalty interest (pitzuyei halanat pitzuyim)
@@ -186,7 +192,7 @@ Every employee who has completed at least one year of employment is entitled to 
 | 20+ | 10 days |
 
 **Daily rate:**
-- Updated annually by the Ministry of Economy. For 2026 the rate is NIS 418 per day (private sector); public sector is NIS 471.4 per day per collective agreement. The 2025-2026 private-sector freeze window has now passed, so verify the rate again after 1 July 2026 in case it is updated
+- Updated by extension order. The in-force private-sector rate as of June 2026 is NIS 418 per day. The Histadrut and the employers signed an agreement on 22 June 2026 to raise it to NIS 451.5 per day, but the new rate takes effect only when the Ministry of Labor signs the extension order (tzav harchava), and is then applied retroactively. Until that order is signed, NIS 418 remains the binding rate. The public sector is NIS 511.6 per day per collective agreement (2026)
 - For 2025 and 2026, employers are required to deduct one convalescence day from each employee's annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist support
 
 **Payment:**
@@ -241,7 +247,7 @@ This is a summary. For the exact month-by-month figures for both monthly-paid an
 - Failure to hold a proper hearing can render the termination unlawful
 
 **Protected employees:**
-- Pregnant women: cannot be terminated without a permit from the Ministry of Labor
+- Pregnant women with at least 6 months of tenure: cannot be terminated without a permit from the Ministry of Labor (Employment of Women Law s.9(a)). Below 6 months no permit is needed, but a dismissal because of the pregnancy is still unlawful discrimination
 - Employees on sick leave: protected during the first 90 days of accumulated sick leave
 - Employees on the Birth and Parenting Period: protected during leave and for 60 days after
 - Employees during military reserve duty (miluim): protected during the service and for 30 days after it ends for ordinary call-ups (service of more than 2 consecutive days). For long call-ups during the Swords of Iron period, the protected window is extended to 60 days after the service for an employee who served at least 60 days within the relevant statutory windows. Dismissal inside the protected window requires approval from the Defense Ministry employment committee (and, for days 31 to 60, the Labor Ministry oversight committee). Verify the current rule, since the temporary extensions are periodically renewed
@@ -302,6 +308,26 @@ Per the **Equal Rights for People with Disabilities Law, 1998 (Chok Shivyon Zchu
 - The employer is not required to make accommodations that impose an "undue burden" (natel bilti savir)
 - The employee should notify the employer of the need for accommodations
 - Disputes can be brought before the Equal Employment Opportunities Commission or labor court
+
+### Step 12: Travel Reimbursement, Pay Slip, and Post-Dismissal Benefits
+
+**Travel reimbursement (Dmei Nesia / Hechzer Hotza'ot Nesia):**
+
+Under the Travel-to-Work Extension Order, almost every employee who needs transport to reach the workplace is entitled to a monthly travel reimbursement.
+
+- The employer reimburses the cost of public transport, paying the LOWER of the actual fare (a discounted multi-ride or monthly bus/train pass) or the statutory daily cap
+- The daily cap for 2026 is **22.60 NIS per day**. The cap is updated periodically, so verify the current daily cap before relying on a figure
+- Carve-out: an employee who does not need public transport (for example, the workplace is within walking distance, or the employer provides organized transport from home) is not entitled to the reimbursement
+- The reimbursement is paid for each day the employee actually needed transport to get to work
+
+**Pay slip (Tlush Maskoret):**
+
+Under the Wage Protection Law s.24, the employer must give every employee a detailed pay slip (tlush) for each pay period, no later than the ninth day after the scheduled payday. The slip must itemize gross pay, every component (base, overtime, convalescence, etc.), and every deduction (income tax, national insurance, health tax, pension). The pay slip is the employee's primary tool for verifying that all the entitlements above were paid correctly. An employer who fails to provide a proper slip violates the law.
+
+**Post-dismissal and injury paths (Bituach Leumi):**
+
+- **Unemployment benefit (dmei avtala):** after dismissal, an employee who meets the qualifying period may claim unemployment benefit from Bituach Leumi. Register at the Employment Service (Sherut HaTaasuka) and file a claim with Bituach Leumi
+- **Work-injury benefit (nifgaei avoda):** an employee injured at work or on the way to/from work, or who develops an occupational illness, may claim a work-injury benefit (including injury allowance and, if relevant, a disability pension) from Bituach Leumi
 
 ## Examples
 
@@ -379,7 +405,7 @@ Result: The termination may be unlawful. The employee should demand in writing t
 |--------|-----|---------------|
 | Kol Zchut (workers' rights) | https://www.kolzchut.org.il/he | Plain-language explanations of labor law entitlements |
 | Ministry of Labor | https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services | Official labor regulations, minimum wage, enforcement |
-| Kol Zchut: minimum wage | https://www.kolzchut.org.il/he/%D7%A9%D7%9B%D7%A8_%D7%9E%D7%99%D7%A0%D7%99%D7%9E%D7%95%D7%9D | Current monthly and hourly minimum wage |
+| Kol Zchut: minimum wage | https://www.kolzchut.org.il/he/שכר_מינימום | Current monthly and hourly minimum wage |
 | Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/055_001.htm | Severance Pay Law, 1963 statutory text |
 | Bituach Leumi: birth allowance | https://www.btl.gov.il/benefits/maternity/Pages/default.aspx | Birth and Parenting Period allowance eligibility and amounts |
 | Labor courts in Israel (gov.il) | https://www.gov.il/he/departments/labor_courts_in_israel | Labor court jurisdiction, filing procedures |
