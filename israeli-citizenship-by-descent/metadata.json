@@ -7,8 +7,10 @@
     "he": "בודקים אם מגיע לכם דרכון אירופאי לפי מוצא המשפחה, ובונים מסלול בקשה שאפשר להגיש לבד מישראל. הסקיל מכסה את מסלולי השבת האזרחות לצאצאי נרדפי הנאצים (גרמניה, אוסטריה) ואת האזרחות לפי מוצא בפולין, רומניה, הונגריה ועוד, כולל בדיוק אילו מסמכים ישראליים, אפוסטיל ותרגום נדרשים בכל קונסוליה. שימושי כשמישהו במשפחה הגיע מאירופה ואתם רוצים לדעת אם דרכון בהישג יד ואיך מגישים את הבקשה לבד במקום לשלם לחברה אלפי שקלים. אל תשתמשו בו לעלייה לישראל, לוויזות עבודה או רילוקיישן, או כתחליף לעורך דין הגירה במקרה מורכב או שנוי במחלוקת.",
     "en": "Check whether you can claim a European passport through your family's ancestry and build the do-it-yourself application path, from Israel. Covers the Jewish restitution routes (Germany, Austria) and citizenship by descent for Poland, Romania, Hungary, and more, plus exactly which Israeli documents, apostille, and translations each consulate wants. Use it when someone in your family came from Europe and you want to know if a passport is within reach and how to file it yourself instead of paying an agency thousands of shekels. Do NOT use for immigrating to Israel, work or relocation visas, or as a substitute for a licensed immigration lawyer on a complex or contested case."
   },
-  "tags": ["citizenship-by-descent", "european-passport", "dual-citizenship", "german-citizenship", "austrian-citizenship", "apostille", "israel"],
-  "tags_he": ["אזרחות לפי מוצא", "דרכון אירופאי", "אזרחות כפולה", "דרכון גרמני", "דרכון אוסטרי", "אפוסטיל", "הגירה"],
+  "tags": {
+    "he": ["אזרחות לפי מוצא", "דרכון אירופאי", "אזרחות כפולה", "דרכון גרמני", "דרכון אוסטרי", "אפוסטיל", "הגירה"],
+    "en": ["citizenship-by-descent", "european-passport", "dual-citizenship", "german-citizenship", "austrian-citizenship", "apostille", "israel"]
+  },
   "author": "skills-il",
   "version": "1.0.0",
   "category": "legal-tech",
