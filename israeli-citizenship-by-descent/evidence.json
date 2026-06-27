@@ -1,0 +1,205 @@
+{
+  "skill_slug": "israeli-citizenship-by-descent",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-27",
+  "claims": [
+    {
+      "id": "germany-art116-2-restoration",
+      "claim": "Germany's Basic Law (Art. 116(2)) restores German citizenship to persons deprived of it by the Nazis between 1933 and 1945 on political, racial or religious grounds, and to their descendants.",
+      "claim_type": "law",
+      "source_url": "https://www.bva.bund.de/EN/Services/Citizens/ID-Documents-Law/Citizenship/116GG_15StA.html",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Such persons and their descendants have been entitled to naturalization by the GG (Grundgesetz) since 24 May 1949.",
+      "confidence": "medium"
+    },
+    {
+      "id": "germany-15-stag-2021",
+      "claim": "Germany's §15 StAG restitution route, in force since 20 August 2021, lets persons who lost or never acquired German citizenship due to Nazi persecution, and their descendants, become German citizens.",
+      "claim_type": "law",
+      "source_url": "https://www.bva.bund.de/EN/Services/Citizens/ID-Documents-Law/Citizenship/116GG_15StA.html",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Such persons have been entitled to naturalization since 20 August 2021.",
+      "confidence": "high"
+    },
+    {
+      "id": "germany-5-stag-declaration",
+      "claim": "Germany's §5 StAG gives a declaration route (in force since 20 August 2021) to children of a German parent who were excluded in a gender-discriminating manner from acquiring citizenship by descent.",
+      "claim_type": "law",
+      "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479488-2479488",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "The Fourth Act Amending the Nationality Act, which entered into force on August 20th 2021, has created a ten-year right of declaration",
+      "confidence": "high"
+    },
+    {
+      "id": "germany-2024-dual-nationality",
+      "claim": "Since 27 June 2024 Germany generally allows multiple nationality: acquiring a foreign nationality no longer means losing German nationality.",
+      "claim_type": "date",
+      "source_url": "https://www.auswaertiges-amt.de/en/2664476-2664476",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Since 27 June 2024, individuals applying for and acquiring a foreign nationality must no longer relinquish their German nationality.",
+      "confidence": "high"
+    },
+    {
+      "id": "austria-58c-declaration",
+      "claim": "Austria's §58c lets descendants of victims of Nazi persecution acquire citizenship by filing a declaration.",
+      "claim_type": "law",
+      "source_url": "https://www.bmeia.gv.at/en/consular-section-of-the-austrian-embassy-in-washington/service-for-citizens/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "A procedure pursuant to § 58c of the Austrian Citizenship Act starts by filing a declaration.",
+      "confidence": "high"
+    },
+    {
+      "id": "austria-58c-residence-cutoff",
+      "claim": "Under Austria's §58c the persecuted ancestor must have had their main place of residence in Austria before 15 May 1955 (having emigrated due to persecution).",
+      "claim_type": "date",
+      "source_url": "https://www.bmeia.gv.at/en/consular-section-of-the-austrian-embassy-in-washington/service-for-citizens/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "their main place of residence in the federal territory of Austria before May 15, 1955",
+      "confidence": "medium"
+    },
+    {
+      "id": "austria-58c-persecution-window",
+      "claim": "Austria's §58c covers persons who, between 30 January 1933 and 9 May 1945, did not have their main residence in Austria because they feared Nazi persecution, and their direct descendants (children, grandchildren, great-grandchildren).",
+      "claim_type": "date",
+      "source_url": "https://www.bmeia.gv.at/en/consular-section-of-the-austrian-embassy-in-washington/service-for-citizens/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Persons who were Austrian citizens and, between January 30, 1933 and May 9, 1945, did not have a main place of residence within the federal territory of Austria because they would have feared persecution by organs of the NSDAP",
+      "confidence": "high"
+    },
+    {
+      "id": "austria-58c-file-where-resident",
+      "claim": "An Austrian §58c declaration is filed at the Austrian diplomatic representation in the consular district where the applicant has their main residence (i.e. abroad, no residence in Austria is required).",
+      "claim_type": "feature",
+      "source_url": "https://www.bmeia.gv.at/en/consular-section-of-the-austrian-embassy-in-washington/service-for-citizens/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "the Austrian diplomatic representation in the consular district where you have your main residence is responsible for your case",
+      "confidence": "high"
+    },
+    {
+      "id": "poland-jus-sanguinis",
+      "claim": "Polish citizenship is based primarily on jus sanguinis (descent), so it passes down the bloodline regardless of birthplace.",
+      "claim_type": "law",
+      "source_url": "https://en.wikipedia.org/wiki/Polish_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Polish nationality law is based primarily on the principle of jus sanguinis.",
+      "confidence": "high"
+    },
+    {
+      "id": "poland-confirmation-not-grant",
+      "claim": "Polish citizenship by descent is obtained as a confirmation of citizenship already possessed (or its loss), not a new grant.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.pl/web/usa-en/confirming-polish-citizenship-or-its-loss",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "confirmation of possession or loss of Polish citizenship",
+      "confidence": "high"
+    },
+    {
+      "id": "romania-art11-descendants",
+      "claim": "Romania allows former Romanian citizens who lost citizenship and their descendants (children and grandchildren) to regain Romanian citizenship.",
+      "claim_type": "law",
+      "source_url": "https://en.wikipedia.org/wiki/Romanian_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "any child or grandchild of someone who has lost their citizenship is entitled to repatriation",
+      "confidence": "medium"
+    },
+    {
+      "id": "romania-dual-citizenship",
+      "claim": "Romania permits dual citizenship for those reacquiring citizenship by descent.",
+      "claim_type": "law",
+      "source_url": "https://en.wikipedia.org/wiki/Romanian_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Romanian citizens currently have the right to hold dual citizenship",
+      "confidence": "high"
+    },
+    {
+      "id": "hungary-language-interview",
+      "claim": "Hungary's simplified naturalization requires Hungarian-language ability, which is checked at the consular interview by the body receiving the application.",
+      "claim_type": "law",
+      "source_url": "https://telaviv.mfa.gov.hu/en/egyszerusitett-honositas",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "will have their knowledge of the Hungarian language checked by the body receiving the application and certified on the application form",
+      "confidence": "high"
+    },
+    {
+      "id": "czech-31-3-grandchildren",
+      "claim": "The Czech Republic lets descendants (children and grandchildren) of former Czech/Czechoslovak citizens acquire Czech citizenship by declaration under §31(3).",
+      "claim_type": "law",
+      "source_url": "https://mzv.gov.cz/losangeles/en/consular_information/czech_citizenship_and_vital_records/children_and_grandchildren_of_former.html",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "at least one parent or grandparent held Czech or Czechoslovak citizenship and lost it by 31 December 2013",
+      "confidence": "medium"
+    },
+    {
+      "id": "lithuania-pre1940-dual",
+      "claim": "Descendants of pre-1940 Lithuanian citizens whose ancestor left before 11 March 1990 may hold dual citizenship (an exception to Lithuania's dual-citizenship ban).",
+      "claim_type": "law",
+      "source_url": "https://en.wikipedia.org/wiki/Lithuanian_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "before Lithuania restored its independence on 11 March 1990",
+      "confidence": "medium"
+    },
+    {
+      "id": "portugal-sephardi-2024-residence",
+      "claim": "Following the 2024 amendment, Portugal's Sephardic-origin citizenship route now requires three years of legal residence in Portugal before applying.",
+      "claim_type": "threshold",
+      "source_url": "https://www.globalcitizensolutions.com/portuguese-citizenship-sephardic-jews/",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "the Portuguese Sephardic citizenship law was recently changed to include a requirement that any new applicants must have three years of legal residence in Portuguese territory before applying",
+      "confidence": "high"
+    },
+    {
+      "id": "spain-sephardi-2019-deadline",
+      "claim": "Spain's Sephardic citizenship route under Law 12/2015 had an application deadline that ended on 1 October 2019.",
+      "claim_type": "date",
+      "source_url": "https://en.wikipedia.org/wiki/Spanish_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "The law provided for a possible one-year extension of the deadline to 1 October 2019; it was indeed extended in March 2018.",
+      "confidence": "high"
+    },
+    {
+      "id": "cyprus-cbi-suspended-2020",
+      "claim": "Cyprus's citizenship-by-investment programme was indefinitely suspended on 1 November 2020.",
+      "claim_type": "date",
+      "source_url": "https://en.wikipedia.org/wiki/Cypriot_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "the programme was indefinitely suspended on 1 November 2020",
+      "confidence": "high"
+    },
+    {
+      "id": "cyprus-descent-parent",
+      "claim": "Cyprus citizenship by descent through a Cypriot parent remains available: a child of a Cypriot citizen parent usually receives citizenship at birth regardless of birthplace.",
+      "claim_type": "law",
+      "source_url": "https://en.wikipedia.org/wiki/Cypriot_nationality_law",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "A person born to at least one parent who is a Cypriot citizen usually automatically receives citizenship at birth regardless of birthplace.",
+      "confidence": "high"
+    },
+    {
+      "id": "israel-apostille-authority-split",
+      "claim": "In Israel, the courts/regional labor courts apostille notarial signatures and court-issued public documents, while other Israeli public documents are verified by the Ministry of Foreign Affairs.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/en/service/apostille-approval-for-countries",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Intended for the authentication of public documents issued by Israeli courts, and for signatures on notarized documents",
+      "confidence": "high"
+    },
+    {
+      "id": "israel-population-registry-extract",
+      "claim": "Israeli citizens and residents can obtain an extract from the Population Registry (standard or extended) issued by the Population and Immigration Authority.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/en/service/summaryinfofromthepopulationregistrylisting",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "This service allows Israeli citizens and residents to request a Population Registry registration extract (standard or extended).",
+      "confidence": "high"
+    },
+    {
+      "id": "israel-passport-entry-exit",
+      "claim": "Israeli citizens are required to use an Israeli passport to travel to/from Israel; those flying back on a foreign passport must present an Israeli passport (even expired) or an ETA approval.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/en/pages/news-exit-foriegn-passport-2025",
+      "source_fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "Israeli citizens who travel abroad using a foreign passport will be required, when checking in for their flight back to Israel with that foreign passport, to present their Israeli passport (even if expired) or, alternatively, an ETA approval.",
+      "confidence": "high"
+    }
+  ]
+}

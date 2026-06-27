@@ -1,0 +1,15 @@
+# Eval queries for israeli-citizenship-by-descent
+# POSITIVE (should trigger)
++ My grandfather fled Germany in 1938, can I get a German passport?
++ אני רוצה לבדוק אם מגיע לי דרכון אירופאי לפי סבא שלי מפולין
++ How do I claim Austrian citizenship through my great-grandmother who was persecuted by the Nazis?
++ דרכון רומני לפי מוצא, אילו מסמכים צריך מישראל ואיך עושים אפוסטיל
++ Is the Portuguese Sephardic citizenship route still open in 2026?
++ What Israeli documents do I need for a Polish citizenship by descent application?
+# NEGATIVE (should NOT trigger)
+- How do I make aliyah to Israel and get the absorption basket?
+- I need a digital nomad visa to work remotely from Portugal
+- Help me write my Israeli will and split inheritance among my children
+# EDGE (ambiguous)
+~ I have a Cypriot grandparent, can I get a Cyprus passport?
+~ Should I take Israeli or German citizenship for tax reasons?
