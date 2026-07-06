@@ -1,0 +1,214 @@
+{
+  "skill_slug": "israeli-divorce-navigator",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-07-06",
+  "claims": [
+    {
+      "id": "yachasei-mamon-law-1973",
+      "claim": "The default division of a couple's assets on divorce is governed by the Spousal Property Relations Law, 5733-1973 (חוק יחסי ממון בין בני זוג, תשל\"ג-1973).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72138.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "חוק יחסי ממון בין בני זוג, תשל\"ג-1973",
+      "confidence": "high"
+    },
+    {
+      "id": "section-5-default-balance-and-exclusions",
+      "claim": "Under section 5 of the Spousal Property Relations Law, on dissolution each spouse is entitled to half the value of all the couple's assets, EXCEPT assets owned before the marriage, assets received as a gift or by inheritance during the marriage, National Insurance (Bituach Leumi) benefits, personal-injury compensation, and assets the couple agreed in writing not to balance.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72138.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "עם התרת הנישואין או עם פקיעת הנישואין עקב מותו של בן זוג, זכאי כל אחד מבני הזוג למחצית שוויים של כלל נכסי בני הזוג, למעט נכסים שהיו להם ערב הנישואין או שקיבלו במתנה או בירושה בתקופת הנישואין, גימלה מהמוסד לביטוח לאומי, או פיצוי בגין נזק גוף, ונכסים שבני הזוג הסכימו בכתב ששוויים לא יאוזן ביניהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-5a-early-balancing",
+      "claim": "Section 5א of the Spousal Property Relations Law allows early balancing even before the marriage is dissolved, once a balancing request is filed and a condition is met, including where a year has passed since a dissolution proceeding or a property-division claim was opened; the court may extend the period by three additional months in a written reasoned decision. (סעיף 5א).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72138.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "הזכות לאיזון משאבים לפי סעיף 5 תהיה לכל אחד מבני הזוג אף בטרם פקיעת הנישואין אם הוגשה בקשה לביצוע הסדר איזון משאבים והתקיים אחד מהתנאים המפורטים, כגון ... חלפה שנה מיום שנפתח הליך להתרת נישואין או תביעה לחלוקת רכוש ... בית הדין רשאי בהחלטה מנומקת בכתב להאריך את התקופה בשלושה חודשים נוספים.",
+      "confidence": "high"
+    },
+    {
+      "id": "family-disputes-law-2014",
+      "claim": "The intake/information track before family litigation is set by the Law for the Regulation of Family Dispute Litigation, 5775-2014 (חוק להסדר התדיינויות בסכסוכי משפחה, תשע\"ה-2014).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_151.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "חוק להסדר התדיינויות בסכסוכי משפחה, תשע\"ה-2014",
+      "confidence": "high"
+    },
+    {
+      "id": "mahut-meetings-45-days",
+      "claim": "After filing a Request to Resolve a Dispute (בקשה ליישוב סכסוך), the parties are invited to up to four MAHUT (מהו\"ת = information, acquaintance and coordination) meetings at the assistance unit (יחידת סיוע); all MAHUT meetings are held within 45 days of filing the request, and the unit may hold fewer at its professional discretion.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "כל פגישות המהו\"ת יתקיימו בתוך 45 ימים מיום הגשת הבקשה, ויחידת הסיוע רשאית לקיים מספר קטן יותר של פגישות, בהתאם לשיקול דעתה המקצועי.",
+      "confidence": "high"
+    },
+    {
+      "id": "stay-of-proceedings-60-days",
+      "claim": "The statutory stay-of-proceedings period after filing a Request to Resolve a Dispute is 60 days, during which the applicant may not file other family claims; the assistance unit may extend it once by 15 days.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "תקופת עיכוב ההליכים הקבועה בחוק היא 60 ימים, אך יחידת הסיוע רשאית להאריך את התקופה, פעם אחת, ב-15 ימים בהודעה לערכאה השיפוטית ולצדדים.",
+      "confidence": "high"
+    },
+    {
+      "id": "family-court-law-1995",
+      "claim": "The Family Court Law, 5755-1995 (חוק בית המשפט לענייני משפחה, תשנ\"ה-1995) created the family court, which shares concurrent jurisdiction with the rabbinical court over matters such as child support and custody attached to divorce.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98460.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "חוק בית המשפט לענייני משפחה, התשנ\"ה-1995 ... בעניינים שונים לבית המשפט למשפחה סמכות מקבילה לבית הדין הרבני, ובעניינים אחרים יש לו סמכות ייחודית.",
+      "confidence": "high"
+    },
+    {
+      "id": "race-to-jurisdiction",
+      "claim": "For matters of concurrent jurisdiction (child support, custody, property attached to divorce), the forum where the claim is filed first acquires jurisdiction, which is the 'race to jurisdiction' (מירוץ הסמכויות) decided by chronology.",
+      "claim_type": "law",
+      "source_url": "https://he.wikipedia.org/wiki/חוק_בית_המשפט_לענייני_משפחה",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "קיים \"מרוץ סמכויות\" בו הערכאה אליה פנו ראשונה קונה את הסמכות לדון בעניין ... השאלה מי מהערכאות תקנה סמכות לדון בתיק נקבעת לעיתים קרובות לפי מבחן הכרונולוגיה – כלומר, הערכאה שבה הוגשה התביעה ראשונה.",
+      "confidence": "high"
+    },
+    {
+      "id": "rabbinical-exclusive-jurisdiction-1953",
+      "claim": "Under the Rabbinical Courts Jurisdiction Law (Marriage and Divorce), 5713-1953 (חוק שיפוט בתי דין רבניים (נישואין וגירושין), תשי\"ג-1953), matters of marriage and divorce of Jews who are citizens or residents of Israel are in the exclusive jurisdiction of the rabbinical courts, and the get is granted according to Jewish law.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73178.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "חוק שיפוט בתי דין רבניים (נישואין וגירושין), תשי\"ג-1953 ... עניני נישואין וגירושין של יהודים בישראל, אזרחי המדינה או תושביה, יהיו בשיפוטם הייחודי של בתי דין רבניים.",
+      "confidence": "high"
+    },
+    {
+      "id": "get-refusal-sanctions-1995",
+      "claim": "The Rabbinical Courts Law (Enforcement of Divorce Rulings), 5755-1995 (חוק בתי דין רבניים (קיום פסקי דין של גירושין), תשנ\"ה-1995) empowers the rabbinical court to impose restrictive orders (צווי הגבלה) on a get-refuser, such as barring leaving the country, revoking a driver's license, and restricting bank accounts.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73181.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "חוק בתי דין רבניים (קיום פסקי דין של גירושין), תשנ\"ה-1995 ... צו הגבלה ... למנוע יציאה מהארץ, להחזיק ברישיון נהיגה, להגביל חשבונות בנק ולמנוע זכויות אחרות כל עוד לא ניתן גט.",
+      "confidence": "high"
+    },
+    {
+      "id": "bagatz-919-15-child-support-shared-custody",
+      "claim": "In בע\"מ 919/15 (July 2017, Supreme Court) it was ruled that from age 6, in shared custody, both parents jointly bear child support in proportion to the time each parent spends with the children and to the ratio of the parents' incomes, replacing the prior rule that placed sole responsibility for ages 6-15 on the father.",
+      "claim_type": "date",
+      "source_url": "https://rotenberglaw.co.il/High-Court-Israel-Rules-Equal-Child-Support",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "בע\"מ 919/15 ... בחודש יולי 2017 ... נקבע כי מגיל 6 ואילך, במצב של משמורת משותפת, ישאו שני ההורים במזונות במשותף, בהתאם לחלוקת זמני השהות של הילדים ביניהם וביחס להכנסותיהם היחסיות.",
+      "confidence": "high"
+    },
+    {
+      "id": "guardianship-law-1962-tender-age",
+      "claim": "The Legal Capacity and Guardianship Law, 5722-1962 (חוק הכשרות המשפטית והאפוטרופסות, תשכ\"ב-1962), section 25, contains the tender-age presumption that children up to age 6 shall be with their mother absent special circumstances; parental determinations follow the best interests of the child. Referred to as Section 25 (סעיף 25) tender-age presumption.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70325.htm",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "חוק הכשרות המשפטית והאפוטרופסות, תשכ\"ב-1962 ... סעיף 25 ... ילדים עד גיל 6 יהיו אצל אמם אלא אם קיימות נסיבות מיוחדות להורות אחרת.",
+      "confidence": "high"
+    },
+    {
+      "id": "child-support-personal-law-father-under-6",
+      "claim": "Child support follows the personal law (din ishi) of the payer; under Jewish law and Supreme Court case law, from birth to age 6 the father bears an absolute obligation for the child's necessary needs (mezonot hekhrekhi'im) regardless of his financial ability. The Family Law Amendment (Maintenance) Law, 5719-1959 applies only where personal law imposes no support duty.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/מזונות_ילדים",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "מגיל לידה ועד גיל 6 קיימת חבות מזונות מוחלטת על האב ללא קשר ליכולתו הכלכלית ... חוק לתיקון דיני המשפחה (מזונות) תשי\"ט – 1959 חל כאשר הדין האישי החל על ההורים אינו מטיל עליהם חובת תשלום מזונות לילדיהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "mediation-agreement-court-approval",
+      "claim": "Divorce mediation (גישור) is an alternative to litigation in which the couple reaches a divorce agreement with a mediator; the agreement is then submitted to the court or rabbinical tribunal for approval and receives the force of a binding judgment.",
+      "claim_type": "url",
+      "source_url": "https://rotenberglaw.co.il/divorce-mediation-basics",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "גישור משפחתי הוא הליך חלופי ליישוב סכסוכים ... להגיע להסכם גירושין מבלי לנהל התדיינות בבית המשפט או בבית הדין הרבני ... ההסכם יוגש לאישור הערכאה המשפטית ויקבל תוקף של פסק דין מחייב.",
+      "confidence": "high"
+    },
+    {
+      "id": "govil-dispute-request-service",
+      "claim": "gov.il hosts the official Request to Resolve a Dispute (בקשה ליישוב סכסוך) service page of the Israeli judiciary.",
+      "claim_type": "url",
+      "source_url": "https://www.gov.il/he/service/asking_for_family_dispute_settlements",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "בקשה ליישוב סכסוך במשפחה | הרשות השופטת https://www.gov.il/he/service/asking_for_family_dispute_settlements",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-isha-spousal-maintenance",
+      "claim": "Spousal maintenance (מזונות אישה) is a claim separate from child support: a married woman can claim maintenance from her husband as long as the marriage has not been dissolved, and it is paid until the divorce or until a divorce ruling is given; a woman who works may, outside special cases, not be entitled.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/מזונות_אישה",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "אישה נשואה זכאית ויכולה לתבוע מזונות מהבעל כל עוד לא הותר קשר הנישואין ... המזונות משולמים לאישה עד מועד הגירושין בין בני הזוג, או עד מתן פסק דין לגירושין ... אישה עובדת, מלבד במקרים מסויימים, לא תהיה זכאית למזונות",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-isha-chasrei-dat-1959",
+      "claim": "Spouses with no personal-law maintenance duty (for example a couple defined as 'without religion', חסרי דת) are entitled to maintenance under the Family Law Amendment (Maintenance) Law, 5719-1959 (חוק לתיקון דיני המשפחה (מזונות), התשי\"ט-1959).",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/מזונות_אישה",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "בני זוג המוגדרים כ'חסרי דת'... זכאים למזונות על פי החוק לתיקון דיני המשפחה (מזונות), התשי\"ט-1959",
+      "confidence": "high"
+    },
+    {
+      "id": "joinder-kricha-three-conditions",
+      "claim": "A spouse can join (כריכה) ancillary matters to a divorce claim in the rabbinical court; a valid joinder turns on three cumulative conditions rather than filing order alone: the divorce claim is genuine (תביעת הגירושין היא תביעה כנה), the joinder is genuine (הכריכה היא כריכה כנה), and the joinder was done lawfully (הכריכה נעשתה כדין). The parallel jurisdiction can cover property division, spousal maintenance (מזונות אישה), and custody, but the rabbinical court has no jurisdiction over child support (מזונות ילדים) unless both parties consent.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/כריכת_עניינים_נלווים_לתביעת_גירושין_בבית_הדין_הרבני",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "תביעת הגירושין היא תביעה כנה ... הכריכה היא כריכה כנה ... הכריכה נעשתה כדין",
+      "confidence": "high"
+    },
+    {
+      "id": "urgent-relief-dv-carveout",
+      "claim": "The mandatory intake stay does not bar urgent relief (סעד דחוף): domestic violence (including a person in a domestic-violence shelter), exit-from-country, urgent maintenance, securing a minor's contact, and medical matters are express exceptions the court decides urgently, within about 14 days. A domestic-violence protective order (צו הגנה) under the Prevention of Family Violence Law, 5751-1991 (חוק למניעת אלימות במשפחה, התשנ\"א-1991) can be sought urgently.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "urgent relief (סעד דחוף) exceptions include DV (a woman in a domestic-violence shelter), urgent mezonot, securing a minor's contact, medical, and exit-from-country; the court decides urgent petitions within 14 days; these urgent petitions are not barred by the stay of proceedings.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-8-unequal-division",
+      "claim": "Under Section 8 (סעיף 8) of the Spousal Property Relations Law the court has the power to order that the division of assets between the spouses not be equal (deviate from the 50/50 default) and to adjust the balance, including qualitatively fixing the severance/valuation date, where an equal split would be unjust.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הסדר_איזון_משאבים",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "לבית המשפט יש סמכות להורות כי חלוקת הנכסים בין בני הזוג לא תהיה באופן שוויוני",
+      "confidence": "high"
+    },
+    {
+      "id": "future-rights-in-balance",
+      "claim": "The community property in the balance includes future rights accrued during the marriage such as pension, manager's insurance (ביטוח מנהלים), and severance pay (פיצויי פרישה).",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הסדר_איזון_משאבים",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "השיתוף חל גם על זכויות עתידיות כגון פנסיה, ביטוח מנהלים, פיצויי פרישה",
+      "confidence": "high"
+    },
+    {
+      "id": "get-refusal-sanctions-detail",
+      "claim": "Against a get-refuser the rabbinical court may issue a restrictive order (צו הגבלה) and impose one or more measures, including barring leaving the country, restricting an Israeli passport, restricting getting/holding/renewing a driver's license, seizing real estate and movable property, and placing a lien on a pension or allowance.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הטלת_סנקציות_על_סרבני_וסרבניות_גט",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "בית הדין הרבני רשאי להוציא כנגד סרבני גט צו הגבלה ולהטיל עליהם אחת או יותר ... הגבלה על אפשרות יציאה מהארץ ... הגבלה על קבלת דרכון ישראלי ... הגבלה על קבלת, החזקת או חידוש רישיון נהיגה ... לעקל מקרקעין ומיטלטלין ... להטיל עיקול על גמלה או קצבה",
+      "confidence": "high"
+    },
+    {
+      "id": "yeduim-betzibur-property",
+      "claim": "The property of unmarried common-law partners (ידועים בציבור) is decided by the presumption of community property (חזקת השיתוף) and general law, not by the Spousal Property Relations Law (חוק יחסי ממון), and there is no get.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/חזקת_השיתוף_בין_בני_זוג",
+      "source_fetched_at": "2026-07-06T00:00:00Z",
+      "raw_snippet": "property of unmarried partners (ידועים בציבור) is decided by חזקת השיתוף and general law, not by חוק יחסי ממון",
+      "confidence": "high"
+    }
+  ]
+}
