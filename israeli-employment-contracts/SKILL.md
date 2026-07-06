@@ -18,9 +18,21 @@ Ask the user what type of employment relationship they need to document:
 |------|--------|-----------------|-----------------|
 | Full-time employee | avod mashara mlea | Fixed hours, employer control, tools provided | Full employment contract (chozeh avoda) |
 | Part-time employee | avod mashara chelkit | Reduced hours, same rights pro-rata | Full contract with adjusted hours |
+| Domestic/household worker | oved meshek bayit | Cleaner, nanny, or caregiver employed directly by a household | Full contract plus the domestic-worker clauses below |
 | Contractor (atzmai) | kablan atzmai | True independence, multiple clients, own tools | Service agreement (NOT this skill) |
 
 **Contractor misclassification warning:** Israeli courts apply a multi-factor test. If a worker has fixed hours, uses employer equipment, works exclusively for one company, and receives regular monthly payments, they are likely an employee regardless of what the contract states. Misclassification exposes the employer to retroactive benefits, severance, and penalties.
+
+### Step 1b: Domestic and Household Workers (Oved Meshek Bayit)
+
+A salaried cleaner, nanny, or caregiver employed directly by a household is a regular employee: "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות לעובדים שכירים". So the full contract in this skill applies (minimum wage, one-month-per-year severance, convalescence pay, pension, a Notice to Employee). Add these domestic-specific clauses on top:
+
+- **The household is the employer for National Insurance.** A private household that employs a domestic worker must report the worker to Bituach Leumi and pay National Insurance and health contributions for them: "מעסיקים של עובדות משק בית חייבים לדווח עליהן לביטוח הלאומי ולשלם עבורן דמי ביטוח לאומי". The obligation kicks in once the working relationship runs beyond a few days (Bituach Leumi treats an engagement of more than 6 days as employment in a household), and it is what secures the worker's work-accident, maternity, and old-age rights. Reporting and payment go through the Bituach Leumi household-employer (meshek bayit) track: it has its OWN contribution rates (which depend on the worker's age and status) and is paid QUARTERLY, four times a year, on a household-employer voucher, not the monthly Form 126 route. The worker's own National-Insurance-and-health share is withheld from their wages and the household remits the combined sum. Do NOT apply Step 6's regular-employer rate here; look up the current household-track rate on the Bituach Leumi meshek-bayit rates page.
+- **Log the hours; the burden is on the employer.** Domestic-worker hours are hard to reconstruct after the fact, and the law puts the burden of proving hours on the employer: "נטל ההוכחה לגבי מספר שעות העבודה שעבד העובד הוא על המעסיק". So a disputed, unrecorded hour is generally decided in the worker's favor. The contract should fix the weekly schedule and require a simple written or app-based hours log that both sides sign off on.
+- **Weekly rest.** For a live-out worker on a fixed schedule, state the standard weekly rest of at least 36 consecutive hours that includes the worker's own day of rest. For a live-in caregiver, courts have recognized a shorter weekly rest of at least 25 hours, since the Hours of Work and Rest Law does not apply in full to a live-in care worker (see the overtime point below).
+- **Live-in caregivers and overtime.** When the worker lives in the patient's home and their hours cannot be reasonably supervised, the Hours of Work and Rest Law's overtime provisions do not apply: "עובד שלא ניתן לפקח על שעות עבודתו באמצעים טכנולוגיים סבירים, אינו זכאי לגמול שעות נוספות". So a live-in caregiver's extra hours are handled by a fair global overtime payment (gmul globali) agreed in advance, not per-hour 125%/150% under Step 2, as long as the global sum is genuine and not a device to underpay. A live-OUT cleaner or nanny on a fixed schedule is fully under the Law and IS entitled to per-hour overtime.
+- **Live-in vs live-out.** For a live-in worker, spell out the sleeping arrangement, privacy, and that lodging and meals provided in kind can count toward wage only within the limits the law allows, never as a way to drop cash pay below the minimum wage. For a live-out worker, cover travel-time and transport reimbursement.
+- **Foreign caregivers are a different track.** If the worker is a FOREIGN caregiver (permit, licensed bureau, country-of-origin holidays, the reduced National Insurance rate, deposit fund), the payroll and permit mechanics live in the `foreign-caregiver-payroll` skill. This skill covers the CONTRACT for a salaried Israeli household worker; pair the two for a foreign caregiver.
 
 ### Step 2: Calculate Mandatory Benefits
 
@@ -252,6 +264,10 @@ Actions:
 4. Warn: Misclassification liability includes retroactive benefits, severance, Bituach Leumi penalties
 Result: Classification recommendation with risk analysis and next steps.
 
+### Example 5: Salaried Nanny Employed by a Household
+User says: "We are hiring a nanny 4 days a week, draft the employment contract"
+Actions: Draft a full employment contract (minimum wage, pension, convalescence, one-month-per-year severance, a Notice to Employee), then add the domestic-worker clauses: register the household as an employer with Bituach Leumi on the meshek-bayit track and pay National Insurance for her, fix the weekly schedule with a signed hours log (the burden of proving hours is on the household), and state the 36-hour weekly rest. Note this is a local salaried worker, so foreign-caregiver permit and payroll rules do not apply.
+
 ## Bundled Resources
 
 ### Scripts
@@ -301,6 +317,8 @@ Solution: Register immediately via the Bituach Leumi employer portal. Late regis
 | Nevo: Notice to Employee Law full text | https://www.nevo.co.il/law_html/law00/71702.htm | Notice to Employee and Job Candidate Law, 5762-2002 statutory text |
 | Kol Zchut: Severance Pay (Pitzuei Piturin) | https://www.kolzchut.org.il/he/פיצויי_פיטורים | Severance Pay Law, 1963 explained (Section 14, calculation, payment deadline) |
 | Bituach Leumi: employer registration | https://www.btl.gov.il/Insurance/Maasik/MToshavYisrael/Pages/PtichatTik.aspx | Opening an employer deductions file with National Insurance |
+| Bituach Leumi: reporting a domestic worker | https://www.btl.gov.il/Insurance/National%20Insurance/type_list/House_keeper/Pages/divuachVetashlum.aspx | Household-employer (meshek bayit) reporting and payment track for a domestic worker |
+| Kol Zchut: domestic workers' rights | https://www.kolzchut.org.il/he/זכותון_עובדים_במשק_בית_(עוזרות_בית_ומטפלים/ות) | Rights of cleaners, nannies, and caregivers; employer duty to report to Bituach Leumi |
 | Tax Authority: Form 101 | https://www.gov.il/he/service/form_101 | Employee tax declaration form for new hires |
 
 ## Recommended MCP Servers

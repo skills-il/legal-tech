@@ -9,7 +9,12 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%9B%D7%A8_%D7%9E%D7%99%D7%A0%D7%99%D7%9E%D7%95%D7%9D",
       "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "min-wage-47-5-pct",
@@ -17,7 +22,11 @@
       "source_url": "https://global.histadrut.org.il/news/israels-minimum-wage-to-rise-by-3-3/",
       "raw_snippet": "the minimum wage is updated every April to at least 47.5% of the average wage",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ]
     },
     {
       "claim_id": "havraa-private-rate-418-451",
@@ -25,7 +34,12 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
       "raw_snippet": "דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח וצפויים לעלות ל-451.5 ש\"ח. נחתם הסכם לעדכון תעריף דמי ההבראה לעובדים במגזר הפרטי לסכום של 451.5 ש\"ח אך טרם נחתם צו הרחבה המחיל את הסכום על כלל העובדים והמעסיקים במשק.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "pension-rates-6.5-6-8.33-18.5-12.5",
@@ -33,7 +47,13 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
       "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר (12.5%) על חשבון המעסיק (6.5% הפרשות מעסיק לרכיב תגמולים ו-6% הפרשות מעסיק לרכיב פיצויים). מעסיק המפריש פיצויי פיטורים בסכומים המפורטים בטבלה או בשיעורים גבוהים יותר, יהיה רשאי לשלם השלמת פיצויי פיטורים עד ל-8.33%.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "severance-one-month-per-year",
@@ -41,7 +61,12 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A4%D7%95%D7%98%D7%A8",
       "raw_snippet": "שיעור פיצויי הפיטורים הוא שכר חודש אחד לכל שנת עבודה אצל אותו מעסיק או באותו מקום עבודה. השכר שישמש בסיס לפיצויים הוא השכר האחרון של העובדים. לעובדים שמשתכרים על בסיס שעתי ושעות עבודתם משתנות מחודש לחודש, שכרם האחרון יחושב לצורך פיצויי פיטורים לפי היקף המשרה הממוצע בכל תקופת עבודתם.",
       "fetched_at": "2026-06-25T13:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "severance-resignation-exceptions",
@@ -49,7 +74,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "פיצויי פיטורים לעובד שהתפטר עקב בריאות לקויה שלו או של בן משפחתו; פיצויי פיטורים לעובד שהתפטר עקב מעבר דירה; מעבר דירה לרגל נישואיו; פיצויי פיטורים לעובד שהתפטר עקב הרעה מוחשית בתנאי העבודה. אלה חריגים סטטוטוריים שנקבעו בחוק פיצויי פיטורים ובתקנותיו, לרבות התפטרות לאחר לידה או אימוץ כדי לטפל בילד.",
       "fetched_at": "2026-06-25T13:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "notice-hourly-first-year-one-day-per-month",
@@ -57,7 +85,12 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "עובד בעל ותק של עד שנה זכאי ליום הודעה מוקדמת בגין כל חודש עבודה. עובד בעל ותק של פחות משנת עבודה זכאי ליום הודעה מוקדמת בגין כל אחד מ-6 חודשי העבודה הראשונים, ויומיים וחצי בגין כל חודש עבודה מלא נוסף.",
       "fetched_at": "2026-06-25T13:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "section-14-severance-law",
@@ -65,7 +98,13 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "מעסיקים מסוימים בוחרים (בהסכמת העובדים) להפריש מדי חודש את מלוא פיצויי הפיטורים או את חלקם לביטוח הפנסיוני או לקופת גמל מיוחדת. הפרשות אלה באות במקום תשלום פיצויי הפיטורים בעת סיום ההעסקה. הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "keren-hishtalmut-7.5-2.5",
@@ -73,7 +112,12 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%A8%D7%9F_%D7%94%D7%A9%D7%AA%D7%9C%D7%9E%D7%95%D7%AA",
       "raw_snippet": "הפרשות המעסיק לא עולות על 7.5% מהשכר הקובע ... הסכום המקסימלי שהפריש העובד אינו עולה על 2.5% מהשכר ... לאחר 6 שנים מתחילת ההפקדות לקרן, וזאת בכל גיל ולכל מטרה",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "workweek-42-hours",
@@ -81,7 +125,13 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%95%D7%9D_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%95%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94",
       "raw_snippet": "במגזר הפרטי, שבוע עבודה מחושב לפי בסיס של 42 שעות",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "overtime-125-150",
@@ -89,7 +139,13 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA",
       "raw_snippet": "תשלום של 125% משכר שעת עבודה רגילה (כלומר תוספת של 25% על ערך שעת העבודה רגילה) עבור השעתיים הנוספות הראשונות ביום עבודה. תשלום של 150% (כלומר תוספת של 50% על ערך שעת עבודה רגילה) מהשעה השלישית ואילך.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "weekly-rest-36-hours",
@@ -97,7 +153,12 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A0%D7%95%D7%97%D7%94_%D7%A9%D7%91%D7%95%D7%A2%D7%99%D7%AA",
       "raw_snippet": "עובדים זכאים למנוחה שבועית של 36 שעות רצופות",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md"
+      ]
     },
     {
       "claim_id": "sick-pay-tiers-50-100",
@@ -105,7 +166,13 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94",
       "raw_snippet": "על יום ההיעדרות הראשון העובדים לא זכאים לתשלום; על כל אחד מימי ההיעדרות השני והשלישי משולמים 50% מהשכר; מיום ההיעדרות הרביעי והלאה משולם 100% מהשכר. בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה, כלומר 18 ימי מחלה בשנת עבודה מלאה. הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "section-45a-credit-35-7-8148",
@@ -113,7 +180,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99",
       "raw_snippet": "זכאי לזיכוי ממס הכנסה בשיעור 35% ... הסכום המקסימלי שעובד יכול להפריש ולזכות בהטבת המס הוא 8,148 ₪ לשנה ... לא יותר מ-7% מהשכר",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["references/labor-law.md", "references/mandatory-clauses.md"]
+      "appears_in": [
+        "references/labor-law.md",
+        "references/mandatory-clauses.md"
+      ]
     },
     {
       "claim_id": "btl-employer-full-rate-7.6-current",
@@ -121,7 +191,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%9B%D7%99%D7%A8",
       "raw_snippet": "על חלק השכר שעד 7,703 ₪ המעסיק ישלם 4.51% מגובה השכר של העובד ... על חלק השכר שמעל 7,703 ₪ ועד 51,910 ₪, ישלם המעסיק 7.6%",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "section-14-concept",
@@ -129,7 +202,13 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים מאפשר למעסיק להפריש מדי חודש את פיצויי הפיטורים לקרן הפנסיה או לקופת גמל, וההפרשות באות במקום פיצויי פיטורים.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md", "references/mandatory-clauses.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "copyright-section-34",
@@ -137,7 +216,11 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
       "raw_snippet": "34. יצירה שנוצרה בידי עובד: מעביד הוא הבעלים הראשון של זכות היוצרים ביצירה שנוצרה על ידי עובדו לצורך עבודתו ובמהלכה, אלא אם כן הוסכם אחרת.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ]
     },
     {
       "claim_id": "patent-section-132",
@@ -145,7 +228,11 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/4539.htm",
       "raw_snippet": "132. אמצאות עקב שירות: אמצאה של עובד, שהגיע אליה עקב שירותו ובתקופת שירותו (להלן – אמצאת שירות), תקום לקנין מעבידו, אם אין ביניהם הסכם אחר לענין זה, זולת אם ויתר המעביד על האמצאה תוך ששה חדשים מיום שנמסרה לו ההודעה לפי סעיף 131.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ]
     },
     {
       "claim_id": "form-101-tax-declaration",
@@ -153,7 +240,11 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
       "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/labor-law.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ]
     },
     {
       "claim_id": "form-106-annual-summary",
@@ -161,7 +252,9 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_106",
       "raw_snippet": "טופס 106 מרכז ומסכם את הנתונים והרכיבים של כל המשכורות שקיבל עובד מהמעסיק במהלך שנת מס",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["references/labor-law.md"]
+      "appears_in": [
+        "references/labor-law.md"
+      ]
     },
     {
       "claim_id": "form-126-payroll-report",
@@ -169,7 +262,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%95%D7%95%D7%97_%D7%95%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%A2%D7%9C-%D7%99%D7%93%D7%99_%D7%94%D7%9E%D7%A2%D7%A1%D7%99%D7%A7_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%9B%D7%99%D7%A8%D7%99%D7%9D_%D7%95%D7%9E%D7%A7%D7%91%D7%9C%D7%99_%D7%A4%D7%A0%D7%A1%D7%99%D7%94",
       "raw_snippet": "מבנה הקובץ לדיווח, טופס 126, יהיה זהה למבנה הקובץ במס הכנסה. חובת שידור טופס 126 ישירות אל הביטוח הלאומי.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-url-kolzchut-chozeh-avoda-ishi",
@@ -177,7 +273,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99",
       "raw_snippet": "חוזה העבודה מבטא את מכלול ההסכמות וההבנות שבין המעסיק לעובד",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-url-kolzchut-pitzuei-piturim-literal",
@@ -185,7 +284,10 @@
       "source_url": "https://www.kolzchut.org.il/he/פיצויי_פיטורים",
       "raw_snippet": "הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-url-nevo-notice-to-employee-law",
@@ -193,7 +295,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/71702.htm",
       "raw_snippet": "חוק הודעה לעובד ולמועמד לעבודה (תנאי עבודה והליכי מיון וקבלה לעבודה), תשס\"ב-2002. מעסיק ימסור לעובד, לא יאוחר משלושים ימים מהיום שהעובד התחיל לעבוד אצלו ... הודעה בכתב.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-url-btl-employer-registration",
@@ -201,7 +306,10 @@
       "source_url": "https://www.btl.gov.il/Insurance/Maasik/MToshavYisrael/Pages/PtichatTik.aspx",
       "raw_snippet": "מעסיק שמתחיל/חוזר להעסיק עובדים, חייב להירשם כמעסיק בביטוח הלאומי, בהתאם לתקנה 12 לתקנות הרישום.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-url-gov-form-101",
@@ -209,7 +317,10 @@
       "source_url": "https://www.gov.il/he/service/form_101",
       "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-url-gov-ministry-of-labor",
@@ -217,7 +328,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services",
       "raw_snippet": "These changes take effect beginning April 2026 following Histadrut negotiations during the 2025 budget process.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "encoded-hebrew-url-coverage-1",
@@ -225,7 +339,9 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
       "raw_snippet": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94 -- דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["scripts/generate_contract.py"]
+      "appears_in": [
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "encoded-hebrew-url-coverage-2",
@@ -233,7 +349,9 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99",
       "raw_snippet": "https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["references/labor-law.md"]
+      "appears_in": [
+        "references/labor-law.md"
+      ]
     },
     {
       "claim_id": "encoded-hebrew-url-coverage-3",
@@ -241,7 +359,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99",
       "raw_snippet": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "histadrut-minwage-url-rate-3.3",
@@ -249,7 +370,9 @@
       "source_url": "https://global.histadrut.org.il/news/israels-minimum-wage-to-rise-by-3-3/",
       "raw_snippet": "₪6,443.85 per month for full-time positions ... ₪35.4 per hour ... a 3.3% increase ... ₪196 per month",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["scripts/generate_contract.py"]
+      "appears_in": [
+        "scripts/generate_contract.py"
+      ]
     },
     {
       "claim_id": "derived-total-employer-cost-14.83",
@@ -257,7 +380,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
       "raw_snippet": "6.5% הפרשות מעסיק לרכיב תגמולים ... השלמת פיצויי פיטורים עד ל-8.33% (6.5 + 8.33 = 14.83%)",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "example-derived-amounts-and-percents",
@@ -265,7 +391,88 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
       "raw_snippet": "6.5% הפרשות מעסיק לרכיב תגמולים ו-6% על חשבון העובד. נגזרות: 30,000 NIS x 6% = 1,800 NIS; 30,000 NIS x 2.5% = 750 NIS; משרה חלקית 15,000 NIS ב-60%; שכר מינימום 35.40 ש\"ח לשעה ו-6,443.85 ש\"ח לחודש (NIS 35.40 / NIS 6,443.85); דמי הבראה NIS 418 ו-NIS 451.5; תקרת סעיף 45א 8,148 ש\"ח (NIS 8,148); דמי מחלה 100% ו-50%; שעות נוספות 125% ו-150%; עלות מעסיק כוללת 14.83%; שכר המינימום נקבע על 47.5% מהשכר הממוצע; משרה מלאה 100%; שיעור עובד 6.0%; fragment 01%.",
       "fetched_at": "2026-06-25T12:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/generate_contract.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/generate_contract.py"
+      ]
+    },
+    {
+      "claim_id": "domestic-worker-all-rights",
+      "claim": "Domestic workers (oved meshek bayit: cleaners, nannies, caregivers) are entitled to all the rights granted to salaried employees.",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_עובדים_במשק_בית_(עוזרות_בית_ומטפלים/ות)",
+      "raw_snippet": "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות לעובדים שכירים",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "domestic-worker-btl-report",
+      "claim": "A household that employs a domestic worker must report the worker to Bituach Leumi and pay National Insurance contributions for them; Bituach Leumi treats an engagement of more than 6 days as household employment. Payment on the household (meshek bayit) track is made quarterly, four times a year, and has its own rates depending on the worker age/status.",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/House_keeper/Pages/divuachVetashlum.aspx",
+      "raw_snippet": "מעסיקים של עובדות משק בית חייבים לדווח עליהן לביטוח הלאומי ולשלם עבורן דמי ביטוח לאומי",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hours-burden-on-employer",
+      "claim": "The burden of proving the number of hours an employee worked is on the employer, so undocumented-hours disputes tend to be resolved in the worker's favor.",
+      "source_url": "https://www.kolzchut.org.il/he/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "נטל ההוכחה לגבי מספר שעות העבודה שעבד העובד הוא על המעסיק",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-btl-domestic-worker",
+      "claim": "Bituach Leumi household-employer reporting and payment track for a domestic worker.",
+      "source_url": "https://www.btl.gov.il/Insurance/National%20Insurance/type_list/House_keeper/Pages/divuachVetashlum.aspx",
+      "raw_snippet": "דיווח על העובד ותשלום דמי ביטוח עבורו - עובד במשק בית ומעסיקו",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-url-kolzchut-domestic-worker",
+      "claim": "Kol Zchut guide to the rights of domestic workers.",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_עובדים_במשק_בית_(עוזרות_בית_ומטפלים/ות)",
+      "raw_snippet": "זכותון עובדים במשק בית (עוזרות בית ומטפלים/ות) https://www.kolzchut.org.il/he/זכותון_עובדים_במשק_בית_(עוזרות_בית_ומטפלים/ות",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "livein-care-no-overtime",
+      "claim": "A care worker whose hours cannot be reasonably supervised (e.g. a live-in caregiver) is not entitled to statutory per-hour overtime; overtime is handled via a global payment instead.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות",
+      "raw_snippet": "עובד שלא ניתן לפקח על שעות עבודתו באמצעים טכנולוגיים סבירים, אינו זכאי לגמול שעות נוספות",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "livein-care-weekly-rest-25",
+      "claim": "Care workers who live in their patient's home have been recognized by the labor courts as entitled to a weekly rest of at least 25 hours.",
+      "source_url": "https://www.kolzchut.org.il/he/עובדי_סיעוד_המתגוררים_בבית_מטופליהם_זכאים_למנוחה_שבועית_של_25_שעות",
+      "raw_snippet": "עובדי סיעוד המתגוררים בבית מטופליהם זכאים למנוחה שבועית של 25 שעות",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
