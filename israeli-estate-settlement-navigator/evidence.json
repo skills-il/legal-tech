@@ -1,0 +1,340 @@
+{
+  "skill_slug": "israeli-estate-settlement-navigator",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-07-07",
+  "claims": [
+    {
+      "id": "death-cert-authority",
+      "claim": "The official death certificate (תעודת פטירה) for a death in Israel is issued by the Population and Immigration Authority (רשות האוכלוסין וההגירה), part of the Ministry of the Interior.",
+      "claim_type": "company",
+      "source_url": "https://www.gov.il/he/service/death_certificate",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הפקת תעודת פטירה לנפטרים בישראל - ללא עלות | רשות האוכלוסין וההגירה",
+      "confidence": "high"
+    },
+    {
+      "id": "death-cert-free",
+      "claim": "Issuing a death certificate does not involve any payment (it is free).",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/הוצאת_תעודת_פטירה",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הנפקת תעודת פטירה לא כרוכה בתשלום",
+      "confidence": "high"
+    },
+    {
+      "id": "death-cert-timing",
+      "claim": "The authority issues the death certificate within about five business days of receiving the request and sends it by mail.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/הוצאת_תעודת_פטירה",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "the authority will issue it within five business days of receiving a request",
+      "confidence": "medium"
+    },
+    {
+      "id": "death-notice-vs-certificate",
+      "claim": "The הודעת פטירה (death notice) is a medical document issued by the doctor/hospital confirming the death; the תעודת פטירה (death certificate) is the official document issued by the population authority for legal purposes after the death is registered.",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/הוצאת_תעודת_פטירה",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הודעת פטירה (death notice) - a medical document issued by a doctor/hospital confirming death; תעודת פטירה (death certificate) - an official document from the population authority for legal purposes",
+      "confidence": "medium"
+    },
+    {
+      "id": "death-registration-url",
+      "claim": "Registering a death in the population registry is a distinct service of the Population and Immigration Authority.",
+      "claim_type": "url",
+      "source_url": "https://www.gov.il/he/service/death_registration",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "רישום פטירה במרשם האוכלוסין | רשות האוכלוסין וההגירה",
+      "confidence": "high"
+    },
+    {
+      "id": "burial-grant-eligibility",
+      "claim": "The burial grant (דמי קבורה) is paid for anyone who died in Israel and was buried there, and for every Israeli resident (whose center of life is in Israel) who died abroad.",
+      "claim_type": "threshold",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "כל אדם שנפטר בישראל ונקבר בה, ועבור כל תושב/ת ישראל מי שמרכז חייו בישראל...שנפטר מחוץ לישראל",
+      "confidence": "high"
+    },
+    {
+      "id": "burial-grant-direct-pay",
+      "claim": "Bituach Leumi pays the burial grant directly to the Chevra Kadisha and any other body lawfully authorized to handle burial.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הביטוח הלאומי משלם את דמי הקבורה ישירות לחברה הקדישא ולכל גוף אחר שהורשה כדין לעסוק בקבורה",
+      "confidence": "high"
+    },
+    {
+      "id": "burial-grant-no-family-charge",
+      "claim": "No payment is collected from the deceased's family for the burial and the customary burial-related services.",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "לא ייגבה כל תשלום ממשפחת הנפטר בעד הקבורה והשירותים המקובלים בקשר לקבורה.",
+      "confidence": "high"
+    },
+    {
+      "id": "civil-burial-right",
+      "claim": "Alternative civil burial (קבורה אזרחית חלופית) is a legal right in Israel under the Right to Alternative Civil Burial Law, 5756-1996, and is offered by dedicated societies such as Menucha Nechona.",
+      "claim_type": "law",
+      "source_url": "https://he.wikipedia.org/wiki/מנוחה_נכונה_(עמותה)",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "סוגיית הקבורה האזרחית החלופית קבועה בחוק הזכות לקבורה אזרחית חלופית, התשנ\"ו-1996, ולפיו קבורה אזרחית מיועדת לנפטרים יהודים החפצים בקבורה על-פי השקפת עולמם",
+      "confidence": "medium"
+    },
+    {
+      "id": "misrad-hapnim-auto-notify",
+      "claim": "Following the initial death registration, the Ministry of the Interior forwards the information, so most financial institutions learn of the death without the family notifying them.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "בעקבות הדיווח הראשוני על הפטירה, משרד הפנים מעביר את המידע",
+      "confidence": "medium"
+    },
+    {
+      "id": "bank-account-frozen",
+      "claim": "A deceased person's bank accounts are frozen and are released once a succession order (צו ירושה) or probate order (צו קיום צוואה) is presented.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Frozen until probate/will execution order issued; Present probate/will order to banks; Frozen accounts automatically thaw upon court order transmission",
+      "confidence": "medium"
+    },
+    {
+      "id": "survivor-benefit-must-claim",
+      "claim": "Survivor benefits (קצבת שאירים) from Bituach Leumi must be actively claimed by the survivors and are not paid automatically just because the death was registered.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "File within 12 months for קצבת שאירים (survivor stipend)",
+      "confidence": "medium"
+    },
+    {
+      "id": "heirs-debt-estate-only",
+      "claim": "The deceased's debts are paid out of the estate only, not by the heirs personally, even if the estate is insufficient to cover all the debts.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "החובות ישולמו מתוך העיזבון (הירושה) בלבד ולא על-ידי היורשים, גם אם אין בעיזבון מספיק רכוש או כספים כדי לכסות את כלל החובות.",
+      "confidence": "high"
+    },
+    {
+      "id": "heirs-not-liable-beyond-estate",
+      "claim": "Heirs are not obligated to pay creditors the portion of a debt that exceeds the value of the estate.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "היורשים לא יהיו חייבים לשלם לנושים את יתרת החוב שעולה על שווי העיזבון.",
+      "confidence": "high"
+    },
+    {
+      "id": "debt-priority-funeral-first",
+      "claim": "Debts of the estate are paid in a priority order that starts with funeral, burial and gravestone expenses, then estate-administration and court-order costs, then the deceased's ordinary debts.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Order of debt priority: 1. Funeral, burial, and gravestone expenses 2. Inheritance/will court order costs and estate administration 3. Regular debts of the deceased",
+      "confidence": "medium"
+    },
+    {
+      "id": "succession-law-sections",
+      "claim": "The rules on paying the deceased's debts from the estate are set out in the Succession Law, 5725-1965 (חוק הירושה), sections 100 to 106.",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "חוק הירושה, תשכ\"ה-1965 ... סעיפים 106-100",
+      "confidence": "medium"
+    },
+    {
+      "id": "order-type-distinction",
+      "claim": "When there is no will the heirs obtain a succession order (צו ירושה); when there is a will they obtain a probate order (צו קיום צוואה); both are issued by the Registrar of Inheritance Affairs (הרשם לענייני ירושה).",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "With Will: הגשת בקשה לקבלת צו קיום צוואה; Without Will: הגשת בקשה לקבלת צו ירושה ... Registrar of Succession (הרשם לענייני ירושה)",
+      "confidence": "high"
+    },
+    {
+      "id": "registrar-portal",
+      "claim": "Succession and probate order applications are filed with the Registrar of Inheritance Affairs online portal, phone *2416.",
+      "claim_type": "url",
+      "source_url": "https://inheritance.justice.gov.il/RashamYerusha/#/home",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Online portal: https://inheritance.justice.gov.il/RashamYerusha/#/home ; Phone: *2416",
+      "confidence": "medium"
+    },
+    {
+      "id": "real-estate-tabu",
+      "claim": "Re-registering the deceased's real estate to the heirs is done by presenting the succession or probate order to the Land Registry (לשכת רישום המקרקעין / Tabu).",
+      "claim_type": "company",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Real Estate Transfer: Present probate/will order to Land Registry (לשכת רישום המקרקעין)",
+      "confidence": "medium"
+    },
+    {
+      "id": "vehicle-transfer",
+      "claim": "Transferring a deceased person's vehicle is done at Misrad HaRishui (Licensing Bureau) with the death certificate and the succession/probate order; a surviving spouse may transfer under a special procedure.",
+      "claim_type": "url",
+      "source_url": "https://www.gov.il/he/service/modification_registration_vehicle_following_death",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Vehicle Transfer: Present death certificate + family ID at licensing bureau; Get authorization from Licensing Bureau: https://www.gov.il/he/service/modification_registration_vehicle_following_death",
+      "confidence": "medium"
+    },
+    {
+      "id": "arnona-discount",
+      "claim": "A property-tax (arnona) discount can be available for recipients of a survivor allowance, applied for at the municipality.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Municipality - Arnona Discount: הנחה בארנונה למקבלי קצבת שאירים",
+      "confidence": "medium"
+    },
+    {
+      "id": "cancel-standing-orders",
+      "claim": "Standing orders (הוראות קבע) for utilities and subscriptions must be actively cancelled with the banks and the service providers.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Cancel standing orders (הוראות קבע) with banks, utilities, subscriptions",
+      "confidence": "medium"
+    },
+    {
+      "id": "employer-severance-heirs",
+      "claim": "When an employee dies, the heirs are entitled to the final salary, notice pay, redemption of unused vacation, and severance-type compensation from the employer.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "Heirs entitled to: final salary, notice pay, unused vacation, dismissal compensation",
+      "confidence": "medium"
+    },
+    {
+      "id": "burial-grant-page",
+      "claim": "The burial grant eligibility and mechanism are documented on the Bituach Leumi 'who is eligible for burial grant' page.",
+      "claim_type": "url",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "מי זכאי לדמי קבורה - דמי קבורה | ביטוח לאומי",
+      "confidence": "high"
+    },
+    {
+      "id": "kolzchut-bereavement-guide-hub",
+      "claim": "Kol-Zchut publishes a guide hub for family members coping with a death (petira) and burial, used as the aggregator taxonomy source.",
+      "claim_type": "url",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לבני_משפחה_המתמודדים_עם_מוות_(פטירה)_וקבורה",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "מדריך לבני משפחה המתמודדים עם מוות (פטירה) וקבורה",
+      "confidence": "high"
+    },
+    {
+      "id": "bank-joint-vs-sole-account",
+      "claim": "A deceased's bank accounts are frozen until the succession/probate order is realized, including a joint account held with a spouse or child; to prevent the freeze the co-owners must sign a survivorship clause (טופס 'אריכות ימים' / סעיף 'היוותרות בחיים') in the joint account in advance, and that clause does not override inheritance law.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "חשבונות הבנק על שם הנפטר מוקפאים עד למימוש צו ירושה או צו קיום צוואה, כולל חשבון שהיה רשום על שם הנפטר במשותף עם בן זוג או ילד. ... כדי למנוע מצב שבו חשבון הבנק מוקפא עד לקבלת צו ירושה או צו קיום צוואה, על שני בני הזוג, או ההורה והילד, לחתום מראש בבנק על טופס \"אריכות ימים\" (או סעיף \"היוותרות בחיים\") בחשבון הבנק המשותף. ... טופס \"אריכות ימים\" או סעיף \"היוותרות בחיים\" לא גובר על דיני הירושה",
+      "confidence": "high"
+    },
+    {
+      "id": "bank-survivorship-operational",
+      "claim": "With a survivorship clause the surviving co-owner may keep operating a joint account for routine ongoing activity until the succession/probate order is issued; in a joint account with no survivorship clause the surviving co-owners and heirs cannot keep operating the account without presenting the order.",
+      "claim_type": "feature",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "עד להוצאת צו ירושה או צו קיום צוואה, יתאפשר לבעל החשבון שנותר בחיים להמשיך לפעול ולבצע פעילות שגרתית ושוטפת בלבד מבלי לרוקן את החשבון ... בחשבון בו לא קיים סעיף אריכות ימים, השותפים הנותרים בחיים והיורשים אינם יכולים להמשיך לפעול בחשבון מבלי להמציא צו ירושה או צו קיום צוואה",
+      "confidence": "high"
+    },
+    {
+      "id": "safe-deposit-box-frozen",
+      "claim": "A jointly-held bank safe-deposit box (כספת) is accessible to the surviving co-owner only where the co-owners agreed in advance (under the same survivorship arrangement as the account); otherwise, and for a box in the deceased's sole name, it is frozen with the estate until the succession/probate order is presented.",
+      "claim_type": "feature",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "על מי חל ההסדר: חשבון עו\"ש והשקעות שונות הקשורות לו; כספת בבעלות משותפת במידה והוסכם מראש בין השותפים",
+      "confidence": "high"
+    },
+    {
+      "id": "har-hakesef-locator",
+      "claim": "Har HaKesef (הר הכסף), a Ministry of Finance search engine, locates lost/dormant pension savings, life-insurance policies, and bank accounts.",
+      "claim_type": "url",
+      "source_url": "https://itur.mof.gov.il/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הר הכסף - מנוע לאיתור חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק. רוצה לדעת היכן מחכים לך חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק אבודים?",
+      "confidence": "high"
+    },
+    {
+      "id": "har-habituach-locator",
+      "claim": "Har HaBituach (הר הביטוח) is a free site set up by the Capital Market, Insurance and Savings Authority that aggregates a person's insurance information (all insurance policies and service riders) in one place.",
+      "claim_type": "url",
+      "source_url": "https://harb.cma.gov.il/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הר הביטוח - כל המידע הביטוחי שלכם במקום אחד. אתר חינמי שהוקם על ידי רשות שוק ההון, ביטוח וחיסכון המאגד את המידע הביטוחי לטובת ציבור המבוטחים. כל פוליסות הביטוח וכתבי השירות בחברות הביטוח השונות ... במקום אחד",
+      "confidence": "high"
+    },
+    {
+      "id": "firearm-deactivation-or-surrender",
+      "claim": "On the owner's death, a licensed weapon can be received by an heir only after it is temporarily deactivated by a licensed dealer via the licensing bureau; if the family does not want it, one family member surrenders it to the police within 30 days of death, bringing the weapon, the death certificate, and the deceased's firearms license, and the police issue a deposit confirmation.",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "ניתן לקבל את כלי הירייה רק לאחר שהושבת זמנית על-ידי סוחר נשק מורשה, הליך שמבוצע באמצעות לשכת הרישוי. ... אם לא מעוניינים בכלי הירייה, אחד מבני המשפחה ימסור אותו למשטרה בתוך 30 יום ממועד הפטירה. יש להגיע לתחנת המשטרה עם כלי הירייה, תעודת פטירה ורישיון כלי ירייה של הנפטר. במשטרה יינתן אישור על הפקדת כלי הירייה.",
+      "confidence": "high"
+    },
+    {
+      "id": "vehicle-license-lapses-on-death",
+      "claim": "When the vehicle license expires because one of its owners died, the licensing bureau will renew the license for the deceased's relatives for one year only while the registration is regularized, the annual license fee must be paid, and a temporary vehicle license is issued until the permanent license is arranged per the succession order.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/modification_registration_vehicle_following_death",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "עם פקיעת תוקפו של רישיון הרכב שאחד מבעליו נפטר, משרד הרישוי יאשר הנפקת חידוש רישיון רכב לקרובי הנפטר לשנה אחת בלבד. בזמן הזה, יש להסדיר את רישום הרכב כחוק. ... יש לשלם אגרת רישוי שנתית. ... יש להגיע למשרד הרישוי בזימון תור מראש עם תעודת הפטירה ולקבל רישיון רכב זמני עד להסדרת רישיון הרכב הקבוע על פי צו הירושה.",
+      "confidence": "high"
+    },
+    {
+      "id": "no-estate-or-inheritance-tax",
+      "claim": "Israel does not levy an estate or inheritance tax; the estate tax law was abolished in 1981, so money and assets that pass by inheritance transfer to the heirs without tax.",
+      "claim_type": "law",
+      "source_url": "https://www.accordil.co.il/האם-יש-מס-על-ירושה/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "בישראל אין מס ישיר על ירושה מאז בוטל חוק מס עיזבון בשנת 1981, כך שכספים ונכסים שאתם יורשים, מועברים אליכם ללא תשלום מס. ... מס העיזבון בוטל סופית בשנת 1981",
+      "confidence": "high"
+    },
+    {
+      "id": "inheritance-not-a-taxable-sale",
+      "claim": "Under section 4 of the Land Taxation Law, inheritance is not a 'sale' (הורשה איננה מכירה), so receiving real estate by inheritance is not a taxable action and is not subject to real-estate tax at the moment of inheritance; a betterment-tax question can arise only later, on a subsequent sale by the heir.",
+      "claim_type": "law",
+      "source_url": "https://www.sdtax.co.il/מיסוי-בינלאומי/הורשה-בחוק-מיסוי-מקרקעין/",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "סעיף 4 לחוק מיסוי מקרקעין (להלן: \"מסמ\"ק\") קובע את ברירת המחדל לעניין הורשה: \"הורשה איננה מכירה או פעולה באיגוד לעניין חוק זה.\" ... אין הורשה נחשבת כמכירה ולפיכך הורשה אינה חייבת במס כלשהו ... הורשה כלל אינה פעולה חייבת.",
+      "confidence": "high"
+    },
+    {
+      "id": "mortgage-life-insurance-pays-loan",
+      "claim": "Mortgage insurance includes borrower life insurance whose purpose is to protect the bank and ensure it receives the entire remaining loan balance if the mortgage holder dies.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/ביטוח_משכנתא",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "מטרת הביטוח, בין היתר, היא להגן על הבנק ולהבטיח שיקבל את כל סכום ההלוואה שנותר לתשלום במקרה שבו נפטר בעל המשכנתא",
+      "confidence": "high"
+    },
+    {
+      "id": "headstone-not-in-burial-grant",
+      "claim": "Erecting the headstone (מצבה) is not part of the burial services funded by the National Insurance Institute (so it is a separate cost the family pays, except in specific cases such as a solitary deceased).",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_קבורה",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "הקמת המצבה אינה חלק משירותי הקבורה הממומנים על-ידי המוסד לביטוח לאומי.",
+      "confidence": "high"
+    },
+    {
+      "id": "deceased-own-allowance-stops",
+      "claim": "The deceased's own Bituach Leumi general-disability allowance ends at death; where the deceased did not receive the full allowance due, only the amount that was due up to death is paid, and it is paid to the survivors (capped at the allowance for the six months before death), not for months after death.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/זכויות בני משפחה של מקבל קצבה שנפטר.aspx",
+      "source_fetched_at": "2026-07-07T00:00:00Z",
+      "raw_snippet": "מקבל קצבת נכות כללית שנפטר ולא קיבל את מלוא הקצבה המגיעה לו, תשולם הקצבה המגיעה לו לשאיריו (אלמנה/אלמן או יתומים הזכאים לקצבת שאירים מהביטוח הלאומי). ... הסכום שישולם לא יעלה על סכום הקצבה בששת החודשים שלפני הפטירה.",
+      "confidence": "high"
+    }
+  ]
+}
