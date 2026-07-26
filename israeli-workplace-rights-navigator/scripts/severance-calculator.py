@@ -234,8 +234,13 @@ Notes:
                 print(f"  Employee receives the fund balance: {format_nis(args.fund_balance)}")
             else:
                 print(f"  Fund balance is BELOW statutory severance by {format_nis(abs(difference))}")
-                print(f"  If Section 14 fully applies: employee receives fund balance ({format_nis(args.fund_balance)})")
-                print(f"  If Section 14 partially applies: employer may owe the difference ({format_nis(abs(difference))})")
+                if args.monthly_contribution_rate >= 8.33:
+                    print(f"  If Section 14 fully applies: employee receives fund balance ({format_nis(args.fund_balance)})")
+                    print(f"  If Section 14 partially applies: employer owes the difference ({format_nis(abs(difference))})")
+                else:
+                    print(f"  At a deposit rate of {args.monthly_contribution_rate:.4g}% a FULL Section 14 release")
+                    print(f"  is not available, so the employer owes the difference ({format_nis(abs(difference))})")
+                    print("  even where the signed arrangement is valid.")
         else:
             print("  (Use --fund-balance to compare with actual accumulated amount)")
 

@@ -233,15 +233,15 @@
       "claim_id": "mandatory-pension-rates-18-5",
       "claim": "Mandatory pension contributions from January 2017: 18.5% of salary in total, of which 6.0% is the employee's and the remaining 12.5% the employer's, split as 6.5% employer tagmulim and 6% employer severance. 8.33% is NOT the statutory severance rate: it is the 1/12 rate that fully funds the statutory one-month-per-year and is what a full Section 14 (סעיף 14) release requires, giving an employer side of 14.83% and a total of 20.83%. At the 6% minimum the severance component covers about 72% of the statutory figure, so a completion payment is owed.",
       "source_url": "https://www.kolzchut.org.il/he/ביטוח_פנסיוני_לעובדים",
-      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5% מהשכר, מתוכם 6% על חשבון העובד והיתר (12.5%) על חשבון המעסיק (6.5% הפרשות מעסיק לרכיב תגמולים ו-6% הפרשות מעסיק לרכיב פיצויים)",
-      "fetched_at": "2026-07-26T19:14:28Z",
+      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר על חשבון המעסיק",
+      "fetched_at": "2026-07-26T19:42:28Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
       ],
-      "note": "The 72% figure is arithmetic: 6 divided by 8.33 is about 0.72."
+      "note": "Employer split (6.5% tagmulim, 6% pitzuyim, 12.5% total) is stated on the same page. The 72% figure is arithmetic: 6 divided by 8.33 is about 0.72."
     },
     {
       "claim_id": "section-45a-credit",
@@ -450,14 +450,15 @@
       "fetched_at": "2026-07-26T19:08:30Z"
     },
     {
-      "claim": "Releasing severance monies held in a pension or provident fund requires the employer to file Form 161 and notify the fund of the status of the severance monies, and the employee to complete Form 161A; the employee then elects between withdrawal under the exemption, pension continuity (retzef kitzba) and severance continuity (retzef pitzuyim).",
+      "claim": "Releasing severance monies held in a pension or provident fund runs through Form 161: the employer completes the employer part (notice of cessation of employment) and notifies the fund of the status of the severance monies, and the employee completes the employee part. The employee then elects between withdrawal under the exemption, pension continuity (retzef kitzba) and severance continuity (retzef pitzuyim). The older procedure used a separate Form 161A for the employee's part; a source referring to 161A is describing the pre-unification process.",
       "source_url": "https://www.kolzchut.org.il/he/משיכת_כספי_פיצויי_פיטורים_מקופת_גמל_או_מהביטוח_הפנסיוני",
-      "raw_snippet": "משיכת כספי פיצויי פיטורים מקופת גמל או מהביטוח הפנסיוני: טופס 161 וטופס 161א",
+      "raw_snippet": "טופס 161 - הודעה על פרישה מעבודה",
       "appears_in": [
         "references/entitlements-calculator.md"
       ],
       "claim_id": "severance-release-forms-161",
-      "fetched_at": "2026-07-26T19:08:30Z"
+      "fetched_at": "2026-07-26T19:42:28Z",
+      "note": "Claim text updated to the unified Form 161 (employer part / employee part); the cited page names Form 161 itself."
     }
   ]
 }
