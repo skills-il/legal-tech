@@ -27,7 +27,7 @@ The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. 
 - The "5/6 multiplier" commonly quoted online is a rough approximation; use the statutory table above for accuracy.
 - Part-time employees: proportional to work days actually performed in the year (not to the headline position percentage).
 - Accumulation: unused days can carry forward with employer consent to the following two years; collective agreements may extend this.
-- Payout on termination: all unused accumulated days must be paid (pidyon chufsha).
+- Payout on termination: unused accumulated days must be paid (pidyon chufsha), SUBJECT TO the accrual cap (current year plus the two preceding) and the 3-year limitation on an Annual Leave Law claim, so do not simply sum every day ever accrued. Important carve-out: where the pay slip itself shows a larger accrued balance, the employee may be able to redeem those days at termination even beyond the limitation period, because the employer's own record acknowledges the debt. Check the pay slip before writing days off.
 - Source: kolzchut.org.il, Annual Leave Law 1951 and the 2016 amendment.
 
 ## Sick Days (Sick Pay Law, 1976)
@@ -54,13 +54,19 @@ The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. 
 
 ### Child Sick Days (Machala Yeled)
 
-| Child's Situation | Days Per Year Per Child |
-|-------------------|------------------------|
+| Child's Situation | Days Per Year (per parent) |
+|-------------------|---------------------------|
 | Child under 16 | 8 days |
-| Child with disability | 16 days |
-| Child with terminal (malignant) illness or on dialysis, two parents (shared pool) | 90 days |
-| Single parent, child with terminal (malignant) illness or on dialysis | 110 days |
-| Single parent, child under 16 | 16 days |
+| Child with a serious illness or a permanent disability | 18 days |
+| Child with a malignant illness or on dialysis, where the other parent also takes leave | up to 90 days EACH (not a shared pool) |
+| Child with a malignant illness or on dialysis, where the other parent did NOT take leave (needs 1 year tenure, child under 18) | up to 110 days |
+| Single parent (sole custody), child under 16 | 16 days |
+
+**The quota is per PARENT, not per child.** A parent of five children has the same 8 days as a parent
+of one, and the quota does not scale with part-time hours. The second parent has a quota only where they also work AND did not take leave
+for the child on the same days, so a household is not automatically 8 + 8. These days are drawn from the employee's accrued sick-day balance.
+The 18-day entitlement for a child with a permanent disability may be charged against accrued sick days
+OR vacation days at the employee's choice, and does not require the employer's consent.
 
 ## Convalescence Pay (Dmei Havra'a)
 
@@ -93,10 +99,11 @@ The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. 
 
 | Year | Daily Rate (NIS) |
 |------|-----------------|
-| 2023 | 378 |
-| 2024 | 400 |
+| 2022 | 378 |
+| 2023 | 418 |
+| 2024 | 418 |
 | 2025 | 418 |
-| 2026 | 418 (in force as of June 2026) |
+| 2026 | 418 (in force; see the pending increase below) |
 
 **Pending increase:** The Histadrut and the employers signed an agreement on 22 June 2026 to raise the private-sector rate to NIS 451.5 per day. It takes effect only when the Ministry of Labor signs the extension order (tzav harchava), and is then applied retroactively. Until that order is signed, NIS 418 remains the binding rate.
 
@@ -208,7 +215,7 @@ The 13,750 figure is updated annually, verify the current ceiling. Severance abo
 ### Section 14 Arrangement
 
 When Section 14 applies (most common arrangement):
-- Employer contributes 8.33% of monthly salary to a pension/provident fund as severance
+- Employer contributes to a pension/provident fund as severance: 6% is the extension-order minimum, 8.33% is the rate that fully funds the statutory severance and is required for a full Section 14 release
 - Upon termination, the employee receives the **accumulated fund balance** (not the formula calculation)
 - The fund balance may be higher or lower than the formula calculation depending on investment returns
 - Employee retains the right to any difference if the fund balance is lower than the statutory amount (only if the employer did not fully comply with Section 14)
@@ -218,8 +225,15 @@ When Section 14 applies (most common arrangement):
 | Component | Employee | Employer | Total |
 |-----------|----------|----------|-------|
 | Pension savings | 6.0% | 6.5% | 12.5% |
-| Severance (Section 14) | -- | 8.33% | 8.33% |
-| **Total** | **6.0%** | **14.83%** | **20.83%** |
+| Severance (minimum) | -- | 6% | 6% |
+| **Total (extension-order minimum)** | **6.0%** | **12.5%** | **18.5%** |
+| Severance where a full Section 14 arrangement applies | -- | 8.33% | 8.33% |
+| **Total with a full Section 14 arrangement** | **6.0%** | **14.83%** | **20.83%** |
+
+If the employer deposits only the 6% minimum, the accumulated severance component covers roughly 72%
+of the statutory one-month-per-year, and the employee is owed a completion payment (hashlamat pitzuyim)
+for the difference. Read the actual rate off the pay slip before assuming the fund balance is the whole
+entitlement.
 
 **Eligibility timeline:**
 - Existing pension holders: contributions start from day 1
@@ -240,3 +254,86 @@ The employee's 6% pension contribution qualifies for a 35% income-tax credit und
 Contributions above 7% of salary, or above the annual ceiling, do not receive the credit and remain fully taxable.
 
 Source: [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני)
+
+
+## 2026 changes
+
+### Annual leave: carry-forward without employer consent (2026)
+
+ Where the employer did not let the employee take leave during an emergency period, or the employee served a qualifying spell of consecutive reserve days, or was called up under a mandatory mobilisation order, the employee may accumulate the unused days and carry them forward for two years WITHOUT needing the employer's consent. This is an exception to the ordinary rule that carry-over requires employer agreement, so do not let an employer refuse it on the standard grounds.
+
+### Short sick certificate (2026)
+
+ For a brief absence the employee no longer necessarily needs a doctor's visit: the HMO can issue a short sick certificate (te'udat machala ktzara) automatically, without an appointment or a physician's signature. It is capped, both in how many times a year it can be issued and in how many cumulative days it can cover within a short window, and beyond those limits the ordinary medical certificate is still required. Have the employee confirm the current caps with their HMO. This removes the common situation where an employee lost a sick day because they could not get an appointment.
+
+
+## Termination: getting the money out (the steps the entitlement tables do not cover)
+
+### 1. Is the Section 14 arrangement actually valid?
+This is the highest-value binary question at dismissal. Section 14 requires a SIGNED written arrangement
+conforming to the General Approval, usually in the contract or a separate annex. Ask to see it.
+- Valid and full: the employee receives the fund balance and the employer owes nothing further.
+- Absent, partial, or funded below the full 1/12: the employee receives the fund balance PLUS a
+  completion payment (hashlamat pitzuyim) up to the statutory one-month-per-year.
+Deposits at the 6% extension-order minimum cover roughly 72% of statutory severance, so the completion
+claim is the normal case, not the exception.
+
+### 2. The release paperwork
+The money usually sits in a pension or provident fund, not with the employer, so the entitlement alone
+does not produce a payment. The chain: the employer completes PART A of the unified Form 161 (notice of
+cessation of employment) and notifies the fund of the status of the severance monies; the employee then
+completes PART B of the same form. Withdrawal generally also needs an employer release letter. Note the
+older process used a separate Form 161A for the employee's part; if a source or an employer refers to
+161A, it is describing the pre-unification procedure. The employee then elects between withdrawing under the exemption, retzef
+kitzba (pension continuity) and retzef pitzuyim (severance continuity). That election is effectively
+irreversible and shapes lifetime tax, so flag it as a decision to take advice on rather than a form to
+tick.
+
+### 3. Amounts due on termination that are easy to miss
+- Proportional convalescence pay for the current entitlement year, plus redemption for prior years.
+- Vacation redemption, subject to the accrual cap and the 3-year limitation above.
+- Payment in lieu of notice (chalef hoda'a mukdemet) where the employer ends the employment
+  immediately. Note this payment carries no pension or severance accrual, so the accrual stops at the
+  termination date rather than the end of the notional notice period.
+- Study fund (keren hishtalmut) release, where one exists. It is a second pot with its own paperwork.
+- A written dismissal letter. It is needed for the unemployment claim, so ask for it before leaving.
+
+### 4. Unemployment benefit (dmei avtala): the time-critical item
+Entitlement is reckoned from registration at the Employment Service, so any delay is unrecoverable.
+Register immediately, before sorting anything else out. The qualifying period is at least 12 months of
+work within the 18 months preceding the 1st of the month of first registration; alternatively, 12 of the
+18 months preceding the day work stopped, provided the employee registers within 3 months of stopping.
+That alternative is the reason registering promptly matters even for someone who is not ready to job-hunt.
+Bring the dismissal letter and recent pay slips, so ask the employer for a written dismissal letter BEFORE
+leaving. A waiting period applies before payment begins, and a substantially longer one applies where the
+separation is recorded as a resignation rather than a dismissal, which is why the wording of that letter
+matters. Maximum benefit days and the replacement rate are banded by age and dependants. Confirm the
+current day-count, rates and waiting periods with Bituach Leumi rather than quoting them from memory.
+
+### 5. The pre-dismissal hearing (shimua), in practice
+Compensation for a defective hearing is awarded as non-pecuniary damages WITHOUT proof of damage, which
+is the decisive point: the employee can claim even if they lost no money. What a proper hearing
+requires: a written invitation with reasonable advance notice AND the specific grounds; access to the
+material relied on; a real opportunity to respond, in writing if preferred; and a genuine decision after
+the hearing. A decision letter issued the same day is evidence the outcome was predetermined. Attending
+under protest does not waive the objection.
+
+### 6. Limitation periods differ by claim
+- Wages and severance: 7 years.
+- Vacation redemption: 3 years.
+- Halanat sachar / halanat pitzuyim: 60 days from receiving the late payment (extendable to 90 by the
+  court), or one year from the sum falling due, whichever is earlier.
+Check the shortest applicable period first, because it is usually the halana one and it is the one that
+expires while the employee is still negotiating.
+
+### 7. Where to file
+Employment disputes go to the regional labour court, NOT small claims. There are five (Tel Aviv,
+Jerusalem, Haifa, Be'er Sheva, Nazareth). An employee may appear without a lawyer, and the state legal
+aid bureau covers employment matters subject to means. If the employer is insolvent, Bituach Leumi
+guarantees wage and severance debts up to a ceiling, claimed through the appointed trustee, so an
+employee facing a collapsed company should be pointed there rather than at the empty company.
+
+
+### Paid leave for the spouse of a reservist (extension order, 29 April 2026)
+
+This is the SPOUSE's own entitlement, separate from the reservist's rights (for those, use israeli-miluim-manager). An employee whose partner is serving reserve duty is entitled to additional PAID absence days beyond the ordinary statutory leave, where they have at least one child under 14, a child up to 18 with a malignant illness, caring responsibility for a relative with a disability, or a sick parent. The number of days rises with the partner's cumulative reserve days in the calendar year. Two practical points: the days can be used only while the partner is actually in active reserve service, and they can be taken as partial hours rather than whole days. Tell the employee the entitlement exists and have them confirm the current day-count against the extension order, since the figures were set recently and are the part most likely to be misquoted. Employees frequently do not know this exists at all, because it attaches to the partner's service rather than their own.

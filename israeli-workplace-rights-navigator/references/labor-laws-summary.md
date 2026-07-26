@@ -18,13 +18,13 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 | Equal Rights for People with Disabilities Law | חוק שוויון זכויות לאנשים עם מוגבלויות | 1998 | Reasonable accommodations. Non-discrimination in hiring, promotion, termination. Workplace accessibility |
 | Equal Pay Law | חוק שכר שווה לעובדת ולעובד | 1996 | Equal pay for substantially equal work regardless of gender |
 | Protection of Workers (Exposure of Offenses) Law | חוק הגנה על עובדים (חשיפת עבירות) | 1997 | Whistleblower protections for employees who report violations |
-| Male and Female Workers (Equal Retirement Age) Law | חוק גיל פרישה | 2004 | Retirement age: 67 for men, 65 for women (gradually increasing) |
+| Male and Female Workers (Equal Retirement Age) Law | חוק גיל פרישה | 2004 | Retirement age is 67 for men. For women it has been rising in stages since 2022 under an amendment to the Retirement Age Law, so it depends on date of birth: look up the woman's birth cohort rather than quoting a single figure |
 
 ## Pension and Savings
 
 | Regulation | Hebrew Name | Year | Key Provisions |
 |------------|-------------|------|----------------|
-| Mandatory Pension Extension Order | צו הרחבה לפנסיה חובה | 2008 | 6% employee + 6.5% employer pension contributions + 8.33% employer severance. Applies from day 1 for employees with prior pension, after 6 months (retroactive to day 1) for new pension holders |
+| Mandatory Pension Extension Order | צו הרחבה לפנסיה חובה | 2008 | 6% employee + 6.5% employer pension contributions + 6% employer severance (total 18.5% minimum). 8.33% severance is not the statutory floor: it is the rate that fully funds the statutory severance and is required for a full Section 14 release. Applies from day 1 for employees with prior pension, after 6 months (retroactive to day 1) for new pension holders |
 | Convalescence Pay Extension Order | צו הרחבה דמי הבראה | Various | 5-10 convalescence days by seniority. 2026 rate: NIS 418/day private sector, NIS 511.6/day public sector. Reservist-support 1-day deduction applies in 2025-2026 |
 | Section 45a, Income Tax Ordinance | סעיף 45א לפקודת מס הכנסה | Ongoing | 35% income-tax credit on the employee's pension contribution up to 7% of salary (approx. NIS 8,148/year ceiling in 2026). Applied automatically in payroll |
 

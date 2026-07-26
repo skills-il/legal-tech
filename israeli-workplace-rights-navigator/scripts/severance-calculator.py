@@ -35,11 +35,26 @@ def calculate_salary_history_severance(salary_history: list[tuple[float, float]]
                        ordered from earliest to most recent.
 
     Returns:
-        Severance amount using the last-salary method (standard approach).
+        A dict with the per-period amount, the last-salary amount, the higher of
+        the two, and which method won.
     """
     total_years = sum(years for _, years in salary_history)
     last_salary = salary_history[-1][0]
-    return last_salary * total_years
+    last_salary_method = last_salary * total_years
+    per_period_method = sum(salary * years for salary, years in salary_history)
+    if per_period_method > last_salary_method:
+        method = "per-period"
+    elif last_salary_method > per_period_method:
+        method = "last-salary"
+    else:
+        method = "identical (salary did not change)"
+    return {
+        "per_period": per_period_method,
+        "last_salary": last_salary_method,
+        "higher": max(per_period_method, last_salary_method),
+        "method": method,
+        "total_years": total_years,
+    }
 
 
 def format_nis(amount: float) -> str:
@@ -105,8 +120,10 @@ Notes:
     parser.add_argument(
         "--monthly-contribution-rate",
         type=float,
-        default=8.33,
-        help="Monthly severance contribution rate as percentage (default: 8.33%%)",
+        default=6.0,
+        help="Monthly severance contribution rate as percentage. Default 6.0, the "
+             "Mandatory Pension Extension Order minimum. Use 8.33 only where the "
+             "employer actually deposits the full 1/12 under a Section 14 arrangement",
     )
 
     args = parser.parse_args()
@@ -128,8 +145,11 @@ Notes:
 
     total_years = args.years + args.months / 12.0
 
-    if total_years < 1.0:
+    if total_years < 1.0 and not args.salary_history:
         print("Warning: Severance pay generally requires at least 1 year of employment.")
+        print("Note: a dismissal shortly before the first year is complete raises a statutory")
+        print("presumption that it was made in order to avoid severance, in which case severance")
+        print("is still owed. Do not treat 'under a year' as the end of the matter.")
         print("The calculation below is for reference only.\n")
 
     print("=" * 60)
@@ -138,6 +158,7 @@ Notes:
     print("=" * 60)
     print()
 
+    history_mode = False
     if args.salary_history:
         try:
             pairs = args.salary_history.split(",")
@@ -154,7 +175,8 @@ Notes:
 
         total_tenure = sum(y for _, y in salary_history)
         last_salary = salary_history[-1][0]
-        severance = calculate_salary_history_severance(salary_history)
+        history_result = calculate_salary_history_severance(salary_history)
+        severance = history_result["higher"]
 
         print("Salary History:")
         print("-" * 45)
@@ -165,11 +187,19 @@ Notes:
         print(f"  Total tenure:     {total_tenure:.2f} years")
         print(f"  Last salary:      {format_nis(last_salary)}")
         print()
-        print(f"Severance (last salary method):")
-        print(f"  {format_nis(last_salary)} x {total_tenure:.2f} = {format_nis(severance)}")
+        print("Severance, both methods:")
+        print(f"  Last-salary method: {format_nis(last_salary)} x {total_tenure:.4g} "
+              f"= {format_nis(history_result['last_salary'])}")
+        print(f"  Per-period method:  sum of (salary x years per period) "
+              f"= {format_nis(history_result['per_period'])}")
+        print(f"  Higher of the two:  {format_nis(severance)}  [{history_result['method']}]")
+        print("  The last-salary method is the usual starting point. Where salary or position")
+        print("  scope FELL during employment, the per-period computation is what the law")
+        print("  requires, so take the higher figure as the claim and expect to argue it.")
 
         total_years = total_tenure
         args.salary = last_salary
+        history_mode = True
 
     else:
         severance = calculate_basic_severance(args.salary, args.years, args.months)
@@ -195,7 +225,7 @@ Notes:
         print(f"  Estimated total contributions: {format_nis(estimated_contributions)}")
         print(f"    (Based on last salary, actual may differ)")
 
-        if args.fund_balance:
+        if args.fund_balance is not None:
             print(f"  Actual fund balance: {format_nis(args.fund_balance)}")
             difference = args.fund_balance - severance
 
@@ -213,17 +243,38 @@ Notes:
 
     print("-" * 60)
     print("Payment Summary:")
-    print(f"  Statutory severance:  {format_nis(severance)}")
+    print(f"  {'Claim value (higher method)' if history_mode else 'Statutory severance'}:  {format_nis(severance)}")
 
-    if args.section14 and args.fund_balance:
+    if args.section14 and args.fund_balance is not None:
         print(f"  Section 14 balance:   {format_nis(args.fund_balance)}")
-        effective = max(severance, args.fund_balance) if args.fund_balance < severance else args.fund_balance
-        print(f"  Effective amount:     {format_nis(effective)}")
+        if args.fund_balance >= severance:
+            print(f"  Effective amount:     {format_nis(args.fund_balance)}")
+            print("  (Fund balance covers the statutory figure in full.)")
+        else:
+            gap = severance - args.fund_balance
+            rate = args.monthly_contribution_rate
+            if rate >= 8.33:
+                print(f"  If Section 14 applies IN FULL:   {format_nis(args.fund_balance)} "
+                      "(the fund balance is the whole entitlement and the employer owes nothing on the gap)")
+                print(f"  If it does NOT apply in full:    {format_nis(severance)} "
+                      f"(fund balance plus a completion payment of {format_nis(gap)})")
+                print("  Which applies turns on whether a valid signed Section 14 arrangement exists.")
+            else:
+                print(f"  Completion payment owed:         {format_nis(gap)}")
+                print(f"  Total entitlement:               {format_nis(severance)}")
+                print(f"  At a deposit rate of {rate:.4g}%, a FULL Section 14 release is not available:")
+                print("  a full release requires the 1/12 (8.33%) rate, or 6% plus a supplementary")
+                print("  arrangement covering the remainder. So the completion payment is owed even")
+                print("  where the signed arrangement is perfectly valid. Check the pay slip for the")
+                print("  rate actually deposited before accepting the fund balance as the whole sum.")
 
     print()
     print("Important Reminders:")
     print("  - Payment deadline: 15 days from termination date")
-    print("  - Late payment: penalty interest applies (pitzuyei halanat pitzuyim)")
+    print("  - Late payment: penalty interest applies (pitzuyei halanat pitzuyim), BUT the")
+    print("    halana claim EXPIRES. It must be filed within 60 days of receiving the late")
+    print("    payment (a court may extend to 90), or within one year of the sum falling due,")
+    print("    whichever is earlier. Do not sit on it while negotiating.")
     print("  - Tax: severance up to a ceiling is tax-exempt (ceiling updated annually)")
     print("  - Verify: confirm a proper hearing (shima) was conducted before termination")
     print(f"  - Calculated on: {datetime.now().strftime('%Y-%m-%d')}")
