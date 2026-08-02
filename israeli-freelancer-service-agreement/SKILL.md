@@ -35,6 +35,7 @@ Collect the minimum needed to draft:
 |---|---|
 | Provider name + ת.ז./ע.מ., status (עוסק פטור / עוסק מורשה) | Drives the VAT and invoicing clause |
 | Client name + ח.פ./ע.מ., business or private | Drives payment-law applicability (the 2017 law applies to business clients) |
+| **Is the contracting entity Israeli-registered?** | Decides whether the payment law and the VAT clause apply at all (see below) |
 | Services / deliverables | The scope clause and IP clause |
 | Fee + structure (fixed, hourly, monthly, milestones) | The consideration clause |
 | Payment term wanted (e.g. שוטף+30) | Overrides the statutory default |
@@ -43,6 +44,19 @@ Collect the minimum needed to draft:
 
 If the user does not know a field, use a sensible default and flag it in a "review these" list at
 the end. Never invent the parties' identifying numbers.
+
+**Ask the foreign-entity question before drafting anything else.** Israeli startups routinely
+contract through a foreign (often Delaware) parent. If the counterparty is not an Israeli-registered
+business, two whole sections of this skill stop applying:
+
+- **The payment law does not apply.** חוק מוסר תשלומים keys its business tier off "עסק", defined in
+  סעיף 2 as a מוסד כספי, עוסק מורשה, or עוסק פטור under the VAT Law. A foreign entity is none of
+  those, so שוטף+45, the interest regime, and the non-derogation rule are all unavailable. Every
+  payment protection must then be written into the contract from scratch.
+- **The 18% VAT line may be a pricing error.** Under סעיף 30 of חוק מס ערך מוסף, a service supplied
+  to a foreign resident can be zero-rated. It is **not automatic**: the benefit is denied where the
+  service is in fact also supplied to an Israeli resident, and a single Israeli beneficiary defeats
+  it. Flag it and route the user to their רואה חשבון rather than picking a rate for them.
 
 ### Step 2: Decide the independent-contractor framing (the most important step)
 
@@ -77,14 +91,31 @@ the contract wording. So:
 State the fee and structure, then set an **explicit payment term**. Under חוק מוסר תשלומים לספקים,
 התשע"ז-2017, if the contract is silent and the client is a business, the default is **שוטף+45** (no
 later than 45 days from the end of the month the invoice was submitted). A freelancer is better off
-naming a shorter term (e.g. שוטף+30 or שוטף+0). Note that for **government and public-body clients**
-the law sets its own (often shorter) default and caps how far the term can be pushed, so verify the
-applicable provision rather than assuming שוטף+45. Reference the law so late payment carries interest
-and, after a further 30 days, דמי פיגורים, by default, and reserve the right to suspend work on
-non-payment.
+naming a shorter term (e.g. שוטף+30 or שוטף+0), and reserve the right to suspend work on non-payment.
+
+Four things about this law that most drafts get wrong. Full tier table and statutory text are in
+`references/legal-reference.md`:
+
+1. **The tiers are not "government is shorter".** Ministries and state authorities pay 45 days from
+   invoice delivery, or שוטף+30 when counted from month end, and they have **no** contract-out
+   clause. Local authorities are שוטף+45, rising to שוטף+80 for building works. Only the business
+   tier and the budgeted-body tier can vary the term at all. Look up the payer's tier; do not assume.
+2. **The statutory interest is not automatic in B2B.** Under סעיף 4, the interest and דמי פיגורים
+   remedy reaches a private-business client only where that client had **עדיפות בעיצוב תנאי החוזה**
+   (superior power in shaping the terms). A freelancer who supplies their own draft may have argued
+   themselves out of it. So write interest in as an **express contractual term**, and reference the
+   statute only as an additional, non-exclusive remedy.
+3. **The law is a floor, not a ceiling.** סעיף 7 provides אין להתנות על הוראות חוק זה אלא לטובת
+   הספק: the parties may contract only in the supplier's favour. This is the direct answer to a
+   client pushing pay-when-paid terms.
+4. **A bounced invoice restarts the clock.** Under סעיף 3, if the invoice is missing a material
+   detail or the contractual conditions for payment were not met, the client returns it and the
+   invoice is treated as never delivered. The check period is capped at 23 business days for
+   business clients, but B2B parties may contract out of that cap, so a freelancer's own draft
+   should fix it expressly and require the client to itemise the deficiencies in writing.
 
 State VAT correctly and unambiguously, because a wrong VAT framing is a direct error in the price:
-- **עוסק מורשה**: "the fee is exclusive of VAT; VAT at 18% (as of 2025) will be added against a
+- **עוסק מורשה**: "the fee is exclusive of VAT; VAT at 18% (as of 2026) will be added against a
   חשבונית מס." Say "exclusive of VAT" explicitly, since a bare number with no "+VAT" wording can be
   read as VAT-inclusive.
 - **עוסק פטור**: "the provider is an עוסק פטור and does not charge VAT; a receipt will be issued." Add
@@ -100,21 +131,47 @@ blindsided when the first payment arrives net of withholding.
 ### Step 4: Draft the IP clause
 
 This is the clause clients get wrong. Under חוק זכות יוצרים, התשס"ח-2007 (סעיף 35), the default owner
-of a **commissioned work** is the **CREATOR (the freelancer)**, not the client, unless the contract
-says otherwise. (Contrast: סעיף 34 gives an employer the copyright in an employee's work; a commissioned
-portrait or family-event photo defaults to the commissioner.)
+of a **commissioned work** is the **CREATOR (the freelancer)**, not the client. (Contrast: סעיף 34
+gives an employer the copyright in an employee's work; a commissioned portrait or family-event photo
+defaults to the commissioner.)
+
+**Do not tell the freelancer that silence protects them.** סעיף 35 displaces the creator default
+where the parties agreed otherwise **במפורש או במשתמע**, expressly *or by implication*. A client can
+and does argue an implied transfer from the commercial context: bespoke work, full payment, source
+files handed over, deliverables deployed to customers. So the freelancer who wants to retain anything
+must say so in writing, exactly as a client wanting to own it must. Note too that under סעיף 37 an
+assignment of copyright requires a written document, which is why "we agreed on a call" transfers
+nothing.
 
 So decide and draft explicitly:
 - If the client should own the deliverables, **expressly assign** the economic rights, typically on
   full payment.
-- **Moral rights (הזכות המוסרית)** of attribution and integrity are personal under the 2007 Copyright
-  Law and **cannot be assigned**, only waived. Handle them with a separate waiver clause, not by
-  lumping "all rights including moral rights" into the assignment (that part is void).
+- If the freelancer is retaining anything, say so expressly. Silence is not retention.
+- **Moral rights (הזכות המוסרית)**, attribution and integrity, are personal and non-assignable under
+  סעיף 45. Two things follow that most drafts miss. First, **סעיף 45 excludes computer software
+  outright**, so for a pure software deliverable there is no moral right to assign, waive, or worry
+  about (typefaces are also partly carved out). Second, the Copyright Law provides no general waiver
+  mechanism: under סעיף 50 an act touching the integrity right is simply not an infringement where it
+  was reasonable in the circumstances, and the court expressly weighs the fact that the work was
+  commissioned. So draft **consent to specified modifications plus an attribution arrangement**, not
+  a blanket "waiver of moral rights" that the statute does not recognise.
 - The freelancer keeps rights in pre-existing tools, know-how, and general methods, and **third-party
   / open-source components are licensed, not assigned** (the freelancer often cannot transfer them).
 
 ### Step 5: Add the scope-protection and standard clauses
 
+- **Displace the חוק חוזה קבלנות defaults deliberately.** This is the statute that actually governs
+  the contract being drafted: סעיף 1 defines a חוזה קבלנות as a contract for work or services for
+  payment where the contractor is not the client's employee, and סעיף 8 makes its rules apply only
+  where the agreement does not provide otherwise. Two of its defaults matter enormously. Under
+  סעיף 4, if the freelancer does not cure a defect in reasonable time the client may fix it at the
+  freelancer's expense **or unilaterally deduct** the drop in value from the fee, with no notice at
+  all for urgent defects. Bound that: cap any set-off, require written substantiation and a real cure
+  window, and route disputes to the acceptance procedure rather than to self-help. Working in the
+  freelancer's favour, סעיף 5 grants the contractor a **lien (זכות עכבון)** over client property held
+  for the work until sums due are paid, and סעיף 3 bars the client from relying on a defect it failed
+  to notify in reasonable time. Preserve both expressly; do not let a broad acceptance clause be read
+  as giving them up.
 - **Acceptance and revisions**: define how the client signs off on a deliverable, a deemed-acceptance
   window (e.g. silence for 7 business days = accepted), and how many revision rounds are included.
   "What counts as done" is where payment disputes live, so do not push it into an empty annex.
@@ -202,9 +259,22 @@ Result: A contract plus a practical risk-reduction checklist, with realistic exp
   the honest caveat.
 - **Do not assume the client owns the deliverables by default.** The intuition from many jurisdictions
   is wrong here: under סעיף 35 of the 2007 Copyright Law, a commissioned work defaults to the
-  freelancer. If the agreement does not expressly assign IP, the client may not own it.
+  freelancer.
+- **But do not tell the freelancer that silence protects them either.** The same סעיף 35 displaces
+  the creator default on agreement "במפורש או במשתמע", express *or implied*. A client can argue an
+  implied transfer from the commercial circumstances. Retention must be written down, not assumed.
+- **Do not draft a moral-rights waiver for software.** סעיף 45 excludes computer software from moral
+  rights entirely, so the clause is inert in a developer's contract. Even for design and copy, the
+  law provides no general waiver: use consent to specified modifications plus an attribution
+  arrangement, and rely on the סעיף 50 reasonableness standard.
 - **Do not leave payment timing silent and "rely on the law."** The statutory default (שוטף+45) is the
   worst case for the freelancer. Always set an explicit, shorter term.
+- **Do not promise statutory late-payment interest in a B2B contract.** Under סעיף 4 that remedy
+  reaches a business client only where the client had עדיפות בעיצוב תנאי החוזה, which is exactly what
+  a freelancer-supplied draft undercuts. Make interest an express contractual term instead.
+- **Do not ignore חוק חוזה קבלנות.** It governs this contract type by default and hands the client a
+  unilateral fee-deduction right under סעיף 4. A draft that never mentions it leaves that weapon
+  live and leaves the freelancer's סעיף 5 lien unclaimed.
 - **Do not draft a broad non-compete.** A sweeping "shall not compete for 2 years" clause is usually
   unenforceable in Israel and signals an employment-like relationship. Use a narrow trade-secret /
   non-solicitation clause.
@@ -228,8 +298,10 @@ Result: A contract plus a practical risk-reduction checklist, with realistic exp
 
 | Source | URL | What to Check |
 |---|---|---|
-| חוק זכות יוצרים 2007 | https://www.nevo.co.il/law_html/law00/3953.htm | סעיף 34 / סעיף 35 ownership defaults |
-| חוק מוסר תשלומים לספקים 2017 | https://www.nevo.co.il/law_html/law00/144599.htm | default payment timing and interest |
+| חוק זכות יוצרים 2007 | https://www.nevo.co.il/law_html/law00/3953.htm | סעיף 34 / סעיף 35 ownership defaults, סעיף 45 moral rights |
+| חוק חוזה קבלנות 1974 | https://www.nevo.co.il/law_html/law00/71886.htm | סעיף 4 client set-off, סעיף 5 contractor lien |
+| חוק מוסר תשלומים לספקים 2017 | https://www.nevo.co.il/law_html/law00/144599.htm | payment tiers, סעיף 7 non-derogation |
+| מע"מ בשיעור אפס לתושב חוץ | https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law | when a foreign-client fee is zero-rated |
 | gov.il VAT decision | https://www.gov.il/he/pages/dec1270-2024 | VAT is 18% from 1 Jan 2025 |
 | ע"ע 164/99 צ'ק פוינט נ' רדגארד | https://he.afiklaw.com/caselaw/2573 | non-compete enforceability standard |
 | ביטוח אחריות מקצועית | https://www.bizreviews.co.il/article/professional-liability-insurance-guide | professional liability cover |
@@ -239,7 +311,9 @@ Result: A contract plus a practical risk-reduction checklist, with realistic exp
 ### Error: "The client says they own everything I make for them"
 Cause: The client assumes a work-for-hire default that does not exist for contractors in Israel.
 Solution: Point to סעיף 35 of the 2007 Copyright Law (commissioned work defaults to the creator).
-The contract must expressly assign IP for the client to own it; negotiate assignment on full payment.
+Caveat the freelancer needs to hear: that default is displaced by agreement "במפורש או במשתמע", so a
+client can argue an implied transfer from the commercial context. Do not rest on silence. Put the
+allocation in writing either way, and negotiate assignment on full payment.
 
 ### Error: "Is the no-employment clause enough to protect me?"
 Cause: Over-reliance on the contract label.
@@ -248,5 +322,8 @@ own hours, multiple clients, no company email) and, for high exposure, advise a 
 
 ### Error: "The client wants to pay 'when they pay their client', is that allowed?"
 Cause: Pay-when-paid terms that push beyond the statutory default.
-Solution: The 2017 Prompt Payment law sets a default of שוטף+45 for business clients when silent.
-Set an explicit term in the contract; very long terms may conflict with the law's protections.
+Solution: If the client is an Israeli business, the law answers this directly. סעיף 7 provides that
+its terms may be varied only in the supplier's favour, and the business tier allows a different term
+only where the engagement's special character requires it or the term is not exceptionally unfair.
+A pay-when-paid clause tied to a third party's behaviour is neither. Set an explicit term instead.
+If the client is a foreign entity, none of this applies and the term must be negotiated on its own.

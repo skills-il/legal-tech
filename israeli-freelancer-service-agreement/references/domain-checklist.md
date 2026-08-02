@@ -25,10 +25,12 @@ checks); ASCII statute/case URLs are linked directly.
   [nevo statute](https://www.nevo.co.il/law_html/law00/144599.htm). Why core: late payment is
   the #1 freelancer pain point; the contract should set an explicit (shorter) term.
 - [ ] IP ownership of work product (יצירה מוזמנת). Under חוק זכות יוצרים 2007 the default first
-  owner of a commissioned work is the CREATOR (the freelancer), not the client, unless agreed
-  otherwise. Assignment to the client must be express. Source:
-  [nevo statute](https://www.nevo.co.il/law_html/law00/3953.htm). Why core: clients routinely
-  assume they own deliverables by default; the law says the opposite for contractors.
+  owner of a commissioned work is the CREATOR (the freelancer), not the client. Critically, that
+  default is displaced by agreement "במפורש או במשתמע", express OR IMPLIED, so silence does not
+  protect the freelancer and a client can argue implied transfer from the commercial context. The
+  allocation must be written down whichever way it goes; an assignment needs a written document.
+  Source: [nevo statute](https://www.nevo.co.il/law_html/law00/3953.htm). Why core: clients routinely
+  assume they own deliverables by default, and freelancers wrongly assume silence protects them.
 - [ ] Tax & invoicing context (עוסק פטור / עוסק מורשה, מע"מ, חשבונית). עוסק פטור turnover cap
   is 122,833 ₪ (2026); VAT rate is 18% (from 1 Jan 2025). The price clause must state whether
   it is +VAT. Source: כל-זכות "עוסק פטור" +
@@ -44,8 +46,27 @@ checks); ASCII statute/case URLs are linked directly.
   a silent contract means the first payment arrives net of withholding and the freelancer is
   surprised. Source: Income Tax withholding regime (background, not a rate).
 - [ ] Moral rights (הזכות המוסרית) handled separately from the IP assignment. They are non-assignable
-  under the 2007 Copyright Law; assigning "all rights including moral rights" is partly void. Why core:
-  a complete IP transfer is otherwise legally incomplete.
+  under the 2007 Copyright Law; assigning "all rights including moral rights" is partly void. TWO
+  carve-outs the draft must respect: COMPUTER SOFTWARE is excluded from moral rights outright, so the
+  clause is inert in a developer's contract; and the law provides no general waiver mechanism, only a
+  reasonableness defence for the integrity right which expressly weighs that the work was
+  commissioned. Draft consent-to-modifications plus attribution, not a blanket waiver. Why core:
+  a complete IP transfer is otherwise legally incomplete, and the flagship use case is a developer.
+- [ ] The governing statute חוק חוזה קבלנות, תשל"ד-1974. It defines this exact contract type and its
+  rules apply by default unless the agreement provides otherwise. The client gets a unilateral
+  fee-deduction and self-help remedy for uncured defects; the freelancer gets a lien over client
+  property and protection against a defect the client failed to notify in time. Source:
+  [nevo statute](https://www.nevo.co.il/law_html/law00/71886.htm). Why core: it is the background law
+  of the contract being drafted, and its default client remedy is adverse to the freelancer.
+- [ ] Payment-law mechanics beyond the headline default: the per-payer tier table, the interest
+  remedy's bargaining-power gate, the non-derogation floor, and the bounced-invoice check period.
+  Source: [nevo statute](https://www.nevo.co.il/law_html/law00/144599.htm). Why core: the headline
+  שוטף+45 alone produces a contract that overstates the freelancer's statutory protection.
+- [ ] Counterparty nationality triage. The payment law's business tier keys off an Israeli-registered
+  "עסק", so a foreign (for example Delaware) client takes the engagement outside the law entirely,
+  and the fee clause's 18% VAT line may be wrong because a service to a foreign resident can be
+  zero-rated. Why core: Israeli startups routinely contract through a foreign parent, and the skill's
+  flagship example is a developer working for a startup.
 - [ ] Acceptance / sign-off + effect of termination on accrued fees + kill fee. Deemed-acceptance
   window, revision rounds, pro-rata payment on termination, and a cancellation fee for a fixed-price
   project. Why core: "what is done" and "what am I owed if cancelled" are the top freelancer disputes.
@@ -63,7 +84,9 @@ checks); ASCII statute/case URLs are linked directly.
 - [ ] Data protection under Amendment 13 (תיקון 13, in force Aug 2025). When the freelancer processes
   the client's personal data, a processor clause with security obligations and breach notification.
 - [ ] Public-body payment default. Government / public-body clients carry their own payment-timing
-  default and caps under חוק מוסר תשלומים; do not assume שוטף+45 for them.
+  tiers under חוק מוסר תשלומים and cannot contract out of them; the ministry tier is in fact SHORTER
+  (שוטף+30 counted from month end) and local authorities run to שוטף+80 for building works. Do not
+  assume שוטף+45 for them and do not assume "public means longer".
 - [ ] Professional liability insurance (ביטוח אחריות מקצועית). Often a precondition when serving
   companies/public bodies. Source:
   [bizreviews guide](https://www.bizreviews.co.il/article/professional-liability-insurance-guide).
@@ -82,13 +105,17 @@ checks); ASCII statute/case URLs are linked directly.
   רואה חשבון; the skill states rates as context only.
 - Litigating an existing reclassification claim or computing restitution amounts - labor-court
   work for a lawyer.
-- Company formation, shareholder agreements, cross-border / non-Israeli governing law, and B2C
-  consumer contracts - separate regimes.
+- Company formation, shareholder agreements, drafting under non-Israeli governing law, and B2C
+  consumer contracts - separate regimes. NOTE the narrowed boundary: identifying that the client is
+  a foreign entity, and warning that the payment law and the VAT rate then change, IS in scope and
+  is a required Step 1 triage question. Only drafting the foreign-law contract itself is excluded.
 
 ## Authoritative sources
 
-- [חוק זכות יוצרים 2007 (nevo)](https://www.nevo.co.il/law_html/law00/3953.htm) - IP default for commissioned works.
-- [חוק מוסר תשלומים לספקים 2017 (nevo)](https://www.nevo.co.il/law_html/law00/144599.htm) - payment-timing default.
+- [חוק זכות יוצרים 2007 (nevo)](https://www.nevo.co.il/law_html/law00/3953.htm) - IP default for commissioned works, moral rights.
+- [חוק חוזה קבלנות 1974 (nevo)](https://www.nevo.co.il/law_html/law00/71886.htm) - governing statute for the contract type.
+- [חוק מוסר תשלומים לספקים 2017 (nevo)](https://www.nevo.co.il/law_html/law00/144599.htm) - payment tiers, interest gate, non-derogation.
+- [מע"מ בשיעור אפס לתושב חוץ (KLF)](https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law) - zero rate and its Israeli-beneficiary exception.
 - [gov.il - VAT to 18% from 1 Jan 2025](https://www.gov.il/he/pages/dec1270-2024) - current VAT rate.
 - [ע"ע 164/99 צ'ק פוינט נ' רדגארד (afiklaw)](https://he.afiklaw.com/caselaw/2573) - non-compete standard.
 - כל-זכות - "עוסק פטור", "קביעת קיומם של יחסי עובד-מעסיק", "הכרה בדיעבד" (full links in evidence.json).

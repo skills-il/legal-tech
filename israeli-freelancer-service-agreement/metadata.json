@@ -1,7 +1,7 @@
 {
   "name": "israeli-freelancer-service-agreement",
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "legal-tech",
   "license": "MIT",
   "tags": {
@@ -57,8 +57,9 @@
   "volatility": "legislative",
   "authoritative_sources": [
     { "url": "https://www.nevo.co.il/law_html/law00/3953.htm", "type": "statute", "language": "he" },
+    { "url": "https://www.nevo.co.il/law_html/law00/71886.htm", "type": "statute", "language": "he" },
     { "url": "https://www.nevo.co.il/law_html/law00/144599.htm", "type": "statute", "language": "he" },
     { "url": "https://www.gov.il/he/pages/dec1270-2024", "type": "regulator", "language": "he" }
   ],
-  "domain_checklist_version": 1
+  "domain_checklist_version": 2
 }
