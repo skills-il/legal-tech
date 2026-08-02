@@ -1,14 +1,36 @@
 {
   "author": "skills-il",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "category": "legal-tech",
   "volatility": "legislative",
   "authoritative_sources": [
-    { "url": "https://www.kolzchut.org.il/he/צוואה_בעדים", "type": "statute", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה", "type": "regulator", "language": "he" },
-    { "url": "https://inheritance.justice.gov.il/", "type": "regulator", "language": "he" }
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://inheritance.justice.gov.il/",
+      "type": "regulator",
+      "language": "he"
+    }
   ],
-  "domain_checklist_version": 1,
+  "domain_checklist_version": 2,
   "tags": {
     "he": [
       "צוואה",

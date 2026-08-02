@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-wills-inheritance",
   "schemaVersion": "1.0",
-  "generated_at": "2026-06-18",
+  "generated_at": "2026-08-01",
   "claims": [
     {
       "id": "witnessed-will-no-lawyer",
@@ -53,8 +53,8 @@
       "claim": "A succession order (צו ירושה) is the application filed when the deceased did not make a will, so heirs receive their share of the estate by law, submitted to the Inheritance Registrar",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
-      "source_fetched_at": "2026-06-18T00:00:00Z",
-      "raw_snippet": "כדי שיורש יוכל לקבל את חלקו מתוך העיזבון (ירושה) של המנוח, יש להגיש בקשה שמכונה 'בקשה לצו ירושה'",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "כדי שיורש יוכל לקבל את חלקו מתוך העיזבון (ירושה) של המנוח, יש להגיש בקשה המכונה",
       "confidence": "high"
     },
     {
@@ -80,9 +80,11 @@
       "claim": "The Inheritance Registrar runs an online portal for inheritance applications",
       "claim_type": "url",
       "source_url": "https://inheritance.justice.gov.il/",
-      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "הרשם לענייני ירושה אונליין",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-08-01"
     },
     {
       "id": "section-20-full",
@@ -98,8 +100,8 @@
       "claim": "Section 26 (סעיף 26): a will made by a minor, by someone declared legally incompetent, or made when the testator did not understand its nature, is void",
       "claim_type": "law",
       "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
-      "source_fetched_at": "2026-06-18T00:00:00Z",
-      "raw_snippet": "צוואה שנעשתה על ידי קטין או על ידי מי שהוכרז פסול־דין או שנעשתה בשעה שהמצווה לא ידע להבחין בטיבה של צוואה - בטלה.",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "צוואה שנעשתה על ידי קטין או על ידי מי שהוכרז פסול־דין או שנעשתה בשעה שהמצווה לא ידע להבחין בטיבה של צוואה – בטלה.",
       "confidence": "high"
     },
     {
@@ -107,8 +109,8 @@
       "claim": "Section 35 (סעיף 35): a will provision in favour of someone who wrote the will, witnessed it, or otherwise took part in making it, and a provision in favour of that person's spouse, is void",
       "claim_type": "law",
       "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
-      "source_fetched_at": "2026-06-18T00:00:00Z",
-      "raw_snippet": "הוראת צוואה, פרט לצוואה בעל־פה, המזכה את מי שערך אותה או היה עד לעשייתה או לקח באופן אחר חלק בעריכתה, והוראת צוואה המזכה בן־זוגו של אחד מאלה - בטלה.",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "הוראת צוואה, פרט לצוואה בעל־פה, המזכה את מי שערך אותה או היה עד לעשייתה או לקח באופן אחר חלק בעריכתה, והוראת צוואה המזכה בן־זוגו של אחד מאלה – בטלה.",
       "confidence": "high"
     },
     {
@@ -125,8 +127,8 @@
       "claim": "Section 11 (סעיף 11): the surviving spouse takes the household chattels including a passenger car, and of the rest of the estate takes one-half when there are children/descendants or parents, two-thirds when there are siblings/descendants or grandparents, and the whole estate if none of those relatives survive",
       "claim_type": "law",
       "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
-      "source_fetched_at": "2026-06-18T00:00:00Z",
-      "raw_snippet": "בן־זוגו של המוריש נוטל את המיטלטלין, כולל מכונית נוסעים, השייכים, לפי המקובל ולפי הנסיבות, למשק הבית המשותף, ונוטל משאר העזבון - (1) אם הניח המוריש ילדים או צאצאיהם או הורים - חצי; (2) אם הניח המוריש אחים או צאצאיהם או הורי הורים - שני שלישים",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "בן־זוגו של המוריש נוטל את המיטלטלין, כולל מכונית נוסעים, השייכים, לפי המקובל ולפי הנסיבות, למשק הבית המשותף, ונוטל משאר העזבון – (1) אם הניח המוריש ילדים או צאצאיהם או הורים – חצי; (2) אם הניח המוריש אחים או צאצאיהם או הורי הורים – שני שלישים",
       "confidence": "high"
     },
     {
@@ -154,6 +156,303 @@
       "source_url": "https://www.kolzchut.org.il/he/התנגדות_למתן_צו_ירושה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "יש להגיש את ההתנגדות בתוך 14 ימים מהיום שפורסמה ההודעה ובתנאי שטרם ניתן הצו",
+      "confidence": "high"
+    },
+    {
+      "id": "section-25-cure",
+      "claim": "Section 25 (סעיף 25): where the core elements (מרכיבי היסוד) are present and there is no doubt the will reflects the testator free and true intent, the Inheritance Registrar or the court may admit it despite a defect in, or absence of, any of the particulars or procedures in sections 19, 20, 22 or 23 or in the competence of the witnesses",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "התקיימו מרכיבי היסוד בצוואה, ולא היה לרשם לענייני ירושה או לבית המשפט, לפי העניין ספק כי היא משקפת את רצונו החופשי והאמיתי של המצווה, רשאי הוא, בהחלטה מנומקת, לקיימה אף אם נפל פגם בפרט מן הפרטים או בהליך מן ההליכים המפורטים",
+      "confidence": "high"
+    },
+    {
+      "id": "section-25-core-elements",
+      "claim": "Section 25(b) (סעיף 25): the core element of a handwritten will is that the whole will is written in the testator own hand; of a witnessed will, that the will is in writing and the testator brought it before two witnesses. A missing date or signature is therefore a curable defect, not a core element",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "בצוואה בכתב יד כאמור",
+      "confidence": "high"
+    },
+    {
+      "id": "section-147-outside-estate",
+      "claim": "Section 147 (סעיף 147): amounts payable on a person death under an insurance contract, membership of a pension fund or a provident fund, or a similar ground, are not part of the estate unless stipulated to be payable to the estate",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "סכומים שיש לשלם עקב מותו של אדם על פי חוזה ביטוח, על פי חברות בקופת קיצבה או בקופת תגמולים או על פי עילה דומה, אינם בכלל העזבון, זולת אם הותנה שהם מגיעים לעזבון.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-55-unmarried-partner",
+      "claim": "Section 55 (סעיף 55): where a man and a woman lived a family life in a shared household without being married, and at the time of death neither was married to another person, the survivor is treated as if the deceased had left them by will what they would have inherited by law had they been married, absent a contrary provision in a will",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "איש ואשה החיים חיי משפחה במשק בית משותף אך אינם נשואים זה לזה, ומת אחד מהם ובשעת מותו אף אחד מהם לא היה נשוי לאדם אחר, רואים את הנשאר בחיים כאילו המוריש ציווה לו מה שהנשאר בחיים היה מקבל בירושה על־פי דין אילו היו נשואים זה לזה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-11-apartment-proviso",
+      "claim": "Section 11(a)(2) (סעיף 11) proviso: if on the eve of the death the spouse had been married to the deceased for three years or more and was then living with them in an apartment wholly or partly included in the estate, the spouse takes the whole of the deceased share in that apartment and two thirds of the remainder of the rest of the estate",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "ובלבד שאם ערב מותו של המוריש היה בן־הזוג נשוי לו שלוש שנים או יותר וגר עמו אותה שעה בדירה הכלולה, כולה או חלקה, בעזבון, יטול בן־הזוג את כל חלקו של המוריש בדירה האמורה, ושני שלישים מהנותר משאר העזבון.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-104-marital-property-debt",
+      "claim": "Section 104(a)(4) (סעיף 104): what is due to the spouse under the Spouses Property Relations Law or a property agreement ranks as an estate debt, settled before the estate is divided among heirs",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "המגיע לבן־זוגו של המוריש על פי עילה הנובעת מקשר האישות",
+      "confidence": "high"
+    },
+    {
+      "id": "section-67a-transfer-grounds",
+      "claim": "Section 67א (סעיף 67א): an application before the Registrar is transferred to the court where an objection was filed, the State or one of its institutions is a party, the Attorney General or their representative initiates or joins a proceeding, the Public Trustee represents a person whose property it manages, or the Registrar sees fit to transfer it",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "הוגשה התנגדות לבקשה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-155-religious-court",
+      "claim": "Section 155 (סעיף 155): a religious court is competent to grant a succession order and a probate order where all the parties concerned have expressed their consent in writing",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "הביעו בכתב הסכמתם לכך",
+      "confidence": "high"
+    },
+    {
+      "id": "section-23-oral-will-memorandum",
+      "claim": "Section 23(b) (סעיף 23) and (c): the words of an oral will, with the day and circumstances, are recorded in a memorandum signed by the two witnesses and deposited by them with the Inheritance Registrar as soon as practicable; the oral will lapses one month after the circumstances justifying it have passed if the testator is still alive",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "דברי המצווה, בציון היום והנסיבות לעשיית הצוואה, יירשמו בזכרון דברים שייחתם בידי שני העדים ויופקד על ידיהם אצל רשם לעניני ירושה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-22-before-authority",
+      "claim": "Section 22 (סעיף 22): a will before an authority is made by stating it orally before, or handing it in writing personally to, a judge, a court registrar, an Inheritance Registrar or a member of a religious court; the authority reads it back, the testator declares it is their will, and the authority certifies that by signature on the will face. A notary is treated as a judge",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "הצוואה בכתב, על ידי המצווה עצמו, לידי שופט או רשם של בית משפט, רשם לעניני ירושה או חבר בית דין דתי",
+      "confidence": "high"
+    },
+    {
+      "id": "section-6-disclaimer",
+      "claim": "Section 6 (סעיף 6): after the death and while the estate is undistributed an heir may disclaim by written notice to the Inheritance Registrar; the disclaiming heir is treated as never having been an heir; a disclaimer in favour of another person is permitted only in favour of the deceased spouse, child or sibling; a minor or legally incompetent person needs court approval; a conditional disclaimer is void",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "אין הסתלקות לטובת אדם אחר, אלא לטובת בן־זוגו, ילדו או אחיו של המוריש.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-8-future-inheritance-void",
+      "claim": "Section 8 (סעיף 8): an agreement about the inheritance of a person and a waiver of that inheritance made during that person lifetime are void; a gift intended to vest in the recipient only after the giver death is invalid unless made as a will under this law",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "הסכם בדבר ירושתו של אדם וויתור על ירושתו שנעשו בחייו של אותו אדם – בטלים",
+      "confidence": "high"
+    },
+    {
+      "id": "section-8a-mutual-wills",
+      "claim": "Section 8א (סעיף 8א): revocation of a mutual will is ineffective unless, while both spouses live, the revoking spouse gives the other written notice, which cancels both wills; or after one dies, the survivor disclaims before distribution or restores what they inherited after distribution. A provision entirely denying the right to revoke while both live is void",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "המצווה המבקש לבטל את צוואתו ימסור הודעה בכתב על ביטול הצוואה למצווה השני; נמסרה הודעה כאמור, בטלות הצוואות ההדדיות של שני המצווים",
+      "confidence": "high"
+    },
+    {
+      "id": "section-39-order-required",
+      "claim": "Section 39 (סעיף 39): no rights may be claimed under a will and it may not be relied on as a will unless a probate order has been granted",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "אין לתבוע זכויות על פי צוואה ואין להיזקק לה כצוואה אלא אם ניתן עליה צו קיום",
+      "confidence": "high"
+    },
+    {
+      "id": "section-36-revocation",
+      "claim": "Section 36 (סעיף 36): the testator may revoke a will expressly in any of the forms for making a will, or by destroying it, and destruction raises a presumption of intent to revoke; a new will revokes an earlier one only so far as their provisions conflict",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "המצווה רשאי לבטל צוואתו, אם על ידי ביטול במפורש באחת הצורות לעשיית צוואה, ואם על ידי השמדת הצוואה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-27-no-binding-promise",
+      "claim": "Section 27 (סעיף 27): an undertaking to make a will, to change it or to revoke it has no effect",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "התחייבות לעשות צוואה, לשנותה או לבטלה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-67-objection-period",
+      "claim": "Section 67 (סעיף 67): the Registrar publishes notice of the application and fixes a suitable period, not less than two weeks, for filing objections; any interested party may object within that period so long as the order has not been granted",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "ויקבע זמן מתאים שלא יפחת משבועיים להגשת התנגדויות",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-schedule-2026",
+      "claim": "The Inheritance Registrar fee schedule, all amounts updated for 2026: succession or probate order application 597 NIS; correction or cancellation of an order 597 NIS; appointment of an estate administrator 597 NIS; making a will before the Registrar 280 NIS; depositing a will 126 NIS; inspecting an archived file 32 NIS; certified copy 6.1 NIS per page; any other application 280 NIS",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "(כל הסכומים מעודכנים לשנת 2026)",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-597-order",
+      "claim": "The fee for an application for a succession order or a probate order is 597 NIS",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "בקשה למתן צו ירושה או צו קיום",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-online-85-percent",
+      "claim": "Where the application is filed online the fee is 85 percent of the listed amount, which is why an online succession-order application costs 507 NIS rather than 597 NIS",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "תשולם האגרה בשיעור של 85% מהאמור באמצעות אתר האינטרנט של האפוטרופוס הכללי",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-annual-indexation",
+      "claim": "The fee amounts in the schedule change on 1 January of each year according to the movement of the index published in the November preceding that date",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "יתשנו ב־1 בינואר של כל שנה",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-deposit-exemption",
+      "claim": "Depositing a will is exempt from the fee where the testator deposited no earlier will in the five years preceding the deposit",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "לעניין הפקדת צוואה, אם לא הופקדה צוואה קודמת של המצווה בחמש השנים שקדמו למועד ההפקדה",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-clerical-error-exempt",
+      "claim": "An application to correct a clerical error in a Registrar decision, filed within 30 days of the decision, is exempt from the fee",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "בקשה לתיקון טעות סופר בהחלטת רשם לענייני ירושה שהוגשה בתוך 30 ימים מיום מתן ההחלטה",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-bereaved-exemption",
+      "claim": "Exempt from the fee are the State and its authorised representatives, the Public Trustee, the National Insurance Institute, a local-authority welfare officer acting in that capacity, and an applicant for a succession order who is the spouse, child, father, mother or sibling of someone who died as a result of war operations, as a casualty of a hostile act, or in military service",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "מגיש בקשה למתן צו ירושה או בקשר אליו, שהוא בן זוגו, ילדו, אביו, אמו או אחיו של מי שנפטר",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-carried-to-court",
+      "claim": "Where a fee was paid to the Registrar and the matter was then transferred to the court under section 67א of the Law, it is treated as a fee paid to the court",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "שולמה אגרה אצל הרשם ולאחר מכן הועבר הענין",
+      "confidence": "high"
+    },
+    {
+      "id": "no-estate-tax",
+      "claim": "The Estate Tax Law 1949 was repealed for the estate of anyone who died after 31 March 1981, and from 1 January 1988 the repeal applies also to the estate of those who died before that date. Israel therefore levies no estate or inheritance tax",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מס_עזבון",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "חוק מס עזבון, תש״ט–1949 – בטל לגבי עזבון של מי שנפטר אחרי כ״ה באדר ב׳ התשמ״א (31 במרס 1981)",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-fee-126-2026",
+      "claim": "Depositing a will costs 126 NIS as of 2026 where fewer than five years have passed since a previous deposit; from 2025 those depositing a will for the first time, or five years after the previous deposit, are exempt from the fee",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "אישור על תשלום אגרה בסך 126 ₪ (נכון ל-2026) עבור הפקדת צוואה - אם לא עברו 5 שנים מהפקדת צוואה קודמת",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-in-person-or-online",
+      "claim": "A will may be deposited with the Inheritance Registrar either by attending an office in person or remotely online, and the deposit can be made only by the testator, who is also the only person who can withdraw a deposited will",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "ההפקדה יכולה להתבצע בהתייצבות אישית בלשכת הרשם לענייני ירושה",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-withdrawal-not-revocation",
+      "claim": "The testator may take back a deposited will at any time; receiving the will back does not revoke it and it remains valid for all purposes until it is revoked or a newer will is signed in its place. Returning the will carries no fee",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "קבלת הצוואה בחזרה אינה מביאה לביטול הצוואה, והיא תקפה לכל דבר ועניין עד ש",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-one-at-a-time",
+      "claim": "Only one will may be on deposit at a time; a person who has deposited a will may not deposit another unless they first take back any previously deposited will",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "מי שהפקיד בעבר צוואה אינו רשאי להפקיד צוואה נוספת, אלא אם לפני כן לקח בחזרה כל צוואה קודמת שהפקיד.",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-opened-after-3-months",
+      "claim": "If no application concerning the will is filed, the Inheritance Registrar opens the will three months after the death and notifies the beneficiaries named in it. Anyone holding a will must deliver it as soon as they learn of the testator death, and failing to do so is a criminal offence",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "אם לא הוגשה כל בקשה בעניין הצוואה, הרשם לענייני ירושה יפתח את הצוואה לאחר 3 חודשים ממועד הפטירה, וימסור הודעה על קיומה לזוכים",
+      "confidence": "high"
+    },
+    {
+      "id": "section-7-forfeits-disclaimer",
+      "claim": "Section 7 (סעיף 7): an heir may transfer or charge their share in an undistributed estate by written agreement, but doing so deprives them of the right to disclaim that share",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "הם שוללים מן היורש את הזכות להסתלק מחלקו בעזבון.",
+      "confidence": "high"
+    },
+    {
+      "id": "section-6a-war",
+      "claim": "Section 6א (סעיף 6א), added in 2024: where the deceased died in hostile acts or war operations, an heir may disclaim also in favour of family members listed in section 10 and in favour of the deceased former spouse or child",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "רשאי להסתלק מחלקו בעיזבון גם לטובת בני משפחה של מוריש המנויים",
       "confidence": "high"
     }
   ]
