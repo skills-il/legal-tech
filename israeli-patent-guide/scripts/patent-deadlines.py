@@ -78,54 +78,64 @@ def maintenance_fee_dates(filing_date: date) -> list[tuple[str, date, str]]:
 
     Returns a list of (label, due_date, note) tuples.
 
-    Structure:
-    - Years 1-6: Lump sum paid at grant. Represented here as "due at grant,
-      covering years 1-6 from filing date." We return the year-6 anniversary
-      as the latest point this covers, not a specific payment date (since
-      grant date varies).
-    - Year 7 block: paid before the year-7 anniversary of filing
-    - Year 11 block: paid before the year-11 anniversary of filing
-    - Year 15 block: paid before the year-15 anniversary of filing
-    - Year 19 block: paid before the year-19 anniversary of filing
+    Structure (ILPO 2026 fee schedule, item 12):
+    - Years 1-6: NIS 961 lump sum, due WITHIN 3 MONTHS OF GRANT. Because the
+      grant date varies, we return the year-6 anniversary of filing only as a
+      coverage reference, not as the payment date.
+    - Years 7-10 block (NIS 1,921): pay before the END OF YEAR 6 from filing
+    - Years 11-14 block (NIS 2,882): pay before the END OF YEAR 10 from filing
+    - Years 15-18 block (NIS 4,803): pay before the END OF YEAR 14 from filing
+    - Years 19-20 block (NIS 6,725): pay before the END OF YEAR 18 from filing
     - Year 20: Maximum patent term; patent expires.
+
+    NOTE: each renewal is due before the end of the year PRECEDING the block it
+    covers, not on the block's first anniversary. Paying "before the year-7
+    anniversary" is one year too late and the patent lapses.
+
+    Alternative: a single all-inclusive renewal fee of NIS 14,410 may be paid
+    within 3 months of grant to keep the patent in force for its entire term
+    (item 12(6)), versus NIS 17,292 paid band by band.
 
     6-month grace period applies to each payment with a surcharge.
     """
     fees = []
 
-    # Years 1-6 lump sum (paid at grant -- we mark year 6 anniversary as reference)
+    # Years 1-6 lump sum, NIS 961, due within 3 months of grant.
+    # Year-6 anniversary shown as a coverage reference only.
     fees.append((
-        "Maintenance: Years 1-6 lump sum (paid at grant)",
+        "Maintenance: Years 1-6 lump sum, NIS 961 (due within 3 months of grant)",
         add_years(filing_date, 6),
-        "Pay lump sum for years 1-6 when the grant fee is due. "
-        "Patent must be granted before year-6 anniversary or separately renewed."
+        "Date shown is the end of the period covered, NOT the payment date. "
+        "The lump sum is due within 3 months of the grant date. "
+        "Alternative: NIS 14,410 all-inclusive, also within 3 months of grant, "
+        "covers the entire term."
     ))
 
-    # Year 7-10 block: pay before year-7 anniversary
+    # Years 7-10 block: pay before END OF YEAR 6
     fees.append((
-        "Maintenance: Years 7-10 (pay before year-7 anniversary)",
-        add_years(filing_date, 7),
+        "Maintenance: Years 7-10, NIS 1,921 (pay before end of year 6)",
+        add_years(filing_date, 6),
         "6-month grace period with surcharge if paid late."
     ))
 
-    # Year 11-14 block: pay before year-11 anniversary
+    # Years 11-14 block: pay before END OF YEAR 10
     fees.append((
-        "Maintenance: Years 11-14 (pay before year-11 anniversary)",
-        add_years(filing_date, 11),
+        "Maintenance: Years 11-14, NIS 2,882 (pay before end of year 10)",
+        add_years(filing_date, 10),
         "6-month grace period with surcharge if paid late."
     ))
 
-    # Year 15-18 block: pay before year-15 anniversary
+    # Years 15-18 block: pay before END OF YEAR 14
     fees.append((
-        "Maintenance: Years 15-18 (pay before year-15 anniversary)",
-        add_years(filing_date, 15),
+        "Maintenance: Years 15-18, NIS 4,803 (pay before end of year 14)",
+        add_years(filing_date, 14),
         "6-month grace period with surcharge if paid late."
     ))
 
-    # Year 19-20 block: pay before year-19 anniversary
+    # Years 19-20 block: pay before END OF YEAR 18
     fees.append((
-        "Maintenance: Years 19-20 (pay before year-19 anniversary)",
-        add_years(filing_date, 19),
+        "Maintenance: Years 19-20, NIS 6,725 (pay before end of year 18)",
+        add_years(filing_date, 18),
         "6-month grace period with surcharge if paid late."
     ))
 
@@ -219,10 +229,17 @@ def print_deadlines(args: argparse.Namespace) -> None:
     ))
 
     paris_deadline = paris_convention_priority_deadline(priority_date)
+    if args.priority_date:
+        paris_note = (
+            "Paris year measured from the first filing. Already exercised by the "
+            "filing analysed here, shown for reference only."
+        )
+    else:
+        paris_note = "Deadline to file a PCT or foreign national application claiming priority."
     print(format_deadline(
         "12-month Paris Convention priority deadline",
         paris_deadline,
-        "Deadline to file a PCT or foreign national application claiming priority."
+        paris_note
     ))
 
     if args.isr_date:
@@ -241,8 +258,13 @@ def print_deadlines(args: argparse.Namespace) -> None:
         print(format_deadline(label, due_date, note))
 
     print(
-        "\n  40% REDUCTION: Applies if annual turnover < NIS 10M or individual inventor."
+        "\n  40% REDUCTION: Does NOT apply to renewal fees. It applies only to the"
+        "\n                 filing fee and the notice-of-acceptance fee, and only on a"
+        "\n                 FIRST application for a particular invention. See SKILL.md."
         "\n  GRACE PERIOD : 6 months with surcharge for late payments (not applicable to expiry)."
+        "\n  WARNING      : each renewal is due before the END of the year preceding the"
+        "\n                 block it covers (years 6/10/14/18), not on the block's first"
+        "\n                 anniversary. Extensions cost NIS 240 per month or part thereof."
     )
 
     # --- Post-allowance objection period ---

@@ -1,8 +1,96 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-patent-guide",
-  "generated_at": "2026-05-20T00:00:00Z",
+  "generated_at": "2026-08-01T00:00:00Z",
   "claims": [
+    {
+      "claim_id": "ilpo-2026-renewal-due-year-6",
+      "claim": "The renewal fee covering patent years 7 to 10 is NIS 1,921 and is due before the end of the sixth year from the application date, not before the seventh anniversary.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשת חידוש לפני תום השנה השישית מתאריך הבקשה לפטנט, לתקופה נוספת של ארבע שנים 1,921",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#maintenance-fee-structure", "SKILL_HE.md#mivne-dmei-tachzuka", "references/ilpo-fee-schedule.md", "scripts/patent-deadlines.py"]
+    },
+    {
+      "claim_id": "ilpo-2026-renewal-years-1-6-961",
+      "claim": "The lump-sum renewal covering patent years 1 to 6 is NIS 961 and is due within three months of the grant of the patent.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשת חידוש לפני תום שלושה חודשים מיום מתן הפטנט, עד תום שש שנים מתאריך הבקשה לפטנט 961",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#maintenance-fee-structure", "SKILL_HE.md#mivne-dmei-tachzuka", "references/ilpo-fee-schedule.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-renewal-all-inclusive-14410",
+      "claim": "An all-inclusive renewal fee of NIS 14,410 may be paid within three months of grant to keep the patent in force for its entire term.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל תקופתו 14,410",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#maintenance-fee-structure", "SKILL_HE.md#mivne-dmei-tachzuka", "references/ilpo-fee-schedule.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-page-fee-300",
+      "claim": "An additional filing fee of NIS 300 applies for every 50 pages of a patent application from page 101 onward, excluding genetic sequences from the page count.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת הגשה נוספת בעד כל 50 עמודים שבבקשה לפטנט החל בעמוד ה-101; במספר העמודים לא יימנו רצפים גנטיים 300",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#fee-structure-overview", "SKILL_HE.md#mivne-haagrot", "references/ilpo-fee-schedule.md", "references/pct-israel-checklist.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-reduction-eligibility",
+      "claim": "A qualifying applicant pays 60% of the filing fee. Qualifying applicants are any applicant that is not a company or partnership, a company or partnership whose turnover in the preceding year did not exceed NIS 10 million, an institution recognised under section 9 of the Council for Higher Education Law 5718-1958, or a technology transfer company wholly owned by such an institution, and in each case only when filing a first patent application for a particular invention.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "ואולם מבקש שאינו חברה ואינו שותפות, או חברה או שותפות שמחזור עסקיה בשנה הקודמת לא עלה על 10 מיליון שקלים חדשים, או מוסד שהוכר לפי סעיף 9 לחוק המועצה להשכלה גבוהה, התשי\"ח-1958 או חברה למסחור טכנולוגיה שהיא בבעלות מלאה של מוסד כאמור, אשר עיסוקה בהגנה ובניהול של הקניין הרוחני הנובע מאמצאות אשר פותחו באותו מוסד, המגישים בעד אמצאה מסוימת בקשה ראשונה לפטנט ישלמו 60% מהסכום",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#40-fee-reduction-pay-60-of-the-amount", "SKILL_HE.md#hanacha-40", "references/ilpo-fee-schedule.md", "references/pct-israel-checklist.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-accelerated-exam-matrix",
+      "claim": "Accelerated examination fees differ by requester: an applicant request under s.19a(a)(3) to (6) is NIS 357 plus NIS 834 for the examination, totalling NIS 1,191, while a third-party request under s.19a(c) is NIS 11,910 plus NIS 5,955, totalling NIS 17,865.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "(1) עם הגשת בקשה לפי סעיף 19א(א)(3) עד (6) לחוק 357 (2) עם הגשת בקשה לפי סעיף 19א(ג) לחוק 11,910",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#fee-structure-overview", "SKILL_HE.md#mivne-haagrot", "references/ilpo-fee-schedule.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-extension-240-per-month",
+      "claim": "A request to extend any deadline under sections 48d(c) and 164 of the Patents Law, or regulations 5(a) or 87(c), costs NIS 240 per month or part of a month.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשה להארכת כל מועד, לפי סעיפים 48ד(ג) ו-164 לחוק או בקשה לפי תקנות 5(א) או 87(ג), בעד כל חודש או חלק ממנו 240",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#fee-structure-overview", "SKILL_HE.md#mivne-haagrot", "references/ilpo-fee-schedule.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-pte-ladder",
+      "claim": "Patent Term Extension fees form a ladder: NIS 4,180 before the end of the first extension year, NIS 5,016 before the second, NIS 6,019 before the third, and NIS 7,223 before the fourth.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת הארכה (תקנה 7 (א)(2)) (א) לפני תום שנת הארכה ראשונה 4,180 (ב) לפני תום שנת הארכה שנייה 5,016 (ג) לפני תום שנת הארכה שלישית 6,019 (ד) לפני תום שנת הארכה רביעית 7,223",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["references/ilpo-fee-schedule.md"]
+    },
+    {
+      "claim_id": "ilpo-2026-isa-transmittal-nis",
+      "claim": "ILPO acting as International Searching Authority charges a search fee of NIS 4,203, and the transmittal fee under regulation 6(e) is NIS 656.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת חיפוש המשתלמת לרשות הפטנטים כרשות חיפוש בין-לאומית לפי תקנה 6(ד) לתקנות הפטנטים 4,203 אגרת מסירה לפי תקנה 6(ה) לתקנות יישום האמנה 656",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#fee-structure-overview", "SKILL_HE.md#mivne-haagrot", "references/ilpo-fee-schedule.md"]
+    },
+    {
+      "claim_id": "service-inventions-s132-s134",
+      "claim": "Under section 132 of the Israeli Patents Law a service invention belongs to the employer by default, and under section 134 an employee may apply to the Compensation and Royalties Committee at ILPO to determine entitlement to compensation where the parties have not agreed.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "Section 132 establishes a default setting whereby an invention made by an employee during the period of his employment and as a result of his employment (a service invention) belongs to the employer. Under section 134, if the parties have not agreed on compensation for a service invention, the employee may ask the Compensation and Royalties Committee to establish if he is entitled to compensation and if so, how much.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#who-owns-the-invention-service-inventions-sections-132-135", "SKILL_HE.md#amtzaot-sherut"]
+    },
+    {
+      "claim_id": "defence-inventions-s94-s113",
+      "claim": "Chapter Six of the Israeli Patents Law (sections 94 to 113) governs inventions of defence interest: such inventions must be brought to the attention of the Minister of Defence, may be subject to a secrecy order, and may not be filed abroad without permission.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "Patents Law 5727-1967, Chapter Six: Inventions Requiring Secrecy, sections 94 to 113, governing notification to the Minister of Defence, secrecy orders, and the prohibition on filing such applications abroad without permission.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md#before-filing-abroad-defence-related-inventions-sections-94-113", "SKILL_HE.md#amtzaot-bitchoniot"]
+    },
     {
       "claim_id": "amendment-15-published",
       "claim": "The Patents Law (Amendment No. 15) Bill, 5786-2025 was published by the Israeli government on 30 December 2025.",

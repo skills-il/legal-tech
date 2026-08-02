@@ -17,10 +17,12 @@ URL: pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
 
 ## Step 2: Verify Applicant Eligibility for 40% Fee Reduction
 
-- [ ] Is the applicant a natural person (individual inventor)? If yes, the 40% reduction applies.
-- [ ] If the applicant is a company: obtain the most recent annual financial statements and confirm gross revenue (turnover) is under NIS 10 million.
+- [ ] Is the applicant something other than a company or partnership (for example an individual inventor)? If yes, the reduction applies.
+- [ ] If the applicant is a company or partnership: obtain the financial statements for the preceding year and confirm turnover did not exceed NIS 10 million.
+- [ ] Is the applicant an institution recognised under section 9 of the Council for Higher Education Law, 5718-1958 (an Israeli university), or a technology transfer company wholly owned by such an institution and engaged in managing IP from its inventions? If yes, the reduction applies.
+- [ ] **Confirm this is a FIRST patent application for this particular invention.** The reduction does not apply otherwise, including to divisionals.
 - [ ] Prepare a signed declaration of eligibility for the reduced fee (in Hebrew or English).
-- [ ] Note: The 40% reduction applies to ILPO fees only, not WIPO international fees.
+- [ ] Note: the reduction covers only the national fee and the notice of acceptance fee. It does NOT cover the per-claim fee, the per-page fee, renewal fees, WIPO international fees, or ISA search fees.
 
 
 ## Step 3: Translation Requirements
@@ -48,7 +50,9 @@ URL: pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
 
 - [ ] **Form PCT/IL/01** (or equivalent national phase entry request form): complete with applicant details, inventor details, title, and PCT application number.
 - [ ] **Translated specification** (if required per Step 3).
-- [ ] **Fee payment**: calculate total fees due (filing + examination, with or without 40% reduction). Prepare payment in NIS.
+- [ ] **Fee payment**: calculate total fees due and prepare payment in NIS. The national fee is NIS 2,402 (examination included), reduced to NIS 1,441 for a qualifying applicant on a first application. Then add, at full rate with no reduction:
+  - [ ] NIS 616 for each claim from the 51st claim onward
+  - [ ] NIS 300 for each 50 pages from page 101 onward (genetic sequences are not counted). PCT specifications routinely exceed 100 pages, so check the page count before quoting a total.
 - [ ] **Fee reduction declaration** (if applicable, from Step 2).
 - [ ] **Power of Attorney** (if required by appointed agent).
 - [ ] **Priority documents**: if the priority document was not already submitted to WIPO or via DAS during the international phase, prepare a certified copy from the priority office.
@@ -86,7 +90,7 @@ If the 30-month deadline was missed unintentionally, Israel allows reinstatement
 
 | Resource | URL |
 |---|---|
-| ILPO Official Portal | gov.il/en/departments/ilpo |
+| ILPO Official Portal | https://www.gov.il/en/departments/israel_patent_office |
 | WIPO PCT Guide for Israel | pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL |
 | ePCT Online Filing | pct.wipo.int |
 | WIPO PatentScope (PCT search) | patentscope.wipo.int |
