@@ -53,3 +53,18 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 - The Labor Court has exclusive jurisdiction over most employment disputes
 - Statute of limitations for wage claims: 7 years. For other employment claims: varies by law
 - Many Israeli workers are covered by sector-specific collective agreements that provide benefits above the legal minimum
+
+## Paternity leave and the second parent (detail)
+
+**Paternity leave / second parent (the parent who did not give birth):**
+- Absence right around the birth: up to 5 calendar days right after the birth (plus the day of birth itself), with no need for employer consent. The first 3 days are taken from the annual vacation balance (or unpaid if the balance is insufficient); the 4th and 5th days are treated as paid sick days
+- Separately, a concurrent paternity-leave week: the second parent may take one week of the Birth and Parenting Period at the same time as the parent who gave birth, and receive a birth allowance for that week from Bituach Leumi (subject to its eligibility conditions)
+- Taken together, the second parent can typically be home for about 7 paid days in the first month after the birth
+- The second parent can also take a longer share of the Birth and Parenting Period (transferred from the other parent) after that parent has used at least 6 weeks
+
+## Additional protections (detail)
+
+**Additional protections:**
+- Fertility treatments: employees undergoing fertility treatments receive absences as sick days and are protected from termination during treatment
+- Adoption: similar leave entitlements apply to adoptive parents
+- Nursing mothers: entitled to a reduced work day (1 hour less) for 4 months after returning from maternity leave, with full pay

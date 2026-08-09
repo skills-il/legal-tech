@@ -15,7 +15,7 @@ This is a free information tool operated by an AI model. It explains the law and
 Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
 
 
-Understand and exercise employee rights under Israeli labor law. This skill covers the core entitlements every employee in Israel should know: vacation, sick leave, overtime, maternity/paternity leave, severance, convalescence pay, pension, termination protections, harassment prevention, and disability accommodations.
+Understand and exercise employee rights under Israeli labor law: vacation, sick leave, overtime, birth and parenting leave, severance, convalescence pay, pension, termination protections, harassment prevention, and disability accommodations.
 
 ## Instructions
 
@@ -137,15 +137,13 @@ Per the **Employment of Women Law, 1954 (Chok Avdat Nashim)**. The leave is now 
 - The employee is entitled to return to the same position or an equivalent one
 
 **Paternity leave / second parent (the parent who did not give birth):**
-- Absence right around the birth: up to 5 calendar days right after the birth (plus the day of birth itself), with no need for employer consent. The first 3 days are taken from the annual vacation balance (or unpaid if the balance is insufficient); the 4th and 5th days are treated as paid sick days
-- Separately, a concurrent paternity-leave week: the second parent may take one week of the Birth and Parenting Period at the same time as the parent who gave birth, and receive a birth allowance for that week from Bituach Leumi (subject to its eligibility conditions)
-- Taken together, the second parent can typically be home for about 7 paid days in the first month after the birth
-- The second parent can also take a longer share of the Birth and Parenting Period (transferred from the other parent) after that parent has used at least 6 weeks
+- Up to 5 calendar days right after the birth (plus the birth day), no employer consent needed
+- Plus one concurrent week of the Birth and Parenting Period with a birth allowance from Bituach Leumi
+- May take a longer transferred share after the other parent has used at least 6 weeks
 
-**Additional protections:**
-- Fertility treatments: employees undergoing fertility treatments receive absences as sick days and are protected from termination during treatment
-- Adoption: similar leave entitlements apply to adoptive parents
-- Nursing mothers: entitled to a reduced work day (1 hour less) for 4 months after returning from maternity leave, with full pay
+See `references/labor-laws-summary.md` for how the 5 days are charged (vacation vs sick) and the full transfer rules.
+
+**Additional protections:** fertility treatments (absences as sick days, protected from termination), adoption (similar leave entitlements), and nursing mothers (1 hour less per day for 4 months, full pay). Conditions in `references/labor-laws-summary.md`.
 
 **After a miscarriage.** The Employment of Women Law protections apply following a miscarriage, not only after a birth. Labour-court authority has held that cutting an employee's hours during the protected period that follows a miscarriage breaches the law. If an employer reduced hours, changed a role, or dismissed in that window, treat it as a protected-period breach rather than an ordinary management decision.
 
@@ -363,13 +361,12 @@ From the Step 2 table: year 6 = 18 gross calendar days = 14 net working days on 
 User says: "I was fired after 3 years and 4 months. My last salary was 15,000 NIS. How much severance should I get?"
 
 Actions:
-1. Confirm employment duration: 3 years and 4 months = 3.33 years
-2. Calculate severance: `python3 scripts/severance-calculator.py --salary 15000 --years 3 --months 4`
-3. Ask to SEE the signed Section 14 arrangement, and check the actual deposit rate on the pay slip: at the 6% minimum the fund covers only about 72% of the statutory figure and a completion payment is owed
-4. Advise on the 15-day deadline and penalty interest, AND on the 60-day limitation that kills the penalty claim
-5. Verify a proper hearing (shima) was held before termination
+1. Run `python3 scripts/severance-calculator.py --salary 15000 --years 3 --months 4`
+2. Ask to SEE the signed Section 14 arrangement and check the deposit rate on the pay slip: at the 6% minimum the fund covers only about 72% of the statutory figure, so a completion payment is owed
+3. Advise on the 15-day deadline and penalty interest, and on the 60-day limitation that kills the penalty claim
+4. Verify a hearing (shima) was held before termination
 
-Result: Severance of approximately NIS 50,000 (15,000 x 3.33). If a full Section 14 arrangement applies, the fund balance replaces this amount.
+Result: approximately NIS 50,000 (15,000 x 3.33). A full Section 14 arrangement replaces this with the fund balance. Full termination workflow in `references/entitlements-calculator.md`.
 
 ### Example 3: Sick Leave Rights
 
@@ -381,16 +378,16 @@ Partially. Day 1 is unpaid, but days 2-3 must be paid at 50% (not zero), and day
 
 User says: "My boss told me I'm fired, effective immediately. No hearing, no notice. What are my rights?"
 
-Two separate breaches. On the hearing: the employer must hold a shimua BEFORE deciding, and compensation for a defective hearing is awarded without proof of damage, so the claim stands even if no money was lost. On notice: after a year the employer owes a month, though paying it out in cash instead is lawful, and that cash carries no pension or severance accrual. Send a written demand citing both, and do not sign anything at the exit meeting. For the hearing procedure, the remedy and the filing route, use the termination workflow in `references/entitlements-calculator.md`.
+Two separate breaches. The employer must hold a shimua BEFORE deciding, and compensation for a defective hearing needs no proof of damage, so the claim stands even if no money was lost. After a year the employer also owes a month's notice; paying it out in cash is lawful but carries no pension or severance accrual. Send a written demand citing both, and do not sign anything at the exit meeting. Procedure, remedy and filing route: `references/entitlements-calculator.md`.
 
 ## Bundled Resources
 
 ### Scripts
-- `scripts/severance-calculator.py` -- Severance from salary and tenure, or a salary history (compares per-period vs last-salary). Handles Section 14 and the completion payment. Run with `--help`.
+- `scripts/severance-calculator.py` -- Severance from salary and tenure, or a salary history (per-period vs last-salary). Handles Section 14 and the completion payment. Run with `--help`.
 
 ### References
-- `references/labor-laws-summary.md` -- Table of the key Israeli labour laws with names, years and provisions. Use to identify which law applies.
-- `references/entitlements-calculator.md` -- Seniority tables for vacation, sick and convalescence pay, AND the termination workflow: Section 14 validity, Form 161, proportional havraa, pay in lieu of notice, unemployment timing, the hearing remedy, limitation periods, where to file. Read it on any dismissal question.
+- `references/labor-laws-summary.md` -- Key Israeli labour laws with names, years and provisions. Use to identify which law applies.
+- `references/entitlements-calculator.md` -- Seniority tables for vacation, sick and convalescence pay, plus the termination workflow: Section 14 validity, Form 161, proportional havraa, pay in lieu of notice, unemployment timing, the hearing remedy, limitation periods, where to file. Read it on any dismissal question.
 
 ## Gotchas
 
@@ -411,34 +408,34 @@ Two separate breaches. On the hearing: the employer must hold a shimua BEFORE de
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Kol Zchut (workers' rights) | https://www.kolzchut.org.il/he | Plain-language explanations of labor law entitlements |
-| Ministry of Labor | https://www.gov.il/he/pages/aboutlabor | Official labor regulations, minimum wage, enforcement |
-| Kol Zchut: minimum wage | https://www.kolzchut.org.il/he/שכר_מינימום | Current monthly and hourly minimum wage |
-| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/p189_001.htm | Severance Pay Law, 1963 statutory text |
-| Bituach Leumi: birth allowance | https://www.btl.gov.il/benefits/maternity/Pages/default.aspx | Birth and Parenting Period allowance eligibility and amounts |
-| Labor courts in Israel (Kol Zchut) | https://www.kolzchut.org.il/he/בתי_הדין_האזוריים_לעבודה | Labor court jurisdiction, filing procedures |
+| Kol Zchut | https://www.kolzchut.org.il/he | Plain-language entitlement explanations |
+| Ministry of Labor | https://www.gov.il/he/pages/aboutlabor | Labor regulations, minimum wage, enforcement |
+| Minimum wage | https://www.kolzchut.org.il/he/שכר_מינימום | Monthly and hourly minimum wage |
+| Nevo: Severance Pay Law | https://www.nevo.co.il/law_html/law01/p189_001.htm | Severance Pay Law 1963 text |
+| Bituach Leumi | https://www.btl.gov.il/benefits/maternity/Pages/default.aspx | Birth allowance eligibility and amounts |
+| Labor courts | https://www.kolzchut.org.il/he/בתי_הדין_האזוריים_לעבודה | Court jurisdiction and filing |
 
 ## Recommended MCP Servers
 
 | MCP | When to pair | Purpose |
 |-----|--------------|---------|
-| `kolzchut` | Plain-language rule summaries and exceptions | Cross-references entitlements against the All-Rights database |
-| `israel-law` | Authoritative statute citations | Exact text of the Annual Leave, Sick Pay, Hours of Work and Rest, Severance Pay and Minimum Wage Laws |
+| `kolzchut` | Plain-language summaries and exceptions | Cross-checks entitlements against All-Rights |
+| `israel-law` | Statute citations | Exact text of the Annual Leave, Sick Pay, Hours of Work and Rest, Severance Pay and Minimum Wage Laws |
 
 ## Troubleshooting
 
 ### Error: "Employer claims overtime exemption"
-Cause: Senior managers and positions of personal trust can be exempt under the Hours of Work and Rest Law.
-Solution: The exemption is narrow and turns on actual authority, not a "manager" title. Also note that where the employer kept no time records the burden shifts to them, which is what makes most overtime claims winnable. If disputed, go to the labour court.
+Cause: Senior managers and positions of trust can be exempt under the Hours of Work and Rest Law.
+Solution: The exemption is narrow and turns on actual authority, not a "manager" title. Where the employer kept no time records the burden shifts to them, which is what makes most overtime claims winnable. If disputed, go to the labour court.
 
 ### Error: "Employer not making pension contributions"
-Cause: Employer breaching the mandatory pension order, common in small businesses.
+Cause: Breach of the mandatory pension order, common in small businesses.
 Solution: Check the pay slip for pension lines and the deposit RATE (6% minimum to severance). If absent or short, send a written demand; if unmet in 30 days, complain to the Ministry of Labour enforcement division or file in the labour court.
 
 ### Error: "Severance not paid within 15 days"
-Cause: Employer delay, dispute over amount, or cash flow issues.
-Solution: Send a formal written demand (michtav drisha) citing the Severance Pay Law and the 15-day deadline. After 15 days, penalty interest (pitzuyei halanat pitzuyim) accrues automatically. Give the deadline in the same breath: the penalty claim dies 60 days after the late payment is received (court may extend to 90), or one year from the sum falling due, whichever is earlier. Negotiating past it forfeits the penalty, though the severance itself stays claimable for 7 years. File in labor court for both.
+Cause: Employer delay, dispute over amount, or cash flow.
+Solution: Send a formal written demand (michtav drisha) citing the Severance Pay Law and the 15-day deadline, after which penalty interest (pitzuyei halanat pitzuyim) accrues automatically. State the deadline too: the penalty claim dies 60 days after the late payment is received (court may extend to 90), or one year from the sum falling due, whichever is earlier. The severance itself stays claimable for 7 years. File in labor court for both.
 
 ### Error: "Employer refuses convalescence pay"
-Cause: Employer unfamiliar with the duty, or claiming under one year of service.
+Cause: Unfamiliarity with the duty, or a claim under one year of service.
 Solution: Confirm one full year, then compute from the seniority table (Step 7) and the current daily rate, using the correct sector rate. On termination add the proportional part of the current year. Demand in writing; if unpaid, complain to the Ministry of Labour or file in the labour court.
