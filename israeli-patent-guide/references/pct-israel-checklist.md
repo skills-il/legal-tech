@@ -90,9 +90,9 @@ If the 30-month deadline was missed unintentionally, Israel allows reinstatement
 
 | Resource | URL |
 |---|---|
-| ILPO Official Portal | https://www.gov.il/en/departments/israel_patent_office |
+| ILPO Official Portal | https://www.gov.il/en/departments/ilpo |
 | WIPO PCT Guide for Israel | pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL |
 | ePCT Online Filing | pct.wipo.int |
 | WIPO PatentScope (PCT search) | patentscope.wipo.int |
-| Bank of Israel Exchange Rates | https://www.boi.org.il/en/markets/exchange-rates/ |
+| Bank of Israel Exchange Rates | https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/ |
 | ILPO Patent Search Database | israelpatents.justice.gov.il |

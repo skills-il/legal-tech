@@ -46,7 +46,7 @@ Last reviewed: 2026-08-01 (skill version 1.3.0)
 |---|---|---|
 | Utility models | Israel has no utility model system. Nothing to describe. | **Keep out.** Structurally correct, not a coverage choice. |
 | Copyright | No registration system in Israel; copyright arises automatically. Different statute, different advice shape. | **Keep out.** Would not change a filing decision. |
-| Trademark registration and prosecution | Different statute (Trade Marks Ordinance 5732-1972) and different practice. | **REOPEN as routing only.** Same authority, same fee notice, and a founder asking how to protect a new product usually needs a brand mark too. Logged as a gap, not yet implemented. |
+| Trademark registration and prosecution | Different statute (the Trade Marks Ordinance) and different practice. | **REOPEN as routing only.** Same authority, same fee notice, and a founder asking how to protect a new product usually needs a brand mark too. Logged as a gap, not yet implemented. |
 | Industrial design registration | Different statute (Designs Law 5777-2017, plus the old Designs Ordinance for pre-2018 registrations). | **REOPEN as routing only.** Designs carry a 12-month grace period where patents do not, so a founder who has already disclosed publicly may still have the design route open. This is a decision the skill currently cannot make for them. Logged as a gap. |
 | Plant Breeders' Rights | Administered by a separate authority, not ILPO. | **Keep out.** Genuinely a different body. |
 | Integrated Circuits (Protection) Law 5760-1999 | Rarely invoked; no registration procedure at ILPO. | **Keep out** for now, but note it exists if a hardware founder asks about mask works. |
@@ -71,6 +71,6 @@ See `optimization-log.json` for the current cycle's carry list. In summary:
 When re-checking this skill, these are the sources to fetch:
 
 - Official fee notice PDF: https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf (gov.il HTML pages return 403 to automated fetchers; the PDF downloads cleanly and has a text layer)
-- Patents Law 5727-1967: https://www.wipo.int/wipolex/en/text/495413
+- Patents Law 5727-1967: https://www.wipo.int/wipolex/en/text/495413 (Hebrew consolidated text: https://www.nevo.co.il/law_html/law01/p187_002.htm)
 - WIPO PCT Applicant's Guide, Israel chapter: https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
-- ILPO portal: https://www.gov.il/en/departments/israel_patent_office
+- ILPO portal: https://www.gov.il/en/departments/ilpo

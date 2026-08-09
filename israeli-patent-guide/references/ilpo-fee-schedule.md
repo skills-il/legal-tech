@@ -135,7 +135,7 @@ The WIPO international filing fee is set by WIPO. The fees ILPO itself charges a
 | Additional preliminary examination fee, s.48k(d) (item 18) | 1,801 |
 | Late transmittal fee, reg 6(h) (item 19) | 540 |
 
-WIPO publishes the ISA/IL search fee in USD as well (USD 1,333 effective 1 March 2026), which is the same fee expressed at the applicable conversion rate. The 40% reduction applies to none of these.
+WIPO publishes the ISA/IL search fee in USD as well (1,446 USD in the PCT Applicant's Guide, Israel chapter, valid as from 1 August 2026), which is the same fee expressed at the applicable conversion rate. The 40% reduction applies to none of these.
 
 
 ## Patent Term Extension (PTE) Fees
@@ -175,7 +175,7 @@ Appeals to the District Court are set by court regulations, not by this schedule
 ## Notes on Payment
 
 - Payments can be made online via ILPO's portal or by bank transfer to the Ministry of Justice account.
-- Foreign applicants must pay in NIS. The Bank of Israel official rate (https://www.boi.org.il/en/markets/exchange-rates/) applies on the payment date.
+- Foreign applicants must pay in NIS. The Bank of Israel official rate (https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/) applies on the payment date.
 - Payment confirmations should be retained as proof; ILPO may take several weeks to update its records.
 - VAT does NOT apply to official ILPO fees; it applies only to attorney or agent fees billed by private practitioners.
 - The published notice states that where it conflicts with the fee notices published in Reshumot, the Reshumot text prevails.
