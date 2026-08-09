@@ -19,6 +19,13 @@ compatibility: >-
 
 # Israeli Car Accident Claim
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+
+Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 A car accident in Israel is stressful and the rules are counter-intuitive: bodily injury is compensated with no regard to fault, while property damage is entirely fault-based, and people routinely claim from the wrong policy or miss the steps that the insurer later uses to reject the claim. Many drivers do not know that a police confirmation is a precondition for the claim, that there is a fund (Karnit) for hit-and-run and uninsured cases, that they can demand an urgent payment within 60 days, or that the deadline against their own insurer is far shorter than the one against the other driver. This skill walks the driver through the scene and routes the claim to the right place.

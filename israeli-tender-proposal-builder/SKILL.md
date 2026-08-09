@@ -7,6 +7,13 @@ compatibility: Works offline for drafting. MCP servers (BudgetKey / IL Budget) a
 
 # Israeli Tender Proposal Builder
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+
+Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Responding to an Israeli government tender is a high stakes, highly formal process. A single missing declaration, an arithmetic error in the pricing worksheet, or a threshold condition you failed to notice in the small print will get your offer disqualified on technical grounds (פסילה על פגמים טכניים) without the tender committee ever looking at the substance. Most businesses bid blind, without any view into what the state paid for similar work in past contracts, so they either price too high and lose, or price too low and bleed on execution.

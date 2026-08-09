@@ -23,6 +23,13 @@ compatibility: >-
 
 # Israeli Wills & Inheritance Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+
+Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Most Israelis put off writing a will because they assume it needs an expensive lawyer, and the ones who try it alone often void part of it without knowing: the most common mistake is letting a beneficiary (or a beneficiary's spouse) sign as a witness, which cancels that bequest. People also confuse the two inheritance orders, asking for a succession order when there is a will or a probate order when there is none, and waste weeks at the wrong door. This skill drafts a correctly-structured witnessed will (which the Succession Law lets you make yourself, though having an inheritance lawyer draft or review it is recommended), keeps the witnesses valid, and routes the user to the right order at the Inheritance Registrar.

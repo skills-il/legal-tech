@@ -2,9 +2,15 @@
 name: israeli-patent-guide
 description: "Full guidance through the Israeli patent process: prior art search on ILPO database, national application filing, PCT international filing via ILPO, fees, and maintenance. Use when you need to check invention novelty, file a patent in Israel, track payment deadlines, or understand pharmaceutical patent term extension (PTE). Saves hours of research and prevents costly filing mistakes. Do NOT use for trademark registration, design patents, or legal advice replacing a licensed patent attorney."
 license: MIT
-version: 1.3.0
+version: 1.4.0
 ---
 
+
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains patent procedure and helps you organise your own material. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by a patent attorney or advocate. The output is not a patent application prepared by a patent attorney and not a professional opinion, but an explanation and a draft only: it does not perform an exhaustive prior-art search and does not draft enforceable patent claims. An AI model may err, omit data, or present a wrong conclusion.
+
+Drafting patent claims and representation before the Registrar of Patents are reserved by law to a patent attorney. Publication or faulty drafting can damage rights irreversibly, on deadlines that cannot be extended. Consult a patent attorney before any filing. All use of its output is the user's sole responsibility.
 ## Overview
 
 This skill covers the end-to-end patent process in Israel as administered by the Israeli Patent Office (ILPO, also known as Rashut HaPatenTim - רשות הפטנטים). It is scoped to:

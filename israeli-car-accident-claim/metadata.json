@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "legal-tech",
   "tags": {
     "he": [
@@ -25,8 +25,8 @@
     "en": "Israeli Car Accident Claim"
   },
   "display_description": {
-    "he": "מלווה אתכם אחרי תאונת דרכים בישראל: מה לעשות ולתעד בזירה, מאיזה ביטוח לתבוע, ולמה נזקי גוף מפוצים בלי קשר לאשם בעוד נזקי רכוש תלויים באשם. מסביר את ההבדל בין ביטוח חובה, מקיף וצד ג', איך ממלאים הודעה על תאונה, מהם המועדים, ומתי קרנית נכנסת (פגע וברח או רכב לא מבוטח). מתאים מיד אחרי תאונה או כשצריך להגיש תביעת ביטוח. אל תשתמשו לחידוש רישוי, טסט או בחירת ביטוח (לכך יש israeli-vehicle-manager), ולתביעת נזקי גוף קשים שדורשת עורך דין.",
-    "en": "Walks you through the aftermath of a car accident in Israel: what to do and document at the scene, which insurance to claim under, and why bodily injury is compensated regardless of fault while property damage follows fault. Explains the difference between compulsory, comprehensive, and third-party cover, how to fill the accident report, the time limits, and when Karnit applies (hit-and-run or uninsured driver). Use right after an accident or when filing an insurance claim. Do NOT use for registration, the annual test, or insurance shopping (use israeli-vehicle-manager), or for serious injury litigation that needs a lawyer."
+    "he": "אינו ייעוץ משפטי. מלווה אתכם אחרי תאונת דרכים בישראל: מה לעשות ולתעד בזירה, מאיזה ביטוח לתבוע, ולמה נזקי גוף מפוצים בלי קשר לאשם בעוד נזקי רכוש תלויים באשם. מסביר את ההבדל בין ביטוח חובה, מקיף וצד ג', איך ממלאים הודעה על תאונה, מהם המועדים, ומתי קרנית נכנסת (פגע וברח או רכב לא מבוטח). מתאים מיד אחרי תאונה או כשצריך להגיש תביעת ביטוח. אל תשתמשו לחידוש רישוי, טסט או בחירת ביטוח (לכך יש israeli-vehicle-manager), ולתביעת נזקי גוף קשים שדורשת עורך דין.",
+    "en": "Not legal advice. Walks you through the aftermath of a car accident in Israel: what to do and document at the scene, which insurance to claim under, and why bodily injury is compensated regardless of fault while property damage follows fault. Explains the difference between compulsory, comprehensive, and third-party cover, how to fill the accident report, the time limits, and when Karnit applies (hit-and-run or uninsured driver). Use right after an accident or when filing an insurance claim. Do NOT use for registration, the annual test, or insurance shopping (use israeli-vehicle-manager), or for serious injury litigation that needs a lawyer."
   },
   "supported_agents": [
     "claude-code",
