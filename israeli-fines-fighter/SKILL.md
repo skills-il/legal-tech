@@ -1,6 +1,6 @@
 ---
 name: israeli-fines-fighter
-description: "Appeal parking tickets and traffic fines in Israel: generates Hebrew appeal letters, explains deadlines, covers municipal fine codes, speed camera violations, and the points system. Use when a user receives a knasa (fine) and wants to understand their options, draft an appeal, or calculate penalty points. Helps users hit the 30-day cancellation window (bakasha le-bitul) AND the 90-day court-hearing window (bakasha le-hishafet), and avoid the +50% surcharge that kicks in after the 90-day mark."
+description: "Appeal parking tickets and traffic fines in Israel: generates Hebrew appeal letters, explains deadlines, covers municipal fine codes, speed camera violations, and the points system. Use when a user receives a knasa (fine) and wants to understand their options, draft an appeal, or calculate penalty points. Helps users hit the 30-day objection window (hasagah / bakasha le-bitul) AND the 90-day window for a court hearing or an online traffic-tribunal appeal (bakasha le-hishafet / arar), before late-payment additions start accruing."
 license: MIT
 ---
 
@@ -15,7 +15,7 @@ Any text this tool drafts is an automatic draft for your personal preparation on
 
 ## Problem
 
-Getting fined in Israel is stressful and confusing. Parking tickets arrive with cryptic violation codes, traffic fines carry penalty points that accumulate toward license suspension, and there are TWO different appeal windows running in parallel for both fine types: a **30-day cancellation request (bakasha le-bitul)** to the prosecutor or municipality, and a **90-day court-hearing request (bakasha le-hishafet)** OR 30 days from the rejection of a cancellation request. After 90 days without action, a +50% surcharge kicks in, then +5% every additional 6 months. This skill helps users hit both windows, decide whether to appeal, and generate a proper Hebrew appeal letter with the right legal grounds.
+Getting fined in Israel is stressful and confusing. Parking tickets arrive with cryptic violation codes, traffic fines carry penalty points that accumulate toward license suspension, and there are TWO different appeal windows running in parallel for both fine types: a **30-day cancellation request (bakasha le-bitul)** to the prosecutor or municipality, and a **90-day court-hearing request (bakasha le-hishafet)** OR 30 days from the rejection of a cancellation request. Once the payment date passes without payment or an appeal, a statutory late-payment addition (tosefet pigur) plus interest starts accruing on the fine. This skill helps users hit both windows, decide whether to appeal, and generate a proper Hebrew appeal letter with the right legal grounds.
 
 ## Instructions
 
@@ -46,13 +46,13 @@ There are TWO appeal mechanisms with separate deadlines, applicable to BOTH park
 | **30 days from receipt** | Cancellation request (essentially clerk review) | בקשה לביטול / בקשת בירור | Municipality (parking) or Police prosecutor (traffic) |
 | **90 days from receipt** OR **30 days from rejection of a cancellation request** | Court hearing request | בקשה להישפט | Traffic court / municipal court |
 
-After **day 90** without payment or appeal, the fine carries a **+50% surcharge**, with **+5% every additional 6 months**. The pre-2026 framing of "fine doubles after 30 days" is wrong: surcharge does not start at 30 days, and it is +50% (not 100%).
+Once the payment date on the notice passes without payment or an appeal, a statutory **late-payment addition (tosefet pigur)** plus interest starts accruing. The common framing of "the fine doubles after 30 days" is wrong: the addition is not a doubling and it does not start at day 30. Check the exact current balance with the Fines Collection Center (HaMerkaz LeGviyat Knasot) or on the payment notice itself rather than quoting a percentage.
 
 | Timeline | Status | Action |
 |----------|--------|--------|
 | **Day 0-30** | Both windows open | Best time to file בקשה לביטול. Many municipalities also offer a 25-50% early-payment discount in this window (varies by city). |
 | **Day 31-90** | Cancellation window closed; court-hearing window still open | File בקשה להישפט before day 90, OR if a בקשה לביטול was rejected, file court request within 30 days of the rejection. |
-| **Day 90+** | Both standard windows closed; +50% surcharge accrues | Late-appeal exceptions (איחור מוצדק) apply only for hospitalization, military reserve service, or being abroad (see Criminal Procedure Law § 230). Otherwise enforcement via Hotza'a Lapo'al, vehicle-registration block (ikuv rishum), additional fees. |
+| **Day 90+** | Both standard windows closed; late-payment additions accrue | A late request is considered only where the delay itself is justified and documented (for example hospitalization, active reserve service, or being abroad). Otherwise enforcement via Hotza'a Lapo'al, vehicle-registration block (ikuv rishum), additional fees. |
 
 **For parking fines:** the 30-day clock starts from the date the ticket was placed on the vehicle OR the date a notice was mailed to the registered owner.
 
@@ -159,7 +159,7 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 **Traffic fine options:**
 - **Pay the fine:** Online at gov.il (police fine payment service) or at any post office
 - **Cancellation request (bakasha le-bitul):** For police/camera traffic fines the cancellation request goes to the **Driver Inquiries Center (Merkaz Pniyot Nehagim, מפנ"א)** of the traffic prosecution, not to a generic "police station". Camera (A3 / דוח מצלמה) fines route through מפנ"א.
-- **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. Since **8 February 2026** many traffic offences can be heard by an **online traffic tribunal** (בית דין לתעבורה אונליין), the objection is submitted and adjudicated online without filing a full court petition for eligible offences; otherwise you receive an in-person court date. You may represent yourself or hire a traffic lawyer (orech din letnu'a).
+- **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. Since **8 February 2026** some fine notices can instead be challenged by an **arar to the online traffic tribunal** (בית דין לתעבורה) within 90 days of service, without filing a request to be tried; the notice itself states whether this route is available. Until **8 August 2026** the tribunal may hear only fines of up to 500 NIS, it may not hear speeding offences, and it has no jurisdiction over municipal parking tickets (those go back to the municipality, and then to a request to be tried). You may represent yourself or hire a traffic lawyer (orech din letnu'a).
 - **Online appeal (Tzav HaTzav):** Misrad Hatachburah's online traffic-appeal portal at `gov.il/he/service/objection_traffic_offense` accepts cancellation requests (bakasha le-bitul) and supporting evidence digitally
 - **Plea bargain (hasdarei to'en):** Some offenses allow negotiating a reduced fine or fewer points through the prosecution
 
@@ -201,7 +201,7 @@ Note: Fine amounts are updated periodically by ministerial order. Always verify 
 
 ## Gotchas
 
-1. **Municipal vs. police fines are different legal regimes.** Parking tickets from a municipal inspector (paqach) are **administrative offences** under the Administrative Offences Law (חוק העבירות המינהליות, 1985) and follow the municipal appeal process (bakasha le-bitul). Traffic fines from police or cameras are **breirot mishpat** under criminal traffic procedure (Criminal Procedure Law § 229). The 30-day / 90-day mechanics in Step 2 mirror each other in practice, but the two tracks rest on different statutes, so a parking case that reaches court goes to the administrative-affairs track, not the traffic court. Mixing up the appeal route wastes the deadline.
+1. **Municipal vs. police fines are different legal regimes.** Parking tickets from a municipal inspector (paqach) follow the municipal objection route (bakasha le-bitul to the municipality, and a request to be tried if it is rejected); the online traffic tribunal has no jurisdiction over municipal parking tickets. Traffic fines from police or cameras are **breirot mishpat** on the criminal-procedure track. The 30-day / 90-day mechanics in Step 2 mirror each other in practice, but the two tracks rest on different statutes, so a parking case that reaches court goes to the administrative-affairs track, not the traffic court. Mixing up the appeal route wastes the deadline.
 
 2. **The 30-day and 90-day deadlines are from receipt date, not violation date.** For mailed notices, receipt date is presumed to be a few days after mailing. If the user says "I got a fine from 2 months ago," clarify when they actually received the notice.
 
@@ -255,12 +255,12 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 
 ### "My fine grew because I missed a deadline"
 
-The pre-2026 "fine doubles after 30 days" framing is incorrect. The actual rule:
-- Past day 90 without payment or appeal: **+50% surcharge** (not +100%, not at day 30).
+The "fine doubles after 30 days" framing is incorrect. The actual rule:
+- Past the payment date without payment or appeal: a statutory **late-payment addition** plus interest (not a doubling, and not at day 30).
 - Past 6 months thereafter: **+5% every additional 6 months**.
 - Possible additional collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
 
-If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, late-appeal exceptions (איחור מוצדק) apply only for hospitalization, active reserve service, or being abroad (see Criminal Procedure Law § 230), and you must document the cause.
+If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, a late request is considered only where the delay itself is justified (for example hospitalization, active reserve service, or being abroad), and you must document the cause.
 
 ### "I got a camera fine but I wasn't driving"
 The vehicle owner must submit a statutory declaration (tatzir) identifying the actual driver. This transfers liability. The declaration must be submitted within 90 days and include the other driver's full name and ID number.
