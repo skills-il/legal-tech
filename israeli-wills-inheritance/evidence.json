@@ -67,12 +67,21 @@
       "confidence": "high"
     },
     {
-      "id": "order-fees-2026",
-      "claim": "As of 2026 the online application fee to the Inheritance Registrar is 507 NIS plus a 66 NIS publication fee",
+      "id": "order-fees-2026-opening",
+      "claim": "As of 2026 the online application opening fee to the Inheritance Registrar is 507 NIS",
       "claim_type": "currency",
       "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
-      "raw_snippet": "אגרת פתיחת בקשה - 507 ₪ ... אגרת הוצאות פרסום - 66 ₪",
+      "raw_snippet": "אגרת פתיחת בקשה - 507 ₪ (נכון ל-2026).",
+      "confidence": "high"
+    },
+    {
+      "id": "order-fees-2026-publication",
+      "claim": "As of 2026 the publication-costs fee for an inheritance-order application is 66 NIS",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
+      "source_fetched_at": "2026-06-18T00:00:00Z",
+      "raw_snippet": "אגרת הוצאות פרסום - 66 ₪ (נכון ל-2026).",
       "confidence": "high"
     },
     {
@@ -218,7 +227,7 @@
       "claim_type": "law",
       "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
       "source_fetched_at": "2026-08-01T00:00:00Z",
-      "raw_snippet": "הוגשה התנגדות לבקשה",
+      "raw_snippet": "בקשה לצו ירושה או לצו קיום שהוגשה לרשם לעניני ירושה תועבר לבית המשפט בכל אחד מאלה: (1) הוגשה התנגדות לבקשה; (2) המדינה או מוסד ממוסדותיה הם צד לבקשה; (3) היועץ המשפטי לממשלה או בא־כוחו ראו לנכון ליזום הליך לענין הבקשה או להצטרף להליך; (4) האפוטרופוס הכללי מייצג בבקשה אדם שהאפוטרופוס הכללי מנהל את רכושו",
       "confidence": "high"
     },
     {
