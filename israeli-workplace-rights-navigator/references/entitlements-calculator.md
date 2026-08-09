@@ -143,7 +143,7 @@ Source: kolzchut.org.il, Travel-to-Work Extension Order.
 | 1 April 2026 | NIS 6,443.85 | NIS 35.40 |
 
 **Notes:**
-- Updated every April so the monthly figure is at least 47.5% of the national average wage as set on 1 January of that year.
+- Updated every April; verify the current figure before relying on it.
 - The hourly figure applies to part-time and hourly employees; the monthly minimum is pro-rated for part-time positions.
 - Youth (under 18) and apprentices have separate, lower statutory rates.
 - The minimum wage is a cogent statutory floor; a contract cannot set pay below it. Paying below the minimum exposes the employer to criminal and civil liability.

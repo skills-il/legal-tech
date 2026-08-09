@@ -17,19 +17,6 @@
       ]
     },
     {
-      "claim_id": "min-wage-ratio",
-      "claim": "The monthly minimum wage is updated every April and is set at no less than 47.5% of the national average wage.",
-      "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
-      "raw_snippet": "שכר המינימום מתעדכן בכל אפריל ולא יפחת מ-47.5% מהשכר הממוצע במשק; נכון לינואר 2026 השכר הממוצע עומד על כ-13,623 ₪",
-      "fetched_at": "2026-06-25T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/entitlements-calculator.md",
-        "references/labor-laws-summary.md"
-      ]
-    },
-    {
       "claim_id": "havraa-private-418",
       "claim": "The in-force private-sector convalescence pay (dmei havra'a) rate as of June 2026 is NIS 418 per day.",
       "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
@@ -69,9 +56,9 @@
     },
     {
       "claim_id": "havraa-days-table",
-      "claim": "Convalescence days by seniority: 5 (year 1), 6 (years 2-3), 7 (years 4-10), 8 (years 11-15), 9 (years 16-19), 10 (year 20+).",
+      "claim": "Convalescence days by seniority in the private sector: 5 (year 1), 6 (years 2-3), 7 (years 4-10), 8 (years 11-15), 9 (years 16-19), 10 (year 20 onward).",
       "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
-      "raw_snippet": "מספר ימי ההבראה לפי ותק: שנה 1 - 5 ימים; שנים 2-3 - 6 ימים; שנים 4-10 - 7 ימים; שנים 11-15 - 8 ימים; שנים 16-19 - 9 ימים; משנה 20 ואילך - 10 ימים",
+      "raw_snippet": "שנה ראשונה 5 ימים שנה שנייה ושנה שלישית 6 ימים שנים רביעית עד עשירית 7 ימים שנים אחת עשרה עד חמש עשרה 8 ימים שנים שש עשרה עד תשע עשרה 9 ימים שנה עשרים ואילך 10 ימים",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -104,10 +91,21 @@
       ]
     },
     {
-      "claim_id": "pregnancy-dismissal-6-month-permit",
-      "claim": "Under the Employment of Women Law s.9(a) (סעיף 9(א) לחוק עבודת נשים), the Ministry of Labor permit requirement to dismiss a pregnant employee (or reduce her position) attaches only once she has at least 6 months of tenure with that employer. Below 6 months no permit is required, but a dismissal because of the pregnancy is still unlawful discrimination.",
-      "source_url": "https://www.kolzchut.org.il/he/פיטורי_עובדת_בהיריון",
-      "raw_snippet": "לא ניתן לפטר עובדת בהריון ללא היתר ממשרד העבודה, אם במועד סיום יחסי העבודה חלפה חצי שנה ממועד תחילת העבודה, ללא קשר להיקף משרת העובדת או סיבת הפיטורים",
+      "claim_id": "pregnancy-dismissal-6-month-permit-a",
+      "claim": "Once a pregnant employee has at least 6 months with the same employer or workplace she may not be dismissed for any reason without a permit from the official in charge of the Employment of Women Law, and no permit is given where the pregnancy is the reason.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_בהיריון",
+      "raw_snippet": "אם העובדת מועסקת לפחות 6 חודשים אצל אותו מעסיק או באותו מקום עבודה, אסור לפטר אותה מכל סיבה שהיא אלא בהיתר מאת הממונה על חוק עבודת נשים",
+      "fetched_at": "2026-06-26T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pregnancy-dismissal-6-month-permit-b",
+      "claim": "Dismissal of a pregnant employee because of the pregnancy is prohibited from her first day of work regardless of seniority, under section 9(a) (סעיף 9(א)) of the Employment of Women Law.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_בהיריון",
+      "raw_snippet": "אסור למעסיק לפטר עובדת בהיריון אם הסיבה לפיטורים היא ההיריון, בלי קשר לוותק של העובדת.",
       "fetched_at": "2026-06-26T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -138,10 +136,21 @@
       ]
     },
     {
-      "claim_id": "maternity-partial-allowance",
-      "claim": "Partial birth allowance of 56 days (8 weeks) requires national insurance contributions for 6 of the 14 months preceding the work stoppage.",
+      "claim_id": "maternity-partial-allowance-a",
+      "claim": "Partial birth allowance (the 8-week track) requires national insurance contributions for 6 of the 14 months preceding the day work stopped.",
       "source_url": "https://www.kolzchut.org.il/he/דמי_לידה",
-      "raw_snippet": "העובדת שילמה דמי ביטוח לאומי עבור 6 חודשים מתוך 14 החודשים שקדמו ליום שבו הפסיקה לעבוד ... תהיה זכאית לדמי לידה חלקיים של 56 ימים",
+      "raw_snippet": "העובדת שילמה דמי ביטוח לאומי עבור 6 חודשים מתוך 14 החודשים שקדמו ליום שבו הפסיקה לעבוד.",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maternity-partial-allowance-b",
+      "claim": "The partial birth-allowance track is 8 weeks, which equals 56 days.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_לידה",
+      "raw_snippet": "למי שזכאית לדמי לידה במשך 8 שבועות (56 ימים)",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -193,10 +202,36 @@
       ]
     },
     {
-      "claim_id": "sick-pay-graduated",
-      "claim": "Sick pay is graduated: 0% on day 1, 50% on days 2-3, 100% from day 4 onward. Accrual 1.5 days/month (18/year), maximum 90 days accumulated.",
+      "claim_id": "sick-pay-graduated-a",
+      "claim": "Sick pay is graduated: no payment on the first day of absence, 50% on each of the second and third days, and full pay from the fourth day onward.",
       "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
-      "raw_snippet": "ביום המחלה הראשון העובד אינו זכאי לתשלום (0%), בימים השני והשלישי הוא זכאי ל-50% מדמי המחלה, ומהיום הרביעי ואילך ל-100%. צבירה: 1.5 ימי מחלה לכל חודש (18 ימים בשנה), עד מקסימום של 90 ימים",
+      "raw_snippet": "על יום ההיעדרות הראשון העובדים לא זכאים לתשלום. על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר שהיו אמורים לקבל באותו יום אילו עבדו. מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-graduated-b",
+      "claim": "Sick days accrue at 1.5 days per full month of work (18 days a year), with a maximum accumulation of 90 days.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
+      "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה)",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-graduated-c",
+      "claim": "The maximum number of sick days that can be accumulated is 90.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
+      "raw_snippet": "הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90.",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -207,9 +242,9 @@
     },
     {
       "claim_id": "vacation-table",
-      "claim": "Annual leave by seniority (gross calendar days on a 6-day basis): 16 (years 1-5), 18 (year 6), 21 (year 7), 22 (year 8), 23 (year 9), 24 (year 10), 25 (11), 26 (12), 27 (13), 28 (14+); net working days for a 5-day week range 12 to 20.",
-      "source_url": "https://www.kolzchut.org.il/he/חופשה_שנתית",
-      "raw_snippet": "לפי חוק חופשה שנתית מספר ימי החופשה לפי ותק עומד על 16 ימים בשנים 1-5, 18 ימים בשנה השישית, 21 בשביעית, 22 בשמינית, 23 בתשיעית, 24 בעשירית ועד 28 ימים בשנה ה-14 ואילך",
+      "claim": "Annual leave by seniority for a 5-day week under the Annual Leave Law: net entitlement days 12 (years 1-5), 14 (year 6), 15 (7), 16 (8), 17 (9), 18 (10), 19 (11), 20 (12), 20 (13), 20 (14+); gross days including Friday and Saturday 16, 18, 21, 22, 23, 24, 25, 26, 27, 28.",
+      "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_5_ימים",
+      "raw_snippet": "1- 4 שנים (* החל מיום 01.01.2017) 12 16 5 שנים 12 16 6 שנים 14 18 7 שנים 15 21 8 שנים 16 22 9 שנים 17 23 10 שנים 18 24 11 שנים 19 25 12 שנים 20 26 13 שנים 20 27 14 שנים ומעלה 20 28",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -218,10 +253,46 @@
       ]
     },
     {
-      "claim_id": "overtime-rates",
-      "claim": "Standard workday 8 hours, work week 42 hours, weekly rest at least 36 consecutive hours. Overtime: 125% for the first 2 hours, 150% beyond; 150% on the weekly rest day. Max overtime 4/day, 12/week, total day capped at 12 hours.",
-      "source_url": "https://www.kolzchut.org.il/he/חוק_שעות_עבודה_ומנוחה",
-      "raw_snippet": "יום עבודה רגיל הוא 8 שעות ושבוע העבודה הוא 42 שעות; מנוחה שבועית של לפחות 36 שעות רצופות. תוספת שעות נוספות: 125% לשעתיים הראשונות ו-150% לאחר מכן, וכן 150% בעבודה ביום המנוחה השבועית",
+      "claim_id": "overtime-rates-a",
+      "claim": "Overtime on a weekday is paid at 125% of the regular hourly wage for the first 2 overtime hours and 150% from the third overtime hour onward.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות",
+      "raw_snippet": "תשלום של 125% משכר שעת עבודה רגילה (כלומר תוספת של 25% על ערך שעת העבודה רגילה) עבור השעתיים הנוספות הראשונות ביום עבודה. תשלום של 150% (כלומר תוספת של 50% על ערך שעת עבודה רגילה) מהשעה השלישית ואילך.",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "overtime-rates-b",
+      "claim": "In the private sector the work week is 42 hours, and overtime is owed for every hour beyond 42 regular weekly hours.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות",
+      "raw_snippet": "במגזר הפרטי, שבוע העבודה עומד על 42 שעות עבודה",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "overtime-rates-c",
+      "claim": "Weekly rest must be at least 36 consecutive hours.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות",
+      "raw_snippet": "אורך המנוחה השבועית צריך להיות 36 שעות רצופות לפחות",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "overtime-rates-d",
+      "claim": "Under the general overtime permit of 14.03.2018 the work day including overtime may not exceed 12 hours, and an employee may not work more than 16 overtime hours in a work week.",
+      "source_url": "https://www.kolzchut.org.il/he/מגבלות_על_העסקה_בשעות_נוספות",
+      "raw_snippet": "אורך יום העבודה, כולל השעות הנוספות, לא יעלה על 12 שעות. בשבוע עבודה לא ניתן להעסיק עובד יותר מ-16 שעות נוספות.",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -244,10 +315,10 @@
       "note": "Employer split (6.5% tagmulim, 6% pitzuyim, 12.5% total) is stated on the same page. The 72% figure is arithmetic: 6 divided by 8.33 is about 0.72."
     },
     {
-      "claim_id": "section-45a-credit",
-      "claim": "Section 45a (סעיף 45א) of the Income Tax Ordinance grants a 35% income-tax credit on the employee's pension contribution up to 7% of salary, with an annual ceiling of about NIS 8,148 (8,148 ש\"ח) in 2026.",
+      "claim_id": "section-45a-credit-a",
+      "claim": "The 2026 ceiling for the pension-contribution tax credit is NIS 8,148 (8,148 ש\"ח) a year, and in any case no more than 7% of salary.",
       "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
-      "raw_snippet": "זיכוי ממס הכנסה בשיעור 35% מתוך הסכומים שהפריש ... עד 7% מהשכר ... עד תקרה של 8,148 ₪ בשנה (נכון לשנת 2026); ההסדר קבוע בסעיפים 45א' ו-47 לפקודת מס הכנסה",
+      "raw_snippet": "נכון ל-2026, הסכום המקסימלי שעובד יכול להפריש ולזכות בהטבת המס הוא 8,148 ₪ לשנה (בממוצע 679 ₪ לחודש) ובכל מקרה לא יותר מ-7% מהשכר",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -257,10 +328,36 @@
       ]
     },
     {
-      "claim_id": "severance-section-14",
-      "claim": "Severance is one month's salary per year of employment after at least 1 year. Under Section 14 the employer contributes monthly to a fund in lieu; the extension-order minimum for that severance component is 6%, while a FULL release requires the 1/12 (8.33%) rate. Where the deposit is at the 6% minimum the fund covers only about 72% of the statutory figure and a completion payment (hashlamat pitzuyim) is owed.",
-      "source_url": "https://www.kolzchut.org.il/he/צו_הרחבה_לביטוח_פנסיוני_מקיף_במשק",
-      "raw_snippet": "החל משנת 2017 אחוזי ההפרשה המינימאליים קבועים ועומדים על 18.5% בצו הרחבה לפנסיית חובה",
+      "claim_id": "section-45a-credit-b",
+      "claim": "The credit rate is 35% of the amount contributed, and the arrangement is set in sections 45a and 47 of the Income Tax Ordinance.",
+      "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
+      "raw_snippet": "הזיכוי הוא בשיעור 35% מהסכום, כלומר 2,851.8 ₪ לשנה",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "section-45a-credit-c",
+      "claim": "The pension-contribution income-tax credit is anchored in section 45a (סעיף 45א) and section 47 of the Income Tax Ordinance.",
+      "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
+      "raw_snippet": "פקודת מס הכנסה - סעיפים 45א', 47.",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "severance-section-14-a",
+      "claim": "Full severance funded in advance under Section 14 is 8.33% of salary, while the employer must in any case deposit at least 6% of salary as the severance component. Where only the 6% minimum is deposited the fund covers roughly 72% of the statutory figure (6 divided by 8.33) and a completion payment is owed.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_פיצויי_פיטורים_מראש_באמצעות_הפרשות_חודשיות_לביטוח_הפנסיוני_(סעיף_14)",
+      "raw_snippet": "עובד ומעסיק יכולים להסכים כי מלוא פיצויי הפיטורים (8.33% מהשכר) ישולמו מראש ובאופן שוטף מדי חודש על-ידי הפרשות מעסיק לביטוח הפנסיוני של העובד",
       "fetched_at": "2026-07-26T19:14:28Z",
       "appears_in": [
         "SKILL.md",
@@ -270,10 +367,61 @@
       ]
     },
     {
-      "claim_id": "notice-period",
-      "claim": "Notice period: 1 day per month in the first 6 months; 6 days plus 2.5 days per month after the 6th month between 6-12 months; 1 full month after 1 year. Monthly salaried 12-month figure equals 21 days.",
+      "claim_id": "severance-section-14-b",
+      "claim": "The employer must deposit at least 6% of the employee's salary, or of the national average wage if lower, as the severance component.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_פיצויי_פיטורים_מראש_באמצעות_הפרשות_חודשיות_לביטוח_הפנסיוני_(סעיף_14)",
+      "raw_snippet": "בכל מקרה חייב המעסיק להפריש מדי חודש לפחות 6% משכרו של העובד או מהשכר הממוצע במשק (לפי הנמוך מביניהם) לביטוח הפנסיוני של העובד",
+      "fetched_at": "2026-07-26T19:14:28Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "severance-section-14-c",
+      "claim": "From January 2017 the mandatory pension contribution rate is 18.5%, of which 6% is the employee's share and the rest the employer's.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר על חשבון המעסיק",
+      "fetched_at": "2026-07-26T19:14:28Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "severance-section-14-d",
+      "claim": "Statutory severance is one month's salary for each year of employment for a monthly salaried employee, with a proportional amount for part of a year.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p189_001.htm",
+      "raw_snippet": "שיעורם של פיצויי הפיטורים הוא: שכר חודש אחד לכל שנת עבודה בעובד במשכורת אצל אותו מעסיק",
+      "fetched_at": "2026-07-26T19:14:28Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "notice-period-a",
+      "claim": "Monthly salaried employees: one month's notice from one year of seniority; below a year, one day for each of the first 6 months and two and a half days for each further full month.",
       "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
-      "raw_snippet": "בששת החודשים הראשונים יום הודעה אחד לכל חודש; מהחודש השביעי ועד שנה 6 ימים בתוספת 2.5 ימים לכל חודש; לאחר שנה חודש הודעה מלא",
+      "raw_snippet": "עובד בעל ותק של שנת עבודה אחת ואילך זכאי להודעה מוקדמת של חודש ימים. עובד בעל ותק של פחות משנת עבודה זכאי ליום הודעה מוקדמת בגין כל אחד מ-6 חודשי העבודה הראשונים, ויומיים וחצי בגין כל חודש עבודה מלא נוסף",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "notice-period-b",
+      "claim": "Daily or hourly paid employees: one day per month of work in the first year, 14 days plus one day per two months in the second year, 21 days plus one day per two months in the third year, and one month from 3 years of seniority.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
+      "raw_snippet": "עובד במהלך שנת עבודתו השנייה זכאי לתקופת הודעה מוקדמת של 14 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השנייה. עובד בשנת עבודתו השלישית זכאי ל-21 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השלישית. עובד בעל ותק של 3 שנים ומעלה זכאי להודעה מוקדמת של חודש ימים.",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -283,9 +431,9 @@
     },
     {
       "claim_id": "form-106",
-      "claim": "The Section 45a pension tax credit appears on the pay slip and on Form 106 (annual income summary).",
+      "claim": "Form 106 (טופס 106) is the annual summary of all pay-slip components for the tax year, including credits, deductions and pension deposits.",
       "source_url": "https://www.kolzchut.org.il/he/טופס_106",
-      "raw_snippet": "טופס 106 הוא ריכוז שנתי של ההכנסות והניכויים של העובד, ובו מופיע גם זיכוי המס בגין ההפרשות לפנסיה",
+      "raw_snippet": "הכולל ריכוז שנתי של כל הרכיבים והנתונים מתוך תלושי השכר שקיבל עובד מהמעסיק במהלך שנת המס (כגון: מספר חודשי העבודה, תשלומים, זיכויים, פטורים, ניכויים, הפקדות וכו')",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "references/entitlements-calculator.md"
@@ -293,9 +441,20 @@
     },
     {
       "claim_id": "harassment-25-employees",
-      "claim": "Under the Sexual Harassment Prevention Law 1998, every employer with more than 25 employees must adopt a written prevention policy; statute of limitations 3 years (civil), 7 years (criminal). Disability law applies to employers with 25+ employees.",
-      "source_url": "https://www.kolzchut.org.il/he/חוק_למניעת_הטרדה_מינית",
-      "raw_snippet": "מעסיק המעסיק יותר מ-25 עובדים חייב לקבוע תקנון למניעת הטרדה מינית; תקופת ההתיישנות היא 3 שנים בתביעה אזרחית ו-7 שנים בעבירה פלילית",
+      "claim": "An employer of more than 25 employees must publish a written sexual-harassment prevention policy (takanon) covering the main provisions of the law and the complaint procedure; failing to publish it is a criminal offence.",
+      "source_url": "https://www.kolzchut.org.il/he/קביעת_תקנון_למניעת_הטרדה_מינית_במקום_העבודה",
+      "raw_snippet": "מעסיק של יותר מ-25 עובדים חייב לפרסם תקנון המותאם למקום העבודה וכולל את עיקרי החוק, כולל דרכי הגשת התלונות על הטרדה מינית או התנכלות והטיפול בהן",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disability-25-employees",
+      "claim": "An employer of at least 25 employees must act to provide appropriate representation for people with disabilities, and in a workplace of 100 employees or more appropriate representation means at least 3% of employees.",
+      "source_url": "https://www.kolzchut.org.il/he/ייצוג_הולם_לאנשים_עם_מוגבלויות_במקומות_עבודה",
+      "raw_snippet": "מי שמעסיק לפחות 25 עובדים חייב לפעול לייצוג הולם של אנשים עם מוגבלות בין עובדיו. צו ההרחבה לעידוד ולהגברת התעסוקה של אנשים עם מוגבלויות קובע כי במקום עבודה שיש בו 100 עובדים ומעלה, ייצוג הולם ייחשב אם לפחות 3% מבין העובדים יהיו אנשים עם מוגבלות.",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -304,9 +463,9 @@
     },
     {
       "claim_id": "worked-examples",
-      "claim": "Illustrative worked examples use arithmetic figures only (not external facts): a last monthly salary of NIS 15,000 over 3.33 years yields severance of about NIS 50,000; a daily wage of NIS 500 illustrates sick pay of NIS 0 on day 1 and NIS 250 on days 2-3; convalescence at 7 days x NIS 418 equals NIS 2,926, after the 1-day reservist deduction NIS 2,508, and a 50% part-time worker NIS 1,463 / NIS 1,254.",
-      "source_url": "https://www.kolzchut.org.il/he/פיצויי_פיטורים",
-      "raw_snippet": "Worked-example arithmetic derived from the cited statutory rates: 15,000 x 3.33 = 50,000; 7 x 418 = 2,926; (7-1) x 418 = 2,508; 7 x 418 x 0.5 = 1,463; daily wage 500 with 0 on day 1 and 250 on days 2-3. Illustrative ש\"ח values: 0 ש\"ח, 250 ש\"ח, 500 ש\"ח, 1,254 ש\"ח, 1,463 ש\"ח, 2,508 ש\"ח, 2,926 ש\"ח, 15,000 ש\"ח, 50,000 ש\"ח, 15,000 NIS, 50,000 NIS.",
+      "claim": "Illustrative worked examples use arithmetic derived from the statutory rate of one month's salary per year of employment and from the convalescence day rate: 15,000 x 3.33 = 50,000; 7 x 418 = 2,926; (7-1) x 418 = 2,508; 7 x 418 x 0.5 = 1,463; a daily wage of 500 gives 0 on day 1 and 250 on days 2-3. Illustrative values: 0 ש\"ח, 250 ש\"ח, 500 ש\"ח, 1,254 ש\"ח, 1,463 ש\"ח, 2,508 ש\"ח, 2,926 ש\"ח, 15,000 ש\"ח, 50,000 ש\"ח, 15,000 NIS, 50,000 NIS.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p189_001.htm",
+      "raw_snippet": "שיעורם של פיצויי הפיטורים הוא: שכר חודש אחד לכל שנת עבודה בעובד במשכורת אצל אותו מעסיק",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -316,9 +475,9 @@
     },
     {
       "claim_id": "ref-url-kolzchut-home",
-      "claim": "Kol Zchut (All-Rights) plain-language workers' rights portal.",
+      "claim": "Kol Zchut (All-Rights) plain-language rights portal.",
       "source_url": "https://www.kolzchut.org.il/he",
-      "raw_snippet": "כל-זכות הוא מאגר המידע הגדול בישראל על זכויות, המנגיש בשפה פשוטה הסברים על זכויות עובדים לפי חוקי העבודה",
+      "raw_snippet": "אתר הזכויות של ישראל בסיוע משרד המשפטים ומערך הדיגיטל הלאומי",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -328,8 +487,8 @@
     {
       "claim_id": "ref-url-nevo-severance",
       "claim": "Nevo full statutory text of the Severance Pay Law, 1963.",
-      "source_url": "https://www.nevo.co.il/law_html/law01/055_001.htm",
-      "raw_snippet": "נבו: נוסח מלא של חוק פיצויי פיטורים, תשכ\"ג-1963, מתפרסם בכתובת https://www.nevo.co.il/law_html/law01/055_001.htm",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p189_001.htm",
+      "raw_snippet": "מי שעבד שנה אחת ברציפות",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -339,9 +498,9 @@
     },
     {
       "claim_id": "ref-url-btl-maternity",
-      "claim": "Bituach Leumi birth allowance / Birth and Parenting Period eligibility and amounts page.",
+      "claim": "Bituach Leumi maternity benefits index page listing birth grant, birth allowance and pregnancy-preservation benefit.",
       "source_url": "https://www.btl.gov.il/benefits/maternity/Pages/default.aspx",
-      "raw_snippet": "ביטוח לאומי: דמי לידה - תנאי זכאות וסכומים, https://www.btl.gov.il/benefits/maternity/Pages/default.aspx",
+      "raw_snippet": "הריון ולידה מענק לידה דמי לידה שמירת הריון",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -380,7 +539,7 @@
       "claim_id": "ref-url-kolzchut-minwage",
       "claim": "Kol Zchut current monthly and hourly minimum wage page.",
       "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
-      "raw_snippet": "כל זכות: שכר מינימום - שכר המינימום החודשי והשעתי העדכני, https://www.kolzchut.org.il/he/שכר_מינימום",
+      "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -389,9 +548,9 @@
     },
     {
       "claim_id": "ref-url-kolzchut-zikui",
-      "claim": "Kol Zchut pension tax-credit (zikui pensioni) source page.",
+      "claim": "Kol Zchut pension tax-credit source page.",
       "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
-      "raw_snippet": "כל זכות: זיכוי ממס הכנסה בגין הפרשות לביטוח פנסיוני, https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
+      "raw_snippet": "הזיכוי הוא בשיעור 35% מהסכום",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "references/entitlements-calculator.md"
@@ -400,7 +559,7 @@
     {
       "claim": "Up to 8 sick days a year for a child under 16, per employee rather than per child and independent of the scope of the position; 18 days where the child has a serious illness or a permanent disability. The second parent has a quota only where they also work and did not take leave for the child on the same days.",
       "source_url": "https://www.kolzchut.org.il/he/ימי_מחלה_עקב_מחלת_ילד",
-      "raw_snippet": "כל עובד יכול לנצל עד 8 ימי מחלה בשנה עבור מחלת ילדיו שגילם אינו עולה על 16 (אלא אם מדובר במחלה קשה או לקות קבועה, שאז ניתן לנצל עד 18 ימים) ... המכסה היא קבועה ללא תלות בהיקף המשרה וללא תלות בכמות הילדים",
+      "raw_snippet": "כל עובד יכול לנצל עד 8 ימי מחלה בשנה עבור מחלת ילדיו שגילם אינו עולה על 16 (אלא אם מדובר במחלה קשה או לקות קבועה, שאז ניתן לנצל עד 18 ימים). המכסה היא קבועה ללא תלות בהיקף המשרה וללא תלות בכמות הילדים",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -423,9 +582,9 @@
       "fetched_at": "2026-07-26T19:08:30Z"
     },
     {
-      "claim": "A claim for halanat sachar or halanat pitzuyim penalty compensation must be brought within 60 days of receiving the delayed payment, which the court may extend to 90 days, or within one year of the sum becoming delayed, whichever is earlier.",
+      "claim": "A claim for delayed-wage penalty compensation must be filed within 60 days of the late payment, extendable by the court to 90 days, and in any case not after a year from the date the wage was considered delayed.",
       "source_url": "https://www.kolzchut.org.il/he/פיצויי_הלנת_שכר",
-      "raw_snippet": "פיצויי הלנת שכר: תקופת ההתיישנות המיוחדת לתביעת פיצויי הלנה",
+      "raw_snippet": "אם השכר המולן שולם באיחור ניתן להגיש את התביעה לפיצויים בתוך 60 ימים מהמועד שבו שולם. בית הדין רשאי להאריך את התקופה ל-90 יום לפי בקשת התובעים. בכל מקרה לא ניתן להגיש את התביעה אם עברה שנה מהמועד שבו השכר נחשב כמולן.",
       "note": "Section 17A of the Wage Protection Law, 1958. Flagged in the skill because advising a demand without the deadline can forfeit the claim.",
       "appears_in": [
         "SKILL.md",
@@ -437,16 +596,29 @@
       "fetched_at": "2026-07-26T19:08:30Z"
     },
     {
-      "claim": "Annual leave accrual is capped at the current year plus the two preceding years, and a claim under the Annual Leave Law carries a three-year limitation period, so unused leave is not redeemable without limit.",
+      "claim": "Unused annual leave days may be accumulated and used in the following two years of work unless a better arrangement is agreed.",
       "source_url": "https://www.kolzchut.org.il/he/חופשה_שנתית",
-      "raw_snippet": "צבירת ימי חופשה: הזכות לצבור ימי חופשה מוגבלת",
+      "raw_snippet": "ניתן לצבור ימי חופשה ולנצל אותם בשתי שנות העבודה הבאות",
       "note": "Sections 7 and 31 of the Annual Leave Law, 1951.",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
       ],
-      "claim_id": "vacation-accrual-cap-and-limitation",
+      "claim_id": "vacation-accrual-cap",
+      "fetched_at": "2026-07-26T19:08:30Z"
+    },
+    {
+      "claim": "On termination an employee may redeem unused leave from the last year of work and the 3 years preceding it, and days shown on the pay slip may be redeemed even beyond the limitation period.",
+      "source_url": "https://www.kolzchut.org.il/he/חופשה_שנתית",
+      "raw_snippet": "עובד זכאי לפדיון ימי חופשה שלא ניצל בשנת עבודתו האחרונה וב-3 השנים שקדמו לה",
+      "note": "Sections 7 and 31 of the Annual Leave Law, 1951.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ],
+      "claim_id": "vacation-redemption-window",
       "fetched_at": "2026-07-26T19:08:30Z"
     },
     {

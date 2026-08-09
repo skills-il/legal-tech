@@ -105,15 +105,15 @@ Per the **Hours of Work and Rest Law, 1951 (Chok Sha'ot Avoda U'Menucha)**:
 | Work on weekly rest day (Shabbat) | 150% of hourly wage |
 
 **Key rules:**
-- Maximum overtime: 4 hours per day, 12 hours per week
-- Total work day cannot exceed 12 hours
+- Under the general overtime permit of 14 March 2018: no more than 16 overtime hours in a work week
+- Total work day, including overtime, cannot exceed 12 hours
 - Overtime must be compensated in pay, not comp time (unless a valid collective agreement allows it)
 - Certain sectors and positions (managers, those requiring a high degree of personal trust) may be exempt from overtime rules under specific legal conditions
 - The employer must keep accurate records of work hours
 
 **Minimum wage (Chok Schar Minimum, 1987):**
 - As of 1 April 2026 the minimum wage is **6,443.85 NIS per month** for a full-time position and **35.40 NIS per hour**
-- The monthly minimum is updated every April so it is at least 47.5% of the national average wage; verify the current rate annually
+- The monthly minimum is updated each April; verify the current rate annually
 - For part-time employees the hourly minimum applies and the monthly figure is pro-rated
 - Paying below the minimum wage exposes the employer to criminal penalties and civil liability; the floor cannot be waived in a contract
 
@@ -297,7 +297,7 @@ Per the **Sexual Harassment Prevention Law, 1998 (Chok Meni'at Hatrada Minit)**:
 - External complaint to the police (for criminal aspects)
 - Civil lawsuit in labor court (beit din la'avoda)
 - Complaint to the Equal Employment Opportunities Commission (Netzivut Shivyon Hizdamnuyot Ba'avoda)
-- Statute of limitations: 3 years for civil claims, 7 years for criminal complaints
+- A complaint can be filed with the employer's harassment officer, with the police, and as a compensation claim in the labor court. Ask a lawyer about the filing deadline that applies to your route, since it differs between the civil and the criminal track
 
 **Protections:**
 - The complainant is protected from retaliation (cannot be fired, demoted, or have conditions worsened)
