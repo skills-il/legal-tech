@@ -6,6 +6,11 @@ license: MIT
 
 # European Passport by Descent Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the rules and calculates from the figures you enter, but it does not examine your full circumstances and does not constitute legal advice. All of its outputs are produced automatically, with no involvement, review, or approval by an advocate, and an AI model may err, omit data, or present a wrong conclusion. Actual entitlement depends on the circumstances and the documents, so consult an advocate for a binding answer. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Hundreds of thousands of Israelis are descended from Europeans who fled, were expelled, or were stripped of their citizenship, which can make them eligible for an EU passport today. But the rules differ by country, change often, and turn on small lineage and document details, so most people either assume they do not qualify or pay a private agency thousands of shekels to find out. The hard part is rarely the foreign form: it is figuring out which route fits the family story, checking that the route is still open, and assembling the exact chain of Israeli and ancestral documents, apostilles, and translations each authority demands.
