@@ -447,7 +447,7 @@ python3 scripts/severance-calculator.py --help
 | כל זכות: זכויות עובדים | https://www.kolzchut.org.il/he | הסברים נגישים על זכויות לפי חוקי העבודה |
 | משרד העבודה | https://www.gov.il/he/pages/aboutlabor | חקיקת עבודה רשמית, שכר מינימום, אכיפה |
 | כל זכות: שכר מינימום | https://www.kolzchut.org.il/he/שכר_מינימום | שכר המינימום החודשי והשעתי העדכני |
-| נבו: נוסח מלא של חוק פיצויי פיטורים | https://www.nevo.co.il/law_html/law01/055_001.htm | נוסח חוק פיצויי פיטורים, תשכ"ג-1963 |
+| נבו: נוסח מלא של חוק פיצויי פיטורים | https://www.nevo.co.il/law_html/law01/p189_001.htm | נוסח חוק פיצויי פיטורים, תשכ"ג-1963 |
 | ביטוח לאומי: דמי לידה | https://www.btl.gov.il/benefits/maternity/Pages/default.aspx | תנאי זכאות וסכומים של דמי הלידה בתקופת הלידה וההורות |
 | בתי הדין לעבודה (כל-זכות) | https://www.kolzchut.org.il/he/בתי_הדין_האזוריים_לעבודה | סמכות בתי הדין לעבודה, סדרי דין |
 

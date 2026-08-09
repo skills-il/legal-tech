@@ -203,7 +203,7 @@
     },
     {
       "claim_id": "sick-pay-graduated-a",
-      "claim": "Sick pay is graduated: no payment on the first day of absence, 50% on each of the second and third days, and full pay from the fourth day onward.",
+      "claim": "Sick pay is graduated: no payment on the first day of absence, 50% on each of the second and third days, and full pay (100%) from the fourth day onward.",
       "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
       "raw_snippet": "על יום ההיעדרות הראשון העובדים לא זכאים לתשלום. על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר שהיו אמורים לקבל באותו יום אילו עבדו. מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא",
       "fetched_at": "2026-06-25T00:00:00Z",
@@ -342,7 +342,7 @@
     },
     {
       "claim_id": "section-45a-credit-c",
-      "claim": "The pension-contribution income-tax credit is anchored in section 45a (סעיף 45א) and section 47 of the Income Tax Ordinance.",
+      "claim": "Section 45a (סעיף 45א) and section 47 of the Income Tax Ordinance anchor the pension-contribution income-tax credit.",
       "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
       "raw_snippet": "פקודת מס הכנסה - סעיפים 45א', 47.",
       "fetched_at": "2026-06-25T00:00:00Z",
@@ -463,7 +463,7 @@
     },
     {
       "claim_id": "worked-examples",
-      "claim": "Illustrative worked examples use arithmetic derived from the statutory rate of one month's salary per year of employment and from the convalescence day rate: 15,000 x 3.33 = 50,000; 7 x 418 = 2,926; (7-1) x 418 = 2,508; 7 x 418 x 0.5 = 1,463; a daily wage of 500 gives 0 on day 1 and 250 on days 2-3. Illustrative values: 0 ש\"ח, 250 ש\"ח, 500 ש\"ח, 1,254 ש\"ח, 1,463 ש\"ח, 2,508 ש\"ח, 2,926 ש\"ח, 15,000 ש\"ח, 50,000 ש\"ח, 15,000 NIS, 50,000 NIS.",
+      "claim": "Illustrative worked examples use arithmetic derived from the statutory rate of one month's salary per year of employment and from the convalescence day rate: 15,000 x 3.33 = 50,000; 7 x 418 = 2,926; (7-1) x 418 = 2,508; 7 x 418 x 0.5 = 1,463; a daily wage of 500 gives 0 on day 1 and 250 on days 2-3. Illustrative values: NIS 0, NIS 250, 0 ש\"ח, 250 ש\"ח, 500 ש\"ח, 1,254 ש\"ח, 1,463 ש\"ח, 2,508 ש\"ח, 2,926 ש\"ח, 15,000 ש\"ח, 50,000 ש\"ח, 15,000 NIS, 50,000 NIS.",
       "source_url": "https://www.nevo.co.il/law_html/law01/p189_001.htm",
       "raw_snippet": "שיעורם של פיצויי הפיטורים הוא: שכר חודש אחד לכל שנת עבודה בעובד במשכורת אצל אותו מעסיק",
       "fetched_at": "2026-06-25T00:00:00Z",
@@ -523,17 +523,15 @@
     },
     {
       "claim_id": "ref-url-gov-labor-courts",
-      "claim": "Israeli regional labour courts: jurisdiction and filing procedure (Kol Zchut government-body page).",
+      "claim": "Israel has 5 regional labour courts (Beer Sheva, Haifa, Jerusalem, Nazareth, Tel Aviv) serving as the first instance for labour-relations and social-security matters.",
       "source_url": "https://www.kolzchut.org.il/he/בתי_הדין_האזוריים_לעבודה",
-      "raw_snippet": "בתי הדין האזוריים לעבודה",
+      "raw_snippet": "בישראל קיימים 5 בתי דין אזוריים לעבודה: באר שבע; חיפה; ירושלים; נצרת; תל-אביב.",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "note": "Previous gov.il URL (departments/labor_courts_in_israel) is a hard 404 as of 2026-07-26, verified in a browser, not merely bot-blocked as the prior cycle recorded.",
-      "verified_via": "browser",
-      "verified_at": "2026-07-26T18:56:59Z"
+      "note": "Previous gov.il URL (departments/labor_courts_in_israel) is a hard 404 as of 2026-07-26, verified in a browser, not merely bot-blocked as the prior cycle recorded."
     },
     {
       "claim_id": "ref-url-kolzchut-minwage",

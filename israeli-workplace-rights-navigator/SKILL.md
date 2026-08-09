@@ -297,7 +297,7 @@ Per the **Sexual Harassment Prevention Law, 1998 (Chok Meni'at Hatrada Minit)**:
 - External complaint to the police (for criminal aspects)
 - Civil lawsuit in labor court (beit din la'avoda)
 - Complaint to the Equal Employment Opportunities Commission (Netzivut Shivyon Hizdamnuyot Ba'avoda)
-- A complaint can be filed with the employer's harassment officer, with the police, and as a compensation claim in the labor court. Ask a lawyer about the filing deadline that applies to your route, since it differs between the civil and the criminal track
+- Routes: the employer's harassment officer, the police, and a compensation claim in the labor court. Ask a lawyer about the filing deadline, which differs by route
 
 **Protections:**
 - The complainant is protected from retaliation (cannot be fired, demoted, or have conditions worsened)
@@ -414,7 +414,7 @@ Two separate breaches. On the hearing: the employer must hold a shimua BEFORE de
 | Kol Zchut (workers' rights) | https://www.kolzchut.org.il/he | Plain-language explanations of labor law entitlements |
 | Ministry of Labor | https://www.gov.il/he/pages/aboutlabor | Official labor regulations, minimum wage, enforcement |
 | Kol Zchut: minimum wage | https://www.kolzchut.org.il/he/שכר_מינימום | Current monthly and hourly minimum wage |
-| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/055_001.htm | Severance Pay Law, 1963 statutory text |
+| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/p189_001.htm | Severance Pay Law, 1963 statutory text |
 | Bituach Leumi: birth allowance | https://www.btl.gov.il/benefits/maternity/Pages/default.aspx | Birth and Parenting Period allowance eligibility and amounts |
 | Labor courts in Israel (Kol Zchut) | https://www.kolzchut.org.il/he/בתי_הדין_האזוריים_לעבודה | Labor court jurisdiction, filing procedures |
 
