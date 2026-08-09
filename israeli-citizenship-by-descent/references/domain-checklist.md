@@ -83,8 +83,8 @@
 - https://www.gov.il/he/pages/summary_info_procedure - PIBA procedure 2.17.0001, the authoritative field list for the standard and extended registry extract.
 - https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf - Portugal, Lei Organica n.o 1/2026 repealing the Sephardic route.
 - https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg - Italy, DL 36/2025 coordinated with Legge 74/2025, text of Art. 3-bis.
-- https://cetatenie.just.ro/articolul-11-2/ - Romania, art. 11 requirements including the B1 condition.
-- https://cetatenie.just.ro/category/anunturi/ - Romania, two-year window to 14.03.2027 after OUG 16/2026.
+- https://www.econsulat.ro/AcordareCetatenie/DescriereServiciu/101000005 - Romania, the official art. 11 service page: scope, descendants to the third degree, and the document list.
+- https://cetatenie.just.ro/category/anunturi/ - Romania, current deadline for filing the language certificate.
 - https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie - Poland, przywrocenie is only for the person who personally lost citizenship before 1 January 1999.
 - https://www.gov.pl/web/mswia/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego - Poland, potwierdzenie, the descendant's route.
 - https://likumi.lv/ta/en/en/id/57512 - Latvia, Citizenship Law Section 8.1.

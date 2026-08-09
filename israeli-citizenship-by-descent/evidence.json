@@ -86,17 +86,15 @@
       "claim_id": "italy-art3bis-never-acquired",
       "claim": "Under Art. 3-bis of Law 91/1992 a person born abroad who holds another citizenship is considered never to have acquired Italian citizenship, expressly including births before the article entered into force.",
       "claim_type": "law",
-      "source_url": "https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg",
-      "fetched_at": "2026-08-09T02:45:20Z",
-      "raw_snippet": "«Art. 3-bis. - 1. In deroga agli articoli 1, 2, 3, 14 e 20 della presente legge ... e' considerato non avere mai acquistato la cittadinanza italiana chi e' nato all'estero anche prima della data di entrata in vigore del presente articolo ed e' in possesso di altra cittadinanza, salvo che ricorra una delle seguenti condizioni:",
+      "source_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=25A03081&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2025-05-23&art.progressivo=0",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "e' considerato non avere mai acquistato la cittadinanza italiana chi e' nato all'estero anche prima della data di entrata in vigore del presente articolo ed e' in possesso di altra cittadinanza, salvo che ricorra una delle seguenti condizioni:",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      ]
     },
     {
       "claim_id": "italy-saving-condition-a-27-march-2025",
@@ -147,36 +145,60 @@
       "verified_at": "2026-08-09"
     },
     {
-      "claim_id": "italy-source-dl36-2025-legge74-2025",
-      "claim": "Art. 3-bis was inserted into Law 5 febbraio 1992 n. 91 by decreto-legge 28 marzo 2025 n. 36, coordinated with the conversion law of 23 May 2025 n. 74.",
+      "claim_id": "italy-art3bis-inserted-into-law-91-1992",
+      "claim": "Art. 3-bis was inserted into Law 5 febbraio 1992 n. 91 immediately after article 3.",
       "claim_type": "law",
-      "source_url": "https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg",
-      "fetched_at": "2026-08-09T02:45:20Z",
-      "raw_snippet": "Testo del decreto-legge 28 marzo 2025, n. 36 (in Gazzetta Ufficiale - Serie generale - n. 73 del 28 marzo 2025), coordinato con la legge di conversione 23 maggio 2025, n. 74 ... recante: «Disposizioni urgenti in materia di cittadinanza». 1. Alla legge 5 febbraio 1992, n. 91, dopo l'articolo 3 e' inserito il seguente:",
+      "source_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=25A03081&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2025-05-23&art.progressivo=0",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "1. Alla legge 5 febbraio 1992, n. 91, dopo l'articolo 3 e' inserito il seguente: «Art. 3-bis. - 1. In deroga agli articoli 1, 2, 3, 14 e 20 della presente legge",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      ]
     },
     {
-      "claim_id": "italy-law-91-1992-consolidated",
-      "claim": "Law 5 February 1992 n. 91 is the Italian citizenship law and its consolidated text now contains article 3 bis.",
+      "claim_id": "italy-dl36-2025-converted-by-legge74-2025",
+      "claim": "Decreto-legge 28 marzo 2025 n. 36 was converted, with modifications, by law 23 maggio 2025 n. 74.",
       "claim_type": "law",
-      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
-      "fetched_at": "2026-08-09T02:44:40Z",
-      "raw_snippet": "LEGGE 5 febbraio 1992, n. 91 ... Nuove norme sulla cittadinanza. ... Articoli 1 2 3 3 bis orig. 4 agg.1 orig. 5 agg.1 orig. 6 7 orig.",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-03-28;36",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "Decreto-Legge convertito con modificazioni dalla L. 23 maggio 2025, n. 74 (in G.U. 23/05/2025, n. 118)",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      ]
+    },
+    {
+      "claim_id": "italy-law-91-1992-title",
+      "claim": "The Italian citizenship statute is LEGGE 5 febbraio 1992, n. 91.",
+      "claim_type": "law",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "LEGGE 5 febbraio 1992, n. 91",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "italy-law-91-1992-contains-art-3-bis",
+      "claim": "The consolidated text of Law 91/1992 on Normattiva now lists an article 3 bis.",
+      "claim_type": "law",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "Articoli 1 2 3 3 bis",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "romania-b1-language-condition",
@@ -211,22 +233,6 @@
       "verified_at": "2026-08-09"
     },
     {
-      "claim_id": "romania-b1-deadline-14-03-2027",
-      "claim": "After OUG 16/2026 amended art. XXI of Legea 14/2025, the Romanian language certificate may be filed within two years of the law entering into force, up to 14.03.2027, failing which the application is rejected as unsupported.",
-      "claim_type": "date",
-      "source_url": "https://cetatenie.just.ro/category/anunturi/",
-      "fetched_at": "2026-08-09T02:47:00Z",
-      "raw_snippet": "ANȘUNȚ IMPORTANT – certificatul de competență lingvistică poate fi depus până la data de 14.03.2027 ... Având în vedere modificarea prin OUG nr. 16/2026 a art. XXI din Legea nr. 14/2025 ... persoanele care fac dovada cunoașterii limbii române cu certificatul de competență lingvistică menționat mai sus au posibilitatea depunerii acestuia în termen de doi ani de la intrarea în vigoare a legii (până la data de 14.03.2027) sub sancțiunea respingerii cererii ca nesusținută",
-      "confidence": "high",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/domain-checklist.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
-    },
-    {
       "claim_id": "romania-b1-exemptions-narrow",
       "claim": "The Romanian language requirement is waived only for people who were themselves Romanian citizens and for people aged 65 or over at the date of application. A descendant who was never personally a Romanian citizen is not exempt.",
       "claim_type": "law",
@@ -244,27 +250,39 @@
     },
     {
       "claim_id": "romania-third-degree-descendants",
-      "claim": "Romania's Article 11 route covers former Romanian citizens who lost citizenship through no fault of their own, and their descendants of the first, second and third degree (child, grandchild, great-grandchild). בעברית: סעיף 11 לחוק 21/1991 הרומני.",
+      "claim": "Romania's Article 11 citizenship route extends to descendants up to the third degree (child, grandchild, great-grandchild). בעברית: סעיף 11 לחוק האזרחות הרומני.",
       "claim_type": "law",
-      "source_url": "https://cetatenie.just.ro/articolul-11-2/",
-      "fetched_at": "2026-08-09T02:45:55Z",
-      "raw_snippet": "Acte necesare pentru foştii cetăţeni români care au pierdut această cetățenie din motive neimputabile lor sau cărora le-a fost ridicată fără voia lor, precum şi pentru descendenţii de gradul I, II şi III ai acestora. ... Această prevedere legală se aplică și în cazul descendenților foștilor cetățenie români până la gradul III.",
+      "source_url": "https://www.econsulat.ro/AcordareCetatenie/DescriereServiciu/101000005",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "gradul III (conform Art.11)",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      ]
     },
     {
       "claim_id": "poland-przywrocenie-personal-only",
-      "claim": "Poland's restoration route (przywrocenie) is available only to a person who personally held Polish citizenship and lost it before 1 January 1999, and the application is decided by the Minister of Interior and Administration.",
+      "claim": "Poland's restoration route (przywrocenie) is available only to a person who personally held Polish citizenship and lost it before 1 January 1999.",
       "claim_type": "law",
       "source_url": "https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie",
-      "fetched_at": "2026-08-09T02:46:45Z",
-      "raw_snippet": "Każdy, kto w przeszłości miał polskie obywatelstwo i utracił je przed 1 stycznia 1999 r. ... wniosek do Ministra Spraw Wewnętrznych i Administracji",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "Każdy, kto w przeszłości miał polskie obywatelstwo i utracił je przed 1 stycznia 1999 r.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "poland-przywrocenie-minister-decides",
+      "claim": "The Polish restoration application is filed with, and decided by, the Minister of Interior and Administration.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "Do Ministra Spraw Wewnętrznych i Administracji. Poniżej znajdziesz adres:",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
@@ -519,8 +537,8 @@
       "claim": "Latvia's Section 8.1(2) preserves the registration right for descendants born until 1 October 2014, Section 8.1(3) allows dual citizenship for those registrants, and Section 8.1(4) requires an application to be examined within four months.",
       "claim_type": "date",
       "source_url": "https://likumi.lv/ta/en/en/id/57512",
-      "fetched_at": "2026-08-09T02:55:20Z",
-      "raw_snippet": "(2) If a descendant of the person referred to in Paragraph one of this Section who was born until 1 October 2014 submits a corroboration ... he or she shall retain the right to register as a Latvian citizen. ... (3) Dual citizenship may occur for the person referred to in Paragraph one or two of this Section, when registering as a Latvian citizen. ... An application shall be examined within four months.",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "(2) If a descendant of the person referred to in Paragraph one of this Section who was born until 1 October 2014 submits a corroboration on the fact that at least one of his or her ancestors has been the person referred to in Paragraph one of this Section, he or she shall retain the right to register as a Latvian citizen. A corroboration in respect of a child up to 15 years of age shall be expressed by his or her lawful representative. (3) Dual citizenship may occur for the person referred to in Paragraph one or two of this Section, when registering as a Latvian citizen. (4) The Cabinet shall determine the responsible authority and the procedures by which a corroboration of the person referred to in Paragraph one or two of this Section shall be accepted and examined and by which such person shall be registered as a Latvian citizen. An application shall be examined within four months.",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",

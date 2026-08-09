@@ -28,7 +28,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
@@ -65,7 +65,7 @@
       "language": "it"
     },
     {
-      "url": "https://cetatenie.just.ro/articolul-11-2/",
+      "url": "https://www.econsulat.ro/AcordareCetatenie/DescriereServiciu/101000005",
       "type": "regulator",
       "language": "ro"
     },
