@@ -46,8 +46,8 @@ If all three hold, the rabbinical court acquires jurisdiction over the joined ma
 
 Before litigating in either forum the person generally files a Request to Resolve a Dispute (בקשה ליישוב סכסוך) under the family-disputes law of 2014 (חוק להסדר התדיינויות בסכסוכי משפחה, תשע"ה-2014). Then:
 
-- The parties attend up to four MAHUT meetings (פגישות מהו"ת, meaning information, acquaintance and coordination) at an assistance unit (יחידת סיוע). All MAHUT meetings are held within 45 days of filing.
-- A stay of proceedings of 60 days applies, during which the applicant may not file other family claims; the assistance unit may extend it once by 15 days.
+- The parties attend up to four MAHUT meetings (פגישות מהו"ת, meaning information, acquaintance and coordination) at an assistance unit (יחידת סיוע). All MAHUT meetings are held within 45 days of filing, a period that can be extended once by 15 days.
+- A stay of proceedings of 60 days from filing applies, or 75 days if the period was extended, during which no claim on the matters in dispute may be filed unless a competent judicial instance shortened or extended the date.
 
 CRITICAL, and this is a safety point: the stay does NOT block urgent relief (סעד דחוף). Domestic violence, exit-from-country, urgent maintenance, securing a minor's contact, and medical matters are express exceptions the court can decide urgently, within about 14 days, without waiting out the stay. In particular, a domestic-violence protective order (צו הגנה) under the Prevention of Family Violence Law, 5751-1991 (חוק למניעת אלימות במשפחה, התשנ"א-1991) can be obtained urgently, including where a person is in a domestic-violence shelter. Never tell someone in danger that they must sit through the intake before they can get protection; route them to file for a צו הגנה and urgent relief immediately, and to a lawyer or a domestic-violence hotline.
 
@@ -72,7 +72,7 @@ Tax note: real-estate transfers between spouses that are incident to the divorce
 
 Walk the person through `references/izun-mashabim-worksheet.md`, classify each asset as balanceable or excluded, subtract marital debts, then compute the equalizing payment. The bundled `scripts/izun_mashabim.py` does the arithmetic for the 50/50 default. Flag commingling (for example a pre-marriage apartment retitled jointly) as a lawyer question, do not decide it.
 
-Timing lever: section 5א allows early balancing (הקדמת איזון) before the get is finalized once a balancing request is filed and a condition is met, for example a year has passed since a dissolution proceeding or property claim opened; the court may extend by three months in a written reasoned decision. This helps when one spouse stalls the get to freeze the money.
+Timing lever: section 5א allows early balancing (הקדמת איזון) before the get is finalized once a balancing request is filed and a condition is met, for example a year has passed since a dissolution proceeding or property claim opened; the court may shorten those waiting periods in a written reasoned decision. This helps when one spouse stalls the get to freeze the money.
 
 ### Step 4: spousal maintenance vs. child support (do not conflate them)
 
@@ -140,7 +140,7 @@ A woman has a signed divorce agreement but her husband will not give the get. Re
 | הטלת סנקציות על סרבני גט (Kol Zchut) | https://www.kolzchut.org.il/he/הטלת_סנקציות_על_סרבני_וסרבניות_גט | The full list of restrictive orders against a get-refuser |
 | חזקת השיתוף בין בני זוג (Kol Zchut) | https://www.kolzchut.org.il/he/חזקת_השיתוף_בין_בני_זוג | Common-law partners' property runs on חזקת השיתוף, not חוק יחסי ממון |
 | בקשה ליישוב סכסוך במשפחה (Kol Zchut) | https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה | MAHUT meetings within 45 days; 60-day stay; urgent-relief carve-out |
-| בקשה ליישוב סכסוך (gov.il, judiciary) | https://www.gov.il/he/service/asking_for_family_dispute_settlements | Official filing service for the intake step |
+| בקשה ליישוב סכסוך (Kol Zchut, with the official judiciary filing link) | https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה | Where and how to file the intake request, and the link to the official gov.il service |
 
 ## Bundled Resources
 

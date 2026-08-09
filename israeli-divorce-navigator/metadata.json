@@ -24,7 +24,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
@@ -110,8 +110,8 @@
       "language": "he"
     },
     {
-      "url": "https://www.gov.il/he/service/asking_for_family_dispute_settlements",
-      "type": "government",
+      "url": "https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה",
+      "type": "aggregator",
       "language": "he"
     }
   ],

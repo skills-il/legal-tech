@@ -73,4 +73,4 @@ Note: an excluded asset can lose its exclusion if it was commingled (e.g. a pre-
 - Kol Zchut, הסדר איזון משאבים: https://www.kolzchut.org.il/he/הסדר_איזון_משאבים
 - Kol Zchut, הטלת סנקציות על סרבני וסרבניות גט: https://www.kolzchut.org.il/he/הטלת_סנקציות_על_סרבני_וסרבניות_גט
 - Kol Zchut, חזקת השיתוף בין בני זוג: https://www.kolzchut.org.il/he/חזקת_השיתוף_בין_בני_זוג
-- gov.il, בקשה ליישוב סכסוך (הרשות השופטת): https://www.gov.il/he/service/asking_for_family_dispute_settlements
+- Kol Zchut, בקשה ליישוב סכסוך במשפחה (כולל הקישור לשירות הרשמי של הרשות השופטת): https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה
