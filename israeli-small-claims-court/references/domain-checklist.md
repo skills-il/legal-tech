@@ -6,9 +6,9 @@ Coverage rubric for the `israeli-small-claims-court` skill. A consumer self-fili
 
 1. **Jurisdiction ceiling: NIS 39,900 (as of Jan 2026), updated periodically.** Above the ceiling -> Magistrate Court. Source: Kol-Zchut הגשת תביעה קטנה ("עד סכום של 39,900 ₪ (נכון לינואר 2026)"); gov.il small_claims_courts_guide.
 2. **Filing fee: 1% of the claim amount, minimum NIS 50.** Not a flat fee. Source: gov.il small_claims_courts_guide; Kol-Zchut ("אגרה בגובה של 1% מסכום התביעה, ובכל מקרה לא פחות מ-50 ₪").
-3. **Defense deadline: defendant files כתב הגנה within 30 days of being served the claim.** Same 30 days for a defense to a counterclaim. Source: תקנות שיפוט בתביעות קטנות (סדרי דין) תק' 4(ב); gov.il statement_of_defense_in_small_claims.
+3. **Defense deadline: defendant files כתב הגנה within 30 days of being served the claim.** Same 30 days for a defense to a counterclaim. Source: תקנות שיפוט בתביעות קטנות (סדרי דין) תק' 4(ב).
 4. **Default consequences: failure to file a defense or to appear can produce a default judgment (פסק דין בהעדר) / dismissal.** Source: תק' 11; gov.il guide; dinrega "אי הגשת כתב הגנה".
-5. **Appeal: by leave only (בקשת רשות ערעור) to the District Court. Deadline = 30 days for proceedings opened on/after 11.4.2025 (was 15 days before).** Grounds limited to a clear, simple legal/factual error. Source: תק' 16 as amended 11.4.2025 (applies פרק י"ז לתקסד"א, "המועד... הוא 30 ימים מיום מתן פסק הדין"); gov.il appeal-district; Kol-Zchut.
+5. **Appeal: by leave only (בקשת רשות ערעור) to the District Court. Deadline = 30 days for proceedings opened on/after 11.4.2025 (was 15 days before).** Grounds limited to a clear, simple legal/factual error. Source: תק' 16 as amended 11.4.2025 (applies פרק י"ז לתקסד"א, "המועד... הוא 30 ימים מיום מתן פסק הדין"); Kol-Zchut.
 6. **Service of the claim on the defendant (המצאה) is ultimately the plaintiff's responsibility.** The court clerk sends the claim + summons by mail, BUT if it is not served within 60 days the plaintiff (or someone on their behalf) must serve it at least 40 days before the hearing; without proof of service (אישור מסירה) the judge cannot hear the case and the claim may be struck. Source: תק' 7(ב1); gov.il filing_a_small_claim ("באחריות התובע לוודא... שכתב התביעה וההזמנה לדיון נמסרו לנתבע"; "ללא אישור מסירה... התביעה עלולה להימחק").
 7. **Who can be a plaintiff: only an individual (incl. עוסק מורשה/פטור).** A company/partnership/association cannot sue here but can be sued. No assignment of the claim, no professional pleader. Source: Kol-Zchut; gov.il guide.
 8. **Lawyer representation: parties appear in person; a lawyer may not appear at the hearing without special court leave** (may draft pleadings off-record). Source: Kol-Zchut ("ההליך... אינו דורש ייצוג... רק אם בית המשפט יקבל את הבקשה...").
@@ -32,11 +32,9 @@ Coverage rubric for the `israeli-small-claims-court` skill. A consumer self-fili
 ## Authoritative sources
 
 - Judicial Authority - Filing a Small Claim: https://www.gov.il/he/service/filing_a_small_claim
-- Judicial Authority - Small Claims Courts Guide: https://www.gov.il/he/departments/guides/small_claims_courts_guide
-- Judicial Authority - Statement of Defense in Small Claims: https://www.gov.il/he/service/statement_of_defense_in_small_claims
-- Judicial Authority - Appeal to District Court: https://www.gov.il/he/service/appeal-district
+- Judicial Authority - Small Claims Courts Guide: https://www.gov.il/he/pages/small_claims_courts_guide
 - תקנות שיפוט בתביעות קטנות (סדרי דין), תשל"ז-1976 (Nevo): https://www.nevo.co.il/law_html/law00/98563.htm ; Wikisource full text.
 - Kol-Zchut - Filing a Small Claim: https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה
-- Consumer Protection Law 1981 (Nevo): https://www.nevo.co.il/law_html/law01/p214m1_001.htm
+- Consumer Protection Law 1981 (Nevo): https://www.nevo.co.il/law_html/law01/089_001.htm
 - Courts Law [Consolidated] 1984 (Nevo): https://www.nevo.co.il/law_html/law00/74849.htm
 - חוק ההתיישנות התשי"ח-1958.

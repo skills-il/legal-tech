@@ -142,7 +142,7 @@ What to expect at the small claims court hearing:
 | 6. Questions from judge | שאלות מהשופט | Judge may ask clarifying questions to both parties |
 | 7. Witnesses (if any) | עדים (אם יש) | Each side may call witnesses; judge may question them |
 | 8. Summary arguments | טיעוני סיכום | Brief final statements from each party |
-| 9. Judgment (Psak Din) | פסק דין | May be given immediately or within 14 days |
+| 9. Judgment (Psak Din) | פסק דין | Given at the end of the hearing; the court may defer it by up to 7 days |
 
 **Practical hearing tips:**
 
@@ -190,7 +190,7 @@ After the hearing, understanding the judgment and enforcement process:
 
 | Item | Details |
 |------|---------|
-| Opening fee | A small opening fee applies (roughly NIS 50-100 historically); verify the current fee on the Enforcement and Collection Authority site, as it is updated periodically |
+| Opening fee | A small opening fee applies; check the current amount on the Enforcement and Collection Authority site before filing, as it is updated periodically |
 | Interest | Judgment amount accrues interest from ruling date |
 | Lawyer for enforcement | Optional; many handle enforcement themselves |
 | Timeline to enforcement | 30 days after judgment + processing time |
@@ -262,7 +262,7 @@ Typical small claims cases and their specific considerations:
 
 ### Example 4: Enforcing a Judgment
 **Input:** "I won my small claims case but the defendant hasn't paid. What now?"
-**Output:** Explain the enforcement process: wait for the 30-day voluntary compliance period to expire. Then open an execution file (tik hotza'a lapo'al) at the nearest Execution Office. Bring the original judgment and your identification. Pay the opening fee (a small fee, roughly NIS 50-100 historically; verify the current amount on the Enforcement and Collection Authority site). The Execution Office will send the defendant a warning notice (azhara). If the defendant still does not pay, enforcement measures include: wage garnishment (ikul mishkoret), bank account seizure (ikul cheshbon bank), property liens (shi'abud), and potentially travel restrictions. The judgment amount will accrue interest from the ruling date. Many defendants pay after receiving the Execution Office warning.
+**Output:** Explain the enforcement process: wait for the 30-day voluntary compliance period to expire. Then open an execution file (tik hotza'a lapo'al) at the nearest Execution Office. Bring the original judgment and your identification. Pay the opening fee (a small fee; check the current amount on the Enforcement and Collection Authority site). The Execution Office will send the defendant a warning notice (azhara). If the defendant still does not pay, enforcement measures include: wage garnishment (ikul mishkoret), bank account seizure (ikul cheshbon bank), property liens (shi'abud), and potentially travel restrictions. The judgment amount will accrue interest from the ruling date. Many defendants pay after receiving the Execution Office warning.
 
 ## Bundled Resources
 
@@ -293,11 +293,11 @@ Typical small claims cases and their specific considerations:
 
 | Source | URL | What to Check |
 |--------|-----|--------------|
-| Judicial Authority -- Filing a Small Claim | https://www.gov.il/en/service/filing_a_small_claim | Current jurisdiction limit, procedure, and official filing service |
-| Judicial Authority -- Small Claims Courts Guide | https://www.gov.il/he/departments/guides/small_claims_courts_guide | Official overview of the court, jurisdiction rules, and forms |
-| Judicial Authority -- Court Fees | https://www.gov.il/he/departments/general/fees_3 | Current filing fee formulas for small claims and related courts |
+| Judicial Authority -- Filing a Small Claim | https://www.gov.il/he/service/filing_a_small_claim | Current jurisdiction limit, procedure, and official filing service |
+| Judicial Authority -- Small Claims Courts Guide | https://www.gov.il/he/pages/small_claims_courts_guide | Official overview of the court, jurisdiction rules, and forms |
+| Judicial Authority -- Court Fees | https://www.gov.il/he/pages/fees_3 | Current filing fee formulas for small claims and related courts |
 | Kol-Zchut -- Filing a Small Claim | https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה | Step-by-step rights guide in Hebrew (unofficial but well-sourced) |
-| Consumer Protection Law 1981 | https://www.nevo.co.il/law_html/law01/p214m1_001.htm | Statutory basis for consumer claims (fitness for purpose, warranty, distance sales) |
+| Consumer Protection Law 1981 | https://www.nevo.co.il/law_html/law01/089_001.htm | Statutory basis for consumer claims (fitness for purpose, warranty, distance sales) |
 | Courts Law [Consolidated] 1984 | https://www.nevo.co.il/law_html/law00/74849.htm | Small claims jurisdiction and Magistrate Court limits (currently NIS 2.5M) |
 
 ## Troubleshooting
