@@ -9,11 +9,19 @@ chain and produces a starting document checklist the user can take to the
 relevant consulate or a lawyer.
 
 Usage:
-    python eligibility_intake.py            # interactive
+    python eligibility_intake.py            # interactive if a TTY, else blank
     python eligibility_intake.py --blank    # print an empty worksheet to fill in
+    python eligibility_intake.py --interactive   # force the prompts even with no TTY
+    python eligibility_intake.py --case case.json  # fill the worksheet from a file
+    python eligibility_intake.py --anchor "paternal grandfather" --origin Poland ...
+
+An agent harness usually runs this with stdin closed, so the old TTY sniff
+silently downgraded every run to --blank and the worksheet was never filled.
+Pass --case / the per-field flags (preferred for agents), or --interactive.
 """
 
 import argparse
+import json
 import sys
 
 GENERIC_DOCS = [
@@ -51,13 +59,26 @@ def field(label):
         return ""
 
 
-def run_interactive():
+FIELDS = ["anchor", "origin", "story", "docs_have", "chain", "prior_filing"]
+
+PROMPTS = {
+    "anchor": "Anchor ancestor (name + relationship, e.g. 'paternal grandfather')",
+    "origin": "Their country/region of origin",
+    "story": "What happened and when (emigration / flight / persecution / loss of citizenship + dates)",
+    "docs_have": "Documents you already have (comma-separated)",
+    "chain": "Living chain from the ancestor to you (each birth/marriage/name change)",
+    "prior_filing": "Any prior filing, booked consular appointment or court case, and its date",
+}
+
+
+def render(case):
     print("== Ancestry and documents worksheet ==\n")
-    anchor = field("Anchor ancestor (name + relationship, e.g. 'paternal grandfather')")
-    origin = field("Their country/region of origin")
-    story = field("What happened and when (emigration / flight / persecution / loss of citizenship + dates)")
-    docs_have = field("Documents you already have (comma-separated)")
-    chain = field("Living chain from the ancestor to you (each birth/marriage/name change)")
+    anchor = case.get("anchor", "")
+    origin = case.get("origin", "")
+    story = case.get("story", "")
+    docs_have = case.get("docs_have", "")
+    chain = case.get("chain", "")
+    prior = case.get("prior_filing", "")
 
     print("\n----------------------------------------")
     print("CASE SUMMARY")
@@ -67,6 +88,7 @@ def run_interactive():
     print(f"Family story    : {story or '(fill in)'}")
     print(f"Documents on hand: {docs_have or '(none listed)'}")
     print(f"Chain           : {chain or '(fill in)'}")
+    print(f"Prior filing    : {prior or '(none reported)'}")
 
     print("\n----------------------------------------")
     print("STARTING DOCUMENT CHECKLIST (generic - refine per route)")
@@ -91,6 +113,7 @@ def run_blank():
         "What happened and when",
         "Documents you already have",
         "Living chain from the ancestor to you",
+        "Any prior filing, booked appointment or court case, and its date",
     ]:
         print(f"{label}:\n    ____________________\n")
     print("Starting document checklist:")
@@ -101,11 +124,35 @@ def run_blank():
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--blank", action="store_true", help="print an empty worksheet")
+    p.add_argument("--interactive", action="store_true",
+                   help="force the interactive prompts even when stdin is not a TTY")
+    p.add_argument("--case", help="path to a JSON file with the worksheet fields")
+    for f in FIELDS:
+        p.add_argument("--" + f.replace("_", "-"), dest=f, default=None)
     args = p.parse_args()
-    if args.blank or not sys.stdin.isatty():
+
+    case = {}
+    if args.case:
+        with open(args.case, encoding="utf-8") as fh:
+            case.update(json.load(fh))
+    for f in FIELDS:
+        if getattr(args, f):
+            case[f] = getattr(args, f)
+
+    if args.blank:
         run_blank()
+    elif case:
+        render(case)
+    elif args.interactive:
+        for f in FIELDS:
+            case[f] = field(PROMPTS[f])
+        render(case)
+    elif sys.stdin.isatty():
+        for f in FIELDS:
+            case[f] = field(PROMPTS[f])
+        render(case)
     else:
-        run_interactive()
+        run_blank()
 
 
 if __name__ == "__main__":

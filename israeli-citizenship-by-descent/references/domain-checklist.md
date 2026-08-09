@@ -1,6 +1,6 @@
 # Domain Coverage Checklist - israeli-citizenship-by-descent
 
-*Researched 2026-06-27. Citizenship-by-descent / restitution law changes frequently; every row below was checked against 2024-2026 sources. Items flagged "verify in browser" could not be fetched from the official origin. Nothing here is legal advice; the skill routes users to a qualified immigration lawyer / the relevant consulate.*
+*Researched 2026-06-27; re-verified against primary sources 2026-08-09. Citizenship-by-descent / restitution law changes frequently; every row below was checked against 2024-2026 sources. Items flagged "verify in browser" could not be fetched from the official origin. Nothing here is legal advice; the skill routes users to a qualified immigration lawyer / the relevant consulate.*
 
 ---
 
@@ -20,38 +20,45 @@
 ### Poland
 - **Confirmation of citizenship (potwierdzenie obywatelstwa)** - jus sanguinis; descendants who never lost it have it confirmed by the Voivode via consulate, not naturalized.
 - **Unbroken-chain rule** - every link must have held citizenship when the next descendant was born; involuntary loss breaks the chain. Biggest cause of Polish rejections.
-- **Pre-1951 loss traps** - pre-1951 foreign-citizenship acquisition / certain marriage + father-line rules stripped Polish citizenship. Przywrocenie (restoration) exists for involuntary loss.
+- **Pre-1951 loss traps** - pre-1951 foreign-citizenship acquisition / certain marriage + father-line rules stripped Polish citizenship. Przywrocenie (restoration) is available ONLY to a person who personally held Polish citizenship and lost it before 1 January 1999, decided by the Minister of Interior; a descendant cannot use it. Descendants have only potwierdzenie (confirmation), decided by the wojewoda. Source: gov.pl/web/mswia.
 
 ### Romania
 - **Re-acquisition by descent, Art. 11 Law 21/1991** - restoration for those who lost it involuntarily + descendants to the 3rd degree (parent/grandparent/great-grandparent). Tied to historic territories 1918-1940. Distinguish Art. 11 (restoration) from Art. 10 (re-acquisition with residency).
-- **ANC + 2025 changes** - filed at Autoritatea Nationala pentru Cetatenie. As of March 2025, amendments to Law 21/1991 reportedly added Romanian-language/documentation requirements. UNVERIFIED scope - confirm against ANC / Monitorul Oficial before relying on "no language test".
+- **ANC + Legea 14/2025 language condition (VERIFIED 2026-08-09)** - filed at Autoritatea Nationala pentru Cetatenie. Legea 14/2025 conditions acordarea cetateniei under art. 10 and 11 on knowledge of Romanian, proved by a B1 CEFR certificate from a closed issuer list (accredited Romanian universities running "An pregatitor de limba romana", Institutul Limbii Romane, Institutul Cultural Roman, Romanian cultural institutes abroad) or a legalized transcript of 3+ years of study in Romanian. Exempt: people who were themselves Romanian citizens, and people aged 65 or over. Descendants who were never personally Romanian are NOT exempt. After OUG 16/2026 the certificate may be filed within two years, to 14.03.2027, else the file is rejected ca nesustinuta. Source: cetatenie.just.ro.
 
 ### Hungary
 - **Simplified naturalization by descent** - where an ancestor was a Hungarian citizen (pre-1920 Kingdom of Hungary, or 1941-1945); no fixed generational cap if documented.
 - **Hungarian-language requirement (real barrier - flag prominently)** - conversational Hungarian assessed in the consular interview. Sources conflict on whether ancestry applicants are tested; present as a real interview-level requirement and tell users to confirm with the consulate.
+
+### Italy (VERIFIED 2026-08-09)
+- **Art. 3-bis of Law 91/1992** (inserted by DL 36/2025, converted by Legge 23 maggio 2025 n. 74) - a person born abroad who holds another citizenship "e' considerato non avere mai acquistato la cittadinanza italiana", expressly including births before the article entered into force, unless one of these applies: (a) a consular/comune application filed by 23:59 Rome time on 27 March 2025; (a-bis) an appointment for that filing communicated by that same instant; (b) a judicial claim filed by that instant; (c) a first- or second-degree ascendant who holds, or held at death, exclusively Italian citizenship; (d) a parent or adopter resident in Italy for at least two continuous years after acquiring citizenship and before the child's birth. Letter (e) was suppressed on conversion.
+- **Two traps** - the (c) test is "exclusively Italian", not the press framing "parent or grandparent born in Italy"; and the rule is retroactive, so great-grandparent lines that looked viable in 2024 are generally out.
+- **Do NOT cite** reported Corte Costituzionale sent. 63/2026 or ordinanza 147/2026 - unverified.
 
 ---
 
 ## Should cover (advanced / smaller routes)
 
 - **Czech** - declaration under §31(3) (2019-09-06 amendment) for descendants of former Czech/Czechoslovak citizens to grandchildren (2nd gen); not for current Slovak citizens. Open.
-- **Lithuania** - restoration for descendants (child/grandchild/great-grandchild) of pre-1940 Lithuanian citizens; those who left/were persecuted before 1990-03-11 may keep their other citizenship (dual permitted as exception). Documentation gaps from the Holocaust are the practical hurdle.
+- **Lithuania** - restoration for descendants of pre-1940 Lithuanian citizens. Generational reach and the dual-citizenship exception are UNVERIFIED against the Lithuanian statute; confirm with the Migration Department before relying on them. Documentation gaps from the Holocaust are the practical hurdle.
 - **Bulgaria** - by ancestry to the 3rd generation. No Jewish-specific provision. Procedural details UNVERIFIED - confirm Bulgarian Citizenship Act.
 - **Greece** - by descent via parent or grandparent, by registering the ancestor in a municipal roll (demos). Generational reach UNVERIFIED - confirm with a Greek consulate.
+- **Greece - Holocaust-victim restoration (VERIFIED 2026-08-09)** - a dedicated procedure for living persons of Jewish descent, born up to 09/05/1945, who previously held Greek citizenship from birth and lost it for any reason. Filed in person at the Greek consulate of residence, decided by the Minister of the Interior and published in the gazette. It covers the former citizen personally, NOT descendants. Source: id.mitos.gov.gr/338062.
+- **Latvia (VERIFIED 2026-08-09)** - Citizenship Law Section 8.1: a person who was a Latvian citizen on 17 June 1940, or a descendant, where that person left Latvia between 17 June 1940 and 4 May 1990 escaping the USSR or German occupation regime or was deported and did not return for permanent residence by 4 May 1990, retains the right to register. Paragraph (2) covers descendants born until 1 October 2014. Paragraph (3) allows dual citizenship for these registrants, which matters because Israel is not on the Section 9 list. Applications examined within four months. Families that emigrated before 1940 fall outside Section 8.1. Source: likumi.lv/ta/en/en/id/57512.
 - **Slovakia** - descent via parent/grandparent/great-grandparent who was a Czechoslovak citizen born in present-day Slovak territory; a 2022 "Slovak living abroad" route widened eligibility. Confirm current terms.
-- **Portugal - Sephardi route** - CURRENT 2026 status: still in law but heavily tightened. Since 2024-04-01 (12th amendment) applicants must show 3 years' legal residence in Portugal in addition to a Lisbon (CIL) or Porto (CIP) community certificate and a real-connection showing. A proposed hard close (31 Dec 2024) was NOT enacted, but further restriction is under discussion. For nearly all Israel-based applicants this route is now effectively impractical (residency requirement).
+- **Portugal - Sephardi route** - CLOSED / REPEALED (VERIFIED 2026-08-09). Lei Organica n.o 1/2026, de 18 de maio, art. 5.o repeals n.os 5, 7 and 13 of artigo 6.o of Lei n.o 37/81; artigo 6(7) was the Sephardic provision and the republished text reads "7 - [Revogado.]". In force the day after publication, i.e. 19 May 2026. Art. 7.o(2) keeps administrative procedures already pending on that date under the prior wording. The same law raised general naturalization residency to 7 years (CPLP / EU) or 10 years (others) and added a language, culture, history and national-symbols test. The old "three years of residence" framing is obsolete and must not be repeated.
 - **Spain - Sephardi route** - CLOSED. Law 12/2015's window expired 2019-10-01. No new applications. Pre-deadline filings may still be processed. Sephardic Israelis now use ordinary residency-based naturalization.
-- **Cyprus** - descent only, strict jus sanguinis through a Cypriot parent (grandparent alone generally insufficient). Citizenship-by-investment golden passport abolished 2020-11-01; last discretionary loophole repealed Dec 2025. Low Israeli relevance.
+- **Cyprus** - descent only, strict jus sanguinis through a Cypriot parent (grandparent alone generally insufficient). Citizenship-by-investment golden passport abolished 2020-11-01; reports of a further discretionary route being repealed in Dec 2025 are UNVERIFIED against the Cypriot statute. A grandchild may register on an unbroken descent line, so do not state flatly that a grandparent is never enough. Low Israeli relevance.
 
 ---
 
 ## Israel-side process (Must cover - the skill's unique angle)
 
 - **Apostille - correct issuing bodies (do NOT say "MFA only").** Israel has multiple apostille authorities by document type: Magistrates' Court registrars + Ministry-of-Justice-appointed officials apostille notarial acts and court documents; the Ministry of Foreign Affairs (Jerusalem) apostilles public documents issued by state bodies (Interior Ministry certificates, court judgments, academic, etc.). An apostille on a notarised translation goes via the court/Justice channel; an apostille on the original public certificate goes via the MFA. an e-Apostille service exists. Confirm exact current split on gov.il - verify in browser.
-- **Civil documents from Misrad HaPnim** - birth/marriage/death certificates and especially the population-registry extract (tamtzit rishum, lists parents' names/DOB/status) from the Population & Immigration Authority; downloadable digitally-signed via gov.il or via consulates. The tamtzit rishum is the document most EU authorities actually want for lineage.
+- **Civil documents from Misrad HaPnim** - birth/marriage/death certificates and the population-registry extract (tamtzit rishum) from the Population & Immigration Authority. FIELD LIST CORRECTED 2026-08-09 against PIBA procedure 2.17.0001: the standard extract carries the subject's own registry details (identity number, sex, nationality, personal status, country and locality of birth, date of birth, current address, date of entry to Israel) and, for the parents, their NAMES ONLY. The extended extract adds previous addresses and names, personal-status date, spouse's name, children's names/dates of birth/sex, religion, mailing addresses, date of becoming a resident and a digital address. Neither version carries a parent's date or place of birth. Do not promise otherwise.
 - **Certified / sworn translation** - Israel uses notarial translations; some destinations (Czech soudni tlumocnik, Romania, Poland) require a sworn/court translator registered in that country, so an Israeli notarial translation may not be accepted in-country. Translations often need their own apostille.
 - **Hebrew to Latin transliteration mismatches** - inconsistent name spelling across generations/documents is a top failure point; usually fixed with a notarised same-person / name-equivalence affidavit.
-- **Dual-citizenship implications for Israelis** - (a) IDF service is unaffected; Israeli citizens incl. duals remain liable; non-residents and those who served in another army may get deferral/exemption; file military-status determination at ~16y4m. (b) Israeli tax residency uses the centre-of-life / 183-day test; a foreign passport does not change Israeli worldwide-income exposure. (c) Must enter and exit Israel on the Israeli passport.
+- **Dual-citizenship implications for Israelis** - (a) IDF service is unaffected; Israeli citizens incl. duals remain liable; non-residents and those who served in another army may get deferral/exemption; file military-status determination at ~16y4m. (b) Israeli tax residency uses the centre-of-life / 183-day test; a foreign passport does not change Israeli worldwide-income exposure. (c) The statutory duty to enter and exit Israel on an Israeli passport is currently SUSPENDED, not repealed: PIBA announced on 17.02.2026 an extension of the foreign-passport concession to 30.09.2026. The expired-passport / ETA requirement is an airline CHECK-IN rule, not a border rule. Re-verify the date, it has moved before.
 
 ---
 
@@ -72,8 +79,24 @@
 - https://telaviv.mfa.gov.hu/en/egyszerusitett-honositas - Hungary simplified naturalization + language interview.
 - https://mzv.gov.cz/losangeles/en/consular_information/czech_citizenship_and_vital_records/children_and_grandchildren_of_former.html - Czech §31(3).
 - https://www.gov.il/en/service/summaryinfofromthepopulationregistrylisting - Israeli population-registry extract (tamtzit rishum).
-- https://www.gov.il/en/pages/news-exit-foriegn-passport-2025 - Israeli rule on entering/exiting Israel with a foreign passport (must present the Israeli passport or an ETA).
-- Romania ANC (cetatenie.just.ro) + Monitorul Oficial - March 2025 Law 21/1991 amendment. UNVERIFIED scope.
-- Portuguese communities CIL (Lisbon) / CIP (Porto) + the 12th nationality-law amendment (2024-04-01) - confirm residency requirement.
+- https://www.gov.il/he/pages/news-exit-with-foriegn-passport-300926 - PIBA extension of the foreign-passport concession to 30.09.2026, published 17.02.2026.
+- https://www.gov.il/he/pages/summary_info_procedure - PIBA procedure 2.17.0001, the authoritative field list for the standard and extended registry extract.
+- https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf - Portugal, Lei Organica n.o 1/2026 repealing the Sephardic route.
+- https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg - Italy, DL 36/2025 coordinated with Legge 74/2025, text of Art. 3-bis.
+- https://cetatenie.just.ro/articolul-11-2/ - Romania, art. 11 requirements including the B1 condition.
+- https://cetatenie.just.ro/category/anunturi/ - Romania, two-year window to 14.03.2027 after OUG 16/2026.
+- https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie - Poland, przywrocenie is only for the person who personally lost citizenship before 1 January 1999.
+- https://www.gov.pl/web/mswia/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego - Poland, potwierdzenie, the descendant's route.
+- https://likumi.lv/ta/en/en/id/57512 - Latvia, Citizenship Law Section 8.1.
+- https://id.mitos.gov.gr/338062 - Greece, Holocaust-victim restoration procedure.
+- https://www.boe.es/buscar/act.php?id=BOE-A-2015-7045 - Spain, Ley 12/2015 filing window.
+- https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579 - Austria, consolidated 58c text.
+- https://www.gesetze-im-internet.de/stag/__5.html - Germany, 5 StAG including the ten-year declaration limit.
+- https://www.gesetze-im-internet.de/stag/__15.html - Germany, 15 StAG.
+- https://www.gesetze-im-internet.de/stag/__10.html - Germany, 10(3) StAG now reads (weggefallen).
+- https://www.gesetze-im-internet.de/stag/__12.html - Germany, 12 StAG repealed.
+- https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91 - Italy, Law 91/1992 consolidated.
+- https://cetatenie.just.ro/comunicat-privind-certificatele-de-competenta-lingvistica-acceptate-in-dosarele-de-cetatenie/ - Romania, accepted language-certificate issuers.
+- Romania ANC (cetatenie.just.ro) - Legea 14/2025 language condition, now VERIFIED.
 
-**Flagged UNVERIFIED - confirm before relying on:** Romania's March-2025 language requirement (scope/level); Hungary's exact ancestry-vs-language test; Bulgaria/Greece/Slovakia generational reach at statutory level; precise Israeli apostille authority split for translated documents.
+**Flagged UNVERIFIED - confirm before relying on:** Hungary's exact ancestry-vs-language test and its fee; Bulgaria / Greece (ordinary descent) / Slovakia / Lithuania generational reach at statutory level; the Cypriot December-2025 repeal report; Czech fee and decision deadline; every Israeli statutory fee figure; the Israeli electronic-apostille routing; precise Israeli apostille authority split for translated documents. None of these are stated as fact in SKILL.md.
