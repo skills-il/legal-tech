@@ -76,7 +76,7 @@ Source: Section 45a of the Income Tax Ordinance -- [Kolzchut: Zikui pensioni](ht
 ## Sources
 
 - [Kolzchut: Section 14](https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים)
-- [General Authorization text (Nevo)](https://www.nevo.co.il/law_html/law01/055_001.htm)
+- [General Authorization text (gov.il PDF)](https://www.gov.il/BlobFolder/policy/insurance-fund-instead-of-severance-pay/he/workers-rights_dismissal-and-termination-of-work_insurance-fund-instead-of-severance-pay_procedures_insurance-fund-instead-of-severance-pay.pdf)
 - [Kolzchut: Section 45a tax credit](https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני)
 - Severance Pay Law 1963, Section 14
 - Income Tax Ordinance, Section 45a

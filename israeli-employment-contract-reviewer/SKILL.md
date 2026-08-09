@@ -235,9 +235,9 @@ The skill works without these MCPs using the built-in reference tables, but the 
 |--------|-----|---------------|
 | Kolzchut: Hoda'at Mukdemet law | https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים | Statutory advance notice days by tenure |
 | Nevo: Prior Notice Law full text | https://www.nevo.co.il/law_html/law00/71704.htm | Official legal text |
-| Workrights.co.il: Advance notice rules | https://www.workrights.co.il/חוק_הודעה_מוקדמת | Practical guide |
+| Kolzchut: Overtime pay (gmul sha'ot nosafot) | https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות | 125% / 150% overtime rates and the 42-hour week |
 | Kolzchut: Section 14 of the Severance Pay Law | https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים | Section 14 waiver rules and 8.33% requirement |
-| CWS Israel: Employment contracts in Israel | https://www.cxcglobal.com/global-hiring-guide/israel/employment-contracts-in-israel/ | Contract structure and mandatory clauses |
+| Kolzchut: Non-compete clauses after employment ends | https://www.kolzchut.org.il/he/איסור_הגבלת_עובד_לעבוד_אצל_מעסיק_אחר_לאחר_סיום_עבודתו_%28הסכם_אי_תחרות%29 | When a non-compete clause is enforceable |
 | Bituach Leumi: For salaried workers rates | https://www.btl.gov.il/English%20Homepage/Insurance/Ratesandamount/Pages/forSalaried.aspx | National Insurance contribution rates |
 | Kolzchut: Mandatory pension insurance for employees | https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים | 18.5% total (6.5% + 6% + 6%) and the day-1 vs 6-month rule |
 | Kolzchut: Dmei havra'a (convalescence pay) | https://www.kolzchut.org.il/he/דמי_הבראה | 418 NIS/day rate, pending 451.5 increase, day count by seniority |

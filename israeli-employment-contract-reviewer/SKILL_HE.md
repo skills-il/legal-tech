@@ -235,9 +235,9 @@ compatibility: עובד עם Claude, Claude Code, ChatGPT, ו-Cursor. אופצי
 |------|-----|----------|
 | כל-זכות: חוק הודעה מוקדמת | https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים | ימי הודעה מוקדמת לפי ותק |
 | נבו: נוסח מלא של חוק הודעה מוקדמת | https://www.nevo.co.il/law_html/law00/71704.htm | טקסט משפטי רשמי |
-| workrights: כללי הודעה מוקדמת | https://www.workrights.co.il/חוק_הודעה_מוקדמת | מדריך מעשי |
+| כל-זכות: גמול עבור שעות נוספות | https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות | תעריפי 125% / 150% ושבוע עבודה של 42 שעות |
 | כל-זכות: סעיף 14 לחוק פיצויי פיטורים | https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים | כללי ויתור סעיף 14 ודרישת 8.33% |
-| CXC Global: חוזי העסקה בישראל | https://www.cxcglobal.com/global-hiring-guide/israel/employment-contracts-in-israel/ | מבנה חוזה וסעיפי חובה |
+| כל-זכות: הגבלת עיסוק לאחר סיום העבודה | https://www.kolzchut.org.il/he/איסור_הגבלת_עובד_לעבוד_אצל_מעסיק_אחר_לאחר_סיום_עבודתו_%28הסכם_אי_תחרות%29 | מתי סעיף אי-תחרות אכיף |
 | ביטוח לאומי: שיעורי דמי ביטוח לעובדים | https://www.btl.gov.il/English%20Homepage/Insurance/Ratesandamount/Pages/forSalaried.aspx | שיעורי הפרשות ביטוח לאומי |
 | כל-זכות: חובת ביטוח פנסיוני לעובדים | https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים | 18.5% בסך הכל (6.5% + 6% + 6%) וכלל היום הראשון מול 6 חודשים |
 | כל-זכות: דמי הבראה | https://www.kolzchut.org.il/he/דמי_הבראה | תעריף 418 ש"ח ליום, העלאה ל-451.5 בהמתנה, מספר ימים לפי ותק |
