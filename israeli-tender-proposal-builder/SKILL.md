@@ -201,7 +201,7 @@ Authoritative sources used to verify the facts in this skill:
 | Source | URL | What to check |
 |--------|-----|---------------|
 | תקנות חובת המכרזים, תשנ"ג-1993 (Nevo) | https://www.nevo.co.il/law_html/law01/242_002.htm | Current text of the regulations, including Takana 6 |
-| מכרז - ויקיפדיה | https://he.wikipedia.org/wiki/מכרז | Overview of Chok Chovat HaMichrazim scope, covered bodies, exemption categories |
+| חוק חובת המכרזים, תשנ"ב-1992 (Nevo) | https://www.nevo.co.il/law_html/law01/242_001.htm | Current text of the Mandatory Tenders Law, Section 2 covered bodies and the public-tender duty |
 | חוק חובת המכרזים (כל זכות) | https://www.kolzchut.org.il/he/חוק_חובת_המכרזים | Plain-language explanation of the Mandatory Tenders Law, covered bodies, and Takana 6 threshold conditions |
 | תקנות העדפת תוצרת הארץ, תשנ"ה-1995 (Nevo) | https://www.nevo.co.il/law_html/law00/72502.htm | Current text of the Israeli-product preference regulations and the 15% mechanism |
 | העדפת עסק בשליטת אישה (משרד עו"ד) | https://www.michrazim-law.co.il/woman-controlled-business-preference/ | Amendment 15 / Section 2B women-controlled-business tie-breaker, required affidavit + accountant certificate |

@@ -234,7 +234,6 @@ The skill works without these MCPs using the built-in reference tables, but the 
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | Kolzchut: Hoda'at Mukdemet law | https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים | Statutory advance notice days by tenure |
-| Wikipedia: Prior Notice of Dismissal and Resignation Law | https://he.wikipedia.org/wiki/חוק_הודעה_מוקדמת_לפיטורים_ולהתפטרות | Overview of the 2001 law |
 | Nevo: Prior Notice Law full text | https://www.nevo.co.il/law_html/law00/71704.htm | Official legal text |
 | Workrights.co.il: Advance notice rules | https://www.workrights.co.il/חוק_הודעה_מוקדמת | Practical guide |
 | Kolzchut: Section 14 of the Severance Pay Law | https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים | Section 14 waiver rules and 8.33% requirement |

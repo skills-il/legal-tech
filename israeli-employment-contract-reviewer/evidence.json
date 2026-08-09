@@ -9,7 +9,12 @@
       "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
       "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר על חשבון המעסיק (6.5% תגמולים ו-6% פיצויים).",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/red-flag-checklist.md", "scripts/contract_sanity_check.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md",
+        "scripts/contract_sanity_check.py"
+      ]
     },
     {
       "claim_id": "pension-waiting-6-months",
@@ -17,7 +22,10 @@
       "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
       "raw_snippet": "אם בעובד היה ביטוח פנסיוני לפני תחילת ההעסקה הוא יהיה זכאי להפרשות לביטוח פנסיוני כבר מיומו הראשון בעבודה. במקרה שהעובד לא היה מבוטח בביטוח פנסיוני לפני תחילת עבודתו, הוא יהיה זכאי לביטוח הפנסיוני רק לאחר שחלפו 6 חודשים. ההפרשות מתבצעות רטרואקטיבית לאחר 3 חודשי עבודה או בתום שנת המס, המוקדם מביניהם.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "section-14-8.33",
@@ -25,7 +33,12 @@
       "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
       "raw_snippet": "הסדר לפי סעיף 14 לחוק פיצויי פיטורים: המעסיק מפריש לקופת הפיצויים 8.33% מהשכר (חלק ה-1/12), ובכך ההפרשות באות במקום פיצויי הפיטורים. כדי שההסדר יחליף את מלוא פיצויי הפיטורים, רכיב הפיצויים חייב להיות 8.33%.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/section-14-trap-guide.md", "references/red-flag-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md",
+        "references/red-flag-checklist.md"
+      ]
     },
     {
       "claim_id": "section-45a-credit",
@@ -33,7 +46,9 @@
       "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
       "raw_snippet": "זכאי לזיכוי ממס הכנסה בשיעור 35% מתוך הסכומים שהפריש, ובלבד שהסכומים שהפריש העובד לפנסיה לא עולים על 7% משכרו. התקרה לשנת 2026 היא 8,148 ₪ לשנה (בממוצע 679 ₪ לחודש). הזיכוי לפי סעיף 45א נבדל מהניכוי לפי סעיף 47.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["references/section-14-trap-guide.md"]
+      "appears_in": [
+        "references/section-14-trap-guide.md"
+      ]
     },
     {
       "claim_id": "keren-hishtalmut-7.5-2.5",
@@ -41,7 +56,13 @@
       "source_url": "https://www.kolzchut.org.il/he/קרן_השתלמות",
       "raw_snippet": "הפרשות המעסיק לא עולות על 7.5% מהשכר הקובע. הסכום המקסימלי שיוכל העובד להפריש מדי חודש הוא 350 ש\"ח (2.5% מהשכר).",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/standard-negotiation-language.md", "references/red-flag-checklist.md", "scripts/contract_sanity_check.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/standard-negotiation-language.md",
+        "references/red-flag-checklist.md",
+        "scripts/contract_sanity_check.py"
+      ]
     },
     {
       "claim_id": "havra-rates-418-451.5",
@@ -49,7 +70,10 @@
       "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
       "raw_snippet": "דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח ליום. נחתם הסכם לעדכון תעריף דמי ההבראה לעובדים במגזר הפרטי לסכום של 451.5 ש\"ח אך טרם נחתם צו הרחבה. מספר ימי ההבראה לפי ותק: בשנה הראשונה 5 ימים, ומ-20 שנות ותק ומעלה 10 ימים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "min-wage-monthly-6443.85",
@@ -57,7 +81,10 @@
       "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
       "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "min-wage-hourly-35.40-34.64",
@@ -65,7 +92,10 @@
       "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/שכר מינימום.aspx",
       "raw_snippet": "שכר לשעה בהיקף של 186 שעות בחודש: 34.64 ש\"ח (החל ב- 01.04.2026). שכר לשעה בהיקף של 182 שעות בחודש: 35.40 ש\"ח (החל ב- 01.04.2026). שכר חודשי: 6,443.85 ש\"ח (החל ב- 01.04.2026).",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "notice-hourly-schedule",
@@ -73,7 +103,10 @@
       "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
       "raw_snippet": "עובד בעל ותק של עד שנה זכאי ליום הודעה מוקדמת בגין כל חודש עבודה. עובד במהלך שנת עבודתו השנייה זכאי לתקופת הודעה מוקדמת של 14 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השנייה. עובד בשנת עבודתו השלישית זכאי ל-21 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השלישית. עובד בעל ותק של 3 שנים ומעלה זכאי להודעה מוקדמת של חודש ימים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["references/hoda-at-mukdemet-table.md", "scripts/contract_sanity_check.py"]
+      "appears_in": [
+        "references/hoda-at-mukdemet-table.md",
+        "scripts/contract_sanity_check.py"
+      ]
     },
     {
       "claim_id": "notice-monthly-schedule-30",
@@ -81,7 +114,12 @@
       "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
       "raw_snippet": "עובד במשכורת (חודשי): בששת חודשי העבודה הראשונים - יום הודעה מוקדמת בגין כל חודש עבודה; מהחודש השביעי - 6 ימים בתוספת יומיים וחצי (2.5) בגין כל חודש; לאחר שנת עבודה ראשונה - הודעה מוקדמת של חודש ימים (30 ימים קלנדריים).",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hoda-at-mukdemet-table.md", "scripts/contract_sanity_check.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/hoda-at-mukdemet-table.md",
+        "scripts/contract_sanity_check.py"
+      ]
     },
     {
       "claim_id": "overtime-125-150-42",
@@ -89,7 +127,10 @@
       "source_url": "https://www.kolzchut.org.il/he/שעות_נוספות",
       "raw_snippet": "שבוע עבודה רגיל הוא 42 שעות. עבור שעתיים נוספות ראשונות ביום משולם 125% מהשכר הרגיל, ומהשעה השלישית ואילך 150%.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "notice-to-employee-disclosures",
@@ -97,7 +138,11 @@
       "source_url": "https://www.kolzchut.org.il/he/הודעה_על_תנאי_העבודה",
       "raw_snippet": "ההודעה צריכה לכלול: זהות המעסיק וזהות העובד; תאריך תחילת העבודה; סך כל התשלומים המשתלמים לעובד כשכר עבודה ומועדי תשלום השכר; הבסיס שלפיו משולם השכר (משכורת חודשית, שכר שעה, שכר שבוע, שכר תוצרת); אורכו של יום העבודה הרגיל; יום המנוחה השבועי; תנאים סוציאליים (קופת גמל) ולאלו גופים הם מועברים; צו הרחבה או הסכם קיבוצי החלים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/notice-to-employee-disclosures.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/notice-to-employee-disclosures.md"
+      ]
     },
     {
       "claim_id": "non-compete-checkpoint",
@@ -105,7 +150,11 @@
       "source_url": "https://www.kolzchut.org.il/he/איסור_הגבלת_עובד_לעבוד_אצל_מעסיק_אחר_לאחר_סיום_עבודתו_(הסכם_אי_תחרות)",
       "raw_snippet": "סעיף בחוזה עבודה המגביל את חופש העיסוק של העובד תקף רק בנסיבות מיוחדות, כגון שימוש בסוד מסחרי הפוגע בעסקי המעסיק, הכשרה מיוחדת המצדיקה תקופת העסקה מינימלית, או תמורה מיוחדת שקיבל העובד תמורת ההגבלה.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/red-flag-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ]
     },
     {
       "claim_id": "section-14-example-math",
@@ -113,7 +162,11 @@
       "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
       "raw_snippet": "פיצויי פיטורים סטטוטוריים = משכורת חודש אחד לכל שנת עבודה. דוגמה: 5 שנים בשכר 20,000 ש\"ח = 100,000 ש\"ח. כאשר ויתור סעיף 14 חל על הבסיס בלבד (20,000) ולא על תוספת קבועה (4,000 או 5,000), העובד מאבד את ערך הפיצויים של התוספת: 20,000 * 8.33% = 1,666; ההפרש על שכר מלא 25,000 לאורך 5 שנים = 5 * 12 * 416.50 = 24,990 ש\"ח. שכר 12,000 בסיס בתוספת 4,000 ממחיש את אותה מלכודת.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/section-14-trap-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md"
+      ]
     },
     {
       "claim_id": "salary-clarity-example",
@@ -121,7 +174,11 @@
       "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
       "raw_snippet": "שכר ברוטו לדוגמה: 15,000 ש\"ח לחודש, שממנו ינוכו ניכויי חובה (מס הכנסה, ביטוח לאומי, מס בריאות). אי-בהירות בין ברוטו לנטו עלולה לעלות לעובד 30% ויותר בניכויים לא צפויים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/standard-negotiation-language.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/standard-negotiation-language.md"
+      ]
     },
     {
       "claim_id": "non-compete-comp-100-discretionary-bonus",
@@ -129,15 +186,22 @@
       "source_url": "https://www.kolzchut.org.il/he/איסור_הגבלת_עובד_לעבוד_אצל_מעסיק_אחר_לאחר_סיום_עבודתו_(הסכם_אי_תחרות)",
       "raw_snippet": "תניית אי-תחרות תיחשב סבירה רק אם ניתנה לעובד תמורה מיוחדת בעדה, למשל פיצוי בגובה 100% מהשכר במהלך תקופת ההגבלה. ערך קרן השתלמות מוערך בכ-10% מהשכר. בונוס שהוצג כ-20% מהשכר השנתי ראוי שיומר לבונוס נוסחתי עם רכיב בסיס של 50%.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/standard-negotiation-language.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/standard-negotiation-language.md"
+      ]
     },
     {
       "claim_id": "url-wikipedia-prior-notice",
-      "claim": "Hebrew Wikipedia overview of the Prior Notice of Dismissal and Resignation Law 2001.",
-      "source_url": "https://he.wikipedia.org/wiki/חוק_הודעה_מוקדמת_לפיטורים_ולהתפטרות",
-      "raw_snippet": "חוק הודעה מוקדמת לפיטורים ולהתפטרות, התשס\"א-2001, קובע את תקופות ההודעה המוקדמת שעל מעסיק ועובד למסור זה לזה לפני סיום יחסי העבודה.",
-      "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "Reference link: the Prior Notice of Dismissal and Resignation Law 5761-2001 requires an employer who wishes to dismiss an employee to give prior notice, and an employee who wishes to resign to give prior notice, in writing.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71704.htm",
+      "raw_snippet": "מעסיק המבקש לפטר עובד ייתן לו הודעה מוקדמת לפיטורים, לפי הוראות חוק זה. עובד המבקש להתפטר מעבודתו ייתן למעסיקו הודעה מוקדמת להתפטרות, לפי הוראות חוק זה.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-btl-salaried-rates",
@@ -145,7 +209,10 @@
       "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/Ratesandamount/Pages/forSalaried.aspx",
       "raw_snippet": "National Insurance Institute - rates and amounts for salaried employees (employer and employee insurance contribution rates).",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-cxc-employment-contracts",
@@ -153,7 +220,10 @@
       "source_url": "https://www.cxcglobal.com/global-hiring-guide/israel/employment-contracts-in-israel/",
       "raw_snippet": "Employment contracts in Israel: an employment contract should set out the role, salary and components, working hours, notice period, pension and severance arrangements, and is governed by Israeli labor law.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-havra",
@@ -161,7 +231,10 @@
       "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
       "raw_snippet": "דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח ליום. מספר ימי ההבראה נקבע לפי ותק.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-prior-notice",
@@ -169,7 +242,11 @@
       "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
       "raw_snippet": "הודעה מוקדמת לפיטורים - תקופת ההודעה נקבעת לפי ותק וסוג העובד (חודשי או שעתי/יומי); הספירה היא לפי ימים קלנדריים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hoda-at-mukdemet-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/hoda-at-mukdemet-table.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-notice-to-employee",
@@ -177,7 +254,11 @@
       "source_url": "https://www.kolzchut.org.il/he/הודעה_על_תנאי_העבודה",
       "raw_snippet": "הודעה על תנאי העבודה - כל מעסיק מחויב למסור לעובד הודעה בכתב המפרטת את תנאי העבודה, לרבות שכר, תנאים סוציאליים, שעות העבודה ויום המנוחה השבועי.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/notice-to-employee-disclosures.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/notice-to-employee-disclosures.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-45a",
@@ -185,7 +266,9 @@
       "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
       "raw_snippet": "זיכוי ממס הכנסה בגין הפרשות לביטוח פנסיוני - שיעור הזיכוי 35% מההפרשה עד לתקרה שנתית, לפי סעיף 45א לפקודת מס הכנסה.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["references/section-14-trap-guide.md"]
+      "appears_in": [
+        "references/section-14-trap-guide.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-pension-obligation",
@@ -193,7 +276,10 @@
       "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
       "raw_snippet": "חובת ביטוח פנסיוני לעובדים - שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר על חשבון המעסיק.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-section-14",
@@ -201,7 +287,11 @@
       "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
       "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים - הסדר שבו הפרשות המעסיק לקופת הפיצויים (8.33% מהשכר) באות במקום פיצויי פיטורים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/section-14-trap-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md"
+      ]
     },
     {
       "claim_id": "url-kolzchut-min-wage",
@@ -209,7 +299,10 @@
       "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
       "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה, 35.40 ₪ לשעה.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-nevo-prior-notice",
@@ -217,7 +310,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/71704.htm",
       "raw_snippet": "חוק הודעה מוקדמת לפיטורים ולהתפטרות, התשס\"א-2001 - נוסח החוק המלא.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "url-nevo-general-authorization",
@@ -225,7 +321,9 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/055_001.htm",
       "raw_snippet": "אישור כללי בדבר תשלומי מעבידים לקרן פנסיה ולקופת ביטוח במקום פיצויי פיטורים לפי סעיף 14 לחוק פיצויי פיטורים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["references/section-14-trap-guide.md"]
+      "appears_in": [
+        "references/section-14-trap-guide.md"
+      ]
     },
     {
       "claim_id": "url-workrights-prior-notice",
@@ -233,7 +331,10 @@
       "source_url": "https://www.workrights.co.il/חוק_הודעה_מוקדמת",
       "raw_snippet": "חוק הודעה מוקדמת לפיטורים ולהתפטרות - מדריך מעשי לתקופות ההודעה המוקדמת לפי ותק.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "illegal-deductions-s25-25pct",
@@ -241,7 +342,11 @@
       "source_url": "https://www.kolzchut.org.il/he/ניכויים_משכר_העובד",
       "raw_snippet": "בתנאי שהסכום שינוכה משכר העובד על חשבון החוב לא יהיה גבוה מרבע מהשכר. למעסיק אסור להטיל קנסות על דעת עצמו. החוק אינו מתיר ניכוי משכר העובד בשל תשלום ששילם המעסיק לעובד בטעות. המקור: חוק הגנת השכר, סעיף 25.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/red-flag-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ]
     },
     {
       "claim_id": "women-employment-law-heter",
@@ -249,7 +354,11 @@
       "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_בהיריון",
       "raw_snippet": "אסור למעסיק לפטר עובדת בהיריון מכל סיבה שהיא אלא בהיתר מאת הממונה על חוק עבודת נשים. אם העובדת מועסקת לפחות 6 חודשים אצל אותו מעסיק או באותו מקום עבודה, אסור לפטר אותה מכל סיבה שהיא אלא אם ניתן היתר. המקור: חוק עבודת נשים, התשי\"ד-1954, סעיף 9(א).",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/red-flag-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ]
     },
     {
       "claim_id": "payslip-amendment-24",
@@ -257,7 +366,11 @@
       "source_url": "https://www.kolzchut.org.il/he/תלוש_שכר",
       "raw_snippet": "מעסיק מחויב למסור לעובדיו תלוש שכר עם פרטי השכר ששילם להם, הכולל את כל רכיבי השכר והניכויים, לכל המאוחר עד היום התשיעי שלאחר מועד תשלום השכר. החובה נקבעה בתיקון 24 לחוק הגנת השכר משנת 2008 (סעיף 24). תלוש שכר מפורט מאפשר לעובד לוודא שלא בוצעו ניכויים לא חוקיים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/red-flag-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ]
     },
     {
       "claim_id": "annual-leave-12-days",
@@ -265,7 +378,11 @@
       "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_5_ימים",
       "raw_snippet": "מספר ימי הזכאות נטו לעובד בשבוע עבודה של 5 ימים: שנים 1-4: 12 ימים; 5 שנים: 12 ימים; 6-8 שנים: 17 ימים; 9 שנים ומעלה: 23 ימים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/domain-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "sick-leave-1.5-18",
@@ -273,7 +390,12 @@
       "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
       "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה). על יום ההיעדרות הראשון העובדים לא זכאים לתשלום. על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50%. מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/red-flag-checklist.md", "references/domain-checklist.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
       "claim_id": "patents-service-inventions-132-134",
@@ -281,7 +403,10 @@
       "source_url": "https://www.osegal-law.co.il/המצאת-שירות",
       "raw_snippet": "סעיף 132 לחוק הפטנטים התשכ\"ז-1967: אמצאה של עובד, שהגיע אליה עקב שירותו ובתקופת שירותו (אמצאת שירות), תקום לקנין מעבידו, אם אין ביניהם הסכם אחר לענין זה. סעיף 134 קובע את זכאות העובד לתמורה בעד אמצאת שירות, שתיקבע על ידי הוועדה לענייני פיצויים ותגמולים.",
       "fetched_at": "2026-06-25",
-      "appears_in": ["references/domain-checklist.md", "references/standard-negotiation-language.md"]
+      "appears_in": [
+        "references/domain-checklist.md",
+        "references/standard-negotiation-language.md"
+      ]
     }
   ]
 }

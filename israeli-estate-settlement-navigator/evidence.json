@@ -77,12 +77,16 @@
     },
     {
       "id": "civil-burial-right",
-      "claim": "Alternative civil burial (קבורה אזרחית חלופית) is a legal right in Israel under the Right to Alternative Civil Burial Law, 5756-1996, and is offered by dedicated societies such as Menucha Nechona.",
+      "claim": "Alternative civil burial is a statutory right in Israel: under the Right to Alternative Civil Burial Law 5756-1996, a person is entitled to be buried according to his own worldview in an alternative civil cemetery if he so chose, and such a cemetery is managed by a licensed burial corporation.",
       "claim_type": "law",
-      "source_url": "https://he.wikipedia.org/wiki/מנוחה_נכונה_(עמותה)",
-      "source_fetched_at": "2026-07-07T00:00:00Z",
-      "raw_snippet": "סוגיית הקבורה האזרחית החלופית קבועה בחוק הזכות לקבורה אזרחית חלופית, התשנ\"ו-1996, ולפיו קבורה אזרחית מיועדת לנפטרים יהודים החפצים בקבורה על-פי השקפת עולמם",
-      "confidence": "medium"
+      "source_url": "https://www.nevo.co.il/law_html/Law01/p200m3_001.htm",
+      "source_fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אדם זכאי להיקבר על פי השקפתו בבית עלמין אזרחי חלופי אם בחר בכך; הבחירה יכול שתהיה בצוואה או בכל דרך אחרת.",
+      "confidence": "medium",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "id": "misrad-hapnim-auto-notify",

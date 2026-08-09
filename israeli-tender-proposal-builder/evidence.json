@@ -9,7 +9,12 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
       "raw_snippet": "תקנות חובת המכרזים, תשנ\"ג-1993 ... תקנה 6 ... השתתפות במכרז תהיה מותנית בתנאים הבאים: רישום בכל מירשם המתנהל על פי דין...וכן קיומם של הרשיונות הנדרשים על פי דין",
       "fetched_at": "2026-06-26T00:05:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/threshold-conditions.md", "metadata.json"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/threshold-conditions.md",
+        "metadata.json"
+      ]
     },
     {
       "claim_id": "chok-5752-1992-covered-bodies",
@@ -17,7 +22,11 @@
       "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
       "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
       "fetched_at": "2026-06-26T00:06:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "metadata.json"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "metadata.json"
+      ]
     },
     {
       "claim_id": "israeli-product-preference-15pct",
@@ -25,7 +34,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
       "raw_snippet": "תינתן העדפה...להצעות לרכישת טובין מתוצרת הארץ שמחירם אינו עולה על מחיר הצעות לרכישת טובין מיובאים בתוספת של 15% ... מחיר ההצעה של טובין מתוצרת הארץ מחולק ב-1.15",
       "fetched_at": "2026-06-26T00:06:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "women-controlled-preference-amendment15",
@@ -33,7 +45,10 @@
       "source_url": "https://www.michrazim-law.co.il/woman-controlled-business-preference/",
       "raw_snippet": "כאשר לאחר שקלול התוצאות קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של עסק בשליטת אישה, תיבחר ההצעה האמורה כזוכה במכרז, ובלבד שצורף לה אישור ותצהיר. ... אישור הוא אישור של רואה חשבון כי בעסק מסוים אישה מחזיקה בשליטה ... תצהיר הוא תצהיר של מחזיקה בשליטה שהעסק הוא בשליטת אישה",
       "fetched_at": "2026-06-26T00:07:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reserve-preference-amendment26-50pct-20days",
@@ -41,7 +56,10 @@
       "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
       "raw_snippet": "לפחות 50% מהמציע מוחזק על ידי משרת מילואים פעיל ... משרת המילואים שירת במילואים במשך 20 ימים לפחות במהלך 12 החודשים שקדמו ... במקרה בו מתקבלות מספר הצעות מיטביות עם ניקוד זהה, יזכה במכרז עסק המוחזק בידי משרת מילואים",
       "fetched_at": "2026-06-26T00:07:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reserve-preference-enacted-5-11-2024",
@@ -49,7 +67,10 @@
       "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
       "raw_snippet": "ביום 5.11.2024 אישרה הכנסת את תיקון מס' 26",
       "fetched_at": "2026-06-26T00:07:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reserve-preference-supplements-amendment15",
@@ -57,7 +78,10 @@
       "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
       "raw_snippet": "תיקון זה מתווסף לתיקון מס' 15, שחוקק בשנת 2002, במסגרתו נקבעה העדפה במתכונת דומה לעסקים הנשלטים על ידי נשים",
       "fetched_at": "2026-06-26T00:07:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mr-gov-il-procurement-portal-yahalom",
@@ -65,7 +89,10 @@
       "source_url": "https://www.mr.gov.il/",
       "raw_snippet": "מערכת יהלום המשודרגת גם הליך מקוצר וגם תיבה דיגיטלית במקום אחד",
       "fetched_at": "2026-06-26T00:04:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-nevo-takanot",
@@ -73,7 +100,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
       "raw_snippet": "תקנות חובת המכרזים, תשנ\"ג-1993",
       "fetched_at": "2026-06-26T00:05:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-nevo-product-preference",
@@ -81,7 +111,10 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
       "raw_snippet": "תקנות חובת המכרזים (העדפת תוצרת הארץ), תשנ\"ה-1995",
       "fetched_at": "2026-06-26T00:06:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-kolzchut-law",
@@ -89,7 +122,10 @@
       "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
       "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
       "fetched_at": "2026-06-26T00:06:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-michrazim-law-women",
@@ -97,7 +133,10 @@
       "source_url": "https://www.michrazim-law.co.il/woman-controlled-business-preference/",
       "raw_snippet": "כאשר לאחר שקלול התוצאות קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של עסק בשליטת אישה, תיבחר ההצעה האמורה כזוכה במכרז, ובלבד שצורף לה אישור ותצהיר",
       "fetched_at": "2026-06-26T00:07:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-sfa-amendment26",
@@ -105,7 +144,10 @@
       "source_url": "https://www.sfa.law/עדכון-לקוחות-תיקון-מס-26-לחוק-חובת-מכרזי/",
       "raw_snippet": "ביום 5.11.2024 אישרה הכנסת את תיקון מס' 26 ... לפחות 50% מהמציע מוחזק על ידי משרת מילואים פעיל ... 20 ימים לפחות במהלך 12 החודשים שקדמו",
       "fetched_at": "2026-06-26T00:07:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-mr-gov-il-portal",
@@ -113,15 +155,21 @@
       "source_url": "https://www.mr.gov.il/",
       "raw_snippet": "מערכת יהלום המשודרגת גם הליך מקוצר וגם תיבה דיגיטלית במקום אחד",
       "fetched_at": "2026-06-26T00:04:30Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-wikipedia-michraz",
-      "claim": "Reference link: Hebrew Wikipedia article on מכרז resolves and explains Chok Chovat HaMichrazim scope and covered bodies.",
-      "source_url": "https://he.wikipedia.org/wiki/מכרז",
-      "raw_snippet": "החובה מוטלת עליהם מכוח חוק חובת מכרזים, התשנ\"ב-1992 והתקנות שהותקנו על פיו.",
-      "fetched_at": "2026-06-26T00:12:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "Reference link: under the Mandatory Tenders Law 5752-1992, Section 2(a), the State, every government corporation, religious council, health fund and higher-education institution may not enter into a contract for a transaction in goods or land, for the performance of work, or for the purchase of services, other than through a public tender giving every person an equal opportunity to participate.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "המדינה, כל תאגיד ממשלתי, מועצה דתית, קופת חולים ומוסד להשכלה גבוהה לא יתקשרו בחוזה לביצוע עיסקה בטובין או במקרקעין, או לביצוע עבודה, או לרכישת שירותים, אלא על-פי מכרז פומבי הנותן לכל אדם הזדמנות שווה להשתתף בו.",
+      "fetched_at": "2026-08-09T00:12:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "bid-guarantee-autonomous-norms",
@@ -129,7 +177,11 @@
       "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
       "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
       "fetched_at": "2026-06-26T00:06:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/mandatory-declarations.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-declarations.md"
+      ]
     }
   ]
 }
