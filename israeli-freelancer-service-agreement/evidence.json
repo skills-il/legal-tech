@@ -294,12 +294,21 @@
       "confidence": "high"
     },
     {
-      "id": "vat-zero-rate-foreign-resident",
-      "claim": "סעיף 30 of חוק מס ערך מוסף sets VAT at a zero rate on a service supplied to a foreign resident, subject to exceptions. The benefit is DENIED where the subject of the engagement is that the service is in fact supplied, in addition to the foreign resident, also to an Israeli resident in Israel; a single Israeli beneficiary defeats it. It is therefore not automatic for a freelancer billing a foreign parent company.",
+      "id": "vat-zero-rate-foreign-resident-a",
+      "claim": "סעיף 30(א)(5) of חוק מס ערך מוסף sets VAT at a zero rate on a service supplied to a foreign resident, subject to exceptions set out in it.",
       "claim_type": "law",
       "source_url": "https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law",
-      "source_fetched_at": "2026-08-02",
-      "raw_snippet": "בשיעור אפס על מתן שירות לתושב חוץ, פרט לחריגים שנקבעו בו ... לא תחול ההטבה של מס בשיעור אפס",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "בשיעור אפס על מתן שירות לתושב חוץ, פרט לחריגים שנקבעו בו.",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-zero-rate-foreign-resident-b",
+      "claim": "The zero-rate benefit is DENIED where the service is in fact supplied, in addition to the foreign resident, also to an Israeli resident in Israel; a single Israeli beneficiary defeats it. It is therefore not automatic for a freelancer billing a foreign parent company.",
+      "claim_type": "law",
+      "source_url": "https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "משמעות הדברים היא שכאשר השירות ניתן הן לתושב חוץ והן לתושב ישראלי בישראל, לא תחול ההטבה של מס בשיעור אפס.",
       "confidence": "high"
     }
   ]
