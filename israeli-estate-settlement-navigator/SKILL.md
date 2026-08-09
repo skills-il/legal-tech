@@ -6,6 +6,13 @@ license: MIT
 
 # Israeli Estate Settlement Navigator
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+
+Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 When someone dies in Israel, the family is grieving and, at the same time, is handed a maze of offices, forms, and phone numbers with no map. People visit the bank before they have the certified copies they need, wait months for a survivor allowance they were never told they had to actively claim, and pay for things the state already covers. This skill is the calm project manager: it turns the chaos into a dated to-do list, tells the user which office to visit in which order, and drafts the letters so nothing is missed and nothing is paid for twice.

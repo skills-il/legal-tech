@@ -8,6 +8,13 @@ compatibility: Works with Claude, Claude Code, ChatGPT, Cursor. Optional pairing
 
 # Israeli Employment Contract Reviewer
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+
+Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+
+
 ## Problem
 Israeli employees routinely sign employment contracts with clauses that are either illegal under Israeli labor law or that quietly transfer risk from the employer to them. The most expensive traps (a Section 14 waiver without a proper salary clause, hoda'at mukdemet below the statutory minimum, missing pension from day 1, an unenforceable non-compete the employee later feels bound by) can cost tens of thousands of shekels over a career. This skill scans a contract before signing, flags every red flag with a specific Israeli labor law citation, and generates a negotiating points memo the employee can take back to the employer. It is the defensive counterpart to contract generation.
 
