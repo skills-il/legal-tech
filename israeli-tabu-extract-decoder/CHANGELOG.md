@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 (2026-08-11)
+
+- Added the missing `SKILL_HE.md`. The initial release shipped without it, so the sync pipeline fell back to the English body for `content_he` and the entire Hebrew page, including the legal notice, rendered in English. The Hebrew companion is now a full translation with the notice under `## הבהרה משפטית` immediately after the H1, which is what the site's legal-notice component looks for.
+
 ## 1.0.0 (2026-08-11)
 
 Initial release.
