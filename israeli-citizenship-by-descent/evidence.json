@@ -618,35 +618,37 @@
     },
     {
       "claim_id": "israel-registry-extract-standard-fields",
-      "claim": "Under PIBA procedure 2.17.0001 the standard population-registry extract lists the subject's family name, given name, identity number, PARENTS' NAMES, sex, nationality, personal status, country and locality of birth, date of birth, current address and date of entry to Israel. The date-of-birth and place-of-birth fields are the subject's own, not the parents'.",
+      "claim": "Under PIBA procedure 2.17.0001 the standard population-registry extract lists given name, identity number, parents' names, sex, nationality, personal status, country and locality of birth, date of birth, current address and date of entry to Israel (aliyah date).",
       "claim_type": "feature",
-      "source_url": "https://www.gov.il/he/pages/summary_info_procedure",
-      "fetched_at": "2026-08-09T02:50:30Z",
+      "source_url": "https://www.gov.il/BlobFolder/policy/summary_info_procedure/he/2.17.0001_2022.pdf",
+      "fetched_at": "2026-08-11",
       "raw_snippet": "4.3.2 שם פרטי. 4.3.3 מספר הזהות. 4.3.4 שמות הורים. 4.3.5 מין. 4.3.6 הלאום. 4.3.7 המצב האישי. 4.3.8 מקום לידה ארץ וישוב. 4.3.9 תאריך לידה. 4.3.10 המען העדכני. 4.3.11 תאריך הכניסה לישראל (תאריך עלייה).",
       "confidence": "high",
       "verified_via": "pdf",
-      "verified_at": "2026-08-09",
+      "verified_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "israel-registry-extract-extended-fields",
-      "claim": "The extended Israeli registry extract adds previous addresses, previous names, personal-status date, spouse's name, children's names with their dates of birth and sex, religion, mailing addresses, the date the person became a resident and a digital address. It still does not carry a parent's date or place of birth.",
+      "claim": "The extended Israeli registry extract may add previous addresses, previous names, personal-status date, spouse's name, children's names with dates of birth and sex, religion, mailing addresses, the date the person became a resident, and a digital address.",
       "claim_type": "feature",
-      "source_url": "https://www.gov.il/he/pages/summary_info_procedure",
-      "fetched_at": "2026-08-09T02:50:30Z",
-      "raw_snippet": "4.4 להלן פרטי המרשם אשר ניתן להוסיף בתמצית רישום מורחבת ... 4.4.1 מענים קודמים. 4.4.2 שמות קודמים. 4.4.3 תאריך מצב אישי. 4.4.4 שם בן הזוג 4.4.5 שמות הילדים, תאריכי לידתם ומינם. 4.4.6 דת. 4.4.7 כתובת למשלוח דואר. 4.4.8 כתובת נוספת למשלוח דואר לקטין. 4.4.9 התאריך שנהיה לתושב 4.4.10 מען דיגיטלי",
+      "source_url": "https://www.gov.il/BlobFolder/policy/summary_info_procedure/he/2.17.0001_2022.pdf",
+      "fetched_at": "2026-08-11",
+      "raw_snippet": "4.4\n\nלהלן פרטי המרשם אשר ניתן להוסיף בתמצית רישום מורחבת (ידנית או באמצעות המערכת הממוחשבת).\n4.4.1 מענים קודמים. 4.4.2 שמות קודמים. 4.4.3 תאריך מצב אישי. 4.4.4 שם בן הזוג\n4.4.5 שמות הילדים, תאריכי לידתם ומינם. 4.4.6 דת. 4.4.7 כתובת למשלוח דואר. 4.4.8 כתובת נוספת למשלוח דואר לקטין. 4.4.9 התאריך שנהיה לתושב\n4.4.10 מען דיגיטלי",
       "confidence": "high",
       "verified_via": "pdf",
-      "verified_at": "2026-08-09",
+      "verified_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "israel-population-registry-extract-order",
@@ -693,6 +695,18 @@
         "SKILL_HE.md",
         "references/domain-checklist.md"
       ]
+    },
+    {
+      "claim_id": "piba-summary-procedure-page",
+      "claim": "PIBA procedure page \"נוהל הפקת תמצית רישום רגילה או מורחבת\" publishes the procedure for issuing a standard or extended registry extract.",
+      "claim_type": "reference",
+      "source_url": "https://www.gov.il/he/pages/summary_info_procedure",
+      "fetched_at": "2026-08-11",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "נוהל זה מטפל בהנפקת תמצית רישום הכוללת את הפרטים האישיים כפי שהם מופיעים במרשם האוכלוסין. מטרת הנוהל היא לקבוע שיטה לטיפול בבקשות השונות.",
+      "confidence": "high",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11T00:00:00Z"
     }
   ]
 }

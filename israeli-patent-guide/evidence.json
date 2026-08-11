@@ -21,8 +21,8 @@
       "claim_id": "ilpo-2026-filing-fee-and-reduction",
       "claim": "Item 1 of the 2026 notice sets the national filing fee covering the first 50 claims at NIS 2,402. A qualifying applicant pays 60% of the amount, that is NIS 1,441. Qualifying applicants are an applicant that is not a company and not a partnership, a company or partnership whose turnover in the preceding year did not exceed NIS 10 million, an institution recognised under section 9 of the Council for Higher Education Law 5718-1958, or a technology transfer company wholly owned by such an institution, and in each case only on a first patent application for a particular invention. The notice therefore grants a 40% reduction (pay 60%) on that item.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "עם הגשת בקשה לפטנט לפי סעיף (11א) לחוק בעד 50 התביעות הראשונות שבבקשה ,ואולם מבקש שאינו חברה ואינו שותפות ,או חברה או שותפות שמחזור עסקיה בשנה הקודמת לא עלה על  10מיליון שקלים חדשים ,או מוסד שהוכר לפי סעיף  9לחוק המועצה להשכלה גבוהה ,התשי\"ח( 1958-להלן  -חוק המועצה להשכלה גבוהה) או חברה למסחור טכנולוגיה שהיא בבעלות מלאה של מוסד כאמור ,אשר עיסוקה בהגנה ובניהול של הקניין הרוחני הנובע מאמצאות אשר פותחו באותו מוסד ,המגישים בעד אמצאה מסוימת בקשה ראשונה לפטנט ישלמו  60%מהסכום 2,402",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "עם הגשת בקשה לפטנט לפי סעיף (11א) לחוק בעד 50 .1 התביעות הראשונות שבבקשה ,ואולם מבקש שאינו חברה ואינו שותפות ,או חברה או שותפות שמחזור עסקיה בשנה הקודמת לא עלה על 10מיליון שקלים חדשים ,או מוסד שהוכר לפי סעיף 9לחוק המועצה להשכלה גבוהה ,התשי\"ח( 1958-להלן -חוק המועצה להשכלה גבוהה) או חברה למסחור טכנולוגיה שהיא בבעלות מלאה של מוסד כאמור ,אשר עיסוקה בהגנה ובניהול של הקניין הרוחני הנובע מאמצאות אשר פותחו באותו מוסד ,המגישים בעד אמצאה מסוימת 2,402 בקשה ראשונה לפטנט ישלמו 60%מהסכום",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -30,14 +30,14 @@
         "references/pct-israel-checklist.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-claim-and-page-supplements",
       "claim": "Items 2 to 5 of the 2026 notice set an additional filing fee of NIS 616 for each claim from the 51st claim, and NIS 300 for each 50 pages from page 101 onward with genetic sequences excluded from the page count, both for a national application and for an international application designating Israel. A 300-page specification therefore adds four blocks of 50 pages, NIS 1,200, on top of the filing fee.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "אגרת הגשה נוספת בעד כל תביעה שבבקשה לפטנט החל בתביעה ה51- 616 אגרת הגשה נוספת בעד כל  50עמודים שבבקשה לפטנט החל בעמוד ה ;101-במספר העמודים לא יימנו רצפים גנטיים 300",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אגרת הגשה נוספת בעד כל תביעה שבבקשה לפטנט .2 616 החל בתביעה ה51- אגרת הגשה נוספת בעד כל 50עמודים שבבקשה לפטנט .3 החל בעמוד ה ;101-במספר העמודים לא יימנו רצפים 300 גנטיים",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -45,49 +45,49 @@
         "references/pct-israel-checklist.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-accelerated-examination",
       "claim": "Item 8 of the 2026 notice sets accelerated examination fees by requester: an applicant request under section 19a(a)(3) to (6) costs NIS 357 plus NIS 834 for the on-the-spot examination, a total of NIS 1,191, while a third-party request under section 19a(c) costs NIS 11,910 plus NIS 5,955, a total of NIS 17,865.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "( )1עם הגשת בקשה לפי סעיף 19א(א)( )3עד ( )6לחוק 357 ( )2עם הגשת בקשה לפי סעיף 19א(ג) לחוק 11,910",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "(א) אגרת הגשת בקשה להקדמת בחינה של פטנט לפי .8 סעיף 19א(ד) לחוק – 357 ( )1עם הגשת בקשה לפי סעיף 19א(א)( )3עד ( )6לחוק 11,910 ( )2עם הגשת בקשה לפי סעיף 19א(ג) לחוק אגרה בעד בחינה על-אתר של בקשת פטנט לפי סעיף (ב) 19א(ה) לחוק – ( )1אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 834 19א(א)( )3עד ( )6לחוק ( )2אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 5,955 19א(ג) לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-onsite-exam-amounts",
       "claim": "The on-the-spot examination fee under item 8(b) is NIS 834 where the acceleration request was filed under section 19a(a)(3) to (6), and NIS 5,955 where it was filed under section 19a(c).",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "אגרה בעד בחינה על-אתר של בקשת פטנט לפי סעיף (ב) 19א(ה) לחוק – ( )1אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 19א(א)( )3עד ( )6לחוק 834",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אגרה בעד בחינה על-אתר של בקשת פטנט לפי סעיף (ב) 19א(ה) לחוק – ( )1אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 834 19א(א)( )3עד ( )6לחוק ( )2אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 5,955 19א(ג) לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-extension-of-time",
       "claim": "Item 9 of the 2026 notice charges NIS 240 for each month or part of a month when extending any deadline under sections 48d(c) and 164 of the Patents Law or under regulations 5(a) or 87(c). Extending a Section 18 response from 4 months to the 12-month ceiling is 8 months of extension, NIS 1,920.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "עם הגשת בקשה להארכת כל מועד ,לפי סעיפים 48ד(ג) ו 164-לחוק או בקשה לפי תקנות (5א) או (87ג) ,בעד כל חודש או חלק ממנו 240",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "עם הגשת בקשה להארכת כל מועד ,לפי סעיפים 48ד(ג) .9 ו 164-לחוק או בקשה לפי תקנות (5א) או (87ג) ,בעד כל 240 חודש או חלק ממנו",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-acceptance-fee",
@@ -107,22 +107,22 @@
       "claim_id": "ilpo-2026-inter-partes-and-restoration",
       "claim": "Item 11 of the 2026 notice charges NIS 2,402 for an inter partes proceeding under sections 25, 30, 61, 67, 73(c), 117, 124(b), 133 and 170(c) and regulations 81, 84, 98 and 195, and NIS 841 each for a request to be heard before the Registrar under section 159 or 161 or regulations 42 or 46(a), for an application to amend a specification under sections 29 or 65, and for an application to restore a lapsed patent under section 59.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "(ד) עם הגשת בקשה להחזרת תוקפו של פטנט לאחר פקיעתו לפי סעיף  59לחוק 841",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "(א) עם הגשת בקשה בקשר להליך על ריב ,לפי כל אחד .11 מהסעיפים (73 ,67 ,61 ,30 ,25ג)(124 ,117 ,ב) 133 ,ו- 2,402 (170ג) לחוק וכן תקנות 98 ,84 ,81ו195- (ב) עם הגשת בקשה להשמיע טענות לפני הרשם לפי סעיף 159או השגה לפי סעיף 161לחוק או לפי תקנה 841 42או (46א) (ג) עם הגשת בקשה לתיקון פירוט לפי סעיפים 29או 841 65לחוק (ד) עם הגשת בקשה להחזרת תוקפו של פטנט לאחר 841 פקיעתו לפי סעיף 59לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-renewal-bands",
       "claim": "Item 12 of the 2026 notice sets the renewal ladder, quoted in the skill's tables under the heading Full (2026, NIS): years 1 to 6, NIS 961, payable within three months of grant; years 7-10, NIS 1,921, due before the end of the sixth year; years 11-14, NIS 2,882, due before the end of the tenth year; years 15-18, NIS 4,803, due before the end of the fourteenth year; years 19-20, NIS 6,725, due before the end of the eighteenth year; and an all-inclusive renewal of NIS 14,410 payable within three months of grant that keeps the patent in force for its whole term. Paying band by band totals NIS 17,292, so the all-inclusive option saves NIS 2,882.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "( )1עם הגשת בקשת חידוש לפני תום שלושה חודשים מיום מתן הפטנט ,עד תום שש שנים מתאריך הבקשה לפטנט 961 ( )2עם הגשת בקשת חידוש לפני תום השנה השישית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע שנים 1,921 ( )3עם הגשת בקשת חידוש לפני תום השנה העשירית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע שנים 2,882 ( )4עם הגשת בקשת חידוש לפני תום השנה הארבע עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע שנים 4,803 ( )5עם הגשת בקשת חידוש לפני תום השנה השמונה עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של שנתיים 6,725 ( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל תקופתו 14,410",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אגרת חידוש לפי סעיף 56לחוק: .12 ( )1עם הגשת בקשת חידוש לפני תום שלושה חודשים מיום מתן הפטנט ,עד תום שש שנים מתאריך הבקשה 961 לפטנט ( )2עם הגשת בקשת חידוש לפני תום השנה השישית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 1,921 שנים ( )3עם הגשת בקשת חידוש לפני תום השנה העשירית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 2,882 שנים ( )4עם הגשת בקשת חידוש לפני תום השנה הארבע עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 4,803 ארבע שנים ( )5עם הגשת בקשת חידוש לפני תום השנה השמונה עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 6,725 שנתיים ( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל 14,410 תקופתו",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -130,28 +130,28 @@
         "scripts/patent-deadlines.py"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-renewal-bands-he",
       "claim": "בעברית: אגרות החידוש לשנת 2026 הן 961 ש\"ח לשנים 1 עד 6, 1,921 ש\"ח לשנים 7 עד 10, 2,882 ש\"ח לשנים 11 עד 14, 4,803 ש\"ח לשנים 15 עד 18, 6,725 ש\"ח לשנים 19 עד 20, ו-14,410 ש\"ח באגרה כוללת. תשלום לפי מקטעים מסתכם ב-17,292 ש\"ח, ולכן האגרה הכוללת חוסכת 2,882 ש\"ח. אגרת החזרת תוקף לפי סעיף 59 היא 841 ש\"ח. הטבלאות בעברית מציגות את הסכומים תחת הכותרת אגרה מלאה (2026, ש\"ח), וההנחה הרלוונטית היא 40%.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל תקופתו 14,410",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אגרת חידוש לפי סעיף 56לחוק: .12 ( )1עם הגשת בקשת חידוש לפני תום שלושה חודשים מיום מתן הפטנט ,עד תום שש שנים מתאריך הבקשה 961 לפטנט ( )2עם הגשת בקשת חידוש לפני תום השנה השישית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 1,921 שנים ( )3עם הגשת בקשת חידוש לפני תום השנה העשירית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 2,882 שנים ( )4עם הגשת בקשת חידוש לפני תום השנה הארבע עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 4,803 ארבע שנים ( )5עם הגשת בקשת חידוש לפני תום השנה השמונה עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 6,725 שנתיים ( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל 14,410 תקופתו",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-national-phase-fee",
       "claim": "Item 13 of the 2026 notice sets the PCT national phase entry fee under section 48d(a) at NIS 2,402, with examination included.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "אגרה לאומית לפי סעיף 48ד(א) לחוק 2,402",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל 14,410 תקופתו 2,402 אגרה לאומית לפי סעיף 48ד(א) לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -159,49 +159,63 @@
         "references/pct-israel-checklist.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-pct-office-fees",
       "claim": "Items 14 to 19 of the 2026 notice set the fees ILPO charges in the PCT international phase: search fee as International Searching Authority under regulation 6(d), NIS 4,203; transmittal fee under regulation 6(e), NIS 656; additional search fee under section 48j(d), NIS 4,203; preliminary examination fee as IPEA under regulation 6(g), NIS 1,801; additional preliminary examination fee under section 48k(d), NIS 1,801; and late transmittal fee under regulation 6(h), NIS 540.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "אגרת חיפוש המשתלמת לרשות הפטנטים כרשות חיפוש בין-לאומית לפי תקנה (6ד) לתקנות הפטנטים (יישום האמנה בדבר שיתוף פעולה בענייני פטנטים), התשנ\"ו( 1996-להלן – תקנות יישום האמנה) 4,203",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אגרת חיפוש המשתלמת לרשות הפטנטים כרשות .14 חיפוש בין-לאומית לפי תקנה (6ד) לתקנות הפטנטים (יישום האמנה בדבר שיתוף פעולה בענייני פטנטים), 4,203 התשנ\"ו( 1996-להלן – תקנות יישום האמנה) 656 אגרת מסירה לפי תקנה (6ה) לתקנות יישום האמנה .15 אגרה נוספת המשתלמת לרשות הפטנטים כרשות .16 4,203 חיפוש בין-לאומית לפי סעיף 48י(ד) לחוק אגרת בחינה מקדימה המשתלמת לרשות הפטנטים .17 כרשות בין-לאומית לבחינה מקדימה לפי תקנה (6ז) 1,801 לתקנות יישום האמנה אגרה נוספת המשתלמת לרשות הפטנטים כרשות בין- .18 1,801 לאומית לבחינה מקדימה לפי סעיף 48יא(ד) לחוק אגרת מסירה מאוחרת לפי תקנה (6ח) לתקנות יישום .19 540 האמנה",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-pte-fees",
       "claim": "The patent term extension section of the 2026 notice sets an application fee of NIS 1,297 under regulation 2(c)(4), an extension fee of NIS 3,484 under regulation 7(a)(1), and a ladder under regulation 7(a)(2) of NIS 4,180 before the end of the first extension year, NIS 5,016 before the second, NIS 6,019 before the third and NIS 7,223 before the fourth, plus NIS 2,402 to oppose a PTE and NIS 4,804 to apply to cancel one. A full five-year extension therefore carries about NIS 27,219 in official fees across its life.",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "אגרת הארכה (תקנה ( 7א)(– ))2 (א) לפני תום שנת הארכה ראשונה 4,180 (ב) לפני תום שנת הארכה שנייה 5,016 (ג) לפני תום שנת הארכה שלישית 6,019 (ד) לפני תום שנת הארכה רביעית 7,223",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אגרות פטנטים -צווי הארכה בשקלים חדשים 1,297 אגרת בקשה ((תקנה (2ג)())4 ()1 3,484 אגרת הארכה (תקנה ( 7א)())1 ()2 אגרת הארכה (תקנה ( 7א)(– ))2 ()3 4,180 (א) לפני תום שנת הארכה ראשונה 5,016 (ב) לפני תום שנת הארכה שנייה 6,019 (ג) לפני תום שנת הארכה שלישית 7,223 (ד) לפני תום שנת הארכה רביעית 2,402 אגרת התנגדות (תקנה (3א)) )1 4,804",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "ilpo-2026-misc-fees",
-      "claim": "The 2026 notice also sets NIS 2,101 for a report in the format of an international search report under regulation 35a, NIS 280 for each of the item 7 applications and for a request for reconsideration under section 21a or to cancel a cancellation under section 21b, NIS 205 for patent attorney examination and registration and for the annual patent attorney fee, and NIS 52 for a certified copy or register extract under section 168(b).",
+      "claim": "The 2026 notice sets NIS 280 for a request for reconsideration under section 21a or to cancel a cancellation under section 21b, NIS 205 for patent attorney examination and registration and NIS 205 for the annual patent attorney fee, and NIS 52 for a certified copy or register extract under section 168(b).",
       "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
-      "raw_snippet": "עם הגשת בקשה להפקת דוח במתכונת של דוח חיפוש בין-לאומי לפי תקנה 35א 2,101",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "עם הגשת בקשה לדיון מחדש לפי סעיף 21א לחוק ,או .20 280 לבטל ביטול לפי סעיף 21ב לחוק (א) עם הגשת בקשה להיבחן בעל פה או בכתב לשם .21 רישום כעורך פטנטים לפי סעיף 143לחוק ,וכן עם הגשת הבקשה להירשם כעורך פטנטים לפי סעיף 142 205 לחוק 205 (ב) אגרה שנתית לעורך פטנטים לפי סעיף 145לחוק בעד אישור או העתק כל פירוט ,שרטוט ,מסמך או .22 תעודה ,או בעד נסח מתוך הפנקס ,לפי סעיף (168ב) 52 לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ilpo-fee-schedule.md"
       ],
       "verified_via": "pdf",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-search-report-and-item7-fees",
+      "claim": "The 2026 notice sets NIS 2,101 for a report in the format of an international search report under regulation 35a, and NIS 280 for each of the four item 7 applications (patent deletion or cancellation under section 73(a) or register correction, an amended document deferring the application date under section 23, registration of a right under section 169, and correction of a clerical error under section 69).",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשה להפקת דוח במתכונת של דוח חיפוש .6 2,101 בין-לאומי לפי תקנה 35א (א) עם הגשת בקשה למחיקת פטנט או לביטולו לפי .7 סעיף (73א) ,או לתיקון הפנקס לפי סעיפים (170א) ו- 280 171לחוק או תקנות (146א) ו(149-א) (ב) עם הגשת מסמך מתוקן שבעקבותיו יידחה תאריך 280 בקשת הפטנט לפי סעיף 23לחוק (ג) עם הגשת בקשה לרישום זכות לגבי פטנט או זכות באמצאה שהוגשה עליה בקשת לפטנט לפי סעיף 169 280 לחוק ,לשינוי רישום כזה או לביטולו (ד) עם הגשת בקשה לתיקון טעות סופר בפירוט לפי 280 סעיף 69לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "amendment-15-published",
@@ -500,17 +514,17 @@
     },
     {
       "claim_id": "israelpatents-search",
-      "claim": "The ILPO patent search service at israelpatents.justice.gov.il/en is a free public Israeli patent search, and it resolves to israelpatents.justice.gov.il/search/en/home.",
+      "claim": "The ILPO public patent search service is served at israelpatents.justice.gov.il/en, where the page is the 'Patent Search' application whose Angular base path is /search/, so the entry URL resolves under israelpatents.justice.gov.il/search/.",
       "source_url": "https://israelpatents.justice.gov.il/en",
-      "raw_snippet": "Patent search. All in one place find the information you need",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "<title>Patent Search</title>\n  <base href=\"/search/\">",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/pct-israel-checklist.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "patentscope-coverage",

@@ -111,10 +111,10 @@
     },
     {
       "claim_id": "govil-rent-law",
-      "claim": "Gov.il official page on the 2017 fair-rental amendment to the Rental and Borrowing Law, with a sample contract.",
+      "claim": "The gov.il page on the Rental and Borrowing Law (Amendment) 5777-2017 states that the law is a civil law governing the relationship between the two parties to the contract, the tenant and the landlord, and that the most up-to-date text of the law is on the Ministry of Justice Reshumot site. The page carries the amendment as an attached PDF; it does NOT publish a sample contract.",
       "source_url": "https://www.gov.il/he/pages/rent_law",
-      "raw_snippet": "חוק השכירות והשאילה (תיקון מס' 2), התשע\"ז-2017: הדף הרשמי של משרד המשפטים על תיקון השכירות ההוגנת ובו חוזה שכירות לדוגמה. https://www.gov.il/he/pages/rent_law",
-      "fetched_at": "2026-06-25T00:00:00Z",
+      "raw_snippet": "חוק השכירות והשאילה הוא חוק אזרחי המסדיר את היחסים שבין שני צדדים לחוזה שהם השוכר והמשכיר.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -122,10 +122,10 @@
     },
     {
       "claim_id": "govil-construction-housing",
-      "claim": "Ministry of Construction and Housing page on housing policy.",
+      "claim": "The Ministry of Construction and Housing gov.il department page describes the ministry as focused on housing solutions for the whole population, urban renewal, new and rural construction, neighbourhood rehabilitation, mortgages and housing assistance for weaker groups. English mirror at https://www.gov.il/en/departments/ministry_of_construction_and_housing",
       "source_url": "https://www.gov.il/he/departments/ministry_of_construction_and_housing",
-      "raw_snippet": "משרד הבינוי והשיכון: מדיניות דיור ודיור בר-השגה. https://www.gov.il/he/departments/ministry_of_construction_and_housing and the English mirror https://www.gov.il/en/departments/ministry_of_construction_and_housing",
-      "fetched_at": "2026-06-25T00:00:00Z",
+      "raw_snippet": "המשרד מתמקד במציאת פתרונות דיור לכלל האוכלוסייה, בפעולות של התחדשות עירונית, בנייה חדשה וכפרית, שיקום שכונות, משכנתאות וסיוע בדיור לשכבות החלשות.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -144,10 +144,10 @@
     },
     {
       "claim_id": "cbs-cpi",
-      "claim": "Central Bureau of Statistics publishes the Consumer Price Index used for rent indexation.",
-      "source_url": "https://www.cbs.gov.il/he/Pages/default.aspx",
-      "raw_snippet": "הלשכה המרכזית לסטטיסטיקה (הלמ\"ס) מפרסמת את מדד המחירים לצרכן המשמש להצמדת שכר דירה. https://www.cbs.gov.il/he/Pages/default.aspx and English https://www.cbs.gov.il/en/Pages/default.aspx",
-      "fetched_at": "2026-06-25T00:00:00Z",
+      "claim": "The Central Bureau of Statistics publishes the Consumer Price Index, on the 15th of every month, on its CPI subject page. Israeli rental contracts index rent to that published figure. CBS home pages: https://www.cbs.gov.il/he/Pages/default.aspx and https://www.cbs.gov.il/en/Pages/default.aspx",
+      "source_url": "https://www.cbs.gov.il/he/subjects/Pages/%D7%9E%D7%93%D7%93-%D7%94%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D-%D7%9C%D7%A6%D7%A8%D7%9B%D7%9F.aspx",
+      "raw_snippet": "מדד המחירים לצרכן מתפרסם בכל 15 לחודש ומשפיע על כולנו.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -210,6 +210,43 @@
       "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
       "raw_snippet": "גובה האגרה הוא 1% מסכום התביעה, ובכל מקרה לא פחות מ-50 ₪.",
       "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reference-url-inventory",
+      "claim": "The English mirror of the Ministry of Construction and Housing department page describes the ministry as established in 1961 and in charge of government policy for housing and residential construction. The Central Bureau of Statistics home pages, https://www.cbs.gov.il/he/Pages/default.aspx and https://www.cbs.gov.il/en/Pages/default.aspx, are also cited by this skill as reference links.",
+      "source_url": "https://www.gov.il/en/departments/ministry_of_construction_and_housing",
+      "raw_snippet": "The Ministry of Construction and Housing was established in 1961 and is in charge of initiating and implementing government policy for housing and residential construction.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cbs-home-he",
+      "claim": "The Hebrew home page of the Central Bureau of Statistics is cited by this skill as a reference link. The substantive CPI fact is evidenced by the cbs-cpi entry.",
+      "source_url": "https://www.cbs.gov.il/he/Pages/default.aspx",
+      "raw_snippet": "https://www.cbs.gov.il/he/Pages/default.aspx",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "url-inventory (the snippet is the link itself, not text quoted from a page)",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cbs-home-en",
+      "claim": "The English home page of the Central Bureau of Statistics is cited by this skill as a reference link. The substantive CPI fact is evidenced by the cbs-cpi entry.",
+      "source_url": "https://www.cbs.gov.il/en/Pages/default.aspx",
+      "raw_snippet": "https://www.cbs.gov.il/en/Pages/default.aspx",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "url-inventory (the snippet is the link itself, not text quoted from a page)",
+      "verified_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

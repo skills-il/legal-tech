@@ -277,7 +277,7 @@
       "claim": "The gov.il online light-accident report applies only when there are no injuries, or injured persons were treated and released from a medical institution within 24 hours; otherwise call 110 or go to a police station",
       "claim_type": "threshold",
       "source_url": "https://www.gov.il/he/service/traffic-accident-notice",
-      "raw_snippet": "אין נפגעים / יש נפגעים שטופלו ושוחררו ממוסד רפואי תוך 24 שעות. במקרים אחרים ניתן להתקשר למוקד 110 או לגשת לתחנת משטרה",
+      "raw_snippet": "מתי אפשר להגיש דיווח במקרה של תאונת דרכים שקרתה בזמן נהיגה, נסיעה או הליכה ברגל, כאשר מתקיים אחד מהתנאים הבאים: אין נפגעים יש נפגעים שטופלו ושוחררו ממוסד רפואי תוך 24 שעות במקרים אחרים ניתן להתקשר למוקד 110 או לגשת לתחנת משטרה.",
       "confidence": "high",
       "claim_id": "light-accident-eligibility",
       "fetched_at": "2026-06-23T00:00:00Z",
@@ -286,7 +286,7 @@
         "SKILL_HE.md",
         "references/claims-guide.md"
       ],
-      "verified_via": "browser",
+      "verified_via": "gov.il content API (programmatic re-extraction)",
       "verified_at": "2026-08-09"
     },
     {
