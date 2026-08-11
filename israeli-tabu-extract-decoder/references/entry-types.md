@@ -99,11 +99,21 @@ face of an extract. Read who benefits and what is permitted or forbidden.
 ## 8. Condominium: shares, attachments, and bylaws
 
 - **The share in the common property**, `סעיף 57`: the ratio of the unit's floor area to the total
-  floor area of all units, unless the bylaws provide otherwise, computed in hundredths. This is why
-  the fraction rarely matches an intuition about relative size. It is not an error.
-- **הצמדה.** A specified part of the common property attached to a particular unit is treated for all
-  purposes as part of that unit. Read every attachment and check that the thing being sold (parking,
-  storeroom, roof, garden) is actually attached to **this** sub-parcel.
+  floor area of all units, unless the bylaws provide otherwise, computed to two decimal places in practice. The floor-area RATIO is the statutory rule; expressing
+  it in hundredths is registration practice rather than statute. This is why the fraction rarely
+  matches an intuition about relative size, and it is not an error.
+- **הצמדה**, governed by `סעיף 55(ג)`: the bylaws may attach a specified part of the common property
+  to a particular unit, `ובלבד שלא יקבעו זאת ביחס לחדרי מדרגות, מעלית, מקלטים ומיתקנים המיועדים לשמש
+  את כל בעלי הדירות`. Once attached it is treated in all respects as part of that unit. Two
+  consequences the reader needs:
+  - Those excluded parts can **never** be attached to one apartment. An "attachment" of stairwell,
+    lift, shelter or a shared installation is not merely unusual, it is impossible, so if someone is
+    selling one, that is a hard finding rather than a question.
+  - **Verify the specific attachment.** Find the parking or storeroom in the הצמדות list on THIS
+    sub-parcel, and match it to its number on the תשריט in the צו רישום בית משותף. A bay allocated
+    only by a `הסכם שימוש ייחודי` among the owners is NOT an הצמדה and does not bind a later buyer
+    unless it is in the registered תקנון. A bay that is a separate sub-parcel still owned by the
+    developer is not yours either.
 - **Bylaws bind successors**, `סעיף 62`: `תקנון וכל שינוי בו ניתנים לרישום, ומשנרשמו, כוחם יפה גם
   כלפי אדם שנעשה בעל דירה לאחר מכן`. So a parking space a seller calls "the apartment's" belongs to
   it only if the registered position says so. A promise does not carry over; the register does.

@@ -104,8 +104,9 @@ type list, and the ordering flow are the first things to add, each with an as-of
 
 1. Retry the registry service pages. If readable, add the current fee with an as-of date, the exact
    extract types offered, the ordering flow, and the status of a printed copy.
-2. The property-activity alert service, which is free and is the strongest anti-fraud step an owner
-   can take, once its details can be verified first-hand.
+2. The property-activity alert service. Neither its cost nor its effectiveness is stated anywhere in
+   this skill, because neither could be verified first-hand; do not describe it as free, and do not
+   rank it against other precautions, until a readable registry page says so.
 3. The Judea and Samaria register's extract categories and standing rules, from a readable source.
 4. Whether a caveat's erasure rules should be covered in full, which matters when a user is trying to
    remove one rather than read one.

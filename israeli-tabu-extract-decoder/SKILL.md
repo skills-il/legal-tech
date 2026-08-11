@@ -38,7 +38,24 @@ It also stops firmly short of one line: it will not tell you whether the title i
 
 Read `references/entry-types.md` before interpreting any line of an extract, and `references/registration-regimes.md` before answering anything about a property that cannot be found in the register.
 
-### Step 0, establish what document the user actually has
+### Step 0a, three things to say before decoding anything
+
+These need no opinion on this buyer's title, so the refusal in the legal notice does not reach them.
+
+1. **Order your own extract.** Do not work from the seller's lawyer's copy. It is a counterparty
+   document of unknown vintage, and it may be a consolidated extract, which structurally cannot show
+   this unit's attachments. The register is public (`סעיף 124`) and anyone may obtain a copy.
+2. **An extract speaks only as at the moment it was produced.** Re-check before signing and before
+   each payment, not once at the start.
+3. **Register a caveat in your own favour, early.** The skill explains caveats as things other people
+   have; for a buyer the point is to have one. A caveat blocks a contradicting registration and
+   shields the beneficiary against a later attachment or insolvency (`סעיף 127`). Since a transaction
+   is completed only by registration (`סעיף 7`), the caveat is what protects the gap between signing
+   and transfer. Do not let material money move before it is on the page, and check the extract for a
+   caveat already registered in favour of a **different** buyer, which is the clearest double-sale
+   signal visible on the document.
+
+### Step 0b, establish what document the user actually has
 
 Ask before interpreting. Three different documents get called "the tabu" in conversation:
 
@@ -88,10 +105,10 @@ Do not summarise this block. Go entry by entry, name the type, and give the cate
 | `משכנתה` with a `דרגה` | A mortgage, ranked. A later transaction by the owner cannot defeat a purchaser at the mortgage's execution sale |
 | A discharged rank | Does **not** necessarily mean the rank is free. A vacant rank can be refilled by a later mortgage where its terms so provide |
 | `עיקול` | An attachment recorded by a court or enforcement authority |
-| `הערת אזהרה` | A note that someone undertook **in writing** to transact. It blocks a contradicting registration and shields the beneficiary against a later attachment or insolvency, subject to an avoidance carve-out. It is **not** ownership |
+| `הערת אזהרה` | A note that someone undertook **in writing** to transact. **While it stands unerased** it blocks a contradicting registration and shields the beneficiary against a later attachment or insolvency, subject to an avoidance carve-out. It is **not** ownership |
 | Note requiring a third party's consent | Any dealing is conditioned on that party's agreement. Extremely common and easy to skim past |
 | `זיקת הנאה` | A charge for someone's benefit that carries **no** right to possess |
-| `הצמדה` | A specified part of the common property attached to this unit, treated for all purposes as part of it |
+| `הצמדה` (`סעיף 55(ג)`) | A specified part of the common property attached to this unit, treated for all purposes as part of it. Stairwells, lifts, shelters and installations serving all owners can **never** be attached. Verify the specific bay against the תשריט in the צו רישום בית משותף |
 | Registered lease | An encumbrance a buyer inherits |
 
 ### Step 5, in a condominium, read the shares and the bylaws separately
@@ -108,6 +125,37 @@ Two blocks, in this order:
 2. **What to ask about**, as questions rather than conclusions: entries that condition dealings on a third party, a deceased registered owner, an area mismatch, an attachment, a ranked mortgage, or anything the user cannot account for.
 
 Never output a verdict on the title. "Nothing here blocks the sale" and "the title is clean" are both outside this skill and both are the practice of law.
+
+**But a protective stop is not a verdict.** Refusing to say "green" while also refusing to say "red"
+flattens a stop sign into an agenda item. Where the page shows a deceased or incapacitated registered
+owner, a note conditioning any dealing on a third party's consent, an attachment, or a caveat in
+favour of someone else, say plainly: **do not transfer money before an advocate has looked at this
+entry.** That is a caution about sequence, not an opinion on title.
+
+### Step 6b, what is NOT on this page, and where it lives
+
+An extract is a register of RIGHTS. Say explicitly that it does not show: planning rights, building
+permits or building violations; municipal or building-committee debts; physical condition; a sitting
+tenant under an unregistered lease; or the price. The `שטח` is the registered area on its own basis.
+
+Then point at where the missing risk actually sits, because a buyer who has read only this page has
+not done an encumbrance search:
+
+| What | Where to look |
+|---|---|
+| Security interests over rights NOT registered in the land register (רמ"י-managed, חברה משכנת) | `רשם המשכונות` |
+| A corporate seller's charges and status | `רשם החברות` |
+| Building violations and permit history | the municipality's `תיק בניין` |
+| Clearances that registration itself depends on | `אישור מיסוי מקרקעין` (שבח), municipal `ארנונה` and `היטל השבחה` clearance, and the ועד or management-company confirmation |
+
+The last row matters most: none of it is on the extract, and all of it gates registration. `היטל השבחה`
+in particular can be a five-figure liability whose allocation is negotiated before contract.
+
+**A mortgage the seller says will be discharged at closing.** The mechanism, not the doctrine: obtain
+a `מכתב כוונות` from the mortgagee bank stating the exact payoff sum and the date it is valid to; pay
+that sum **directly to the account named in the letter**, never to the seller; then verify the
+discharge and the removal of the mortgage from the page on a fresh extract afterwards. Pair this with
+`סעיף 86`, since a redeemed rank can be refilled.
 
 ### Step 7, when the property is not in the register
 

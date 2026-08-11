@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0 (2026-08-11)
+
+- Added Step 0a: order your own extract, re-check before every payment, and register a הערת אזהרה in your own favour early. Flags a caveat already registered for a DIFFERENT buyer as the clearest double-sale signal on the page.
+- Added Step 6b: what the extract does NOT contain, and where that risk actually lives (רשם המשכונות, רשם החברות, תיק בניין, and the שבח / ארנונה / היטל השבחה / ועד clearances that gate registration), plus the מכתב כוונות mechanism for a mortgage discharged at closing.
+- Added a protective stop-language carve-out to Step 6. Refusing a verdict on title does not mean refusing to say "stop before moving money", which is a caution about sequence.
+- Added an evidence claim for `סעיף 55(ג)` and the never-attachable common-property list.
+- The `הערת אזהרה` table row now keeps the operative condition (protection runs while the caveat stands unerased), and `הצמדה` is re-attributed to `סעיף 55(ג)` with the requirement to check the bay against the תשריט in the צו רישום בית משותף.
+- The domain checklist no longer calls the property-activity alert service free or ranks it against other precautions; neither could be verified first-hand.
+
 ## 1.0.1 (2026-08-11)
 
 - Added the missing `SKILL_HE.md`. The initial release shipped without it, so the sync pipeline fell back to the English body for `content_he` and the entire Hebrew page, including the legal notice, rendered in English. The Hebrew companion is now a full translation with the notice under `## הבהרה משפטית` immediately after the H1, which is what the site's legal-notice component looks for.

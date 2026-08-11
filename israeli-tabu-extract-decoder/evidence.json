@@ -163,6 +163,16 @@
       "confidence": "high",
       "fetched_at": "2026-08-11T00:00:00Z",
       "notes": "Substantiates that the electronically signed extract is a distinct, recognised form. The skill does NOT assert the printed-copy rule, which could not be verified from a fetchable source."
+    },
+    {
+      "claim_id": "mekarkein-s55c-attachment-limits",
+      "claim": "Apartment owners may provide in the bylaws that a specified part of the common property is attached to a particular apartment, but NEVER in respect of stairwells, lifts, shelters, and installations intended to serve all owners; once attached, the part is treated in all respects as part of that apartment. [סעיף 55]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "בעלי הדירות רשאים לקבוע בתקנון, כמשמעותו בסימן ג׳ לפרק זה (להלן – התקנון), שחלק מסויים של הרכוש המשותף יהיה צמוד לדירה פלונית, ובלבד שלא יקבעו זאת ביחס לחדרי מדרגות, מעלית, מקלטים ומיתקנים המיועדים לשמש את כל בעלי הדירות; הוצמד חלק מסויים מהרכוש המשותף לדירה פלונית, לא יחולו עליו הוראות פרק זה בנוגע לרכוש המשותף, ודינו לכל דבר כדין הדירה שאליה הוצמד.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Added after a pre-push expert review found the skill discussed הצמדה without citing the provision that governs it. This is THE section for a buyer asking about a parking attachment: it is both the power to attach and the list of things that can never be attached, so it is the only rule by which an impossible 'attachment' can be identified."
     }
   ]
 }
