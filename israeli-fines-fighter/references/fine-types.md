@@ -11,12 +11,19 @@ Parking fines are issued by municipal inspectors (paqchim) and processed by the 
 | Expired meter / no payment | חניה ללא תשלום | 100-250 |
 | No-parking zone (red-white curb) | חניה במקום אסור | 250-500 |
 | Handicap spot (unauthorized) | חניה בחניית נכים | 500 |
-| Bus lane / bus stop | חניה בנתיב תחבורה ציבורית | 250-500 |
+| Stopping/parking in a bus lane or at a bus stop | עצירה או חניה בנתיב תחבורה ציבורית | 250-500 |
 | Blocking entrance/exit | חסימת כניסה/יציאה | 500-1,000 |
 | Double parking | חניה כפולה | 250-500 |
 | Sidewalk parking | חניה על מדרכה | 250-500 |
 | Fire hydrant zone | חניה ליד ברז כיבוי | 250-500 |
 | Crosswalk obstruction | חסימת מעבר חצייה | 250-500 |
+
+> **Do not confuse this row with driving in a bus lane.** *Stopping or parking* in a
+> public-transport lane is the parking offence above. *Driving* in one (נת"צ) is a separate
+> offence: failure to obey signs 501/503 under Traffic Regulation 22(a), fine 500 NIS
+> (First Schedule item 24), usually enforced by a municipal camera under Traffic Ordinance
+> s.27A1, and handled on the administrative track (hasagah then arar, no request to be tried).
+> See the nat"z table in SKILL.md Step 5.
 
 Note: Exact amounts depend on the municipality and are updated periodically. Always check the actual fine notice for the authoritative amount.
 

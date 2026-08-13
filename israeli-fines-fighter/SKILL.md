@@ -1,6 +1,6 @@
 ---
 name: israeli-fines-fighter
-description: "Appeal parking tickets and traffic fines in Israel: generates Hebrew appeal letters, explains deadlines, covers municipal fine codes, speed camera violations, and the points system. Use when a user receives a knasa (fine) and wants to understand their options, draft an appeal, or calculate penalty points. Helps users hit the 30-day objection window (hasagah / bakasha le-bitul) AND the 90-day window for a court hearing or an online traffic-tribunal appeal (bakasha le-hishafet / arar), before late-payment additions start accruing."
+description: 'Appeal parking tickets, traffic fines and bus-lane (nat"z) tickets in Israel: generates Hebrew appeal letters, explains deadlines, and covers the administrative track under the Administrative Traffic Violations Law (hasagah 30 days, arar to the traffic tribunal 90 days, no request to be tried), why a nat"z ticket is not a parking ticket, why a municipal ticket cannot be converted to a warning, the points system, and when the late-payment surcharge can be waived. Use when a user receives a knasa (fine) and wants to understand their options, draft an appeal, or calculate penalty points.'
 license: MIT
 ---
 
@@ -159,9 +159,48 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 **Traffic fine options:**
 - **Pay the fine:** Online at gov.il (police fine payment service) or at any post office
 - **Cancellation request (bakasha le-bitul):** For police/camera traffic fines the cancellation request goes to the **Driver Inquiries Center (Merkaz Pniyot Nehagim, מפנ"א)** of the traffic prosecution, not to a generic "police station". Camera (A3 / דוח מצלמה) fines route through מפנ"א.
-- **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. Since **8 February 2026** some fine notices can instead be challenged by an **arar to the online traffic tribunal** (בית דין לתעבורה) within 90 days of service, without filing a request to be tried; the notice itself states whether this route is available. Until **8 August 2026** the tribunal may hear only fines of up to 500 NIS, it may not hear speeding offences, and it has no jurisdiction over municipal parking tickets (those go back to the municipality, and then to a request to be tried). You may represent yourself or hire a traffic lawyer (orech din letnu'a).
+- **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. This is the route for offences still on the criminal-procedure track. For offences that have moved to the administrative track (see below), a request to be tried is no longer available at all: the route is hasagah then arar.
+- **Administrative track (Administrative Traffic Violations Law, 5784-2024) -- staged, and stage 2 is now live.** Its s.47(c) rolls breirot mishpat into an administrative regime in two stages, counted from the commencement date of **8 February 2026**:
+
+  | Stage | In force | Scope per s.47(c) |
+  |---|---|---|
+  | 1 | 8 February 2026 | Violations whose First Schedule fine is **100 to 500 NIS**, **excluding** Traffic Regulation 54 (speeding) |
+  | 2 | 8 August 2026 | Violations whose fine is **750 to 1,500 NIS**, **and** Regulation 54 speeding offences |
+
+  Both stages are now in effect, so the "tribunal cannot hear speeding / only up to 500 NIS" limitation that applied during stage 1 no longer holds. Verify against the notice itself, which states which track it is on.
+
+  **The date that decides the track is the OFFENCE date, not today's date. Get this wrong and you send the user to the wrong forum.** Under the Law's transitional provision, it does not apply to a breirat mishpat offence committed before the relevant stage date ("הוראות חוק זה לא יחולו לגבי עבירה של ברירת משפט ... שעבר אדם ערב יום התחילה"); those offences stay on the Criminal Procedure Law / Traffic Ordinance track as it stood before, which means bakasha le-bitul and bakasha le-hishafet, not hasagah and arar. So a 1,000 NIS ticket for an offence committed in May 2026 is still criminal-track (its band only crossed over on 8 August 2026), while the same ticket for an offence in September 2026 is administrative. Always ask for the offence date before routing the user.
+
+  On the administrative track the two steps are renamed and re-timed:
+  - **hasagah (השגה)** to the competent authority, within **30 days** of service (s.8(a)). If the ground is that the violation was not committed by you (Traffic Ordinance s.27B), the window is **90 days**. The authority must decide within 45 days (s.8(c)).
+  - **arar (ערר)** to the traffic tribunal, within **90 days** of service, or within **30 days** of the decision on a hasagah (s.19(b)). Filing an arar bars a later hasagah on the same decision (s.8(d)).
+
+  You may represent yourself or hire a traffic lawyer (orech din letnu'a).
 - **Online appeal (Tzav HaTzav):** Misrad Hatachburah's online traffic-appeal portal at `gov.il/he/service/objection_traffic_offense` accepts cancellation requests (bakasha le-bitul) and supporting evidence digitally
 - **Plea bargain (hasdarei to'en):** Some offenses allow negotiating a reduced fine or fewer points through the prosecution
+
+**Bus-lane fines (nat"z, נת"צ) are their own track. Do not treat them as parking tickets.**
+
+Driving in a public-transport lane is not a parking offence, even though the ticket often arrives from the municipality. Getting this wrong sends the user down the parking route and burns the deadline.
+
+| Question | Answer |
+|---|---|
+| What is the offence? | Failure to obey signs 501 / 503 (public-transport lane) under Traffic Regulation 22(a). Sign 503 marks the lane; sign 501 states who may use it. Where no 501 is posted, only public-service vehicles may drive in it. |
+| Statutory fine | **500 NIS** (First Schedule to the Administrative Traffic Violations Law, item 24). Press reports of higher figures usually describe aggravating circumstances or a different offence. |
+| Who enforces it? | Usually a **local authority**, not the police, via fixed cameras. The camera power is Traffic Ordinance s.27A1, and the enforcing municipal employee is a "mefake'ach" under s.28(b) of the Administrative Traffic Violations Law. |
+| Which track? | At 500 NIS and not a Regulation 54 offence, it entered the **administrative track in stage 1 (8 February 2026)**. So: **hasagah then arar, and there is no request to be tried.** |
+| Can it be converted to a warning? | **No.** See the warning subsection below. |
+
+Grounds that actually work on a nat"z ticket are substantive, not discretionary: missing, contradictory or unclear signage; faded lane markings; a lane marked as public-transport that also carries a turn arrow permitting all vehicles to turn (a recurring complaint in Tel Aviv); a defect in the notice or in the image; or transferring liability to the actual driver.
+
+**"Convert it to a warning" (hamara le-azhara) -- know where this does NOT apply.**
+
+Converting a fine to a warning is a **police discretionary practice** for breirot mishpat, requested through the Driver Inquiries Center (מפנ"א). It is a discretion, never an entitlement, and it does not apply to two large categories users often ask about:
+
+- **Municipal tickets** (parking, and municipally-enforced nat"z). The municipality either cancels the ticket or does not; there is no warning tier.
+- **The administrative track.** The Administrative Traffic Violations Law does not contain the word "azhara" at all. Its remedies are hasagah and arar.
+
+Do NOT state numeric eligibility criteria (years of licence held, years since the last conviction). Published law-firm summaries disagree with each other on these numbers and no authoritative public source sets them out, so quoting one would be fabrication. Describe the mechanism qualitatively, say it is discretionary, and route the user to מפנ"א.
 
 **Bakasha le-bitul vs. bakasha le-hishafet vs. ercaa (don't conflate these):**
 
@@ -175,14 +214,20 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 
 When the fine is a traffic violation, calculate the point impact:
 
-| Points Accumulated | Consequence (per Traffic Regulations Part 14A) |
+| Valid points recorded | Corrective measure, per Traffic Regulation 549 |
 |-------------------|-------------|
-| 12-22 points | Mandatory basic safe-driving course (kurs yesodi) + test at its end |
-| 24-34 points | Basic course + advanced safe-driving course (kurs metkadem) |
-| 36+ points (first time) | 3-month license suspension + theory test (must re-qualify) |
-| 36+ points (second time within 6 years) | 9-month license suspension + theory & practical tests + medical/institute (Machon HaRefui) evaluation |
+| 12-22 | Basic safe-driving course from the Licensing Authority + pass its test (reg. 549(a)) |
+| 24-34 | Advanced safe-driving course + pass its test. Cannot be taken before completing the basic course from the tier above (reg. 549(b)) |
+| 36+ | 3-month licence suspension; the Licensing Authority renews the licence at the end of the period (reg. 549(c)) |
+| **72+**, OR 36+ again within 6 years of the last offence that caused a 549(c) suspension | 9-month suspension, renewed only after medical examinations by the authorised physician and the tests under regs. 202-210 (reg. 549(d)) |
 
-There is no "warning letter" tier and no standalone "theory re-test at 34-36" tier; the bands are 12-22, 24-34, and 36+ as above. See the Ministry of Transport scoring page (gov.il, "שיטת הניקוד") and `kolzchut.org.il` ("שיטת הניקוד בעבירות תנועה") for the canonical scheme.
+Three things this table is deliberately precise about, because the common write-ups get them wrong:
+
+- **The 36+ tier carries no theory test.** Reg. 549(c) imposes the suspension and provides for renewal at the end of it, nothing more. Do not tell a user they must re-qualify at this tier.
+- **The 9-month tier has two independent triggers**, and the 72-point one is usually omitted: a driver reaching 72+ valid points hits it directly, without any prior suspension.
+- Measures are cumulative (reg. 549(e)), the same measure is not imposed twice for the same points (reg. 549(f)), and a repeat of the same training cannot be required before a year has passed (reg. 549(b1)).
+
+There is no "warning letter" tier and no standalone "theory re-test at 34-36" tier.
 
 **Point validity clock.** Points are recorded for a fixed period from the **offence date**: **2 years** for a driver who accumulated **up to 20 points** in the period, **4 years** for a driver who passed **20 points**. Expiry is ALSO conditioned on completing any required measures (course/test/suspension): if the driver has not completed the imposed measure, the points (and the obligation) do not lapse when the clock runs out. So both conditions must be met, the validity window elapsed AND the required measures completed.
 
@@ -235,7 +280,7 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 |---|---|
 | gov.il/he/service/objection_traffic_offense | Misrad Hatachburah online traffic-appeal portal (Tzav HaTzav). May show 403 to scripted clients; loads normally in a browser. |
 | gov.il/he/service/police_fine_payment | Police fine payment service. Same WAF behaviour as above. |
-| www.court.gov.il | Israeli courts directory (find your local traffic court / שלום מקומי court). Use the `www.` host; the bare `court.gov.il` does not resolve cleanly. |
+| www.court.gov.il | Israeli courts directory (find your local traffic court / שלום מקומי court). Use the `www.` host; the bare `court.gov.il` does not resolve cleanly. Verified 2026-08-13: the host resets scripted connections and did not load in a headless browser either, so treat it as human-browser-only and do not report it as down to the user without checking yourself. |
 | gov.il (search "משרד התחבורה") | Ministry of Transport content now lives under gov.il; the legacy `mot.gov.il` host is deprecated. |
 | kolzchut.org.il (search "שיטת הניקוד בעבירות תנועה") | Canonical citizens-rights write-up of the penalty-point scheme. |
 | nevo.co.il (search "פקודת התעבורה") | Free public mirror of the Traffic Ordinance and Criminal Procedure (Traffic Offences) regulations. |
@@ -255,10 +300,13 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 
 ### "My fine grew because I missed a deadline"
 
-The "fine doubles after 30 days" framing is incorrect. The actual rule:
-- Past the payment date without payment or appeal: a statutory **late-payment addition** plus interest (not a doubling, and not at day 30).
-- Past 6 months thereafter: **+5% every additional 6 months**.
-- Possible additional collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
+The "fine doubles after 30 days" framing is incorrect. The rule depends on which track the fine is on:
+
+- **Administrative track** (Administrative Traffic Violations Law): the late-payment addition (tosefet pigur) is **30% of the unpaid fine**, a single addition, per s.10(b)(1), plus shekel interest and late-payment charges under s.10(b)(2). It attaches after the payment date in s.8(c) / 9(a) / 19(d), not at day 30.
+- **Criminal track** (breirot mishpat not yet moved across): a statutory addition plus interest, then further periodic additions. Do not quote a fixed percentage here; check the balance with the Fines Collection Center or on the payment notice.
+- Either way: possible collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
+
+**Waiver of the surcharge on municipal fines (worth asking for, and widely unknown).** For a fine imposed by a municipal inspector under s.28 (this includes nat"z camera fines), s.10(c) lets the competent authority exempt the person from the late-payment addition, in whole or in part, where the failure to pay on time was for a reason beyond their control, or where the surcharge arose from a malfunction of a state or municipal authority. The request must be in writing (s.10(d)).
 
 If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, a late request is considered only where the delay itself is justified (for example hospitalization, active reserve service, or being abroad), and you must document the cause.
 

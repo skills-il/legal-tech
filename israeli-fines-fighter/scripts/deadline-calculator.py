@@ -15,15 +15,22 @@ import argparse
 from datetime import datetime, timedelta
 import sys
 
-# Bakasha le-bitul (cancellation request) window: 30 days, applies to BOTH
-# parking and traffic fines. Bakasha le-hishafet (court-hearing request)
-# window: 90 days from receipt, also for both. After day 90 the fine carries
-# a +50% surcharge (NOT collection enforcement; that typically kicks in only
-# around month 12 via Hotza'a Lapoal). +5% additional every 6 months thereafter.
+# Cancellation window: 30 days, applies to BOTH parking and traffic fines.
+# Court-hearing window: 90 days from receipt, also for both.
+#
+# SURCHARGE: this script deliberately reports only the DATE from which a
+# late-payment addition can start accruing, never a percentage, because the
+# rate depends on which track the fine is on and that is not knowable from a
+# date alone. On the administrative track (Administrative Traffic Violations
+# Law) it is 30% of the unpaid fine under s.10(b)(1), plus interest. On the
+# criminal track the schedule differs. Which track applies is decided by the
+# OFFENCE date, not by today's date. Direct the user to the Fines Collection
+# Center or the payment notice for the actual balance. Collection enforcement
+# is separate and typically begins only around month 12 via Hotza'a Lapoal.
 PARKING_CANCEL_DAYS = 30
 TRAFFIC_CANCEL_DAYS = 30
 COURT_HEARING_DAYS = 90
-SURCHARGE_STARTS_DAYS = 90  # +50% surcharge accrues from this day onward
+SURCHARGE_STARTS_DAYS = 90  # a late-payment addition can accrue from this day onward
 
 # NOTE on parking model limitation: parking fines technically share the same
 # 30/90-day windows as traffic fines, but municipal practice varies. Some
@@ -100,7 +107,7 @@ def main():
     print(f"  Cancellation window:    30 days (bakasha le-bitul)")
     print(f"  Cancellation deadline:  {result['appeal_deadline']}")
     print(f"  Court-hearing deadline: {result['court_hearing_deadline']} (bakasha le-hishafet, 90 days)")
-    print(f"  +50% surcharge starts:  {result['surcharge_deadline']}")
+    print(f"  Late-payment addition:  can start {result['surcharge_deadline']} (rate depends on track)")
 
     if result["can_appeal"]:
         print(f"  Status:                 WITHIN 30-DAY CANCELLATION WINDOW")
@@ -109,8 +116,9 @@ def main():
         print(f"  Status:                 CANCELLATION WINDOW EXPIRED, court window still open")
         print(f"  Days to court request:  {result['days_remaining_court']} days")
     else:
-        print(f"  Status:                 +50% SURCHARGE HAS STARTED")
-        print(f"  Action:                 Pay, or document a justified-delay exception (sec. 230 CPL)")
+        print(f"  Status:                 LATE-PAYMENT ADDITION MAY HAVE STARTED")
+        print(f"  Action:                 Check the real balance with the Fines Collection Center,")
+        print(f"                          or document a justified-delay exception.")
 
     print(f"{'='*50}\n")
 

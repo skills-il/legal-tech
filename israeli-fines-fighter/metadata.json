@@ -4,8 +4,8 @@
     "en": "Israeli Fines Fighter"
   },
   "display_description": {
-    "he": "אינו ייעוץ משפטי. ערעור על דוחות חנייה וקנסות תנועה בישראל. יוצר מכתבי ערעור בעברית עם נימוקים משפטיים, מסביר את חלון 30 הימים לבקשה לביטול (גם לחנייה וגם לתנועה) ואת חלון 90 הימים לבקשה להישפט, ומבהיר שהקנס לא 'מוכפל' אחרי 30 יום אלא מקבל תוספת של 50% רק מיום 90, ועוד 5% כל 6 חודשים. מכסה את שיטת הניקוד לפי חלק 14א' לתקנות התעבורה, את ההבדל בין בקשה לביטול, בקשה להישפט וערעור (ercaa), ואת מסלול הוצאה לפועל אחרי כשנה ללא תשלום. השתמשו כשמקבלים קנס חנייה או תנועה ורוצים לדעת אם כדאי לערער, איך לנסח את מכתב הערעור, ואיך להגיש אותו דרך פורטל המוניציפלי או דרך Tzav HaTzav של משרד התחבורה. לא מתאים לעבירות פליליות חמורות, תאונות דרכים עם נפגעים, נהיגה בשכרות, או סכסוכי ביטוח רכב.",
-    "en": "Not legal advice. Appeal parking tickets and traffic fines in Israel. Generates Hebrew appeal letters with legal grounds, explains the 30-day cancellation-request window (bakasha le-bitul) for both parking and traffic, and the 90-day court-hearing window (bakasha le-hishafet), and corrects the myth that fines 'double' after 30 days: the actual rule is +50% surcharge starting at day 90, then +5% every 6 months. Covers the points system per Traffic Regulations Part 14A, the distinction between bakasha le-bitul, bakasha le-hishafet and ercaa (appeal of verdict), and the Hotza'a Lapoal collection track after roughly 12 months unpaid. Use when you receive a parking or traffic fine and want to know whether to appeal, how to draft the appeal letter, and how to submit it via the municipal portal or via Misrad Hatachburah's Tzav HaTzav online appeal portal. Do NOT use for serious criminal traffic offenses, accidents involving injuries, DUI cases, or auto-insurance disputes."
+    "he": "אינו ייעוץ משפטי. ערעור על דוחות חנייה, קנסות תנועה ודוחות נת\"צ בישראל. יוצר מכתבי ערעור בעברית עם נימוקים משפטיים, ומסביר את המסלול המנהלי לפי חוק הפרות תעבורה מינהליות שנכנס לתוקף מלא באוגוסט 2026: השגה תוך 30 יום, ערר לבית הדין לתעבורה תוך 90 יום, ואין יותר בקשה להישפט בעבירות שעברו למסלול הזה. מסביר למה דוח נת\"צ אינו דוח חנייה, למה אי אפשר להמיר דוח עירוני לאזהרה, ומתי אפשר לבקש פטור מתוספת פיגור בדוח עירוני. מכסה גם את חלון 30 הימים לבקשה לביטול ואת חלון 90 הימים לבקשה להישפט במסלול הפלילי, את שיטת הניקוד לפי חלק 14א' לתקנות התעבורה, ואת מסלול הוצאה לפועל אחרי כשנה ללא תשלום. השתמשו כשמקבלים קנס חנייה, תנועה או נת\"צ ורוצים לדעת אם כדאי לערער, איך לנסח את מכתב הערעור, ולאן להגיש אותו. לא מתאים לעבירות פליליות חמורות, תאונות דרכים עם נפגעים, נהיגה בשכרות, או סכסוכי ביטוח רכב.",
+    "en": "Not legal advice. Appeal parking tickets, traffic fines and bus-lane (nat\"z) tickets in Israel. Generates Hebrew appeal letters with legal grounds, and explains the administrative track under the Administrative Traffic Violations Law, fully in force since August 2026: hasagah within 30 days, arar to the traffic tribunal within 90 days, and no request to be tried for offences on that track. Explains why a nat\"z ticket is not a parking ticket, why a municipal ticket cannot be converted to a warning, and when the late-payment surcharge on a municipal fine can be waived. Also covers the 30-day cancellation and 90-day court-hearing windows on the criminal track, the points system per Traffic Regulations Part 14A, and the Hotza'a Lapoal collection track. Use when you receive a parking, traffic or bus-lane fine and want to know whether to appeal, how to draft the letter, and where to file it. Do NOT use for serious criminal traffic offenses, accidents involving injuries, DUI cases, or auto-insurance disputes."
   },
   "tags": {
     "he": [
@@ -26,7 +26,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
