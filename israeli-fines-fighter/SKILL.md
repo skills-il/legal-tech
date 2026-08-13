@@ -149,12 +149,17 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 
 **Parking fine appeals -- submission channels by municipality:**
 
-| Municipality | Online Portal | In-Person |
-|-------------|--------------|-----------|
-| Tel Aviv-Yafo | tel-aviv.gov.il (Resident Portal) | 110 Jerusalem Blvd, Jaffa |
-| Jerusalem | jerusalem.muni.il | Safra Square, City Hall |
-| Haifa | haifa.muni.il | 14 Hassan Shukri St |
-| Other municipalities | Check municipal website for online appeal form | Visit city hall parking department |
+| Municipality | Online route |
+|-------------|--------------|
+| Tel Aviv-Yafo | `tel-aviv.gov.il`. The objection form covering BOTH parking and nat"z is at `www5.tel-aviv.gov.il/TlvFormCollection/Parking/ObjectionReport/` (verified 2026-08-13). |
+| Jerusalem | `jerusalem.muni.il` (bot-blocked to scripted clients; loads in a browser). |
+| Haifa | `haifa.muni.il` (verified 2026-08-13). |
+| Any other municipality | Use the address and channel printed ON THE TICKET, or the municipality's own site. |
+
+**Do not quote a municipal street address from memory.** Counter desks and department
+addresses move, and the address that binds is the one printed on the ticket. (Earlier versions of
+this skill listed walk-in addresses that could not be verified against the municipalities' own
+pages.) Direct the user to the ticket or the municipal site instead.
 
 **Before anything else: paying the fine ENDS the case against you.**
 
@@ -186,7 +191,7 @@ late request to be tried under s.230.
   - **arar (ערר)** to the traffic tribunal, within **90 days** of service, or within **30 days** of the decision on a hasagah (s.19(b)). Filing an arar bars a later hasagah on the same decision (s.8(d)).
 
   You may represent yourself or hire a traffic lawyer (orech din letnu'a).
-- **Online appeal (Tzav HaTzav):** Misrad Hatachburah's online traffic-appeal portal at `gov.il/he/service/objection_traffic_offense` accepts cancellation requests (bakasha le-bitul) and supporting evidence digitally
+- **Online submission:** the national Driver Inquiries Center (מפנ"א) service is run by **Israel Police**, not the Ministry of Transport, at `gov.il/he/service/drivers_inquiries_forms` ("פנייה למרכז פניות נהגים ארצי"). It takes the report number, the purpose of the request, and supporting documents. There is no service called "Tzav HaTzav"; earlier versions of this skill invented that name and an `objection_traffic_offense` URL that does not exist.
 - **Plea bargain (hasdarei to'en):** Some offenses allow negotiating a reduced fine or fewer points through the prosecution
 
 **Bus-lane fines (nat"z, נת"צ) are their own track. Do not treat them as parking tickets.**
@@ -213,18 +218,11 @@ the camera tickets that arrive months late:
 If the notice was served outside these windows, say so first: it disposes of the ticket without
 argument about signage. Always ask when the offence occurred AND when the notice was served.
 
-Grounds that actually work on a nat"z ticket are substantive, not discretionary: missing, contradictory or unclear signage; faded lane markings; a lane marked as public-transport that also carries a turn arrow permitting all vehicles to turn (a recurring complaint in Tel Aviv); a defect in the notice or in the image; or transferring liability to the actual driver. Also check, in this order, because each disposes of the
-ticket outright:
-
-- **Was the vehicle permitted in the lane?** Sign 501 states who may use it, and it commonly permits
-  taxis, and in some cities motorcycles. Ask for a photo of the 501 plate at that location.
-- **Was the lane in force at that hour?** Many nat"z lanes operate only in posted hours; a ticket
-  timestamped outside them is void, exactly as with the parking "outside enforcement hours" ground.
-- **Was this lawful use rather than a violation?** Sign 503 permits "רכב הפונה בצומת הקרוב", so
-  entering the lane to turn at the nearest junction is permitted use, not a plea for leniency. Entry
-  to reach abutting property, to pass a stopped obstruction, or on the direction of a police officer
-  or inspector should be raised the same way.
-- **Permit, emergency and licensed service vehicles.**
+Grounds that actually work on a nat"z ticket are substantive, not discretionary: missing, contradictory or unclear signage; faded lane markings; a lane marked as public-transport that also carries a turn arrow permitting all vehicles to turn (a recurring complaint in Tel Aviv); a defect in the notice or in the image; or transferring liability to the actual driver. Check these first, because each disposes of the ticket
+outright: whether the vehicle was permitted in the lane at all (sign 501 commonly permits taxis, and
+motorcycles in some cities), whether the lane was in force at that hour, and whether this was lawful
+use rather than a violation (sign 503 permits "רכב הפונה בצומת הקרוב"). Full list with sources:
+`references/appeal-grounds.md`, "Bus-lane (nat"z) grounds".
 
 **"Convert it to a warning" (hamara le-azhara) -- know where this does NOT apply.**
 
@@ -320,7 +318,7 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 
 | Link | What it is |
 |---|---|
-| gov.il/he/service/objection_traffic_offense | Misrad Hatachburah online traffic-appeal portal (Tzav HaTzav). May show 403 to scripted clients; loads normally in a browser. |
+| gov.il/he/service/drivers_inquiries_forms | Israel Police, national Driver Inquiries Center (מפנ"א) request service. Verified 2026-08-13. Shows 403 to scripted clients; loads normally in a browser. |
 | gov.il/he/service/police_fine_payment | Police fine payment service. Same WAF behaviour as above. |
 | www.court.gov.il | Israeli courts directory (find your local traffic court / שלום מקומי court). Use the `www.` host; the bare `court.gov.il` does not resolve cleanly. Verified 2026-08-13: the host resets scripted connections and did not load in a headless browser either, so treat it as human-browser-only and do not report it as down to the user without checking yourself. |
 | gov.il (search "משרד התחבורה") | Ministry of Transport content now lives under gov.il; the legacy `mot.gov.il` host is deprecated. |

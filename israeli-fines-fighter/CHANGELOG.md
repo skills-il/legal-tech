@@ -2,6 +2,14 @@
 
 All notable changes to this skill are documented here.
 
+## [1.6.1] - 2026-08-13
+
+### Fixed
+
+- הוסר שירות מומצא: לא קיים שירות בשם "צו הצו" / "Tzav HaTzav", וגם הכתובת `gov.il/he/service/objection_traffic_offense` אינה קיימת (אין לה שום עותק בארכיון האינטרנט). השירות האמיתי הוא `gov.il/he/service/drivers_inquiries_forms`, "פנייה למרכז פניות נהגים ארצי".
+- תוקנה זהות הגורם המפעיל: השירות מופעל על ידי **משטרת ישראל** דרך מפנ"א, ולא על ידי משרד התחבורה כפי שנכתב קודם.
+- טבלת העיריות: הוסרו כתובות קבלת קהל שלא ניתן היה לאמת מול האתרים של העיריות (דף הדוחות של תל אביב אינו מזכיר את שד' ירושלים 110, והכתובת בכותרת התחתונה שלו היא אבן גבירול 69). במקומן נוספה הפניה לכתובת שמודפסת על הדוח, וקישור מאומת לטופס ההשגה של תל אביב שמכסה גם חנייה וגם נת"צ.
+
 ## [1.6.0] - 2026-08-13
 
 Wave 2, following an independent judge review and an expert traffic-lawyer review that both returned FAIL on v1.5.0. Every reviewer assertion was re-verified against primary text before being encoded; two were rejected and several pinpoints corrected.

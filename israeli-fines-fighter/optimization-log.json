@@ -1,6 +1,21 @@
 {
   "cycles": [
     {
+      "version": "1.6.1",
+      "date": "2026-08-13",
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": []
+      },
+      "lessons": [
+        "RESOLVED, and it was a real fabrication that shipped: 'Tzav HaTzav' / 'צו הצו' was an invented service name, and gov.il/he/service/objection_traffic_offense was an invented URL with zero Wayback captures. The real service is gov.il/he/service/drivers_inquiries_forms, and it belongs to Israel Police via mafna, NOT the Ministry of Transport. Neither the evidence gate nor either reviewer caught the URL, because the gate only checked that cited URLs were reachable-or-blocked and gov.il always 403s, which reads identically to a real page. Lesson: a gov.il URL that 403s to curl should be checked against the Wayback Machine, where a real service page has captures and a fabricated slug has none.",
+        "RESOLVED: the municipality walk-in addresses could not be verified. Tel Aviv's own tickets page never mentions Jerusalem Blvd 110 and its footer gives Ibn Gvirol 69. Replaced hardcoded addresses with a pointer to the address printed on the ticket, plus the verified TLV objection form URL that covers both parking and natz.",
+        "SKILL.md hit the 5,000-word validator cap during this patch. Trimmed by pointing the duplicated natz grounds list at references/appeal-grounds.md. Future additions to the body need a matching trim or they will fail the validator."
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-08-13",
       "buckets": {

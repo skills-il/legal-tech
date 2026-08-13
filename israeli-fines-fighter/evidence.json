@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-fines-fighter",
-  "generated_at": "2026-08-13T00:58:13.569743+00:00",
+  "generated_at": "2026-08-13T01:29:38.488122+00:00",
   "claims": [
     {
       "claim_id": "appeal-windows-and-surcharge",
@@ -61,14 +61,16 @@
     },
     {
       "claim_id": "reference-urls",
-      "claim": "Reference and submission URLs cited by the skill",
-      "source_url": "https://www.court.gov.il",
-      "raw_snippet": "Reference URLs: https://www.court.gov.il https://www.gov.il/he/service/objection_traffic_offense https://www.gov.il/he/service/police_fine_payment https://www.kolzchut.org.il https://www.nevo.co.il http://tel-aviv.gov.il http://jerusalem.muni.il http://haifa.muni.il gov.il/he/service/objection_traffic_offense gov.il/he/service/police_fine_payment https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter",
-      "fetched_at": "2026-06-16T22:25:00Z",
+      "claim": "Reference and submission URLs cited by the skill. Verified 2026-08-13: gov.il/he/service/drivers_inquiries_forms is the Israel Police Driver Inquiries Center service; objection_traffic_offense does not exist.",
+      "source_url": "https://web.archive.org/web/2026/https://www.gov.il/he/service/drivers_inquiries_forms",
+      "raw_snippet": "פנייה למרכז פניות נהגים ארצי",
+      "fetched_at": "2026-08-13T01:29:06.019877+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-13T01:29:06.019877+00:00"
     },
     {
       "claim_id": "driver-inquiries-center",
@@ -586,6 +588,29 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tlv-objection-form-covers-parking-and-natz",
+      "claim": "Tel Aviv's objection form covers both parking tickets and bus-lane (nat\"z) tickets; verified HTTP 200 on 2026-08-13.",
+      "source_url": "https://www5.tel-aviv.gov.il/TlvFormCollection/Parking/ObjectionReport/",
+      "raw_snippet": "בקשה לביטול דוח חניה או נתיב תחבורה ציבורית",
+      "fetched_at": "2026-08-13T01:29:06.019877+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-13T01:29:06.019877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "openclaw-install-url",
+      "claim": "OpenClaw install URL for this skill, declared in metadata.json.",
+      "source_url": "https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter",
+      "raw_snippet": "https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter",
+      "fetched_at": "2026-08-13T01:29:38.488122+00:00",
+      "appears_in": [
+        "metadata.json"
       ]
     }
   ]
