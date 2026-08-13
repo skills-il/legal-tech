@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-fines-fighter",
-  "generated_at": "2026-08-13T00:39:00.115302+00:00",
+  "generated_at": "2026-08-13T00:58:13.569743+00:00",
   "claims": [
     {
       "claim_id": "appeal-windows-and-surcharge",
@@ -331,6 +331,258 @@
       "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
       "raw_snippet": "צבר הנהג נקודות במספר המחייב אמצעי תיקון כאמור בתקנה 549, תודיע לו על כך רשות הרישוי",
       "fetched_at": "2026-08-13T00:39:00.115302+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-229h-payment-is-admission",
+      "claim": "Paying a fine notice is treated as a confession, conviction and served sentence (s.229(h) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "שילם אדם את הקנס רואים אותו כאילו הודה באשמה בפני בית המשפט, הורשע ונשא את עונשו.",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-225a-one-year",
+      "claim": "No fine notice may be served more than a year after the offence (s.225A(a) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "עברה שנה מיום ביצוע עבירת קנס, לא יוגש עליה כתב אישום ולא תומצא בעניינה הודעת תשלום קנס",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-225a-camera-four-months",
+      "claim": "For camera-based traffic offences under Traffic Ordinance s.27A/27A1 the limit is four months from the offence (s.225A(a1)(1) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "ארבעה חודשים ממועד ביצוע העבירה",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-225a-a2-driver-pursuit",
+      "claim": "Where the owner proved non-liability under s.27B, the driver may be pursued within a year of the offence or three months from that proof, whichever is later, capped at two years.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "ניתן להגיש כתב אישום או להמציא הזמנה אם לא עברה שנה מיום ביצוע העבירה או אם לא חלפו שלושה חודשים מהמועד שבו הוכיח בעל הרכב כי לא חלה עליו אחריות כאמור, לפי המאוחר, ובלבד שלא עברו שנתיים מיום ביצוע העבירה.",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-229c-prosecutor-cancellation",
+      "claim": "A prosecutor may cancel a fine notice where the circumstances as a whole are unsuitable for continuing the proceedings (s.229(c) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "אם היה סבור שנסיבות העניין בכללותן אינן מתאימות להמשך קיום ההליכים",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-229b-penal-law-67-surcharge",
+      "claim": "On the criminal track the additions are tosefet pigur, shekel interest and late-payment charges under s.67 of the Penal Law (s.229(b) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "יתווספו על הקנס תוספת פיגור, ריבית שקלית ודמי פיגורים כאמור בסעיף 67 לחוק העונשין",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-229f-waiver",
+      "claim": "A prosecutor may waive the additions where there were reasonable causes for non-payment or special personal circumstances (s.229(f) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "רשאי תובע לפטור אותו, על פי בקשתו, מתשלום של תוספת הפיגור, הריבית השקלית או דמי הפיגורים",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-229h2-deemed-conviction",
+      "claim": "Once the windows close without a request, the person is treated as convicted and sentenced to the fine in the notice (s.229(h2) CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "יראו אותו, בתום המועדים הקבועים בסעיף קטן (א) להגשת בקשות אלה, כאילו הורשע בבית המשפט ונגזר עליו הקנס הנקוב בהודעת תשלום הקנס",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-230-late-request",
+      "claim": "The court may hear a late request to be tried where the s.229(e) conditions are met or for other special recorded reasons (s.230 CPL).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "בית המשפט רשאי, לקיים את המשפט גם אם אותו אדם ביקש להישפט באיחור",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "reg-547b-two-years",
+      "claim": "Base point-validity period is two years from the offence (reg. 547(b)).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "נקודות יהיו תקפות במשך שנתיים מיום ביצוע העבירה.",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "reg-547c-22-points-four-years",
+      "claim": "Where 22 or more points accumulated in under two years, points remain valid for four years (reg. 547(c)).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "אם הצטברו לחובתו של נהג 22 נקודות או יותר בתוך פחות משנתיים, הנקודות יהיו תקפות למשך 4 שנים",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "reg-547b-split-2027",
+      "claim": "From 21.5.2027 the base period splits: one year for offences carrying up to 6 points, two years for 8 or more.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "שנה מיום ביצוע העבירה או ההפרה, לפי העניין;",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "sixth-schedule-driver-seatbelt-6",
+      "claim": "Driver not wearing a seatbelt (reg. 83B(a)) sits in the 6-point tier of the Sixth Schedule.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "נהג שאינו חגור בחגורת בטיחות",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "sixth-schedule-passenger-seatbelt-4",
+      "claim": "Passenger not wearing a seatbelt (reg. 83B(a)) sits in the 4-point tier of the Sixth Schedule.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "נוסע שאינו חגור בחגורת בטיחות",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "phone-offence-changes-20-8-2026",
+      "claim": "The mobile-phone offence (reg. 28(b)) has a superseding Sixth Schedule row effective 20.8.2026.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "(החל מיום 20.8.2026): נהיגה תוך שימוש בטלפון בלא דיבורית",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "first-schedule-stop-sign-250",
+      "claim": "Failure to obey signs 302/304 (non-stopping only) carries 250 NIS, First Schedule item 23.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "raw_snippet": "אי־ציות לתמרורים 302, 304 באי־עצירה בלבד",
+      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "cite-225a",
+      "claim": "Section 225A is the provision setting service time limits for fine offences.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "בתוך התקופות כמפורט בסעיף 225א(א1)(1) או (2) או התקיים האמור בסעיף קטן (א2)",
+      "fetched_at": "2026-08-13T00:58:13.569743+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cite-229",
+      "claim": "Section 229 is the provision governing payment, cancellation requests and requests to be tried.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "אין באמור בסעיף קטן (א) כדי למנוע הגשת כתב אישום נגד מי שביקש להישפט לפי סעיף 229",
+      "fetched_at": "2026-08-13T00:58:13.569743+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cite-230",
+      "claim": "Section 230 governs a late request to be tried.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "raw_snippet": "אף על פי שהודיע באיחור על רצונו להישפט כאמור בסעיף 230",
+      "fetched_at": "2026-08-13T00:58:13.569743+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cite-547",
+      "claim": "Regulation 547 governs summing and validity of points.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "אמצעי התיקון כאמור בתקנה 547(א) הם אלה",
+      "fetched_at": "2026-08-13T00:58:13.569743+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

@@ -51,6 +51,7 @@ def calculate_deadline(receipt_date: str, fine_type: str) -> dict:
     today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 
     cancel_window = PARKING_CANCEL_DAYS if fine_type == "parking" else TRAFFIC_CANCEL_DAYS
+    # All three tracks share 30/90; the labels and the available remedies differ.
     appeal_deadline = date + timedelta(days=cancel_window)
     court_deadline = date + timedelta(days=COURT_HEARING_DAYS)
     surcharge_deadline = date + timedelta(days=SURCHARGE_STARTS_DAYS)
@@ -88,33 +89,51 @@ def main():
     parser.add_argument(
         "--type",
         required=True,
-        choices=["parking", "traffic"],
+        choices=["parking", "traffic", "administrative"],
         help=(
-            "Type of fine: parking (municipal) or traffic (police/camera). "
-            "Both have a 30-day cancellation window and a 90-day court-hearing window."
+            "parking (municipal) or traffic (police/camera) = criminal track: 30-day "
+            "bakasha le-bitul, 90-day bakasha le-hishafet. administrative = Administrative "
+            "Traffic Violations Law track: 30-day hasagah (90 if you were not the driver), "
+            "90-day arar to the traffic tribunal, and NO request to be tried. Which track "
+            "applies is decided by the OFFENCE date, not today's date."
         ),
     )
 
     args = parser.parse_args()
     result = calculate_deadline(args.date, args.type)
 
-    fine_label = "Parking fine" if result["fine_type"] == "parking" else "Traffic fine"
+    fine_label = {
+        "parking": "Parking fine",
+        "traffic": "Traffic fine",
+        "administrative": "Administrative traffic violation",
+    }[result["fine_type"]]
+    admin = result["fine_type"] == "administrative"
 
     print(f"\n{'='*50}")
     print(f"  {fine_label} Appeal Deadline Calculator")
     print(f"{'='*50}")
     print(f"  Receipt date:           {result['receipt_date']}")
-    print(f"  Cancellation window:    30 days (bakasha le-bitul)")
-    print(f"  Cancellation deadline:  {result['appeal_deadline']}")
-    print(f"  Court-hearing deadline: {result['court_hearing_deadline']} (bakasha le-hishafet, 90 days)")
+    if admin:
+        print(f"  Hasagah window:         30 days (90 if you were not the driver, s.8(a))")
+        print(f"  Hasagah deadline:       {result['appeal_deadline']}")
+        print(f"  Arar deadline:          {result['court_hearing_deadline']} (to the traffic tribunal, 90 days, s.19(b))")
+        print(f"                          or 30 days from the decision on the hasagah")
+        print(f"  Note:                   there is NO bakasha le-hishafet on this track")
+    else:
+        print(f"  Cancellation window:    30 days (bakasha le-bitul)")
+        print(f"  Cancellation deadline:  {result['appeal_deadline']}")
+        print(f"  Court-hearing deadline: {result['court_hearing_deadline']} (bakasha le-hishafet, 90 days)")
     print(f"  Late-payment addition:  can start {result['surcharge_deadline']} (rate depends on track)")
 
     if result["can_appeal"]:
-        print(f"  Status:                 WITHIN 30-DAY CANCELLATION WINDOW")
+        label = "HASAGAH" if admin else "CANCELLATION"
+        print(f"  Status:                 WITHIN 30-DAY {label} WINDOW")
         print(f"  Days remaining:         {result['days_remaining_appeal']} days")
     elif not result["surcharge_started"]:
-        print(f"  Status:                 CANCELLATION WINDOW EXPIRED, court window still open")
-        print(f"  Days to court request:  {result['days_remaining_court']} days")
+        first = "HASAGAH" if admin else "CANCELLATION"
+        second = "arar" if admin else "court request"
+        print(f"  Status:                 {first} WINDOW EXPIRED, {second} window still open")
+        print(f"  Days to {second:<15}{result['days_remaining_court']} days")
     else:
         print(f"  Status:                 LATE-PAYMENT ADDITION MAY HAVE STARTED")
         print(f"  Action:                 Check the real balance with the Fines Collection Center,")

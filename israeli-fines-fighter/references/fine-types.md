@@ -47,12 +47,12 @@ Traffic fines are issued by the Israel Police and are classified as "breirot mis
 |-----------|--------|-----------|--------|
 | Running red light | מעבר באור אדום | 1,000 | 10 |
 | Mobile phone use while driving | שימוש בטלפון נייד | 1,000 | 8 |
-| Not wearing seatbelt (driver) | אי חגירת חגורת בטיחות | 250 | 2 |
-| Not wearing seatbelt (passenger) | נוסע ללא חגורה | 250 | 0 |
+| Not wearing seatbelt (driver) | נהג שאינו חגור בחגורת בטיחות | 250 | 6 |
+| Not wearing seatbelt (passenger) | נוסע שאינו חגור בחגורת בטיחות | 250 | 4 |
 | Illegal U-turn | פניית פרסה אסורה | 250 | 4 |
 | Illegal overtaking | עקיפה אסורה | 500-1,000 | 6-8 |
 | Driving without license on person | נהיגה ללא רישיון נהיגה | 100 | 0 |
-| Failing to stop at stop sign | אי עצירה בתמרור עצור | 500 | 6 |
+| Failing to stop at stop sign (302/304, non-stopping only) | אי ציות לתמרורים 302, 304 באי־עצירה בלבד | 250 | 6 |
 
 ### Payment Channels
 

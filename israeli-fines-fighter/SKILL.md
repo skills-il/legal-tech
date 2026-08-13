@@ -156,8 +156,18 @@ Traffic fine appeals go to the prosecution or court. The letter structure differ
 | Haifa | haifa.muni.il | 14 Hassan Shukri St |
 | Other municipalities | Check municipal website for online appeal form | Visit city hall parking department |
 
+**Before anything else: paying the fine ENDS the case against you.**
+
+Under s.229(h) of the Criminal Procedure Law, a person who pays the fine "רואים אותו כאילו הודה
+באשמה בפני בית המשפט, הורשע ונשא את עונשו" - they are treated as having confessed, been convicted
+and served the sentence. Payment therefore forfeits every route below AND records the penalty points.
+Never let a user pay "to be safe" while an appeal is pending, and never present the early-payment
+discount as compatible with appealing: they are mutually exclusive choices. The only exceptions are
+where the prosecutor later cancels the notice under s.229(c), or where the court agrees to hear a
+late request to be tried under s.230.
+
 **Traffic fine options:**
-- **Pay the fine:** Online at gov.il (police fine payment service) or at any post office
+- **Pay the fine** (only when the user has decided NOT to contest, see above): Online at gov.il (police fine payment service) or at any post office
 - **Cancellation request (bakasha le-bitul):** For police/camera traffic fines the cancellation request goes to the **Driver Inquiries Center (Merkaz Pniyot Nehagim, מפנ"א)** of the traffic prosecution, not to a generic "police station". Camera (A3 / דוח מצלמה) fines route through מפנ"א.
 - **Request a court hearing (bakasha lehisha'fet):** Submit within 90 days. This is the route for offences still on the criminal-procedure track. For offences that have moved to the administrative track (see below), a request to be tried is no longer available at all: the route is hasagah then arar.
 - **Administrative track (Administrative Traffic Violations Law, 5784-2024) -- staged, and stage 2 is now live.** Its s.47(c) rolls breirot mishpat into an administrative regime in two stages, counted from the commencement date of **8 February 2026**:
@@ -189,16 +199,47 @@ Driving in a public-transport lane is not a parking offence, even though the tic
 | Statutory fine | **500 NIS** (First Schedule to the Administrative Traffic Violations Law, item 24). Press reports of higher figures usually describe aggravating circumstances or a different offence. |
 | Who enforces it? | Usually a **local authority**, not the police, via fixed cameras. The camera power is Traffic Ordinance s.27A1, and the enforcing municipal employee is a "mefake'ach" under s.28(b) of the Administrative Traffic Violations Law. |
 | Which track? | At 500 NIS and not a Regulation 54 offence, it entered the **administrative track in stage 1 (8 February 2026)**. So: **hasagah then arar, and there is no request to be tried.** |
-| Can it be converted to a warning? | **No.** See the warning subsection below. |
+| Can it be converted to a warning? | **Not on the administrative track.** For an offence committed BEFORE it crossed over, see the warning subsection below. |
 
-Grounds that actually work on a nat"z ticket are substantive, not discretionary: missing, contradictory or unclear signage; faded lane markings; a lane marked as public-transport that also carries a turn arrow permitting all vehicles to turn (a recurring complaint in Tel Aviv); a defect in the notice or in the image; or transferring liability to the actual driver.
+**Time limits on ISSUING the ticket, the ground most often missed.** These bite hardest on exactly
+the camera tickets that arrive months late:
+
+| Situation | Limit on serving a fine notice | Source |
+|---|---|---|
+| Camera-based traffic offence under Traffic Ordinance s.27A or s.27A1 (this includes nat"z cameras) | **4 months** from the offence | s.225A(a1)(1) CPL |
+| Fine offence generally | **1 year** from the offence | s.225A(a) CPL |
+| Owner proved they were not liable under s.27B, so the actual driver is pursued | 1 year from the offence, or 3 months from that proof, whichever is later, capped at 2 years | s.225A(a2) CPL |
+
+If the notice was served outside these windows, say so first: it disposes of the ticket without
+argument about signage. Always ask when the offence occurred AND when the notice was served.
+
+Grounds that actually work on a nat"z ticket are substantive, not discretionary: missing, contradictory or unclear signage; faded lane markings; a lane marked as public-transport that also carries a turn arrow permitting all vehicles to turn (a recurring complaint in Tel Aviv); a defect in the notice or in the image; or transferring liability to the actual driver. Also check, in this order, because each disposes of the
+ticket outright:
+
+- **Was the vehicle permitted in the lane?** Sign 501 states who may use it, and it commonly permits
+  taxis, and in some cities motorcycles. Ask for a photo of the 501 plate at that location.
+- **Was the lane in force at that hour?** Many nat"z lanes operate only in posted hours; a ticket
+  timestamped outside them is void, exactly as with the parking "outside enforcement hours" ground.
+- **Was this lawful use rather than a violation?** Sign 503 permits "רכב הפונה בצומת הקרוב", so
+  entering the lane to turn at the nearest junction is permitted use, not a plea for leniency. Entry
+  to reach abutting property, to pass a stopped obstruction, or on the direction of a police officer
+  or inspector should be raised the same way.
+- **Permit, emergency and licensed service vehicles.**
 
 **"Convert it to a warning" (hamara le-azhara) -- know where this does NOT apply.**
 
-Converting a fine to a warning is a **police discretionary practice** for breirot mishpat, requested through the Driver Inquiries Center (מפנ"א). It is a discretion, never an entitlement, and it does not apply to two large categories users often ask about:
+Converting a fine to a warning is a **police discretionary practice** for breirot mishpat, requested through the Driver Inquiries Center (מפנ"א). It is a discretion, never an entitlement. Where it does and does not exist:
 
-- **Municipal tickets** (parking, and municipally-enforced nat"z). The municipality either cancels the ticket or does not; there is no warning tier.
-- **The administrative track.** The Administrative Traffic Violations Law does not contain the word "azhara" at all. Its remedies are hasagah and arar.
+| Track | Warning available? |
+|---|---|
+| Criminal track (breirat mishpat: offence committed before its band crossed over) | Yes, as a discretionary practice. The statutory hook for dropping the case is s.229(c) CPL, which lets a prosecutor cancel a fine notice where "נסיבות העניין בכללותן אינן מתאימות להמשך קיום ההליכים". |
+| Administrative track | No. The Administrative Traffic Violations Law does not contain the word "azhara" at all; its remedies are hasagah and arar. |
+| Municipal parking | No warning tier. The municipality either cancels the ticket or does not. |
+
+Because the track is fixed by the OFFENCE date, a nat"z or other municipal ticket for an offence
+committed before its band crossed over is still criminal-track, so the request is not pointless there.
+Deemed conviction and collection run for months, so such tickets are still live. Establish the offence
+date before telling a user the route is closed to them.
 
 Do NOT state numeric eligibility criteria (years of licence held, years since the last conviction). Published law-firm summaries disagree with each other on these numbers and no authoritative public source sets them out, so quoting one would be fabrication. Describe the mechanism qualitatively, say it is discretionary, and route the user to מפנ"א.
 
@@ -229,7 +270,7 @@ Three things this table is deliberately precise about, because the common write-
 
 There is no "warning letter" tier and no standalone "theory re-test at 34-36" tier.
 
-**Point validity clock.** Points are recorded for a fixed period from the **offence date**: **2 years** for a driver who accumulated **up to 20 points** in the period, **4 years** for a driver who passed **20 points**. Expiry is ALSO conditioned on completing any required measures (course/test/suspension): if the driver has not completed the imposed measure, the points (and the obligation) do not lapse when the clock runs out. So both conditions must be met, the validity window elapsed AND the required measures completed.
+**Point validity clock.** Points run from the **offence date**. The base period is **2 years** (reg. 547(b)). It becomes **4 years** where a driver accumulated **22 points or more within less than two years** (reg. 547(c)) - the trigger is 22 within a short window, not "more than 20". From **21.5.2027** the base period splits: 1 year for offences carrying up to 6 points, 2 years for 8 or more (reg. 547(b)(1)-(2)). Expiry is ALSO conditioned on completing any required measures (course/test/suspension): if the driver has not completed the imposed measure, the points (and the obligation) do not lapse when the clock runs out. So both conditions must be met, the validity window elapsed AND the required measures completed.
 
 **Common violation point values:**
 
@@ -238,8 +279,9 @@ There is no "warning letter" tier and no standalone "theory re-test at 34-36" ti
 | Running a red light | 1,000 | 10 |
 | Speeding 21-30 km/h over limit (urban) | 750 | 8 |
 | Speeding 31-40 km/h over limit (urban) | 1,500 | 10 |
-| Using mobile phone while driving | 1,000 | 8 |
-| Not wearing seatbelt | 250 | 2 |
+| Using mobile phone while driving | 1,000 | 8 (moves to 10 on 20.8.2026, reg. 28(b)) |
+| Driver not wearing seatbelt | 250 | 6 |
+| Passenger not wearing seatbelt | 250 | 4 |
 | Illegal overtaking | 500-1,000 | 6-8 |
 
 Note: Fine amounts are updated periodically by ministerial order. Always verify current amounts on gov.il. The amounts above are approximate as of early 2026.
@@ -303,18 +345,30 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 The "fine doubles after 30 days" framing is incorrect. The rule depends on which track the fine is on:
 
 - **Administrative track** (Administrative Traffic Violations Law): the late-payment addition (tosefet pigur) is **30% of the unpaid fine**, a single addition, per s.10(b)(1), plus shekel interest and late-payment charges under s.10(b)(2). It attaches after the payment date in s.8(c) / 9(a) / 19(d), not at day 30.
-- **Criminal track** (breirot mishpat not yet moved across): a statutory addition plus interest, then further periodic additions. Do not quote a fixed percentage here; check the balance with the Fines Collection Center or on the payment notice.
+- **Criminal track** (breirot mishpat not moved across): under s.229(b) CPL the additions are the tosefet pigur, shekel interest and late-payment charges **under s.67 of the Penal Law**, collected under ss.68 and 70. Do not quote a percentage from memory; check the balance with the Fines Collection Center or on the payment notice. A prosecutor may waive these additions on request under s.229(f) where there were reasonable causes for non-payment or special personal circumstances; the request must be in writing and supported by an affidavit (s.229(g)).
 - Either way: possible collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
 
 **Waiver of the surcharge on municipal fines (worth asking for, and widely unknown).** For a fine imposed by a municipal inspector under s.28 (this includes nat"z camera fines), s.10(c) lets the competent authority exempt the person from the late-payment addition, in whole or in part, where the failure to pay on time was for a reason beyond their control, or where the surcharge arose from a malfunction of a state or municipal authority. The request must be in writing (s.10(d)).
 
-If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, a late request is considered only where the delay itself is justified (for example hospitalization, active reserve service, or being abroad), and you must document the cause.
+If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately.
+
+After the windows close the person is treated as convicted and sentenced to the fine in the notice
+(s.229(h2) CPL). A late request to be tried is still possible: under s.230 the court may hear the case
+where the conditions in s.229(e) are met, that is the delay was caused by something outside the
+person's control which prevented timely filing and the request was made immediately once that
+obstacle was removed, or for other special reasons the court records. Document the cause.
 
 ### "I got a camera fine but I wasn't driving"
 The vehicle owner must submit a statutory declaration (tatzir) identifying the actual driver. This transfers liability. The declaration must be submitted within 90 days and include the other driver's full name and ID number.
 
 ### "I want to go to court over a parking fine"
-Parking fines in Israel are administrative, not criminal. The appeal goes to the municipality, not a court. If the municipal appeal is rejected, the next step is filing an administrative appeal (erur minhal'i) with the local court, but this is rarely cost-effective for small fines.
+A municipal parking ticket is a **breirat kenas under the Criminal Procedure Law**, not an
+administrative-affairs matter. The first step is a בקשה לביטול to the municipality. If that is
+rejected, the next step is a **בקשה להישפט**, which moves the case to בית משפט לעניינים מקומיים as a
+criminal-procedure hearing. It is NOT an erur minhali to an administrative-affairs court. (Earlier
+versions of this skill said otherwise in this one paragraph while the Step 2 and Step 5 tables said
+the opposite; the tables were right.) For small fines this is often not cost-effective, but the route
+is the one above.
 
 ### "How much does a traffic lawyer cost?"
 Traffic lawyers in Israel typically charge 1,500-5,000 NIS depending on the violation severity. For minor fines under 500 NIS, self-representation is usually more economical. For fines with 10+ points or license suspension risk, a lawyer may be worthwhile.

@@ -1,6 +1,25 @@
 {
   "cycles": [
     {
+      "version": "1.6.0",
+      "date": "2026-08-13",
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": []
+      },
+      "lessons": [
+        "Both independent gates returned FAIL on v1.5.0 and both were right about the shape of the problem: the release changed the prose but left scripts/ and references/ on the old text. Treat every release as covering all four layers (body, Hebrew mirror, references, scripts) or state explicitly which layer was deliberately not touched.",
+        "Reviewer pinpoints were wrong more often than reviewer substance. The Expert cited s.229(c) for payment-as-admission (it is s.229(h)), cited a non-existent s.228(b1) for the warning power (the real hook is s.229(c)), and inverted s.230 with s.229(h2). The Judge was accurate throughout. Always read the provision before writing the section letter.",
+        "Two reviewer findings were rejected on verification: the alleged s.47(c) band gaps at 501-749 and above 1,500 do not exist, because the First Schedule has exactly six levels {100,250,500,750,1000,1500}; and the +50% surcharge and 'sec. 230 CPL' findings were read from a pre-fix snapshot.",
+        "Highest-value find of the cycle came from a reviewer lead that was itself imprecise: chasing the Expert's one-year limitation claim surfaced the four-month limit for camera offences under s.225A(a1)(1), which is the single strongest ground on a natz ticket and was absent from every file.",
+        "Still unverified: the Step 5 municipality table (Tel Aviv, Jerusalem, Haifa portals and addresses) has never been checked against the live municipal sites.",
+        "Deferred: the six kolzchut/gov.il/court.gov.il evidence sources remain permanently machine-unverifiable behind Cloudflare. Migrate each to primary text where the fact exists in statute, as was done for the arar deadlines in 1.5.0.",
+        "Deferred: 'Tzav HaTzav' as a service name was flagged as possibly garbled and was NOT verified this cycle. Check it against the gov.il service page before the next release."
+      ]
+    },
+    {
       "version": "1.5.0",
       "date": "2026-08-13",
       "holdout_before": 0.5,
