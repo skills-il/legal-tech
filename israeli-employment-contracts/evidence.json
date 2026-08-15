@@ -14,7 +14,9 @@
         "SKILL_HE.md",
         "references/labor-law.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "min-wage-47-5-pct",
@@ -39,7 +41,9 @@
         "SKILL_HE.md",
         "references/labor-law.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "havraa-private-rate-418-451-b",
@@ -52,7 +56,9 @@
         "SKILL_HE.md",
         "references/labor-law.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "pension-rates-6.5-6-8.33-18.5-12.5-a",
@@ -66,7 +72,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "pension-rates-6.5-6-8.33-18.5-12.5-b",
@@ -80,7 +88,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "severance-one-month-per-year-a",
@@ -93,7 +103,9 @@
         "SKILL_HE.md",
         "references/labor-law.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "severance-one-month-per-year-b",
@@ -106,7 +118,9 @@
         "SKILL_HE.md",
         "references/labor-law.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "severance-resignation-exceptions-a",
@@ -117,7 +131,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "severance-resignation-exceptions-b",
@@ -128,7 +144,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "severance-resignation-exceptions-c",
@@ -139,20 +157,24 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "notice-hourly-first-year-one-day-per-month-a",
       "claim": "A daily/hourly-paid worker with up to one year of seniority is entitled to 1 day of prior notice for each month of employment.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "עובד ששכרו משולם על בסיס יומי או שעתי עובד בעל ותק של עד שנה זכאי ליום הודעה מוקדמת בגין כל חודש עבודה.",
+      "raw_snippet": "עובד בעל ותק של עד שנה זכאי ליום הודעה מוקדמת בגין כל חודש עבודה.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "notice-hourly-first-year-one-day-per-month-b",
@@ -165,7 +187,9 @@
         "SKILL_HE.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "section-14-severance-law",
@@ -179,7 +203,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "keren-hishtalmut-7.5-2.5-a",
@@ -192,7 +218,9 @@
         "SKILL_HE.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "keren-hishtalmut-7.5-2.5-b",
@@ -205,7 +233,9 @@
         "SKILL_HE.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "workweek-42-hours",
@@ -219,7 +249,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "overtime-125-150",
@@ -233,7 +265,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "weekly-rest-36-hours",
@@ -246,7 +280,9 @@
         "SKILL_HE.md",
         "references/labor-law.md",
         "references/mandatory-clauses.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "sick-pay-tiers-50-100-a",
@@ -260,7 +296,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "sick-pay-tiers-50-100-b",
@@ -274,7 +312,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "sick-pay-tiers-50-100-c",
@@ -288,7 +328,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "section-45a-credit-35-7-8148-a",
@@ -299,7 +341,9 @@
       "appears_in": [
         "references/labor-law.md",
         "references/mandatory-clauses.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "section-45a-credit-35-7-8148-b",
@@ -310,7 +354,9 @@
       "appears_in": [
         "references/labor-law.md",
         "references/mandatory-clauses.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "btl-employer-full-rate-7.6-current",
@@ -321,7 +367,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "section-14-concept",
@@ -335,7 +383,9 @@
         "references/labor-law.md",
         "references/mandatory-clauses.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "copyright-section-34",
@@ -371,7 +421,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/labor-law.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "form-106-annual-summary",
@@ -381,7 +433,9 @@
       "fetched_at": "2026-06-25T12:00:00Z",
       "appears_in": [
         "references/labor-law.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "form-126-payroll-report",
@@ -392,7 +446,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "ref-url-kolzchut-chozeh-avoda-ishi",
@@ -403,18 +459,22 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "ref-url-kolzchut-pitzuei-piturim-literal",
       "claim": "Kol Zchut severance pay (פיצויי פיטורים) reference page (literal-Hebrew URL as cited in the skill body).",
       "source_url": "https://www.kolzchut.org.il/he/פיצויי_פיטורים",
-      "raw_snippet": "הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים.",
+      "raw_snippet": "עובדים שהמעסיק שלהם הפריש את מלוא הפיצויים לקופת הגמל או לביטוח הפנסיוני, אינם זכאים לתשלום פיצויים נוסף מהמעסיק בעת סיום עבודתם.",
       "fetched_at": "2026-06-25T12:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "ref-url-nevo-notice-to-employee-law",
@@ -447,7 +507,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "ref-url-gov-ministry-of-labor",
@@ -458,7 +520,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "encoded-hebrew-url-coverage-1",
@@ -468,7 +532,9 @@
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "encoded-hebrew-url-coverage-2",
@@ -478,7 +544,9 @@
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "references/labor-law.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "encoded-hebrew-url-coverage-3",
@@ -489,7 +557,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "histadrut-minwage-url-rate-3.3-a",
@@ -520,7 +590,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "derived-total-employer-cost-14.83-b",
@@ -531,7 +603,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "example-derived-amounts-and-percents",
@@ -543,18 +617,22 @@
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/generate_contract.py"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "domestic-worker-all-rights",
       "claim": "Domestic workers (oved meshek bayit: cleaners, nannies, caregivers) are entitled to all the rights granted to salaried employees.",
       "source_url": "https://www.kolzchut.org.il/he/זכותון_עובדים_במשק_בית_(עוזרות_בית_ומטפלים/ות)",
-      "raw_snippet": "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות לעובדים שכירים",
+      "raw_snippet": "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות ל עובדים שכירים",
       "fetched_at": "2026-07-07T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "domestic-worker-btl-report",
@@ -576,7 +654,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "ref-url-btl-domestic-worker",
@@ -598,7 +678,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "livein-care-no-overtime",
@@ -609,7 +691,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "livein-care-weekly-rest-25",
@@ -620,7 +704,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API in a browser (the host WAF blocks plain fetches); redirects resolved",
+      "verified_at": "2026-08-15"
     }
   ]
 }
