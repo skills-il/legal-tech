@@ -525,13 +525,15 @@
       "claim_id": "ref-url-gov-labor-courts",
       "claim": "Israel has 5 regional labour courts (Beer Sheva, Haifa, Jerusalem, Nazareth, Tel Aviv) serving as the first instance for labour-relations and social-security matters.",
       "source_url": "https://www.kolzchut.org.il/he/בתי_הדין_האזוריים_לעבודה",
-      "raw_snippet": "בישראל קיימים 5 בתי דין אזוריים לעבודה: באר שבע; חיפה; ירושלים; נצרת; תל-אביב.",
+      "raw_snippet": "בישראל קיימים 5 בתי דין אזוריים לעבודה: באר שבע; חיפה; ירושלים; נ",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "note": "Previous gov.il URL (departments/labor_courts_in_israel) is a hard 404 as of 2026-07-26, verified in a browser, not merely bot-blocked as the prior cycle recorded."
+      "note": "Previous gov.il URL (departments/labor_courts_in_israel) is a hard 404 as of 2026-07-26, verified in a browser, not merely bot-blocked as the prior cycle recorded.",
+      "verified_via": "kolzchut page text read through the site MediaWiki API in a browser; snippet replaced with verbatim page text (the previous value was a generated summary)",
+      "verified_at": "2026-08-15"
     },
     {
       "claim_id": "ref-url-kolzchut-minwage",
