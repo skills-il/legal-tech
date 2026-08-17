@@ -50,7 +50,7 @@ Once the payment date on the notice passes without payment or an appeal, a statu
 
 | Timeline | Status | Action |
 |----------|--------|--------|
-| **Day 0-30** | Both windows open | Best time to file בקשה לביטול. Many municipalities also offer a 25-50% early-payment discount in this window (varies by city). |
+| **Day 0-30** | Both windows open | Best time to file בקשה לביטול. Some municipalities offer an early-payment discount in this window. Whether one exists, and how much it is, is set per municipality, so check the notice or the municipality's own page rather than assuming a rate. |
 | **Day 31-90** | Cancellation window closed; court-hearing window still open | File בקשה להישפט before day 90, OR if a בקשה לביטול was rejected, file court request within 30 days of the rejection. |
 | **Day 90+** | Both standard windows closed; late-payment additions accrue | A late request is considered only where the delay itself is justified and documented (for example hospitalization, active reserve service, or being abroad). Otherwise enforcement via Hotza'a Lapo'al, vehicle-registration block (ikuv rishum), additional fees. |
 
@@ -272,17 +272,28 @@ There is no "warning letter" tier and no standalone "theory re-test at 34-36" ti
 
 **Common violation point values:**
 
-| Violation | Fine (NIS) | Points |
-|-----------|-----------|--------|
-| Running a red light | 1,000 | 10 |
-| Speeding 21-30 km/h over limit (urban) | 750 | 8 |
-| Speeding 31-40 km/h over limit (urban) | 1,500 | 10 |
-| Using mobile phone while driving | 1,000 | 8 (moves to 10 on 20.8.2026, reg. 28(b)) |
-| Driver not wearing seatbelt | 250 | 6 |
-| Passenger not wearing seatbelt | 250 | 4 |
-| Illegal overtaking | 500-1,000 | 6-8 |
+| Violation | Points | Regulation |
+|-----------|--------|-----------|
+| Running a red light | 10 | 22(a) |
+| Speeding 21-30 km/h over limit (urban) | 8 | 54(a) |
+| Speeding 31-40 km/h over limit (urban) | 10 | 54(a) |
+| Using mobile phone while driving, not hands-free | 8 | 28(b)(1)(a) |
+| Driver not wearing seatbelt | 6 | 83a(b) |
+| Passenger not wearing seatbelt | 2 | 83b(a) |
+| Illegal overtaking | 4-10, depending on the specific offence | 47 |
 
-Note: Fine amounts are updated periodically by ministerial order. Always verify current amounts on gov.il. The amounts above are approximate as of early 2026.
+Point values are read from the Ministry of Transport's offence-code table
+([tavlat simlei averot](https://data.gov.il/he/datasets/ministry_of_transport/tavlat-simlei-averot)),
+which is the authoritative list and carries a points column per offence code. Overtaking spans
+the widest band: overtaking on the right is 4, overtaking before a crossing is 6, in poor
+visibility 8, and crossing a solid line or when the road is not clear is 10. Ask which one the
+notice actually cites rather than assuming.
+
+**This table deliberately does not list fine amounts.** Amounts are set by ministerial order,
+are index-linked, and differ between the police track and municipal parking, so any figure
+written here would be wrong for some readers and stale for the rest. Read the amount off the
+user's own notice, which is authoritative for their case. This is the same rule as Gotcha 4
+below.
 
 ## Gotchas
 
@@ -369,4 +380,4 @@ the opposite; the tables were right.) For small fines this is often not cost-eff
 is the one above.
 
 ### "How much does a traffic lawyer cost?"
-Traffic lawyers in Israel typically charge 1,500-5,000 NIS depending on the violation severity. For minor fines under 500 NIS, self-representation is usually more economical. For fines with 10+ points or license suspension risk, a lawyer may be worthwhile.
+Traffic-lawyer fees are not published and vary widely by severity and by firm, so get a quote before deciding rather than working from a figure. The decision rule matters more than the price: for a low-value fine carrying few or no points, self-representation is usually the better trade, while a fine carrying 10 points, or any real risk of licence suspension, is where representation starts to pay for itself.

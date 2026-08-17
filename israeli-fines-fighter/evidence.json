@@ -49,15 +49,18 @@
     },
     {
       "claim_id": "illustrative-fine-and-point-values",
-      "claim": "Illustrative common violation fine amounts and point values (approximate, set by ministerial order, verify current amounts on gov.il), plus early-payment discount range and traffic-lawyer cost range used as guidance figures",
-      "source_url": "https://www.gov.il/he/departments/news/scoring_system",
-      "raw_snippet": "Illustrative figures (approximate, verify on gov.il): red light 1,000 NIS / 10 points; speeding 21-30 urban 750 NIS / 8 points; speeding 31-40 urban 1,500 NIS / 10 points; mobile phone 1,000 NIS / 8 points; no seatbelt 250 NIS / 2 points; illegal overtaking 500-1,000 NIS / 6-8 points; early-payment discount 25%-50%; example parking fine 250 NIS; traffic-lawyer cost 1,500-5,000 NIS; minor fines under 500 NIS. Hebrew forms 1,000 ש\"ח, 750 ש\"ח, 1,500 ש\"ח, 250 ש\"ח, 500-1,000 ש\"ח, 1,500-5,000 ש\"ח",
-      "fetched_at": "2026-06-16T22:25:00Z",
+      "claim": "ערכי הנקודות בטבלה נלקחו מטבלת סמלי העבירות של משרד התחבורה: אור אדום 10 לפי תקנה 22(א), מהירות 21-30 עירוני 8 ומהירות 31-40 עירוני 10 לפי תקנה 54(א), טלפון ללא דיבורית 8 לפי תקנה 28(ב)(1)(א), נהג ללא חגורה 6 לפי 83א(ב), נוסע ללא חגורה 2 לפי 83ב(א), ועקיפה 4 עד 10 לפי סוג העבירה שבתקנה 47. סכומי הקנס הוסרו מהטבלה ולא הוחלפו במקור אחר, משום שהם נקבעים בצו של השר וצמודים למדד.",
+      "source_url": "https://data.gov.il/api/3/action/datastore_search?resource_id=a2dd714b-e012-46e4-a996-6307f8b46fc5&q=%D7%90%D7%93%D7%95%D7%9D&limit=40",
+      "raw_snippet": "\"תיאור עבירה\": \"נהיגה כשברמזור אור אדום",
+      "fetched_at": "2026-08-17",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/fine-types.md"
-      ]
+      ],
+      "verified_via": "Ministry of Transport offence-code table pulled through the data.gov.il CKAN datastore_search API, all 1,550 records, and each offence read off the points column",
+      "verified_at": "2026-08-17",
+      "source_label": "Ministry of Transport offence-code table (data.gov.il CKAN API)"
     },
     {
       "claim_id": "reference-urls",
@@ -85,7 +88,7 @@
     },
     {
       "claim_id": "staged-application-47c",
-      "claim": "Administrative Traffic Violations Law s.47(c): stage 1 (commencement, 8.2.2026) covers First Schedule fines of 100-500 NIS excluding Traffic Regulation 54; stage 2 (six months later, 8.8.2026) covers 750-1,500 NIS and Regulation 54 offences.",
+      "claim": "Administrative Traffic Violations Law s.47(c): stage 1 (commencement, 8.2.2026) covers First Schedule fines of 100-500 NIS excluding Traffic Regulation 54; stage 2 (six months later, 8.8.2026) covers 750-1,500 NIS and Regulation 54 offences. A 1,000 NIS ticket therefore sits inside the stage-2 band (750-1,500 NIS), which is why the same ticket is criminal-track for an offence committed before 8.8.2026 and administrative for one committed after it. The figure is a band boundary set by the Law, not a fine amount this skill asserts.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
       "raw_snippet": "לגבי הפרות תעבורה ששיעור הקנס שנקבע לגביהן בתוספת הראשונה הוא 100 עד 500 שקלים חדשים, למעט הפרות תעבורה לפי תקנה 54 לתקנות התעבורה – ביום התחילה;",
       "fetched_at": "2026-08-13T00:32:54.658578+00:00",
@@ -611,6 +614,20 @@
       "fetched_at": "2026-08-13T01:29:38.488122+00:00",
       "appears_in": [
         "metadata.json"
+      ]
+    },
+    {
+      "claim_id": "ref-mot-offence-code-table",
+      "claim": "טבלת סמלי העבירות של משרד התחבורה, מאגר data.gov.il, היא הרשימה המחייבת של סמלי עבירות תעבורה וכוללת עמודת ניקוד לכל סמל. היא המקור לערכי הנקודות שבטבלה בסקיל.",
+      "source_url": "https://data.gov.il/he/datasets/ministry_of_transport/tavlat-simlei-averot",
+      "raw_snippet": "טבלת סמלי עבירות",
+      "source_label": "data.gov.il dataset landing page",
+      "verified_via": "dataset resolved through the CKAN package_show API; 1,550 records available via datastore_search",
+      "verified_at": "2026-08-17",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]
