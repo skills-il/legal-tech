@@ -37,18 +37,21 @@ Anchor every milestone to the date of death. The helper `scripts/generate_timeli
 
 **First 72 hours (burial and the first documents)**
 - Obtain the הודעת פטירה (death notice) from the doctor or hospital that confirmed the death. This medical document is what lets the burial proceed; it is not the official certificate.
-- Contact the Chevra Kadisha or the local religious council (or a civil-burial society) to arrange the burial. The burial grant (דמי קבורה) is paid by Bituach Leumi directly to the burial society, so basic burial is free to the family. Do not agree to pay the burial society for the standard burial and customary services.
-- One thing the burial grant does NOT cover: the headstone (מצבה). Setting up the headstone is not part of the burial services funded by Bituach Leumi, so it is a separate cost the family pays privately (except in specific cases, such as a solitary deceased with no close relatives, where the state funds it). Do not let anyone imply the headstone is included in the free burial.
+- Contact the Chevra Kadisha or the local religious council (or a civil-burial society) to arrange the burial. The burial grant (דמי קבורה) is paid by Bituach Leumi directly to the burial society, so basic burial is free to the family: the regulations bar the society from charging the family for the burial and the customary services.
+- Do NOT tell the family that every charge is unlawful. The Bituach Leumi (Burial Grant) Regulations, 5736-1976 enumerate a closed list of cases where a burial society MAY lawfully charge on top of the grant. A service fee or other payment is permitted only for (regulation 3(a)) burial in one of the closed cemeteries listed in the annex to the agreement, burial in defined premium sections agreed between Bituach Leumi and the society, or burial in a grave plot the deceased purchased in their lifetime; and a further payment other than a service fee is permitted only for (regulation 4(a)) special costs of transferring the deceased from outside the society's area, a detour or stop requested by the family en route to the cemetery, or non-standard shrouds supplied at the family's request. Check the demand against that list: outside it, refuse; inside it, the charge is lawful.
+- One thing the burial grant does NOT cover: the headstone (מצבה). Setting up the headstone is not part of the burial services funded by Bituach Leumi, so it is a separate cost the family pays privately (except in specific cases, such as a solitary deceased with no close relatives, where the state funds it). Do not let anyone imply the headstone is included in the free burial. Separately, tell whoever pays out of pocket that funeral, burial, and headstone costs rank FIRST among the estate's debts under section 104(a)(1) of the Succession Law, so the payer can normally be reimbursed from the estate ahead of every other creditor. Keep the receipts.
 - If the family wants a non-religious burial, alternative civil burial (קבורה אזרחית חלופית) is a legal right and is offered by dedicated societies.
 
 **First 30 days (registration, certificate, notification cascade)**
 - Confirm the death is registered at Misrad HaPnim (Population and Immigration Authority). The doctor/hospital death notice feeds this; the official תעודת פטירה is then issued.
-- Order the official death certificate. It is issued free of charge. Order several certified copies now: banks, pension funds, insurers, and the Land Registry each want their own original or certified copy, and re-ordering later costs you days.
+- Order the official death certificate. It is issued free of charge, and a first-degree relative can now download it immediately from the personal area on gov.il rather than waiting for the post. Order several certified copies anyway: banks, pension funds, insurers, and the Land Registry each want their own original or certified copy.
+- Start from the government's own one-stop service rather than office by office. gov.il runs "ליווי לאחר פטירה (צעד אחר צעד)", an authenticated step-by-step service for first-degree relatives that downloads the death certificate, files and retrieves the succession or probate order, surfaces personally-matched benefits and rights, and runs the bank-account and insurance-policy locators. Send the user there first; it collapses several of the steps below.
 - Find every account and policy before you start closing things. Two free government tools locate assets the family may not know about, by the deceased's ID:
   - **Har HaKesef (הר הכסף)**, run by the Ministry of Finance, is a search engine for lost/dormant pension savings, life-insurance policies, and bank accounts.
   - **Har HaBituach (הר הביטוח)**, run by the Capital Market, Insurance and Savings Authority, aggregates all of a person's insurance policies (life, health, pension, provident, vehicle, home) in one place.
   Run both before the cascade so no fund, policy, or account is missed.
 - Work through the notification cascade below. Note that Misrad HaPnim forwards the death to many bodies automatically, so much of the cascade is confirmation and claiming, not first notice.
+- If the family needs money NOW for the funeral, the headstone, or other death-related costs, do not assume they must wait for the order. Banks will generally release limited, reasonable sums from the deceased's account for immediate estate expenses before any order is produced, at the bank's discretion, with the surviving joint owner's consent, or against an indemnity letter signed by the potential heirs where all account owners have died. Ask the branch for this explicitly by name; it is rarely offered unprompted. (This dovetails with the debt priority above: these are the estate's first-ranking debts.)
 - Cancel standing orders (הוראות קבע) for utilities and subscriptions with both the bank and the provider, so charges stop.
 - Stop the deceased's OWN Bituach Leumi allowance. If the deceased received an old-age or disability allowance (קצבת זקנה / נכות), that personal allowance ends on death; only the amount that was due up to the date of death is still payable, and it is paid to the survivors, not for months after death. Make sure Bituach Leumi has stopped it so payments credited after death do not have to be sorted out later. (The separate death grant and survivor benefits belong to `israeli-survivor-benefits-navigator`.)
 - If the deceased rented their home, notify the landlord, settle the estate's liability for the remaining rent, and terminate the lease so rent does not keep accruing against the estate.
@@ -82,7 +85,7 @@ Use the bilingual templates in `references/notification-letter-templates.md` (ba
 | 1 | ביטוח לאומי | Bituach Leumi | Often learns from Misrad HaPnim, but survivor benefits must be actively claimed |
 | 2 | בנקים | Banks | Sole accounts (and a joint account with no survivorship clause) freeze until the order; a joint account with a pre-signed survivorship clause stays open to the surviving co-owner; cancel standing orders |
 | 3 | קופות גמל / פנסיה / חברות ביטוח | Pension, gemel, insurers | Beneficiary payouts and claims |
-| 4 | מעסיק | Employer | Final salary, notice pay, unused-vacation redemption, severance-type pay to heirs |
+| 4 | מעסיק | Employer | Final salary, unused-vacation redemption, and severance. Note the recipient: under section 5 of the Severance Pay Law, 5723-1963 severance on death is paid by the employer to the statutory שאירים, a defined set (spouse including a common-law partner living with them, and a dependent child; failing those, dependent children and parents, and siblings who lived in the home for at least twelve months and were wholly dependent). Those are NOT necessarily the יורשים, and the money is not paid out of the estate |
 | 5 | קופת חולים | HMO (kupat cholim) | Deregister the member |
 | 6 | חברות תשתית (חשמל, מים, גז) | Utilities (electricity, water, gas) | Transfer or close the account holder |
 | 7 | עירייה / ארנונה | Municipality / arnona | Change holder; a survivor-allowance-linked discount may apply |
@@ -94,19 +97,50 @@ Use the bilingual templates in `references/notification-letter-templates.md` (ba
 
 - Bank funds and securities: present the succession or probate order to release the frozen accounts.
 - Real estate: re-register at the Land Registry (טאבו / לשכת רישום המקרקעין) with the order. Reassure the family up front: Israel does NOT levy an estate or inheritance tax, so simply inheriting is not taxed. Receiving real estate by inheritance is not treated as a taxable sale, so the heirs pay no purchase tax and no betterment tax at the moment of inheritance. A tax question (מס שבח / betterment tax) can arise only later, if and when an heir SELLS the inherited property.
-- Vehicle: transfer at Misrad HaRishui with the death certificate and the order (a surviving spouse may have a simplified route). Warning before anyone drives the car in the interim: the vehicle license (רישיון רכב) lapses when the owner dies. The licensing bureau will renew it for the relatives for one year only while the registration is regularized, and the annual license fee (אגרת רישוי) still has to be paid. Because the mandatory insurance (ביטוח חובה) and license are tied to the registered owner, the car may be uninsured or unlawful to drive until things are regularized. Confirm valid insurance with the insurer before anyone drives it.
+- Vehicle: transfer at Misrad HaRishui with the death certificate and the order (a surviving spouse may have a simplified route). Warning before anyone drives the car in the interim: the licensing bureau will renew the vehicle license (רישיון רכב) for the relatives for ONE further year from its expiry, to give the family time to regularize the registration, and the annual license fee (אגרת רישוי) still has to be paid. The hard stop is that no second renewal is issued: if the year passes without the transfer being completed, the licensing authority will not reissue the license at all. Transferring registration by inheritance does not add a "hand" (יד) to the vehicle's ownership count. Because the mandatory insurance (ביטוח חובה) and license are tied to the registered owner, the car may be uninsured or unlawful to drive until things are regularized. Confirm valid insurance with the insurer before anyone drives it.
 
 **Bank note (joint vs sole accounts).** The blanket "everything is frozen" is not quite right. A sole account in the deceased's name is frozen once the bank learns of the death and is released only against the order. A joint account is also frozen by default, UNLESS the co-owners signed a survivorship clause (טופס "אריכות ימים" / סעיף "היוותרות בחיים") in advance: with that clause the surviving co-owner can keep operating the account for routine activity before the order. Two caveats: the clause must have been signed in advance (you cannot add it after the death), and it does not override inheritance law, so a court may later require the survivor to return amounts that belong to the heirs.
 
 **Safe-deposit box (כספת).** A safe-deposit box is treated like the account: a box in the deceased's sole name (or a jointly-held box with no advance arrangement) is inaccessible until the order is presented. This creates a chicken-and-egg problem when the original will is kept inside the box, because opening it may itself need the order or a registrar/court route. Raise this early if the family suspects the will is in a bank box.
 
-**Firearm (כלי ירייה).** The deceased's personal firearms license lapses on death, so a licensed weapon cannot simply stay in the home. An heir may keep it only after it is temporarily deactivated by a licensed dealer through the licensing bureau. If no one wants it, a family member surrenders it to the police within 30 days of the death, bringing the weapon, the death certificate, and the deceased's firearms license; the police issue a deposit confirmation that is sent to the firearms licensing division.
+**Firearm (כלי ירייה).** The deceased's personal firearms license lapses on death, so a licensed weapon cannot simply stay in the home. Section 5(b)(5) of the Firearms Law, 5709-1949 exempts an heir or estate administrator from the licence requirement for exactly 30 days from the death: that is a grace period, and holding the weapon after it without a licence is an offence. An heir may keep it beyond that only after it is temporarily deactivated by a licensed dealer through the licensing bureau. If no one wants it, a family member surrenders it to the police within those 30 days, bringing the weapon, the death certificate, and the deceased's firearms license; the police issue a deposit confirmation that is sent to the firearms licensing division.
 
 **Mortgage life insurance (ביטוח חיים ללווים).** Most Israeli mortgages carry bundled borrower life insurance, whose purpose is to guarantee the bank receives the entire remaining loan balance if the borrower dies. Before anyone keeps paying the mortgage out of pocket, check whether the loan had this cover and notify the lender and the insurer: the policy may pay off the outstanding balance, so the heirs and the surviving spouse do not have to keep paying it or sell the home.
 
 ### The debts question (reassure correctly)
 
-Heirs are liable for the deceased's debts only up to the value of the estate they receive. Debts are paid out of the estate only, not from the heirs' own money, even if the estate cannot cover everything, and heirs do not owe creditors the portion above the estate's value. This is set out in the Succession Law, 5725-1965, sections 100 to 106. Funeral, burial, and gravestone costs are paid first in the debt priority order. For a contested claim or an insolvent estate, state these facts and still recommend a licensed lawyer.
+Heirs never pay the deceased's debts from their own pocket: liability is capped by the value of estate assets, never by the heir's personal wealth. This is the Succession Law, 5725-1965, Chapter Six (sections 126 to 134). Funeral, burial, and gravestone costs rank first in the debt priority order under section 104(a)(1), ahead of the costs of the orders themselves and ahead of the deceased's ordinary creditors.
+
+**But do not give the flat reassurance, because the cap depends on HOW the estate was divided.** Three regimes:
+
+- **Before division** (section 126): heirs are not liable for estate debts at all except out of estate assets.
+- **Divided AFTER creditors were invited** under section 99 or 123 and the then-known debts were settled (section 127(a)): an heir is liable for an unsettled debt only if it is proved they knew of it at the time of division, and only up to the value of **what that heir received**.
+- **Divided WITHOUT inviting creditors** (section 128(a)): each heir is liable for the unsettled debts up to the value of the **whole estate** at the time of division, not merely their own share. Only an heir who proves they did not know of a particular debt drops back to the value of what they received, and section 128(b) puts the burden of proving value on the heir, not on the creditor. Concealing assets or a debt (section 129) exposes the heir to the whole estate's value regardless.
+
+So the protective advice is procedural, not reassurance: invite the creditors before dividing, settle the known debts, and keep the division schedule. A family that quietly splits the money is in the section 128 regime. Section 133 lets a court relieve an heir who acted in good faith and received little, but that is a discretionary remedy, not a right. For a contested claim, an insolvent estate, or any division where debts are suspected, state these facts and still recommend a licensed lawyer.
+
+### What this skill does NOT cover (say so, do not improvise)
+
+Four things a family in this situation commonly needs are outside this skill, and the
+failure mode is not silence but improvisation: an agent that does not know the procedure
+will invent one. Name the gap and route it.
+
+- **The deceased's tax position.** A final-year income-tax return for the deceased, tax on
+  income the estate earns after the death, and closing the file of a deceased who was
+  self-employed (עוסק) at מס הכנסה, מע"מ, and ביטוח לאומי. These carry their own deadlines
+  and penalties. This skill does not state those procedures. Send the user to the Tax
+  Authority and to a רואה חשבון or יועץ מס. Do not guess a form number or a filing window.
+- **Appointing an estate administrator (מנהל עיזבון).** Typically raised where the estate is
+  contested, complex, has business assets, or cannot be settled by the heirs between
+  themselves. This skill does not run that application. Route to a licensed lawyer.
+- **Minor heirs, absent heirs, and heirs abroad.** Distribution touching a minor's share
+  engages the guardianship regime and the אפוטרופוס הכללי. Do not tell the family they can
+  simply divide. Route to a licensed lawyer.
+- **A deceased who was a foreign resident, or an estate holding assets abroad.** Route to a
+  licensed lawyer, as the domain checklist already records.
+
+State the facts you do know, name which of these applies, and hand off. A confident wrong
+procedure in this area costs the family more than an honest "this skill does not cover it".
 
 ## Bundled Resources
 
@@ -133,6 +167,11 @@ Heirs are liable for the deceased's debts only up to the value of the estate the
 | gov.il: death registration | https://www.gov.il/he/service/death_registration | How the death is registered at Misrad HaPnim |
 | Kol-Zchut: heirs rights guide | https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות | The notification cascade and order of steps |
 | Kol-Zchut: settling the deceased's debts | https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר | Heir liability limited to estate value; debt priority |
+| Succession Law, 5725-1965 (full text) | https://www.nevo.co.il/law_html/law00/72178.htm | Section 104(a)(1) debt priority; sections 126 to 134 heir liability |
+| Legal Capacity and Guardianship Law, 5722-1962 | https://www.nevo.co.il/law_html/law00/70325.htm | Section 32kd(b): the 90-day residual authority of an enduring power of attorney |
+| Bituach Leumi (Burial Grant) Regulations, 5736-1976 | https://www.nevo.co.il/law_html/law01/039_109.htm | Regulations 3(a) and 4(a): the closed list of lawful burial-society charges |
+| Firearms Law, 5709-1949 | https://www.nevo.co.il/law_html/law00/72225.htm | Section 5(b)(5): an heir may hold the weapon licence-free for 30 days from the death |
+| gov.il: post-death accompaniment (one-stop) | https://www.gov.il/he/service/post-death-accompaniment | Certificate download, order filing, matched benefits, account and policy locators |
 | gov.il: vehicle transfer after death | https://www.gov.il/he/service/modification_registration_vehicle_following_death | Vehicle license lapses on death; one-year renewal for relatives; confirm insurance before driving |
 | Har HaKesef (Ministry of Finance) | https://itur.mof.gov.il/ | Locate the deceased's lost pension savings, life-insurance policies, and bank accounts |
 | Har HaBituach (Capital Market Authority) | https://harb.cma.gov.il/ | Locate all of the deceased's insurance policies and pension/provident savings |
@@ -140,8 +179,8 @@ Heirs are liable for the deceased's debts only up to the value of the estate the
 ## Gotchas
 
 - Do not confuse the two orders: צו ירושה is for an estate with no will; צו קיום צוואה is for an estate with a will. Using the wrong term sends the family down the wrong application.
-- Do not tell the family they are personally on the hook for the deceased's debts. They are liable only up to the value of the estate, and never from their own money beyond it.
-- Do not tell the family they must pay the burial society. The burial grant covers standard burial directly, and the society may not charge the family for it.
+- Do not tell the family they are personally on the hook for the deceased's debts, and do not give the opposite flat reassurance either. They never pay from their own money, but an estate divided without inviting the creditors exposes each heir up to the value of the WHOLE estate, with the burden of proving value on the heir. Give the procedural advice: invite creditors, settle known debts, then divide.
+- Do not tell the family they must pay the burial society, and do not tell them every charge is unlawful either. The grant covers standard burial directly, but the regulations list six specific cases where a society may lawfully charge on top (closed cemeteries, agreed premium sections, a pre-purchased plot, out-of-area transfer, a requested detour, non-standard shrouds). Check the demand against the list instead of refusing on principle.
 - Do not say "notify Bituach Leumi and the survivor allowance will start." Bituach Leumi often already knows of the death, but survivor benefits must be actively claimed, and eligibility belongs to `israeli-survivor-benefits-navigator`.
 - Do not hand over a generic global "after a death" checklist. The value here is the Israeli, institution-specific sequence (Misrad HaPnim, Bituach Leumi, Chevra Kadisha, the Registrar of Inheritance Affairs, the Land Registry, Misrad HaRishui).
 - Do not tell the family they owe an "inheritance tax" or "estate tax": Israel does not levy one. Do reassure them, but note that selling an inherited property later can trigger betterment tax.
@@ -153,5 +192,5 @@ Heirs are liable for the deceased's debts only up to the value of the estate the
 
 - The bank refuses to release funds: for a sole account that is expected, and it stays frozen until the succession or probate order is presented. Route the order process to `israeli-wills-inheritance`. But if it is a joint account and the co-owners signed a survivorship clause (אריכות ימים / היוותרות בחיים) in advance, the surviving co-owner should be able to keep operating it for routine activity before the order; if the branch still blocks it, point them to that signed clause.
 - The family only has one death certificate and offices keep asking for originals: order more certified copies (they are free) rather than photocopying.
-- An enduring power of attorney (ייפוי כוח מתמשך) that the deceased signed no longer works: it lapses at death. The estate is now governed by the succession/probate order, not the power of attorney.
+- An enduring power of attorney (ייפוי כוח מתמשך) that the deceased signed: do not tell the family it is simply dead. It does expire on death under section 32kb(2) of the Legal Capacity and Guardianship Law, 5722-1962, but section 32kd(b) then gives the attorney for property matters a residual authority, for up to 90 days from the death and without applying to court, to pay ongoing charges for services rendered to the deceased or relating to their property, to pay reasonable burial and mourning expenses, and to run a rented property or a business that needs ongoing management. It applies unless the principal directed otherwise and only while no one else is lawfully authorized, so it ends the moment an estate administrator is appointed or the succession or probate order is produced. In the first weeks this is often the only lawful way to keep the mortgage paid and the shop open.
 - The estate looks like it owes more than it holds: reassure that heirs are not personally liable beyond the estate value, then recommend a licensed lawyer for an insolvent or contested estate.

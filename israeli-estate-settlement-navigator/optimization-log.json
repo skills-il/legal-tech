@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Registrar of Inheritance fee schedule: the full current table (effective 1 Jan 2026, selected by FILING date not date of death, reindexed each 1 January, 85% for online filing) was enumerated during this cycle but deliberately NOT encoded here, because obtaining the order is out of scope and belongs to israeli-wills-inheritance. Verify that skill actually carries the full table; if it does not, that is a cross-skill coverage gap.",
+        "The Registrar fee amounts and the 85% online-filing discount were reported to this cycle by a research pass citing ק\"ת 12149, which has no fetchable URL and which this cycle could not open directly. They were therefore NOT written into the skill: the checklist row now carries only the structural rule (fee fixed at filing date, reindexed annually, do not quote an amount here). If a fetchable citation appears, the amounts belong in israeli-wills-inheritance, not here.",
+        "Every kolzchut.org.il URL, itur.mof.gov.il and harb.cma.gov.il are behind bot challenges no automated path can read. Statutory claims were re-anchored to nevo; the remaining kolzchut citations are human reading links only. Do not attempt to 'fix' them by re-fetching.",
+        "gov.il service pages 403 curl and WebFetch but are alive. A --check-sources UNREACHABLE on gov.il is an access artifact, not a bad snippet: the vehicle-transfer snippet was flagged FAILED this cycle and turned out to be character-for-character correct.",
+        "Discretionary edits deferred over the Phase 4.1 cap: (a) add a short digital-assets and online-accounts note; (b) add a credit-card cancellation row to the institution checklist; (c) note the up-to-12-month no-cost mortgage payment deferral some banks offer after a borrower's death (bank-specific, not statutory); (d) note that the FIRST division of an inherited property among heirs is not a taxable sale under s.5(c)(4) of the Land Taxation Law unless outside-the-estate consideration changes hands, which is the sibling-buyout trap.",
+        "Not addressed this cycle and worth a decision next time: the skill is silent on the deceased's final income-tax year, on deregistering a self-employed deceased at מע\"מ / מס הכנסה / ביטוח לאומי, and on the מנהל עיזבון and האפוטרופוס הכללי routes. None appear in domain-checklist.md even as out-of-scope. Decide explicitly whether they belong here or in a sibling skill, and record the answer.",
+        "scripts/generate_timeline.py does not surface the only two hard statutory deadlines the skill knows about (firearm surrender at 30 days, enduring-POA residual authority ending at 90 days). Consider adding them as flagged rows rather than planning offsets."
+      ]
+    }
+  ]
+}
