@@ -608,7 +608,7 @@
       "claim_type": "law",
       "source_url": "https://www.gov.il/en/service/apostille-approval-for-countries",
       "fetched_at": "2026-08-18",
-      "raw_snippet": "for those requesting an authentication certificate (apostille or a certificate not according to the convention) - for notarized certifications of public and legal documents from Israel, in order to present the authenticated documents abroad.",
+      "raw_snippet": "those requesting an authentication certificate (apostille or a certificate not according to the convention) - for notarized certifications of public and legal documents from Israel, in order to present the authenticated documents abroad.",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
