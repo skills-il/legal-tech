@@ -607,14 +607,16 @@
       "claim": "In Israel, the courts apostille notarial signatures and court-issued public documents, while other Israeli public documents are verified by the Ministry of Foreign Affairs.",
       "claim_type": "law",
       "source_url": "https://www.gov.il/en/service/apostille-approval-for-countries",
-      "fetched_at": "2026-06-27T00:00:00Z",
-      "raw_snippet": "Intended for the authentication of public documents issued by Israeli courts, and for signatures on notarized documents",
+      "fetched_at": "2026-08-18",
+      "raw_snippet": "Attention Required! | Cloudflare",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "israel-registry-extract-standard-fields",
