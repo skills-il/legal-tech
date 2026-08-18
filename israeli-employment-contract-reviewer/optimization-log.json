@@ -1,0 +1,35 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "Dmei havra'a 451.5 pending Ministry of Labor extension order; flip next cycle if signed.",
+        "Deferred MAJOR: add illegal-deduction / benefit-bundling / misclassification screens.",
+        "Deferred MAJOR: maternity-dismissal protection check; payslip-right check."
+      ]
+    },
+    {
+      "version": "1.1.0-fixround",
+      "date": "2026-06-26",
+      "summary": "Expert review failed on 3 CRITICAL coverage gaps; added detectable red-flag rows + brief detection rules for all five deferred items.",
+      "resolved": [
+        "CRITICAL: illegal wage deductions / penalty clauses now flagged as a blocker (Wage Protection Law 1958 s.25; lawful deductions are a closed list, employee-authorized debt capped at 25%).",
+        "CRITICAL: maternity/pregnancy dismissal protection now flagged; dismissal/pay-cut during pregnancy, maternity leave, or fertility treatment at 6+ months tenure requires a Ministry of Labor heter (Employment of Women Law 5714-1954); absence of a carve-out is flagged as a protection gap.",
+        "CRITICAL: right to a detailed monthly payslip now flagged; cash-pay / payslip-silent contract is a red flag (Wage Protection Law Amendment 24, 2008).",
+        "MAJOR: all-inclusive salary / benefit-bundling clause flagged as void to cogent components (pension, havra'a, overtime, vacation funded separately).",
+        "MAJOR: misclassification (employee vs kablan) now uses the subordination/integration test (mivchan ha'hishtalvut) with retroactive-reclassification risk, not a bare attorney punt."
+      ],
+      "evidence_added": [
+        "illegal-deductions-s25-25pct (kolzchut deductions page, WebFetch-verified).",
+        "women-employment-law-heter (kolzchut pregnant-employee dismissal page, WebFetch-verified).",
+        "payslip-amendment-24 (kolzchut payslip page, WebFetch-verified)."
+      ],
+      "deferred_minors": [
+        "MINOR: encode the full sick-pay ladder (day one unpaid, days two-three at half pay, day four onward at full pay) as a presence/rate check, not just an 18-per-year accrual sanity check.",
+        "MINOR: tighten the total-employer-cost ratio into an explicit band (roughly 120 to 125 percent of gross) with a callout when figures fall outside it.",
+        "MINOR: add an MCP-reference verification note so israel-law / kolzchut citations are spot-checked against the live source before being quoted as authoritative."
+      ]
+    }
+  ]
+}

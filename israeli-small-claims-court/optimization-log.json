@@ -1,0 +1,27 @@
+{
+  "skill": "israeli-small-claims-court",
+  "cycles": [
+    {
+      "cycle": 1,
+      "date": "2026-06-04",
+      "from_version": "1.1.1",
+      "to_version": "1.2.0",
+      "editor": "update-skill (editor agent)",
+      "summary": "Correctness + coverage pass. Fixed the defense-deadline bug (was 15 days, correct is 30 days) in 4 places across both languages; clarified the no-lawyer-without-court-leave rule; added the 5-claims-per-plaintiff-per-year-per-court cap and the individual-only-plaintiff / no-assignee rule; created evidence.json (13 cited claims) and this log.",
+      "changes": [
+        {"type": "bug", "id": "defense-deadline", "detail": "כתב הגנה / ktav hagana deadline corrected 15 -> 30 days (Step 2 filing table, counterclaim Troubleshooting) in SKILL.md and SKILL_HE.md. Verified gov.il small_claims_courts_guide + kolzchut."},
+        {"type": "consistency", "id": "ceiling", "detail": "Confirmed NIS 39,900 (Jan 2026) is correct and consistent; left description unchanged."},
+        {"type": "coverage", "id": "no-lawyer", "detail": "Step 1 lawyer-representation row reworded: barred without court leave; lawyers may draft pleadings but generally cannot appear. Verified kolzchut."},
+        {"type": "coverage", "id": "five-claims-cap", "detail": "Added Step 1 row: up to 5 claims/plaintiff/calendar-year/court (more requires leave). Verified gov.il guide verbatim."},
+        {"type": "coverage", "id": "plaintiff-individual-only", "detail": "Added Step 1 row: only an individual can be a plaintiff; company can be a defendant; no claim assignment / professional pleader. Verified gov.il + kolzchut (D2)."}
+      ],
+      "deferrals": [
+        {
+          "id": "D1-hearing-scheduling-target",
+          "reason": "Could not verify a specific ~30-day hearing-scheduling target verbatim. The Small Claims Procedure Regulations (takanot, reg. 4) and the gov.il guide only specify the defendant's 30-day defense window and that the defendant appears 'on the date noted in the summons' (במועד שנקוב בהזמנה); no statutory target interval between filing and hearing was found. Per anti-fabrication, Step 2 row 7 was worded conservatively ('Court sets hearing date; defendant is summoned to appear on the date noted in the summons') instead of asserting an unverifiable ~30-day figure.",
+          "status": "deferred"
+        }
+      ]
+    }
+  ]
+}
