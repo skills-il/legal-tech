@@ -608,14 +608,14 @@
       "claim_type": "law",
       "source_url": "https://www.gov.il/en/service/apostille-approval-for-countries",
       "fetched_at": "2026-08-18",
-      "raw_snippet": "Attention Required! | Cloudflare",
+      "raw_snippet": "for those requesting an authentication certificate (apostille or a certificate not according to the convention) - for notarized certifications of public and legal documents from Israel, in order to present the authenticated documents abroad.",
       "confidence": "high",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
       ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_via": "gov.il page read through a browser session, which holds the Cloudflare clearance a plain fetch does not",
       "verified_at": "2026-08-18"
     },
     {
