@@ -54,6 +54,17 @@
         "PROCESS: three separate edit batches silently lost their work because a multi-edit script asserted mid-way and exited before the single write at the end. Write after EACH edit, or collect and report skips, rather than all-or-nothing at the end. This is how the Bundled Resources routing fix was 'applied' twice and landed zero times.",
         "PROCESS: the 5,000-word cap fought every correction this cycle. Expanding the Bundled Resources description alone cost ~35 words and pushed the file over three times. Consider splitting this skill or moving Steps 10-12 wholesale into references next cycle."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-08-19",
+      "lessons": [
+        "Expert MAJOR deferred: holiday (chag) pay is not distinguished from the weekly rest day premium anywhere in the skill; the rates differ in practice and users conflate them.",
+        "Expert MAJOR deferred: global overtime pay arrangements (gmul globali) are not covered; they are common in Israeli contracts and change how the new 175/200 rows are actually applied.",
+        "Expert MAJOR deferred: employing a youth on the weekly rest day is unlawful, but the employer still owes the overtime premium. This sits exactly at the intersection of this cycle's two additions and should be stated next cycle.",
+        "Validator headroom is the binding constraint on this skill: EN body was ~4,990 words at HEAD against a 5,000 cap, so every addition this cycle had to be paid for by condensing pre-existing prose. HE body remains over the soft cap (5,107 vs 5,000) and predates this cycle. Next substantive update should move a whole step (Step 5, the largest at ~500 words) into references/ rather than shaving sentences.",
+        "29 of 45 evidence source URLs are kolzchut pages that are Cloudflare-blocked to plain fetch and can only be verified through the browser. This cycle browser-verified the 16 new claims plus the 4 pre-existing overtime claims; the remaining 25 pre-existing unreachable claims were carried on --allow-unreachable and have not been browser-verified since they were written."
+      ]
     }
   ]
 }

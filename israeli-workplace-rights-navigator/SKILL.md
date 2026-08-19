@@ -102,9 +102,13 @@ Per the **Hours of Work and Rest Law, 1951 (Chok Sha'ot Avoda U'Menucha)**:
 |----------------|----------|
 | First 2 overtime hours in a day | 125% of hourly wage |
 | Beyond 2 overtime hours in a day | 150% of hourly wage |
-| Work on weekly rest day (Shabbat) | 150% of hourly wage |
+| Work on weekly rest day (Shabbat), ordinary hours | 150% of hourly wage |
+| First 2 overtime hours on the weekly rest day | 175% of hourly wage |
+| Each overtime hour beyond the first 2 on the weekly rest day | 200% of hourly wage |
 
 **Key rules:**
+- Rest-day and overtime premiums stack on the ordinary wage, capped at 200%, so a long Shabbat shift is never a flat 150%
+- Those rest-day rates are the hourly or daily employee's full rate. A monthly salaried employee gets a 50% addition to the daily wage instead, plus paid compensatory rest. Detail in `references/entitlements-calculator.md`
 - Under the general overtime permit of 14 March 2018: no more than 16 overtime hours in a work week
 - Total work day, including overtime, cannot exceed 12 hours
 - Overtime must be compensated in pay, not comp time (unless a valid collective agreement allows it)
@@ -115,6 +119,7 @@ Per the **Hours of Work and Rest Law, 1951 (Chok Sha'ot Avoda U'Menucha)**:
 - As of 1 April 2026 the minimum wage is **6,443.85 NIS per month** for a full-time position and **35.40 NIS per hour**
 - The monthly minimum is updated each April; verify the current rate annually
 - For part-time employees the hourly minimum applies and the monthly figure is pro-rated
+- Employees under 18 and apprentices have their own lower minimum, set as a percentage of the adult monthly figure under the Minimum Wage Regulations (Working Youth and Apprentices), 1987: 70% up to age 16, 75% up to 17, 83% up to 18, and 60% for an apprentice (chanich). A youth full-time week is 40 hours and the youth hourly rate is the youth monthly figure divided by 173, not 182. Shekel figures per band, the birthday-month split and the apprentice definition are in `references/entitlements-calculator.md`
 - Paying below the minimum wage exposes the employer to criminal penalties and civil liability; the floor cannot be waived in a contract
 
 ### Step 5: Birth and Parenting Period and Paternity Leave (Tkufat Leidah VeHorut)
@@ -123,18 +128,17 @@ Per the **Employment of Women Law, 1954 (Chok Avdat Nashim)**. The leave is now 
 
 **Birth and Parenting Period (the parent who gave birth):**
 - Total duration: 26 weeks from the date of birth
-- Paid portion: 15 weeks of birth allowance (dmei leidah) from Bituach Leumi, for employees who paid national insurance for at least 10 of the 14 months preceding the work stoppage, or 15 of the 22 months
-- Employees who paid national insurance for at least 6 of the 14 months preceding the work stoppage (but not enough for the full allowance) receive a partial allowance of 56 days (8 weeks)
+- Paid portion: 15 weeks of birth allowance (dmei leidah) from Bituach Leumi, on national insurance for at least 10 of the 14 months, or 15 of the 22 months, before the work stoppage
+- At least 6 of the 14 months but not enough for the full allowance gives a partial allowance of 56 days (8 weeks)
 - The remaining weeks (11 or 18) are unpaid leave
 - The daily birth allowance equals the employee's average daily wage, capped at a statutory maximum of NIS 1,752.33 per day in 2026
 - The employee can start leave up to 7 weeks before the due date (deducted from the 26 weeks)
 - **Complex-disability extension (from 1 April 2026):** a parent of a child born with a complex disability recognized by Bituach Leumi is entitled to an additional 5 paid weeks. Total extension periods of the birth allowance are capped at 20 weeks combined
 
 **Job protection:**
-- Under the Employment of Women Law s.9(a), once a pregnant employee has at least 6 months of tenure with that employer, the employer cannot dismiss her (or reduce her position scope) without a permit from the Ministry of Labor. This applies regardless of the reason for dismissal
-- Below 6 months of tenure, dismissal is lawful and no permit is needed UNLESS the dismissal is because of the pregnancy. That is a discrimination question under the Equal Employment Opportunities Law, not a permit question, and the employee can still challenge it on discrimination grounds
-- An employer cannot fire an employee for 60 days after the Birth and Parenting Period ends
-- The employee is entitled to return to the same position or an equivalent one
+- Under the Employment of Women Law s.9(a), from 6 months of tenure the employer cannot dismiss a pregnant employee or cut her position scope without a Ministry of Labor permit, whatever the reason
+- Below 6 months no permit is needed, but dismissal because of the pregnancy is still unlawful discrimination under the Equal Employment Opportunities Law and can be challenged on that ground
+- No dismissal for 60 days after the Birth and Parenting Period ends, and the employee returns to the same or an equivalent position
 
 **Paternity leave / second parent (the parent who did not give birth):**
 - Up to 5 calendar days right after the birth (plus the birth day), no employer consent needed
@@ -145,7 +149,7 @@ See `references/labor-laws-summary.md` for how the 5 days are charged (vacation 
 
 **Additional protections:** fertility treatments (absences as sick days, protected from termination), adoption (similar leave entitlements), and nursing mothers (1 hour less per day for 4 months, full pay). Conditions in `references/labor-laws-summary.md`.
 
-**After a miscarriage.** The Employment of Women Law protections apply following a miscarriage, not only after a birth. Labour-court authority has held that cutting an employee's hours during the protected period that follows a miscarriage breaches the law. If an employer reduced hours, changed a role, or dismissed in that window, treat it as a protected-period breach rather than an ordinary management decision.
+**After a miscarriage.** The Employment of Women Law protections apply after a miscarriage, not only after a birth, and labour-court authority has held that cutting hours in that protected period breaches the law. Treat a reduction, role change or dismissal in that window as a protected-period breach, not an ordinary management decision.
 
 ### Step 6: Severance Pay (Pitzuyei Piturim)
 
@@ -253,23 +257,17 @@ Israeli law requires specific procedures before terminating an employee:
 This is a summary. For the exact month-by-month figures for both monthly-paid and hourly/daily employees, use the detailed table in `references/entitlements-calculator.md`, which is the authoritative source for notice-period calculations.
 
 **Pre-termination hearing (shima):**
-- The employer must hold a hearing before making the final decision to terminate
-- The employee must receive written notice of the hearing in advance, including the reasons being considered
-- The employee has the right to bring a representative (union rep, lawyer, or colleague)
-- The employer must genuinely consider the employee's arguments before deciding
-- Failure to hold a proper hearing can render the termination unlawful
+- The employer must hold a hearing before deciding, after advance written notice stating the reasons under consideration, and must genuinely weigh the employee's answer
+- The employee may bring a representative (union rep, lawyer, or colleague). Failure to hold a proper hearing can render the termination unlawful
 
 **Protected employees:**
 - Pregnant women with at least 6 months of tenure: cannot be terminated without a permit from the Ministry of Labor (Employment of Women Law s.9(a)). Below 6 months no permit is needed, but a dismissal because of the pregnancy is still unlawful discrimination
 - Employees on sick leave: protected during the first 90 days of accumulated sick leave
 - Employees on the Birth and Parenting Period: protected during leave and for 60 days after
-- Employees during military reserve duty (miluim): protected during the service and for 30 days after it ends for ordinary call-ups (service of more than 2 consecutive days). For long call-ups during the Swords of Iron period, the protected window is extended to 60 days after the service for an employee who served at least 60 days within the relevant statutory windows. Dismissal inside the protected window requires approval from the Defense Ministry employment committee (and, for days 31 to 60, the Labor Ministry oversight committee). Verify the current rule, since the temporary extensions are periodically renewed
+- Employees on reserve duty (miluim): protected during the service and 30 days after, for call-ups over 2 consecutive days. Swords of Iron long call-ups extend this to 60 days after, for someone who served at least 60 days in the statutory windows. Dismissal inside the window needs Defense Ministry employment-committee approval (and, for days 31 to 60, the Labor Ministry oversight committee). Verify the current rule, the extensions are periodically renewed
 - Employees who filed complaints (e.g., sexual harassment, safety): protected from retaliatory dismissal
 
-**Wrongful termination remedies:**
-- Reinstatement (hashava la'avoda)
-- Compensation for damages
-- Increased severance pay (up to 150% in cases of particularly egregious termination)
+**Wrongful termination remedies:** reinstatement (hashava la'avoda), compensation for damages, and increased severance pay (up to 150% for particularly egregious termination).
 
 For hearing requirements, the remedy where it was defective (damages without proof of damage), limitation periods, and which court to file in, see the termination workflow in the reference file.
 
@@ -334,14 +332,12 @@ A reservist's partner may have their own paid-absence entitlement under the 29 A
 
 Under the Travel-to-Work Extension Order, almost every employee who needs transport to reach the workplace is entitled to a monthly travel reimbursement.
 
-- The employer reimburses the cost of public transport, paying the LOWER of the actual fare (a discounted multi-ride or monthly bus/train pass) or the statutory daily cap
-- The daily cap for 2026 is **22.60 NIS per day**. The cap is updated periodically, so verify the current daily cap before relying on a figure
-- Carve-out: an employee who does not need public transport (for example, the workplace is within walking distance, or the employer provides organized transport from home) is not entitled to the reimbursement
-- The reimbursement is paid for each day the employee actually needed transport to get to work
+- The employer pays the LOWER of the actual public-transport fare or the statutory daily cap, for each day transport was actually needed. The 2026 cap is **22.60 NIS per day**; verify it before relying on it
+- Carve-out: no entitlement where the employee does not need public transport (walking distance, or employer-provided transport). Detail in `references/entitlements-calculator.md`
 
 **Pay slip (Tlush Maskoret):**
 
-Under the Wage Protection Law s.24, the employer must give every employee a detailed pay slip (tlush) for each pay period, no later than the ninth day after the scheduled payday. The slip must itemize gross pay, every component (base, overtime, convalescence, etc.), and every deduction (income tax, national insurance, health tax, pension). The pay slip is the employee's primary tool for verifying that all the entitlements above were paid correctly. An employer who fails to provide a proper slip violates the law.
+Under the Wage Protection Law s.24 the employer must give a detailed pay slip for each pay period, no later than the ninth day after payday, itemizing gross pay, every component (base, overtime, convalescence) and every deduction (income tax, national insurance, health tax, pension). It is the employee's primary tool for checking that the entitlements above were actually paid. Failing to provide a proper slip violates the law.
 
 **Post-dismissal and injury paths (Bituach Leumi):**
 

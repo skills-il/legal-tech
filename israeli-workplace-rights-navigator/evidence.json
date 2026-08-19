@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-workplace-rights-navigator",
-  "generated_at": "2026-07-26T19:34:02Z",
+  "generated_at": "2026-08-19T00:00:00Z",
   "claims": [
     {
       "claim_id": "min-wage-2026",
@@ -631,6 +631,230 @@
       "claim_id": "severance-release-forms-161",
       "fetched_at": "2026-07-26T19:42:28Z",
       "note": "Claim text updated to the unified Form 161 (employer part / employee part); the cited page names Form 161 itself."
+    },
+    {
+      "claim_id": "youth-minwage-bands-2026",
+      "claim": "From 01.04.2026 the youth minimum wage by band is: up to 16 at 70% = NIS 4,510.7/month = NIS 26.07/hour; up to 17 at 75% = NIS 4,832.89/month = NIS 27.94/hour; up to 18 at 83% = NIS 5,348.4/month = NIS 30.92/hour; apprentice at 60% = NIS 3,866.31/month = NIS 22.35/hour.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_שכר_לבני_נוער",
+      "raw_snippet": "עד 16\n\t70%\t4,510.7 ₪\t26.07 ₪\n\nעד 17\n\t75%\t4,832.89 ₪\t27.94 ₪\n\nעד 18\n\t83%\t5,348.4 ₪\t30.92 ₪\n\nחניך *\n\t60%\t3,866.31 ₪\t22.35 ₪",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "youth-minwage-basis-173",
+      "claim": "Youth monthly minimum wage is a percentage of the adult monthly minimum (NIS 6,443.85); the youth hourly minimum is that monthly figure divided by 173; a full-time month for youth is 40 hours a week (173 hours a month).",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_שכר_לבני_נוער",
+      "raw_snippet": "שכר המינימום החודשי לבני נוער מחושב כאחוזים משכר המינימום למבוגר (6,443.85 ₪) בהתאם לגילם",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "youth-minwage-40-hours-173",
+      "claim": "A full-time position for youth is 40 hours a week (173 hours a month), and the hourly minimum is the 173rd part of the youth monthly minimum. The 2018 cut to a 42-hour week and the 182-hour full month did not change youth minimum wage.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_שכר_לבני_נוער",
+      "raw_snippet": "משרה מלאה לבני נוער היא בהיקף של 40 שעות בשבוע (או 173 שעות בחודש).",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "youth-minwage-regulations-source",
+      "claim": "The youth and apprentice minimum wage is set by the Minimum Wage Regulations (Working Youth and Apprentices), 1987, anchored in Minimum Wage Law s.16. An apprentice is a youth under 18 working to learn a trade through supervised practical work and approved trade classes under the Apprenticeship Law.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_שכר_לבני_נוער",
+      "raw_snippet": "חניך הוא נער עד גיל 18 העובד כדי לרכוש מקצוע על-ידי עבודה מעשית מודרכת ולימוד בשיעורי מקצוע המאושרים לפי חוק החניכות",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "youth-minwage-birthday-prorata",
+      "claim": "In the month a youth has a birthday, pay is split pro-rata between the two age bands.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלום_שכר_לבני_נוער",
+      "raw_snippet": "בחודש שבו חל יום הולדת של הנער, ישולם לו שכר באופן יחסי לפי גילו בכל אחד מחלקי החודש.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "restday-overtime-175-200",
+      "claim": "Overtime worked on the weekly rest day is paid at 175% for the first 2 overtime hours (150% rest-day rate plus 25% overtime, both on the ordinary wage) and 200% for each overtime hour beyond the first 2 (150% plus 50%).",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "בשעתיים הנוספות הראשונות - תוספת של 25% מהשכר הרגיל עבור שעת עבודה, כלומר שכרו של העובד בכל אחת מהשעתיים הנוספות הראשונות יהיה 175% משכר עבודתו הרגיל",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "restday-overtime-200-beyond-2",
+      "claim": "Each overtime hour beyond the first 2 on the weekly rest day is paid at 200% of the ordinary wage.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "בכל שעה נוספת מעבר לשעתיים הנוספות הראשונות - תוספת של 50% מהשכר הרגיל, כלומר שכרו של העובד בכל אחת מהשעות הנוספות הללו יהיה 200% משכר עבודתו הרגיל",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "restday-cumulative-cap-200",
+      "claim": "Overtime pay on the weekly rest day is calculated by a cumulative method reaching up to 200%.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "הגמול עבור שעות נוספות בשבת ישולם לפי שיטה מצטברת (עד לכדי 200%).",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "restday-monthly-vs-hourly-premium",
+      "claim": "Monthly salaried employees are entitled to a 50% addition to their daily wage for rest-day hours plus paid compensatory rest; hourly or daily paid employees receive 150% of their ordinary wage plus unpaid compensatory rest.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "עובדים במשכורת חודשית זכאים לתוספת של 50% מערך שכרם היומי עבור שעות עבודתם בימי המנוחה השבועית וכן למנוחת פיצוי ללא ניכוי משכרם",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "restday-hourly-150-unpaid-rest",
+      "claim": "Hourly or daily paid employees are entitled to 150% of their ordinary wage for rest-day hours, plus unpaid compensatory rest.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "עובדים שעתיים או יומיים זכאים לשכר של 150% משכרם הרגיל עבור שעות עבודתם בימי המנוחה השבועית וכן למנוחת פיצוי ללא תשלום",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "restday-compensatory-no-buyout",
+      "claim": "Compensatory rest cannot be replaced by a money payment; the employee must actually take the time off, and it cannot be redeemed at the end of the employment relationship.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "אסור להחליף את ימי מנוחת הפיצוי בתשלום כספי, אלא חובה לאפשר לעובד לצאת לחופשה בפועל. לא ניתן לפדות את מנוחת הפיצוי בכסף בסיום יחסי העבודה.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "restday-pension-provisioning",
+      "claim": "Where rest-day hours are overtime, no pension or severance provisioning is owed on them; where they fall inside the ordinary weekly hours, provisioning is owed on the 100% base only, without the rest-day premium.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "אם שעות העבודה בשבת הן בגדר שעות נוספות, אזי המעסיק אינו חייב להפריש לפיצויים ולביטוח הפנסיוני עבור שעות אלה.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "restday-no-authorisation-no-premium",
+      "claim": "An employee who worked on the weekly rest day without the employer's express or implied authorisation is not entitled to the rest-day premium.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "עובד שעבד במנוחה השבועית ללא אישור המעסיק במפורש או במשתמע, לא יהיה זכאי לתשלום גמול עבור העסקה במנוחה השבועית.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "restday-90min-rest-alternative",
+      "claim": "An employee paid on a monthly or longer basis may be given an hour and a half of rest for each hour worked during the weekly rest, without any reduction to the salary fixed for that month or period.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "מנוחה של שעה וחצי עבור כל שעת עבודה בזמן המנוחה השבועית, מבלי לפגוע בגובה השכר הקבוע לאותו חודש או תקופה.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "restday-favourable-term-prevails",
+      "claim": "Where an agreement, contract or established practice fixes a higher rate for rest-day or holiday work than the statute, the more favourable term applies.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "בכל מקרה שבו חל על העובד הסכם, חוזה או נוהג הקובעים תמורה עבור עבודה בחג בשיעור גבוה מזה שנקבע בחוק, תחול ההוראה המיטיבה עם העובד.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "restday-statute-s17",
+      "claim": "The weekly-rest-day premium is anchored in Hours of Work and Rest Law s.17.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_העסקה_במנוחה_השבועית",
+      "raw_snippet": "חוק שעות עבודה ומנוחה - סעיף 17",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "references/entitlements-calculator.md",
+        "references/domain-checklist.md"
+      ]
     }
   ]
 }

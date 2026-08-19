@@ -8,7 +8,7 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 |-----|-------------|------|----------------|
 | Annual Leave Law | חוק חופשה שנתית | 1951 | Minimum paid vacation days based on seniority (12-28 days). Vacation pay and pidyon (payout) rules |
 | Sick Pay Law | חוק דמי מחלה | 1976 | 1.5 sick days per month. Graduated pay: 0% day 1, 50% days 2-3, 100% day 4+. Maximum 90-day accumulation |
-| Hours of Work and Rest Law | חוק שעות עבודה ומנוחה | 1951 | 8-hour workday, 42-hour week. Overtime: 125% first 2 hours, 150% after. Weekly rest of 36 hours |
+| Hours of Work and Rest Law | חוק שעות עבודה ומנוחה | 1951 | 8-hour workday, 42-hour week. Overtime: 125% first 2 hours, 150% after. Weekly rest of 36 hours. On the weekly rest day the premiums stack: 150% for ordinary hours, 175% for the first 2 overtime hours, 200% beyond that |
 | Severance Pay Law | חוק פיצויי פיטורים | 1963 | One month salary per year after 1+ year. Section 14 pension fund arrangement. 15-day payment deadline |
 | Employment of Women Law | חוק עבודת נשים | 1954 | 26-week maternity leave (15 weeks paid via Bituach Leumi). Termination protections for pregnant employees |
 | Minimum Wage Law | חוק שכר מינימום | 1987 | Monthly minimum wage updated every April. As of 1 April 2026: NIS 6,443.85/month full-time, NIS 35.40/hour. Verify the current rate annually |

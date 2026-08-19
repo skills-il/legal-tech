@@ -145,9 +145,46 @@ Source: kolzchut.org.il, Travel-to-Work Extension Order.
 **Notes:**
 - Updated every April; verify the current figure before relying on it.
 - The hourly figure applies to part-time and hourly employees; the monthly minimum is pro-rated for part-time positions.
-- Youth (under 18) and apprentices have separate, lower statutory rates.
+- Youth (under 18) and apprentices have separate, lower statutory rates, enumerated below.
+
+### Youth and apprentice minimum wage (from 1 April 2026)
+
+Set by the Minimum Wage Regulations (Working Youth and Apprentices), 1987, and anchored in Minimum Wage Law s.16. Each band is a percentage of the adult monthly minimum (NIS 6,443.85). A full-time month for a youth is 40 hours a week, and the youth hourly rate is the youth monthly figure divided by 173 (the adult divisor is 182).
+
+| Band | % of adult minimum | Monthly (up to 40 hrs/week) | Hourly (monthly / 173) |
+|------|--------------------|-----------------------------|------------------------|
+| Up to age 16 | 70% | NIS 4,510.7 | NIS 26.07 |
+| Up to age 17 | 75% | NIS 4,832.89 | NIS 27.94 |
+| Up to age 18 | 83% | NIS 5,348.4 | NIS 30.92 |
+| Apprentice (chanich) | 60% | NIS 3,866.31 | NIS 22.35 |
+
+**Notes:**
+- An apprentice is a youth under 18 working to learn a trade through supervised practical work plus trade classes approved under the Apprenticeship Law. The 60% band follows the apprentice status, not the age.
+- The 2018 cut of the work week to 42 hours, and the 182-hour full month, did not change the youth monthly or hourly minimum.
+- In the month a youth has a birthday, pay is split pro-rata: the old band's rate up to the day before the birthday, the new band's rate from the birthday onward.
+- Travel reimbursement, overtime and similar additions are not part of the minimum wage and must be paid on top of it.
+- Source: kolzchut.org.il "תשלום שכר לבני נוער"; Minimum Wage Regulations (Working Youth and Apprentices), 1987.
 - The minimum wage is a cogent statutory floor; a contract cannot set pay below it. Paying below the minimum exposes the employer to criminal and civil liability.
 - Source: kolzchut.org.il, Minimum Wage Law 1987. Verify the current rate annually.
+
+## Overtime and Weekly Rest Day (Hours of Work and Rest Law, 1951)
+
+Overtime premiums sit in s.16 and the weekly-rest-day premium in s.17. On a rest day the two stack: both are computed on the ordinary wage and added, so the rest-day rate rises with the hour count instead of staying flat at 150%. The cumulative method reaches 200% and stops there.
+
+| Hour | Weekday | Weekly rest day (Shabbat) |
+|------|---------|---------------------------|
+| Ordinary hours (within the daily norm) | 100% | 150% |
+| First 2 overtime hours | 125% | 175% (150% + 25%) |
+| Each overtime hour beyond the first 2 | 150% | 200% (150% + 50%) |
+
+**Notes:**
+- The rest-day column is the full rate for an hourly or daily paid employee. A monthly salaried employee already receives the 100% in the monthly salary, so the statutory entitlement is a 50% addition to the daily wage, plus compensatory rest that is paid (the employer may not deduct the substitute day off from salary, leave balance or sick balance). The hourly or daily employee gets 150% plus compensatory rest that is unpaid.
+- Compensatory rest must be taken as actual time off. It cannot be converted to money, and unused compensatory rest is not redeemable on termination.
+- A monthly employee may instead be given an hour and a half of rest for each rest-day hour worked, without any cut to that month's salary.
+- Rest-day hours that are also overtime carry no pension or severance provisioning. Rest-day hours that fall inside the ordinary 42-hour week do carry provisioning, but only on the 100% base, not on the premium.
+- An employee who worked the rest day without the employer's express or implied authorisation is not entitled to the premium.
+- Where an agreement, contract or established practice gives a higher rate than the statute, the more favourable term applies.
+- Source: kolzchut.org.il "גמול עבור העסקה במנוחה השבועית"; Hours of Work and Rest Law s.17.
 
 ## Notice Period (Prior Notice Law, 2001)
 
