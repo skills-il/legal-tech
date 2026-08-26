@@ -90,7 +90,7 @@ Fail any one and the job is outside the carve-out. In practice the three that bi
 
 Gas work is licensed under חוק הגז (בטיחות ורישוי): a person may not engage in prescribed gas work without a licence, and relocating a kitchen gas point is ordinary in a renovation. Include it in the scope as its own trade and ask to see the licence.
 
-Several common additions are separately exempt with their own conditions, including bars, a pergola, and air conditioning. `references/permits-and-trades.md` carries the conditions and, importantly, which of them require a notice within 45 days and which do not. Do not generalise the notice duty: it is attached to individual regulations, not to the scheme.
+Several common additions are separately exempt on their own conditions (bars, a pergola, air conditioning). An exemption is conditional: `פרק א` attaches general preconditions to EVERY exempt work (stability and safety, conformity with the `תכנית` and the `הנחיות מרחביות`). Work in breach of them is unlicensed building, not exempt building, so never answer "exempt" without the rider. `references/permits-and-trades.md` carries the conditions, which require a 45 day notice, and where it is filed. Do not generalise the notice duty: it attaches to individual regulations, not to the scheme.
 
 ### Step 4, who may lawfully do the work
 
@@ -103,9 +103,9 @@ Guides state only the first. State both, give the figure with its as-of date, an
 
 ### Step 5, build the scope
 
-The scope is the deliverable that prevents most disputes. Per trade, per room, capture: what is being done, the quantity or area, the specification (brand, model, finish, thickness, colour), who supplies it, and what is **excluded**. The exclusions matter as much as the inclusions, because an unlisted item is the mechanism by which `תוספות` inflate a price.
+The scope is the deliverable that prevents most disputes. Per trade, per room, capture: what is being done, the quantity or area, the specification (brand, model, finish, thickness, colour), who supplies it, and what is **excluded**. Exclusions matter as much as inclusions: an unlisted item is how `תוספות` inflate a price.
 
-Write "supply and install" or "install only" against every line. Where the user does not know a specification yet, write a placeholder and a decision deadline rather than leaving it blank, because a blank becomes the contractor's choice.
+Write "supply and install" or "install only" against every line. Where a specification is not yet known, write a placeholder and a decision deadline: a blank becomes the contractor's choice.
 
 ### Step 6, the payment schedule
 
@@ -120,12 +120,12 @@ Two payment rules that depend on who pays:
 
 **Two payment mechanics that defeat the whole schedule if missed:**
 
-- **Cash.** The Prohibition on Cash Use Law caps a cash payment where an `עוסק` is a party at **6,000 ש"ח** per transaction, and at 15,000 ש"ח between two non-`עוסק` parties (as-of 2026; the amounts are amendable by order). A tradesperson is an `עוסק`, so the 6,000 cap is the normal renovation case. The duty binds the **payer as well as the payee**, so a homeowner who takes the "במזומן בלי מע"מ" deal is exposed himself, loses the paper trail that every later claim depends on, and has no invoice to hang a warranty claim on. Say this whenever a user mentions cash.
-- **Post-dated cheques.** Handing over a stack of cheques for future stages destroys the schedule and the retention you just built: the money is committed regardless of what the contract says, and stopping a cheque puts the homeowner on the defensive in enforcement proceedings on the instrument. Tell him to pay each stage when it is verified, not to pre-fund the job.
+- **Cash.** Never state the Prohibition on Cash Use Law as a flat 6,000 ש׳ח cap. `סעיף 2` bites on the **transaction price**, not on the payment: where an `עוסק` is a party and the price exceeds **6,000 ש׳ח**, cash is prohibited for the transaction. What survives is not an allowance but the residue `סעיף 1` carves out of the definition of `תשלום במזומן`, the **LOWER** of ten percent of the price and the Schedule amount, so on an ordinary renovation the lawful residue is materially **less** than the Schedule figure. Compute it from the price. The duty binds the **payer as well as the payee**, so a homeowner taking the cash-without-VAT deal is exposed himself, loses the paper trail every later claim depends on, and has no invoice to hang a warranty claim on. Detail in `references/scope-and-terms.md`.
+- **Post-dated cheques.** A stack of cheques for future stages destroys the schedule and the retention you just built: the money is committed whatever the contract says, and stopping a cheque puts the homeowner on the defensive in enforcement proceedings on the instrument. Pay each stage when it is verified; do not pre-fund the job.
 
-**Who verifies a stage.** "Verified completion" is not self-executing. Name the verifier in the document: the homeowner, an independent `מפקח בנייה` or engineer, or both jointly, and say what happens when the parties disagree. Without a named verifier the clause collapses back into dates, which is what it existed to prevent. An independent supervisor is the normal answer on a job of any size and is a cost the user should be told about, not a detail to leave blank.
+**Who verifies a stage.** "Verified completion" is not self-executing. Name the verifier in the document (the homeowner, an independent `מפקח בנייה` or engineer, or both jointly) and say what happens when they disagree. Without a named verifier the clause collapses back into dates, which is what it existed to prevent. An independent supervisor is the normal answer on a job of any size, and a cost the user should be told about.
 
-**Discussion thresholds, not legal limits.** A pre-work payment above roughly 15 percent stops being mobilisation and starts being an unsecured loan to the contractor. A retention below roughly 5 percent is usually too small to cover putting a defect right. Neither number is in any statute, and both are starting points for the parties to argue about.
+**Discussion thresholds, not legal limits.** A pre-work payment above roughly 15 percent stops being mobilisation and becomes an unsecured loan to the contractor; a retention below roughly 5 percent is too small to put a defect right. Neither is in any statute; both are starting points to argue from.
 
 If you can run scripts, `scripts/payment_schedule.py` builds the table and checks the arithmetic. If you cannot, do the same checks inline: milestones plus retention must sum to exactly one hundred percent, no single milestone before work starts should exceed a modest mobilisation advance, and the retention must remain unpaid until after the acceptance date.
 
@@ -142,8 +142,11 @@ Assemble these clauses for the parties to adopt, and say for each one that it is
   - **Detaching and attaching common property in order to BUILD an extension to an apartment (`הרחבה`)** is the narrower `סעיף 71ב` route, needing owners of three quarters of the apartments holding two thirds of the common property, and 60 percent where the expansion is for a `ממ"ד`.
   Separately, stairwells, lifts, shelters, and installations serving all owners can **never** be attached to one apartment at all (`סעיף 55(ג)`), so annexing stairwell space is a hard stop rather than a consent question. Anything touching a `ממ"ד` needs `פיקוד העורף` clearance before it is designed, not after; do not assume an internal wall of a protected space may be moved.
 - **Termination, and suspension.** The clause bank is useless without an exit. Set out what counts as a material breach, the notice and cure period before termination, and the accounting on termination (paid to date, less the reasonable cost to complete, plus who owns materials already paid for and on site). Unilaterally firing a contractor without a contractual right makes the HOMEOWNER the breaching party. Give the tradesperson the mirror image: a right to suspend work for non-payment after written notice, because suspending without a clause is itself a breach.
-- **Indemnity, separately from insurance.** A policy has an excess, exclusions, and can lapse. Require the tradesperson to indemnify the homeowner for damage to neighbours and to the `רכוש משותף`, in addition to carrying cover. Insurance without indemnity leaves the homeowner personally liable to the neighbour with no contractual recourse.
-- **Insurance.** Require third-party cover naming the homeowner, plus **employers' liability** cover for the crew working in the apartment, and the certificates before the first day. Present these as contractual requirements, not legal duties, because for a private home renovation they are not. An uninsured injured worker is the homeowner's largest realistic exposure.
+- **Indemnity, separately from insurance.** A policy has an excess, exclusions, and can lapse. Require the tradesperson to indemnify the homeowner for damage to neighbours and to the `רכוש משותף` on top of carrying cover. Insurance without indemnity leaves the homeowner personally liable to the neighbour with no recourse.
+- **Insurance.** Require third-party cover naming the homeowner, **employers' liability** cover for the crew, and the certificates before the first day. Present these as contractual requirements, not legal duties: for a private renovation they are not. An uninsured injured worker is the homeowner's largest realistic exposure.
+- **A standard form triggers `חוק החוזים האחידים`.** Terms drafted in advance for use with many clients are a `חוזה אחיד`, and three clauses in this very list are presumed `מקפח` under `סעיף 4`: a liability cap (`4(1)`), an unreasonable suspension or cancellation right (`4(2)`), and agreed compensation unreasonably favouring the supplier (`4(6א)`). Two are void outright: limiting access to the courts (`5(א)`) and excluding liability for bodily injury (`5(ב)`). Tell BOTH sides, it is a warning to one and a defence to the other. Terms negotiated for a single job are not a `חוזה אחיד`. Detail in `references/scope-and-terms.md`.
+- **Security beyond a cash retention.** A `ערבות ביצוע` or `ערבות בדק` is the alternative where the tradesperson resists a retention on cash-flow grounds, or where a company counterparty makes withheld cash the only real security. Its term must outlast the longest warranty period agreed.
+- **Name the `מבצע בניה`.** Where there is demolition, scaffolding, or work above two metres, say who is the `מבצע בניה`, who appoints the `מנהל עבודה`, and who notifies the regional labour inspector. See `references/permits-and-trades.md` section 5.
 - **Subcontracting and change orders.** Bar or condition subcontracting and keep the head contractor liable. Require every extra to be agreed and priced in writing before it is executed.
 
 ### Step 8, handover
@@ -152,20 +155,22 @@ Acceptance is a legal event, not a formality: `סעיף 6` obliges the customer 
 
 Require at handover: a marked or as-built routing of concealed plumbing and electrical lines, appliance warranties and manuals, surplus tile and paint with batch numbers, the dated evidence of the flood test that was witnessed BEFORE tiling (Step 2), not a test run now, the electrician's inspection certificate where the contract required one, confirmation that construction waste was removed, and a signed acceptance protocol listing outstanding items with dates.
 
-The concealed-services drawing is the single item most often skipped and the one that most reliably protects the next renovation.
+The concealed-services drawing is the item most often skipped and the one that most reliably protects the next renovation.
 
 ### Step 9, when it goes wrong
 
-Give notice in writing, offer the cure opportunity, and keep a dated photographic record. A contractual claim runs for seven years, the clock starts on discovery where the facts were genuinely hidden, and a contractor who returns to do a partial repair may restart it in the homeowner's favour.
+Give notice in writing, offer the cure opportunity, keep a dated photographic record. A contractual claim runs for seven years, the clock starts on discovery where the facts were genuinely hidden, and a contractor who returns for a partial repair may restart it in the homeowner's favour.
 
 **Route to the right forum. This is where a wrong answer costs the user his claim:**
 
 | The dispute | Where it goes |
 |---|---|
-| Between apartment owners in a בית משותף about rights or duties under the `תקנון` or the listed provisions of חוק המקרקעין: damage to `רכוש משותף`, works in common areas, the neighbour's cracked wall | **המפקח על רישום המקרקעין** (`סעיף 72(א)`), who decides these. Filing in small claims draws dismissal for want of jurisdiction |
-| Trespass by one owner against another apartment or the common property | The plaintiff **may choose** a competent court or the supervisor (`סעיף 72(ב)`) |
-| Homeowner against the contractor, modest sum | `israeli-small-claims-court`, but only if the plaintiff is an **individual** and the sum is within the ceiling (30,000 ש"ח as adjusted, which the statute's own text puts at 39,900 ש"ח in 2026). A full multi-trade renovation claim usually exceeds it |
+| Between apartment owners in a בית משותף about **rights or duties under the `תקנון`, or under the sections `סעיף 72(א)` actually lists** (58, 59, 59א-59ג, 59ה-59י) and the three statutes it names: use of common areas, the shares of expenses, works requiring the owners' consent | **המפקח על רישום המקרקעין** (`סעיף 72(א)`), who decides these |
+| A neighbour's **damage** claim over the works, the cracked wall being the standard case | A claim in tort, not one about rights or duties under the `תקנון`, so `סעיף 72(א)` does not reach it: it goes to the competent **court**, and small claims is open to an individual within the ceiling. Never tell a neighbour his damage claim will be dismissed for want of jurisdiction |
+| `הסגת גבול` by one owner against another apartment or the common property | The plaintiff **may choose**, `סעיף 72(ב)` says `לפי בחירתו`: a competent court or the supervisor. The supervisor is an option here, never a compulsory forum |
+| Homeowner against the contractor, modest sum | `israeli-small-claims-court`, but only if the plaintiff is an **individual** and the sum is within the ceiling (the statute enacts 30,000 ש"ח, index-linked; the Justice Minister's annual notice sets it at 39,900 ש"ח from 1 January 2026). A full multi-trade renovation claim usually exceeds it |
 | Anything above the ceiling, or brought by a business | A licensed advocate, in the competent court |
+| The contractor is a `קבלן רשום` and the complaint is about his conduct or workmanship | A complaint to `רשם הקבלנים` is a **parallel** free track needing no advocate. Raise it alongside a money claim, never instead. Do not state what sanction follows |
 
 Do not draft pleadings and do not assess the merits.
 
@@ -183,7 +188,7 @@ The user wants to relocate a bathroom, which moves waste piping into the shared 
 
 ### A tradesperson issuing terms
 
-An electrician wants terms before a large job. Draft from his side: a mobilisation payment, stage payments on verified completion, a materials price-escalation clause, an access clause covering delays the homeowner causes, and the statutory lien noted explicitly. Tell him he has no statutory payment date against a private homeowner, so the contract is the only thing that gives him one.
+An electrician wants terms before a large job. Draft from his side: mobilisation, stage payments on verified completion, materials price escalation, an access clause covering delays the homeowner causes, and the statutory lien noted explicitly. He has no statutory payment date against a private homeowner, so the contract is the only thing that gives him one.
 
 ### Late and disputed
 
@@ -218,7 +223,7 @@ The job is three weeks late and the parties disagree on what was agreed. Reconst
 - **The registered-contractor rule is not only about money.** Anything touching the שלד needs a registered contractor at any value. An agent that checks only the shekel threshold will clear a cheap structural job that is not lawful.
 - **Do not invent prices, periods, or a "standard" payment split.** There is no statutory or standard split. Offer a structure and make the user choose the numbers. Inventing a market rate for a renovation is the highest-risk fabrication in this domain.
 - **Two different majorities for common property.** Taking an existing piece of `רכוש משותף` and attaching it to one apartment needs EVERY owner (`סעיף 62(א)`). The three-quarters-and-two-thirds rule is `סעיף 71ב` and applies only to detaching common property in order to BUILD an extension. An agent that quotes the majority for a corridor niche is inviting a proprietary trespass.
-- **בית משותף disputes are not small-claims matters.** `סעיף 72(א)` gives them to the `מפקח על רישום המקרקעין`. Small claims is also individual-only and capped, and a full renovation claim usually exceeds the cap, so it is often the wrong route even against the contractor.
+- **Do not over-read the `מפקח`'s jurisdiction.** `סעיף 72(א)` covers disputes about rights or duties under the `תקנון` or the sections it enumerates, and nothing else. A neighbour's tort claim for damage from the works goes to court, where small claims may well be open. `סעיף 72(ב)` is a choice (`לפי בחירתו`), not a compulsory forum. Routing a modest damage claim to the supervisor as though small claims were barred costs the user his cheapest forum.
 - **Do not tell a tradesperson he is owed שוטף plus 45 by a homeowner.** The payment law does not reach a private individual. It does reach a company or a landlord operating as a business.
 
 ## Troubleshooting

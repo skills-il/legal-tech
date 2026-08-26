@@ -184,8 +184,9 @@ law requires it.** Contractually requiring it is sound practice and costs nothin
 
 ## 4a. Waste, and the container on the street
 
-Placing a `מכולה` for construction waste on a public road needs a permit from the local authority,
-and the fine for placing one without falls on the property owner rather than on the contractor.
+Placing a `מכולה` for construction waste on a public road needs a permit from the local authority.
+Who is exposed to the fine is a matter of the local `חוק עזר` and varies between authorities, so do
+not tell the user it falls on the homeowner rather than on the contractor, or the reverse.
 Municipal rules and fees vary, so make it a contract line naming who obtains the permit and who pays,
 and have the user confirm the rule with their own municipality.
 

@@ -268,11 +268,43 @@ door-to-door provisions of חוק הגנת הצרכן itself if the contractor s
 or at their door, but that is a different provision and must not be conflated with the regulations.
 
 **Forum.** A dispute between apartment owners in a בית משותף about rights or duties under the
-`תקנון` or the listed provisions goes to the **`מפקח על רישום המקרקעין`** under `סעיף 72(א)`, not to
-the general courts; for `הסגת גבול` the plaintiff may choose court or the supervisor (`סעיף 72(ב)`).
+`תקנון` or the sections `סעיף 72(א)` enumerates goes to the **`מפקח על רישום המקרקעין`**, not to
+the general courts; for `הסגת גבול` the plaintiff may choose court or the supervisor (`סעיף 72(ב)`,
+`לפי בחירתו`). A neighbour's tort claim for damage caused by the works is NOT within `סעיף 72(א)`
+and goes to court, where small claims may be open to him.
 A claim against the contractor goes to small claims only if the plaintiff is an **individual** and
-the sum is within the ceiling (30,000 ש"ח as adjusted, stated in the statute's own text as 39,900
-ש"ח in 2026), which a full multi-trade renovation claim usually exceeds; the court may also decline
+the sum is within the ceiling: the statute enacts 30,000 ש"ח index-linked, and the Justice
+Minister's annual notice sets it at 39,900 ש"ח from 1 January 2026, which a full multi-trade
+renovation claim usually exceeds; the court may also decline
 where the plaintiff filed more than five claims that year.
 
 Then stop. Drafting pleadings and assessing merits are out of scope.
+
+
+## Cash, and the standard-form trap
+
+**Cash.** חוק לצמצום השימוש במזומן is routinely mis-stated as a flat 6,000 ש׳ח cap. It is not.
+`סעיף 2(א)` prohibits an `עוסק` giving or receiving a cash payment for a transaction in the course of
+his business where the **price of the transaction** exceeds the amount in item (1) of the First
+Schedule; `סעיף 2(ג)` puts the same prohibition on a non-`עוסק` PAYING an `עוסק`, which is the
+homeowner. Between two non-`עוסק` parties the governing figure is item (2). Both amounts are as-of
+2026 and amendable by order.
+
+What is left lawful is not a budget equal to the Schedule figure. The definition of `תשלום במזומן` in
+`סעיף 1` excludes `סכום הנמוך מבין אלה`: ten percent of the transaction price, or the Schedule amount.
+The LOWER of the two. On any job priced below ten times the Schedule figure, and that is the ordinary
+renovation, the ten percent limb binds and the lawful residue is well under it. Compute it from the
+agreed price each time; never carry a number over from another job.
+
+**Standard-form terms.** Where the tradesperson's terms are drafted in advance for use with many
+clients they are a `חוזה אחיד`. `סעיף 4` presumes as `מקפח`, among others: `4(1)` a term exempting or
+unreasonably limiting the supplier's liability; `4(2)` a term giving him an unreasonable right to
+cancel, suspend or defer performance; `4(6)` a term limiting a remedy the client has by law; `4(6א)`
+agreed compensation set unreasonably in the supplier's favour. `סעיף 5` voids outright a term limiting
+the client's right to go to the courts (`5(א)`) and a term exempting the supplier from liability for
+bodily injury or a malicious act (`5(ב)`).
+
+The clause bank above deliberately offers a liability cap, a suspension right and agreed compensation.
+Where the document is a standard form, say so to both sides: the tradesperson is building on clauses a
+court may strike, and the homeowner has a defence to the cap he is being asked to sign. Terms
+negotiated for one job are not a `חוזה אחיד` and this does not reach them.

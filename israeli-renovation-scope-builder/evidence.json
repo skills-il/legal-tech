@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-renovation-scope-builder",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-10",
+  "generated_at": "2026-08-26T21:43:38+00:00",
   "method": "Every Hebrew snippet below was read from the source's own text layer: he.wikisource.org via ?action=raw (curl, not a model-summarised fetch), or pdftotext over the official Reshumot PDF. Snippets are byte-verbatim except where a note says the row is a table or template payload read in document order. En dashes inside snippets are the source's own characters and are preserved deliberately.",
   "claims": [
     {
@@ -470,13 +470,13 @@
     },
     {
       "claim_id": "small-claims-ceiling",
-      "claim": "The small claims court hears a civil claim brought by an INDIVIDUAL for a sum not exceeding 30,000 NIS as adjusted, which the wikisource text states is 39,900 NIS in 2026.",
+      "claim": "The small claims court hears a civil claim brought by an INDIVIDUAL for a sum not exceeding 30,000 NIS as enacted and index-linked. The Justice Minister's annual notice under section 2(c) of the 2008 order sets the ceiling at 39,900 NIS from 1 January 2026. The 39,900 figure is NOT statutory text; it comes from the annual notice.",
       "claim_type": "currency",
       "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
       "raw_snippet": "בית משפט לתביעות קטנות ידון בתביעה אזרחית שהגיש יחיד – (1) לתשלום סכום שאינו עולה על 30,000 שקלים חדשים (מתואם לאוגוסט 2008;בשנת 2026, 39,900 ש״ח)",
       "confidence": "high",
       "fetched_at": "2026-08-11T00:00:00Z",
-      "notes": "Two limits matter for a renovation dispute: the plaintiff must be a יחיד (not a business), and a full multi-trade renovation claim will usually exceed the ceiling. The court may also decline where the plaintiff filed more than five claims that year in that court."
+      "notes": "The wikisource consolidated text carries 39,900 only inside an editorial {{ח:הערה}} annotation, not as statutory text. The operative amount is fixed by the annual notice in Yalkut Hapirsumim; the separate evidence entry small-claims-ceiling-2026-notice carries that primary source."
     },
     {
       "claim_id": "cash-law-prohibition",
@@ -537,6 +537,78 @@
       "confidence": "high",
       "fetched_at": "2026-08-11T00:00:00Z",
       "notes": "Section 47(a), headed 'זכות להוציא חשבונית מס'. The osek patur limitation is the structural consequence of the permission being granted to an osek murshe alone; the practical effect for a homeowner who is himself a business is that he gets no input VAT from an osek patur."
+    },
+    {
+      "claim_id": "small-claims-ceiling-2026-notice",
+      "claim": "The small claims jurisdiction ceiling is 39,900 NIS from 1 January 2026, fixed by the Justice Minister's notice under section 2(c) of the Courts Order (Change of Claim Amount in Small Claims), 5768-2008, published in Yalkut Hapirsumim 5786 p. 3641.",
+      "claim_type": "amount",
+      "source_url": "https://olaw.org.il/yalkut/yalkut-14222.pdf",
+      "raw_snippet": "בתוקף סמכותי לפי סעיף 2(ג) לצו בתי המשפט (שינוי סכום התביעה בתביעות קטנות), התשס\"ח-2008, אני מודיע כי עקב שינוי המדד שפורסם בחודש דצמבר 2025 לעומת המדד שפורסם בחודש דצמבר 2024, סמכות בית המשפט לתביעות קטנות תעמוד מיום י\"ב בטבת התשפ\"ו (1 בינואר 2026) על 39,900 שקלים חדשים.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:31:15+00:00",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T21:31:15+00:00",
+      "notes": "Retrieved as PDF and read with pdftotext on 2026-08-27. This is the primary source for the 39,900 figure; the consolidated statute text enacts 30,000 index-linked."
+    },
+    {
+      "claim_id": "cash-law-ten-percent-limb",
+      "claim": "The definition of 'תשלום במזומן' in section 1 of the Prohibition on Cash Use Law excludes the LOWER of (1) 10% of the transaction price and (2) the amount in item (1) or (2) of the First Schedule. So the lawful cash residue is the lower of ten percent of the price and 6,000 NIS, not a flat 6,000.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9C%D7%A6%D7%9E%D7%A6%D7%95%D7%9D_%D7%94%D7%A9%D7%99%D7%9E%D7%95%D7%A9_%D7%91%D7%9E%D7%96%D7%95%D7%9E%D7%9F",
+      "raw_snippet": "”תשלום במזומן“ – סכום המשולם או הניתן במזומן, לפי העניין, למעט סכום הנמוך מבין אלה: (1) סכום בשיעור של 10% ממחיר העסקה, מסכום המתנה, מסכום התרומה, מסכום ההלוואה או מסכום השטר, לפי העניין; (2) הסכום הנקוב בפרט (1) או (2) לתוספת הראשונה, לפי העניין;",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Read via ?action=raw with a browser User-Agent on 2026-08-27. Closes a wrong 'flat 6,000 cap' statement that was permissive in the dangerous direction."
+    },
+    {
+      "claim_id": "cash-law-trigger-is-transaction-price",
+      "claim": "Section 2 of the Prohibition on Cash Use Law triggers on the TRANSACTION PRICE exceeding the Schedule amount, not on the size of the individual payment. Section 2(c) binds a non-osek payer paying an osek.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9C%D7%A6%D7%9E%D7%A6%D7%95%D7%9D_%D7%94%D7%A9%D7%99%D7%9E%D7%95%D7%A9_%D7%91%D7%9E%D7%96%D7%95%D7%9E%D7%9F",
+      "raw_snippet": "לא ייתן עוסק ולא יקבל תשלום במזומן בעבור עסקה במסגרת עסקו, אם מחיר העסקה עולה על הסכום הנקוב בפרט (1) לתוספת הראשונה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Section 2(a). Section 2(c) read in the same fetch: לא ייתן אדם שאינו עוסק תשלום במזומן לעוסק בעבור עסקה במסגרת עסקו של העוסק."
+    },
+    {
+      "claim_id": "mekarkein-s72a-enumerated-scope",
+      "claim": "Section 72(a) of the Land Law confines the supervisor's jurisdiction to disputes about rights or duties under the takanon or under sections 58, 59, 59a-59c and 59e-59j, plus three named external statutes. A neighbour's tort claim for damage caused by works is not within it.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "סכסוך בין בעלי דירות בבית משותף בדבר זכויותיהם או חובותיהם לפי התקנון או לפי סעיפים 58, 59, 59א עד 59ג ו־59ה עד 59י",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Read verbatim 2026-08-27. Section 72(b) reads 'רשאי התובע להביאו, לפי בחירתו' and is therefore an option, not a compulsory forum."
+    },
+    {
+      "claim_id": "hozim-ahidim-definition",
+      "claim": "A 'חוזה אחיד' is a contract form whose terms were set in advance by one party to serve as terms for many contracts with persons indefinite in number or identity. A tradesperson's standard client terms fall within it.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%D7%94%D7%90%D7%97%D7%99%D7%93%D7%99%D7%9D",
+      "raw_snippet": "”חוזה אחיד“ – נוסח של חוזה שתנאיו, כולם או מקצתם, נקבעו מראש בידי צד אחד כדי שישמשו תנאים לחוזים רבים בינו לבין אנשים בלתי מסויימים במספרם או בזהותם;",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Read 2026-08-27."
+    },
+    {
+      "claim_id": "hozim-ahidim-s4-presumptions",
+      "claim": "Section 4 of the Standard Contracts Law presumes as unfair: 4(1) a term exempting or unreasonably limiting the supplier's liability; 4(2) a term giving the supplier an unreasonable right to cancel, suspend or defer performance; 4(6a) a term setting agreed compensation unreasonably in the supplier's favour.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%D7%94%D7%90%D7%97%D7%99%D7%93%D7%99%D7%9D",
+      "raw_snippet": "חזקה על התנאים הבאים שהם מקפחים: (1) תנאי הפוטר את הספק, באופן מלא או חלקי, מאחריות שהיתה מוטלת עליו על פי דין אילולא אותו תנאי, או המסייג באופן בלתי סביר את האחריות שהיתה מוטלת עליו מכוח החוזה אילולא אותו תנאי; (2) תנאי המקנה לספק זכות בלתי סבירה לבטל, להשעות או לדחות את ביצוע החוזה",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "4(6א) read in the same fetch: תנאי המקנה לספק באופן בלתי סביר תרופה שאינה עומדת לו על פי דין ... או תנאי הקובע פיצויים מוסכמים שאינם סבירים לטובת הספק."
+    },
+    {
+      "claim_id": "hozim-ahidim-s5-void",
+      "claim": "Section 5 of the Standard Contracts Law voids outright a term limiting the client's right to go to the courts (5(a)) and a term exempting the supplier from liability for bodily injury or malicious act (5(b)).",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%D7%94%D7%90%D7%97%D7%99%D7%93%D7%99%D7%9D",
+      "raw_snippet": "תנאי בחוזה אחיד השולל או המגביל את זכות הלקוח לפנות לערכאות משפטיות – בטל.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "5(b) read in the same fetch: תנאי בחוזה אחיד הפוטר את הספק, באופן מלא או חלקי, מאחריות לנזק גוף או למעשה זדון המוטלת עליו על פי דין – בטל."
     }
   ]
 }

@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.0 (2026-08-27)
+
+Three corrections of law found by an independent expert review, each verified against the primary text before it was written, plus four coverage additions.
+
+- **Cash payments were stated as a flat 6,000 ש"ח cap, and that is wrong in the permissive direction.** סעיף 2 of חוק לצמצום השימוש במזומן triggers on the TRANSACTION PRICE exceeding the Schedule amount, not on the size of the payment, and the definition of "תשלום במזומן" in סעיף 1 carves out only the LOWER of ten percent of the price and the Schedule amount. On an ordinary renovation the ten percent limb binds, so the lawful residue is materially less than 6,000. Because סעיף 2(ג) binds the paying homeowner, and because the skill rightly stresses that, the old flat figure turned the skill's own emphasis into an instruction to overpay in cash.
+- **The dispute-forum table over-read סעיף 72(א).** It sent a neighbour's cracked-wall claim to the מפקח על רישום המקרקעין and warned that small claims would dismiss it for want of jurisdiction. סעיף 72(א) reaches disputes about rights or duties under the תקנון or under the sections it enumerates, and a tort claim for damage caused by the works is not among them: it goes to court, where small claims may well be open. סעיף 72(ב) is לפי בחירתו, an option and never a compulsory forum. The table now splits the two cases and the matching Gotcha was rewritten.
+- **חוק החוזים האחידים was absent entirely**, although the skill drafts standard terms for a tradesperson to issue to clients and three of those clauses sit inside the סעיף 4 presumptions of קיפוח (4(1) liability cap, 4(2) unreasonable suspension right, 4(6א) agreed compensation in the supplier's favour), with סעיף 5(א) and 5(ב) void outright. Now stated to BOTH sides: a warning to the tradesperson, a defence for the homeowner.
+- Added: ערבות ביצוע / ערבות בדק as an alternative to a cash retention, with the point that its term must outlast the longest per-trade warranty; naming the מבצע בניה and who appoints the מנהל עבודה; a parallel complaint route to רשם הקבלנים that neither replaces nor prejudices a money claim; and the פרק א general preconditions that make every exemption conditional, so "exempt" is never answered without the rider.
+
+### Sourcing corrections
+
+- Small claims ceiling: the 39,900 ש"ח figure was attributed to "the statute's own text" (`נוסח החוק`). It is not statutory text. The statute enacts 30,000 ש"ח index-linked, and 39,900 comes from the Justice Minister's annual notice under סעיף 2(ג) of צו בתי המשפט (שינוי סכום התביעה בתביעות קטנות), התשס"ח-2008, published in י"פ התשפ"ו עמ' 3641. The figure is correct and unchanged; the attribution now names the instrument that fixes it, and evidence.json carries the notice itself as a primary source.
+- Construction-waste container: removed an uncited proposition that the fine for placing a `מכולה` on a public road without a permit falls on the property owner rather than on the contractor. Who bears it is a matter of the local `חוק עזר` and varies between authorities, so the skill now says that rather than allocating liability.
+
 ## 1.0.0 (2026-08-11)
 
 Initial release.
