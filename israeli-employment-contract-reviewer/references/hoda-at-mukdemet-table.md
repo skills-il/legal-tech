@@ -19,8 +19,8 @@ Days are calendar days, not business days. Weekends and holidays count.
 | 9 months | 13.5 days | |
 | 10 months | 16 days | |
 | 11 months | 18.5 days | |
-| 12 months | 21 days | Last month of year 1 |
-| 12+ months (1+ year) | 30 days (1 month) | Fixed after year 1 |
+| 12 months exactly | 21 days | Still inside the first year: s.3(2) runs "until the end of the first year of employment" |
+| From month 13 onward | 30 days (1 month) | s.3(3) applies "after the first year of employment", so the 30 days start once year 1 is complete |
 
 Phase 1 (months 1-6): 1 day per month of work
 Phase 2 (months 7-12): 6 days + 2.5 days for each month beyond the 6th
@@ -48,7 +48,7 @@ After 3 years: 30 calendar days, flat.
 - **Applies to both sides**. Employee resigning and employer firing are both bound by the same table.
 - **Written notice required**. Verbal notice is legally questionable and hard to prove.
 - **Payment in lieu**. Employer can pay the equivalent of the notice period instead of requiring the employee to work through it (hoda'at mukdemet tashlum bedineha).
-- **No notice during first month of probation**. Some exceptions exist for very early termination.
+- **A probation clause does not reduce the statutory notice.** Israeli law has no statutory probation period. The schedule above applies from the first month regardless of any contractual "trial period", and a clause purporting to waive notice during probation is unenforceable.
 
 ## Examples
 

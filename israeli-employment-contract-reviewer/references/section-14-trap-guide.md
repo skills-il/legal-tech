@@ -57,7 +57,7 @@ Push for:
 
 1. **Full salary definition**: "Salary" for Section 14 purposes includes base + all fixed recurring components + regularly paid bonuses
 2. **Full 8.33% severance rate for the waiver**: 6% is the legal minimum and is fine on its own, but only an 8.33% severance component makes the Section 14 waiver fully replace statutory severance
-3. **From day 1**: not after any probation
+3. **From day 1**: not after any contractual trial period, which has no statutory basis and cannot delay pension
 4. **Proper invocation**: explicit reference to Section 14 of the Severance Pay Law and the General Authorization
 5. **Employer signature**: employer explicitly commits to the 8.33% contribution, not just "employee waives"
 

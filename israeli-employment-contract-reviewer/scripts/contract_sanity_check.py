@@ -4,7 +4,7 @@
 Validates:
 - Pension contribution rates against Mandatory Pension Order 2008 minimums
 - Hoda'at mukdemet days against Prior Notice Law 2001 schedule
-- Annual vacation days against Annual Leave Law 1951
+- Annual vacation days against the higher of Annual Leave Law 1951 and the Shortened Work Week extension order
 - Sick days against Sick Pay Law 1976
 
 Usage:
@@ -22,6 +22,7 @@ MANDATORY_PENSION_EMPLOYER_BENEFITS_MIN = 6.5
 MANDATORY_PENSION_SEVERANCE_MIN = 6.0  # Below this is not enough for severance coverage
 MANDATORY_PENSION_SEVERANCE_FULL = 8.33  # Standard for full Section 14 waiver
 MANDATORY_PENSION_EMPLOYEE_STD = 6.0
+MANDATORY_PENSION_EMPLOYEE_MIN = 6.0  # Expansion Order floor. 7% is credit-optimal under s.45a.
 KH_EMPLOYER_STD = 7.5
 KH_EMPLOYEE_STD = 2.5
 
@@ -68,24 +69,54 @@ def required_notice_days_hourly(tenure_months: int) -> float:
     return 30.0
 
 
-def required_vacation_days(tenure_years: int) -> int:
-    if tenure_years <= 4:
+def extension_order_net_vacation_days(tenure_years: int) -> int:
+    """Net leave days per the Shortened Work Week extension order (5-day week).
+
+    The order states NET days (actual absence days, excluding the weekly rest):
+    12 for years 1-5, 17 for years 6-8, and 23 from year 9. It covers most
+    5-day workplaces but NOT domestic work, workplaces with fewer than four
+    employees, government or municipal companies, or workplaces whose move to a
+    5-day week was settled by a collective agreement.
+    """
+    if tenure_years <= 5:
         return 12
-    if tenure_years == 5:
-        return 14
-    if tenure_years == 6:
-        return 16
-    if tenure_years == 7:
-        return 18
-    if tenure_years == 8:
-        return 19
-    if tenure_years == 9:
-        return 20
-    if tenure_years == 10:
-        return 21
-    if tenure_years == 11:
-        return 22
+    if tenure_years <= 8:
+        return 17
     return 23
+
+
+def gross_vacation_days(tenure_years: int) -> int:
+    """Statutory gross leave days per Annual Leave Law 1951 s.3(a)."""
+    if tenure_years <= 5:
+        return 16
+    if tenure_years == 6:
+        return 18
+    if tenure_years == 7:
+        return 21
+    return min(28, 21 + (tenure_years - 7))
+
+
+def statutory_net_vacation_days(tenure_years: int) -> int:
+    """The statutory gross ladder converted to net absence days on a 5-day week.
+
+    An employee on a 5-day week is absent 5 days for every 7 gross days. The
+    part-day is rounded up, because a fraction of entitlement is not forfeited.
+    """
+    return -(-gross_vacation_days(tenure_years) * 5 // 7)
+
+
+def required_vacation_days(tenure_years: int, extension_order_applies: bool = True) -> int:
+    """Minimum annual leave in NET working days for a 5-day week.
+
+    Two ladders apply and the employee is entitled to the HIGHER of them: the
+    Annual Leave Law and, where it covers the workplace, the Shortened Work
+    Week extension order. Encoding only the statute understates the minimum
+    from year 6 onward for most private-sector employees.
+    """
+    statutory = statutory_net_vacation_days(tenure_years)
+    if not extension_order_applies:
+        return statutory
+    return max(statutory, extension_order_net_vacation_days(tenure_years))
 
 
 def check(
@@ -98,6 +129,7 @@ def check(
     vacation_days: int,
     sick_days_per_year: int,
     kh_employer: float | None = None,
+    extension_order_applies: bool = True,
 ) -> list[Finding]:
     findings: list[Finding] = []
     tenure_years = max(1, tenure_months // 12)
@@ -110,6 +142,17 @@ def check(
                 observed=f"{pension_employer_benefits}%",
                 expected=f">= {MANDATORY_PENSION_EMPLOYER_BENEFITS_MIN}%",
                 rule="Mandatory Pension Expansion Order 2008",
+            )
+        )
+
+    if pension_employee < MANDATORY_PENSION_EMPLOYEE_MIN:
+        findings.append(
+            Finding(
+                severity="blocker",
+                field="Employee pension (employee component)",
+                observed=f"{pension_employee}%",
+                expected=f">= {MANDATORY_PENSION_EMPLOYEE_MIN}%",
+                rule="Mandatory Pension Expansion Order 2008 (6% is the minimum, not a maximum)",
             )
         )
 
@@ -140,8 +183,8 @@ def check(
                 severity="minor",
                 field="Employee pension contribution",
                 observed=f"{pension_employee}%",
-                expected=f"~{MANDATORY_PENSION_EMPLOYEE_STD}% standard",
-                rule="Industry standard",
+                expected="6% minimum, 7% is the ceiling that still earns the s.45a credit",
+                rule="Income Tax Ordinance s.45a: contributions above 7% earn no further credit",
             )
         )
 
@@ -161,7 +204,7 @@ def check(
             )
         )
 
-    required_vacation = required_vacation_days(tenure_years)
+    required_vacation = required_vacation_days(tenure_years, extension_order_applies)
     if vacation_days < required_vacation:
         findings.append(
             Finding(
@@ -169,7 +212,7 @@ def check(
                 field="Annual vacation days",
                 observed=f"{vacation_days} days",
                 expected=f">= {required_vacation} days at tenure year {tenure_years}",
-                rule="Annual Leave Law 1951",
+                rule="Annual Leave Law 1951 + Shortened Work Week extension order (higher of the two)",
             )
         )
 
@@ -179,8 +222,8 @@ def check(
                 severity="major",
                 field="Sick days per year",
                 observed=f"{sick_days_per_year} days",
-                expected=">= 18 days per year (1.5 days per month)",
-                rule="Sick Pay Law 1976",
+                expected=">= 18 days per year of accrual (1.5 x 12). This is an accrual figure, NOT a statutory annual cap.",
+                rule="Sick Pay Law 1976 s.4 (1.5 days/month accrual, 90-day balance). Check the payment ladder separately: day 1 unpaid, days 2-3 half, day 4+ full (ss.2, 5).",
             )
         )
 
@@ -220,15 +263,20 @@ def format_findings(findings: list[Finding]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sanity check numerical fields in an Israeli employment contract")
-    parser.add_argument("--pension-employer", type=float, help="Employer pension benefits %")
-    parser.add_argument("--pension-severance", type=float, help="Employer severance contribution %")
-    parser.add_argument("--pension-employee", type=float, help="Employee pension %")
+    parser.add_argument("--pension-employer", type=float, help="Employer pension benefits %%")
+    parser.add_argument("--pension-severance", type=float, help="Employer severance contribution %%")
+    parser.add_argument("--pension-employee", type=float, help="Employee pension %%")
     parser.add_argument("--notice-days", type=float, help="Hoda'at mukdemet days in contract")
     parser.add_argument("--tenure-months", type=int, help="Expected tenure in months for notice calc")
     parser.add_argument("--worker-type", choices=("monthly", "hourly"), default="monthly")
     parser.add_argument("--vacation", type=int, help="Annual vacation days")
     parser.add_argument("--sick", type=int, help="Annual sick days")
-    parser.add_argument("--kh-employer", type=float, help="Keren Hishtalmut employer %", default=None)
+    parser.add_argument("--kh-employer", type=float, help="Keren Hishtalmut employer %%", default=None)
+    parser.add_argument(
+        "--no-extension-order",
+        action="store_true",
+        help="The Shortened Work Week extension order does NOT cover this workplace (domestic work, fewer than 4 employees, a government or municipal company, or a 5-day week set by a collective agreement). Scores annual leave on the Annual Leave Law alone.",
+    )
     parser.add_argument("--example", action="store_true", help="Run with a sample contract")
     parser.add_argument("--self-test", action="store_true", help="Run golden-case assertions for the notice schedules")
     args = parser.parse_args()
@@ -248,6 +296,25 @@ def main() -> int:
         assert required_notice_days_hourly(25) == 21.0, "hourly start year 3 = 21"
         assert required_notice_days_hourly(36) == 27.0, "hourly end year 3 = 21 + (12//2) = 27"
         assert required_notice_days_hourly(37) == 30.0, "hourly 3yr+ flat = 30"
+        # Annual Leave Law s.3(a) gross ladder and its 5-day-week net conversion.
+        assert gross_vacation_days(1) == 16, "gross y1"
+        assert gross_vacation_days(5) == 16, "gross y5 (band is years 1-5, not 1-4)"
+        assert gross_vacation_days(6) == 18, "gross y6"
+        assert gross_vacation_days(7) == 21, "gross y7"
+        assert gross_vacation_days(14) == 28, "gross y14 caps at 28"
+        assert gross_vacation_days(30) == 28, "gross cap holds"
+        assert statutory_net_vacation_days(1) == 12, "statute net y1 = ceil(16*5/7)"
+        assert statutory_net_vacation_days(6) == 13, "statute net y6 = ceil(18*5/7)"
+        assert statutory_net_vacation_days(7) == 15, "statute net y7 = 21*5/7"
+        # Where the extension order applies it is higher from year 6 on, and it wins.
+        assert required_vacation_days(1) == 12, "combined y1"
+        assert required_vacation_days(5) == 12, "combined y5"
+        assert required_vacation_days(6) == 17, "combined y6, order beats statute"
+        assert required_vacation_days(9) == 23, "combined y9, order beats statute"
+        assert required_vacation_days(9, extension_order_applies=False) == 17, "statute-only y9 = ceil(23*5/7)"
+        # Employee 6 percent is a floor, not a maximum: anything under it must be a blocker.
+        low = check(6.5, 6.0, 4.0, 30, 24, "monthly", 12, 18, 7.5)
+        assert any(f.severity == "blocker" and "Employee pension" in f.field for f in low), "employee floor"
         print("All notice-schedule golden cases passed.")
         return 0
 
@@ -308,6 +375,7 @@ def main() -> int:
         vacation_days=args.vacation,
         sick_days_per_year=args.sick,
         kh_employer=args.kh_employer,
+        extension_order_applies=not args.no_extension_order,
     )
     print(format_findings(findings))
     return 0

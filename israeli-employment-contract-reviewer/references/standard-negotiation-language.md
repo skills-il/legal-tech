@@ -27,7 +27,7 @@ Ready-to-use Hebrew and English replacement clauses for the most common red flag
 **Problem:** 2-year worldwide non-compete without compensation.
 
 **Replacement (English):**
-> For a period of six (6) months following the termination of this Agreement, the Employee shall not directly engage in employment with a company whose primary business is [narrow, specific competitor definition tied to employer's current main product] and only in the same geographic market (Israel). This restriction applies only if the Employer compensates the Employee at 100% of the last monthly gross salary during the restriction period.
+> For a period of six (6) months following the termination of this Agreement, the Employee shall not directly engage in employment with a company whose primary business is [narrow, specific competitor definition tied to employer's current main product] and only in the same geographic market (Israel). This restriction applies only if the Employer compensates the Employee at 100% of the last monthly gross salary during the restriction period. (The 100% figure is a negotiating proposal, not a statutory entitlement. Note the trade-off before proposing it: paying the employee for the restriction is one of the things that makes a court MORE willing to enforce it, so an employee who would rather the clause simply fell away should ask for it to be removed instead.)
 
 **Replacement (Hebrew):**
 > למשך 6 חודשים לאחר סיום הסכם זה, העובד/ת לא יעסוק/תעסוק באופן ישיר במשרה אצל חברה שעיסוקה העיקרי הוא [תחרות ספציפית וצרה הקשורה למוצר המרכזי הנוכחי של המעסיק], ורק באותו שוק גיאוגרפי (ישראל). הגבלה זו חלה אך ורק אם המעסיק ישלם לעובד/ת 100% מהשכר החודשי הברוטו האחרון במהלך תקופת ההגבלה.
@@ -44,7 +44,7 @@ Ready-to-use Hebrew and English replacement clauses for the most common red flag
 
 ## 5. Salary Clarity (Brutto/Netto)
 
-**Problem:** Contract says "salary of 15,000 ILS" without specifying gross/net.
+**Problem:** Contract says "salary of 15,000 ILS" without specifying gross/net. The 15,000 figure here is a placeholder; substitute the employee's own number.
 
 **Replacement (English):**
 > The Employee's gross monthly salary (brutto) is NIS 15,000, from which standard statutory deductions shall be made (income tax, National Insurance, health tax). This salary is the base for all pension contributions, keren hishtalmut, severance, and other benefits calculations.
@@ -57,7 +57,7 @@ Ready-to-use Hebrew and English replacement clauses for the most common red flag
 **Problem:** Bonus described as "fully at the discretion of the employer."
 
 **Replacement (English):**
-> The Employee shall be eligible for an annual performance bonus of up to [X%] of annual base salary, calculated according to measurable targets that will be agreed in writing between the parties at the start of each fiscal year. The baseline target of [50%] of the bonus shall be paid regardless of discretionary factors, subject only to the Employee's continued employment and reasonable performance.
+> The Employee shall be eligible for an annual performance bonus of up to [X%] of annual base salary, calculated according to measurable targets that will be agreed in writing between the parties at the start of each fiscal year. The baseline target of [50%] of the bonus, a negotiating proposal rather than any statutory figure, shall be paid regardless of discretionary factors, subject only to the Employee's continued employment and reasonable performance.
 
 **Replacement (Hebrew):**
 > העובד/ת יהיה/תהיה זכאי/ת לבונוס ביצועים שנתי של עד [X%] מהשכר השנתי הבסיסי, המחושב לפי יעדים מדידים שייקבעו בכתב בין הצדדים בתחילת כל שנת כספים. יעד הבסיס של [50%] מהבונוס ישולם בכל מקרה, בכפוף להמשך ההעסקה וביצועים סבירים של העובד/ת.

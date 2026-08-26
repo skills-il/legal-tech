@@ -15,7 +15,7 @@ These findings are illegal or grossly unfair. The contract must be amended befor
 | A5 | Clauses waiving the employee's rights under cogent labor law | General principle | Any waiver of cogent rights is void |
 | A6 | No written contract offered despite explicit request | Written Employment Terms Notice Law 2002 | Employer must provide terms in writing |
 | A7 | Conditioning employment on pregnancy status, marriage status, age, or religion | Employment Equal Opportunities Law 1988 | Prohibited basis for hiring |
-| A8 | Forced arbitration in a foreign jurisdiction | Labor Courts Law | Israeli labor courts have exclusive jurisdiction for many disputes |
+| A8 (NOT a blocker: Major for a foreign forum or foreign governing law, Minor for domestic arbitration) | Arbitration or foreign-forum clause | Labour Court Law 5729-1969 s.24 | s.24 gives the labour courts exclusive SUBJECT-MATTER jurisdiction as between Israeli courts. It does not void arbitration. The real objection to a foreign forum is that cogent Israeli protections attach to work performed in Israel |
 | A9 | Penalty/fine, training-cost clawback, equipment-loss, or cash-register shortfall deducted from pay | Wage Protection Law 1958, section 25 | Lawful deductions are a closed list (tax/BTL/health, pension and provident contributions, union dues, employee-authorized debt capped at 25% of wages). Anything else is void, even with employee consent |
 
 ## Category B: Major (Negotiate Before Signing)
@@ -29,11 +29,11 @@ Below market standard or legally questionable. Push back before signing.
 | B3 | Section 14 (Saif 14) waiver without matching salary definition | Require "salary" to include all fixed components subject to pension |
 | B4 | Invention assignment covering "all inventions" | Narrow to inventions made during work hours with work resources, related to the employer's business |
 | B5 | Discretionary bonus without trigger | Convert to formulaic tied to KPIs, or confirm baseline |
-| B6 | Working hours over 42/week without overtime clause | Add explicit 125%/150% overtime per Hours of Work and Rest Law |
+| B6 | Working hours over 42/week without overtime clause. The 42-hour week comes from the March 2018 general extension order; the statute itself (Hours of Work and Rest Law s.3) still reads 45 hours and s.2 caps the day at 8 | Add explicit 125% for the first 2 overtime hours of the day and 150% thereafter. The split resets daily, not weekly |
 | B7 | No keren hishtalmut in a tech role | Add with 7.5% employer / 2.5% employee split |
-| B8 | Probation over 12 months | Reduce to 3-6 months |
-| B9 | Vacation days below statutory (12 days/yr years 1-4, rising to 23 after year 5) | Increase to at least statutory minimum |
-| B10 | Sick days below 18/yr accrual | Increase to 1.5 days/month = 18/year |
+| B8 | Probation clause treated as a rights-free window. There is no statutory probation in Israel: it does not shorten notice, suspend pension, or remove the duty to hold a hearing | Strike any waiver of notice, pension or a hearing. Length alone is not the issue |
+| B9 | Vacation days below the binding minimum. Two ladders apply and the employee takes the HIGHER: Annual Leave Law s.3(a) in GROSS days (16 for each of the first 5 years, 18 in year 6, 21 in year 7, then one more per year to 28), and the Shortened Work Week extension order in NET days for a 5-day week (12 for years 1-5, 17 for years 6-8, 23 from year 9) | Increase to the higher of the two, and state whether the contract quotes gross or net days |
+| B10 | Sick leave below the statutory floor. Accrual is 1.5 days per full month up to a 90-day cumulative balance; there is NO 18-day annual cap. The material term is the payment ladder: day 1 unpaid, days 2-3 at half pay, day 4 onward in full | Check the ladder, not just the accrual number. A contract paying from day 1 is above the floor and worth asking for |
 | B11 | Dmei havra'a clause absent | Add per Extension Order |
 | B12 | Broad confidentiality extending beyond 5 years | Scope to trade secrets only, time-limited |
 | B13 | Dismissal clause with no carve-out for pregnancy / maternity leave / fertility treatment | Add that any dismissal or pay/scope reduction during these periods (at 6+ months tenure) is subject to a Ministry of Labor permit (heter) under the Employment of Women Law 5714-1954 |
