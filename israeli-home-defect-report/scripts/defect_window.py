@@ -21,15 +21,16 @@ import sys
 # table, provided construction did not finish earlier.
 SPLIT = dt.date(2011, 4, 6)
 
-# Current Schedule (contract on/after 06.04.2011). Ten items, verbatim scope.
+# Current Schedule (contract on/after 06.04.2011). Ten items, scope text follows
+# the statutory row wording, abridged only where marked.
 CURRENT = {
     "frames":    (2, "ליקוי במוצרי מסגרות ונגרות, לרבות אלומיניום ופלסטיק"),
     "flooring":  (2, "ליקוי בריצוף וחיפוי פנים לרבות שקיעות ושחיקה"),
     "machines":  (3, "כשל בתפקוד ובעמידות של מכונות ודוודים"),
-    "yard":      (3, "ליקוי בפיתוח חצר, לרבות שקיעות ומערכות מים, ביוב, ניקוז, חשמל, תאורה ותקשורת"),
+    "yard":      (3, "ליקוי בפיתוח חצר, לרבות שקיעות, בין השאר של מרצפות בקומת קרקע, בחניות, במדרכות ובשבילים בשטח הבניין, וכן ליקויים במשטחים מחומרי גימור שונים; \"פיתוח חצר\" לרבות מערכות מים, ביוב, ניקוז, חשמל, תאורה ותקשורת"),
     "thermal":   (3, "כשל בתפקוד ובעמידות של מרכיבי מערכות הבידוד התרמי"),
     "pipes":     (4, "כשל במערכות צנרת, לרבות מים, מערכת הסקה ומרזבים, דלוחין וביוב (כשל לרבות נזילות)"),
-    "sealing":   (4, "כשל באיטום המבנה, לרבות בחללים תת-קרקעיים, בקירות, בתקרות ובגגות"),
+    "sealing":   (4, "כשל באיטום המבנה, לרבות בחללים תת-קרקעיים, בקירות, בתקרות ובגגות, לרבות גגות קלים עם סיכוך"),
     "cracks":    (5, "סדקים ברוחב גדול מ-1.5 מ\"מ ברכיבים לא נושאים"),
     "cladding":  (7, "התנתקות, התקלפות או התפוררות של חיפויי חוץ"),
     "other":     (1, "כל אי-התאמה אחרת שאינה אי-התאמה יסודית"),
@@ -48,15 +49,24 @@ LEGACY = {
     "other":         (1, "כל אי-התאמה אחרת שאינה אי-התאמה יסודית"),
 }
 
+# Sunken floor tiles on the ground floor, in parking, on pavements and on paths
+# are EXPRESSLY inside current-Schedule item (4) פיתוח חצר (3 yr), not item (2)
+# ריצוף וחיפוי פנים (2 yr). The pre-2011 table gave them their own rows, so those
+# keys are accepted under the current Schedule and redirected to `yard`.
+CURRENT_ALIASES = {"floor_ground": "yard", "floor_outdoor": "yard", "damp": "sealing"}
+
 WARRANTY_YEARS = 3          # s.4(c): runs from the END of the bedek period
 FUNDAMENTAL_BEDEK_YEARS = 20  # s.4(a)(4)
 
 
 def add_years(d: dt.date, n: int) -> dt.date:
+    """Add n years. A 29 Feb anniversary falls on 1 March in a non-leap year:
+    rounding DOWN to 28 Feb would shorten every period and every notice deadline
+    by a day, always against the buyer."""
     try:
         return d.replace(year=d.year + n)
-    except ValueError:          # 29 Feb
-        return d.replace(year=d.year + n, day=28)
+    except ValueError:          # 29 Feb into a non-leap year
+        return dt.date(d.year + n, 3, 1)
 
 
 def resolve_table(contract: dt.date | None, construction_finished: dt.date | None):
@@ -85,6 +95,12 @@ def analyse(handover, discovered, kind, contract=None, construction_finished=Non
             visible_at_handover=None, notified=None):
     table, which, note = resolve_table(contract, construction_finished)
 
+    alias_note = None
+    if which == "current" and kind not in table and kind in CURRENT_ALIASES:
+        alias_note = (f"'{kind}' is a pre-2011 row name. Under the current Schedule this "
+                      f"falls in item '{CURRENT_ALIASES[kind]}'. Using that row.")
+        kind = CURRENT_ALIASES[kind]
+
     if kind not in table:
         alt = "legacy" if which == "current" else "current"
         raise SystemExit(
@@ -108,7 +124,14 @@ def analyse(handover, discovered, kind, contract=None, construction_finished=Non
         "bedek_end": bedek_end,
         "warranty_end": warranty_end,
         "fundamental_bedek_end": fundamental_end,
+        "alias_note": alias_note,
     }
+
+    if discovered < handover:
+        raise SystemExit(
+            f"Discovered date {discovered} is BEFORE the handover date {handover}. "
+            "Every period runs from handover, so one of the two dates is wrong. "
+            "Check them and re-run.")
 
     if discovered <= bedek_end:
         out["stage"] = "bedek"
@@ -121,10 +144,14 @@ def analyse(handover, discovered, kind, contract=None, construction_finished=Non
                          "materials (s.4(a)(3)). This normally needs a licensed engineer.")
     else:
         out["stage"] = "expired"
-        out["burden"] = ("Both statutory windows for this defect row have closed. Two routes may "
+        out["burden"] = ("Both statutory windows for this defect row have closed. Four routes may "
                          "still be open: a hidden defect you could not reasonably have found "
-                         "earlier, and the separate 20-year regime for load-bearing defects. "
-                         "Both are lawyer and engineer questions.")
+                         "earlier; the separate 20-year regime for load-bearing defects; a "
+                         "deviation from the specification, an official standard or the building "
+                         "regulations under s.4(a)(1), which does not depend on the Schedule at "
+                         "all; and concealment, where the contractor knew of the facts and did "
+                         "not disclose them (s.16 of the Sale Law 1968). All are lawyer and "
+                         "engineer questions. A closed window is not the end of the matter.")
 
     # The notice duty is a SECOND, independent clock.
     notice_deadline = add_years(handover, 1)
@@ -137,6 +164,12 @@ def analyse(handover, discovered, kind, contract=None, construction_finished=Non
                                     else "MISSED, this is a serious problem, take advice")
         else:
             out["notice_status"] = "UNKNOWN, supply --notified"
+        out["notice_caveat"] = (
+            "This one-year bar applies to an ordinary non-conformity. It does NOT apply to a "
+            "FUNDAMENTAL (load-bearing) non-conformity that could not have been found by "
+            "reasonable inspection at handover: s.4a(b) gives that its own rule, notice within "
+            "a reasonable time after discovery, with no one-year cut-off. Never report a missed "
+            "deadline as final where a load-bearing defect is in play. Only an engineer classifies. Separately, s.16 of the Sale Law 1968 lifts the notice bar where the contractor knew of the facts and did not disclose them, so a missed deadline is a question for an advocate.")
     elif visible_at_handover is False:
         out["notice_rule"] = ("Hidden at handover, so notice is due within a reasonable time "
                               "after you discovered it, even if more than a year has passed "
@@ -156,6 +189,8 @@ def render(r):
     print(f"  Schedule in use : {r['schedule']}")
     print(f"  {r['schedule_note']}")
     print("-" * 68)
+    if r.get("alias_note"):
+        print(f"  NOTE            : {r['alias_note']}")
     print(f"  Schedule row    : {r['row']}")
     print(f"  Handover        : {r['handover']}")
     print(f"  Discovered      : {r['discovered']}")
@@ -167,6 +202,8 @@ def render(r):
     print("-" * 68)
     print(f"  Notice duty     : {r['notice_rule']}")
     print(f"  Notice status   : {r['notice_status']}")
+    if r.get("notice_caveat"):
+        print(f"  Notice caveat   : {r['notice_caveat']}")
     print("-" * 68)
     print("  Load-bearing / stability / safety defects are a SEPARATE regime:")
     print(f"  20-year window runs to {r['fundamental_bedek_end']}, and a claim can survive")
@@ -214,13 +251,23 @@ def main():
     if missing:
         p.error("missing required: " + ", ".join("--" + m.replace("kind", "type") for m in missing))
 
-    d = dt.date.fromisoformat
+    def d(value, flag):
+        try:
+            return dt.date.fromisoformat(value)
+        except ValueError:
+            raise SystemExit(
+                f"{flag} must be a date as YYYY-MM-DD, got '{value}'. "
+                "If the date is genuinely unknown, leave the flag off: --contract may be "
+                "omitted (the current Schedule is assumed and the answer says so), but "
+                "--handover and --discovered are required.")
+
     render(analyse(
-        d(a.handover), d(a.discovered), a.kind,
-        contract=d(a.contract) if a.contract else None,
-        construction_finished=d(a.construction_finished) if a.construction_finished else None,
+        d(a.handover, "--handover"), d(a.discovered, "--discovered"), a.kind,
+        contract=d(a.contract, "--contract") if a.contract else None,
+        construction_finished=(d(a.construction_finished, "--construction-finished")
+                               if a.construction_finished else None),
         visible_at_handover={"yes": True, "no": False}.get(a.visible),
-        notified=d(a.notified) if a.notified else None,
+        notified=d(a.notified, "--notified") if a.notified else None,
     ))
 
 

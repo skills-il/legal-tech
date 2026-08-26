@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "legal-tech",
   "tags": {
     "he": [
@@ -22,7 +22,7 @@
   },
   "display_name": {
     "he": "תיעוד ליקויי בנייה בדירה מקבלן",
-    "en": "Israeli Home Defect Report"
+    "en": "Israeli New-Apartment Defect Log"
   },
   "display_description": {
     "he": "אינו ייעוץ משפטי. עוזר לרוכשי דירה חדשה מקבלן לתעד ליקויי בנייה ולפעול בזמן. בונה רשימת בדיקה חדר אחר חדר לקראת המסירה, הופך את הממצאים ליומן ליקויים מתוארך שאפשר לצרף לפרוטוקול המסירה, מחשב לכל ליקוי באיזו תקופה הוא נמצא לפי חוק המכר (דירות) ומי צריך להוכיח מה, ומנסח מכתב דרישה לתיקון לקבלן. מתאים כשמקבלים מפתחות, כשהתגלתה נזילה או סדק, או כששואלים אם כבר מאוחר מדי להתלונן. חשוב כי התקופות נספרות ממועד המסירה, משתנות לפי סוג הליקוי ולפי אם הדירה נקנתה לפני אפריל 2011, ואיחור בהודעה עלול לחסום תביעה טובה. אל תשתמשו להערכת בטיחות או נזק בשלד, שדורשים מהנדס רשוי, לתמחור תיקונים, לפיצוי על איחור במסירה, לליקויים בדירה שכורה או לבית פרטי שבונים בעצמכם.",
@@ -60,10 +60,15 @@
       "language": "he"
     },
     {
+      "url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
       "url": "https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il",
       "type": "regulator",
       "language": "he"
     }
   ],
-  "domain_checklist_version": 1
+  "domain_checklist_version": 2
 }

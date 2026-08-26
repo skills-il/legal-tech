@@ -97,8 +97,8 @@ Fill every bracket. Send by a method that proves delivery and keep the proof. Ad
    | 1   |       |              |              |
    | 2   |       |              |              |
 
-4. הליקויים נמצאים בתקופת הבדק או בתקופת האחריות לפי חוק המכר (דירות),
-   התשל"ג-1973.
+4. הליקויים התגלו במועדים המפורטים לעיל, ולטענתי הם באחריותכם לפי חוק
+   המכר (דירות), התשל"ג-1973.
 5. בהתאם לסעיף 4ב לחוק, הריני נותן לכם בזאת הזדמנות נאותה לתקן את
    הליקויים, ומבקש שתתקנו אותם בתוך זמן סביר.
 6. אבקש את תשובתכם בכתב בתוך [14] יום ממועד מכתב זה, ובה מועד מוצע
@@ -116,7 +116,9 @@ Fill every bracket. Send by a method that proves delivery and keep the proof. Ad
 Notes on drafting:
 
 - Clause 5 is the operative one and must not be dropped. The law requires giving the contractor a proper opportunity to repair, and a letter that skips it, or that announces the buyer will repair and bill, weakens the position.
+- Clause 4 is the buyer's own assertion, and it must stay that way. Do not rewrite it as a finding by this skill that a defect sits in a particular statutory period. The buyer states the dates and asserts the contractor is liable; the characterisation is theirs to make and a lawyer's to settle.
 - Clause 7 makes the letter serve double duty as the statutory notice of non-conformity, which is what protects the one-year deadline for anything visible at handover.
+- Never tell the user their deadline is safe, or that it is missed and the matter is over. Report the position and its limits, including the third clock (limitation) and the separate s.4a(b) rule for a hidden load-bearing defect, and route the conclusion to an advocate.
 - Do not put a shekel figure in the letter. Quantifying damage is a licensed valuer's or engineer's work and an invented number will be used against the buyer.
 - Do not assert that a defect is structural or fundamental. Describe what is visible and let the engineer classify.
 - Keep the deadline realistic. Fourteen days for a written response is normal and reasonable, and an unreasonably short deadline invites the argument that no proper opportunity was given.

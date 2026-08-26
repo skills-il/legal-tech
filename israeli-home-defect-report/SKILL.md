@@ -1,7 +1,7 @@
 ---
 name: israeli-home-defect-report
 description: >-
-  Helps a buyer of a new Israeli apartment document construction defects and act in time. Builds
+  Not legal advice. Helps a buyer of a new Israeli apartment document construction defects and act in time. Builds
   a room-by-room handover walkthrough, turns findings into a dated defect log for the protokol
   mesira, works out which statutory window each defect falls in under the Sale (Apartments) Law
   1973 and who must prove what, and drafts a Hebrew repair-demand letter. Use when a user says
@@ -19,7 +19,7 @@ compatibility: >-
   Works with Claude Code, Claude.ai, ChatGPT, Cursor, Gemini Spark, and the other listed agents.
 ---
 
-# Israeli Home Defect Report
+# Israeli New-Apartment Defect Log
 
 ## Legal notice
 
@@ -51,6 +51,8 @@ Before anything else, scan what the user describes for these signals:
 
 If any appear, stop the documentation workflow and say so plainly. Tell the user this needs a licensed engineer now, and where there is an immediate hazard, emergency services. Do not classify the defect, do not estimate severity, do not put it in the log as though it were an ordinary snag, and do not continue to the letter. You may resume the normal workflow for the user's other, unrelated defects once you have flagged this.
 
+Stopping the classification does NOT mean stopping the clock. Notice for a hidden fundamental defect is due within a reasonable time of DISCOVERY (s.4a(b)), and engaging an engineer takes weeks. So still tell the user to send the contractor a short dated written notice now, describing only what they observed and saying an engineer's opinion will follow. Describe, date, send. Do not classify.
+
 Never tell the user whether a defect is or is not an "ai hat'ama yesodit" (fundamental non-conformity). That classification decides whether the 20-year regime applies and it belongs to an engineer. Tell them the category exists, that it runs 20 years, and that only an engineer can place a defect in it.
 
 ### Step 1, establish the four dates
@@ -60,7 +62,7 @@ Everything downstream depends on these. Ask for whichever are missing and do not
 | Date | Why it matters |
 |---|---|
 | Handover (hadmadat hadira lirshut hakone) | Starts every bedek period. It is the date you actually got possession, not the contract date, and not the protocol date if that differs |
-| Sale contract signature | Selects WHICH schedule of periods applies, the current one or the pre-April-2011 one |
+| Sale contract signature | Selects WHICH schedule of periods applies. The old schedule governs if EITHER the contract was signed before 06.04.2011 OR construction finished before it, so ask about both |
 | Discovery of the defect | Places the defect in the bedek window, the warranty window, or outside both |
 | Written notice to the contractor, if already sent | Tests the one-year notice deadline |
 
@@ -72,6 +74,8 @@ One case people get wrong: a buyer who bought a nearly-new apartment from its fi
 
 Work room by room. Use the checklist in `references/walkthrough-and-letter.md`, and adapt it, do not read it out mechanically. For every finding record: room, what it is, whether it is visible today, a photograph with something for scale, and the date. Visibility is not cosmetic bookkeeping, it selects which notice rule applies later, so ask about it for every item.
 
+Raise the professional inspection here, not later. A בדק בית report from a licensed inspector or מהנדס, commissioned BEFORE the protocol is signed and attached to it, is both the cheapest and the most probative it will ever be: inside the bedek period the burden is on the contractor, so the report is doing its work at the moment the law is already on the buyer's side. Say it is worth considering and let the user decide. You still never classify anything yourself.
+
 Then, on the protocol itself:
 
 - The contractor cannot lawfully strip its liability, so do not let a signature panic the user. A waiver of defect liability is ineffective even if the buyer signed it freely, and a waiver made a condition of getting the keys is void outright.
@@ -81,7 +85,9 @@ Then, on the protocol itself:
 
 ### Step 3, work out the window for each defect
 
-Use the helper script rather than doing the arithmetic in your head:
+First check whether the Schedule is even needed. Under s.4(a)(1) the contractor is in breach if the apartment differs from the מפרט, from an official standard, or from the building regulations, full stop. That does not depend on a row, a period, or a burden. It is the route to raise when a Schedule window has closed, and it is the one most buyers never hear about. It escapes the Schedule, NOT the notice duty: s.4(b) deems it an אי-התאמה, so s.4a still applies and a specification deviation visible on handover day is barred by the same one-year rule. Run the notice analysis on it too.
+
+Then use the helper script rather than doing the arithmetic in your head:
 
 ```bash
 python3 scripts/defect_window.py --handover 2021-03-15 --contract 2020-11-01 \
@@ -93,15 +99,19 @@ python3 scripts/defect_window.py --handover 2021-03-15 --contract 2020-11-01 \
 Two clocks run independently and BOTH have to be satisfied. This is the single most common mistake in this domain, so state both explicitly every time:
 
 1. The period for that defect type, which decides who must prove what.
-2. The notice duty. Visible at handover means notice was due within one year of handover. Hidden means within a reasonable time after discovery, however long after handover that falls.
+2. The notice duty, which has three limbs. Visible at handover means notice was due within one year of handover (s.4a(a)(1)). Hidden means within a reasonable time after discovery, however long after handover that falls (s.4a(a)(2)). And a hidden FUNDAMENTAL defect has its own limb with no one-year cut-off at all (s.4a(b)), so never report a missed one-year deadline as final where a load-bearing defect may be involved. Separately, s.16 of the Sale Law 1968 (imported by s.4(b)) lifts the notice bar entirely where the contractor knew of the facts and did not disclose them, so a missed deadline is a question for an advocate, never a closed door.
+
+Sunken floor tiles are a trap. The statute puts שקיעת מרצפות on the ground floor, in parking, on pavements and on paths inside row 4 פיתוח חצר at three years, NOT inside row 2 ריצוף וחיפוי פנים at two. The script accepts `floor_ground` and `floor_outdoor` under the current schedule and redirects them.
+
+There is also a THIRD clock the periods do not describe: limitation (התיישנות) governs how long the user has to SUE, and it runs separately. Whenever you report an end-date, say that it is the cover period and not a filing deadline, and that the time to sue is a question for an advocate.
 
 Report the result as: which schedule applied and why, the period for that row, the stage the defect is in, who carries the burden there, and the notice position. If the contract date is unknown, say you assumed the current schedule and that a pre-2011 contract would shorten several periods.
 
 ### Step 4, draft the demand letter
 
-The letter is not a formality. The law requires the buyer to give the contractor a proper opportunity to repair, and a buyer who repairs first and asks for the money afterwards usually loses. It is also the mandatory precondition for a complaint to the Registrar of Contractors.
+The letter is not a formality. The law requires the buyer to give the contractor a proper opportunity to repair, and a buyer who repairs first and asks for the money afterwards usually loses. Send it before escalating anywhere. It is not, however, a formal precondition for a Registrar complaint, so never tell a user they must restart with a letter before they may file.
 
-Build it from the template in `references/walkthrough-and-letter.md`. It must contain the apartment and contract identifiers, the handover date, an itemised defect table with dates and the statutory row each falls in, an explicit demand to repair, a reasonable deadline for a response, a statement that the buyer is giving the opportunity to repair as the law requires, and delivery by a traceable method. Keep the tone factual. Do not assert a legal conclusion the user cannot back, and do not quantify damages.
+Build it from the template in `references/walkthrough-and-letter.md`. It must contain the apartment and contract identifiers, the handover date, an itemised defect table with dates, an explicit demand to repair, a reasonable deadline for a response, a statement that the buyer is giving the opportunity to repair as the law requires, and delivery by a traceable method. Keep the tone factual. Do not assert a legal conclusion the user cannot back, and do not quantify damages. Do not put the skill's own statutory-row analysis into the letter either. The timing analysis is for the buyer's understanding; the letter states the dates and the buyer's own assertion of liability.
 
 ### Step 5, escalate
 
@@ -109,13 +119,25 @@ If the contractor does not respond or does not fix, lay out the routes and their
 
 | Route | What it gives | What it will not do |
 |---|---|---|
-| Complaint to the Registrar of Contractors | Free. Disciplinary pressure on a registered contractor | Will not award money, will not resolve the dispute, will not touch a matter already in court. Requires the written demand first |
+| Complaint to the Registrar of Contractors | Free. Disciplinary pressure on a registered contractor. Open to any citizen against a registered contractor | Will not award money, will not arbitrate, will not resolve the dispute, will not touch a matter already in court |
 | Self-repair at the contractor's expense | Available only on two narrow statutory gateways | Not a general option. Using it wrongly forfeits the claim |
 | Civil claim | Money and enforceable orders | Needs an advocate, and in practice an engineer's opinion |
 
 Self-repair is open only where the defect came back after the contractor repaired it at least once within two years of the notice, or the repair is urgent and the contractor did not act within a reasonable time. Say so precisely, because a user who self-repairs outside those gateways loses.
 
-Common property is a separate track. Roof sealing, exterior cladding and yard development usually sit in the common property, and there a complaint has to come from the elected house committee, not an individual owner. Check which one you are dealing with before routing.
+Common property is a separate track. Roof sealing, exterior cladding and yard development usually sit in the common property, and the Ministry recommends that a common-property complaint be filed through a member of the elected house committee. Recommended, not required: an individual owner is not barred. Route through the committee where one exists, and never tell a user with no functioning committee that they have no route.
+
+### What actually happens after the letter
+
+Most users' real question starts here, and the answer is not "get a lawyer".
+
+- **The repair visit is the thing being counted.** The contractor usually responds by sending someone. Tell the user to be present, photograph before and after, write down the date and who attended, and not to sign anything describing the repair as accepted or the matter as closed. The s.4b(b) self-repair gateway turns on whether the defect RECURRED after a repair within two years of the notice, and nobody can prove a recurrence they did not record.
+- **Re-inspect after a few weeks**, especially for damp, sealing and piping, where a failed repair reappears slowly. A recurrence is a new dated entry in the same log, not a new complaint.
+- **The engineer's opinion** must come from a licensed מהנדס. It becomes worth its cost once the burden has shifted to the buyer in the warranty period, and it is what a court and a contractor actually respond to.
+- **Small claims (תביעות קטנות)** takes low-value defect claims without an advocate. It is the realistic route for a handful of snags the contractor ignored, and the skill should name it rather than routing everything to a civil claim.
+- **Distress (עוגמת נפש)** is a recognised head of damage in construction-defect claims, awarded separately from repair cost. Say it exists; never estimate it.
+
+Where a claim is contested or quantified, it needs an advocate, and in practice a court-appointed expert (מומחה מטעם בית המשפט) will decide the technical dispute.
 
 ## Examples
 
@@ -143,7 +165,8 @@ User reports a widening diagonal crack running through the ceiling above a door.
 |---|---|---|
 | Sale (Apartments) Law 1973, consolidated | https://www.nevo.co.il/law_html/law00/72490.htm | The Schedule's ten items, s.4 burdens, s.4a notice, s.4b repair, s.7A waiver. Check the "current to" banner for a newer amendment |
 | Kol Zchut, contractor liability for defects | https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה | The 06.04.2011 split, the pre-2011 table, the waiver FAQ |
-| Kol Zchut, complaint to the Registrar of Contractors | https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון | Who may file, the written-demand prerequisite, scope limits |
+| Registrar of Contractors, official service page | https://www.gov.il/he/service/complaint-about-constractor | Who may file, the attachment list, the disciplinary scope limits. This is the authority on the process, above any secondary summary |
+| Kol Zchut, complaint to the Registrar of Contractors | https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון | Practice guidance. Treats a prior written demand as expected; the Ministry does not require it |
 | Registrar of Contractors complaint form | https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il | That the form is still live at this address |
 
 ## Bundled Resources
@@ -160,6 +183,8 @@ User reports a widening diagonal crack running through the ceiling above a door.
 These are failure modes for the agent, not user errors.
 
 - **Do not use the blog figures.** Widely repeated summaries give plumbing as 2 years, roof sealing as 3, and "structure" as 7. Under the current schedule piping is 4 and sealing is 4, the 3-year damp figure is the pre-2011 row, and the 7-year row is exterior cladding, not structure. Load-bearing structure is the separate 20-year regime. Check `references/periods-and-burdens.md`, not memory.
+- **Sunken floor tiles are row 4, not row 2.** שקיעת מרצפות on the ground floor, in parking, on pavements and on paths is expressly inside פיתוח חצר at three years. Putting it in ריצוף וחיפוי פנים at two costs the buyer a year at both stages. `floor_ground` and `floor_outdoor` are pre-2011 row names, but the defects they describe are covered under the current schedule too.
+- **Do not go hunting for a recent reform.** The last substantive change to the defect regime is Amendment 5 of 2011; Amendment 9 of 2022 touched late delivery and waiver. Later amendments listed against this law are indirect ones that changed a named Knesset committee and nothing about defects.
 - **There are two schedules, not one.** Defaulting to the current table for an apartment bought before 6 April 2011 overstates the buyer's rights, sometimes by years. Ask for the contract date.
 - **The warranty runs from the end of the bedek period, not from handover.** Total cover per row is its bedek period plus three years, so piping under the current schedule is protected for seven years in total. Treating the warranty as three years from handover understates protection badly.
 - **The notice deadline and the defect period are different clocks.** A defect can be comfortably inside its bedek period and still be dead because visible damage was not notified within a year of handover. Always answer both.
@@ -171,10 +196,10 @@ These are failure modes for the agent, not user errors.
 
 | Symptom | Cause | What to do |
 |---|---|---|
-| Script exits saying the defect type is not a row in that schedule | The two schedules have different rows, for example `damp` and `stairwell` exist only in the pre-2011 table, `sealing` and `thermal` only in the current one | Run `--list`, pick the row from the schedule that actually applies, and if nothing fits use `other`, which is one year |
+| Script exits saying the defect type is not a row in that schedule | The two schedules have different row NAMES. `stairwell` exists only in the pre-2011 table, `thermal` only in the current one | Run `--list` and pick from the schedule that applies. `floor_ground`, `floor_outdoor` and `damp` are accepted under the current schedule and redirected to the right row. If nothing fits use `other`, which is one year. Never conclude from a rejected key that the defect is uncovered |
 | User cannot produce the sale contract date | Common with inherited or resold apartments | Say you are assuming the current schedule, give the answer, and state plainly that a pre-2011 contract would shorten several periods. Suggest the contract can be obtained from the conveyancing advocate or the land registry file |
 | Contractor says the warranty "expired after 3 years" | Contractor is treating the warranty as running from handover | The warranty starts when that row's bedek period ends. Give the arithmetic for the specific row in writing |
 | Contractor refuses to record reservations on the protocol | Routine pressure tactic at handover | Handwrite on the protocol that the signature confirms receipt of possession only, photograph it before returning it, and send the defect list separately the same day by a traceable method |
-| Registrar complaint rejected | Either no written demand was sent first, the contractor is not in the register, or an individual filed about common property | Check all three. Send the demand letter, confirm registration, and route common-property matters through the house committee |
-| Defect is in the roof or the facade and the neighbours are affected | It is almost certainly common property | Move to the house committee track. An individual owner's complaint about common property will not be accepted |
+| Registrar complaint rejected | Most likely a scope limit: it is a money dispute, it is already in court, or it asks the Registrar to arbitrate. Or the contractor is not in the register | Check the register, and re-read the complaint against the disciplinary framing. A missing demand letter is NOT a ground of rejection, so do not tell the user to restart with one |
+| Defect is in the roof or the facade and the neighbours are affected | It is almost certainly common property | Prefer the house committee track, which the Ministry recommends. If no committee exists or it will not act, the owner may still file, so do not present this as a dead end |
 | The contractor has vanished, is in liquidation, or the company was struck off | Common with single-project companies | Say plainly that this changes the problem. Still send the written notice and date it, still document, and route the user to an advocate now, because who can be pursued (a parent company, directors, insurers, or a guarantee) is a legal question this skill cannot answer. Note that the sale-law guarantees protect the money paid, not defect repairs |

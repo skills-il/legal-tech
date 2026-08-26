@@ -1,6 +1,6 @@
 # Domain Coverage Checklist, israeli-home-defect-report
 
-Generated: 2026-08-10 via research on: nevo.co.il (consolidated text of חוק המכר (דירות), תשל"ג-1973, version current to 18-09-2023 following תיקון 9), kolzchut.org.il (אחריות קבלן לליקויים בדירה חדשה, הגשת תלונה לרשם הקבלנים), govforms.gov.il.
+Generated: 2026-08-10. Revised 2026-08-26 (v1.1.0) via research on: nevo.co.il (consolidated text of חוק המכר (דירות), תשל"ג-1973, version current to 18-09-2023 following תיקון 9), kolzchut.org.il (אחריות קבלן לליקויים בדירה חדשה, הגשת תלונה לרשם הקבלנים), govforms.gov.il.
 
 Every statutory row below was verified against the RAW HTML text layer of the source, not against a WebFetch summary and not against a marketing blog. Several widely-repeated blog figures are wrong (see "Known bad figures" at the end).
 
@@ -18,10 +18,10 @@ Current Schedule (contract on/after 06.04.2011), all TEN items enumerated separa
 - [ ] (1) מסגרות ונגרות incl. aluminium and plastic, 2 years
 - [ ] (2) ריצוף וחיפוי פנים incl. subsidence and wear, 2 years
 - [ ] (3) מכונות ודוודים, function and durability failure, 3 years
-- [ ] (4) פיתוח חצר incl. paving subsidence, and expressly incl. water, sewage, drainage, electricity, lighting and communications systems, 3 years
+- [ ] (4) פיתוח חצר, 3 years, EXPRESSLY including שקיעות "בין השאר של מרצפות בקומת קרקע, בחניות, במדרכות ובשבילים בשטח הבניין" and finish-material surfaces, plus water, sewage, drainage, electricity, lighting and communications systems. Do NOT route sunken floor tiles to item (2) at 2 years
 - [ ] (5) בידוד תרמי components, function and durability failure, 3 years
 - [ ] (6) צנרת incl. water, heating, gutters, waste and sewage, 4 years, where "כשל" expressly includes leaks
-- [ ] (7) איטום המבנה incl. underground spaces, walls, ceilings, roofs, 4 years
+- [ ] (7) איטום המבנה incl. underground spaces, walls, ceilings and roofs, "לרבות גגות קלים עם סיכוך", 4 years
 - [ ] (8) סדקים wider than 1.5 mm in NON-load-bearing elements, 5 years
 - [ ] (9) חיפויי חוץ detachment, peeling or crumbling, 7 years
 - [ ] (10) any other non-conformity that is not fundamental, 1 year
@@ -37,6 +37,10 @@ Pre-2011 Schedule, enumerated separately. Source: https://www.kolzchut.org.il/he
 - [ ] סדקים עוברים in walls and ceilings, 5 years
 - [ ] קילופים ניכרים in exterior cladding, 7 years
 - [ ] any other non-fundamental non-conformity, 1 year
+
+### The route that bypasses the Schedule
+
+- [ ] s.4(a)(1): the apartment differing from the מפרט, from an official standard, or from the building regulations is a breach in its own right, independent of any Schedule row, period or burden - source: nevo - why core: it is the live route when a Schedule window has closed, and the Registrar lists it as its own complaint category. Absent from v1.0.0 entirely.
 
 ### Period arithmetic and burden of proof
 
@@ -55,6 +59,7 @@ Pre-2011 Schedule, enumerated separately. Source: https://www.kolzchut.org.il/he
 ### Notice duties
 
 - [ ] Discoverable-at-handover defects: notice within ONE YEAR of handover (s.4a(a)(1)) - source: nevo - why core: missing it forfeits reliance on the defect regardless of remaining bedek period. This is the highest-consequence deadline in the skill.
+- [ ] s.4a(b): a hidden FUNDAMENTAL non-conformity has its OWN notice limb, reasonable time after discovery, with no one-year cut-off - source: nevo - why core: s.4a has three limbs, not two. Applying the one-year bar to a load-bearing defect tells a claimant with a live 20-year claim that they missed the deadline. This is the most damaging output the skill can produce.
 - [ ] Hidden defects: notice within a reasonable time after discovery, even if more than a year has passed (s.4a(a)(2)) - source: nevo, and Kol Zchut gives internal piping as the worked example - why core: users wrongly assume the one-year bar kills all late claims.
 - [ ] The one-year notice duty and the bedek period are TWO SEPARATE clocks that both must be satisfied - why core: conflating them is the most common analytical error in this domain.
 
@@ -74,20 +79,21 @@ Pre-2011 Schedule, enumerated separately. Source: https://www.kolzchut.org.il/he
 
 ### Remedies and forums
 
-- [ ] Written demand to the contractor is the mandatory first step and the prerequisite for everything downstream - source: Kol Zchut, registrar page - why core: it is the skill's primary output and its legal function must be stated.
+- [ ] Written demand to the contractor is the statutory opportunity to repair under s.4b(a) and the evidence every later route rests on. It is NOT a legal precondition for a Registrar complaint - source: nevo s.4b(a); https://www.gov.il/he/service/complaint-about-constractor - why core: it is the skill's primary output and its legal function must be stated accurately. v1.0.0 asserted a precondition that the regulator does not impose.
 - [ ] Complaint to רשם הקבלנים at the Ministry of Construction and Housing, free, filed at https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il - source: Kol Zchut - why core: the only free escalation, and most buyers have never heard of it.
-- [ ] Registrar limits: disciplinary only, does not resolve the dispute, does not handle monetary disputes or matters already in court; apartment complaints by the owner only, common-property complaints by the elected house committee only; contractor must be in the register - source: Kol Zchut - why core: setting the wrong expectation sends users down a route that cannot give them money.
+- [ ] Registrar limits: disciplinary only, not arbitration, does not resolve the dispute, does not handle monetary disputes or matters already in court; contractor must be in the register. ANY citizen may file; the house-committee route for common property is RECOMMENDED, not required - source: https://www.gov.il/he/service/complaint-about-constractor - why core: setting the wrong expectation sends users down a route that cannot give them money, and a fabricated bar shuts them out of the only free one.
 - [ ] Civil suit is available in parallel, and s.7 preserves all other rights under any law - source: nevo s.7, Kol Zchut - why core: the statute is a floor, not a ceiling.
 - [ ] ROUTING row: a contested claim, quantification of damages, and any court filing require a licensed עורך דין, and the supporting חוות דעת הנדסית requires a licensed מהנדס - why core: reserved acts, and the honest limit of this skill.
 
 ## Should cover (advanced / edge cases)
 
 - [ ] קונה משנה (sub-buyer) inherits the rights, and the clock still runs from the ORIGINAL handover, not from the resale - source: nevo, definitions and s.4 - why: common in second-hand purchases of nearly-new apartments.
-- [ ] Common property (רכוש משותף) defects belong to the house committee route, not the individual owner - source: Kol Zchut registrar page - why: a large share of real defects (roof sealing, exterior cladding, yard development) are in common property, and an individual filing alone will be rejected.
+- [ ] Common property (רכוש משותף): route through the elected house committee where one exists, which the Ministry recommends. An individual owner is NOT barred from filing - source: https://www.gov.il/he/service/complaint-about-constractor - why: a large share of real defects (roof sealing, exterior cladding, yard development) are in common property, and a fabricated bar shuts a user with no functioning committee out of the only free route.
 - [ ] Distinguishing normal wear, user-caused damage and a genuine defect, so the log does not get discredited wholesale by one bad entry.
 - [ ] Evidence hygiene for the log: date, room, photograph with scale reference, and whether the defect was visible at handover, since visibility is what selects the notice rule.
 - [ ] Recurrence tracking, because s.4b(b) self-help depends on counting repairs within a two-year window, which nobody tracks unless told to.
-- [ ] Interaction with התיישנות (general limitation) as a separate outer bound on suing, flagged as a lawyer question rather than answered.
+- [ ] Interaction with התיישנות (general limitation) as a separate outer bound on suing, flagged as a lawyer question rather than answered. MUST be surfaced to the user whenever a window end-date is reported, since a cover period is not a filing deadline.
+- [ ] What happens between the demand letter and a claim: conduct at the contractor's repair visit (attend, photograph, date, sign nothing accepting the repair), re-inspection, the licensed מהנדס opinion and when it becomes worth its cost, the small-claims track, מומחה מטעם בית המשפט, and עוגמת נפש as a distinct head of damage - why: this is the half of "what do I actually do" that v1.0.0 stopped short of, and repair-visit records are what the s.4b(b) gateway is counted from.
 
 ## Out of scope (explicit, with rationale)
 
@@ -108,10 +114,15 @@ Recorded so a future update does not "correct" the skill back to them:
 - "roof sealing 3 years": current Schedule item 7 is 4 years for איטום. The 3-year figure is the pre-2011 חדירת רטיבות row.
 - "structure 7 years": there is no 7-year structural item. Item 9's 7 years is exterior CLADDING. Load-bearing structure is the 20-year fundamental regime.
 - "warranty is 3 years from handover": it is 3 years from the END of the item's bedek period.
+- "sunken floor tiles are ריצוף, 2 years": no. The statute expressly puts שקיעת מרצפות on the ground floor, in parking, on pavements and on paths inside item (4) פיתוח חצר at 3 years. v1.0.0 truncated the row and misrouted them.
+- "a complaint to the Registrar requires a prior written demand": no such requirement on the Ministry's page.
+- "an individual owner cannot complain about common property": the Ministry says any citizen may file and the committee route is only recommended.
+- "a recent amendment changed the defect regime": the last substantive change is תיקון 5 (2011); תיקון 9 (2022) touched late delivery and waiver. Later amendments recorded against this law are indirect (a Knesset committee renaming) and do not touch defects.
 
 ## Authoritative sources
 
 - https://www.nevo.co.il/law_html/law00/72490.htm - consolidated חוק המכר (דירות), תשל"ג-1973. Verify: the Schedule's ten items, s.4 burdens, s.4a notice, s.4b repair, s.7A waiver. Check the "נוסח עדכני נכון ליום" banner for a newer amendment.
 - https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה - Verify: the two-table split at 06.04.2011, the pre-2011 table, the waiver FAQ.
 - https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון - Verify: registrar prerequisites, scope limits, who may file.
-- https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il - Verify: the complaint form is still live and at this address.
+- https://www.gov.il/he/service/complaint-about-constractor - the Ministry's service page and the AUTHORITY on who may file, what to attach and the disciplinary scope limits. Note the official slug misspells "contractor". Cloudflare-protected: read it in a real browser, not with curl.
+- https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il - Verify: the complaint form is still live and at this address. Returns an empty JS shell to curl; confirm in a browser.
