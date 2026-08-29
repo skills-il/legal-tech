@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-rental-agreements",
-  "generated_at": "2026-08-29T20:43:21+00:00",
+  "generated_at": "2026-08-29T20:26:40+00:00",
   "claims": [
     {
       "claim_id": "broker-fee-25tet",
@@ -16,10 +16,10 @@
     },
     {
       "claim_id": "exclusions-25tu",
-      "claim": "Section 25טו(א) (סעיף 25טו) excludes a lease whose monthly rent exceeds 20,000 NIS, and that sum is updated on 1 January each year by the change in the CPI, rounded to the nearest 10 NIS. It is not a fixed figure. Hebrew form in SKILL_HE.md: 20,000 ש\"ח.",
+      "claim": "Section 25טו(4) excludes a lease whose monthly rent exceeds 20,000 NIS, and that sum is updated on 1 January each year by the change in the CPI, rounded to the nearest 10 NIS. It is not a fixed figure.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "הסכום לפי פסקה זו יתעדכן ב־1 בינואר של כל שנה, בהתאם לשיעור שינוי מדד המחירים לצרכן",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -27,10 +27,10 @@
     },
     {
       "claim_id": "deposit-cap-formula",
-      "claim": "Section 25י(ב) (סעיף 25י) caps the CUMULATIVE total of guarantees involving a monetary outlay by the tenant (expressly a bank guarantee or cash) at the lower of one third of the lease term's rent or three months' rent. Worked illustration derived arithmetically from the sourced formula (no new legal fact): rent of NIS 2,000 per month on a 12-month lease caps at NIS 6,000; on a 6-month lease it caps at NIS 4,000.",
+      "claim": "Section 25י(ב) (סעיף 25י) caps the CUMULATIVE total of guarantees involving a monetary outlay by the tenant (expressly a bank guarantee or cash) at the lower of (a) three months' rent or (b) one-third of the total lease value. Worked illustration derived arithmetically from the sourced formula (no new legal fact): rent of NIS 2,000 per month on a 12-month lease caps the guarantee at NIS 6,000 (3 months); on a 6-month lease it caps at NIS 4,000 (one third of the term).",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "ביקש המשכיר מהשוכר ערובה, אחת או יותר, הכרוכה בהוצאה כספית לשוכר",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -132,10 +132,10 @@
     },
     {
       "claim_id": "knesset-legislation",
-      "claim": "Consolidated text of the Rental and Borrowing Law 5731-1971. Replaces the Knesset legislation portal URL, which now returns 401.",
+      "claim": "Consolidated text of the Rental and Borrowing Law 5731-1971 (chapter on residential tenancy, sections 25א-25טו, plus the Second Schedule). Replaces the Knesset legislation portal URL, which now returns 401.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "חוק השכירות והשאילה, תשל״א–1971",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:37:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -153,7 +153,7 @@
         "scripts/rent-index-calculator.py"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-29T20:43:21+00:00"
+      "verified_at": "2026-08-29T18:37:00+00:00"
     },
     {
       "claim_id": "fair-rental-sections-25",
@@ -170,10 +170,10 @@
     },
     {
       "claim_id": "written-form-25bet",
-      "claim": "Section 25ב (סעיף 25ב) governs the FORM of a residential lease: in writing, signed by both parties, a copy to each.",
+      "claim": "Section 25ב (סעיף 25ב) governs the FORM of a residential lease: it must be made in writing and signed by both parties, each receiving a signed copy. Non-compliance does not void the contract.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "חוזה שכירות למגורים ייערך בכתב וייחתם בידי המשכיר והשוכר",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -185,7 +185,7 @@
       "claim": "The landlord's pre-contract disclosure duty is item 7 of the Second Schedule, mandated by section 25ג (סעיף 25ג), NOT by סעיף 25ב: a known non-minor defect, and anything in or around the apartment known to the landlord that causes or may cause material disruption to its use.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "פגם, או ליקוי אחר בדירה המושכרת שאינו קל ערך, הידוע למשכיר בעת כריתת החוזה",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -254,44 +254,23 @@
       ]
     },
     {
-      "claim_id": "family-lease-25tu-bet",
-      "claim": "Section 25טו(ב) disapplies ONLY סעיף 25יד(2) for a lease with a קרוב. Family leases are NOT excluded from the chapter.",
-      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
-      "raw_snippet": "הוראות סעיף 25יד(2) לא יחולו על חוזה שכירות למגורים שנכרת בין משכיר ובין שוכר שהוא קרוב שלו",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "claim_id": "guarantee-outside-cap",
+      "claim": "A promissory note (shtar chov), a security cheque, and a guarantors' deed involve no monetary cost to the tenant, so they fall outside the cumulative cap in סעיף 25י(ב).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%91%D7%9C%D7%AA_%D7%A1%D7%9B%D7%95%D7%9D_%D7%94%D7%A2%D7%A8%D7%95%D7%91%D7%94_%D7%A9%D7%9E%D7%95%D7%AA%D7%A8_%D7%9C%D7%93%D7%A8%D7%95%D7%A9_%D7%9E%D7%A9%D7%95%D7%9B%D7%A8_%D7%93%D7%99%D7%A8%D7%94",
+      "raw_snippet": "החוק מגביל את הסכום הכולל של הערובות שמותר לבקש מהשוכר, אם הן גורמות לו להוצאה כספית",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "guarantee-realisation-grounds",
-      "claim": "Section 25י(ג) is a closed list of four grounds for realising ANY guarantee, each capped. 25י(ד) requires reasonable advance notice and an opportunity to cure; 25י(ה) requires return within 60 days including the guarantee's fruits.",
-      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
-      "raw_snippet": "המשכיר רשאי לממש ערובה שנתן לו השוכר רק במקרים המפורטים להלן",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
       ]
     },
     {
       "claim_id": "other-guarantor-2026",
-      "claim": "An amendment published in Sefer HaChukkim 3510 on 31.3.2026 adds a guarantee from a 'notenn aruvah acher' (licensed credit provider, deposit-and-credit services licensee, stablecoin payment-services licensee, or insurer) to section 25י, effective 30.9.2026. Official publication: https://fs.knesset.gov.il/25/law/25_lsr_12846788.pdf",
+      "claim": "An amendment published in Sefer HaChukkim 3510 on 31.3.2026 adds a guarantee from a 'notenn aruvah acher' (licensed credit provider, deposit-and-credit services licensee, stablecoin payment-services licensee, or insurer) to section 25י, effective 30.9.2026. Official publication: Sefer HaChukkim 3510, https://fs.knesset.gov.il/25/law/25_lsr_12846788.pdf",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "בעל רישיון למתן אשראי, בעל רישיון למתן שירותי פיקדון ואשראי",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "guarantor-fixed-sum",
-      "claim": "Guarantee Law 5727-1967 section 21 (סעיף 21)(ב): where no fixed sum is stated in the guarantee contract, an ערב יחיד is released from the guarantee entirely.",
-      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
-      "raw_snippet": "לא נקוב בחוזה הערבות סכום קצוב – פטור ערב יחיד מערבותו",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -302,7 +281,77 @@
       "claim": "Section 25ג (סעיף 25ג) requires the lease to include the particulars listed in the Second Schedule. This is the CONTENTS provision, distinct from סעיף 25ב which governs form.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "חוזה שכירות למגורים יכלול, בין השאר, את הפרטים המנויים",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T18:33:09+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "gap-filling-25dalet",
+      "claim": "Section 25ד (סעיף 25ד): where a lease was not made per סעיף 25ב, the prescribed model lease (chozeh matzui) is treated as the parties' contract absent contrary agreement.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "לא נערך חוזה שכירות למגורים בהתאם להוראות",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "suitable-25hei",
+      "claim": "Section 25ה (סעיף 25ה): the landlord delivers the apartment SUITABLE for living, and delivery of an unsuitable apartment attracts the אי-התאמה remedies. Distinct from סעיף 25ו.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "המשכיר ימסור את הדירה המושכרת כשהיא מתאימה למגורים",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "habitable-25vav",
+      "claim": "Section 25ו (סעיף 25ו): the landlord delivers the apartment FIT for habitation, judged against the First Schedule.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "המשכיר ימסור את הדירה המושכרת כשהיא ראויה למגורים",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "first-schedule-closed-list",
+      "claim": "The First Schedule is a closed six-item list defining an apartment unfit for habitation, including the requirement of a partition between the toilet and the apartment.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "היא אינה כוללת מחיצה בין השירותים ובין הדירה",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "delivery-25zayin",
+      "claim": "Section 25ז (סעיף 25ז) governs delivery of the apartment, including 25ז(ג), maintenance and use instructions no later than handover.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "המשכיר ייתן לשוכר, לא יאוחר ממועד מסירת הדירה המושכרת, הוראות תחזוקה ושימוש בקשר לדירה",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "repair-deadlines-25het",
+      "claim": "Section 25ח (סעיף 25ח)(ב): the landlord repairs a non-minor defect within a reasonable time and no later than 30 days from the tenant's demand, or 3 days where the defect is urgent.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "לא יאוחר מ־30 ימים מיום שקיבל דרישה לכך מאת השוכר",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -311,23 +360,82 @@
     },
     {
       "claim_id": "repair-remedies-s9",
-      "claim": "Section 9 (סעיף 9)(א), applied by סעיף 25ח(ג): the tenant may repair and demand reimbursement of reasonable expenses, or reduce the rent in proportion to the fall in the tenancy's value. Not a set-off of the invoice against rent.",
+      "claim": "Section 9 (סעיף 9)(א), applied by 25ח(ג): the tenant may repair and demand reimbursement of reasonable expenses, or reduce the rent in proportion to the fall in the tenancy's value. Not a set-off of the invoice against rent.",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "לתקן את הפגם או את אי־ההתאמה ולדרוש מהמשכיר החזרת הוצאותיו הסבירות",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/fair-rental-law-summary.md",
-        "references/contract-checklist.md"
+        "references/fair-rental-law-summary.md"
       ]
     },
     {
-      "claim_id": "repair-deadlines-25het",
-      "claim": "Section 25ח (סעיף 25ח)(ב): the landlord repairs a non-minor defect within a reasonable time and no later than 30 days from the tenant's demand, or 3 days where the defect is urgent.",
+      "claim_id": "cancellation-25yudgimel",
+      "claim": "Section 25יג(א): a clause allowing the LANDLORD to cancel other than for breach is VOID unless the tenant has an equivalent right. 25יג(ב) sets minimum notice of 90 days (landlord) and 60 days (tenant).",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
-      "raw_snippet": "לא יאוחר מ־30 ימים מיום שקיבל דרישה לכך מאת השוכר",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "raw_snippet": "תניה בחוזה שכירות למגורים המאפשרת למשכיר לבטל את החוזה שלא בשל הפרתו בטלה",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "options-25yudbet",
+      "claim": "Section 25יב(ב): a landlord's option to extend requires notice no later than 90 days before the end of the term and is exercisable only if the extension terms were fixed in the contract in advance. 25יב(ג): a tenant's option requires 60 days.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "לא יאוחר מ־90 ימים לפני תום תקופת השכירות",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "payments-25tet-bet",
+      "claim": "Section 25ט(ב) bars charging the tenant payments outside the 25ט(א) list, expressly including building-insurance premiums and the purchase or upgrade of fixed installations serving the apartment.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "דמי ביטוח בעד ביטוח הדירה המושכרת בביטוח מבנה",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "guarantor-fixed-sum",
+      "claim": "Guarantee Law 5727-1967 section 21 (סעיף 21)(ב): where no fixed sum is stated in the guarantee contract, an ערב יחיד is released from the guarantee entirely.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "לא נקוב בחוזה הערבות סכום קצוב – פטור ערב יחיד מערבותו",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "protected-guarantor-exhaustion",
+      "claim": "Guarantee Law section 27 (סעיף 27): no action may be brought against an ערב מוגן until judgment has been given against the debtor AND the Execution Registrar has certified that all reasonable execution proceedings were taken.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "לא תוגש תובענה נגד ערב מוגן אלא לאחר שנתקיימו שניים אלה",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "guarantee-law-chapter2",
+      "claim": "Chapter 2 of the Guarantee Law applies to a guarantee given by an ערב יחיד.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "ערבות של ערב יחיד",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -336,10 +444,10 @@
     },
     {
       "claim_id": "cbs-cpi-api",
-      "claim": "The bundled rent calculator's CPI table is the official CBS price-index series 120010 (general CPI), chain-linked across base changes.",
+      "claim": "The bundled rent calculator's CPI table is taken from the official CBS price-index API, series 120010 (general CPI), chain-linked across base changes.",
       "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json",
       "raw_snippet": "מדד המחירים לצרכן - כללי",
-      "fetched_at": "2026-08-29T20:43:21+00:00",
+      "fetched_at": "2026-08-29T20:26:40+00:00",
       "appears_in": [
         "scripts/rent-index-calculator.py"
       ]

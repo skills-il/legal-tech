@@ -52,7 +52,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 | Start date | תאריך התחלה | Exact date you receive keys | Gap between payment start and key handover |
 | End date | תאריך סיום | Exact date, typically 12 months later | Ambiguous end date |
 | Option clause (optzia) | אופציה | Terms for renewal, rent for option period | No option, or option with undefined rent |
-| Option exercise deadline | מועד אחרון להפעלת אופציה | When you must notify landlord of renewal | Very early notification deadline (e.g., 90+ days) |
+| Option exercise deadline | מועד אחרון להפעלת אופציה | When you must notify the landlord. Note 25יב sets statutory minimums: a landlord's option needs 90 days' notice, a tenant's 60 | A deadline EARLIER than the statutory minimum, or terms not fixed in advance for a landlord's option |
 | Handover date | מועד מסירה | Date and time for key exchange | No specific handover arrangement |
 
 ### Common Pitfalls in Lease Terms
@@ -76,7 +76,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 
 | Clause | Hebrew | What to Verify | Red Flag |
 |--------|--------|---------------|----------|
-| Deposit type | סוג ערבות | Bank guarantee, checks, cash, shtar hon | Shtar hon (promissory note) without legal advice |
+| Deposit type | סוג ערובה | Bank guarantee, cheques, cash, shtar chov, guarantors | A shtar chov (promissory note) without legal advice, or a guarantors' deed with no fixed sum stated |
 | Deposit amount | סכום פיקדון | Must not exceed the statutory cap: the lower of 3 months' rent or one-third of the total lease value | Exceeds the cap (watch short leases, where one-third binds first) |
 | Return conditions | תנאי החזרה | Specific conditions for full/partial return | Vague or one-sided return conditions |
 | Return timeline | לוח זמנים להחזרה | Should be within 60 days of the tenant vacating the apartment (or settling outstanding debts, whichever is later) | No specified timeline or over 60 days |
@@ -89,7 +89,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 2. **Photograph the apartment** on move-in day with timestamps. Send photos to the landlord by email for a documented record
 3. **Create a property condition report** (protokol matzav dira, פרוטוקול מצב דירה) and attach it to the contract as an appendix (nispach, נספח)
 4. **For bank guarantees**: ensure the guarantee document specifies the same conditions as the contract for releasing funds
-5. **Never agree to a shtar hon** without consulting a lawyer. A shtar hon can be enforced as debt through the Execution Office without a court hearing
+5. **Never agree to a shtar chov** without consulting a lawyer. A shtar chov can be enforced as debt through the Execution Office without a court hearing
 
 ## Section 6: Maintenance and Repairs (Tachzuka v'Tikunim, תחזוקה ותיקונים)
 
@@ -106,7 +106,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 
 Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, חוק שכירות הוגנת, formally sections 25א to 25טו of the Rental and Borrowing Law, 5731-1971):
 - The **landlord** must maintain structural elements: roof, exterior walls, plumbing systems, electrical wiring, water heating systems
-- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, section 25ח(ג) applies s.9(א): repair and claim reimbursement of reasonable expenses (keep receipts; give reasonable notice first under s.9(ב) unless urgent), or reduce the rent in proportion to the lost value. Deducting the invoice from the rent is NOT one of the remedies
+- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, section 25ח(ג) applies s.9(א): repair and claim reimbursement of reasonable expenses (keep receipts, and give reasonable notice first under s.9(ב) unless the defect is urgent), or reduce the rent in proportion to the lost value. Deducting the invoice from the rent is NOT one of the remedies
 - The **tenant** is responsible for day-to-day maintenance, minor repairs from normal use, and defects caused by the tenant's improper use
 - A clause that shifts ALL repair costs to the tenant is void to the extent it overrides the landlord's statutory duty. The fair-rental provisions cannot be contracted around and can only be waived in the tenant's favor
 
@@ -146,7 +146,7 @@ Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, ח�
 | Subletting prohibition | איסור השכרת משנה | May be too restrictive |
 | Pet clause | סעיף חיות מחמד | If you have pets, ensure it is permitted |
 | Renovation restrictions | הגבלות שיפוצים | Cannot hang pictures, paint, etc. |
-| Landlord entry rights | זכות כניסה למשכיר | Must require notice (24 hours minimum) |
+| Landlord entry rights | זכות כניסה למשכיר | No statutory notice period exists, so negotiate one into the contract explicitly |
 | Assignment of rights | המחאת זכויות | Landlord selling property during lease |
 | Governing law and jurisdiction | דין חל וסמכות | Should be Israeli law, local court |
 
@@ -167,19 +167,20 @@ Before putting pen to paper:
 
 ## Red flags in a lease
 
+Clauses to challenge, with the statutory basis. Those marked VOID are unenforceable regardless of what the tenant signed.
+
 | Red Flag | Hebrew Term | Why It's Problematic |
 |----------|------------|---------------------|
-| No written contract | ללא חוזה כתוב | No legal protection, hard to prove terms |
-| Shtar Hon (promissory note) required | דרישת שטר הון | Can be enforced as debt without court hearing |
-| Deposit exceeds the statutory cap | פיקדון מעל המותר בחוק | Exceeds the fair-rental cap: the lower of 3 months' rent or one-third of the total lease value |
-| Tenant charged the landlord's broker fee | חיוב השוכר בדמי תיווך של המשכיר | Void under section 25ט when the broker acted on the landlord's behalf; the tenant cannot be made to pay it |
-| Landlord concealed a known defect | הסתרת פגם ידוע על ידי המשכיר | Breaches section 25ג and item 7 of the Second Schedule (25ב governs the written FORM of the contract, not its contents); a known non-minor defect, or a known nuisance in the apartment's surroundings causing material disruption, must be disclosed before signing |
-| No itemized property condition report | ללא פרוטוקול מצב דירה | Landlord can claim pre-existing damage is tenant's fault |
-| Waiver of tenant rights clause | סעיף ויתור על זכויות | May be legally void but creates confusion |
-| Automatic renewal without notice | חידוש אוטומטי ללא הודעה | Tenant may be locked into unwanted extension |
-| Landlord retains unlimited entry rights | זכות כניסה בלתי מוגבלת | Violates privacy rights |
-| Tenant pays for all repairs | השוכר משלם לכל התיקונים | Landlord shirking legal obligation for structural repairs |
-| No option clause | ללא סעיף אופציה | Less flexibility, potential rent hike at renewal |
-| Penalty clause for early termination | קנס על ביטול מוקדם | May be enforceable; negotiate reasonable terms instead |
-| Unclear Arnona responsibility | אחריות ארנונה לא ברורה | Can lead to surprise bills |
-| No receipts for payments | ללא קבלות | Difficult to prove payments were made |
+| Landlord-only right to cancel without breach | תניה לביטול בלא עילה | VOID under 25יג(א) unless the tenant has an equivalent right. Common and rarely challenged |
+| Deposit exceeds the statutory cap | פיקדון מעל המותר בחוק | Void as to the excess: the lower of 3 months' rent or one-third of the lease value, counting only monetary-outlay guarantees |
+| Guarantors' deed with no fixed sum | ערבות ללא סכום קצוב | Under s.21(ב) of the Guarantee Law this releases an ערב יחיד entirely. A landlord relying on it has nothing |
+| Tenant charged for installations or building insurance | חיוב השוכר במיתקנים או בביטוח מבנה | Void under 25ט(ב)(1)-(2). Covers a replacement boiler, AC or solar system |
+| Tenant charged the landlord's broker fee | חיוב השוכר בדמי תיווך של המשכיר | Void under 25ט(ב)(3) where the broker acted for the landlord |
+| Tenant pays for all repairs | השוכר משלם על כל התיקונים | Contradicts 25ח(ב); the tenant is liable only for defects from unreasonable use |
+| Waiver of tenant rights | סעיף ויתור על זכויות | Void to the extent it varies a 25יד(2) provision against the tenant, and 25ו cannot be varied at all |
+| Landlord concealed a known defect | הסתרת פגם ידוע על ידי המשכיר | Breaches 25ג and item 7 of the Second Schedule |
+| Promissory note demanded | דרישת שטר חוב | Enforceable through the Execution Office without a full hearing. Outside the 25י(ב) ceiling, so the amount is a matter of negotiation, but 25י(ג),(ד) still govern realising it |
+| No written contract | ללא חוזה כתוב | Does not void the lease (25ב expressly), but leaves the terms hard to prove and triggers 25ד gap-filling |
+| No property condition report | ללא פרוטוקול מצב דירה | Landlord can attribute pre-existing damage to the tenant |
+| Unlimited landlord entry | זכות כניסה בלתי מוגבלת | No statutory notice period exists; whatever the contract says is what governs, so negotiate it |
+| Unclear Arnona responsibility | אחריות ארנונה לא ברורה | Arnona is the tenant's under 25ט(א) as occupier, but the classification and amount should be verified |

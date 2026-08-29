@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.0.0] - 2026-08-30
+
+Second pass on the same skill, from an expert legal review that followed the v1.4.0 release. v1.4.0
+carried the four reported defects plus three found while verifying them; this release adds the
+remaining findings. Restructured so SKILL.md stays within its size limit: the section-by-section
+statutory text now lives in `references/statutory-provisions.md`.
+
+### Fixed
+- Habitability: replaced an invented list of amenities with the closed six-item First Schedule, including the partition between the toilet and the apartment, the lockable main entrance door and the safety/health catch-all. Added 25ו(ב) (delivering an unfit apartment is a BREACH) and 25יד(1) (25ו cannot be varied at all).
+- Section 25ט was reduced to the broker fee. Added the closed 25ט(א) list and all three 25ט(ב) prohibitions, notably the bars on charging the tenant for buying or upgrading fixed installations and for building insurance, the two commonest overcharges in the market.
+- Eviction: removed "landlord needs the property for personal use", which belongs to protected tenancies and is not a ground for an unprotected residential lease. Named the תביעה לפינוי מושכר track instead of the small claims court, and added an explicit warning that self-help eviction (changing locks, removing belongings, cutting utilities) is unlawful.
+- Section 25יד is now stated as the operative list of which provisions may be varied and in which direction, rather than a general assertion that the rules cannot be contracted around.
+- Entry and privacy: there is no statutory notice period for landlord entry. The previous "24 hours" figure was presented as a rule.
+- Corrected שטר הון to שטר חוב throughout, and removed the non-existent "rent tribunal" (ועדת שכירות) from the dispute-resolution options.
+
+### Added
+- Sections 25ד (gap-filling by the model lease), 25ז(ג) (handover instructions), 25יא (written notice before the apartment is handed to a buyer), 25יב (the 90-day landlord and 60-day tenant option deadlines) and 25טו(ג) (sub-letting duties stay with the head landlord), all previously absent.
+- Section 25יג(א): a clause letting only the landlord cancel without breach is VOID unless the tenant has an equivalent right. 25יג(ב) fixes the 90/60 minimum notice by statute, previously described as "the standard model".
+- Guarantee Law 5727-1967: s.21(ב) releases an ערב יחיד entirely where the deed states no fixed sum, and s.27 bars action against an ערב מוגן before execution against the tenant is exhausted.
+- `references/statutory-provisions.md`, a section-by-section reference for 25א-25טו, both Schedules and the guarantor rules.
+- An explicit note that on a lease with an option it is unsettled whether "one third of תקופת השכירות" means the initial or the extended term, rather than quoting one ceiling with false confidence.
+
 ## [1.4.0] - 2026-08-29
 
 Corrections from a public report (four items, all verified against the consolidated statute), plus

@@ -19,21 +19,31 @@ The 2017 amendment was passed to address the imbalance between landlords and ten
 
 ## Key Provisions
 
-### 1. Minimum Habitation Standards (Tna'ey Dira Tikniyim, תנאי דירה תקניים)
+### 1. Fit for Habitation (section 25ו + First Schedule)
 
-The landlord must deliver and maintain the property in a condition that meets basic living standards.
+Section 25ו(א) requires the landlord to DELIVER the apartment fit for habitation. Fitness is judged
+solely against the First Schedule, which is a CLOSED list: the apartment is unfit if ANY ONE of
+these is true.
 
-| Standard | Hebrew | Requirement |
-|----------|--------|-------------|
-| Structural integrity | שלמות מבנית | Walls, ceiling, and floor must be sound and safe |
-| Plumbing | אינסטלציה | Functioning water supply and drainage |
-| Electrical system | מערכת חשמל | Safe, functioning electrical wiring and outlets |
-| Ventilation | אוורור | Adequate ventilation in all rooms |
-| Water heating | חימום מים | Functioning water heater (dud) |
-| Doors and windows | דלתות וחלונות | Properly closing and locking |
-| Sanitary facilities | מתקנים סניטריים | Functioning toilet and bathing facilities |
+| # | The apartment lacks / has | Hebrew |
+|---|---|---|
+| 1 | No drainage system, including orderly disposal of sewage and waste water | מערכת ניקוז וסילוק שפכים ודלוחין |
+| 2 | No electricity system or lighting system | מערכת חשמל או תאורה |
+| 3 | No ventilation and natural-light openings, and no doors and windows to close them, including a main entrance door with a locking means | פתחי אוורור ותאורה טבעית, דלתות וחלונות, ודלת כניסה עם אמצעי נעילה |
+| 4 | No drinking-water supply system | מערכת להספקת מי שתייה |
+| 5 | No partition between the toilet and the apartment | מחיצה בין השירותים ובין הדירה |
+| 6 | An unreasonable risk to the tenant's safety or health | סיכון בלתי סביר לבטיחות או לבריאות |
 
-**Important**: A property that fails to meet these standards at the beginning of the lease gives the tenant the right to demand repairs or, in extreme cases, to terminate the contract without penalty.
+**Do not paraphrase this list.** A water heater (dud), "adequate ventilation in all rooms" and
+"structural integrity" are not in it; the toilet partition, the lockable entrance door and the
+safety/health catch-all are, and they are the items most often engaged in sub-standard rentals.
+
+**Consequences.** Delivering an apartment that is not fit is a BREACH OF CONTRACT under 25ו(ב),
+not merely a ground to demand repairs. Under 25יד(1), section 25ו is the ONLY provision in the
+chapter that cannot be varied by agreement at all, in either direction.
+
+Section 25ה is a separate and weaker duty to deliver an apartment suitable for living, carrying
+אי-התאמה remedies rather than breach. Keep the two apart.
 
 ### 2. Landlord Repair Obligations (Chovot Tikun shel HaMashkir)
 
@@ -46,7 +56,7 @@ The landlord must deliver and maintain the property in a condition that meets ba
 | Pre-existing defects | פגמים קיימים | Any defects present at lease start |
 | Building common areas | שטחים משותפים | Via building committee (va'ad bayit) contributions |
 
-**Response deadlines**: The fair-rental provisions set concrete deadlines. The landlord must repair a non-minor defect within a reasonable time and no later than **30 days** from the tenant's request. For an **urgent** defect (one that materially disrupts use of the apartment, such as a major leak or no water), the deadline is **3 days** from the request. If the landlord misses the deadline, section 25ח(ג) applies section 9(א), which gives the tenant two distinct remedies: **(1)** repair and demand **reimbursement of reasonable expenses**, or **(2)** **reduce the rent in proportion** to the fall in the value of the tenancy. These are different amounts, and remedy (2) is unrelated to repair cost. Deducting the invoice from the rent is not one of them: a tenant who simply pays less rent is in arrears, which is a ground under section 25י(ג)(1) to realise the guarantee and a basis for an eviction claim. Section 9(ב) requires reasonable advance notice before self-repair; section 9(ג) waives it for an urgent defect.
+**Response deadlines**: The fair-rental provisions set concrete deadlines. The landlord must repair a non-minor defect within a reasonable time and no later than **30 days** from the tenant's request. For an **urgent** defect (one that materially disrupts use of the apartment, such as a major leak or no water), the deadline is **3 days** from the request. If the landlord misses the deadline, section 25ח(ג) applies section 9(א) mutatis mutandis, which gives the tenant two distinct remedies: **(1)** repair the defect and demand **reimbursement of reasonable expenses**, or **(2)** **reduce the rent in proportion** to the fall in the value of the tenancy caused by the defect, for as long as it is unrepaired. These are different amounts and remedy (2) is unrelated to what the repair costs. Deducting the invoice from the rent is not one of them: a tenant who simply pays less rent is in arrears, which is a ground under section 25י(ג)(1) for the landlord to realise the guarantee, and a basis for an eviction claim. Under section 9(ב) the tenant must give the landlord reasonable advance notice of an intention to self-repair; section 9(ג) waives that notice where the defect is urgent.
 
 ### 3. Tenant Repair Obligations (Chovot Tikun shel HaSocher)
 
@@ -66,7 +76,7 @@ The law restricts the type and amount of security deposits (collectively, the "g
 | Maximum guarantee amount | Section 25י(ב) is scoped: it governs guarantees "involving a monetary outlay by the tenant" (הכרוכה בהוצאה כספית לשוכר), expressly a bank guarantee or cash. Their COMBINED total may not exceed the LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term, measured in rent). Example: a 12-month lease at NIS 2,000/month caps at NIS 6,000 (3 months); a 6-month lease at NIS 2,000/month caps at NIS 4,000 (one-third of 6 months = 2 months) |
 | Why it matters | For any lease shorter than a year the one-third figure binds before the 3-month figure. "3 months" is only the cap for leases of 12 months or longer |
 | Deposit return deadline | Within 60 days of the tenant vacating the apartment (or settling outstanding debts, whichever is later) |
-| Deduction requirements | Landlord must provide itemized list of claimed damages |
+| Realisation requirements | Only the four closed grounds in 25י(ג), each capped. Under 25י(ד) the landlord must give reasonable advance notice and a reasonable chance to cure. An itemised list is good practice, not a statutory duty |
 | Tenant right to dispute | Tenant can contest deductions in court |
 
 **Types of permitted guarantees:**
@@ -76,7 +86,7 @@ The law restricts the type and amount of security deposits (collectively, the "g
 | Bank guarantee (aruvah bankai't) | ערבות בנקאית | Yes | Low for tenant |
 | Post-dated checks | המחאות דחויות | Yes | Medium |
 | Cash deposit | פיקדון מזומן | Yes | Medium |
-| Promissory note (shtar hon) | שטר הון | Permitted but high-risk | High for tenant |
+| Promissory note (shtar chov) | שטר חוב | Permitted, outside the 25י(ב) ceiling, but 25י(ג)-(ד) still govern realising it | High for tenant |
 | Personal guarantors | ערבים אישיים | Yes | Varies |
 
 ### 5. Written Contract Requirement (Section 25ב) and Landlord Disclosure (Section 25ג + Second Schedule item 7)
@@ -84,12 +94,12 @@ The law restricts the type and amount of security deposits (collectively, the "g
 | Aspect | Details |
 |--------|---------|
 | Written contract (statutory norm) | Section 25ב requires a residential lease to be made IN WRITING, signed by both parties, with each party receiving a signed copy. This is the statutory form, not merely a recommendation |
-| Landlord pre-contract disclosure | Before signing, the landlord must disclose any non-minor defect known to them in the apartment, AND anything in the apartment or its surroundings, known to the landlord at contract formation, that causes or is likely to cause material disruption (hafra'a shel mamash) to the use of the apartment |
+| Landlord pre-contract disclosure (25ג + Second Schedule item 7) | Before signing, the landlord must disclose any non-minor defect known to them in the apartment, AND anything in the apartment or its surroundings, known to the landlord at contract formation, that causes or is likely to cause material disruption (hafra'a shel mamash) to the use of the apartment |
 | Contract language | Hebrew is standard; bilingual contracts are acceptable |
 | Required elements | Parties, property, term, rent, deposit, maintenance obligations |
 | Copies | Both parties must receive a signed copy |
 
-**Note**: Section 25ב makes the written, signed contract the statutory norm for residential leases. As a secondary nuance, an oral lease is not automatically void under Israeli law, but it falls short of the statutory form, offers minimal protection, and is extremely difficult to enforce. Always insist on a written contract. The landlord's disclosure duty sits in a different provision: section 25ג requires the lease to contain the Second Schedule particulars, and item 7 of that Schedule is the known non-minor defect or known material nuisance. Section 25ב governs the FORM of the contract, section 25ג its CONTENTS.
+**Note**: Section 25ב makes the written, signed contract the statutory norm for residential leases. As a secondary nuance, an oral lease is not automatically void under Israeli law, but it falls short of the statutory form, offers minimal protection, and is extremely difficult to enforce. Always insist on a written contract. The landlord's disclosure duty sits in a different provision: section 25ג requires the lease to contain the items in the Second Schedule, and item 7 of that Schedule is the known non-minor defect, or the known nuisance in or around the apartment causing material disruption. Section 25ב governs the FORM of the contract, section 25ג its CONTENTS.
 
 ### 6. Termination and Notice Requirements
 
@@ -112,13 +122,14 @@ The fair-rental provisions are mandatory. They cannot be contracted around, and 
 | Tenant pays for all repairs including structural | Void to the extent it shifts the landlord's statutory repair duty |
 | Guarantee exceeding the statutory cap | Void as to the excess: the cap is the lower of 3 months' rent or one-third of the total lease value |
 | Landlord may enter without any notice | Unenforceable; violates the tenant's right to quiet enjoyment |
-| Automatic forfeiture of deposit for any reason | Unenforceable; the landlord must justify each deduction with an itemized list |
+| Treating a promissory note or personal guarantors as capped by 25י(ב) | They involve no monetary outlay by the tenant, so they fall outside that cap. They are constrained by the contract terms and by separate guarantee law, not by the 3-month/one-third ceiling |
+| Automatic forfeiture of deposit for any reason | Unenforceable. Realisation is limited to the closed 25י(ג) grounds and requires 25י(ד) notice and a cure period |
 
 ### Tenant's Right to Quiet Enjoyment (Hana'a Shketah, הנאה שקטה)
 
 | Right | Description |
 |-------|-------------|
-| Privacy | Landlord must give reasonable notice before entering (24 hours standard) |
+| Privacy | No statutory notice period exists for landlord entry. The contract governs, so a notice requirement must be negotiated into it. The landlord may not interfere with the tenant's use of the apartment |
 | No interference | Landlord cannot disrupt normal use of the property |
 | No harassment | Landlord cannot pressure tenant to leave through non-legal means |
 | Emergency exception | Landlord may enter without notice in genuine emergencies only |
@@ -130,7 +141,7 @@ The law establishes a clear process for deposit return at lease end:
 1. **Tenant returns property** in the condition specified in the contract, with normal wear and tear (blai savir, בלאי סביר) excepted
 2. **Joint inspection** (recommended): both parties walk through the property and document its condition
 3. **Landlord has 60 days** to return the deposit
-4. **If landlord claims damages**: must provide an itemized list with cost estimates
+4. **If landlord claims damages**: ask which of the four 25י(ג) grounds is relied on, and whether the 25י(ד) notice and cure period were given. An itemised list with cost estimates is good practice to insist on, though the statute does not require one
 5. **Tenant can contest**: file a claim in small claims court if deductions seem unfair
 6. **Interest**: if the landlord fails to return the deposit within 60 days without justification, the tenant may claim interest on the withheld amount
 
