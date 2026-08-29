@@ -89,7 +89,7 @@ Section 14 is a PROHIBITION with exceptions, not a permission. It provides that 
 | Years 16-19 | 9 days | Per-day rate x days |
 | Year 20+ | 10 days | Per-day rate x days |
 
-The per-day rate is updated by extension order. As of June 2026 the in-force private-sector rate is **418 NIS per day**. The Histadrut and the employers' organizations signed an agreement on 22 June 2026 to raise it to **451.5 NIS per day**, but it takes effect only once the Ministry of Labor signs the extension order (tzav harchava), and it then applies retroactively. Public-sector rates are set separately and are higher. Always verify the current rate before calculating. Typically paid as a lump sum in June-July.
+The per-day rate is updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is **451.5 NIS per day**, raised from 418 by the extension order published on 18 August 2026. An employer who already paid at 418 owes the difference of 33.50 NIS for each havra'a day. The rate follows the havra'a year the payment is for, not the date it was paid.
 
 **Annual leave (Chofsha) per Annual Leave Law:**
 
@@ -290,7 +290,7 @@ Actions: Draft a full employment contract (minimum wage, pension, convalescence,
 - Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
 - The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
 - Israeli law does not recognize automatic "work-for-hire" for all intellectual property as US law does. Agents drafting contracts without an explicit IP assignment clause will leave IP ownership ambiguous, especially for software.
-- The convalescence pay (Dmei Havra'a) per-day rate is updated by extension order. As of June 2026 the in-force private-sector rate is 418 NIS/day; a signed agreement to raise it to 451.5 NIS/day awaits a Ministry of Labor extension order and then applies retroactively. Agents using a fixed amount from their training data will produce incorrect calculations. Verify the current rate against a current labor-law source before calculating.
+- The convalescence pay (Dmei Havra'a) rate for havra'a year 2026 is 451.5 NIS/day, raised from 418 by the extension order of 18 August 2026. An employer who paid at 418 owes 33.50 NIS per havra'a day.
 - Section 14 only covers severance for the period from the date the written consent is signed. If it is activated mid-employment, the years worked before signing still owe a full severance top-up; do not present a mid-tenure Section 14 signature as wiping out prior-year severance liability.
 
 ## Troubleshooting

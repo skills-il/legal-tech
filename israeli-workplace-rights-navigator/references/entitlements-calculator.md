@@ -103,9 +103,9 @@ OR vacation days at the employee's choice, and does not require the employer's c
 | 2023 | 418 |
 | 2024 | 418 |
 | 2025 | 418 |
-| 2026 | 418 (in force; see the pending increase below) |
+| 2026 | 451.5 (in force, raised from 418 by the extension order of 18.08.2026) |
 
-**Pending increase:** The Histadrut and the employers signed an agreement on 22 June 2026 to raise the private-sector rate to NIS 451.5 per day. It takes effect only when the Ministry of Labor signs the extension order (tzav harchava), and is then applied retroactively. Until that order is signed, NIS 418 remains the binding rate.
+**2026 increase, now in force:** the extension order published on 18 August 2026 raised the private-sector rate from NIS 418 to NIS 451.5 for havra'a year 2026 (1.7.2025 to 30.6.2026). An employer who already paid at NIS 418 owes NIS 33.50 for each havra'a day. The applicable rate follows the havra'a year, not the payment date.
 
 **Reservist-support deduction (2025-2026):** For each employee, the employer must deduct one day's worth of convalescence pay from the annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist benefits. This applies as long as the temporary order remains in force.
 
@@ -115,14 +115,14 @@ OR vacation days at the employee's choice, and does not require the employer's c
 
 Employee with 5 years of seniority (2026 rate, before reservist-support deduction):
 ```
-Convalescence pay = 7 days x NIS 418 = NIS 2,926
-After 1-day deduction: (7 - 1) x NIS 418 = NIS 2,508
+Convalescence pay = 7 days x NIS 451.5 = NIS 3,160.50
+After 1-day deduction: (7 - 1) x NIS 451.5 = NIS 2,709
 ```
 
 Part-time employee (50% position) with 5 years:
 ```
-Convalescence pay = 7 days x NIS 418 x 50% = NIS 1,463
-After proportional 1-day deduction: (7 - 1) x NIS 418 x 50% = NIS 1,254
+Convalescence pay = 7 days x NIS 451.5 x 50% = NIS 1,580.25
+After proportional 1-day deduction: (7 - 1) x NIS 451.5 x 50% = NIS 1,354.50
 ```
 
 ## Travel Reimbursement (Dmei Nesia, Travel-to-Work Extension Order)

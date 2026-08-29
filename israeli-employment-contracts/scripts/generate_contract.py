@@ -44,7 +44,8 @@ PENSION_EMPLOYEE_RATE = 0.06        # 6%
 SEVERANCE_RATE = 0.0833             # 8.33%
 HISHTALMUT_EMPLOYER_RATE = 0.075    # 7.5%
 HISHTALMUT_EMPLOYEE_RATE = 0.025    # 2.5%
-HAVRA_A_DAILY_RATE = 418.0          # NIS per day, in-force private-sector rate as of June 2026.
+HAVRA_A_DAILY_RATE = 451.5          # NIS per day, private-sector rate for havra'a year 2026
+                                    # (1.7.2025-30.6.2026), per the extension order published 18.08.2026.
                                     # A signed agreement to raise it to 451.5 awaits a Ministry of
                                     # Labor extension order, then applies retroactively. Verify before use.
 MINIMUM_WAGE_MONTHLY = 6443.85      # NIS, effective 2026-04-01 (prior: 6,247.67)

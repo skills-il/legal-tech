@@ -118,7 +118,7 @@ The most significant extension order in Israeli labor law:
   - Years 11-15: 8 days
   - Years 16-19: 9 days
   - Year 20+: 10 days
-- **Daily rate:** Updated by extension order. As of June 2026 the in-force private-sector rate is NIS 418/day; a signed agreement to raise it to NIS 451.5/day awaits a Ministry of Labor extension order and then applies retroactively. Public-sector rates are set separately and are higher. Verify the current rate before use
+- **Daily rate:** Updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is NIS 451.5/day, raised from NIS 418 by the extension order published 18 August 2026. An employer who paid at 418 owes NIS 33.50 per havra'a day.
 - **Payment timing:** Typically June-July as annual lump sum
 - **Calculation:** Days x daily rate (no additional tax withholding beyond regular income tax)
 

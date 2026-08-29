@@ -25,7 +25,7 @@ Quick-reference table of key Israeli labor laws governing employee rights.
 | Regulation | Hebrew Name | Year | Key Provisions |
 |------------|-------------|------|----------------|
 | Mandatory Pension Extension Order | צו הרחבה לפנסיה חובה | 2008 | 6% employee + 6.5% employer pension contributions + 6% employer severance (total 18.5% minimum). 8.33% severance is not the statutory floor: it is the rate that fully funds the statutory severance and is required for a full Section 14 release. Applies from day 1 for employees with prior pension, after 6 months (retroactive to day 1) for new pension holders |
-| Convalescence Pay Extension Order | צו הרחבה דמי הבראה | Various | 5-10 convalescence days by seniority. 2026 rate: NIS 418/day private sector, NIS 511.6/day public sector. Reservist-support 1-day deduction applies in 2025-2026 |
+| Convalescence Pay Extension Order | צו הרחבה דמי הבראה | Various | 5-10 convalescence days by seniority. 2026 rate: NIS 451.5/day private sector (raised from 418 by the extension order of 18.08.2026), NIS 511.6/day public sector. Reservist-support 1-day deduction applies in 2025-2026 |
 | Section 45a, Income Tax Ordinance | סעיף 45א לפקודת מס הכנסה | Ongoing | 35% income-tax credit on the employee's pension contribution up to 7% of salary (approx. NIS 8,148/year ceiling in 2026). Applied automatically in payroll |
 
 ## Collective Labor Relations

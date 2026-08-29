@@ -209,7 +209,7 @@ Every employee who has completed at least one year of employment is entitled to 
 | 20+ | 10 days |
 
 **Daily rate:**
-- Updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is NIS 451.5 per day, raised from NIS 418. An employer who already paid at NIS 418 owes the difference of NIS 33.50 for each havra'a day. The rate is set by the havra'a year the payment is for, not by the date it was paid. The public-sector rate is NIS 511.6 per day.
+- Updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is NIS 451.5 per day, raised from 418; an employer who paid at 418 owes NIS 33.50 per havra'a day. The rate follows the havra'a year, not the payment date. Public sector: NIS 511.6.
 - For 2025 and 2026, employers are required to deduct one convalescence day from each employee's annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist support
 
 **Payment:**

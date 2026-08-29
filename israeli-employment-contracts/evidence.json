@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-employment-contracts",
-  "generated_at": "2026-08-29T21:41:14+00:00",
+  "generated_at": "2026-08-29T21:57:12+00:00",
   "claims": [
     {
       "claim_id": "min-wage-monthly-hourly",
@@ -32,10 +32,10 @@
     },
     {
       "claim_id": "havraa-private-rate-418-451-a",
-      "claim": "In-force private-sector dmei havra'a rate is 418 NIS per day, expected to rise to 451.5 NIS per day.",
+      "claim": "The private-sector dmei havra'a rate for havra'a year 2026 is NIS 451.5 per day, raised from NIS 418. The public-sector rate is NIS 511.6.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
-      "raw_snippet": "גובה דמי ההבראה במגזר הפרטי הוא 418 ₪ ליום וצפוי לעלות ל-451.5 ₪ ליום.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "דמי ההבראה במגזר הפרטי לשנת ההבראה 2026 עומדים על 451.5 ש\"ח",
+      "fetched_at": "2026-08-29T21:57:12+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -47,10 +47,10 @@
     },
     {
       "claim_id": "havraa-private-rate-418-451-b",
-      "claim": "A signed agreement raises the private-sector dmei havra'a rate to 451.5 NIS, but no extension order applying it to all employers has been signed yet.",
+      "claim": "An employer who already paid havra'a for 2026 at the old NIS 418 rate must top up by NIS 33.50 for each havra'a day. The applicable rate follows the havra'a year, not the payment date.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
-      "raw_snippet": "נחתם הסכם לעדכון תעריף דמי ההבראה לעובדים במגזר הפרטי לסכום של 451.5 ש\"ח אך טרם נחתם צו הרחבה המחיל את הסכום על כלל העובדים והמעסיקים במשק.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אם דמי ההבראה שולמו לפי התעריף של 418 ₪, העובד זכאי להשלמה של 33.50 ₪ עבור כל יום הבראה",
+      "fetched_at": "2026-08-29T21:57:12+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -528,8 +528,8 @@
       "claim_id": "encoded-hebrew-url-coverage-1",
       "claim": "Reference URL cited in the skill body for dmei havra'a (kolzchut): https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
-      "raw_snippet": "גובה דמי ההבראה במגזר הפרטי הוא 418 ₪ ליום",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "גובה דמי ההבראה במגזר הפרטי הוא 451.5 ₪ ליום",
+      "fetched_at": "2026-08-29T21:57:12+00:00",
       "appears_in": [
         "scripts/generate_contract.py"
       ],
