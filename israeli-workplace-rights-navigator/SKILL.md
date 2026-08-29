@@ -177,9 +177,9 @@ python3 scripts/severance-calculator.py --help
 - Employer bankruptcy
 
 **Section 14 arrangement:**
-- Most employers make monthly contributions to a pension or provident fund (kupat gemel) that are designated as severance pay under Section 14 of the Severance Pay Law
+- Section 14 is a prohibition, not a permission: fund contributions replace severance only under a collective agreement or the General Authorization (י"פ תשנ"ח 4394)
 - Under this arrangement, the accumulated fund replaces the obligation to pay severance separately
-- Two severance rates get confused and the gap is money. The minimum is **6%**; **8.33%** (1/12) fully funds the statutory month-per-year and is what a FULL Section 14 release requires. At 6% the fund covers about 72%, so a **completion payment (hashlamat pitzuyim)** is owed. Read the deposit rate off the pay slip
+- Two severance rates get confused and the gap is money. The minimum is **6%**, and **8.33%** (1/12) fully funds the statutory month-per-year, the rate a FULL release requires (from the General Authorization, not Section 14). At 6% the fund covers about 72%, so a **completion payment (hashlamat pitzuyim)** is owed. Read the deposit rate off the pay slip
 - Upon termination, the employee receives the accumulated fund balance as severance
 
 **Tax exemption on severance:**
@@ -209,7 +209,7 @@ Every employee who has completed at least one year of employment is entitled to 
 | 20+ | 10 days |
 
 **Daily rate:**
-- Updated by extension order. The in-force private-sector rate as of June 2026 is NIS 418 per day. The Histadrut and the employers signed an agreement on 22 June 2026 to raise it to NIS 451.5 per day, but the new rate takes effect only when the Ministry of Labor signs the extension order (tzav harchava), and is then applied retroactively. Until that order is signed, NIS 418 remains the binding rate. The public sector is NIS 511.6 per day per collective agreement (2026)
+- Updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is NIS 451.5 per day, raised from NIS 418. An employer who already paid at NIS 418 owes the difference of NIS 33.50 for each havra'a day. The rate is set by the havra'a year the payment is for, not by the date it was paid. The public-sector rate is NIS 511.6 per day.
 - For 2025 and 2026, employers are required to deduct one convalescence day from each employee's annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist support
 
 **Payment:**

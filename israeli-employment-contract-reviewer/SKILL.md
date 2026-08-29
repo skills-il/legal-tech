@@ -167,7 +167,7 @@ nevo.co.il, Bituach Leumi official guidance.
 
 **Clause as written:** "The employee agrees to the arrangement under Section 14 of the Severance Pay Law. The employer's contributions to the pension fund, calculated on the base salary, replace severance pay in full."
 
-**Finding:** Major. The Section 14 waiver itself is legitimate, but "calculated on the base salary" is the trap: the employee's role pays a 12,000 NIS base plus a recurring 4,000 NIS fixed travel-and-role allowance. Because the waiver covers only the base, the employee loses the severance value of the allowance, and on termination receives less than the statutory calculation would yield.
+**Finding:** Major. Section 14 needs the General Authorization or a collective agreement. The trap is "calculated on the base salary": the employee's role pays a 12,000 NIS base plus a recurring 4,000 NIS fixed travel-and-role allowance. Because the waiver covers only the base, the employee loses the severance value of the allowance, and on termination receives less than the statutory calculation would yield.
 
 **Recommended replacement:** "The Section 14 arrangement applies to the employee's full salary, including all fixed components subject to pension contributions (base salary, fixed allowances, and any other regular fixed payment), and not to the base salary alone."
 

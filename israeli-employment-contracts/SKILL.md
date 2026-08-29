@@ -55,18 +55,18 @@ All rates below are current as of 2025-2026. Verify rates annually as they may b
 | Component | Employer | Employee | Notes |
 |-----------|----------|----------|-------|
 | Pension fund contribution | 6.5% of salary | 6% of salary | Mandatory from day 1 if the employee has prior pension coverage; otherwise after 6 months |
-| Severance component (within pension) | 8.33% of salary | -- | Part of the 6.5% or in addition, per arrangement |
+| Severance component (within pension) | 6% minimum; 8.33% (1/12) fully funds the month-per-year rate | -- | 8.33% comes from the General Authorization under Section 14, NOT from Section 14 itself. At 6% the fund covers about 72% of the statutory figure and the balance is still owed |
 | Total employer cost | Up to 14.83% | -- | If Section 14 applies |
 
 **Section 14 (Saif 14) arrangement:**
-Section 14 of the Severance Pay Law (1963) allows the employer to designate pension/insurance contributions as covering the full severance obligation. When activated:
+Section 14 is a PROHIBITION with exceptions, not a permission. It provides that a payment to a provident fund, pension fund or similar `לא יבוא במקום פיצויי פיטורים` UNLESS an applicable collective agreement so provides, or the Minister of Labour has approved it. In practice the route is the Minister's General Authorization (אישור כללי, י"פ תשנ"ח 4394), and the arrangement only replaces severance to the extent its conditions are met. When it applies:
 - Employer deposits to pension fund count as severance payment
 - Upon termination, employee receives the pension fund balance instead of calculated severance
 - Employer is exempt from paying additional severance beyond what was deposited
 - Must be documented explicitly in the contract with employee consent
 
 **Statutory severance (Pitzuei Piturin, Severance Pay Law 1963):**
-- The baseline entitlement is one month's last salary for each year of employment with the same employer or workplace (Severance Pay Law 1963, Section 12), pro-rated for partial years. For an hourly worker with fluctuating hours, the last salary is figured on the average position scope over the whole employment period
+- Section 12 sets TWO rates, and which applies turns on how the wage is computed, not on hours worked. An `עובד במשכורת` (one whose pay is mainly computed on a monthly or longer basis) gets one month's last salary per year of employment with the same employer or workplace. An `עובד בשכר` (anyone else, i.e. paid on an hourly or daily basis) gets two weeks' pay per year. Section 12(ב) lets the Minister raise the rate for an `עובד בשכר` by regulation, and a collective or extension order may do so too, so check what applies before quoting the two-week figure. Both are pro-rated for partial years. For an hourly worker with fluctuating hours, the last salary is figured on the average position scope over the whole employment period
 - Severance is normally owed on dismissal. Some resignations are also recognized as entitling the employee to severance: a move of residence (mostly for a spouse's relocation), poor health of the employee or a family member, a tangible worsening of employment terms by the employer, and resignation within the protected window after giving birth or adoption to care for the child
 - When Section 14 applies, the monthly pension/insurance deposits stand in for this statutory severance for the salary and period they cover. When Section 14 does NOT apply, the employer still owes the full Section 12 calculation on termination
 

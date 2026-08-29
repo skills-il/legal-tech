@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-employment-contracts",
-  "generated_at": "2026-06-25T12:00:00Z",
+  "generated_at": "2026-08-29T21:41:14+00:00",
   "claims": [
     {
       "claim_id": "min-wage-monthly-hourly",
@@ -94,10 +94,10 @@
     },
     {
       "claim_id": "severance-one-month-per-year-a",
-      "claim": "Severance pay equals one month's last salary for each year of employment with the same employer or workplace; the base is the employee's last salary. This is Section 12 / סעיף 12 of the Severance Pay Law 1963.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A4%D7%95%D7%98%D7%A8",
-      "raw_snippet": "שיעור פיצויי הפיטורים הוא שכר חודש אחד לכל שנת עבודה אצל אותו מעסיק או באותו מקום עבודה. השכר שישמש בסיס לפיצויים הוא השכר האחרון של העובדים.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "claim": "Section 12 (סעיף 12) sets two severance rates by how the wage is computed: one month's pay per year for an עובד במשכורת (pay computed mainly on a monthly or longer basis), and two weeks' pay per year for an עובד בשכר (any other, i.e. hourly or daily). Section 12(ב) lets the Minister raise the עובד בשכר rate by regulation.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "שיעורם של פיצויי הפיטורים הוא: שכר חודש אחד לכל שנת עבודה בעובד במשכורת אצל מעסיק, או באותו מקום עבודה, ושכר שבועיים לכל שנת עבודה בעובד בשכר כאמור",
+      "fetched_at": "2026-08-29T21:41:14+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -193,10 +193,10 @@
     },
     {
       "claim_id": "section-14-severance-law",
-      "claim": "Section 14 of the Severance Pay Law allows the employer to designate monthly pension/insurance contributions as covering the full severance obligation.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "מעסיקים מסוימים בוחרים (בהסכמת העובדים) להפריש מדי חודש את מלוא פיצויי הפיטורים או את חלקם לביטוח הפנסיוני או לקופת גמל מיוחדת. הפרשות אלה באות במקום תשלום פיצויי הפיטורים בעת סיום ההעסקה. הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים.",
-      "fetched_at": "2026-06-25T12:00:00Z",
+      "claim": "Section 14 (סעיף 14) of the Severance Pay Law is a PROHIBITION with exceptions: a payment to a provident fund, pension fund or similar does NOT come in place of severance unless an applicable collective agreement so provides, or the Minister of Labour approved it. The 8.33% full-funding rate is not in section 14; it comes from the Minister's General Authorization (אישור כללי, י\"פ תשנ\"ח 4394). Derived arithmetically from the sourced rates (no new legal fact): a 6% severance deposit is 72% of the 8.33% that fully funds the statutory month-per-year (6 divided by 8.33), so the balance remains owed.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תשלום לקופת תגמולים, לקרן פנסיה או לקרן כיוצא באלה, לא יבוא במקום פיצויי פיטורים אלא אם נקבע כך בהסכם הקיבוצי",
+      "fetched_at": "2026-08-29T21:41:14+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",

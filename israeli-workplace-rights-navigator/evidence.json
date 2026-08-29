@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-workplace-rights-navigator",
-  "generated_at": "2026-08-19T00:00:00Z",
+  "generated_at": "2026-08-29T21:46:48+00:00",
   "claims": [
     {
       "claim_id": "min-wage-2026",
@@ -18,10 +18,10 @@
     },
     {
       "claim_id": "havraa-private-418",
-      "claim": "The in-force private-sector convalescence pay (dmei havra'a) rate as of June 2026 is NIS 418 per day.",
-      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
-      "raw_snippet": "דמי ההבראה במגזר הפרטי עומדים כיום על 418 ש\"ח וצפויים לעלות ל-451.5 ש\"ח",
-      "fetched_at": "2026-06-25T00:00:00Z",
+      "claim": "The private-sector convalescence (havra'a) rate for havra'a year 2026 is NIS 451.5 per day; the previous rate was NIS 418. The public-sector rate is NIS 511.6.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "דמי ההבראה במגזר הפרטי לשנת ההבראה 2026 עומדים על 451.5 ש\"ח",
+      "fetched_at": "2026-08-29T21:46:48+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -31,10 +31,10 @@
     },
     {
       "claim_id": "havraa-increase-451",
-      "claim": "The Histadrut and the employers signed an agreement on 22 June 2026 to raise the private-sector convalescence rate to NIS 451.5 per day, pending the Ministry of Labor extension order (tzav harchava), then applied retroactively.",
-      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
-      "raw_snippet": "נחתם הסכם לעדכון תעריף דמי ההבראה לעובדים במגזר הפרטי לסכום של 451.5 ש\"ח אך טרם נחתם צו הרחבה",
-      "fetched_at": "2026-06-25T00:00:00Z",
+      "claim": "An employer who already paid havra'a for 2026 at the old NIS 418 rate must top up to NIS 451.5, a difference of NIS 33.50 per havra'a day. The applicable rate follows the havra'a year, not the payment date.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "אם דמי ההבראה שולמו לפי התעריף של 418 ₪, העובד זכאי להשלמה של 33.50 ₪ עבור כל יום הבראה",
+      "fetched_at": "2026-08-29T21:46:48+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -355,10 +355,10 @@
     },
     {
       "claim_id": "severance-section-14-a",
-      "claim": "Full severance funded in advance under Section 14 is 8.33% of salary, while the employer must in any case deposit at least 6% of salary as the severance component. Where only the 6% minimum is deposited the fund covers roughly 72% of the statutory figure (6 divided by 8.33) and a completion payment is owed.",
-      "source_url": "https://www.kolzchut.org.il/he/תשלום_פיצויי_פיטורים_מראש_באמצעות_הפרשות_חודשיות_לביטוח_הפנסיוני_(סעיף_14)",
-      "raw_snippet": "עובד ומעסיק יכולים להסכים כי מלוא פיצויי הפיטורים (8.33% מהשכר) ישולמו מראש ובאופן שוטף מדי חודש על-ידי הפרשות מעסיק לביטוח הפנסיוני של העובד",
-      "fetched_at": "2026-07-26T19:14:28Z",
+      "claim": "Section 14 (סעיף 14) of the Severance Pay Law is a PROHIBITION with exceptions: a payment to a provident fund, pension fund or similar does NOT come in place of severance unless an applicable collective agreement so provides, or the Minister of Labour approved it. The 8.33% full-funding rate is not in section 14; it comes from the Minister's General Authorization (אישור כללי, י\"פ תשנ\"ח 4394).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תשלום לקופת תגמולים, לקרן פנסיה או לקרן כיוצא באלה, לא יבוא במקום פיצויי פיטורים אלא אם נקבע כך בהסכם הקיבוצי",
+      "fetched_at": "2026-08-29T21:41:14+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",

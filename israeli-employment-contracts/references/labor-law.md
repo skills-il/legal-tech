@@ -9,7 +9,7 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 - **Entitlement:** Employee who completed at least 1 year of employment and was dismissed is entitled to severance pay
 - **Calculation:** Last monthly salary multiplied by years of employment
 - **Resignation:** Generally no severance upon resignation, with exceptions (relocation, health, employer breach)
-- **Section 14:** Allows employer to designate pension/insurance contributions as covering full severance obligation. Requires:
+- **Section 14:** A payment to a pension/provident fund does NOT replace severance unless a collective agreement so provides or the Minister of Labour approved it (in practice, the General Authorization, י"פ תשנ"ח 4394). The 8.33% figure comes from that Authorization, not from Section 14. Requires:
   - Written agreement with employee
   - Contributions to qualifying pension fund or insurance policy
   - General approval from the Minister of Labor (published in 1998)

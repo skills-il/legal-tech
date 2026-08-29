@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.0] - 2026-08-30
+
+### Fixed
+- The Section 14 finding implied the waiver is freestanding. Section 14 replaces severance only where a collective agreement or the Minister's General Authorization provides for it.
+- Re-sourced the Section 14 claim from a secondary rights summary to the statute.
+
 All notable changes to this skill are documented here.
 
 ## [1.3.0] - 2026-08-26

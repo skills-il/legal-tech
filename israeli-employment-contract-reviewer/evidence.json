@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-employment-contract-reviewer",
-  "generated_at": "2026-08-26T13:24:38.171611+00:00",
+  "generated_at": "2026-08-29T21:41:14+00:00",
   "claims": [
     {
       "claim_id": "pension-rates-18.5",
@@ -29,10 +29,10 @@
     },
     {
       "claim_id": "section-14-8.33",
-      "claim": "Section 14 (סעיף 14) of the Severance Pay Law lets the employer replace statutory severance with monthly pension contributions; the severance component must be 8.33% (=1/12) for the waiver to FULLY replace statutory severance. 8.33% is not the legal pension minimum.",
-      "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
-      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק בתנאי שהמעסיק הפריש את מלוא פיצויי הפיטורים - 8.33% מדי חודש.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "claim": "Section 14 (סעיף 14) of the Severance Pay Law is a PROHIBITION with exceptions: a payment to a provident fund, pension fund or similar does NOT come in place of severance unless an applicable collective agreement so provides, or the Minister of Labour approved it. The 8.33% full-funding rate is not in section 14; it comes from the Minister's General Authorization (אישור כללי, י\"פ תשנ\"ח 4394).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תשלום לקופת תגמולים, לקרן פנסיה או לקרן כיוצא באלה, לא יבוא במקום פיצויי פיטורים אלא אם נקבע כך בהסכם הקיבוצי",
+      "fetched_at": "2026-08-29T21:41:14+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
