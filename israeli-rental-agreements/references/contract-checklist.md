@@ -106,7 +106,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 
 Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, חוק שכירות הוגנת, formally sections 25א to 25טו of the Rental and Borrowing Law, 5731-1971):
 - The **landlord** must maintain structural elements: roof, exterior walls, plumbing systems, electrical wiring, water heating systems
-- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, the tenant may repair and deduct the cost from rent (keep receipts)
+- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, section 25ח(ג) applies s.9(א): repair and claim reimbursement of reasonable expenses (keep receipts; give reasonable notice first under s.9(ב) unless urgent), or reduce the rent in proportion to the lost value. Deducting the invoice from the rent is NOT one of the remedies
 - The **tenant** is responsible for day-to-day maintenance, minor repairs from normal use, and defects caused by the tenant's improper use
 - A clause that shifts ALL repair costs to the tenant is void to the extent it overrides the landlord's statutory duty. The fair-rental provisions cannot be contracted around and can only be waived in the tenant's favor
 
@@ -163,3 +163,23 @@ Before putting pen to paper:
 - [ ] Check for any blank spaces that could be filled in later
 - [ ] Get a signed copy for yourself
 - [ ] Consider having a lawyer review the contract (fees vary by lawyer and complexity; get a quote)
+
+
+## Red flags in a lease
+
+| Red Flag | Hebrew Term | Why It's Problematic |
+|----------|------------|---------------------|
+| No written contract | ללא חוזה כתוב | No legal protection, hard to prove terms |
+| Shtar Hon (promissory note) required | דרישת שטר הון | Can be enforced as debt without court hearing |
+| Deposit exceeds the statutory cap | פיקדון מעל המותר בחוק | Exceeds the fair-rental cap: the lower of 3 months' rent or one-third of the total lease value |
+| Tenant charged the landlord's broker fee | חיוב השוכר בדמי תיווך של המשכיר | Void under section 25ט when the broker acted on the landlord's behalf; the tenant cannot be made to pay it |
+| Landlord concealed a known defect | הסתרת פגם ידוע על ידי המשכיר | Breaches section 25ג and item 7 of the Second Schedule (25ב governs the written FORM of the contract, not its contents); a known non-minor defect, or a known nuisance in the apartment's surroundings causing material disruption, must be disclosed before signing |
+| No itemized property condition report | ללא פרוטוקול מצב דירה | Landlord can claim pre-existing damage is tenant's fault |
+| Waiver of tenant rights clause | סעיף ויתור על זכויות | May be legally void but creates confusion |
+| Automatic renewal without notice | חידוש אוטומטי ללא הודעה | Tenant may be locked into unwanted extension |
+| Landlord retains unlimited entry rights | זכות כניסה בלתי מוגבלת | Violates privacy rights |
+| Tenant pays for all repairs | השוכר משלם לכל התיקונים | Landlord shirking legal obligation for structural repairs |
+| No option clause | ללא סעיף אופציה | Less flexibility, potential rent hike at renewal |
+| Penalty clause for early termination | קנס על ביטול מוקדם | May be enforceable; negotiate reasonable terms instead |
+| Unclear Arnona responsibility | אחריות ארנונה לא ברורה | Can lead to surprise bills |
+| No receipts for payments | ללא קבלות | Difficult to prove payments were made |

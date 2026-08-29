@@ -20,6 +20,16 @@
         "Evidence sourced from kolzchut חוזה_שכירות_למגורים (the חוק_השכירות_והשאילה slug 404s; gov.il/he/pages/rent_law returns 403 to WebFetch) — verbatim Hebrew snippets copied for both new claims.",
         "Should-cover items still DEFERRED to next cycle: (1) the precise §25ב statutory wording verbatim in the reference body; (2) guarantor (ערב) protections under the Guarantee Law 1967 (חוק הערבות, התשכ\"ז-1967), esp. ערב יחיד / ערב מוגן distinctions; (3) contents-vs-structure insurance (ביטוח תכולה מול ביטוח מבנה) — who insures what in a rental."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-08-29",
+      "lessons": [
+        "Root cause of the reported defects: the previous cycle sourced statutory claims to Kol Zchut rather than the statute, believing the wikisource slug 404s and gov.il 403s. The consolidated text IS reachable at he.wikisource.org/wiki/חוק_השכירות_והשאילה and every snippet verifies against it.",
+        "The evidence gate cannot catch a wrong PROSE claim: '(not indexed)' carried no numeral, so nothing flagged that its own snippet did not support it. A prose qualifier attached to a figure needs its own evidence entry.",
+        "HELD FOR NEXT CYCLE (branch v2-rental-rewrite, commit 974edfe): a full remediation addressing 8 further CRITICAL findings from an expert legal review, written and passing every mechanical gate but never independently reviewed because the review agents failed to return. Those findings are: the fabricated habitability list vs the closed First Schedule; 25ט reduced to the broker fee, missing the bars on fixed-installation and building-insurance charges; missing 25ד, 25ז(ג), 25יא, 25יב, 25יג and 25טו(ג); 'landlord needs it for personal use' listed as an eviction ground; the wrong eviction track and no self-help warning; חוק הערבות s.27 exhaustion; and the 25יד derogation direction. Do NOT re-derive these from scratch, start from that branch.",
+        "OPEN QUESTION: on a lease with an option, 25י(ב)(1) measures 'one third of תקופת השכירות' and it is unsettled whether that is the initial or extended term. The held branch states the ambiguity explicitly; this release does not mention it."
+      ]
     }
   ]
 }

@@ -46,7 +46,7 @@ The landlord must deliver and maintain the property in a condition that meets ba
 | Pre-existing defects | פגמים קיימים | Any defects present at lease start |
 | Building common areas | שטחים משותפים | Via building committee (va'ad bayit) contributions |
 
-**Response deadlines**: The fair-rental provisions set concrete deadlines. The landlord must repair a non-minor defect within a reasonable time and no later than **30 days** from the tenant's request. For an **urgent** defect (one that materially disrupts use of the apartment, such as a major leak or no water), the deadline is **3 days** from the request. If the landlord misses the deadline, the tenant may arrange the repair through a professional of their choice and **deduct the cost from the rent**, keeping receipts and invoices as proof. This self-repair-and-deduct remedy is the practical enforcement mechanism behind the deadlines.
+**Response deadlines**: The fair-rental provisions set concrete deadlines. The landlord must repair a non-minor defect within a reasonable time and no later than **30 days** from the tenant's request. For an **urgent** defect (one that materially disrupts use of the apartment, such as a major leak or no water), the deadline is **3 days** from the request. If the landlord misses the deadline, section 25ח(ג) applies section 9(א), which gives the tenant two distinct remedies: **(1)** repair and demand **reimbursement of reasonable expenses**, or **(2)** **reduce the rent in proportion** to the fall in the value of the tenancy. These are different amounts, and remedy (2) is unrelated to repair cost. Deducting the invoice from the rent is not one of them: a tenant who simply pays less rent is in arrears, which is a ground under section 25י(ג)(1) to realise the guarantee and a basis for an eviction claim. Section 9(ב) requires reasonable advance notice before self-repair; section 9(ג) waives it for an urgent defect.
 
 ### 3. Tenant Repair Obligations (Chovot Tikun shel HaSocher)
 
@@ -63,7 +63,7 @@ The law restricts the type and amount of security deposits (collectively, the "g
 
 | Rule | Details |
 |------|---------|
-| Maximum guarantee amount | The total of all guarantees may not exceed the LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term, measured in rent). Example: a 12-month lease at NIS 2,000/month caps at NIS 6,000 (3 months); a 6-month lease at NIS 2,000/month caps at NIS 4,000 (one-third of 6 months = 2 months) |
+| Maximum guarantee amount | Section 25י(ב) is scoped: it governs guarantees "involving a monetary outlay by the tenant" (הכרוכה בהוצאה כספית לשוכר), expressly a bank guarantee or cash. Their COMBINED total may not exceed the LOWER of (a) 3 months' rent OR (b) one-third of the total lease value (one-third of the lease term, measured in rent). Example: a 12-month lease at NIS 2,000/month caps at NIS 6,000 (3 months); a 6-month lease at NIS 2,000/month caps at NIS 4,000 (one-third of 6 months = 2 months) |
 | Why it matters | For any lease shorter than a year the one-third figure binds before the 3-month figure. "3 months" is only the cap for leases of 12 months or longer |
 | Deposit return deadline | Within 60 days of the tenant vacating the apartment (or settling outstanding debts, whichever is later) |
 | Deduction requirements | Landlord must provide itemized list of claimed damages |
@@ -79,7 +79,7 @@ The law restricts the type and amount of security deposits (collectively, the "g
 | Promissory note (shtar hon) | שטר הון | Permitted but high-risk | High for tenant |
 | Personal guarantors | ערבים אישיים | Yes | Varies |
 
-### 5. Written Contract Requirement and Landlord Disclosure (Section 25ב)
+### 5. Written Contract Requirement (Section 25ב) and Landlord Disclosure (Section 25ג + Second Schedule item 7)
 
 | Aspect | Details |
 |--------|---------|
@@ -89,7 +89,7 @@ The law restricts the type and amount of security deposits (collectively, the "g
 | Required elements | Parties, property, term, rent, deposit, maintenance obligations |
 | Copies | Both parties must receive a signed copy |
 
-**Note**: Section 25ב makes the written, signed contract the statutory norm for residential leases. As a secondary nuance, an oral lease is not automatically void under Israeli law, but it falls short of the statutory form, offers minimal protection, and is extremely difficult to enforce. Always insist on a written contract. The landlord's disclosure duty is independent: concealing a known non-minor defect, or a known nuisance in the apartment's surroundings causing material disruption, breaches section 25ב.
+**Note**: Section 25ב makes the written, signed contract the statutory norm for residential leases. As a secondary nuance, an oral lease is not automatically void under Israeli law, but it falls short of the statutory form, offers minimal protection, and is extremely difficult to enforce. Always insist on a written contract. The landlord's disclosure duty sits in a different provision: section 25ג requires the lease to contain the Second Schedule particulars, and item 7 of that Schedule is the known non-minor defect or known material nuisance. Section 25ב governs the FORM of the contract, section 25ג its CONTENTS.
 
 ### 6. Termination and Notice Requirements
 
@@ -179,7 +179,7 @@ The law also provides protections for landlords.
 ## Practical Tips for Landlords
 
 1. **Use a proper written contract** covering all essential terms
-2. **Disclose known defects** before signing, as required by section 25ב: any non-minor defect in the apartment, and any nuisance in the apartment or its surroundings causing material disruption, that the landlord knows about (failure to disclose can lead to liability)
+2. **Disclose known defects** before signing, as required by section 25ג and item 7 of the Second Schedule: any non-minor defect in the apartment, and any nuisance in the apartment or its surroundings causing material disruption, that the landlord knows about (failure to disclose can lead to liability)
 3. **Create a property condition report** at move-in with the tenant
 4. **Report rental income** to the Tax Authority (Mas Hachnasa) to avoid penalties
 5. **Respond to repair requests** promptly and in writing

@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.4.0] - 2026-08-29
+
+Corrections from a public report (four items, all verified against the consolidated statute), plus
+three defects found while verifying them. A larger remediation covering further findings from an
+expert legal review is prepared but held pending an independent review pass.
+
+### Fixed
+- Section 25י(ב)'s ceiling is scoped to guarantees "involving a monetary outlay by the tenant" (cash, bank guarantee). A promissory note and personal guarantors are not counted in it. The reference file previously said "the total of all guarantees".
+- Sections 25י(ג), (ד) and (ה) bind EVERY guarantee, including those outside the ceiling: realisation only on the four closed grounds, advance notice and a chance to cure before realising, and return within 60 days including the guarantee's fruits. Realisation grounds replace the previous loose "damages beyond normal wear" description.
+- The 20,000 NIS exclusion threshold in section 25טו(4) is updated every 1 January by the CPI and rounded to the nearest 10 NIS. Both language files previously stated it was not index-linked.
+- The landlord's pre-contract disclosure duty is item 7 of the Second Schedule, mandated by section 25ג. It was attributed to section 25ב, which governs the written form of the contract only.
+- The repair remedy: section 25ח(ג) applies s.9(א), giving reimbursement of reasonable expenses or a PROPORTIONAL rent reduction. The skill said the tenant may deduct the repair cost from the rent, advice that puts a tenant in arrears and hands the landlord a 25י(ג)(1) realisation ground and an eviction claim.
+- Family leases are NOT excluded from the chapter. Section 25טו(ב) disapplies only 25יד(2) for a קרוב, so relatives may contract out but every protection otherwise applies. They were listed alongside hotels and dormitories as excluded.
+- The bundled calculator's CPI table was invented data understating 2022-2025 inflation by roughly a third while emitting a shekel figure. Replaced with the official CBS series 120010, chain-linked across the 2020/2022/2024 base changes and extended to 2026-07.
+- Replaced the Knesset legislation portal reference link, which returns 401.
+- Corrected the 10-year exclusion (it requires that the landlord have no earlier cancellation right) and the 3-month exclusion (no extension option).
+
+### Added
+- The 2026 amendment (Sefer HaChukkim 3510, 31.3.2026) adding a "notenn aruvah acher" guarantee to section 25י, in force 30.9.2026.
+- A note that where guarantors are used, an ערב יחיד is released entirely if the deed states no fixed sum (Guarantee Law 5727-1967, s.21(ב)).
+- Reference links to the consolidated law text and the official Sefer HaChukkim publication.
+
+### Changed
+- Evidence entries for the deposit cap, the exclusion threshold, the disclosure duty, the written-form rule and the repair remedy now cite the statute directly instead of a secondary summary.
+
 All notable changes to this skill are documented here.
 
 ## [1.3.0] - 2026-08-09
