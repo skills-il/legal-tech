@@ -57,10 +57,28 @@ Source: section 2(a1) of the 2006 law.
 | Change to the common property that is not an apartment extension or a new apartment | A majority of the apartment owners, decided in advance | s.3 |
 | Building one or more new apartments in the common property | **Two thirds of the apartments** plus **two thirds of the common property** attached to their apartments, approved by the mefake'ach on a claim, after every owner has had an opportunity to argue | s.5(a) |
 | Demolition of the existing building and rebuilding it | **Two thirds of the apartments** plus **two thirds of the common property**, in a building with **at least four apartments and more than two owners** | s.5a(a) |
-| Demolition and rebuild where the beit meshutaf has **six apartments or more** | The majority is computed under **section 4 of the pinui-binui law**, mutatis mutandis, NOT under the plain two-thirds rule above | s.5a(a1) |
+| Demolition and rebuild where the beit meshutaf has **six apartments or more** | Same two-thirds threshold, but the COUNTING changes: section 4 of the pinui-binui law applies, mutatis mutandis, which discounts an owner holding more than 30 percent of the apartments | s.5a(a1) |
 
-The six-apartment rule is the one most often missed, and most Israeli apartment buildings are
-above it, so the plain two-thirds rule is the narrower case rather than the general one.
+### What the six-apartment rule actually does, and what it does not do
+
+Section 5a(a1) says that "for the purpose of COMPUTING the majority required to approve the work"
+in a beit meshutaf of six apartments or more, section 4 of the pinui-binui law applies mutatis
+mutandis. It is easy to misread this as routing to a different, higher threshold. It does not.
+
+Section 4 of the pinui-binui law is headed "baalut al yoter mi-dira achat", ownership of more than
+one apartment, and it is a DISCOUNT rule, not a threshold. In a beit meshutaf of six apartments or
+more, an owner holding more than thirty percent of the apartments is counted as holding thirty
+percent, plus one third of the excess. The statute defines the excess ("shiur ha-hefresh") as that
+owner's share of the apartments minus thirty percent.
+
+So for a building of six or more apartments the threshold stays two thirds plus two thirds. What
+changes is the arithmetic: a single owner who has bought up a large block of the building cannot
+carry the vote on their own weight. Worked example, a building of ten apartments where one owner
+holds five: that owner's raw share is 50 percent, the excess over 30 percent is 20 percent, one
+third of that is about 6.67 percent, so they are counted at about 36.67 percent rather than 50.
+
+This is the correct answer to the very common question "my neighbour bought four flats, can he
+force this through". Read section 4 before answering it.
 
 ### The temporal split on demolition and rebuild
 

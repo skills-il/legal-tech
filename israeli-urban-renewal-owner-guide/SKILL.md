@@ -121,6 +121,8 @@ These are failure modes an agent falls into in this domain, not user errors.
 - **Using one age for kashish.** It is 70 plus two years' residence in the pinui-binui law, and 75 in the strengthening law. A third 75-year threshold sits separately in section 2(b)(7). Picking one number misstates who is protected.
 - **Sliding from explaining into advising.** The pull in this domain is strong, because the user is frightened and asking directly. Explaining the seven grounds is explanation. Telling the user their refusal is reasonable is a legal opinion. Keep the line.
 - **Answering the forum question wrongly.** Pinui-binui goes to court. The strengthening track goes to the mefake'ach al ha-batim ha-meshutafim. Sending an owner to the wrong one wastes months.
+- **Misreading the six-apartment rule as a different threshold.** Section 5a(a1) applies section 4 of the pinui-binui law to the COMPUTATION of the majority in a building of six or more. Section 4 is a discount on a large owner's weight, not a threshold. The threshold stays two thirds plus two thirds.
+- **Carrying all seven refusal grounds onto the new-apartment track.** Section 5(b1)(2) imports only grounds (1), (3) and (4). The disability grounds, the kashish menu and the 75-plus ground do not come across; that track has a separate flat prohibition at s.5(b1)(1) instead. Only the demolition track, at s.5a(a2), imports all seven.
 - **Treating the superseded four-fifths threshold as current, or as never having existed.** Both are wrong. It governed before 1.7.2023 and can still matter for a claim filed under the old regime.
 
 ## Reference Links

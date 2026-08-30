@@ -180,6 +180,10 @@ Each of these was found in circulation and is contradicted by the statutory text
 | TAMA 38/1 and 38/2 both need two thirds, flatly | Kol Zchut's TAMA 38 page | Directionally right for the current text but omits the six-or-more-apartments routing rule and the pre-2023 four-fifths regime. |
 | "TAMA 38 has ended, so the protections no longer apply" | Common inference from the 2022 expiry coverage | Tikkun 7 widened "tochnit ha-chizuk" in 2022 to cover the successor municipal plans, precisely so the protections continue. |
 | Kashish means 70 (or means 75), one number for the whole domain | Most guides pick one | It is 70 plus two years' residence in the pinui-binui law, 75 in s.5(b1) of the strengthening law, and 75 again at s.2(b)(7)(a) of the pinui-binui law. Three thresholds, different triggers. |
+| The six-apartment rule sets a different (higher) majority | Inferred from the bare cross-reference in s.5a(a1); this skill shipped the error in v1.0.0 | s.4 of the pinui-binui law is a discount on a large owner's counted weight, not a threshold. The majority stays two thirds plus two thirds. |
+| All seven refusal grounds apply on every strengthening-track project | Widely assumed | s.5(b1)(2) imports only grounds (1), (3) and (4) on the new-apartment track. Only s.5a(a2), the demolition track, imports all seven. |
+| The pinui-binui tax exemption is perek chamishi 5 of the Land Taxation Law | Common, and it was in this skill's own commissioning brief | Pinui-binui is perek chamishi 4, opening at s.49yod-tet. Perek chamishi 5 (s.49lamed-gimel) is the TAMA 38 building-rights exemption. The skill deliberately states no chapter, but do not introduce the wrong one on a future update. |
+| Chok pinui u-vinui (pitzuyim) and chok pinui u-vinui (idud mizmei pinui u-vinui) are two statutes | Common, and it was in this skill's own commissioning brief | They are the same statute. Amendment 6, in force 29.10.2018, renamed it. Citing both double-counts one law. |
 
 ## Authoritative sources
 

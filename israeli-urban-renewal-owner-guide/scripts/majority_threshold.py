@@ -102,14 +102,6 @@ def chizuk(work, apartments):
     # demolition
     lines.append("Work: demolition of the existing building and rebuilding it (s.5a).")
     lines.append("")
-    if apartments >= 6:
-        lines.append("  This building has %d apartments, which is SIX OR MORE." % apartments)
-        lines.append("  Under s.5a(a1) the required majority is NOT the plain two-thirds rule.")
-        lines.append("  It is computed under section 4 of the pinui-binui law, mutatis mutandis,")
-        lines.append("  which routes to the composite in that statute. Run this script with")
-        lines.append("  --track pinui-binui to see the composite limbs, and read the section")
-        lines.append("  text before relying on any single number here.")
-        return lines, None
     if apartments < 4:
         lines.append("  This building has %d apartments." % apartments)
         lines.append("  The s.5a(a) route requires a building of at least four apartments and")
@@ -130,7 +122,28 @@ def chizuk(work, apartments):
     )
     lines.append("  still governs matters measured under the old regime, and it is the source")
     lines.append("  of the '80 percent' figure still published as though it were current.")
+    if apartments >= 6:
+        lines.append("")
+        lines.append("  SIX OR MORE APARTMENTS: s.5a(a1) applies s.4 of the pinui-binui law to the")
+        lines.append("  COMPUTATION of this majority. That does NOT change the two-thirds threshold.")
+        lines.append("  s.4 is a discount rule: an owner holding more than 30 percent of the")
+        lines.append("  apartments is counted as holding 30 percent plus one third of the excess.")
+        lines.append("  Pass --largest-owner-apartments to see that arithmetic.")
     return lines, need
+
+
+def section4_discount(apartments, owned):
+    """s.4 of the pinui-binui law: in a beit meshutaf of six apartments or more, an
+    owner of more than 30 percent of the apartments counts as 30 percent plus one
+    third of the excess over 30 percent. Returns (raw_pct, counted_pct) or None
+    when the rule does not bite."""
+    if apartments < 6:
+        return None
+    raw = owned / apartments * 100.0
+    if raw <= 30.0:
+        return (raw, raw)
+    excess = raw - 30.0
+    return (raw, 30.0 + excess / 3.0)
 
 
 def main(argv=None):
@@ -150,6 +163,12 @@ def main(argv=None):
         help="Pinui-binui only: total apartments across the makbetz.",
     )
     p.add_argument("--signed", type=int, help="How many apartments have signed, for arithmetic only.")
+    p.add_argument(
+        "--largest-owner-apartments",
+        type=int,
+        help="How many apartments the single largest owner holds. Shows the s.4 discount "
+             "in a beit meshutaf of six apartments or more.",
+    )
     p.add_argument("--example", action="store_true", help="Run a worked example and exit.")
     args = p.parse_args(argv)
 
@@ -169,6 +188,23 @@ def main(argv=None):
         lines, threshold = chizuk(args.work, args.apartments)
 
     print("\n".join(lines))
+
+    if args.largest_owner_apartments is not None:
+        d = section4_discount(args.apartments, args.largest_owner_apartments)
+        print("")
+        if d is None:
+            print("  s.4 discount does not apply: it bites only at six apartments or more.")
+        else:
+            raw, counted = d
+            if abs(raw - counted) < 1e-9:
+                print("  Largest owner holds %d of %d (%.2f percent), at or under 30 percent," %
+                      (args.largest_owner_apartments, args.apartments, raw))
+                print("  so the s.4 discount does not reduce their weight.")
+            else:
+                print("  s.4 discount (six or more apartments): the largest owner holds %d of %d," %
+                      (args.largest_owner_apartments, args.apartments))
+                print("  a raw %.2f percent, but is COUNTED at %.2f percent" % (raw, counted))
+                print("  (30 percent, plus one third of the %.2f percent excess)." % (raw - 30.0))
 
     if args.signed is not None:
         print("")

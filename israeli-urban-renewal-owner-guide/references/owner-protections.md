@@ -40,10 +40,29 @@ ha-shear, be-echad me-eleh", so the list is expressly non-exhaustive. The seven 
 
 Source: section 2(b) of the 2006 law.
 
-**How to use this list.** Walk the user through it so they can see which grounds might be in play
-and what evidence each would need. Do not conclude that a ground applies to them. Whether it does
-is decided by the court, or by the mefake'ach in the strengthening track, where these same grounds
-are imported by section 5a(a2) of the 2008 law with the necessary modifications.
+**Which of the seven actually apply depends on the track. This is a named-subset import and it is
+easy to get wrong.**
+
+| Track | Grounds available | Source |
+|---|---|---|
+| Pinui-binui | All seven, and the list is open ("bein ha-shear") | s.2(b) of the 2006 law |
+| Strengthening, demolition and rebuild (s.5a) | All seven, grounds (1) to (7) imported | s.5a(a2) of the 2008 law |
+| Strengthening, building a new apartment (s.5) | **Only grounds (1), (3) and (4)**, that is: not economically viable, no adequate securities, and special personal circumstances | s.5(b1)(2) of the 2008 law |
+
+On the new-apartment track the disability grounds, the kashish alternatives menu and the 75-plus
+ground are NOT imported through s.5(b1)(2). That track has its own separate protection instead, at
+s.5(b1)(1): the mefake'ach may not approve the work at all where one of the owners is a kashish, at
+75 there, or a person permanently confined to their home, unless alternative housing for the works
+period was offered, with the required adaptations. That is a flat prohibition rather than a factor
+to weigh, so it is stronger in kind but narrower in reach.
+
+Never carry the full list of seven across to the new-apartment track, and never tell an owner on
+that track that the kashish menu is available to them under s.2(b)(6).
+
+**How to use this list.** Walk the user through the grounds that apply to THEIR track so they can
+see which might be in play and what evidence each would need. Do not conclude that a ground applies
+to them. Whether it does is decided by the court in pinui-binui, or by the mefake'ach in the
+strengthening track.
 
 ## What the transaction itself must contain
 

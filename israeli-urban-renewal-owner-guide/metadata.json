@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "legal-tech",
   "tags": {
     "he": [
@@ -74,5 +74,5 @@
       "language": "he"
     }
   ],
-  "domain_checklist_version": 1
+  "domain_checklist_version": 2
 }

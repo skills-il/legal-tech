@@ -68,7 +68,7 @@
     },
     {
       "id": "chizuk-s5a-six-apartment-rule",
-      "claim": "For computing the majority required to approve demolition and rebuild in a beit meshutaf with six apartments or more, the provisions of section 4 of the pinui-binui law apply mutatis mutandis. Source: Section 5a of the 2008 law, routing to Section 4 of the 2006 law (סעיף 4).",
+      "claim": "For computing the majority required to approve demolition and rebuild in a beit meshutaf with six apartments or more, the provisions of Section 4 of the pinui-binui law apply mutatis mutandis. Section 4 is a discount on a large owner's counted weight, not a different threshold: the two-thirds requirement is unchanged. Source: Section 5a of the 2008 law, applying Section 4 of the 2006 law (סעיף 4).",
       "claim_type": "threshold",
       "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
       "source_fetched_at": "2026-08-31T00:00:00Z",
@@ -131,6 +131,33 @@
       "verified_at": "2026-08-31T00:00:00Z",
       "confidence": "high",
       "note": "gov.il returns HTTP 403 to plain HTTP clients. Verified by rendering the page in a real browser on 2026-08-31; the resolved page URL and H1 both matched the cited address."
+    },
+    {
+      "id": "pinui-s4-multi-apartment-discount",
+      "claim": "Section 4 of the pinui-binui law, headed ownership of more than one apartment, provides that for computing the special majority in a beit meshutaf of six apartments or more, an owner holding more than thirty percent of the apartments is counted as holding thirty percent plus one third of the excess, where the excess is that owner's share of the apartments minus thirty percent. Source: Section 4 of the 2006 law (סעיף 4).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "בעלות על יותר מדירה אחת 4. לצורך חישוב הרוב המיוחס מבין בעלי הדירות המסכים לעסקת פינוי ובינוי בבית משותף שבו שש דירות או יותר, ייחשב בעל דירה שבבעלותו יותר משלושים אחוזים מהדירות בבית המשותף כמי שבבעלותו שלושים אחוזים מהדירות בבית המשותף, בתוספת שליש משיעור ההפרש מהדירות בבית המשותף; בסעיף זה, \" שיעור ההפרש \" – שיעור הדירות בבית המשותף שבבעלותו מסך הדירות בבית המשותף, בניכוי שלושים אחוזים. תחולת פקודת הנזיקין 5. על עוולה לפי סעיף 2(א)(1), יחולו הוראות פקודת הנזיקין [נוסח חדש], בכפוף להוראות חוק זה. תביעה לפינוי דיר",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5-subset-import-of-refusal-grounds",
+      "claim": "On the strengthening track's new-apartment route, סעיף 5(ב1)(2) of the 2008 law imports only grounds (1), (3) and (4) of s.2(b) of the pinui-binui law, not all seven. The same subsection shows the separate s.5(b1)(1) protection where an owner is a kashish, defined there as 75 years old at the date the first transaction under the strengthening plan was signed.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "או ככל שהן מתחייבות ממאפייניהם של המגורים החלופיים; בסעיף קטן זה – \"אדם עם מוגבלות\" ו\"התאמות\" – כהגדרתם בסעיף 2(ג) לחוק פינוי ובינוי; \"קשיש\" – בעל דירה בבית המשותף שבמועד שבו נחתמה עסקה ראשונה לפי תכנית החיזוק, מלאו לו, על פי הרישום במרשם האוכלוסין, 75 שנים; (2) אם בעל דירה התנגד בשל אחת הנסיבות המפורטות בפסקאות (1), (3) ו-(4) לסעיף 2(ב) חוק פינוי ובינוי, יחולו הוראות אותו סעיף, בשינויים המחויבים ובשינויים אלה: (א) בכל מקום, במקום \"עסקת פינוי ובינוי\" יקראו \"עסקה לפי תוכנית החיזוק\"; (ב) לעניין פסקה (1), שמאי פינוי ובינוי יהיה שמאי שמונה לפי סעיף 6א. (ג) הוראות סימן ד' בפרק ו' לחוק המ",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5a-full-import-of-refusal-grounds",
+      "claim": "By contrast, on the demolition-and-rebuild route סעיף 5א(א2) of the 2008 law bars the mefake'ach from approving the work where an owner objected on any of grounds (1) to (7) of s.2(b) of the pinui-binui law, that is, all seven.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(א2) בלי לגרוע מהוראות סעיף קטן (א), לא יאשר המפקח את ביצוע העבודה כאמור בסעיף קטן (א), אם בעל דירה התנגד בשל אחת הנסיבות המפורטות בפסקאות (1) עד (7) לסעיף 2(ב) לחוק פינוי ובינוי, ויחולו הוראות אותו סעיף בשינויים המחויבים ובשינויים אלה: (1) בכל מקום, במקום \"עסקת פינוי ובינוי\" יבוא \"עסקה לפי תוכנית ה",
+      "confidence": "high"
     }
   ]
 }
