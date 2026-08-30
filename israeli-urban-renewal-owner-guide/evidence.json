@@ -1,0 +1,136 @@
+{
+  "skill_slug": "israeli-urban-renewal-owner-guide",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-08-31",
+  "claims": [
+    {
+      "id": "rov-meyuchas-pinui-binui",
+      "claim": "The pinui-binui special majority (rov meyuchas) is a three-part composite: at least two thirds of all apartments in the makbetz, at least three fifths of the apartments in each beit meshutaf (or at least three apartments where the beit meshutaf has only four or five, with more than two owners), and more than half of the common property in each beit meshutaf attached to their apartments. Source: Section 1 of the 2006 law (סעיף 1).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\" רוב מיוחס מבין בעלי הדירות \" – בעלי הדירות במקבץ לפינוי ובינוי, שבבעלותם שני שלישים לפחות מתוך כלל הדירות שבמקבץ, וכן מתקיימים בהם שני אלה: (1) בבעלותם שלוש חמישיות לפחות מהדירות בכל בית משותף שבאותו מקבץ, ואולם לעניין בית משותף שיש בו ארבע או חמש דירות בלבד – בבעלותם שלוש דירות לפחות מהדירות בבית המשותף, ויש בבית המשותף יותר משני בעלי דירות; (2) יותר ממחצית מהרכוש המשותף בכל בית משותף שבאותו מקבץ צמודים לדירותיהם; \" רוב מיוחס מבין בעלי הדירות לעניין קביעת כדאיות כלכלית \" – בעלי הדירות במקבץ פינוי ובינוי, שמתקיימ",
+      "confidence": "high"
+    },
+    {
+      "id": "rov-meyuchas-kedaiut",
+      "claim": "A separate and lower special majority governs the economic-viability question: more than two fifths of the apartments in each beit meshutaf and more than two fifths of the common property. Source: Section 1 of the 2006 law (סעיף 1).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\" רוב מיוחס מבין בעלי הדירות לעניין קביעת כדאיות כלכלית \" – בעלי הדירות במקבץ פינוי ובינוי, שמתקיימים בהם שני אלה: (1) בבעלותם למעלה משתי חמישיות מהדירות בכל בית משותף שבאותו מקבץ; (2) למעלה משתי חמישיות הרכוש המשותף בכל בית משותף שבאותו מקבץ צמודות לדירותיהם; \" הרשות הממשלתית להתחדשות עירונית \" – כהגדרתה בחוק הרשות הממשלתית להת",
+      "confidence": "high"
+    },
+    {
+      "id": "kashish-70-pinui",
+      "claim": "Under the pinui-binui law a kashish is an apartment owner who was 70 years old at the date the first pinui-binui transaction in that building was signed and had lived in that apartment for at least two years at that date. Source: Section 1 of the 2006 law (סעיף 1).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\" קשיש \" – בעל דירה בבית המשותף שבמועד שבו נחתמה עסקת פינוי ובינוי ראשונה מלאו לו, על פי הרישום במרשם האוכלוסין, 70 שנים, ובמועד האמור הוא התגורר בדירה באותו בית משותף שנתיים לפחות; \" רוב מיוחס מבין בעלי הדירות \" – בעלי הדירות במק",
+      "confidence": "high"
+    },
+    {
+      "id": "sarvan-remedies",
+      "claim": "Where the special majority has agreed and the court finds an owner is unreasonably refusing to transfer rights or conditioning consent on unreasonable terms, the court may either hold that owner liable in tort to the consenting owners, or approve the transaction and appoint an advocate or accountant who is not an owner in the complex to contract on the refusing owner's behalf. Source: Section 2 of the 2006 law (סעיף 2).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "2. (א) הסכים רוב מיוחס מבין בעלי הדירות במקבץ לפינוי ובינוי לכרות עסקת פינוי ובינוי, ומצא בית המשפט כי בעל דירה באותו מקבץ מסרב סירוב בלתי סביר להעביר את זכויותיו לשם ביצוע העסקה או מתנה את הסכמתו לכך בתנאים בלתי סבירים (בחוק זה – בעל דירה מסרב), רשאי בית המשפט לפעול באחת מאלה – (1) לקבוע כי בעל הדירה המסרב אחראי בנזיקין כלפי שאר בעלי הדירות באותו מקבץ המסכימים לעסקה, בשל הנזק שנגרם להם עקב אי-ביצוע העסקה; (2) לאשר את ביצוע העסקה וכן למנות עורך דין או רואה חשבון, שאינו בעל דירה במקבץ, שיהיה מוסמך, בהתאם להוראות בית המשפט, להתקשר בעסקה בשם בעל הדירה המסרב. (א1) בית משפט רשאי לקבוע כי בחישוב הרוב המיוחס מבין בעלי הדירות לא יובאו בחשבון זכויותיו או חלק מזכויותיו של בעל דירה שלא הסכים לכריתת עסק",
+      "confidence": "high"
+    },
+    {
+      "id": "sarvan-reasonable-grounds",
+      "claim": "Section 2(b) lists grounds on which a refusal is not considered unreasonable, including that the transaction is not economically viable, that no alternative housing was offered for the construction period (with accessibility adaptations where the owner or a resident family member is a person with a disability), and that no adequate securities were offered. Source: Section 2 of the 2006 law (סעיף 2), subsection 2(b).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(ב) סירוב להעברת זכויות כאמור בסעיף קטן (א) לא ייחשב כבלתי סביר, בין השאר, באחד מאלה: (1) עסקת הפינוי ובינוי אינה כדאית כלכלית; קבע שמאי פינוי ובינוי כי העסקה כדאית כלכלית, תהווה קביעה זו חזקה כי היא כדאית כאמור לעניין בחינת סבירותו של הסירוב, אלא אם כן הוכח אחרת; קבע שמאי פינוי ובינוי כי העסקה תהיה כדאית כלכלית בהתקיים תנאים שקבע, חזקה כי היא כדאית כאמור בהתקיים התנאים שקבע, אלא אם כן הוכח אחרת; (2) לא הוצעו לבעל הדירה המסרב מגורים חלופיים לתקופת הקמת הבנין החדש, ואם בעל הדירה המסרב או בן משפחתו המתגורר עמו הוא אדם עם מוגבלות – המגורים החלופיים שהוצעו לו אינם כוללים התאמות, ככל שהיו בדירה שהזכויות בה מועברות או ככל שהן מתחייבות ממאפייניהם של המגורים החלופיים; (3) לא הוצעו לבעל הדירה המסרב בטוחות הולמות לביצוע עסקת הפינוי ובינוי, ואם נקבעו תנאים על ידי שמאי פינוי ובינוי לעניין כדאיות כלכלית – לא ניתנו ערבויות הולמות להתקיימות התנאים; (4) קיימות נסיבות אישיות מיוחדות של בעל הדירה המסרב שב",
+      "confidence": "high"
+    },
+    {
+      "id": "tochnit-chizuk-definition-2022",
+      "claim": "Since tikkun 7 (in force 10.7.2022) 'tochnit ha-chizuk' means any of three things, not only TAMA 38: TAMA 38 as in force from time to time; a plan prepared under TAMA 38 that allows a permit without approving a further plan; or a plan applying to a building requiring strengthening under section 70a of the Planning and Building Law that conditions realisation on demolition and rebuild or strengthening to the earthquake standard. The last two exclude a plan applying in a pinui-binui complex. The previous definition covered only TAMA 38. Source: Section 1 of the 2008 law (סעיף 1), as replaced by Amendment 7.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\"תכנית החיזוק\" – כל אחת מאלה: (1) תכנית מיתאר ארצית לחיזוק מבנים קיימים מפני רעידות אדמה (תמ\"א 38), כפי שתהיה בתוקף מזמן לזמן; (2) תכנית שבין מטרותיה חיזוק מבנים מפני רעידות אדמה שהוכנה לפי הוראות תכנית המיתאר הארצית האמורה בפסקה (1), הכוללת הוראות שמאפשרות מתן היתר מכוחה, לפי חוק התכנון והבנייה, בלא צורך באישור תכנית נוספת טרם מתן ההיתר, למעט תכנית כאמור החלה במתחם פינוי ובינוי; (3) תכנית החלה על מבנה הטעון חיזוק, כהגדרתו בסעיף 70א לחוק התכנון והבנייה, שמתנה את מימושה בחיזוק המבנה מפני רעידות אדמה בדרך של הריסה ובנייה מחדש או בדרך של חיזוק לפי תקן לעמידות מבנים ברעידות אדמה כהגדרתו בסעיף האמור, למעט תכנית כאמור החלה במתחם לפינוי ובינוי. מיום 10.7.2022 תיקון מס' 7 ס\"ח תשפ\"ב מס' 3004 מיום 10.7.2022 עמ' 1079 ( ה\"ח 1464 ) החלפת הגדרת \"תכנית החיזוק\" הנוסח הקודם: \"תכנית החיזוק\" – תכנית מיתאר ארצית לחיזוק מבנים קיימים מפני רעידות אדמה (תמ\"א 38), כפי שתהיה בתוקף מעת לעת. ביצוע עבודה ברכוש משותף",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5-new-apartment-majority",
+      "claim": "For work in the common property whose purpose is building one or more new apartments, the mefake'ach may approve the work on the claim of owners who at the date of filing held two thirds of the apartments in the beit meshutaf and had two thirds of the common property attached to their apartments, provided every owner was given an opportunity to argue their case. Source: Section 5 of the 2008 law (סעיף 5).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "5. (א) ביצוע עבודה ברכוש המשותף שמטרתה בניית דירה חדשה אחת או יותר, לרבות הוצאת חלקים מהרכוש המשותף לשם התקנת מקומות חניה והצמדתם לדירה או לדירות כאמור, טעון החלטה מראש של כל בעלי הדירות, כאמור בחוק המקרקעין; ואולם רשאי המפקח, אף אם לא התקבלה על כך החלטה מראש של כל בעלי הדירות בבית המשותף, לאשר את ביצוע העבודה, על פי תביעה של בעלי הדירות שבמועד הגשת התביעה היו בבעלותם שני שלישים מהדירות בבית המשותף ושני שלישים מהרכוש המשותף היו צמודים לדירותיהם, ובלבד שנתן לכל בעל דירה בבית המשותף הזדמנות לטעון את טענותיו. (ב) אישר המפקח ביצוע עבודה ברכוש המשותף שמטרתה ב",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5a-six-apartment-rule",
+      "claim": "For computing the majority required to approve demolition and rebuild in a beit meshutaf with six apartments or more, the provisions of section 4 of the pinui-binui law apply mutatis mutandis. Source: Section 5a of the 2008 law, routing to Section 4 of the 2006 law (סעיף 4).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(א1) לשם חישוב הרוב הדרוש לאישור ביצוע העבודה בבית משותף שבו שש דירות או יותר, יחולו הוראות סעיף 4 לחוק פינוי ובינוי, בשינויים המחויבים. (א2) בלי לגרוע מהוראות סעיף קטן (א), לא יאשר המפקח את ביצוע העבודה כאמור בסעיף קטן (א), אם בעל דירה התנגד בשל אחת הנסיבות ה",
+      "confidence": "high"
+    },
+    {
+      "id": "memuneh-role",
+      "claim": "The director of the Authority appoints an advocate with at least five years of relevant experience as the Memuneh for residents' enquiries in urban renewal, who is subject to no authority but the law, investigates enquiries by owners and occupiers within an urban renewal project including claims of unreasonable pressure applied to a resident to obtain consent to join a project, and must decide within 90 days, extendable for further periods not exceeding 90 days cumulatively. Source: Section 7 of the 2016 law (סעיף 7).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/142343.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "7. (א) מנהל הרשות ימנה, מבין עובדי הרשות, מי שהוא עורך דין שעסק חמש שנים לפחות בעניינים הקשורים לתחומי תפקידיה של הרשות או לתחומים הדומים להם, כממונה לעניין פניות דיירים בהתחדשות עירונית; בהחלטותיו לפי סעיף זה אין על הממונה מרות זולת מרותו של הדין. (ב) הממונה יברר פניות של בעלי דירה ומחזיקים בדירה בתחום מיזם להתחדשות עירונית (בסעיף זה – דייר), בעניינים הנוגעים למיזמי התחדשות עירונית, ובין השאר בעניין התנהגות יזמים, מארגנים, מינהלות עירוניות ודיירים אחרים כלפיהם, ובכלל זה טענות בעניין הפעלת לחץ בלתי סביר על דייר כדי שייתן את הסכמתו להצטרפות למיזם התחדשות עירונית. (ג) הממונה רשאי לברר את הפנייה בכל דרך שיראה לנכון, והוא אינו קשור להוראה שבסדר דין או בדיני ראיות; לשם בירור פנייה לפי פסקאות (1) עד (3) שבסעיף 7א, יהיו נתונות לממונה אף הסמכויות הנתונות לוועדת חקירה לפי סעיפים 9 עד 11 ו-27(ב) לחוק ועדות חקירה, התשכ\"ט-1968. (ד) הממונה ייתן את החלטתו בפנייה בתוך 90 ימים ממועד הגשתה, ורשאי הוא, מט",
+      "confidence": "high"
+    },
+    {
+      "id": "memuneh-prima-facie",
+      "claim": "Where the Memuneh determines that a resident's enquiry is justified because of a breach of any law, that determination is prima facie evidence of what it states in any legal proceeding. Source: Section 7 of the 2016 law (סעיף 7), subsection (f).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/142343.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(ו) קבע הממונה כי פניית דייר היא מוצדקת בשל הפרת הוראות כל דין, תהיה קביעתו ראיה לכאורה לנקבע בה בכל הליך משפטי. (ז) החלטות הממונה יפורסמו לציבור באתר האינטרנט של הרשות; השר, בהתיי",
+      "confidence": "high"
+    },
+    {
+      "id": "organizer-duties",
+      "claim": "An organizer must act for the benefit of the apartment owners in good faith, fairly and in an accepted manner, must give an owner every material item of information he holds concerning the transaction including whether he acts on behalf of a developer, and must supply requested information at the earliest possible time and no later than seven days from the request. Source: Section 11 of the 2017 law (סעיף 11). Section 13 (סעיף 13) imposes the confidentiality duty this one overrides on request, and Section 14 (סעיף 14) excludes the Brokers Law.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "11 . (א) מארגן יפעל לטובת בעלי הדירות בנאמנות, בהגינות ובדרך מקובלת, וימסור לבעל דירה כל מידע שיש בידו בעניין מהותי הנוגע לעסקת הפינוי ובינוי או לעסקה לפי תכנית החיזוק, לפי העניין, שלשם ארגונה נועד ההסכם, לרבות אם הוא פועל מטעמו של יזם המעוניין בביצוע עסקה כאמור, ואם התבקש לכך ועל אף האמור בסעיף 13 – מידע בנוגע להתקשרות בעלי דירות אחרים בהסכם לארגון עסקת התחדשות עירונית; מידע שהתבקש כאמור יימסר לבעל דירה במועד המוקדם ביותר האפשרי ולא יאוחר משבעה ימים ממועד הבקשה. (ב) מארגן יפעל במיומנות ובסבירות במילוי התחייבויותיו על פי הסכם לארגון עסקת התחדשות עירונית. עניין אישי 12 . מארגן לא יתקשר עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, הנוגע לעסקה כאמור שיש לו עניין אישי בה, אלא אם כן גילה לבעל ה",
+      "confidence": "high"
+    },
+    {
+      "id": "organizer-personal-interest",
+      "claim": "An organizer may not contract with an apartment owner in an organizing agreement relating to a transaction in which he has a personal interest unless he disclosed that personal interest to the owner and obtained the owner's written consent. Source: Section 12 of the 2017 law (סעיף 12).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "12 . מארגן לא יתקשר עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, הנוגע לעסקה כאמור שיש לו עניין אישי בה, אלא אם כן גילה לבעל הדירה את עניינו האישי כאמור וקיבל את הסכמתו לכך בכתב; בסעיף זה – \"עניין אישי\", של מארגן – לרבות עניין אישי של קרובו או של גוף שהמארגן או קרובו הם בעלי שליטה בו; \"קרוב\" – בן זוג, הורה, הורה הורה, בן או בת",
+      "confidence": "high"
+    },
+    {
+      "id": "organizer-void-stipulation",
+      "claim": "A stipulation on the provisions of the organizers law that is not in the apartment owner's favour is void. Source: Section 15 of the 2017 law (סעיף 15).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "15 . התניה על ההוראות לפי חוק זה שאינה לטובת בעל דירה – בטלה. פנייה לממונה לעניין פניות דיירים בהתחדשות עירוני",
+      "confidence": "high"
+    },
+    {
+      "id": "urban-renewal-authority-portal",
+      "claim": "The Government Authority for Urban Renewal (ha-Rashut ha-Memshaltit le-Hitchadshut Ironit) publishes its portal at this gov.il address, which is the current route to the Authority's services, its urban administrations directory and its FAQ.",
+      "claim_type": "url",
+      "source_url": "https://www.gov.il/he/departments/government_authority_for_urban_renewal",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "הרשות הממשלתית להתחדשות עירונית (page H1 heading, level 1). Page also links 'מינהלות עירוניות להתחדשות עירונית' and 'שאלות ותשובות נפוצות בנושא התחדשות עירונית'.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-31T00:00:00Z",
+      "confidence": "high",
+      "note": "gov.il returns HTTP 403 to plain HTTP clients. Verified by rendering the page in a real browser on 2026-08-31; the resolved page URL and H1 both matched the cited address."
+    }
+  ]
+}
