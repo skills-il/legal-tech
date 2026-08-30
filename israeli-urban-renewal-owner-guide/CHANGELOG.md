@@ -2,6 +2,46 @@
 
 All notable changes to this skill.
 
+## [1.1.0] - 2026-08-31
+
+### Added
+
+Closes the remaining Should-cover items from the coverage checklist. Every figure below was read
+from the statute's or the regulations' own text layer, and all 33 reachable evidence snippets
+re-verified at source.
+
+- **A third track, for war-damaged buildings.** chok shikum nizkei milchama be-derech shel
+  hitchadshut ironit, 2026, was not mentioned at all in earlier versions. A building the local
+  authority's engineer has determined destroyed or due for demolition after war damage falls under
+  it, with its own declaration process and its own disjunctive special majority: a majority of
+  owners holding a majority of apartments in each of most buildings in the declared area, or at
+  least four fifths of all apartments in it. This was the largest gap in the skill: an owner whose
+  building was hit would previously have been answered from the wrong statute.
+- **Predatory signing (hachtama pog'anit)**, s.5b of the 2006 law and s.5d of the 2008 law. Four
+  circumstances in which the Memuneh may declare the transaction void, including being given
+  misleading information about how many owners had already agreed. That is the most commonly
+  reported pressure tactic, and it turns out to be a voiding ground rather than merely sharp
+  practice.
+- **The disclosure duty and the right to withdraw**, s.6 and s.6a of the 2006 law. Anyone acting
+  for the developer, paid by the developer or the builder, or whose fee depends on the deal
+  happening, must disclose it in the first approach and in the agreement, and must report
+  non-negligible differences in temura between owners. Breach lets an owner withdraw consent even
+  after signing a binding agreement, and no stipulation against the owner's favour is valid.
+- **Procedural-defect cancellation at the 40 percent mark**, s.1c of the 2006 law and s.5b(e) of
+  the 2008 law, distinct from the lapse clocks.
+- **Prescribed form and content**, s.1e and s.5g1, under which breach can render a transaction void
+  with the Memuneh able to confirm it.
+- **What cancelling costs**, the 2025 regulations made under s.1d(e): a published per-apartment
+  schedule, zero in several cases and topping out at 10,000 NIS on the pinui-binui track and
+  1,800 NIS on the strengthening track. Stated as the published schedule with indexation and row
+  selection left to the owner's advocate.
+- **s.4 of the 2008 law, sixty percent for apartment enlargement**, completing that statute's
+  majority ladder.
+- **The guarantee vocabulary**, deliberately framed as market instruments rather than a statutory
+  checklist, because none of the four core statutes names a specific instrument. What is statutory
+  is only that inadequate securities make a refusal reasonable and that the transaction must carry
+  an undertaking to provide guarantees. Adequacy stays out of scope by design.
+
 ## [1.0.2] - 2026-08-31
 
 ### Added

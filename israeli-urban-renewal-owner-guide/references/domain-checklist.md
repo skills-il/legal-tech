@@ -146,6 +146,49 @@ signed agreement, does not value their apartment, and does not tell them what th
   Why core: the fear of being sued for breach is the main thing keeping owners in dead projects, and
   s.1d(d) is the provision that answers it.
 
+- [ ] THIRD TRACK: war-damaged buildings, under chok shikum nizkei milchama be-derech shel
+  hitchadshut ironit, 2026. A destroyed building is one the LOCAL AUTHORITY ENGINEER determined was
+  destroyed or must be demolished after war damage. Its special majority is disjunctive: a majority
+  of owners holding a majority of apartments in each of most buildings in the declared area, OR at
+  least four fifths of all apartments in the area.
+  Why core: an owner whose building was hit is this skill's user, and answering them from either
+  other track is wrong. Note this is the one track where four fifths is genuinely the figure.
+
+- [ ] PREDATORY SIGNING (hachtama pog'anit), s.5b of the 2006 law and s.5d of the 2008 law: four
+  circumstances in which the Memuneh may declare the transaction VOID, including misleading the
+  owner about how many owners had agreed by the signing date.
+  Why core: it is the most common pressure tactic reported, and it is a statutory voiding ground.
+
+- [ ] DISCLOSURE DUTY AND WITHDRAWAL, s.6 of the 2006 law: anyone acting for the developer, paid by
+  the developer or the builder, or whose fee is contingent on the deal, must disclose that in the
+  first approach and in the agreement, and must report non-negligible temura differences between
+  owners. Breach lets an owner withdraw consent even after signing binding. s.6a voids any
+  stipulation not in the owner's favour.
+  Why core: the sourced answer to "whose side is this person on", with a remedy attached.
+
+- [ ] PROCEDURAL-DEFECT CANCELLATION at the 40 percent mark: s.1c of the 2006 law and s.5b(e) of
+  the 2008 law. Signed before the kinus or before the offer document, a majority may cancel while
+  under 40 percent have signed, without being treated as in breach.
+  Why core: a live early-window exit that is distinct from the lapse clocks.
+
+- [ ] FORM AND CONTENT ARE PRESCRIBED, s.1e of the 2006 law and s.5g1 of the 2008 law: the Minister
+  of Justice sets requirements whose breach renders the transaction void, and the Memuneh may
+  confirm that.
+
+- [ ] COST OF CANCELLING, the 2025 regulations under s.1d(e): a published per-apartment schedule,
+  zero in several cases, topping out at 10,000 NIS on the pinui-binui track and 1,800 NIS on the
+  strengthening track.
+  Why core: bounded, published exit cost is the direct answer to the fear of open-ended liability.
+
+- [ ] s.4 of the 2008 law: SIXTY PERCENT for apartment enlargement, completing that statute's
+  majority ladder.
+
+- [ ] GUARANTEE VOCABULARY, presented as market instruments and explicitly NOT as a statutory
+  checklist. What is statutory is only s.2(b)(3) (inadequate betuchot make refusal reasonable) and
+  the minimum-content undertaking to provide guarantees. No statute behind this skill names a
+  specific instrument.
+  Why core: owners cannot ask about what they cannot name, but overstating it invents a legal duty.
+
 - [ ] The owner's right to their OWN independent advice, and an accurate description of who the
   orech din ha-dayarim is and who engages them, stated without telling the user to skip legal
   advice. Pair with the Memuneh route above.
@@ -168,9 +211,8 @@ signed agreement, does not value their apartment, and does not tell them what th
 - [ ] That a land-taxation relief regime for pinui-binui exists in the Land Taxation Law, WITHOUT
   encoding its ceilings or conditions, and that the applicable figures must be confirmed with the
   Tax Authority or a tax professional. See "Out of scope" for why the figures are excluded.
-- [ ] Guarantee types an owner should expect to see named in the transaction, presented as the
-  categories the statute and standard practice refer to, with the caveat that adequacy in a
-  specific deal is a professional judgement the skill does not make.
+- [x] Guarantee types: DONE in v1.1.0, as market vocabulary with the statutory line drawn
+  explicitly. Adequacy remains out of scope by design.
 
 ## Out of scope (explicit, with rationale)
 

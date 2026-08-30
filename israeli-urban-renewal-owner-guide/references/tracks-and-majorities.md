@@ -134,3 +134,52 @@ pinui-binui, or to the mefake'ach, in the strengthening track. That forum then d
 evidence, whether a particular refusal is unreasonable, and the statutory grounds in
 `owner-protections.md` are what it decides against. Say this explicitly whenever you quote a
 threshold, because owners are routinely told that hitting the number ends the argument.
+
+## A third track: war-damaged buildings
+
+Since 2026 there is a separate statute, chok shikum nizkei milchama be-derech shel hitchadshut
+ironit, for rehabilitating war-damaged areas through urban renewal. An owner whose building was hit
+is NOT on the pinui-binui or strengthening track by default, and quoting those thresholds to them
+is wrong. Establish this first whenever war damage is mentioned.
+
+Two definitions do the work:
+
+- **A destroyed building (binyan harus)** is one that suffered war damage where **the local
+  authority's engineer** determined, for the purposes of that law, that it was destroyed or must be
+  demolished. That determination is the gate, not the owner's view and not the developer's.
+- **A rehabilitation and renewal area (ezor le-shikum ve-hitchadshut)** is declared under the
+  statute, and a rehabilitation and renewal plan is the local or detailed plan matching its
+  boundaries.
+
+### Its majority is a fourth formula, and it is disjunctive
+
+"Rov meyuchad shel baalei ha-dirot" is satisfied by **one or more** of:
+
+1. A majority of the apartment owners in the area who own a majority of the apartments in **each of
+   most of the buildings** in that area, provided every building falling under s.4(2) is one of
+   them; **or**
+2. Owners of **at least four fifths** of all the apartments in the area.
+
+A plot with no building on it is counted as a plot containing one apartment.
+
+Note the irony worth stating to a user: four fifths is a real threshold **here**, on the
+war-damage track, and it is exactly the figure wrongly quoted for the other two tracks. Do not let
+that coincidence pull you into using it elsewhere.
+
+The transaction with an owner under this statute carries the same minimum-content spine as the
+other tracks: temura principles, maximum dates for plan approval, permit and delivery, details of
+who will build, and an undertaking by the developer to provide guarantees in the owner's favour.
+
+Because this statute is recent and is being applied to live cases, treat its detail as the most
+likely part of this skill to move. Read the current text before answering anything specific.
+
+## The remaining majority in the strengthening statute
+
+For completeness, so the table is not read as exhaustive: work in the common property whose purpose
+is **enlarging an apartment** requires an advance decision of those owning **sixty percent** of the
+apartments in the beit meshutaf, covering both the removal of common-property parts for attachment
+to that apartment and the allocation of the building rights required. Source: s.4 of the 2008 law.
+
+That completes the strengthening statute's ladder: s.3 a plain majority for other common-property
+work, s.4 sixty percent for enlargement, s.5 two thirds for a new apartment, s.5a two thirds for
+demolition and rebuild.

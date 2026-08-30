@@ -294,3 +294,121 @@ developer. A separate expiry regime, described earlier, governs the ORGANIZING a
 2017 law, where the Memuneh can certify expiry and the organizer gets no compensation for it. An
 owner may be inside one and outside the other, so establish which document is in front of them
 before quoting any period.
+
+## Predatory signing: when the signature itself can be undone
+
+Separately from the lapse clocks, the Memuneh may determine that a transaction is **void** because
+of how the signature was obtained. Section 5b of the 2006 law defines **hachtama pog'anit** as any
+of four circumstances:
+
+1. The owner signed **in a language he does not understand**, without the developer or someone on
+   his behalf explaining the main terms in a language he does understand.
+2. The developer or someone on his behalf **exploited the owner's medical, mental or intellectual
+   disability** to obtain the signature, where they knew or should have known of it.
+3. The developer or someone on his behalf created a **misleading impression that he represents a
+   public authority**.
+4. The developer or someone on his behalf gave the owner **misleading information**, expressly
+   including misleading information about **how many owners had agreed to the transaction by the
+   signing date**, or about the terms agreed with other owners.
+
+Section 5d of the 2008 law adopts the same definition for the strengthening track.
+
+Limb 4 is the one to surface, because it is the single most common pressure tactic an owner
+reports: being told the neighbours have all signed and only they are holding out. If that
+statement was untrue, it is not merely sharp practice, it is a statutory ground on which the
+Memuneh can declare the transaction void. An owner who was told a number should write down what
+they were told and when.
+
+## The disclosure duty, and the right to withdraw consent
+
+Section 6 of the 2006 law requires anyone in any of these three positions to say so **clearly**, in
+the first approach to the owners, before any engagement agreement is signed, and in the text of the
+agreement itself:
+
+1. someone acting on behalf of a developer who wants the transaction done;
+2. someone who receives, or will receive, consideration from the developer or from the contractor
+   who will build;
+3. someone whose fee depends on a pinui-binui transaction actually happening.
+
+They must also report, on their own initiative, any non-negligible difference between what one
+owner in the complex will receive and what others will.
+
+**Breach of either duty is a ground for an owner to withdraw consent already given, even if they
+have signed a binding engagement agreement.** Section 6a then voids any stipulation under the law
+that is not in the owner's favour, so this cannot be contracted around.
+
+This is the precise, sourced answer to "whose side is this person on". The law does not forbid
+someone being paid by the developer. It requires them to tell you, up front and in writing, and it
+gives you a way out if they did not.
+
+## Form and content are prescribed, and breach can void the transaction
+
+Section 1e of the 2006 law, and Section 5g1 of the 2008 law for the strengthening track, empower
+the Minister of Justice to prescribe the form and content of these transactions, **including
+requirements whose breach means the transaction is treated as void**. The Memuneh may give an
+owner confirmation that a transaction is void on that basis.
+
+Practical consequence to state plainly: "the contract says X" is not the end of the analysis. The
+contract has to comply with prescribed requirements before its terms matter at all.
+
+## What cancelling actually costs: the 2025 payment schedule
+
+Section 1d(e) directed the Minister of Justice to set what a developer may claim when a transaction
+is cancelled under the lapse-clock route. Those regulations were made in 2025, and they set a
+schedule of amounts **per apartment whose transaction was cancelled**, index-linked:
+
+| Track | Trigger for the cancellation | Payment per apartment |
+|---|---|---|
+| Pinui-binui | Developer had contracted with the owner of only one apartment | none |
+| Pinui-binui | Developer had not reached a fifth of the apartments (building of at most 34), or 7 apartments in a larger building | none |
+| Pinui-binui | Developer had not reached at least half | 5,000 NIS |
+| Pinui-binui | Developer had not reached three fifths | 7,000 NIS |
+| Pinui-binui | The two-thirds limb | 7,000 NIS |
+| Pinui-binui | No detailed plan submitted | 10,000 NIS |
+| Strengthening | Only one apartment in a building of three or more | none |
+| Strengthening | Not a third of the apartments (building of at most 20), or 7 in a larger building | none |
+| Strengthening | Not at least half | 500 NIS |
+| Strengthening | Not the s.4 rate, or the majority permitting application to the mefake'ach | 700 NIS |
+| Strengthening | Building permit application not accepted | 1,800 NIS |
+
+The point to make to a frightened owner is the SHAPE of this, not the arithmetic: the exit cost is
+published, bounded, per apartment, and in several cases zero. It is not open-ended damages for
+breach of contract, because s.1d(d) already says a cancelling owner is not treated as having
+breached. Give the figures as the published schedule, and send them to their own advocate to
+confirm which row their situation falls in and whether indexation applies.
+
+## The guarantee vocabulary, and what is and is not statutory
+
+Owners are handed a list of Hebrew guarantee names and have no way to tell which are legally
+required and which are commercial. Be precise about the line.
+
+**What the statutes here actually say.** Two things, and only two. The absence of adequate
+**betuchot** for performing the transaction makes a refusal reasonable under s.2(b)(3), and where
+the appraiser set conditions for economic viability, so does the absence of adequate **eravuyot**
+that those conditions will be met. Separately, the minimum content of the transaction must include
+an **undertaking by the developer to provide guarantees in the owner's favour** securing his
+obligations.
+
+**What the statutes here do NOT say.** None of the four statutes behind this skill names a specific
+guarantee instrument, and none of them requires a particular one. The names below are the market
+vocabulary an owner will meet in a contract and in negotiation, not a statutory checklist:
+
+| Name | What it is generally for |
+|---|---|
+| ערבות חוק מכר | Securing the owner's entitlement to the replacement apartment against the developer's failure |
+| ערבות שכר דירה | Securing the rent payments for the construction period |
+| ערבות ביצוע | Securing performance of the building works |
+| ערבות מסירה | Attaching to handover of the completed apartment |
+| ערבות מסים | Covering tax exposure that would otherwise fall on the owner if the developer defaults |
+| ערבות בדק | Covering the defects period after handover |
+
+Three rules when using this table:
+
+1. **Do not tell an owner that their deal must carry any particular instrument on this list.**
+   Which guarantees a transaction carries is contractual.
+2. **Do not assess adequacy.** Whether what is offered is adequate is the professional judgement
+   s.2(b)(3) turns on, and it belongs to the owner's advocate, with a shamai where value is in
+   issue.
+3. **Do use it to make the question askable.** An owner who can name the instruments can ask which
+   ones are in the contract, who issues them, when each comes into force and when each lapses.
+   That is the whole purpose of putting the vocabulary here.
