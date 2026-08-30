@@ -2,6 +2,31 @@
 
 All notable changes to this skill.
 
+## [1.0.2] - 2026-08-31
+
+### Added
+
+Two gaps the earlier review flagged as likely omissions, both now read from the statutory text.
+
+- **Pre-signature duties, s.1a of the 2006 law.** A kinus of the apartment owners before the first
+  transaction is signed, and a mismach ikarei hatzaa delivered to every owner in the building at
+  least two weeks before that first signature, naming the temura principles, the securities offered
+  and the developer's professional experience. An owner can check both against their own calendar
+  without professional input, which makes it the most actionable pre-signature right in the domain.
+- **The lapse clocks, per track, plus what cancellation actually does.** The two tracks carry
+  DIFFERENT periods for analogous triggers: pinui-binui runs 2 years / 4 years / 4 years 6 months
+  under s.1d(a), while the strengthening track runs 18 months / 3 years / 3 years 6 months under
+  s.5g. Both are extended by a year in a complex of 120 units or more, and where at most 40 percent
+  of the apartments are public housing the first-limb proportions count only the non-public ones.
+  Most importantly, s.1d(d): once the majority has resolved and written notice is given, an owner
+  who cancels is NOT treated as having breached the engagement, and the developer may claim only
+  under regulations made by the Minister of Justice. The fear of a breach claim is what keeps owners
+  in dead projects, so this is the provision that changes their position.
+
+Note on sourcing: the review that prompted this reported the strengthening-track clocks only, and
+did not carry the different pinui-binui periods, the 120-unit extension, the public-housing carve
+out, or the cancellation mechanism. All were read from the statute before being written.
+
 ## [1.0.1] - 2026-08-31
 
 ### Fixed

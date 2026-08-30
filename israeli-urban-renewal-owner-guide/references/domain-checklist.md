@@ -120,6 +120,32 @@ signed agreement, does not value their apartment, and does not tell them what th
   under s.7a of the Rashut law. Source: both statutes.
   Why core: an owner who believes they are locked in forever usually is not.
 
+- [ ] PRE-SIGNATURE duties, s.1a of the 2006 law: a kinus of the apartment owners before the first
+  transaction is signed, and a mismach ikarei hatzaa delivered to EVERY owner in the building not
+  later than two weeks before that first signature, setting out the temura principles, the securities
+  offered and the developer's professional experience. s.1b adds notice of the first signature and
+  delivery of the transaction documents.
+  Why core: the most actionable pre-signature right in the domain, checkable by the owner against
+  their own calendar with no professional input.
+
+- [ ] LAPSE CLOCKS, enumerated separately PER TRACK because the periods differ.
+  Pinui-binui, s.1d(a): half the owners within 2 years; three fifths within 4 years; detailed plan
+  submitted within 4 years 6 months (that last limb disapplied in a complex declared under s.14(a)(1)
+  of the Authority law). Strengthening, s.5g: half within 18 months; the s.4 rate or the majority
+  permitting application to the mefake'ach within 3 years; permit application ACCEPTED within
+  3 years 6 months. Both extended by one year where the complex has at least 120 units. Where at most
+  40 percent of the apartments are public housing, the first-limb proportions count only the
+  non-public apartments.
+  Why core: quoting one track's clock on the other misdates an owner's exit by years.
+
+- [ ] WHAT CANCELLATION ACTUALLY DOES, s.1d(a) and (d): a majority of owners in the building,
+  INCLUDING owners who are not parties to the transaction, resolve at a general meeting; written
+  notice goes to the developer; thereafter a contracting owner may cancel and is NOT treated as having
+  breached, with the developer entitled to payment only under regulations made by the Minister of
+  Justice.
+  Why core: the fear of being sued for breach is the main thing keeping owners in dead projects, and
+  s.1d(d) is the provision that answers it.
+
 - [ ] The owner's right to their OWN independent advice, and an accurate description of who the
   orech din ha-dayarim is and who engages them, stated without telling the user to skip legal
   advice. Pair with the Memuneh route above.

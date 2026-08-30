@@ -158,6 +158,60 @@
       "source_fetched_at": "2026-08-31T00:00:00Z",
       "raw_snippet": "(א2) בלי לגרוע מהוראות סעיף קטן (א), לא יאשר המפקח את ביצוע העבודה כאמור בסעיף קטן (א), אם בעל דירה התנגד בשל אחת הנסיבות המפורטות בפסקאות (1) עד (7) לסעיף 2(ב) לחוק פינוי ובינוי, ויחולו הוראות אותו סעיף בשינויים המחויבים ובשינויים אלה: (1) בכל מקום, במקום \"עסקת פינוי ובינוי\" יבוא \"עסקה לפי תוכנית ה",
       "confidence": "high"
+    },
+    {
+      "id": "pinui-s1a-pre-signature-disclosure",
+      "claim": "Before the first pinui-binui transaction is signed the developer must hold or take part in a gathering (kinus) of the apartment owners, and not later than TWO WEEKS before that first signature must deliver to ALL apartment owners a mismach ikarei hatzaa setting out, among other things, the principles for determining the temura he proposes, the securities he offers, and details of his professional experience. Source: Section 1a of the 2006 law (סעיף 1א).",
+      "claim_type": "law",
+      "raw_snippet": "כינוס בעלי הדירות בבית המשותף ומסירת מסמך עיקרי הצעה 1א. (א) לפני חתימה על עסקת פינוי ובינוי ראשונה יקיים היזם כינוס של בעלי הדירות בבית המשותף או ישתתף בכינוס כאמור, שבו יאפשר היכרות משותפת של בעלי הדירות עמו, ויציג את סוג העסקה המוצע על ידו. (ב) לא יאוחר משבועיים לפני חתימת עסקת פינוי ובינוי ראשונה, ימסור היזם לכל בעלי הדירות בבית המשותף מסמך עיקרי הצעה, שבו יפורטו, בין השאר, העקרונות לקביעת התמורה המוצעת על ידו, הבטוחות שהוא מציע לבעלי הדירות, וכן פרטים על אודות ניסיונו המקצועי. הודעה על חתימת עסקת פינוי ובינוי ראשונה ומסירת מסמכי העסקה 1ב. (א) נחתמה עסקת פינוי ובינוי ראשונה, ימסור היזם הודעה על כך לכל בעלי הדירות בבית המשותף. (ב) נחתמה עסקת פינוי ובינוי, ימסור היזם לב",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1d-lapse-clocks",
+      "claim": "On the pinui-binui track a majority of the apartment owners, including someone who is not a party to the transaction, may resolve at a general meeting that the contracting owners may cancel, where either the developer has not contracted with at least half the owners within TWO YEARS of the first transaction or with at least three fifths within FOUR YEARS, or a detailed plan was not submitted to the competent planning institution within FOUR YEARS AND SIX MONTHS. Source: Section 1d(a) of the 2006 law (סעיף 1ד).",
+      "claim_type": "threshold",
+      "raw_snippet": "תוקפה של עסקת פינוי ובינוי 1ד. (א) נחתמה עסקת פינוי ובינוי, רשאים רוב בעלי הדירות בבית המשותף, לרבות מי שאינו צד לעסקה, להחליט באסיפה כללית כי בעלי הדירות בבית המשותף שהתקשרו עם יזם בעסקת פינוי ובינוי רשאים לבטל את העסקה לפי הוראות סעיף זה, אם התקיים אחד מאלה: (1) היזם לא התקשר בעסקת פינוי ובינוי עם מחצית לפחות מבעלי הדירות בבית המשותף בתוך שנתיים מיום שנחתמה עסקת פינוי ובינוי ראשונה או שהיזם לא התקשר בעסקה כאמור עם שלוש חמישיות לפחות מבעלי הדירות בבית המשותף בתוך ארבע שנים מיום שנחתמה עסקת פינוי ובינוי ראשונה; (2) לא הוגשה תכנית מפורטת בידי היזם בהתאם להוראות סעיף 83א1 לחוק התכנון והבנייה למוסד התכנון המוסמך לאשרה בתוך ארבע שנים ושישה חודשים מיום שנחתמה עסקת פינוי ובינוי ראשונה; הוראות פסקה זו לא יחולו על עסקת פינוי ובינוי בבית משותף הנמצא במתחם שהוכרז לפי סעיף ?14(א)?(1) לחוק הרשות הממשלתית להתחדשות עירונית. (ב) נחתמה עסקת פינוי ובינוי בבית משותף הנמצא במתחם פינוי ובינוי או במתחם שקיבל",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1d-120-unit-extension",
+      "claim": "Where the building sits in a pinui-binui complex, or one with preliminary approval under Section 14 of the Authority law, and the complex has at least 120 units, all the periods in Section 1d(a) are extended by one year. Where at most 40 percent of the apartments are public housing, the rates in 1d(a)(1) are counted from the non-public apartments only. Source: Section 1d(b) to (c) of the 2006 law.",
+      "claim_type": "threshold",
+      "raw_snippet": "(ב) נחתמה עסקת פינוי ובינוי בבית משותף הנמצא במתחם פינוי ובינוי או במתחם שקיבל אישור מקדמי לפי סעיף 14 לחוק הרשות הממשלתית להתחדשות עירונית, ויש במתחם כאמור 120 יחידות לפחות, יוארכו בשנה התקופות האמורות בסעיף קטן (א). (ג) היו לכל היותר 40% מהדירות בבית המשותף דירות ציבוריות, יימנו השיעורים האמורים בסעיף קטן (א)(1) מהדירות שאינן דירות ציבוריות בלבד; בסעיף קטן זה, \" דירה ציבורית \" – כהגדרתה בסעיף 9 לחוק התחדשות עירונית",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1d-cancellation-effect",
+      "claim": "Once such a resolution is passed, written notice is given to the developer, and an owner who contracted may then cancel WITHOUT being treated as having breached the engagement; the developer is entitled to payment from that owner only under regulations made by the Minister of Justice. Source: Section 1d(d) to (e) of the 2006 law.",
+      "claim_type": "law",
+      "raw_snippet": "(ד) התקבלה החלטה כאמור בסעיף קטן (א), תימסר על כך הודעה בכתב ליזם, ומשנמסרה ההודעה רשאי בעל דירה מאותו בית משותף שהתקשר בעסקת פינוי ובינוי לבטלה, בלי שיראו אותו כמי שהפר את ההתקשרות עם היזם, והיזם יהיה זכאי לתשלום מאותו בעל דירה בהתאם להוראות שנקבעו לפי סעיף קטן (ה) בלבד. (ה) שר המשפטים, בהסכמת שר הבינוי והשיכון, יקבע הוראות לעניין תשלום ליזם שעסקה עימו בוטלה לפי הוראות סעיף זה. צורתה ותוכנה של עסקת פינוי ובינוי 1ה. (א) שר המש",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5g-lapse-clocks",
+      "claim": "The strengthening track has its OWN clocks. Section 5g of the 2008 law applies Section 1d of the pinui-binui law but replaces paragraphs (1) and (2): the developer must contract with at least half the owners within 18 MONTHS of the first transaction under the strengthening plan, and with the rate required under Section 4 of the 2008 law or the majority permitting application to the mefake'ach under Sections 5 or 5a within THREE YEARS; and a building permit application under Section 145(a3) of the Planning and Building Law must be ACCEPTED within THREE YEARS AND SIX MONTHS. Source: Section 5g of the 2008 law (סעיף 5ג).",
+      "claim_type": "threshold",
+      "raw_snippet": "תוקפה של עסקה לפי תכנית החיזוק 5 ג. (א) הוראות סעיף 1ד לחוק פינוי ובינוי יחולו גם לעניין עסקה לפי תכנית החיזוק, בשינויים המחויבים ובשינוי זה – במקום פסקאות (1) ו-(2) שבסעיף 1ד(א) לחוק האמור יקראו: \"(1) היזם לא התקשר בעסקה לפי תכנית החיזוק עם מחצית לפחות מבעלי הדירות בבית המשותף, בתוך 18 חודשים מיום שנחתמה עסקה ראשונה לפי תכנית החיזוק או שהיזם לא התקשר בעסקה לפי תכנית החיזוק עם השיעור הנדרש לפי סעיף 4 לחוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה), התשס\"ח-2008, או עם הרוב המאפשר פנייה למפקח לפי הוראות סעיף 5 או 5א לחוק האמור, לפי העניין, בתוך שלוש שנים מיום שנחתמה עסקה ראשונה כאמור; (2) לא נקלטה בקשה להיתר בנייה שהגיש היזם למוסד התכנון המוסמך לפי סעיף 145(א3) לחוק התכנון והבנייה, בתוך שלוש שנים ושישה חודשים מיום שנחתמה עסקה ראשונה לפי תכנית החיזוק;\". (ב) בסעיף זה – \"יזם\" – כהגדרתו בסעיף 5ב. מיום 18.11.2021 תיקון מס' 6 ס\"ח תשפ\"ב מס' 2933 מיום 18.11.2021 עמ' 203 ( ה\"ח 1443 ) הוספת סעיף",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1b-notice-and-documents",
+      "claim": "Section 1b of the 2006 law requires, once the first pinui-binui transaction has been signed, notice of that signature and delivery of the transaction documents to the apartment owners. Source: Section 1b of the 2006 law (סעיף 1ב).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "הודעה על חתימת עסקת פינוי ובינוי ראשונה ומסירת מסמכי העסקה 1ב. (א) נחתמה עסקת פינוי ובינוי ראשונה, ימסור היזם הודעה על כך לכל בעלי הדירות בבית המשותף. (ב) נחתמה עסקת פינוי ובינוי, ימסור היזם לבעל הדירה שעמו נחתמה העסקה את מסמכי העסקה או העתק נאמן למקור שלהם. (ג) שר המשפטים, בהתייעצות עם שר הבינוי והשיכון ושר העבודה הרווחה והשירותים החברתיים, יקבע הוראות לביצוע סעיף 1א וסעיף קטן (א), ובכלל זה לעניין אופן הכינוס וההודעה עליו, תוכנו של מסמך עיקרי הצעה, צורתו ואופן מסירתו וכן אופן מסירת ההודעה על חתימת עסקת פינוי ובינוי ראשונה. ביטול עסקת פינוי ובינוי בהחלטת רוב בעלי הדירות 1ג. נחתמה עסקת פינוי ובינוי לפני שנערך כינוס של בעלי הדירות בבית המשותף או לפני שנמסר מסמך עיקרי הצעה כאמור בסעיף 1א, רשאים",
+      "confidence": "high"
     }
   ]
 }

@@ -211,3 +211,86 @@ they pass, and what the owner's exit is. The minimum-content rule means maximum 
 approval, permit and delivery must be addressed in the transaction at all, so an owner can at least
 check they are present. Where the stall is at the organizing stage rather than the transaction
 stage, the expiry route and the Memuneh certificate described above may apply.
+
+## Before the first signature: the kinus and the mismach ikarei hatzaa
+
+Section 1a of the 2006 law puts two duties on the developer before ANY owner in the building signs:
+
+1. **A gathering.** Before the first pinui-binui transaction is signed, the developer must hold, or
+   take part in, a kinus of the apartment owners, at which the owners get to meet him together and
+   he presents the type of transaction he is proposing.
+2. **A written offer document, on a clock.** Not later than **two weeks** before that first
+   signature, he must deliver **to every apartment owner in the building**, not only to those
+   minded to sign, a **mismach ikarei hatzaa**. The statute requires it to set out, among other
+   things, the principles for determining the temura he proposes, **the securities he is offering**,
+   and details of his professional experience.
+
+This is the most actionable pre-signature right in the whole domain, and it is the one owners most
+often do not know they have. Two practical consequences worth telling an owner directly:
+
+- If nobody has held a kinus, or nobody handed you an offer document a fortnight before the first
+  neighbour signed, the process has not followed the statute. That is a fact the owner can check
+  against their own calendar without anyone's professional opinion.
+- The offer document must name the securities. An owner who has been told "we will sort out the
+  guarantees later" can point at s.1a and ask for the document.
+
+Section 1b then requires notice of the first signature and delivery of the transaction documents.
+
+## The lapse clocks: when a stalled project releases the owners
+
+Both tracks let the owners walk away from a project that has gone nowhere. **The clocks are
+different on each track, and mixing them up gives an owner the wrong date by years.**
+
+### Pinui-binui, s.1d(a) of the 2006 law
+
+| Trigger | Period, from the FIRST pinui-binui transaction |
+|---|---|
+| Developer has not contracted with at least **half** the owners in the building | 2 years |
+| Developer has not contracted with at least **three fifths** of the owners | 4 years |
+| A **detailed plan** was not submitted to the competent planning institution under s.83a1 of the Planning and Building Law | 4 years and 6 months |
+
+The plan limb does not apply to a building in a complex declared under s.14(a)(1) of the Authority
+law.
+
+### Strengthening track, s.5g of the 2008 law
+
+Section 5g applies s.1d but **replaces paragraphs (1) and (2)**, so the periods are shorter:
+
+| Trigger | Period, from the FIRST transaction under the strengthening plan |
+|---|---|
+| Developer has not contracted with at least **half** the owners | 18 months |
+| Developer has not contracted with the rate required under s.4 of the 2008 law, or with the majority permitting an application to the mefake'ach under s.5 or s.5a | 3 years |
+| A building permit application under s.145(a3) of the Planning and Building Law has not been **accepted** (nikleta) | 3 years and 6 months |
+
+Note the second limb is about acceptance of the application, not merely filing it.
+
+### Two modifiers that apply to both, and are easy to miss
+
+- **The 120-unit extension.** Where the building sits in a pinui-binui complex, or a complex with
+  preliminary approval under s.14 of the Authority law, and that complex has **at least 120 units**,
+  every period above is **extended by one year**. Large schemes get longer.
+- **The public-housing count.** Where at most **40 percent** of the apartments in the building are
+  public housing (dirot tzibduriot as defined in s.9 of the 2017 organizers law), the proportions in
+  the first limb are counted **from the non-public apartments only**.
+
+### What actually happens when a clock runs out
+
+Reaching a trigger does not cancel anything by itself. The mechanism, at s.1d(a) and (d), is:
+
+1. **A majority of the apartment owners in the building** resolve at a general meeting that the
+   contracting owners may cancel. Critically, that majority **includes owners who are not parties to
+   the transaction**, so an owner who never signed still has a vote on releasing those who did.
+2. **Written notice** of the resolution is given to the developer.
+3. Once notice is given, an owner who contracted **may cancel, and is not treated as having breached
+   the engagement with the developer**. The developer is entitled to payment from that owner only
+   under regulations made by the Minister of Justice, and on no other basis.
+
+That third point is the one that changes an owner's position most. The usual fear, that walking away
+from a stalled project means being sued for breach, is exactly what s.1d(d) displaces once the
+procedure has been followed.
+
+**Where this sits relative to the organizer.** The clocks above govern the TRANSACTION with the
+developer. A separate expiry regime, described earlier, governs the ORGANIZING agreement under the
+2017 law, where the Memuneh can certify expiry and the organizer gets no compensation for it. An
+owner may be inside one and outside the other, so establish which document is in front of them
+before quoting any period.

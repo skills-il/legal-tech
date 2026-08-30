@@ -76,7 +76,9 @@ Most users arrive believing they have none. Walk them through, in this order:
 1. **The statutory grounds on which refusal is reasonable.** Seven of them, in section 2(b). Present them as a list the user can check themselves against, not as a finding about them.
 2. **What the transaction must contain.** The statute sets a minimum content, so an owner can check whether those items are present without anyone's opinion.
 3. **Who the organizer owes duties to.** The organizer must act for the owners' benefit, must disclose whether he acts on a developer's behalf, and must answer an information request within seven days. Any stipulation not in the owner's favour is void.
-4. **The free complaint route.** The Memuneh investigates exactly the complaint most users have, including unreasonable pressure to consent, decides within a bounded time, and a finding of a legal breach is prima facie evidence in later proceedings.
+4. **What was owed before anyone signed.** A gathering, and an offer document delivered to every owner in the building at least two weeks before the first signature, naming the temura principles, the securities offered and the developer's experience. An owner can check this against their own calendar.
+5. **The lapse clocks.** A project that has gone nowhere releases the owners. The periods differ per track, and once the procedure is followed an owner who cancels is not treated as having breached. Read `references/owner-protections.md` before quoting any period; do not carry a period across tracks.
+6. **The free complaint route.** The Memuneh investigates exactly the complaint most users have, including unreasonable pressure to consent, decides within a bounded time, and a finding of a legal breach is prima facie evidence in later proceedings.
 
 ### Step 4, be accurate about the professionals in the room
 
@@ -123,6 +125,7 @@ These are failure modes an agent falls into in this domain, not user errors.
 - **Answering the forum question wrongly.** Pinui-binui goes to court. The strengthening track goes to the mefake'ach al ha-batim ha-meshutafim. Sending an owner to the wrong one wastes months.
 - **Misreading the six-apartment rule as a different threshold.** Section 5a(a1) applies section 4 of the pinui-binui law to the COMPUTATION of the majority in a building of six or more. Section 4 is a discount on a large owner's weight, not a threshold. The threshold stays two thirds plus two thirds.
 - **Carrying all seven refusal grounds onto the new-apartment track.** Section 5(b1)(2) imports only grounds (1), (3) and (4). The disability grounds, the kashish menu and the 75-plus ground do not come across; that track has a separate flat prohibition at s.5(b1)(1) instead. Only the demolition track, at s.5a(a2), imports all seven.
+- **Quoting one track's lapse clock on the other track.** Pinui-binui runs 2 years / 4 years / 4 years and 6 months. The strengthening track runs 18 months / 3 years / 3 years and 6 months. They are different numbers for analogous triggers, and both are extended by a year in a complex of 120 units or more.
 - **Treating the superseded four-fifths threshold as current, or as never having existed.** Both are wrong. It governed before 1.7.2023 and can still matter for a claim filed under the old regime.
 
 ## Reference Links
@@ -138,7 +141,7 @@ These are failure modes an agent falls into in this domain, not user errors.
 ## Bundled Resources
 
 - `references/tracks-and-majorities.md`, the two tracks, every majority threshold with its statute and section, the temporal splits, and the forum for each.
-- `references/owner-protections.md`, the seven refusal grounds, the statutory minimum content of a transaction, the organizer's duties, the free complaint route, and the money questions the skill deliberately does not answer (guarantees, financing, the existing mortgage, developer insolvency, tax) rendered as questions to put to the owner's own advocate.
+- `references/owner-protections.md`, the seven refusal grounds, the statutory minimum content of a transaction, the organizer's duties, the pre-signature gathering and offer-document duty, the lapse clocks for both tracks and what cancelling actually does, the free complaint route, and the money questions the skill deliberately does not answer (guarantees, financing, the existing mortgage, developer insolvency, tax) rendered as questions to put to the owner's own advocate.
 - `scripts/majority_threshold.py`, prints the statutory threshold for a given track and building size and, optionally, the arithmetic against a stated signature count. It reports published thresholds and does not determine any person's legal status.
 
 ## Troubleshooting
