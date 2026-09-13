@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-patent-guide",
-  "generated_at": "2026-08-09T00:00:00Z",
+  "generated_at": "2026-09-13T12:00:00Z",
   "claims": [
     {
       "claim_id": "ilpo-2026-notice-effective-date",
@@ -289,7 +289,7 @@
     },
     {
       "claim_id": "amendment-15-effective-dates",
-      "claim": "Section 37(a) of the bill sets commencement one month after publication. Section 37(b)(1) defers commencement by a further year for the listed provisions, and the explanatory notes identify those as examination on request, the provisional application, and the confidential prior-art arrangement, with the Minister of Justice empowered to postpone that date.",
+      "claim": "Section 37(a) of the bill sets commencement one month after publication. Section 37(b)(1) defers commencement by a further year for the listed provisions, and the explanatory notes identify those as examination on request, the provisional application, and the confidential prior-art arrangement, with the Minister of Justice empowered to postpone that date. (סעיף 37 להצעה)",
       "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
       "raw_snippet": "מוצע לקבוע תחילה נדחית של שנה ,לצורך היערכות, להסדרים האלה :בחינה לפי דרישה ,בקשה ארעית ,וההסדר בדבר ידע קודם סודי .שר המשפטים יהיה רשאי לדחות מועד זה אם יתברר שזמן ההיערכות האמור אינו מספק.",
       "fetched_at": "2026-08-09T00:00:00Z",
@@ -483,7 +483,8 @@
         "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-09-13T19:56:30Z",
+      "note": "Playwright 2026-09-13, location.href asserted https://www.gov.il/he/departments/ilpo, title רשות הפטנטים; curl gets 403."
     },
     {
       "claim_id": "ilpo-gov-il-en",
@@ -514,30 +515,29 @@
     },
     {
       "claim_id": "israelpatents-search",
-      "claim": "The ILPO public patent search service is served at israelpatents.justice.gov.il/en, where the page is the 'Patent Search' application whose Angular base path is /search/, so the entry URL resolves under israelpatents.justice.gov.il/search/.",
+      "claim": "The ILPO public patent search service is served at israelpatents.justice.gov.il/en (redirects to the search home page).",
       "source_url": "https://israelpatents.justice.gov.il/en",
-      "raw_snippet": "<title>Patent Search</title>\n  <base href=\"/search/\">",
+      "raw_snippet": "Patent search. All in one place",
       "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/pct-israel-checklist.md"
       ],
-      "verified_via": "curl",
-      "verified_at": "2026-08-11"
+      "verified_via": "browser",
+      "verified_at": "2026-09-13T12:00:00Z",
+      "note": "Playwright 2026-09-13, location.href asserted https://israelpatents.justice.gov.il/search/en/home; curl returns an error page."
     },
     {
       "claim_id": "patentscope-coverage",
-      "claim": "PATENTSCOPE covers 128.8 million patent documents, including 5.5 million published international (PCT) applications.",
+      "claim": "PATENTSCOPE covers 129.5 million patent documents",
       "source_url": "https://patentscope.wipo.int/search/en/search.jsf",
-      "raw_snippet": "Using PATENTSCOPE you can search 128.8 million patent documents including 5.5 million published international patent applications (PCT).",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "Using PATENTSCOPE you can search 129.5 million patent documents",
+      "fetched_at": "2026-09-13T12:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      ]
     },
     {
       "claim_id": "boi-exchange-rates",
@@ -553,6 +553,373 @@
       ],
       "verified_via": "browser",
       "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-knesset-status-2026-09",
+      "claim": "As of 13 September 2026 the Amendment 15 bill (Government Bills 1920) is tabled for first reading, no committee assigned, not published as law (bill 1920, CommitteeID and PublicationDate null in the same record)",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(1045508)",
+      "raw_snippet": "<d:StatusID m:type=\"Edm.Int32\">141</d:StatusID>",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-09-13T12:00:00Z",
+      "note": "OData Atom XML; the checker strips tags so the body reads as empty. Snippet confirmed in raw bytes with curl on 2026-09-13."
+    },
+    {
+      "claim_id": "knesset-status-141",
+      "claim": "Knesset status 141 means tabled for first reading",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Status(141)",
+      "raw_snippet": "הונחה על שולחן הכנסת לקריאה ראשונה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-09-13T12:00:00Z",
+      "note": "OData Atom XML; the checker strips tags so the body reads as empty. Snippet confirmed in raw bytes with curl on 2026-09-13."
+    },
+    {
+      "claim_id": "pct-rule-49-6-israel",
+      "claim": "Israel permits reinstatement of rights under PCT Rule 49.6 on the due care criterion, fee 240 ILS",
+      "source_url": "https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL",
+      "raw_snippet": "Yes, the Office permits reinstatement of rights under the “due care” criterion. Fee for reinstatement 240 ILS",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s30-opposition",
+      "claim": "Opposition within three months from publication of acceptance under s.26 (סעיף 30 לחוק הפטנטים, לפי סעיף 26)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תוך שלושה חדשים מיום פרסום הבקשה לפי סעיף 26 רשאי כל אדם",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md",
+        "scripts/patent-deadlines.py"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64t-90-days",
+      "claim": "PTE application no later than 90 days from registration of the medicinal product (סעיף 64טו)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לא יאוחר מ־90 ימים מיום רישום התכשיר הרפואי",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md",
+        "scripts/patent-deadlines.py"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64j-5-years",
+      "claim": "Extension order may not exceed 5 years beyond the s.52 term (סעיף 64י, מעבר לתקופה שבסעיף 52)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לא תעלה על 5 שנים מעבר לתקופה הנקובה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64j-14-years",
+      "claim": "Total protection ends no later than 14 years from first marketing approval in a recognized country (סעיף 64י)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "14 שנים ממועד מתן היתר השיווק הראשון באחת מהמדינות המוכרות",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64i-shortest",
+      "claim": "Extension equals the shortest extension granted in the recognized countries (סעיף 64ט)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תקופת ההארכה הקצרה מבין תקופות ההארכה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64i-israel-only",
+      "claim": "Where registration was sought only in Israel the extension equals the period from registration application to registration (סעיף 64ט)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "התבקש רישוי רק בישראל, יעמוד צו ההארכה בתוקפו",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s3-patentable",
+      "claim": "Patentable invention: new, useful, industrially applicable, inventive step (סעיף 3; חדשות לפי סעיף 4, התקדמות המצאתית לפי סעיף 5)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "חדשה, מועילה, ניתנת לשימוש תעשייתי ויש בה התקדמות המצאתית",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s7-exclusions",
+      "claim": "No patent for medical treatment of the human body (סעיף 7)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תהליך לטיפול רפואי בגוף האדם",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-rule-46-1",
+      "claim": "Article 19 time limit: later of 2 months from ISR transmittal or 16 months from priority",
+      "source_url": "https://www.wipo.int/pct/en/texts/rules/r46.html",
+      "raw_snippet": "two months from the date of transmittal of the international search report to the International Bureau and to the applicant by the International Searching Authority or 16 months from the priority date, whichever time limit expires later",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "scripts/patent-deadlines.py"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64d-recognized-country",
+      "claim": "If marketing approval was granted in the US, a US extension of the reference patent must also have been granted and not expired (סעיף 64ד)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "ניתן גם צו להארכת פטנט הייחוס בארצות הברית של אמריקה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s4-novelty",
+      "claim": "Novelty: not published publicly in Israel or abroad before the application date (סעיף 4)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "אם לא נתפרסמה בפומבי, בין בישראל ובין מחוצה לה, לפני תאריך הבקשה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s5-inventive-step",
+      "claim": "Inventive step: not obvious to an average skilled person (סעיף 5)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "אינה נראית כענין המובן מאליו לבעל מקצוע ממוצע",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s7-varieties",
+      "claim": "No patent on new plant or animal varieties except non-natural microorganisms (סעיף 7)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "זנים חדשים של צמחים או בעלי חיים, זולת אורגניזמים מיקרו־ביולוגיים שלא הופקו מהטבע",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s18c-sanctions",
+      "claim": "Misleading details or knowing failure to update: court or Registrar may revoke or refuse, grant licence, or shorten term (סעיף 18ג)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לבטל את הפטנט או לא לתת פטנט",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s164-no-extension",
+      "claim": "Registrar may not extend the periods in ss.30 and 64O(a) (סעיף 164)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "חוץ מהמועדים הקבועים בסעיפים 18(ב)(3) לעניין הגשת מסמכים על ידי אדם שאינו המבקש, 30, 56, 57, 61",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64t-a1-two-months",
+      "claim": "PTE defect must be cured within two months of notice (s.64O(a1))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "ישלים את החסר או יתקן את הפגם בתוך חודשיים מיום ההודעה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64c-applicants",
+      "claim": "Basic-patent applicant, patentee and exclusive licensee may apply for PTE (s.64C(a))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "בעל פטנט בסיסי ובעל רשיון ייחודי בפטנט בסיסי או בבקשת פטנט בסיסי רשאים לבקש צו הארכה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64f-opposition",
+      "claim": "PTE opposition within three months of publication under s.64E (s.64F)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תוך שלושה חודשים מיום פרסום ההודעה לפי הוראות סעיף 64ה(ג) או (ה)(1) או (3)",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64m-late-fees",
+      "claim": "PTE fees follow ss.57-64 (s.64M(b))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "יחולו הוראות סעיפים 57 עד 64",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s48d-english-translation",
+      "claim": "PCT national phase: verified English translation required if not filed or published in English (סעיף 48ד(ב)(2))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תרגום מאומת של הבקשה הבינלאומית לשפה האנגלית",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s48d-three-month-extension",
+      "claim": "Registrar may extend the translation deadline by up to three months (סעיף 48ד(ג))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "רשאי הרשם להאריך את המועד לתקופה של עד שלושה חודשים",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s24-division",
+      "claim": "Division may be requested while the application has not been accepted (סעיף 24(א))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "כל עוד לא קובלה הבקשה, זכאי המבקש לדרוש שהיא תחולק לבקשות אחדות",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s98-foreign-filing",
+      "claim": "Foreign filing restriction and the two lawful routes: prior written permit or 6 months after Israeli filing with no s.94 order (סעיף 98, סעיף 94, סעיף 95)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "הגיש בישראל בקשה לגבי אותה אמצאה, וביום הגשת הבקשה עברו ששה חדשים ושר הבטחון לא נתן לגביה צו לפי סעיף 94",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s98-persons",
+      "claim": "Restriction binds Israeli citizens, permanent residents, and others owing allegiance (סעיף 98)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "אזרח ישראל, תושב קבוע בישראל, או אדם אחר החייב בנאמנות למדינה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s60-restoration-conditions",
+      "claim": "Restoration requires reasonable causes, unintended lapse, and prompt request (סעיף 60)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לא שולמה בשל סיבות סבירות, כי בעל הפטנט לא רצה בפקיעת תוקפו של הפטנט",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s63-intervening-users",
+      "claim": "Users who began after publication of the lapse may continue (סעיף 63)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "זכאי להוסיף ולנצל את האמצאה לצרכי עסקו בלבד, גם לאחר שהוחזר הפטנט לתקפו",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s132b-silence",
+      "claim": "Employer silence for 6 months after an s.131 notice with a vesting statement leaves the invention with the employee (סעיף 132(ב), סעיף 131)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "ולא נתן המעביד תשובה נוגדת כאמור, לא תקום האמצאה לקנין המעביד",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/service-inventions.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s133-registrar",
+      "claim": "Service-invention status disputes go to the Registrar (סעיף 133)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "רשאים העובד או המעביד לפנות לרשם שיכריע בשאלה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/service-inventions.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s164-a2-once",
+      "claim": "Registrar may extend the s.64O(a1) period once (סעיף 164(א2))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "הרשם רשאי להאריך את המועד הקבוע בסעיף 64טו(א1), פעם אחת בלבד",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
     }
   ]
 }

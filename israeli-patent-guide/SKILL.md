@@ -2,7 +2,6 @@
 name: israeli-patent-guide
 description: "Full guidance through the Israeli patent process: prior art search on ILPO database, national application filing, PCT international filing via ILPO, fees, and maintenance. Use when you need to check invention novelty, file a patent in Israel, track payment deadlines, or understand pharmaceutical patent term extension (PTE). Saves hours of research and prevents costly filing mistakes. Do NOT use for trademark registration, design patents, or legal advice replacing a licensed patent attorney."
 license: MIT
-version: 1.4.0
 ---
 
 
@@ -39,7 +38,7 @@ This skill does NOT cover trademark registration, industrial design registration
 
 ### Who Owns the Invention: Service Inventions (Sections 132-135)
 
-Section 132(a): an invention made by an employee during and in consequence of employment belongs to the employer by default. Section 134 routes compensation disputes to the Compensation and Royalties Committee at ILPO when the contract is silent. Waivable by express contract (*Bayer v. Plurality*). A contractor is not an employee, so the default does not apply to them: settle ownership in writing.
+Section 132(a): an invention made by an employee during and in consequence of employment belongs to the employer by default. Section 134 routes compensation disputes to the Compensation and Royalties Committee at ILPO when the contract is silent. The employer loses title if the employee's s.131 notice says the invention will be the employee's absent a contrary reply within 6 months and the employer stays silent (s.132(b)); disputes over whether it is a service invention go to the Registrar (s.133). A contractor is not an employee, so the default does not apply to them: settle ownership in writing.
 
 Detail, including the contractor trap and drafting guidance: `references/service-inventions.md`.
 
@@ -51,13 +50,13 @@ A complete patent application filed with ILPO must include:
 2. **Specification** structured as:
    - **Description**: technical field, background, summary, detailed description of embodiments, and reference to drawings.
    - **Claims**: numbered, beginning with an independent claim. Claims define the legal scope of protection.
-   - **Abstract**: 150 words or fewer; not part of the legal scope but used for search purposes.
+   - **Abstract**: a short summary; not part of the legal scope but used for search purposes.
    - **Drawings** (if applicable): black-and-white line drawings, A4 format, referenced in the description.
-3. **Priority document**: if claiming Convention priority under the Paris Convention, the certified copy must be submitted within 16 months of the priority date (or with the application if filed after 16 months).
+3. **Priority document**: for Paris Convention priority, a certified copy of the earlier application; confirm the deadline with ILPO.
 
 ### Language
 
-Hebrew and English are both accepted as filing languages. If the application is filed in any other language, a Hebrew or English translation must be submitted within 3 months of the filing date. The translation becomes the official text for prosecution purposes.
+Hebrew and English are both accepted as filing languages. If the application is filed in any other language, a Hebrew or English translation is required; confirm the deadline with ILPO.
 
 ### Address in Israel
 
@@ -68,7 +67,7 @@ Foreign applicants (those without a place of business or domicile in Israel) mus
 Under Section 18 of the Israeli Patents Law, an applicant has a **continuing duty** to disclose all material prior art known to the applicant throughout prosecution, up to and including the Notice of Acceptance. This duty is substantially broader than USPTO practice:
 
 - The duty applies to all material prior art, including art discovered during foreign prosecution of the same or related applications.
-- Failure to disclose material prior art known to the applicant can be raised as a ground for patent revocation, even after grant.
+- If the applicant gave misleading details or knowingly failed to update the list, the court or Registrar may revoke the patent or refuse it, grant a licence, or shorten its term (s.18C).
 - There is no prescribed form for the IDS in Israel; a letter to the examiner listing the relevant documents is sufficient.
 - Best practice: file an IDS when receiving Office Actions or Search Reports from the USPTO, EPO, or any other office examining a counterpart application.
 
@@ -76,7 +75,7 @@ Under Section 18 of the Israeli Patents Law, an applicant has a **continuing dut
 
 Unlike the EPO (where the applicant actively files a request for examination) or systems with a deferred-examination election made at filing, in Israel substantive examination is **queued automatically**. The applicant does not file an early examination-request form at the time of filing, and there is no separate examination fee beyond the filing fee.
 
-However, this does NOT mean the applicant has nothing to do before examination. About 12 months before substantive examination begins, ILPO issues a **Notice prior to Examination under Section 18** of the Israeli Patents Law. The applicant must respond within a **4-month deadline** (extendable, with fees, up to a total of 12 months). The Section 18 notice is also the trigger for an applicant who wants to **defer** examination to file a deferral request. See the dedicated section below.
+However, this does NOT mean the applicant has nothing to do before examination. Before substantive examination begins, ILPO issues a **Notice prior to Examination under Section 18** of the Israeli Patents Law. The notice sets a response deadline, which is extendable for a fee; docket the date printed on the notice. The Section 18 notice is also the trigger for an applicant who wants to **defer** examination to file a deferral request. See the dedicated section below.
 
 So: examination is queued automatically, with no EPO-style request-for-examination filing, BUT the Section 18 Notice prior to Examination carries a real response deadline.
 
@@ -96,10 +95,14 @@ The ILPO online patent search is available at **israelpatents.justice.gov.il**. 
 
 | Database | URL | Coverage |
 |---|---|---|
-| WIPO PatentScope | patentscope.wipo.int | 110M+ documents, PCT applications, national collections |
-| Google Patents | patents.google.com | 120M+ documents, machine-translated content |
+| WIPO PatentScope | patentscope.wipo.int | PCT applications and national collections |
+| Google Patents | patents.google.com | Worldwide patents with machine-translated content |
 | Espacenet (EPO) | worldwide.espacenet.com | European and international collections |
 | USPTO Full-Text | patents.google.com or USPTO.gov | US patents and published applications |
+
+### What the Examiner Will Test (Sections 3, 4, 5, 7)
+
+An invention is patentable if it is new, useful, industrially applicable and involves an inventive step (s.3). It is new only if it was not published anywhere, in writing, orally, or by use or display, before the application date (s.4). Inventive step means it is not obvious to an average person skilled in the art (s.5). No patent is granted for a method of medical treatment of the human body, or for new plant or animal varieties other than non-natural microorganisms (s.7).
 
 ### Search Strategy
 
@@ -114,7 +117,7 @@ The ILPO online patent search is available at **israelpatents.justice.gov.il**. 
 
 ### Before Filing Abroad: Defence-Related Inventions (Sections 94-113)
 
-**Check this before any foreign or PCT filing.** Chapter Six of the Israeli Patents Law (sections 94 to 113) governs inventions of potential military significance. Where an invention may be of defence interest, the applicant must bring it to the attention of the Minister of Defence, the Minister may impose a secrecy order, and **filing the application abroad without permission is prohibited and carries criminal liability**.
+**Check this before any foreign or PCT filing.** Chapter Six of the Israeli Patents Law (sections 94 to 113) governs inventions of potential military significance. Under s.98, an Israeli citizen, permanent resident, or other person owing allegiance to the State may not file abroad, directly or indirectly, for an invention concerning weapons, ammunition or other military value (or of a class under s.95), unless **(1) the Minister of Defence gave prior written permission, or (2) an Israeli application was filed and 6 months have passed with no s.94 order in force**. Filing a national application at ILPO first and waiting 6 months is the usual lawful route; ask a patent attorney before relying on a PCT filing at RO/IL for this.
 
 This bites disproportionately in Israel because so much of the startup base works in cyber, optics, UAV and drone systems, RF and communications, sensors, and advanced materials. An Israeli founder who files a US provisional or an ePCT application first, without clearance, may commit an offence rather than merely lose a right.
 
@@ -128,7 +131,7 @@ Filing via ePCT (pct.wipo.int) is strongly recommended over paper filing.
 
 ### International Searching Authority (ISA) Options
 
-ILPO was recognized as an ISA/IPEA in 2012. Applicants filing through RO/IL can choose:
+ILPO acts as an ISA and IPEA. Applicants filing through RO/IL can choose:
 
 | ISA | Notes |
 |---|---|
@@ -144,10 +147,12 @@ For PCT applications designating Israel, national phase entry must occur within 
 
 1. File a national phase entry request with ILPO (Form PCT/IL/01 or equivalent).
 2. Pay the national phase entry fee.
-3. Submit a Hebrew or English translation of the specification if the PCT application was filed in another language.
+3. If the international application was not filed or published in English, submit a **verified English translation** (s.48D(b)(2)); otherwise the application is treated as withdrawn. The Registrar may extend this deadline by up to 3 months (s.48D(c)).
 4. Appoint an Israeli address for service if required.
 
 ### Fee Payment in NIS
+
+An Israeli patent protects only Israel. To protect other markets, use the 12-month Paris priority year to file abroad directly or through PCT, which defers national-phase costs to month 30.
 
 All official ILPO fees are denominated in New Israeli Shekel (NIS). For foreign applicants paying from abroad, fees are converted at the Bank of Israel official exchange rate on the payment date.
 
@@ -156,17 +161,17 @@ All official ILPO fees are denominated in New Israeli Shekel (NIS). For foreign 
 
 ### The Section 18 Notice
 
-After filing, the application waits in the examination queue. Roughly 12 months before substantive examination is scheduled to begin, ILPO sends a **Notice prior to Examination under Section 18** of the Israeli Patents Law. The notice both tells the applicant the estimated examination date and asks the applicant to bring relevant prior art (including foreign search/examination results on counterpart applications) to ILPO's attention.
+After filing, the application waits in the examination queue. Before substantive examination is scheduled to begin, ILPO sends a **Notice prior to Examination under Section 18** of the Israeli Patents Law. The notice both tells the applicant the estimated examination date and asks the applicant to bring relevant prior art (including foreign search/examination results on counterpart applications) to ILPO's attention.
 
-- **Response deadline**: 4 months from the date of the notice.
-- **Extensions**: the 4-month deadline is extendable, with extension fees, up to a total of 12 months from the original notice date.
-- **Deferral option**: the Section 18 notice is also the point at which an applicant who wants to push examination later can file a request to defer. ILPO will generally grant deferral of up to about 2 years, and the request is handled through the ILPO online portal. Deferral is an active choice made in response to the Section 18 notice, not an automatic state.
+- **Response deadline**: the period printed on the notice.
+- **Extensions**: extendable on payment of NIS 240 per month or part thereof (fee notice item 9); confirm the maximum with ILPO.
+- **Deferral option**: the Section 18 notice is also the point at which an applicant who wants to push examination later can ask to defer; ILPO decides the length. Deferral is an active choice made in response to the Section 18 notice, not an automatic state.
 
-Missing the Section 18 response deadline without an extension can lead to the application being deemed abandoned, so it must be docketed like any other hard deadline.
+Docket the Section 18 response deadline like any other hard deadline.
 
 ### Office Action Response Deadlines
 
-Once substantive examination starts, ILPO issues examination reports (Office Actions). The applicant must respond within the deadline stated in each report. As a general rule the response period is a few months and is extendable on payment of extension fees, but the exact period and the maximum cumulative extension depend on the specific report and current ILPO practice, so confirm the deadline printed on each Office Action rather than assuming a fixed number. The continuing IDS duty under Section 18 runs in parallel through this whole phase, up to the Notice of Acceptance.
+Respond by the deadline printed on each examination report; it is extendable for a fee.
 
 ### Current Examination Backlog
 
@@ -179,21 +184,18 @@ On **30 December 2025** the Israeli government published the **Patents Law (Amen
 
 ### Amendment 15 (proposed)
 
-Status unconfirmed as of this revision; not in force. Proposed changes and their filing implications: `references/amendment-15.md`.
+As of 13 September 2026 the Knesset legislation database lists the bill as tabled for first reading (status: הונחה על שולחן הכנסת לקריאה ראשונה), with no committee assigned and no publication as law. Not in force. Proposed changes and their filing implications: `references/amendment-15.md`.
 
-### Practical implications for filing today (May 2026)
+### Practical implications for filing today (September 2026)
 
-- **Do not assume the new regime is in force.** Until the bill clears its readings and the law is published, the automatic-queue + Section 18 Notice model still governs. Continue docketing Section 18 deadlines.
-- **Reconsider US-only provisional reliance.** If a domestic provisional becomes available in Israel, future filings may be structured to claim priority from an Israeli provisional rather than a US one. This is a strategy decision to revisit once the law is in force.
-- **Track the grace-period commencement.** A 12-month grace is helpful only if the conversion deadline is met. Even after Amendment 15 enters into force, public disclosure remains risky in jurisdictions without an equivalent grace (most of the EU and China).
-- **Monitor the ILPO site and the Knesset legislation database** for the final version of the text as the bill moves through the Knesset, and confirm the position with a licensed Israeli patent attorney before changing a filing strategy on the strength of a bill.
+Keep docketing Section 18 deadlines and do not rely on the proposed grace period or provisional route. Filing-strategy implications: `references/amendment-15.md`.
 
 
 ## Divisional, Accelerated Examination, and the Absence of a True Provisional
 
 ### Divisional Applications
 
-If an application claims more than one invention, or the applicant wants to pursue subject matter separately, a **divisional application** can be filed out of a pending parent. The divisional keeps the parent's filing date for the carved-out subject matter. A divisional must be filed while the parent is still pending (before the parent is granted or finally refused), and it carries its own filing fee.
+If an application claims more than one invention, or the applicant wants to pursue subject matter separately, a **divisional application** can be filed out of a pending parent. The divisional keeps the parent's filing date for the carved-out subject matter. Division may be requested only **while the parent has not yet been accepted** (s.24(a)), so it cannot be done during the opposition period; it carries its own filing fee.
 
 ### Accelerated (Expedited) Examination
 
@@ -231,7 +233,7 @@ Substantive examination is **included in the filing fee**; there is no separate 
 | Renewal, years 7-10 (due before end of year 6) | 1,921 | not reduced |
 | Renewal, all periods at once (due within 3 months of grant) | 14,410 | not reduced |
 
-Full 2026 schedule (all rows, PTE ladder, PCT-phase fees, inter partes): `references/ilpo-fee-schedule.md`.
+Full 2026 schedule (all rows, PTE ladder, PCT-phase fees, inter partes): `references/ilpo-fee-schedule.md`. These are official fees only. Patent-attorney drafting and prosecution fees are private, are not set by ILPO, and usually dominate the budget; get a written quote.
 
 The PCT claim and page supplements apply to international applications designating Israel as well, and are the most commonly missed line items on national phase entry.
 
@@ -245,40 +247,26 @@ Patent maintenance (renewal) fees in Israel follow a unique schedule compared to
 - **Subsequent years**: fees are paid every 4 years in advance, covering years 7-10, 11-14, 15-18, and 19-20.
 - **Each renewal is due before the END of the year PRECEDING the block it covers.** The renewal covering years 7-10 is due before the end of year 6, the one covering years 11-14 before the end of year 10, then before the end of year 14 and year 18. Paying "before the year-7 anniversary" is a full year late and the patent lapses.
 - **All-inclusive option**: NIS 14,410 paid within 3 months of grant keeps the patent in force for its entire term. Band-by-band payment totals NIS 17,292, so the single payment saves NIS 2,882 and removes four dockets.
-- **Grace period**: a 6-month grace period is available for late maintenance payments, subject to a surcharge. After the grace period the patent lapses, and restoration under section 59 costs NIS 841 and is discretionary.
+- **Grace period**: a 6-month grace period is available for late maintenance payments, subject to a surcharge. After the grace period the patent lapses. Restoration under section 59 costs NIS 841 and requires showing the fee was unpaid for reasonable causes, the lapse was unintended, and the request was filed as soon as possible after the non-payment became known (s.60); anyone who began using the invention after the lapse was published may keep doing so (s.63).
 - **No small-entity discount**: the 40% reduction does not apply to any renewal fee.
 - **Maximum term**: 20 years from the filing date (not the priority date).
 
 
 ## Objection Period
 
-After ILPO issues a Notice of Acceptance (analogous to a Notice of Allowance), there is a **3-month objection period** during which any person may file a formal opposition (objection) to the grant. This period is non-extendable. If an opposition is filed, the patent enters opposition proceedings before ILPO before the patent can be granted. If no opposition is filed within 3 months, the patent is granted.
+After an application is accepted, ILPO publishes the acceptance online (section 26). Any person may file an opposition within **3 months from the date of that publication** (section 30), not from the date the applicant received the notice, so docket from the publication date. The Registrar may not extend it (s.164(a) excludes s.30). If an opposition is filed, the patent enters opposition proceedings before ILPO before the patent can be granted. If no opposition is filed within 3 months, the patent is granted.
 
 
 ## Patent Term Extension (Pharma)
 
-### Overview
+Sections 64A to 64Q of the Patents Law let the Registrar extend a basic patent covering a medicinal product or regulated medical device. Four rules drive most decisions:
 
-Israel provides for Patent Term Extension (PTE) for pharmaceutical products, similar in concept to Supplementary Protection Certificates (SPCs) in the EU. The PTE compensates patentees for time lost during regulatory approval proceedings before the Israeli Ministry of Health.
+- **Filing window**: no later than **90 days** from registration of the medicinal product under the Pharmacists Ordinance (s.64O(a)).
+- **Recognized-country linkage**: where marketing approval was given in the United States or a recognized European state (First Schedule), a matching extension must also have been granted there and not expired (s.64D(5)-(7)). The Israeli extension lasts as long as the SHORTEST extension granted in the recognized countries (s.64I(a)).
+- **Israel-only registration is not a bar**: if registration was sought only in Israel, the extension equals the period from filing the registration application to registration, provided it was pursued in good faith and with due diligence (s.64I(b)).
+- **Caps** (s.64J): at most **5 years** beyond the s.52 term, and total protection ends no later than **14 years** from the first marketing approval in any recognized country.
 
-### Filing Window
-
-The application for PTE must be filed with ILPO within **90 days** of the date on which the Ministry of Health grants marketing authorization (registration) for the pharmaceutical product in Israel. This 90-day window is **non-extendable**. Missing it forfeits the right to a PTE entirely.
-
-### EU-5 Linkage Requirement
-
-This is a feature unique to Israeli PTE law and is not found in US or standard EU SPC practice. Israeli PTE duration is capped by reference to the shortest patent term extension (or SPC) granted in any of the **EU-5 jurisdictions**: United Kingdom, Germany, France, Italy, and Spain.
-
-In practice:
-- You must obtain SPC or equivalent protection in at least one EU-5 jurisdiction before or concurrent with the Israeli PTE application.
-- The Israeli PTE cannot exceed the duration of the shortest EU-5 extension granted for the same product.
-- If no EU-5 jurisdiction has granted an extension (e.g., the product was approved only in Israel and not in the EU), the EU-5 linkage requirement effectively prevents PTE in Israel.
-
-### Duration Caps
-
-- Maximum PTE duration: **5 years**
-- Maximum total patent term including PTE: **25 years** from the original filing date
-- The extension is limited to the shortest EU-5 extension, which may further reduce the available term below 5 years.
+Details, opposition, and the fee ladder: `references/pte.md` and `references/ilpo-fee-schedule.md`.
 
 
 ## Key Databases and Resources
@@ -288,7 +276,7 @@ In practice:
 | ILPO Patent Search | https://israelpatents.justice.gov.il/en | Search Israeli patent applications and grants |
 | ILPO official site (gov.il) | https://www.gov.il/he/departments/ilpo | Official forms, fee notices, announcements, publications |
 | PCT ePCT Filing | https://pct.wipo.int | Online PCT application filing and management |
-| WIPO PatentScope | https://patentscope.wipo.int/search/en/search.jsf | International prior art search (128.8 million patent documents) |
+| WIPO PatentScope | https://patentscope.wipo.int/search/en/search.jsf | International prior art search (129.5 million patent documents) |
 | WIPO PCT Guide for Israel | https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL | Country-specific PCT requirements for Israel |
 | IPC Classification (WIPO) | https://www.wipo.int/en/web/classification-ipc | Find IPC codes for prior art searches |
 | Bank of Israel Exchange Rates | https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/ | Official exchange rates for fee conversion |
@@ -321,11 +309,11 @@ The threshold is turnover (gross revenue) in the **preceding** year that **did n
 
 ### 4. PCT 30-Month Deadline Runs From Priority Date, Not PCT Filing Date
 
-The 30-month national phase entry window in Israel is measured from the **earliest priority date** claimed in the PCT application. Agents sometimes mistakenly calculate from the international (PCT) filing date, which can differ by up to 12 months from the priority date. A miscalculation here means a missed absolute deadline with no remedy.
+The 30-month national phase entry window in Israel is measured from the **earliest priority date** claimed in the PCT application. Agents sometimes mistakenly calculate from the international (PCT) filing date, which can differ by up to 12 months from the priority date. A miscalculation here means a missed deadline whose only cure is a PCT Rule 49.6 reinstatement request under the strict "due care" test, which is not guaranteed.
 
-### 5. PTE EU-5 Linkage is Unique to Israel
+### 5. Israeli PTE Is Capped by Foreign Extensions and a 14-Year Ceiling
 
-The Israeli PTE EU-5 linkage requirement has no US or EU counterpart, so advice that omits it is incomplete. If a pharmaceutical product is approved only in Israel without EU-5 SPC protection, PTE in Israel is unavailable regardless of how long regulatory approval took.
+Agents trained on US or EU practice miss that the Israeli extension is limited to the shortest extension granted in the recognized countries, and ends no later than 14 years from the first marketing approval in any of them (ss.64I, 64J). Do not quote a flat 5 years.
 
 
 
@@ -359,7 +347,7 @@ Always confirm fee figures against the official ILPO portal, since the schedule 
 **Solution**: ILPO applies the turnover test to the **applicant entity** as filed, not to a consolidated group. A wholly-owned subsidiary with its own financial statements showing under NIS 10M turnover may qualify even if the parent group is much larger. Verify with a licensed Israeli patent attorney, as this analysis can be fact-specific.
 
 **Problem**: PCT national phase entry deadline appears to have passed.
-**Solution**: Confirm the earliest priority date carefully (it may differ from the PCT filing date). Also confirm whether Israel has ratified Rule 49.6 of the PCT Regulations, which allows reinstatement of the national phase in cases of unintentional failure to meet the deadline. As of the date of this skill, ILPO does accept reinstatement petitions under Rule 49.6, but reinstatement is not guaranteed.
+**Solution**: Confirm the earliest priority date carefully (it may differ from the PCT filing date). Israel permits reinstatement of rights under PCT Rule 49.6 on the "due care" criterion, with a reinstatement fee of 240 ILS (WIPO PCT Applicant's Guide, Israel chapter, version applicable from 1 August 2026). "Due care" is a strict test, so reinstatement is not guaranteed; act immediately and have a patent attorney file the request.
 
 
 ## References

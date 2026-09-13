@@ -4,7 +4,7 @@
 
 Settle ownership before filing. Under **section 132(a)** of the Patents Law, an invention made by an employee during the period of employment and in consequence of that employment is a **service invention that belongs to the employer** by default. The parties may agree otherwise, and the employer may waive its rights.
 
-Compensation is a separate question from ownership. Under **section 134**, if the parties have not agreed on compensation for a service invention, the employee may apply to the **Compensation and Royalties Committee** (ועדת הפיצויים והתמלוגים), a statutory body sitting at ILPO, to determine whether compensation is due and how much. The Supreme Court has held that the entitlement can be waived by express contractual terms, which is why Israeli practice is to address sections 132(b) and 134 explicitly in employment agreements rather than leave them silent.
+Compensation is a separate question from ownership. Under **section 134**, if the parties have not agreed on compensation for a service invention, the employee may apply to the **Compensation and Royalties Committee** (ועדת הפיצויים והתמלוגים), a statutory body sitting at ILPO, to determine whether compensation is due and how much. Israeli practice is to address sections 132(b) and 134 explicitly in employment agreements rather than leave them silent. Under s.132(b), if the employee's s.131 notice says the invention becomes the employee's absent a contrary reply within 6 months and the employer does not reply, it does not vest in the employer. Disputes over whether an invention is a service invention go to the Registrar (s.133).
 
 Why this matters before you file:
 

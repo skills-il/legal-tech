@@ -49,6 +49,42 @@
           "The PCT Rule 49.6 reinstatement claim in SKILL.md Troubleshooting remains undated and unsourced. Verify against the WIPO PCT Applicant's Guide Israel chapter and pin the reinstatement fee."
         ]
       }
+    },
+    {
+      "cycle": 2,
+      "version": "1.5.0",
+      "date": "2026-09-13",
+      "version_before": "1.4.1",
+      "version_after": "1.5.0",
+      "trigger": "update-oldest-skills batch 2026-09-13",
+      "lessons": [
+        "The PTE section described an 'EU-5 linkage' and a 25-year cap that the statute does not contain. The real rules (shortest extension in recognized countries including the US, Israel-only route, 14-year cap from first approval) were only found by reading ss.64A-64Q in full. Read the section, not a summary of the concept.",
+        "Transliterated section numbers are a trap: Hebrew 64טו is s.64O (15th letter), not 64T. Map Hebrew letters to Latin by ordinal, then grep every file for the wrong form.",
+        "Three prior-cycle statements survived every gate because they were plausible practice claims with no numbers: 'Hebrew or English translation' at national phase (statute requires verified English), divisional 'until grant' (s.24(a) says until acceptance), and the opposition anchor (s.30 runs from publication). Statute-check procedural rules, not just figures.",
+        "Deferred (discretionary cap): realistic attorney-cost ranges; filing-route strategy (Paris vs PCT vs US provisional) beyond one line; designs and trademark route chooser; non-working-day roll-forward; PCT Chapter II demand and Section 18 notice flags in the calculator; calculator handling of grant after year 6; rename --allowance-date to a publication-date flag; co-ownership ss.80-81; trade secret and FTO pointers; s.4 enablement qualifier in Gotcha 0; Hebrew body still over 5,000 words.",
+        "Section 18 notice figures (4-month response, 12-month ceiling, about 2 years deferral) were removed as unsourced. Next cycle: source them from the Patents Regulations or an ILPO circular and restore if confirmed.",
+        "Direct national filing translation and priority-document deadlines are now 'confirm with ILPO'. Next cycle: cite the Patents Regulations 5729-1969 regulation numbers.",
+        "Amendment 15 still tabled for first reading on 13 Sep 2026 (Knesset OData bill 1045508, status 141). Re-check first next cycle."
+      ],
+      "buckets": {
+        "fixed": [
+          "PTE rewritten against ss.64A-64Q",
+          "opposition anchor s.30",
+          "Article 19 Rule 46.1 in script",
+          "Rule 49.6 sourced",
+          "Amendment 15 status stamped",
+          "PCT verified English translation s.48D",
+          "divisional until acceptance s.24(a)",
+          "s.98 foreign filing routes",
+          "s.132(b)/s.133",
+          "s.60/s.63 restoration",
+          "patentability ss.3-5,7"
+        ],
+        "persistent_fail": [
+          "Section 18 notice timing figures unsourced (removed)",
+          "direct-filing translation and priority document deadlines unsourced (softened)"
+        ]
+      }
     }
   ]
 }

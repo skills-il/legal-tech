@@ -6,9 +6,10 @@ Calculates key Israeli patent deadlines given a filing date and optional
 priority date. Covers:
   - PCT 30-month national phase entry window
   - Israeli maintenance (renewal) fee due dates
-  - Post-allowance objection period (3 months from a Notice of Acceptance date)
-  - PCT Article 19 amendment deadline (2 months from ISR establishment)
-  - Pharmaceutical PTE filing window (90 days from MOH marketing authorization)
+  - Opposition period (3 months from publication of acceptance, s.30)
+  - PCT Article 19 amendment deadline (PCT Rule 46.1: later of 2 months from
+    ISR transmittal or 16 months from priority)
+  - Pharmaceutical PTE filing window (90 days from registration, s.64O(a))
 
 Usage:
     python patent-deadlines.py --filing-date 2024-01-15
@@ -151,10 +152,10 @@ def maintenance_fee_dates(filing_date: date) -> list[tuple[str, date, str]]:
 
 def objection_period_deadline(allowance_date: date) -> date:
     """
-    3-month objection window after Notice of Acceptance.
+    3-month opposition window (Patents Law s.30).
 
-    Any person may file a formal opposition during this period.
-    The window is non-extendable.
+    Runs from the date the acceptance is PUBLISHED under s.26,
+    not from the date the applicant received the notice.
     """
     return add_months(allowance_date, 3)
 
@@ -163,23 +164,20 @@ def pte_filing_deadline(moh_authorization_date: date) -> date:
     """
     PTE (Patent Term Extension) filing deadline for pharmaceutical patents.
 
-    Must be filed within 90 days of the Israeli Ministry of Health
-    marketing authorization date. Non-extendable.
+    Must be filed no later than 90 days from registration of the medicinal
+    product under the Pharmacists Ordinance (Patents Law s.64O(a)).
     """
     return moh_authorization_date + timedelta(days=90)
 
 
-def article19_amendment_deadline(isr_date: date) -> date:
+def article19_amendment_deadline(isr_transmittal_date: date, priority_date: date) -> date:
     """
-    PCT Article 19 amendment deadline.
+    PCT Article 19 amendment deadline (PCT Rule 46.1).
 
-    Applicants may amend the claims once under Article 19 within
-    2 months of the date the International Search Report (ISR) is
-    established (or 16 months from the priority date, whichever is later).
-    This function returns the 2-month window from the ISR date;
-    the caller should separately check the 16-month priority date window.
+    Two months from the date of TRANSMITTAL of the International Search
+    Report, or 16 months from the priority date, whichever expires LATER.
     """
-    return add_months(isr_date, 2)
+    return max(add_months(isr_transmittal_date, 2), add_months(priority_date, 16))
 
 
 def paris_convention_priority_deadline(first_filing_date: date) -> date:
@@ -225,7 +223,8 @@ def print_deadlines(args: argparse.Namespace) -> None:
     print(format_deadline(
         "30-month PCT national phase entry (Israel)",
         pct_deadline,
-        "Measured from PRIORITY DATE, not PCT filing date. Absolute -- no extension."
+        "Measured from PRIORITY DATE, not PCT filing date. Missing it is only curable by "
+        "PCT Rule 49.6 reinstatement (due care test, not guaranteed)."
     ))
 
     paris_deadline = paris_convention_priority_deadline(priority_date)
@@ -244,11 +243,11 @@ def print_deadlines(args: argparse.Namespace) -> None:
 
     if args.isr_date:
         isr_date = parse_date(args.isr_date)
-        art19_deadline = article19_amendment_deadline(isr_date)
+        art19_deadline = article19_amendment_deadline(isr_date, priority_date)
         print(format_deadline(
             "PCT Article 19 claim amendment deadline",
             art19_deadline,
-            "2 months from ISR establishment. Also check 16-month priority window."
+            "PCT Rule 46.1: later of 2 months from ISR transmittal or 16 months from priority."
         ))
 
     # --- Maintenance fees ---
@@ -275,7 +274,7 @@ def print_deadlines(args: argparse.Namespace) -> None:
         print(format_deadline(
             "3-month objection window closes",
             objection_deadline,
-            "Any person may file a formal opposition. Non-extendable."
+            "Any person may oppose. Runs from PUBLICATION of acceptance (s.30); pass the publication date."
         ))
 
     # --- PTE pharmaceutical window ---
@@ -286,7 +285,8 @@ def print_deadlines(args: argparse.Namespace) -> None:
         print(format_deadline(
             "90-day PTE filing deadline",
             pte_deadline,
-            "Non-extendable. EU-5 SPC linkage required -- see SKILL.md for details."
+            "90 days from registration under the Pharmacists Ordinance (s.64O(a)). "
+            "Duration limited by recognized-country extensions and a 14-year cap; see references/pte.md."
         ))
 
     print()
@@ -334,20 +334,20 @@ Notes:
     parser.add_argument(
         "--allowance-date",
         metavar="YYYY-MM-DD",
-        help="Date of Notice of Acceptance (allowance) from ILPO. Enables objection period calculation.",
+        help="Date the acceptance was PUBLISHED online under s.26 (not the date the notice arrived). Enables opposition period calculation.",
     )
     parser.add_argument(
         "--moh-authorization-date",
         metavar="YYYY-MM-DD",
         help=(
-            "Date Israeli Ministry of Health granted marketing authorization "
+            "Date the medicinal product was registered under the Pharmacists Ordinance "
             "for a pharmaceutical product. Enables PTE filing deadline calculation."
         ),
     )
     parser.add_argument(
         "--isr-date",
         metavar="YYYY-MM-DD",
-        help="Date the International Search Report (ISR) was established. Enables Article 19 deadline.",
+        help="Date the International Search Report (ISR) was transmitted to the applicant. Enables Article 19 deadline.",
     )
 
     return parser

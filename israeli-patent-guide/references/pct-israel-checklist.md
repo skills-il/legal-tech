@@ -29,7 +29,7 @@ URL: pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
 
 - [ ] Identify the language of the PCT application as published.
 - [ ] If the PCT application was published in Hebrew or English: no translation needed for the specification. Proceed to Step 4.
-- [ ] If published in any other language: prepare a full Hebrew or English translation of:
+- [ ] If published in any other language: prepare a verified English translation (Patents Law s.48D(b)(2); extendable by up to 3 months under s.48D(c)) of:
   - Description
   - Claims (all claims, as amended if applicable)
   - Abstract
@@ -70,19 +70,19 @@ URL: pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL
 ## Step 7: Post-Filing Actions
 
 - [ ] Docket the national application number and monitor ILPO correspondence (sent to the Israeli address for service).
-- [ ] Examination is queued automatically. There is no EPO-style request-for-examination filing, but watch for the **Section 18 Notice prior to Examination**, which ILPO issues roughly 12 months before substantive examination. The response deadline is **4 months** from the notice (extendable, with fees, up to 12 months total). The Section 18 notice is also the point to file a deferral request if the applicant wants to push examination later.
+- [ ] Examination is queued automatically. There is no EPO-style request-for-examination filing, but watch for the **Section 18 Notice prior to Examination**, which ILPO issues before substantive examination. The response deadline is printed on the notice and is extendable for a fee (NIS 240 per month or part thereof). The Section 18 notice is also the point to file a deferral request if the applicant wants to push examination later.
 - [ ] Set up an IDS (Information Disclosure Statement) tracking system. Under Section 18 of the Israeli Patents Law, you must continue to disclose material prior art throughout prosecution up to the Notice of Acceptance. Monitor counterpart applications (especially US and EP) for new Office Actions and cited art.
-- [ ] Note the 3-month objection period after Notice of Acceptance -- this window cannot be extended.
+- [ ] Note the 3-month opposition period, which runs from the online publication of the acceptance under section 26 (Patents Law s.30), not from the date the notice reached the applicant.
 
 
 ## Reinstatement Option (If Deadline Missed)
 
-If the 30-month deadline was missed unintentionally, Israel allows reinstatement under PCT Rule 49.6:
+If the 30-month deadline was missed, Israel allows reinstatement under PCT Rule 49.6 on the "due care" criterion:
 
 - [ ] File a reinstatement petition with ILPO as soon as possible after discovering the missed deadline.
-- [ ] The petition must include a statement that the failure was unintentional.
+- [ ] The petition must show that the failure occurred in spite of due care required by the circumstances.
 - [ ] File the complete national phase entry package along with the reinstatement petition.
-- [ ] Pay the reinstatement fee (check current ILPO schedule).
+- [ ] Pay the reinstatement fee (240 ILS per the WIPO PCT Applicant's Guide, Israel chapter, version applicable from 1 August 2026; the test is "due care").
 - [ ] Reinstatement is at ILPO's discretion and is not guaranteed. It is far preferable to meet the original deadline.
 
 

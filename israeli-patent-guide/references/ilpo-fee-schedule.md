@@ -119,7 +119,7 @@ None of these renewal fees is reduced for small entities.
 |---|---|
 | Request to extend any deadline, ss.48d(c) and 164, or regs 5(a) or 87(c) (item 9), per month or part thereof | 240 |
 
-This is the fee behind every "extendable, with fees" statement in this skill. Extending a Section 18 response from 4 months to the 12-month ceiling means 8 months of extension, NIS 1,920.
+This is the fee behind every "extendable, with fees" statement in this skill. Each month of extension costs NIS 240, so eight months would be NIS 1,920.
 
 
 ## PCT International Phase Fees (Filed via RO/IL)
@@ -151,7 +151,7 @@ WIPO publishes the ISA/IL search fee in USD as well (1,446 USD in the PCT Applic
 | Opposition to a PTE, reg 3(a) | 2,402 |
 | Application to cancel a PTE, reg 4 | 4,804 |
 
-The application fee must be paid within 90 days of Ministry of Health marketing authorization, a non-extendable window. A full five-year extension therefore carries roughly NIS 27,219 in official fees across its life.
+The application is filed, after paying the fee, no later than 90 days from registration of the medicinal product under the Pharmacists Ordinance (s.64O(a)); s.164(a) excludes that period from extension. A full five-year extension therefore carries roughly NIS 27,219 in official fees across its life.
 
 
 ## Opposition, Inter Partes and Miscellaneous Fees

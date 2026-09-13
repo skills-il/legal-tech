@@ -2,7 +2,7 @@
 
 This file is the explicit coverage contract for `israeli-patent-guide`. Every row is either covered by the skill, deliberately out of scope with a stated reason, or logged as a known gap. Re-litigate the "Out of scope" rows on every update cycle: a row that an ordinary user would plausibly ask for, or that has become capturable since the last cycle, must be reopened.
 
-Last reviewed: 2026-08-01 (skill version 1.3.0)
+Last reviewed: 2026-09-13 (skill version 1.5.0)
 
 
 ## Covered
@@ -15,7 +15,7 @@ Last reviewed: 2026-08-01 (skill version 1.3.0)
 | Address for service for foreign applicants | SKILL.md "Address in Israel" | |
 | Continuing duty of disclosure (s.18) | SKILL.md "IDS Duty" and Gotcha 1 | Runs to Notice of Acceptance. |
 | Automatic examination queue, no EPO-style request | SKILL.md "Examination is Queued Automatically" and Gotcha 2 | |
-| Section 18 Notice prior to Examination, 4-month response, 12-month ceiling, deferral | SKILL.md "The Section 18 Notice" | Extension fee NIS 240/month added 1.3.0. |
+| Section 18 Notice prior to Examination, response deadline on the notice, NIS 240/month extensions, deferral | SKILL.md "The Section 18 Notice" | Extension fee NIS 240/month added 1.3.0. |
 | Office Action response practice | SKILL.md "Office Action Response Deadlines" | Deliberately does not state a fixed period. |
 | Examination backlog statistics | SKILL.md "Current Examination Backlog" | Sourced to ILPO 2024 Annual Report. Check for the 2025 report. |
 | Prior art search, ILPO database and international databases | SKILL.md "Prior Art Search" | |
@@ -23,8 +23,8 @@ Last reviewed: 2026-08-01 (skill version 1.3.0)
 | Defence-related inventions, secrecy orders, foreign filing permission (ss.94-113) | SKILL.md "Before Filing Abroad" | Added 1.3.0. |
 | PCT filing via RO/IL, ISA options | SKILL.md "PCT International Filing from Israel" | |
 | PCT national phase entry, 30 months from earliest priority | SKILL.md and references/pct-israel-checklist.md | Israel is 30 months, not 31. |
-| PCT Article 19 amendment deadline | scripts/patent-deadlines.py | |
-| PCT Rule 49.6 reinstatement | SKILL.md Troubleshooting | Undated claim, re-verify. |
+| PCT Article 19 amendment deadline | scripts/patent-deadlines.py | Fixed 1.5.0 to Rule 46.1 (later of ISR transmittal + 2 months or priority + 16 months). |
+| PCT Rule 49.6 reinstatement | SKILL.md Troubleshooting | Sourced 1.5.0: due care, 240 ILS (WIPO IL chapter, 1 Aug 2026). |
 | Paris Convention 12-month priority year | SKILL.md and scripts/patent-deadlines.py | |
 | Divisional applications | SKILL.md "Divisional Applications" | |
 | Accelerated examination, grounds and both fee routes | SKILL.md and references/ilpo-fee-schedule.md | Third-party s.19a(c) route added 1.3.0. |
@@ -34,10 +34,10 @@ Last reviewed: 2026-08-01 (skill version 1.3.0)
 | Renewal schedule and due dates | SKILL.md, references, scripts | Corrected 1.3.0 to years 6/10/14/18. |
 | All-inclusive renewal option (NIS 14,410) | SKILL.md and references | Added 1.3.0. |
 | Restoration of a lapsed patent (s.59) | references/ilpo-fee-schedule.md | Fee NIS 841. |
-| 3-month objection period after Notice of Acceptance | SKILL.md "Objection Period" | Non-extendable. |
+| 3-month opposition period from publication of acceptance (s.30) | SKILL.md "Objection Period" | Anchor corrected 1.5.0 from notice date to publication date. |
 | Patent term, 20 years from filing | SKILL.md and scripts | |
-| Pharmaceutical PTE: 90-day window, EU-5 linkage, 5-year and 25-year caps, full fee ladder | SKILL.md and references | Fee ladder added 1.3.0. |
-| Pending Amendment No. 15 | SKILL.md dedicated section | Stamped May 2026. Status unconfirmed as of Aug 2026, see Known Gaps. |
+| Pharmaceutical PTE: 90-day window, recognized-country linkage, shortest-extension rule, Israel-only route, 5-year and 14-year caps | SKILL.md, references/pte.md | Rewritten 1.5.0 against ss.64A-64Q; the old EU-5 description was wrong. |
+| Pending Amendment No. 15 | SKILL.md dedicated section | 13 Sep 2026: tabled for first reading, no committee (Knesset OData). |
 
 
 ## Out of scope (explicit) - re-litigate every cycle
@@ -59,7 +59,7 @@ Last reviewed: 2026-08-01 (skill version 1.3.0)
 
 See `optimization-log.json` for the current cycle's carry list. In summary:
 
-1. Patentability criteria and exclusions (ss.3 and 7) and Israeli software / business-method practice.
+1. Israeli software / business-method examination practice (ss.3-5 and 7 criteria added 1.5.0).
 2. A protection-route chooser covering patent, registered design, trademark and trade secret.
 3. The Israel-versus-abroad filing strategy decision (direct Paris route versus PCT, cost deferral, what PCT is not).
 4. Calculator flags for the Section 18 Notice response deadline and the PCT Chapter II demand deadline.
