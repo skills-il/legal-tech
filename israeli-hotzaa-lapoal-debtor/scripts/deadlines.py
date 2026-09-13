@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compute the four Hotzaa LaPoal debtor clocks from the date the azhara was served.
 
-All four run from service (hamtzaa), not from the date printed on the azhara and not
+The four azhara clocks run from service (hamtzaa), not from the date printed on the azhara and not
 from the day the debtor noticed the file. Figures per references/verified-facts.md.
 
 Usage:
@@ -43,8 +43,13 @@ def main():
     if payorder_days:
         rows.append((f"Payment order (form 233)", served + timedelta(days=payorder_days),
                      "Later filing still possible, but interest and advocate fees may be added."))
-    rows.append(("Ability examination / paraati exemption", served + timedelta(days=21),
-                 "A paraati claim filed inside this window exempts you from attending while pending."))
+    if a.type == "mezonot":
+        rows.append(("Maintenance warning", None,
+                     "No ordinary payment order (form 233). Arrest of up to 21 days is possible without an "
+                     "ability examination, carried out only 7 days after an arrest warning is served."))
+    else:
+        rows.append(("Ability examination / paraati exemption", served + timedelta(days=21),
+                     "A paraati claim filed inside this window exempts you from attending while pending."))
 
     for name, when, note in rows:
         when_s = when.isoformat() if when else "n/a"
@@ -56,6 +61,9 @@ def main():
 
     print("Paraati (form 236, relief 119) has NO deadline and stays open at any stage.")
     print("Reminder: a payment order does NOT lift existing restrictions or attachments.")
+    print("A restriction takes effect only 30 days after its own warning is served: pay, or ask for an")
+    print("ability examination on form 400 (code 159), inside that window. Count it from the warning, not the azhara.")
+    print("If the restriction was imposed in your presence, no warning is sent and the 30 days run from imposition.")
 
 if __name__ == "__main__":
     main()

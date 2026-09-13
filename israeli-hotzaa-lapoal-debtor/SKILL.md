@@ -1,6 +1,6 @@
 ---
 name: israeli-hotzaa-lapoal-debtor
-description: "Not legal advice. For someone who has had an Israeli enforcement file (hotzaa lapoal) opened against them and must act before a deadline. Use when the user received an azhara (warning), discovered a file against them, had a bank account or salary attached (ikul), was barred from leaving the country, or wrote a check that bounced and is now in enforcement. Identifies which of the five file types they are in, because each carries a different challenge route and clock: 30 days to object on form 218, versus a paraati claim on form 236 (טופס 236) with no deadline that cannot attack a judgment. Covers the four restrictions the registrar imposes and how each is lifted, and which wages cannot be attached. Matters because the objection window is short and missing it forfeits defences permanently. Do NOT use to open a file as a creditor, for small claims before judgment, for traffic or municipal fines, or for insolvency and debt discharge, which is a different forum."
+description: "Not legal advice. For someone who has had an Israeli enforcement file (hotzaa lapoal) opened against them and must act before a deadline. Use when the user received an azhara (warning), discovered a file against them, had a bank account or salary attached (ikul), was barred from leaving the country, or has a bounced check in enforcement. Identifies which of the five file types they are in, because each carries a different challenge route and clock: 30 days to object on form 218, versus a paraati claim on form 236 (טופס 236) with no deadline that cannot attack a judgment. Covers the five restrictions the registrar can impose, the 30-day warning before one takes effect and how each is lifted, and which wages and benefits cannot be attached. Matters because missing the short objection window forfeits defences permanently. Do NOT use to open a file as a creditor, for small claims before judgment, for traffic or municipal fines, or for insolvency and debt discharge, which is a different forum."
 license: MIT
 ---
 
@@ -27,10 +27,12 @@ Everything downstream depends on this. The file type is stated on the azhara and
 | Bill or check (shtar / hamchaa) | Objection, form 218 | 30 days from service of the azhara |
 | Fixed-sum claim (sechum katzuv) | Objection, form 218 | 30 days from service of the azhara |
 | Money judgment (psak din kaspi) | No objection route. Paraati only, or set-aside/appeal of the judgment itself | Paraati has no deadline |
-| Maintenance (mezonot) | Separate track. Wage protection does not apply | See Step 6 |
+| Maintenance (mezonot) | Separate track. Wage protection does not apply, no ordinary payment order, arrest is possible | See the maintenance note below |
 | Performance of an act (tzav aseh, eviction, delivery) | Separate track | Out of scope, see boundaries |
 
 The single most common error is assuming a money-judgment file can be met with an objection. It cannot. An objection exists only for bill and fixed-sum files.
+
+**Maintenance files work differently.** The registrar may order a maintenance debtor arrested for up to 21 days without first holding an ability examination, and the order is carried out only after a warning is sent and 7 days pass from its service. The warning itself carries information on getting a lawyer through legal aid; a debtor who receives one should use it at once. The ordinary payment-order request in Step 6 and the limited-means status do not apply to maintenance debt, and the monthly amount set in the judgment cannot be changed in enforcement. Accumulated past maintenance arrears can still be spread by the registrar after an ability examination, usually only where the debtor has paid current maintenance for at least two consecutive months, although the registrar may depart from that in exceptional circumstances. A debtor who has been arrested must be brought before the registrar within 24 hours, and the registrar may cancel the arrest order or shorten it.
 
 ### Step 2: Fix the date the clock started
 
@@ -73,24 +75,31 @@ File on form 233, with form 529 (questionnaire and confidentiality waiver) signe
 Timing, and note these are a third and fourth clock distinct from the 30-day objection:
 - Money judgment or bill file: within **20 days** of service.
 - Fixed-sum claim file: within **30 days** of service.
-- Later is still possible, but interest and advocate fees may be added to the debt.
+- The 20 days is the statutory default, and the azhara may set a different date, so read the date printed on it.
+- Later is still possible, but interest and advocate fees may be added. The bigger cost: a debtor who neither complies with the azhara nor files a payment-order request is presumed to be a debtor with means who evades payment, unless they give the registrar a reasonable explanation. That presumption is what opens the way to restrictions, the evaders register and bring orders.
 
 In files up to 50,000 NIS the azhara itself carries a repayment proposal, and this request is how the debtor says they cannot meet it.
 
 Three things that decide the outcome:
 - **Start paying immediately.** The debtor must pay the monthly sum they proposed, from filing, until the registrar rules otherwise. The minimum that can be offered is 150 NIS.
 - **Approval does NOT lift existing restrictions or attachments.** This is the trap. A debtor who gets a payment order and assumes the freeze lifts is wrong; a separate request is required to lift each one. Pair this with Step 7.
-- Complying with the order can avoid arrears interest on the principal, or reduce interest in the file by 25%.
+- Complying with the order may earn a benefit: no arrears interest added to the principal, or a 25% reduction of the interest in the file.
+- **Watch the length of the spread you propose.** A debtor who asks to spread the debt over more than two years (debt up to 20,000 NIS), three years (above 20,000 and up to 100,000 NIS) or four years (above 100,000 NIS) may be declared a limited-means debtor (chayav mugbal be-emtzaim). The debt counted for these bands includes interest and linkage up to the declaration. The status cuts both ways: the registrar gives an interim payment order and consolidates all pending files into one, including files opened later; but it can also carry restrictions (exit, special restricted customer, cards) and a register anyone can search. A proposal inside those limits does not open that door; a longer one does.
+- **Know the ceiling on any payment order.** The payment period may not exceed three years for debt up to 100,000 NIS, or four years above that. The registrar may extend it by further periods totalling up to three more years when satisfied the debtor can pay within the longer period, and longer periods are possible only if creditor and debtor both agree. A debtor who cannot pay even within those limits files a notice saying so. Where total debts do not exceed 150,000 NIS (a fixed figure in the Enforcement Law, not the index-linked insolvency threshold in Gotchas), that notice is treated as an application to open insolvency proceedings; above it, the office gives information on applying to the insolvency commissioner. Either way the matter moves toward insolvency, which this skill routes out (see Gotchas).
 
-The registrar may grant the order, demand more documents, summon the debtor to an ability examination, or reject it. Where the debtor has several files, the registrar may consolidate them so one order covers all the debts.
+The registrar may grant the order, demand more documents, summon the debtor to an ability examination, or reject it. Where the debtor has several files, the registrar may consolidate them so one order covers all the debts. A request to consolidate files does not by itself stop attachments or other proceedings; a stay has to be asked for separately. If the debtor's situation worsens later, they can apply at any stage to change the order.
 
 ### Step 7: Work the restrictions layer
 
-The registrar can impose exactly four restrictions: exit from the country, receiving or holding or renewing a passport or travel document, use of debit and credit cards, and founding or holding office in a corporation. A driving-licence restriction is not one of them in enforcement proper, and users who expect one are usually thinking of fines or maintenance.
+The law lists five restrictions the registrar can impose: exit from the country; receiving, holding or renewing a passport or travel document; declaring the debtor a special restricted customer (lakoach mugbal meyuchad), which bars drawing checks and opening a new bank account; use of charge cards (credit cards); and founding or holding an interest in a corporation. The card restriction does not apply to an immediate-debit card usable only against a credit balance, or to a card loaded only with a Bituach Leumi benefit or another protected payment. The passport and exit restrictions are not imposed where leaving Israel is needed for the health of the debtor or of a family member who depends on them. A driving-licence restriction is not one of them.
+
+**Check whether a restriction could be imposed at all.** The law requires one of three grounds: the debtor was brought or came before the registrar and was shown to have means and to be evading, with debts over 500 NIS; the debt is maintenance under a judgment (other than maintenance collected by Bituach Leumi); or the debtor is presumed to be evading and either six months have passed since full service of the azhara with debts over 2,500 NIS, or a year has passed with debts over 500 NIS. The six-month and one-year periods belong only to the third ground. So on an ordinary (non-maintenance) file where the debtor has never appeared before the registrar, a restriction imposed before those periods have run does not meet the conditions; check which ground the decision relies on.
+
+**Act inside the 30-day warning.** A restriction does not take effect until the office has sent the debtor a warning and 30 days have passed from its service. Inside that window the debtor can stop it by paying, or by asking to be summoned to an ability examination on form 400 (code 159) and persuading the registrar that they are not a debtor with means who evades payment. If the registrar imposes the restriction in the debtor's presence, no warning is sent and the 30 days run from the day it was imposed. In a maintenance file the maintenance debt is itself a ground for restrictions, so showing that you are not evading does not answer it. Once a restriction is in force, the route is cancellation. Separately, where judgment debts exceed 10,000 NIS in total, the registrar may enter a debtor with means who evades payment in the register of evading debtors. That requires the registrar to be satisfied that no less harmful collection step would work, and in the usual case an invitation by registered mail to a hearing, which the debtor can answer by paying, or by appearing and persuading the registrar that they are not evading.
 
 Cancellation is requested on form 214 (online code 311) and is granted on three grounds: the debt was paid in full, the user is complying with a payment order, or the user is complying with an agreement with the creditor approved by the registrar. The registrar may condition cancellation on security.
 
-Four practical points that decide outcomes:
+Practical points that decide outcomes:
 - The request is **per file**. One restriction sitting across several files needs a separate request in each.
 - A restriction can be re-imposed immediately and with no warning if compliance stops.
 - Cancellation is notified to banks, credit companies and the Interior Ministry within 24 hours.
@@ -116,9 +125,11 @@ Two rules govern how that table is applied, and both are commonly got wrong:
 
 Wage protection follows the money into a bank account for **one month** from deposit. After that the funds are attachable like any other balance, so a user sitting on several months of protected wages in an account is not protected on the older ones.
 
+**A frozen bank account: check what is in it.** Bituach Leumi benefits and payments may not be attached. Once paid into the account they stay protected for 30 days, after which they can be attached. In a maintenance debt the benefits can be reached, except income support. Other payments are protected too, including rent assistance, certain welfare payments, and pension and severance savings before the debtor may withdraw them; read the Kol Zchut list of protected assets before explaining what is protected. Where protected money was frozen, the request to the registrar is for cancellation or stay of the proceeding (form 214 covers cancellation, stay or renewal of proceedings and restrictions).
+
 ### Step 9: Produce the deadline calendar
 
-Close by giving the user a dated list computed from their service date. There are four clocks and they are not interchangeable:
+Close by giving the user a dated list computed from their service date. The first four clocks run from service of the azhara; the last two run from later warnings. They are not interchangeable:
 
 | Clock | What it governs |
 |---|---|
@@ -126,6 +137,8 @@ Close by giving the user a dated list computed from their service date. There ar
 | 20 days | Payment-order request in a money judgment or bill file |
 | 30 days | Payment-order request in a fixed-sum file |
 | 21 days | Ability examination, and the paraati exemption from it |
+| 30 days from a restriction warning (or from imposition, if imposed in your presence) | Pay, or ask for an ability examination on form 400, before the restriction takes effect |
+| 7 days from an arrest warning | Maintenance files only: the last point before an arrest order is carried out |
 
 Add any travel date that interacts with an exit order. State for each what is lost if it passes.
 
@@ -141,7 +154,9 @@ Agent failure modes specific to this domain:
 
 - **Answering a debt-discharge question inside enforcement.** A user who wants their debts written off is asking an insolvency question, not an enforcement one. Since the September 2019 reform the route depends on total debt against a threshold of 176,923.12 NIS (2026). Route them out rather than answering in place. Sending someone to the wrong forum costs them the window.
 - **Reciting a remembered insolvency threshold.** The commonly repeated round figure is out of date. The value is index-linked and changes annually, so read it from the source rather than recalling it.
-- **Collapsing the clocks.** There are four, all running from service of the azhara: 30 days to object, 20 days for a payment order on a judgment or bill file, 30 days for a payment order on a fixed-sum file, and 21 days for the ability examination. Quoting one where another applies costs the user the window.
+- **Collapsing the clocks.** There are four, all running from service of the azhara: 30 days to object, 20 days for a payment order on a judgment or bill file, 30 days for a payment order on a fixed-sum file, and 21 days for the ability examination. Two more run from later notices: 30 days from a restriction warning, and 7 days from an arrest warning in a maintenance file. Quoting one where another applies costs the user the window.
+- **Saying there are four restrictions.** The law lists five. The one usually left out, special restricted customer, is the one that blocks checks and new bank accounts, which is exactly what a user with a "blocked account" is living through.
+- **Sending a maintenance debtor to form 233.** The ordinary payment-order request and the limited-means status do not apply to maintenance debt, and arrest is available without an ability examination. Use the maintenance note in Step 1.
 - **Offering to write the objection.** The skill assembles arguments; the user drafts and files in their own name. Producing a ready-to-file pleading is the one thing this skill must not do.
 - **Assuming a money judgment can be objected to.** It cannot. Reaching for form 218 on a judgment file wastes the user's time on a route that does not exist.
 - **Telling a user a payment order lifts their attachment.** It does not. Approval leaves every existing restriction and attachment in place until a separate request is filed for each.
@@ -154,8 +169,10 @@ Agent failure modes specific to this domain:
 | Kol Zchut, objection to a bill | https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל | The 30-day deadline, form 218, stay mechanics |
 | Kol Zchut, objection to a fixed-sum claim | https://www.kolzchut.org.il/he/התנגדות_לתביעה_על_סכום_קצוב_בהוצאה_לפועל | The 75,000 NIS ceiling and the technical grounds |
 | Kol Zchut, paraati claim | https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל | טופס 236, relief 119, the 21-day rule |
-| Kol Zchut, cancelling a restriction | https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל | The four restrictions, form 214, code 311 |
+| Kol Zchut, cancelling a restriction | https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל | form 214, code 311, the cancellation grounds |
 | Kol Zchut, protected wages | https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד | The current-year table and the 80% rule |
+| Kol Zchut, assets that cannot be attached | https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל | Benefits and other protected money in a bank account |
+| Enforcement Law, consolidated text | https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל | Sections 66א to 66ה (restrictions, warning, register), 69ג (limited means), 74 (maintenance arrest) |
 
 ## Troubleshooting
 
@@ -166,3 +183,4 @@ Agent failure modes specific to this domain:
 | Bank account frozen with no azhara ever seen | Service may have been to a former address, or the file may be at a different office | Establish the service date first; it is the anchor for every deadline and for the argument that service was defective |
 | Restriction lifted, then reappears | Compliance with the payment order or agreement lapsed | Re-imposition is immediate and carries no warning. Check compliance before filing again |
 | Restriction cancelled in one file but still biting | Cancellation is per file | A separate request is needed in every file carrying that restriction |
+| Account frozen but it holds only Bituach Leumi payments | Benefits are protected in the account for 30 days from deposit | Ask the registrar to cancel or stay the attachment on those funds, promptly, before the 30 days run |

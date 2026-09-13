@@ -110,16 +110,15 @@ URL: https://www.kolzchut.org.il/he/חדלות_פירעון_ושיקום_כלכ�
   so it must be re-read on every update rather than hardcoded from memory.
 
 ## Still to verify (NOT yet sourced, do not write into the skill)
-- The full הגבלות list and the lifting route for each
-- מזונות track specifics (arrest as a remedy)
-- Whether a driving-licence restriction exists in הוצאה לפועל proper
 - Debtor-side fee exemptions
-- איחוד תיקים / חייב מוגבל באמצעים eligibility conditions post-reform
+- Legal-aid eligibility for debtors (only the s.74(ג) arrest-warning mention is sourced)
+- Setting aside a default judgment (reg. 130) timing
+- Criminal liability for breaching a restriction
 
 ## הגבלות (restrictions) and how to lift them
 URL: https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל
 
-- EXACTLY FOUR restrictions the רשם imposes (verbatim list). NOTE: driving licence is NOT among them.
+- This PAGE lists four restrictions, scoped to its own audience. The STATUTE (s.66א) lists FIVE; see the 2026-09-13 section below. Driving licence is NOT among them.
   snippet: "צו עיכוב יציאה מהארץ." / "הגבלה על קבלה, החזקה או הארכה של דרכון או תעודת מעבר." /
            "הגבלה על שימוש בכרטיסי חיוב (כרטיסי אשראי)." / "הגבלה על ייסוד תאגיד או כהונה בתאגיד."
 - FORM: טופס 214, online code 311.
@@ -142,3 +141,37 @@ URL: https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_
 - This procedure does NOT cancel an arrest order (separate route).
   snippet: "הליך זה לא מיועד לביטול צו מאסר."
 - Contact: רשות האכיפה והגבייה *35592
+
+## 2026-09-13 update (curl with a browser User-Agent now works on kolzchut; law text from he.wikisource)
+
+### Five statutory restrictions, s.66א
+URL: https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל
+- (1) passport, (2) exit, (3) "הגבלת החייב כלקוח מוגבל מיוחד, כמשמעותו בחוק שיקים ללא כיסוי", (4) cards, (5) corporation, (6) deleted.
+- Health exception on (1) and (2): "מטעמי בריאותו של החייב או של בן משפחה התלוי בו"
+- Meaning of special restricted customer (kolzchut הגבלת_חייב_בהוצאה_לפועל_כלקוח_מוגבל_מיוחד):
+  "משמעות ההגבלה היא שהחייב יהיה מנוע מלמשוך שיקים ולא יוכל לפתוח חשבון בנק חדש"
+- Card restriction excludes debit and prepaid (kolzchut חייב_בעל_יכולת_המשתמט_מתשלום_חובותיו):
+  "ההגבלה לא חלה על שימוש בכרטיס לחיוב מיידי (דביט) וכרטיסים נטענים"
+
+### 30-day restriction warning, s.66ג
+- "ההגבלה לא תיכנס לתוקף מייד, אלא רק לאחר שמנהל ההוצאה לפועל שלח לחייב בדואר התראה וחלפו 30 ימים מיום המצאת ההתראה לחייב."
+- Form 400, code 159 (kolzchut חקירת_יכולת_של_חייב_בהוצאה_לפועל_לפני_הטלת_הגבלה).
+
+### Evaders register, s.66ה: debts over 10,000 NIS in total.
+
+### Limited-means debtor, s.69ג: spread beyond 2 years (up to 20,000), 3 years (20,000 to 100,000), 4 years (over 100,000).
+
+### Maintenance, s.74
+- (א) arrest up to 21 days "אף בלי להיזקק לחקירת יכולת"
+- (ב) ss.7א and 69ג to 69יג do not apply
+- (ג) 7 days from service of the arrest warning; warning includes legal-aid information
+- s.69ב1: past maintenance arrears in installments, current maintenance paid two consecutive months.
+
+### Consolidation does not stop proceedings (kolzchut בקשה_לאיחוד_תיקים_של_חייב_בהוצאה_לפועל)
+- "הגשת הבקשה לאיחוד תיקים לא מפסיקה אוטומטית את ההליכים המתנהלים נגד החייב"
+
+### Bituach Leumi benefits in a bank account (kolzchut נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל)
+- "אסור לעקל תשלומים וקצבאות שהביטוח לאומי משלם"
+- 30 days in the account, then attachable; maintenance exception except income support.
+
+### Freshness: every figure above re-read 2026-09-13, none changed since 2026-08-19.
