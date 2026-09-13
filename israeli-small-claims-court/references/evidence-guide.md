@@ -4,7 +4,7 @@ This reference provides detailed guidance on what evidence to collect and how to
 
 ## Types of Evidence
 
-Israeli small claims court accepts various forms of evidence. The judge has broad discretion in evaluating evidence and is not bound by the strict rules of evidence that apply in regular courts.
+Israeli small claims court accepts various forms of evidence. The court may accept evidence even if it would not be admissible in another court (Courts Law s.62(a)), and it is not bound by the procedure of other courts (s.62(b)).
 
 ### Documentary Evidence (Ra'ayot Michtviyot, ראיות מכתביות)
 
@@ -57,10 +57,10 @@ Israeli small claims court accepts various forms of evidence. The judge has broa
 
 | Type | When Needed | Cost Range | Notes |
 |------|-------------|-----------|-------|
-| Building inspector | Property defect or construction dispute | 500-2,000 NIS | Licensed engineer or building inspector |
-| Auto mechanic report | Vehicle repair dispute | 200-800 NIS | Independent mechanic, not the one who did the work |
-| Appraiser | Property value or damage valuation | 500-3,000 NIS | Licensed appraiser (shama'i mukhlat) |
-| Technology expert | Electronics or software dispute | 300-1,500 NIS | Certified professional |
+| Building inspector | Property defect or construction dispute | Ask for a written quote | Licensed engineer or building inspector |
+| Auto mechanic report | Vehicle repair dispute | Ask for a written quote | Independent mechanic, not the one who did the work |
+| Appraiser | Property value or damage valuation | Ask for a written quote | Licensed appraiser (shama'i mukhlat) |
+| Technology expert | Electronics or software dispute | Ask for a written quote | Certified professional |
 | Medical opinion | Personal injury claim | Varies | From treating physician or independent doctor |
 
 **Important**: Expert opinions carry significant weight with judges. If your claim involves a technical question (was the product defective? was the construction up to standard?), an expert opinion can make the difference between winning and losing.
@@ -70,7 +70,7 @@ Israeli small claims court accepts various forms of evidence. The judge has broa
 | Aspect | Details |
 |--------|---------|
 | Who can be a witness | Any person with direct knowledge of the relevant facts |
-| Written statement (Hatz'hara, הצהרה) | Witnesses can submit a written statement in advance |
+| Written statement (Hatz'hara, הצהרה) | Whether a written statement is accepted instead of live testimony is at the court's discretion; do not rely on it |
 | Oral testimony (Edut Be'al Peh) | Witnesses can testify in person at the hearing |
 | Number of witnesses | No strict limit, but 1-3 is typical for small claims |
 | Credibility factors | Direct observation, lack of bias, consistency with other evidence |
@@ -79,7 +79,7 @@ Israeli small claims court accepts various forms of evidence. The judge has broa
 - Witnesses should testify about **what they saw or heard directly**, not opinions or assumptions
 - Prepare witnesses by reviewing the facts (but never coach them on what to say)
 - Notify witnesses of the hearing date well in advance
-- If a witness cannot attend, a signed written statement (hatzh'ara) is acceptable
+- If a witness cannot attend, ask the court in advance how to proceed; a written statement is not guaranteed to be accepted
 
 ## Organizing Your Evidence
 
@@ -202,4 +202,4 @@ Date        | Event
 | Website pages | Screenshot with URL and date, save as PDF | Web archive (archive.org) |
 | Phone recordings | Transfer to computer, note date and parties | Cloud backup |
 
-**Note on phone recordings**: Israeli law generally permits recording a conversation you are a party to (one-party consent). However, the admissibility and weight of such recordings in court is at the judge's discretion.
+**Note on phone recordings**: check the legality of a recording under the Secret Monitoring Law before relying on it. The small claims court may accept evidence that would be inadmissible elsewhere (Courts Law s.62(a)), and its weight is for the judge. Online filing requires audio or video on a USB drive with a transcript.

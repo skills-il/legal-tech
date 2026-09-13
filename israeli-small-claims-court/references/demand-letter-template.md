@@ -9,15 +9,15 @@ This reference provides a bilingual template for a pre-suit demand letter, along
 | Shows good faith | Judges view favorably plaintiffs who attempted resolution before filing |
 | May resolve the dispute | Many defendants pay after receiving a formal demand |
 | Creates evidence | Documents your attempt to settle |
-| Required by some judges | Some judges dismiss or delay cases where no prior demand was sent |
+| Not a filing condition | No rule makes a prior demand a condition for filing, but it documents a good-faith attempt to settle |
 | Cost-effective | Costs only the price of registered mail |
 
 ## When to Send
 
 | Timing | Recommendation |
 |--------|---------------|
-| Before filing | At least 14 days before filing the claim |
-| Response deadline | Give the defendant 14-30 days to respond or pay |
+| Before filing | Leave the recipient reasonable time to answer before you file; no statutory waiting period applies |
+| Response deadline | A deadline you choose, commonly 14-30 days (a practical convention, not a legal rule) |
 | Method | Registered mail (do'ar rashum, דואר רשום) for proof of delivery |
 | Keep proof | Save the postal receipt and tracking confirmation |
 
@@ -202,5 +202,5 @@ Sincerely,
 - **Keep a copy** of the letter and the postal receipt. You will need these as evidence in court.
 - **Do not make threats** beyond legitimate legal action. Keep the tone professional.
 - **Be specific** about amounts, dates, and what you are demanding. Vague demands weaken your position.
-- **Set a realistic deadline**: 14 days is standard for straightforward payment demands. 21-30 days may be appropriate for complex matters.
+- **Set a realistic deadline**: 14 days is a common choice for straightforward payment demands (a convention, not a legal requirement). 21-30 days may be appropriate for complex matters.
 - **Do not admit fault**: state facts objectively without accepting blame for any part of the dispute.
