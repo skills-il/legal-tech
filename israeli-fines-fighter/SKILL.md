@@ -277,7 +277,7 @@ There is no "warning letter" tier and no standalone "theory re-test at 34-36" ti
 | Running a red light | 10 | 22(a) |
 | Speeding 21-30 km/h over limit (urban) | 8 | 54(a) |
 | Speeding 31-40 km/h over limit (urban) | 10 | 54(a) |
-| Using mobile phone while driving, not hands-free | 8 | 28(b)(1)(a) |
+| Using mobile phone while driving, not hands-free | 8 if the offence was before 20.8.2026, 10 from 20.8.2026 | 28(b)(1)(a) |
 | Driver not wearing seatbelt | 6 | 83a(b) |
 | Passenger not wearing seatbelt | 2 | 83b(a) |
 | Illegal overtaking | 4-10, depending on the specific offence | 47 |
@@ -354,18 +354,14 @@ User received a 250 NIS parking ticket yesterday for parking near a red-and-whit
 The "fine doubles after 30 days" framing is incorrect. The rule depends on which track the fine is on:
 
 - **Administrative track** (Administrative Traffic Violations Law): the late-payment addition (tosefet pigur) is **30% of the unpaid fine**, a single addition, per s.10(b)(1), plus shekel interest and late-payment charges under s.10(b)(2). It attaches after the payment date in s.8(c) / 9(a) / 19(d), not at day 30.
-- **Criminal track** (breirot mishpat not moved across): under s.229(b) CPL the additions are the tosefet pigur, shekel interest and late-payment charges **under s.67 of the Penal Law**, collected under ss.68 and 70. Do not quote a percentage from memory; check the balance with the Fines Collection Center or on the payment notice. A prosecutor may waive these additions on request under s.229(f) where there were reasonable causes for non-payment or special personal circumstances; the request must be in writing and supported by an affidavit (s.229(g)).
+- **Criminal track** (breirot mishpat not moved across): additions under s.229(b) CPL and s.67 of the Penal Law, with a written waiver request under s.229(f)-(g). Details in `references/fine-types.md`.
 - Either way: possible collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
 
 **Waiver of the surcharge on municipal fines (worth asking for, and widely unknown).** For a fine imposed by a municipal inspector under s.28 (this includes nat"z camera fines), s.10(c) lets the competent authority exempt the person from the late-payment addition, in whole or in part, where the failure to pay on time was for a reason beyond their control, or where the surcharge arose from a malfunction of a state or municipal authority. The request must be in writing (s.10(d)).
 
 If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately.
 
-After the windows close the person is treated as convicted and sentenced to the fine in the notice
-(s.229(h2) CPL). A late request to be tried is still possible: under s.230 the court may hear the case
-where the conditions in s.229(e) are met, that is the delay was caused by something outside the
-person's control which prevented timely filing and the request was made immediately once that
-obstacle was removed, or for other special reasons the court records. Document the cause.
+After the windows close, a late request to be tried is still possible in limited cases (s.229(h2), s.230, s.229(e) CPL). See `references/fine-types.md`.
 
 ### "I got a camera fine but I wasn't driving"
 The vehicle owner must submit a statutory declaration (tatzir) identifying the actual driver. This transfers liability. The declaration must be submitted within 90 days and include the other driver's full name and ID number.
@@ -374,9 +370,7 @@ The vehicle owner must submit a statutory declaration (tatzir) identifying the a
 A municipal parking ticket is a **breirat kenas under the Criminal Procedure Law**, not an
 administrative-affairs matter. The first step is a בקשה לביטול to the municipality. If that is
 rejected, the next step is a **בקשה להישפט**, which moves the case to בית משפט לעניינים מקומיים as a
-criminal-procedure hearing. It is NOT an erur minhali to an administrative-affairs court. (Earlier
-versions of this skill said otherwise in this one paragraph while the Step 2 and Step 5 tables said
-the opposite; the tables were right.) For small fines this is often not cost-effective, but the route
+criminal-procedure hearing. It is NOT an erur minhali to an administrative-affairs court. For small fines this is often not cost-effective, but the route
 is the one above.
 
 ### "How much does a traffic lawyer cost?"

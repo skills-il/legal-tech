@@ -40,8 +40,8 @@
       "claim_id": "parking-administrative-offences-law",
       "claim": "Municipal parking tickets are outside the traffic tribunal's jurisdiction: an objection goes to the municipality, and if it is rejected the next step is a request to be tried.",
       "source_url": "https://www.kolzchut.org.il/he/ערעור_על_דוח_תנועה_לתשלום_קנס",
-      "raw_snippet": "לא, בית הדין לתעבורה אינו מוסמך לדון בדוחות חניה עירוניים. אם ההשגה לא התקבלה על-ידי העירייה אפשר להגיש לעירייה בקשה להישפט.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "לא, בית הדין לתעבורה אינו מוסמך לדון בדוחות חניה עירוניים. אם העירייה לא קיבלה את ההשגה אפשר להגיש לעירייה בקשה להישפט.",
+      "fetched_at": "2026-09-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -525,14 +525,25 @@
     },
     {
       "claim_id": "phone-offence-changes-20-8-2026",
-      "claim": "The mobile-phone offence (reg. 28(b)) has a superseding Sixth Schedule row effective 20.8.2026.",
-      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
-      "raw_snippet": "(החל מיום 20.8.2026): נהיגה תוך שימוש בטלפון בלא דיבורית",
-      "fetched_at": "2026-08-13T00:57:20.915834+00:00",
+      "claim": "The Sixth Schedule 8-point row for the mobile-phone offence (reg. 28(b)) was marked for deletion on 20.8.2026, so an offence before that date carries 8 points.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94&oldid=3025774",
+      "raw_snippet": "4א 28(ב) (יימחק ביום 20.8.2026): נהיגה תוך שימוש בטלפון בלא דיבורית",
+      "fetched_at": "2026-09-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/appeal-grounds.md",
+        "references/fine-types.md"
+      ]
+    },
+    {
+      "claim_id": "phone-offence-10-points-from-20-8-2026",
+      "claim": "From 20.8.2026 the mobile-phone offence (reg. 28(b)) sits in the Sixth Schedule 10-point band, so an offence on or after that date carries 10 points. The Ministry offence table carries code 7700 at 10 points beside the older 8-point codes 7140 and 7257.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94&oldid=3025774",
+      "raw_snippet": "4א 28(ב) (החל מיום 20.8.2026): נהיגה תוך שימוש בטלפון בלא דיבורית",
+      "fetched_at": "2026-09-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
         "references/fine-types.md"
       ]
     },
