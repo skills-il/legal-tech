@@ -26,7 +26,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
@@ -36,8 +36,5 @@
     "codex",
     "openclaw",
     "gemini-cli"
-  ],
-  "openclaw": {
-    "install_url": "https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter"
-  }
+  ]
 }

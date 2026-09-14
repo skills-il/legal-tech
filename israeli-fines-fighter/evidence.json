@@ -618,16 +618,6 @@
       ]
     },
     {
-      "claim_id": "openclaw-install-url",
-      "claim": "OpenClaw install URL for this skill, declared in metadata.json.",
-      "source_url": "https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter",
-      "raw_snippet": "https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter",
-      "fetched_at": "2026-08-13T01:29:38.488122+00:00",
-      "appears_in": [
-        "metadata.json"
-      ]
-    },
-    {
       "claim_id": "ref-mot-offence-code-table",
       "claim": "טבלת סמלי העבירות של משרד התחבורה, מאגר data.gov.il, היא הרשימה המחייבת של סמלי עבירות תעבורה וכוללת עמודת ניקוד לכל סמל. היא המקור לערכי הנקודות שבטבלה בסקיל.",
       "source_url": "https://data.gov.il/he/datasets/ministry_of_transport/tavlat-simlei-averot",
