@@ -108,8 +108,8 @@ means any of three things:
    against earthquakes by demolition and rebuild or by strengthening to the earthquake-resistance
    standard, excluding such a plan applying in a pinui-binui complex.
 
-The previous definition covered only TAMA 38. Source: section 1 of the 2008 law, with the
-superseded wording shown in the amendment note on the same page.
+The previous definition covered only TAMA 38. Source: section 1 of the 2008 law for the current
+wording; the superseded wording is in the consolidated text as it stood before tikkun 7.
 
 So the majorities, the mefake'ach's jurisdiction, and the statutory refusal grounds continue to
 apply to projects running under the municipal plans that succeeded TAMA 38, provided the plan
