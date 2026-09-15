@@ -1,6 +1,6 @@
 ---
 name: israeli-tender-proposal-builder
-description: "Builds a complete Hebrew proposal package for Israeli government and public sector tenders (michrazim). Parses the tender document, extracts threshold conditions, produces a compliance checklist, and drafts every proposal section per Chok Chovat HaMichrazim 5752-1992 and Takanot 5753-1993 (declarations, past experience table, pricing worksheet). Use when responding to an open tender (michraz pumbi), closed (sagur), framework (misgeret), or a local authority tender, and when researching historical procurement contracts via BudgetKey or IL Budget MCP to benchmark pricing. Prevents disqualification on technical defects. Do NOT use for Israeli Land Authority (RMI) land allocation tenders (use israeli-land-tenders), for filing a petition to the tenders committee, or for private commercial RFPs not subject to the Mandatory Tenders Law."
+description: "Builds a complete Hebrew proposal package for Israeli government and public sector tenders (michrazim). Parses the tender document, extracts threshold conditions, produces a compliance checklist, and drafts every proposal section per Chok Chovat HaMichrazim 5752-1992 and Takanot 5753-1993 (declarations, past experience table, pricing worksheet). Use when responding to an open tender (michraz pumbi), closed (sagur), framework (misgeret), or a local authority tender, and when researching historical procurement contracts via BudgetKey or IL Budget MCP to benchmark pricing. Prevents disqualification on technical defects. Do NOT use for Israeli Land Authority (RMI) land allocation tenders (use israeli-land-tenders), for challenging a tender committee decision (disqualification or award) by administrative petition, or for private commercial RFPs not subject to the Mandatory Tenders Law."
 license: MIT
 compatibility: Works offline for drafting. MCP servers (BudgetKey / IL Budget) are optional and only needed for historical contract lookups.
 ---
@@ -29,6 +29,16 @@ Before drafting anything, confirm which statute governs the tender and what kind
 | Is the issuer a public body covered by the Mandatory Tenders Law? | The law applies to public bodies, government ministries, statutory corporations, government companies, and health funds. Local authorities follow the parallel municipal tender regulations. Private companies are not bound by this law. |
 | Is it an open tender (מכרז פומבי), closed (מכרז סגור), framework (מכרז מסגרת), or a case of exemption (פטור ממכרז)? | The regulations define roughly 30 cases where a full public tender is not required. Know which track you are on. |
 | What year are the regulations? | The operative text is Takanot Chovat HaMichrazim, 5753-1993, as amended. Always read the tender document itself for any special conditions that override the defaults. |
+
+**Local-authority tenders are a separate rulebook, identify them first.** A city tender is governed by
+תקנות העיריות (מכרזים), התשמ"ח-1987 under the Municipalities Ordinance, and local and regional councils
+by parallel orders. The state rules in Steps 2 and 7 (Takana 6, the state מכרז זוטא track, the mr.gov.il
+electronic box) do not apply as written. Three municipal rules change what you draft:
+key municipal amounts, including the exemption and zuta thresholds, are CPI-linked (reg 2)
+and move every month, so compute the current figure instead of quoting a remembered one; a bid with a fundamental reservation or a basic
+change is disqualified outright (reg 20(ג)); and after the final decision every participant may inspect
+the decision and the winning bid (reg 22(ט)). Those regulation numbers are the city regulations; council
+orders number the same rules differently. Use the authority's own tender pack and templates.
 
 If the issuer is Rashut Mekarkei Yisrael (RMI) and the subject is a land allocation, stop and route to the `israeli-land-tenders` skill instead. This skill is for supply, services, works, and framework tenders.
 
@@ -77,6 +87,12 @@ Work section by section. Match the order and numbering required by the tender do
 6. **הצהרות ותצהירים (Declarations and affidavits)** - The block of mandatory declarations (see Step 5).
 7. **נספחים (Appendices)** - Licenses, certificates, proof of insurance, bank guarantee, and any other attachment required by the tender.
 
+**Mark trade secrets now, not after the award.** Losing bidders may inspect the winning bid (state reg
+21(ה)(1), within 30 days of notice; municipal reg 22(ט)). Parts whose disclosure may reveal a trade or
+professional secret can be withheld, but the committee decides, and a bidder who marks nothing
+weakens its own position. Mark specific passages with a one-line reason; marking the whole bid is not
+credible.
+
 Draft each section in natural, direct Israeli Hebrew. Avoid the over formal government register. The committee reads dozens of proposals and prefers clarity over pomp.
 
 ### Step 5: Assemble the Mandatory Declarations Block
@@ -88,7 +104,9 @@ A תצהיר (sworn affidavit) is not just a signed statement. It must be **swor
 | Declaration | Hebrew | Legal basis | When required |
 |-------------|--------|-------------|---------------|
 | Proper bookkeeping and no debts to tax authority | אישור ניהול ספרים וניכוי מס במקור | חוק עסקאות גופים ציבוריים | Every tender |
-| Fair employment and minimum wage compliance | תצהיר לפי חוק עסקאות גופים ציבוריים (שכר מינימום והעסקת עובדים זרים כדין) | חוק עסקאות גופים ציבוריים | Every tender |
+| Fair employment and minimum wage compliance | תצהיר לפי חוק עסקאות גופים ציבוריים (שכר מינימום והעסקת עובדים זרים כדין) | חוק עסקאות גופים ציבוריים, סעיף 2ב: the supplier and a related party were not convicted of more than two offences, or enough time has passed since the last one (for service contracts, three years) | Every tender |
+| Adequate representation of people with disabilities | תצהיר לפי סעיף 2ב1 (ייצוג הולם לאנשים עם מוגבלות) | חוק עסקאות גופים ציבוריים, סעיף 2ב1 | Requested in every tender; what the bidder declares depends on its employee headcount, so fill in the Finance Ministry template accordingly |
+| No bid coordination | תצהיר היעדר תיאום מכרז | Tender document; agreeing bid prices with a competitor is a restrictive arrangement under חוק התחרות הכלכלית (a restraint on the price to be offered), and being party to an unapproved one is a criminal offence | Usually required |
 | Workers' rights compliance | תצהיר בדבר קיום חובות המציע בעניין שמירת זכויות עובדים | תקנה 6(א)(4) | Labor intensive contracts |
 | No conflict of interest | תצהיר העדר ניגוד עניינים | Tender document | Usually required |
 | Bribery and fraud disclosure | תצהיר היעדר הרשעות | Tender document | Usually required |
@@ -129,7 +147,11 @@ Three statutory preferences run side by side. The first works on price; the othe
 
 - If your offer qualifies as Israeli-made goods, say so explicitly and attach whatever proof of Israeli origin the tender requires. Do not leave the committee to guess.
 - If you are bidding imported goods against a likely Israeli competitor, build the 15% preference into your expectations. Your nominal price has to beat the Israeli competitor's price divided by 1.15, not just their raw price.
-- Separate, additional preference regimes exist for goods from national-priority areas. If the tender mentions אזורי עדיפות לאומית, check those regulations too, as they stack differently.
+- 15% is only one row of the table. The same regulations set 20% for goods from the Gaza envelope area (a temporary provision until 1.9.2028),
+  10% where the buyer is a government company or unit that exports at least 30% of its output, and 50%
+  for Israeli textiles in specified security-body tenders. In a splittable goods tender above 30 million
+  NIS, the buyer may cut a winning foreign supplier to 50% of the contract at the same price. Identify
+  which row applies before pricing.
 
 **Women-controlled business (העדפת עסק בשליטת אישה), סעיף 2ב.** This is a tie-breaker, not a price discount. When two or more offers receive an identical weighted score that is the highest score, and one of them is from a business controlled by a woman, that offer wins. To claim it the bidder must attach, with the offer itself, an accountant's certificate confirming a woman holds control of the business plus an affidavit by the controlling woman to the same effect. Control here means holding, alone or together with other women, directly or indirectly, more than 50% of any class of the means of control in the business. No certificate, no preference.
 
@@ -155,7 +177,7 @@ Tenders have multiple overlapping deadlines. Build a timeline and share it with 
 | Submission deadline (מועד הגשה) | The hard gate | Submit by the method the tender specifies, before the stated hour. Late is late. Confirm whether this tender uses the electronic tender box or physical submission (see the submission-path note below) and never assume. |
 | Opening of offers | Usually within days after submission | Some tenders permit bidder attendance at the opening |
 | Clarifications and presentations | Committee initiated | Respond within the window the committee sets |
-| Award notice | Variable | Losing bidders have a short window to request materials and file a challenge |
+| Award notice | Variable | Inspect the protocol and winning bid (state: within 30 days of notice). A challenge is an administrative petition to the district court sitting as administrative court, filed without delay and, absent another deadline, no later than 45 days after notice. Treat 45 days as a ceiling: the court may dismiss a petition for delay even when it is filed within the deadline (reg 4), and the inspection window runs at the same time. Raise any objection to the tender's own terms before submitting; a bidder who bids without objecting may find a later challenge to those terms harder. Route to a lawyer at once. |
 
 Always read the exact dates in the tender document. The generic windows above are orientation, not substitutes for the published schedule.
 
@@ -197,10 +219,14 @@ Domain specific failure modes an AI agent is likely to hit if not explicitly war
 
 1. **Do not paraphrase threshold conditions.** Agents tend to rewrite a clumsy Hebrew sentence to sound better. In a tender, the exact wording is the gate. Paraphrasing the threshold in the checklist creates a false positive where you tick a box you actually failed to meet.
 2. **Do not invent declaration text.** Every mandatory declaration has a template in the tender document or in the annexes. The bidder must copy the template verbatim and sign. Do not draft original declaration language from scratch. If the template is missing from the tender pack, tell the user and stop.
-3. **Local authority tenders are a different regime.** Chok Chovat HaMichrazim covers state bodies. Municipal tenders are governed by parallel regulations under the Municipalities Ordinance. If the issuer is a city, a regional council, or a local authority, the structure is similar but specific clauses differ. Call it out.
+3. **Local authority tenders are a different regime.** Chok Chovat HaMichrazim covers state bodies. City tenders are governed by the municipal tender regulations, and local and regional councils by parallel orders. The structure is similar but the rules and their numbering differ. Call it out (see Step 1).
 4. **Two envelope tenders mean two sealed envelopes.** If the tender specifies two envelopes (מעטפה א for qualifications, מעטפה ב for price), putting the price anywhere in the qualifications envelope is an automatic disqualification. Check twice before finalizing.
 5. **Clarification answers override the tender document.** Once the committee publishes written answers, those answers amend the tender. Any draft written from the original document alone is stale. Always re-read the published clarifications before submission.
-6. **Exact arithmetic.** Agents are sloppy with pricing worksheets. Every line total, subtotal, VAT line, and grand total must reconcile to the agora. A one-shekel mismatch between subtotal and total has been used as a ground for disqualification.
+6. **Never attach a reservation or a condition.** Agents like to "protect" the bidder with "subject to", "our
+   price assumes", or a rewritten clause. In a municipal tender a fundamental reservation or basic change
+   disqualifies the bid outright (reg 20(ג)). The state regulations have no equivalent rule, but state tender documents commonly reserve the right to disqualify such a bid or to ignore the reservation, so read yours. Put every doubt
+   into a clarification question before the deadline instead.
+7. **Exact arithmetic.** Agents are sloppy with pricing worksheets. Every line total, subtotal, VAT line, and grand total must reconcile to the agora. A one-shekel mismatch between subtotal and total has been used as a ground for disqualification.
 
 ## Reference Links
 
@@ -212,6 +238,7 @@ Authoritative sources used to verify the facts in this skill:
 | חוק חובת המכרזים, תשנ"ב-1992 (Nevo) | https://www.nevo.co.il/law_html/law01/242_001.htm | Current text of the Mandatory Tenders Law: covered bodies and the public-tender duty, סעיף 2ב women-controlled preference, סעיף 2ד reserve-service preference |
 | חוק חובת המכרזים (כל זכות) | https://www.kolzchut.org.il/he/חוק_חובת_המכרזים | Plain-language explanation of the Mandatory Tenders Law, covered bodies, and Takana 6 threshold conditions |
 | תקנות העדפת תוצרת הארץ, תשנ"ה-1995 (Nevo) | https://www.nevo.co.il/law_html/law00/72502.htm | Current text of the Israeli-product preference regulations and the 15% mechanism |
+| תקנות העיריות (מכרזים) (Wikisource) | https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_(%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D) | Municipal regime: CPI linkage, reg 20(ג) reservations, reg 22(ט) inspection |
 | מינהל הרכש הממשלתי | mr.gov.il | Government Procurement Administration portal, Yahalom electronic tender box, current tender thresholds |
 | BudgetKey MCP on skills-il | https://agentskills.co.il/en/mcp/budgetkey | Reference for pairing MCP for procurement contract queries |
 | IL Budget MCP on skills-il | https://agentskills.co.il/en/mcp/il-budget | Reference for pairing MCP for OpenBudget contract queries |
@@ -224,4 +251,4 @@ Authoritative sources used to verify the facts in this skill:
 | The price template is a PDF, not a spreadsheet | Common in old tenders | Rebuild the template in a spreadsheet with identical line labels, calculate, then transcribe back to the PDF form |
 | The bidder cannot meet one statutory condition | Blocker | Stop. You cannot cure a Takana 6(a) deficiency by writing better prose. |
 | The tender was amended after you started drafting | Clarification answers published | Redo Step 3, compare the new version to your checklist, and update any affected sections before submission |
-| The user wants advice on filing a post-award challenge | Out of scope | This skill builds offers, not appeals. Route to an administrative law attorney. |
+| The user wants to challenge the award | Out of scope, but time-critical | This skill builds offers, not petitions. Tell the user the route is an administrative petition to the district court, that the clock usually runs from the notice (45 days absent another deadline, reg 3(ב) of the administrative-courts procedure regulations), and route them to an administrative law attorney the same day. |

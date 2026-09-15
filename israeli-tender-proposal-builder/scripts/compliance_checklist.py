@@ -10,20 +10,37 @@ Usage:
 Output:
     Prints a filled Markdown table the user can paste into a proposal draft.
 
+Append "::Ready", "::Needs work" or "::Blocker" to a condition to set its status
+(default: Needs work). Any Blocker prints a STOP line.
+
 This script does not parse tender PDFs. It is a deterministic formatter.
 The parsing, extraction, and classification of threshold conditions is the
 responsibility of the skill instructions, not this helper.
 """
 
 import argparse
+import sys
 from datetime import date
 
 
+STATUSES = {"ready": "Ready", "needs work": "Needs work", "blocker": "Blocker"}
+
+
+def split_status(condition: str) -> tuple[str, str]:
+    """A condition may end with "::Ready", "::Needs work" or "::Blocker"; default is Needs work."""
+    if "::" in condition:
+        text, _, status = condition.rpartition("::")
+        if status.strip().lower() in STATUSES:
+            return text.strip(), STATUSES[status.strip().lower()]
+    return condition, "Needs work"
+
+
 def build_row(num: int, condition: str, kind: str) -> str:
+    text, status = split_status(condition)
     return (
-        f"| {num} | {condition} | {kind} | "
+        f"| {num} | {text} | {kind} | "
         "_(fill in evidence document)_ | "
-        "_(fill in source)_ | Needs work |"
+        f"_(fill in source)_ | {status} |"
     )
 
 
@@ -69,7 +86,7 @@ def main() -> int:
     args = parser.parse_args()
 
     if not args.statutory and not args.discretionary:
-        print("No threshold conditions provided. Pass --statutory and/or --discretionary.")
+        print("No threshold conditions provided. Pass --statutory and/or --discretionary.", file=sys.stderr)
         return 1
 
     print(f"# Compliance Checklist - {args.tender}")
@@ -78,6 +95,10 @@ def main() -> int:
     print()
     print(build_table(args.statutory, args.discretionary))
     print()
+    blockers = [c for c in args.statutory + args.discretionary if split_status(c)[1] == "Blocker"]
+    if blockers:
+        print(f"**STOP: {len(blockers)} blocker(s).** Do not continue drafting until each is resolved.")
+        print()
     print("## Rule")
     print()
     print(

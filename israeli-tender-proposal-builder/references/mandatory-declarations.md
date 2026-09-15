@@ -19,6 +19,18 @@ Every Israeli public tender requires a standardized block of declarations (תצ�
 - **Signatories:** An authorized officer of the bidding entity, plus verification by a lawyer
 - **Template:** Must match the template in the tender document exactly
 
+### 2a. Adequate representation of people with disabilities - תצהיר לפי סעיף 2ב1
+
+- **Legal basis:** Chok Asakot Gufim Tziburiim, section 2ב1
+- **When required:** Requested in every public-body contract
+- **Content:** Depends on the bidder's headcount; fill in the Finance Ministry template accordingly
+- **Template:** Must match the template in the tender document exactly
+
+### 2b. No bid coordination - תצהיר היעדר תיאום מכרז
+
+- **Legal basis:** Tender document; agreeing bid prices with a competitor is a restrictive arrangement under חוק התחרות הכלכלית, and being party to an unapproved one is a criminal offence
+- **Content:** The bidder priced independently and did not coordinate with any other bidder
+
 ### 3. Workers' rights declaration - תצהיר שמירת זכויות עובדים
 
 - **Legal basis:** Takana 6(a)(4) of Takanot Chovat HaMichrazim
@@ -60,7 +72,7 @@ Depending on the tender, additional declarations may be required:
 1. **Using stale templates.** A declaration template from last year's tender is not valid for this year's tender. Use only the templates supplied with the current tender.
 2. **Wrong signatory.** Declarations require specific signatories. A CFO cannot sign a declaration that requires a CEO signature, even if the CFO is authorized to bind the company.
 3. **Missing lawyer verification.** Many declarations require אישור עורך דין. Without it, the declaration is incomplete even if the signature is genuine.
-4. **Signing after the date on the document.** Declarations are often dated. Make sure the signing date matches or follows the document date.
+4. **Wrong affidavit date.** The affidavit must be sworn and dated on or before the submission deadline, never after it, and within any validity window the tender sets.
 5. **Translating declarations to English.** The declaration must remain in Hebrew as provided in the tender. Do not translate.
 
 ## Checklist template

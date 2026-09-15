@@ -43,12 +43,13 @@ Even under an exemption, the issuing body usually runs a lighter weight process 
 
 ## Local authority tenders
 
-Municipal tenders are not governed by Chok Chovat HaMichrazim directly. They fall under the parallel municipal tender regulations derived from the Municipalities Ordinance. Key differences:
+Municipal tenders are not governed by Chok Chovat HaMichrazim directly. City tenders fall under תקנות העיריות (מכרזים), and local and regional councils under parallel orders, which number the same rules differently. Key differences:
 
 - Thresholds for when a tender is required are set in the municipal regulations, not the state regulations
 - Local authorities may have their own procurement procedures and committee structures
 - Declarations required are broadly similar but may use different templates
-- Appeals and challenges go through different channels (administrative petition to the district court)
+- Challenges go the same way as state tenders: an administrative petition to the district court sitting as administrative court (both are tender matters under the Administrative Courts Law)
+- A bid with a fundamental reservation or basic change is disqualified outright (city regulations, reg 20(ג))
 
 When the issuing body is a city, local council, regional council, or municipal corporation, treat it as a separate regime and read the specific municipal regulations.
 

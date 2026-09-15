@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-tender-proposal-builder",
-  "generated_at": "2026-08-09T15:45:00Z",
+  "generated_at": "2026-09-15T11:11:38Z",
   "claims": [
     {
       "claim_id": "takanot-5753-1993-takana-6",
@@ -149,6 +149,236 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/mandatory-declarations.md"
+      ]
+    },
+    {
+      "claim_id": "admin-courts-schedule-tenders",
+      "claim": "Tender matters of state bodies (s.2 Mandatory Tenders Law) and of local authorities are heard by the administrative court (First Schedule, item 5)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D",
+      "raw_snippet": "ועניני מכרזים של רשות מקומית",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-45-days",
+      "claim": "Absent another statutory deadline, an administrative petition is filed without delay and no later than 45 days from publication/notice of the decision (reg 3(ב))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "ולא יאוחר מארבעים וחמישה ימים מיום שההחלטה פורסמה כדין",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "municipal-reservation-disqualifies",
+      "claim": "Municipal tender documents with a fundamental reservation or basic change are disqualified (reg 20(ג))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D%29",
+      "raw_snippet": "שצורפה להם הסתייגות עקרונית או שינוי יסודי",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "state-inspection-30-days",
+      "claim": "A state-tender participant may inspect the protocol and the winning bid within 30 days of notice (reg 21(ה)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D",
+      "raw_snippet": "המשתתף יהיה רשאי בתוך 30 ימים ממועד מסירת ההודעה לעיין בפרוטוקול ועדת המכרזים",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "state-inspection-trade-secret",
+      "claim": "Parts whose disclosure may reveal a trade or professional secret are excluded from inspection",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D",
+      "raw_snippet": "לחשוף סוד מסחרי או סוד מקצועי",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-gaza-20pct",
+      "claim": "Gaza-envelope goods get a 20% price preference",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "מאזור עוטף עזה שמחירם אינו עולה על מחיר הצעות לרכישת טובין מיובאים בתוספת של 20%",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-export-gov-10pct",
+      "claim": "Government companies/units exporting at least 30% of output: preference rate 10%",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "אשר מיצאות 30% לפחות מתוצרתן, יהיה שיעור ההעדפה כאמור",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-textile-50pct",
+      "claim": "Israeli textiles get a 50% preference in the specified security-body tenders",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "טקסטיל מיובאים בתוספת של 50%",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "municipal-cpi-indexation",
+      "claim": "Municipal tender amounts are CPI-indexed (reg 2)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D%29",
+      "raw_snippet": "לפי שיעור עליית המדד החדש לעומת המדד היסודי",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "asakot-2b-two-offences",
+      "claim": "Public Bodies Transactions Law s.2ב: affidavit that the supplier and related party were not convicted of more than two offences",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA_%D7%92%D7%95%D7%A4%D7%99%D7%9D_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D",
+      "raw_snippet": "לא הורשעו הספק ובעל זיקה אליו ביותר משתי עבירות",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "municipal-inspection-winning-bid",
+      "claim": "In a municipal tender every participant may inspect the committee final decision and the winning bid (reg 22(ט))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D%29",
+      "raw_snippet": "רשאי כל משתתף במכרז לעיין בהחלטתה הסופית של הועדה, ובהצעת הזוכה במכרז",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-split-tender-30m",
+      "claim": "A splittable goods tender above 30 million NIS lets the buyer cut a foreign supplier to 50% at the same price (reg 4)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "ששווי ההתקשרות בו עולה על 30 מיליון שקלים חדשים והניתן לפיצול",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-split-50pct",
+      "claim": "Split-tender provision reduces the foreign supplier to 50% without price change",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "להקטין את היקף ההתקשרות עם ספק חוץ ל־50% ללא שינוי במחיר",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "asakot-2b1-disability",
+      "claim": "Public Bodies Transactions Law s.2ב1 requires a supplier affidavit on adequate representation of people with disabilities",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA_%D7%92%D7%95%D7%A4%D7%99%D7%9D_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D",
+      "raw_snippet": "2ב1. ייצוג הולם לאנשים עם מוגבלות",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "asakot-2b-service-three-years",
+      "claim": "For service contracts the s.2ב affidavit requires three years since the last conviction where there were more than two offences",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA_%D7%92%D7%95%D7%A4%D7%99%D7%9D_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D",
+      "raw_snippet": "כי במועד ההתקשרות חלפו שלוש שנים לפחות ממועד ההרשעה האחרונה",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-reg-3",
+      "claim": "The administrative-petition filing deadline is set in reg 3 (תקנה 3) of the administrative-courts procedure regulations",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "אף אם הוגשה בתוך אחד המועדים לפי תקנה 3",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "competition-restrictive-arrangement-ban",
+      "claim": "Competition Law s.4: no person may be party to a restrictive arrangement without approval, permit or exemption",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%97%D7%A8%D7%95%D7%AA_%D7%94%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "לא יהיה אדם צד להסדר כובל, כולו או מקצתו",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "competition-price-offered",
+      "claim": "Competition Law s.2(ב)(1): a restraint concerning the price to be offered is a restrictive arrangement (covers coordinating bid prices)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%97%D7%A8%D7%95%D7%AA_%D7%94%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "המחיר שיידרש, שיוצע או שישולם",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "competition-criminal-offence",
+      "claim": "Competition Law s.47(א1): being party to an unapproved restrictive arrangement is a criminal offence punishable by imprisonment",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%97%D7%A8%D7%95%D7%AA_%D7%94%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "מי שהיה צד להסדר כובל שלא אושר כדין",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-laches-reg-4",
+      "claim": "Reg 4: the court may dismiss a petition for delay even if filed within the reg 3 deadlines",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "רשאי לדחות עתירה אם ראה כי בנסיבות הענין היה שיהוי בהגשתה",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-gaza-temporary",
+      "claim": "The Gaza-envelope preference is a temporary provision in force 1.9.2023 to 1.9.2028",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "הוראת שעה מיום 1.9.2023 עד יום 1.9.2028",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]
