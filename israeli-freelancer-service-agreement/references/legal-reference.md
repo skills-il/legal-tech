@@ -105,6 +105,13 @@ contracts through, is none of those. For a foreign client the whole of this chap
 no default term, no interest regime, no non-derogation protection. Every payment safeguard must then
 be drafted from scratch.
 
+### 2e1. Allocation number on tax invoices (חשבוניות ישראל)
+
+From 1 June 2026 a tax invoice above 5,000 ₪ before VAT between dealers must carry an allocation number
+issued by the Tax Authority; without it the recipient cannot deduct the input VAT. The threshold was
+10,000 ₪ from 1 January 2026. Drafting implication: an עוסק מורשה billing above the threshold should
+state that invoices will carry an allocation number.
+
 ### 2f. Withholding tax (ניכוי מס במקור) and certificates
 
 In Israeli B2B practice a client is often legally required to **withhold tax at source** from
@@ -168,6 +175,13 @@ Drafting implication for the assignment itself: if the client is to own the deli
 agreement must **expressly assign** the economic rights in writing (commonly on full payment), carve
 out **third-party and open-source components** (which the freelancer can only license, not assign),
 and let the freelancer retain rights in pre-existing tools, know-how, and general methods.
+
+## 3d. Inventions (חוק הפטנטים, התשכ"ז-1967)
+
+Copyright covers code and designs but not inventions. סעיף 132 vests a service invention
+(אמצאת שירות) in the employer only where the inventor is an employee. A contractor's invention
+therefore stays with the contractor absent an express assignment. A complete agreement addresses
+inventions expressly, together with source-file delivery and an open-source component list.
 
 ## 3a. Data protection: Amendment 13 to the Privacy Protection Law
 
@@ -276,6 +290,6 @@ of a contractual forum clause.
 | חוק חוזה קבלנות 1974 | https://www.nevo.co.il/law_html/law00/71886.htm | סעיף 1 definition, סעיף 3 notice, סעיף 4 set-off, סעיף 5 lien, סעיף 8 default-only |
 | חוק מוסר תשלומים לספקים 2017 | https://www.nevo.co.il/law_html/law00/144599.htm | סעיף 2 "עסק", סעיף 3 tiers and check period, סעיף 4 interest gate, סעיף 7 non-derogation |
 | מע"מ בשיעור אפס לתושב חוץ | https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law | סעיף 30 zero rate and the Israeli-beneficiary exception |
-| gov.il VAT decision | https://www.gov.il/he/pages/dec1270-2024 | VAT rose to 18% on 1 Jan 2025 |
+| כל-זכות: עוסק מורשה | https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94 | VAT added at 18% |
 | ע"ע 164/99 צ'ק פוינט נ' רדגארד | https://he.afiklaw.com/caselaw/2573 | non-compete enforceability standard |
 | ביטוח אחריות מקצועית | https://www.bizreviews.co.il/article/professional-liability-insurance-guide | scope of professional liability cover |

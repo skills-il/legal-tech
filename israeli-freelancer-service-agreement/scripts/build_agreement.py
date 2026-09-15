@@ -19,6 +19,12 @@ Flags:
   --payment-net N                                       שוטף+N; 0 is allowed and means שוטף+0
   --recurring                                           renders the fee as a monthly amount
   --personal-data                                       adds the data-protection clause
+  --foreign-client                                      client is not an Israeli-registered business:
+                                                        drops the payment-law framing, VAT rate left to a CPA
+  --inventions provider|client                          who owns inventions made in the services (default: provider,
+                                                        the Patents Law default for a non-employee)
+  --setoff                                              adds the reclassification set-off clause (CLIENT-protective,
+                                                        off by default; include only if the client insists)
   --example                                             fill every field with sample values
   --out FILE                                            write to FILE (works with --example)
 
@@ -35,13 +41,20 @@ import sys
 from datetime import date
 
 PAYMENT_DEFAULT_NET = 30  # days; the contract should state an explicit term. See references/legal-reference.md
+OSEK_PATUR_CEILING_2026 = 122833  # NIS annual turnover; see references/legal-reference.md section 4
+ALLOCATION_THRESHOLD = 5000  # NIS before VAT, tax invoices from 1.6.2026 (חשבוניות ישראל)
 
 
 def build(p):
     today = date.today().strftime("%d/%m/%Y")
-    if p.vat == "murshe":
+    foreign = getattr(p, "foreign_client", False)
+    if foreign and p.vat == "murshe":
+        vat_line = ("התמורה נקובה ללא מע\"מ. שיעור המע\"מ שיחול (לרבות האפשרות לשיעור אפס לפי סעיף 30(א)(5) לחוק מס ערך מוסף "
+                    "בשירות לתושב חוץ) ייקבע לאחר בדיקה של רואה החשבון של נותן השירות, וכל מע\"מ שיחול יתווסף לתמורה.")
+    elif p.vat == "murshe":
         vat_line = ("התמורה נקובה ללא מע\"מ. לתמורה יתווסף מע\"מ כדין (18% נכון ל-2026) כנגד חשבונית מס. "
-                    "מוסכם במפורש כי המחיר אינו כולל מע\"מ.")
+                    "מוסכם במפורש כי המחיר אינו כולל מע\"מ. "
+                    f"ככל שנדרש לפי דין (חשבונית מס לעוסק בסכום העולה על {ALLOCATION_THRESHOLD:,} ש\"ח לפני מע\"מ), תישא החשבונית מספר הקצאה מרשות המסים.")
     else:
         vat_line = ("נותן השירות הוא עוסק פטור ואינו גובה מע\"מ, וימסור קבלה כדין. "
                     "אם מחזור נותן השירות יחצה את תקרת העוסק הפטור והוא יירשם כעוסק מורשה, יתווסף מע\"מ לתמורה ממועד הרישום.")
@@ -51,6 +64,14 @@ def build(p):
     net = PAYMENT_DEFAULT_NET if p.payment_net is None else p.payment_net
     recurring_suffix = " לחודש" if p.recurring else ""
     sections = []
+    if foreign:
+        payment_line = (f"התשלום יבוצע בתנאי שוטף + {net}, כלומר לא יאוחר מ-{net} ימים מתום החודש שבו הומצאה החשבונית ללקוח. "
+                        "הלקוח אינו עסק רשום בישראל, ולכן חוק מוסר תשלומים לספקים אינו חל, ומועד זה מחייב כתנאי חוזי בלבד.")
+        law_remedy = ""
+    else:
+        payment_line = (f"התשלום יבוצע בתנאי שוטף + {net}, כלומר לא יאוחר מ-{net} ימים מתום החודש שבו הומצאה החשבונית ללקוח, "
+                        "וזאת כתנאי מפורש הגובר על ברירת המחדל שבחוק מוסר תשלומים לספקים, התשע\"ז-2017.")
+        law_remedy = ", ומבלי לגרוע מכל סעד לפי חוק מוסר תשלומים לספקים"
 
     sections.append(f"""# הסכם למתן שירותים
 
@@ -86,23 +107,37 @@ def build(p):
     sections.append(f"""## התמורה, מע\"מ, חשבונית וניכוי מס
 בתמורה לשירותים ישלם הלקוח לנותן השירות סך של {p.fee:,.0f} ש\"ח{recurring_suffix}.
 {vat_line}
-התשלום יבוצע בתנאי שוטף + {net}, כלומר לא יאוחר מ-{net} ימים מתום החודש שבו הומצאה החשבונית ללקוח, וזאת כתנאי מפורש הגובר על ברירת המחדל שבחוק מוסר תשלומים לספקים, התשע\"ז-2017.
+{payment_line}
 המצאת החשבונית תיעשה בדואר אלקטרוני לכתובת שתימסר בנספח א', עם אישור מסירה, או בכל דרך אחרת מהדרכים הקבועות בחוק.
 בדיקת החשבונית: הלקוח רשאי להחזיר חשבונית שחסר בה פרט מהותי, ובלבד שיפרט בכתב את הליקויים ויעשה זאת בתוך 23 ימי עסקים ממועד ההמצאה. לא הוחזרה החשבונית במועד ובאופן זה, יראו אותה כשלמה ומאושרת לתשלום.
-איחור בתשלום יישא הפרשי הצמדה וריבית שקלית, ובחלוף 30 ימים נוספים דמי פיגורים, וזאת כתנאי חוזי מוסכם בין הצדדים, במצטבר ומבלי לגרוע מכל סעד לפי חוק מוסר תשלומים לספקים. נותן השירות רשאי להשהות את מתן השירות כל עוד התמורה לא שולמה במועד.
+איחור בתשלום יישא הפרשי הצמדה וריבית בשיעורים שנקבעו לפי חוק פסיקת ריבית והצמדה, התשכ\"א-1961, מהמועד שנקבע לתשלום ועד התשלום בפועל, וזאת כתנאי חוזי מוסכם בין הצדדים{law_remedy}. נותן השירות רשאי להשהות את מתן השירות כל עוד התמורה לא שולמה במועד.
 ניכוי מס במקור: ככל שהלקוח חייב בניכוי מס במקור, ינוכה המס כדין, אלא אם ימסור נותן השירות אישור ניהול ספרים ואישור על פטור/שיעור מופחת מניכוי מס במקור בתוקף. נותן השירות אחראי למסור אישורים אלה.""")
 
-    sections.append("""## מעמד עצמאי וכוונת הצדדים
-כוונת הצדדים היא להתקשרות מסחרית בין עסקים, ולא יחסי עובד-מעביד. התמורה גבוהה משכר עובד מקביל ונקבעה על בסיס היות נותן השירות עצמאי הנושא בעלויותיו.
+    status = """## מעמד עצמאי וכוונת הצדדים
+כוונת הצדדים היא להתקשרות מסחרית בין עסקים, ולא יחסי עובד-מעביד.
 נותן השירות נושא באופן בלעדי בכל תשלומי המס, ביטוח לאומי, מס בריאות וההפרשות הפנסיוניות החלים עליו.
 נותן השירות אינו מחויב לעבוד במקום או בשעות שקובע הלקוח, רשאי לתת שירות ללקוחות נוספים, ומשתמש בכליו שלו. אין בלעדיות.
-נותן השירות רשאי להיעזר בקבלני משנה לביצוע השירותים, בכפוף לאחריותו לתוצאה ולשמירת הסודיות (היעדר דרישת ביצוע אישי תומך במעמד העצמאי).
-קיזוז במקרה של סיווג מחדש: אם על אף כוונת הצדדים תקבע ערכאה מוסמכת כי התקיימו יחסי עובד-מעביד, יחושב ההפרש בין התמורה ששולמה לבין שכר עובד מקביל, וההפרש ניתן לקיזוז כנגד זכויות שייפסקו. מובהר כי סעיף זה הוא לטובת הלקוח, שבית הדין אינו מחויב לכבדו, וכי אין בו כדי לוותר על זכויות קוגנטיות מכוח דין.""")
+נותן השירות רשאי להיעזר בקבלני משנה לביצוע השירותים, בכפוף לאחריותו לתוצאה ולשמירת הסודיות (היעדר דרישת ביצוע אישי תומך במעמד העצמאי)."""
+    if getattr(p, "setoff", False):
+        status += """
+קיזוז במקרה של סיווג מחדש: אם על אף כוונת הצדדים תקבע ערכאה מוסמכת כי התקיימו יחסי עובד-מעביד, ייבחן ההפרש בין התמורה ששולמה לבין שכר עובד מקביל, וככל שיוכח הפרש כזה הוא יהיה ניתן לקיזוז כנגד זכויות שייפסקו. מובהר כי סעיף זה הוא לטובת הלקוח, שבית הדין אינו מחויב לכבדו, וכי אין בו כדי לוותר על זכויות קוגנטיות מכוח דין."""
+    sections.append(status)
 
-    sections.append("""## קניין רוחני וזכות מוסרית
-זכויות הקניין הרוחני (הזכויות הכלכליות) בתוצרים שנוצרו עבור הלקוח יועברו ללקוח עם קבלת מלוא התמורה. עד לתשלום מלא, הזכויות נותרות בידי נותן השירות. העברה זו נעשית במסמך בכתב כנדרש בדין.
+    if getattr(p, "inventions", "provider") == "client":
+        inventions_line = ("אמצאות: אמצאות שנוצרו במסגרת השירותים יועברו ללקוח עם קבלת מלוא התמורה (חוק הפטנטים, התשכ\"ז-1967 "
+                           "מקנה למעביד אמצאת שירות של עובד בלבד, ולכן ההעברה נעשית כאן בהסכמה מפורשת). נותן השירות יחתום על "
+                           "מסמכים סבירים הנדרשים לרישומן, על חשבון הלקוח.")
+    else:
+        inventions_line = ("אמצאות: אמצאות שנוצרו במסגרת השירותים נותרות בבעלות נותן השירות (חוק הפטנטים, התשכ\"ז-1967 מקנה למעביד "
+                           "אמצאת שירות של עובד בלבד). בכפוף לתשלום מלוא התמורה, מעניק נותן השירות ללקוח רישיון לא בלעדי, בלתי חוזר, לצמיתות "
+                           "וללא תמלוגים, הניתן להעברה יחד עם עסקי הלקוח, לשימוש, לפיתוח ולמסחור של התוצרים ושל גרסאות נגזרות מהם. "
+                           "כל העברה של אמצאה או מתן בלעדיות תיעשה במסמך נפרד בכתב.")
+    sections.append(f"""## קניין רוחני וזכות מוסרית
+זכויות היוצרים (הזכויות הכלכליות) וכל זכות קניין רוחני אחרת בתוצרים שנוצרו עבור הלקוח, למעט אמצאות, יועברו ללקוח עם קבלת מלוא התמורה. דין האמצאות נקבע בסעיף האמצאות להלן, ואין בכך כדי לגרוע מהעברת זכויות היוצרים בקוד ובתוצרים המגלמים אמצאה. עד לתשלום מלא, הזכויות נותרות בידי נותן השירות. העברה זו נעשית במסמך בכתב כנדרש בדין.
 ברירת המחדל בחוק זכות יוצרים, התשס\"ח-2007 ליצירה מוזמנת היא שהבעלות נותרת ביוצר, אלא אם הוסכם אחרת במפורש או במשתמע. הצדדים מסכימים כי הסדר הבעלות הקבוע בהסכם זה הוא ההסדר המלא והבלעדי ביניהם, וכי לא תישמע טענה להעברה או לשמירה של זכויות מכללא מעבר לאמור בו.
 זכות מוסרית: הזכות המוסרית של היוצר (ייחוס ושלמות היצירה) היא אישית ואינה ניתנת להעברה. מובהר כי לפי הדין אין זכות מוסרית בתוכנת מחשב. ככל שהתוצרים כוללים יצירה שחלה עליה זכות מוסרית, נותן השירות מסכים מראש לביצוע התאמות, עריכה, שינויי פורמט ושילוב התוצרים במוצרי הלקוח, ואלה ייחשבו סבירים בנסיבות העניין; הסדר קרדיט וייחוס ייקבע בנספח א'.
+{inventions_line}
+מסירת קוד מקור וחומרי עבודה: עם קבלת מלוא התמורה ימסור נותן השירות ללקוח את קבצי המקור ואת חומרי העבודה של התוצרים שהועברו, בפורמט שיוגדר בנספח א', ויפרט את רכיבי הצד השלישי והקוד הפתוח ואת הרישיונות החלים עליהם.
 נותן השירות שומר לעצמו זכויות בכלים, בידע ובשיטות הכלליים שהיו לו מראש. רכיבי צד שלישי וקוד פתוח יימסרו ברישיון בלבד, ולא יועברו בבעלות, ויפורטו בנספח.""")
 
     sections.append("""## סודיות
@@ -148,7 +183,8 @@ EXAMPLE = argparse.Namespace(
     provider="ישראל ישראלי", provider_id="000000000",
     client='חברת לקוח בעמ', client_id="510000000",
     services="עיצוב גרפי וניהול מותג", fee=8000, vat="murshe",
-    payment_net=30, recurring=False, personal_data=False, out=None,
+    payment_net=30, recurring=False, personal_data=False, foreign_client=False, setoff=False,
+    inventions="provider", out=None,
 )
 
 
@@ -165,16 +201,28 @@ def main():
                     help="Render the fee as a monthly amount (retainer) rather than a one-off")
     ap.add_argument("--personal-data", dest="personal_data", action="store_true",
                     help="Include a data-protection clause (use when the freelancer processes the client's personal data)")
+    ap.add_argument("--foreign-client", dest="foreign_client", action="store_true",
+                    help="Client is not an Israeli-registered business: no payment-law framing, VAT rate left to a CPA")
+    ap.add_argument("--inventions", choices=["provider", "client"], default="provider",
+                    help="Who owns inventions made in the services (default provider: Patents Law s.132 covers employees only)")
+    ap.add_argument("--setoff", action="store_true",
+                    help="Add the reclassification set-off clause (protects the CLIENT; off by default)")
     ap.add_argument("--out")
     ap.add_argument("--example", action="store_true")
     a = ap.parse_args()
 
     if a.example:
-        # Preserve --out (and only --out) so `--example --out FILE` writes a file
-        # instead of silently discarding the flag and printing to stdout.
-        out = a.out
+        # Sample values fill the parties/fee, but explicit flags passed alongside
+        # --example (--out, --vat, the boolean clause switches) are kept.
+        given = a
         a = argparse.Namespace(**vars(EXAMPLE))
-        a.out = out
+        a.out = given.out
+        a.vat = given.vat
+        a.payment_net = given.payment_net
+        a.inventions = given.inventions
+        for flag in ("recurring", "personal_data", "foreign_client", "setoff"):
+            if getattr(given, flag):
+                setattr(a, flag, True)
     # Explicit None checks: --fee 0 is legitimate (pro bono / placeholder draft)
     # and a truthiness test would reject it as "missing".
     missing = [n for n in ("provider", "client", "services", "fee")
@@ -184,6 +232,13 @@ def main():
               file=sys.stderr)
         print("Try --example, or pass --provider --client --services --fee.", file=sys.stderr)
         sys.exit(1)
+
+    if a.vat == "patur":
+        annual = a.fee * 12 if a.recurring else a.fee
+        if annual > OSEK_PATUR_CEILING_2026:
+            print(f"WARNING: fee implies at least {annual:,.0f} NIS a year from this client alone, above the "
+                  f"{OSEK_PATUR_CEILING_2026:,} NIS osek patur ceiling (2026). The provider will likely have to register "
+                  "as osek murshe and add VAT; confirm with a CPA before using --vat patur.", file=sys.stderr)
 
     doc = build(a)
     if getattr(a, "out", None):

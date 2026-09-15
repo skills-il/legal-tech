@@ -34,7 +34,7 @@ checks); ASCII statute/case URLs are linked directly.
 - [ ] Tax & invoicing context (עוסק פטור / עוסק מורשה, מע"מ, חשבונית). עוסק פטור turnover cap
   is 122,833 ₪ (2026); VAT rate is 18% (from 1 Jan 2025). The price clause must state whether
   it is +VAT. Source: כל-זכות "עוסק פטור" +
-  [gov.il VAT decision](https://www.gov.il/he/pages/dec1270-2024). Why core: a wrong VAT
+  [כל-זכות, עוסק מורשה](https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94). Why core: a wrong VAT
   assumption is a direct financial error in the price clause.
 - [ ] Term, termination & notice. Fixed vs at-will, termination for convenience vs breach,
   notice period, effect on accrued fees/work-in-progress. Why core: a complete agreement, and
@@ -116,6 +116,6 @@ checks); ASCII statute/case URLs are linked directly.
 - [חוק חוזה קבלנות 1974 (nevo)](https://www.nevo.co.il/law_html/law00/71886.htm) - governing statute for the contract type.
 - [חוק מוסר תשלומים לספקים 2017 (nevo)](https://www.nevo.co.il/law_html/law00/144599.htm) - payment tiers, interest gate, non-derogation.
 - [מע"מ בשיעור אפס לתושב חוץ (KLF)](https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law) - zero rate and its Israeli-beneficiary exception.
-- [gov.il - VAT to 18% from 1 Jan 2025](https://www.gov.il/he/pages/dec1270-2024) - current VAT rate.
+- [כל-זכות - עוסק מורשה, מע"מ 18%](https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94) - current VAT rate.
 - [ע"ע 164/99 צ'ק פוינט נ' רדגארד (afiklaw)](https://he.afiklaw.com/caselaw/2573) - non-compete standard.
 - כל-זכות - "עוסק פטור", "קביעת קיומם של יחסי עובד-מעסיק", "הכרה בדיעבד" (full links in evidence.json).

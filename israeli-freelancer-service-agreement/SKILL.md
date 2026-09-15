@@ -91,7 +91,8 @@ the contract wording. So:
    not the freelancer**: it is the client's tool to claw back the "contractor premium", it is enforced
    only in narrow cases (express term plus a fee markedly above a comparable salary), and a court is
    not bound to honor it. Do not sell it to the freelancer as their shield. It also cannot waive
-   non-waivable (cogent) labor rights.
+   non-waivable (cogent) labor rights. Leave it out of the freelancer's own draft by default (the
+   script adds it only with `--setoff`), and include it only when the client asks for it.
 
 ### Step 3: Draft the consideration, payment, VAT, and withholding clause
 
@@ -129,6 +130,11 @@ State VAT correctly and unambiguously, because a wrong VAT framing is a direct e
   that if the provider crosses the turnover cap (122,833 ₪ for 2026) and converts to עוסק מורשה, VAT
   applies from that point.
 
+**Allocation number (מספר הקצאה).** Under the חשבוניות ישראל model, from 1 June 2026 a tax invoice
+above 5,000 ₪ before VAT between dealers must carry an allocation number from the Tax Authority, or the
+client cannot deduct the input VAT. An עוסק מורשה billing a business client above that amount should
+state in the invoicing clause that the invoice will carry one, so a client does not hold payment over it.
+
 Add a **withholding-tax clause (ניכוי מס במקור)**: in Israeli B2B, the client may be legally required
 to withhold tax from the payment unless the freelancer hands over a valid **אישור ניהול ספרים** and an
 **אישור פטור / שיעור מופחת מניכוי מס במקור**. State that the provider will furnish these certificates,
@@ -162,6 +168,16 @@ So decide and draft explicitly:
   was reasonable in the circumstances, and the court expressly weighs the fact that the work was
   commissioned. So draft **consent to specified modifications plus an attribution arrangement**, not
   a blanket "waiver of moral rights" that the statute does not recognise.
+- **Inventions and source code.** The Copyright Law covers code and designs, not inventions. Under
+  חוק הפטנטים, התשכ"ז-1967, סעיף 132 vests a service invention in the employer only where the
+  inventor is an **employee**, so an invention a contractor makes stays with the contractor unless the
+  contract assigns it. A startup client will insist on this (investor due diligence checks it), so
+  address inventions expressly, together with delivery of source files and a list of open-source
+  components and their licences on full payment. Decide who owns inventions (`--inventions provider`
+  or `client` in the script) instead of leaving it to the general IP assignment. The `provider` default
+  keeps the invention with the freelancer and grants the client a non-exclusive, irrevocable,
+  perpetual, royalty-free licence covering derivative versions. Where the invention is the startup's
+  core technology, expect the client to demand exclusivity or `client`, and negotiate that price.
 - The freelancer keeps rights in pre-existing tools, know-how, and general methods, and **third-party
   / open-source components are licensed, not assigned** (the freelancer often cannot transfer them).
 
@@ -215,6 +231,12 @@ python3 scripts/build_agreement.py --provider "ישראל ישראלי" --provid
   --out agreement.md
 ```
 
+Switches: `--foreign-client` (drops the payment-law framing and leaves the VAT rate to a CPA),
+`--personal-data` (processor clause), `--recurring` (monthly fee), and `--setoff` (the client-protective
+reclassification set-off clause, off by default). The script warns when a `--vat patur` fee alone
+exceeds the osek patur ceiling. Late interest is drafted by reference to the rates under חוק פסיקת
+ריבית והצמדה, התשכ"א-1961, so the clause is not left without a rate.
+
 End with a short "review these before signing" list (any defaulted fields, the IP choice, and the
 recommendation to have a lawyer review).
 
@@ -228,10 +250,12 @@ retainer. Draft me a contract."
 Actions:
 1. Gather facts; set fee 6,000 ₪/month +VAT, payment שוטף+30, designer keeps IP until paid then
    assigns deliverables.
-2. Add the independent-contractor declaration + set-off clause, with the honest caveat.
+2. Add the independent-contractor declaration. Leave out the set-off clause (it protects the client)
+   unless the client asks for it, and then explain what it does.
 3. Generate the Hebrew agreement and list "review these": notice period, insurance requirement.
 
-Result: A ready Hebrew הסכם למתן שירותים the designer can send, with VAT and IP handled correctly.
+Result: A draft Hebrew הסכם למתן שירותים for the designer to adapt and have reviewed before sending,
+with VAT and IP handled correctly.
 
 ### Example 2: Developer worried about reclassification
 
@@ -241,7 +265,7 @@ What should it say so I'm not treated like an employee?"
 Actions:
 1. Flag the elevated reclassification risk (single client, full-time, long duration = strong
    integration-test markers).
-2. Draft the declaration + set-off clause, AND advise concrete operational changes (own tools, serve
+2. Draft the declaration (no set-off clause unless the client demands it), AND advise concrete operational changes (own tools, serve
    other clients, no company email), explaining the clause alone is not decisive.
 3. Suggest, where relevant, the user consult a lawyer given the exposure.
 
@@ -296,10 +320,12 @@ Result: A contract plus a practical risk-reduction checklist, with realistic exp
 - **Do not sell the set-off clause as the freelancer's protection.** It is the client's tool to claw
   back the contractor premium if the relationship is reclassified, it is rarely enforced, and it
   cannot waive non-waivable labor rights. The freelancer's real protection is operational separation,
-  not contract wording.
+  not contract wording. Never recite in the freelancer's own draft that the fee is "higher than a
+  comparable employee wage": in a later reclassification claim that sentence is the client's evidence.
 - **Do not assign moral rights.** Moral rights (הזכות המוסרית) are personal and non-assignable under
-  the 2007 Copyright Law. Assigning "all rights including moral rights" is partly void; use a separate
-  waiver and carve out third-party / open-source components the freelancer can only license.
+  the 2007 Copyright Law. Assigning "all rights including moral rights" is partly void; use consent to
+  specified modifications plus an attribution arrangement instead, and carve out third-party /
+  open-source components the freelancer can only license.
 
 ## Reference Links
 
@@ -309,7 +335,7 @@ Result: A contract plus a practical risk-reduction checklist, with realistic exp
 | חוק חוזה קבלנות 1974 | https://www.nevo.co.il/law_html/law00/71886.htm | סעיף 4 client set-off, סעיף 5 contractor lien |
 | חוק מוסר תשלומים לספקים 2017 | https://www.nevo.co.il/law_html/law00/144599.htm | payment tiers, סעיף 7 non-derogation |
 | מע"מ בשיעור אפס לתושב חוץ | https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law | when a foreign-client fee is zero-rated |
-| gov.il VAT decision | https://www.gov.il/he/pages/dec1270-2024 | VAT is 18% from 1 Jan 2025 |
+| כל-זכות: עוסק מורשה | https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94 | VAT added at 18% |
 | ע"ע 164/99 צ'ק פוינט נ' רדגארד | https://he.afiklaw.com/caselaw/2573 | non-compete enforceability standard |
 | ביטוח אחריות מקצועית | https://www.bizreviews.co.il/article/professional-liability-insurance-guide | professional liability cover |
 

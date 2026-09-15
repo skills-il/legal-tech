@@ -1,19 +1,8 @@
 {
   "skill_slug": "israeli-freelancer-service-agreement",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-02",
+  "generated_at": "2026-09-15T10:57:09Z",
   "claims": [
-    {
-      "id": "vat-rate-18",
-      "claim": "Israeli VAT (מע\"מ) rate is 18%, effective from 1 January 2025 (raised from 17%).",
-      "claim_type": "percentage",
-      "source_url": "https://www.gov.il/he/pages/dec1270-2024",
-      "source_fetched_at": "2026-08-02",
-      "raw_snippet": "שיעור המס על עסקה ועל יבוא טובין יעלה באחוז אחד, כך שיעמוד על 18% במקום 17% החל מיום 1 בינואר 2025",
-      "confidence": "high",
-      "verified_via": "browser",
-      "verified_at": "2026-08-02"
-    },
     {
       "id": "osek-patur-threshold-2026",
       "claim": "The עוסק פטור (VAT-exempt dealer) annual turnover threshold for 2026 is 122,833 ₪. Above it the provider must register as עוסק מורשה and charge VAT.",
@@ -309,6 +298,78 @@
       "source_url": "https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law",
       "source_fetched_at": "2026-08-09",
       "raw_snippet": "משמעות הדברים היא שכאשר השירות ניתן הן לתושב חוץ והן לתושב ישראלי בישראל, לא תחול ההטבה של מס בשיעור אפס.",
+      "confidence": "high"
+    },
+    {
+      "id": "allocation-number-5000",
+      "claim": "From 1 June 2026 a tax invoice above 5,000 NIS before VAT between dealers must carry a Tax Authority allocation number",
+      "claim_type": "regulation",
+      "source_url": "https://horizon.org.il/cfo-outsource/allocation-number-invoice-2026/",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "מ-1 ביוני 2026 כל חשבונית מס מעל 5,000 ש״ח לפני מע״מ",
+      "confidence": "high"
+    },
+    {
+      "id": "patents-132-employee-only",
+      "claim": "Patents Law section 132 (סעיף 132) defines the service invention (אמצאת שירות) that vests in the employer; the vesting text reads \"אמצאה של עובד, שהגיע אליה עקב שירותו\", so it covers employees only",
+      "claim_type": "regulation",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%98%D7%A0%D7%98%D7%99%D7%9D",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "אמצאת שירות כאמור בסעיף 132",
+      "confidence": "high"
+    },
+    {
+      "id": "patents-law-1967",
+      "claim": "The Patents Law is of 1967",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%98%D7%A0%D7%98%D7%99%D7%9D",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "חוק הפטנטים, תשכ״ז–1967",
+      "confidence": "high"
+    },
+    {
+      "id": "interest-law-1961",
+      "claim": "Late-payment interest and linkage rates are set under the Adjudication of Interest and Linkage Law 1961",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%A1%D7%99%D7%A7%D7%AA_%D7%A8%D7%99%D7%91%D7%99%D7%AA_%D7%95%D7%94%D7%A6%D7%9E%D7%93%D7%94",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "חוק פסיקת ריבית והצמדה, תשכ״א–1961",
+      "confidence": "high"
+    },
+    {
+      "id": "patents-132-text",
+      "claim": "s.132 vests an invention of an EMPLOYEE made in the course of service in the employer",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%98%D7%A0%D7%98%D7%99%D7%9D",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "אמצאה של עובד, שהגיע אליה עקב שירותו ובתקופת שירותו",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-rate-18-kolzchut",
+      "claim": "An osek murshe adds 18% VAT to each transaction (current rate)",
+      "claim_type": "regulation",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-15T10:57:09Z",
+      "raw_snippet": "הוא מוסיף לסכום העיסקה עוד 18% מס",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-rate-18-since-2025",
+      "claim": "Israeli VAT has been 18% since 2025 (raised from 17% on 1 January 2025)",
+      "claim_type": "regulation",
+      "source_url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3",
+      "source_fetched_at": "2026-09-15T10:57:09Z",
+      "raw_snippet": "18 אחוזים מאז 2025",
+      "confidence": "high"
+    },
+    {
+      "id": "allocation-threshold-10000-jan-2026",
+      "claim": "The allocation-number threshold was 10,000 NIS from 1 January 2026 before dropping to 5,000 NIS on 1 June 2026",
+      "claim_type": "regulation",
+      "source_url": "https://horizon.org.il/cfo-outsource/allocation-number-invoice-2026/",
+      "source_fetched_at": "2026-09-15T10:57:09Z",
+      "raw_snippet": "הסף ירד מ-10,000 ש״ח שהיה בתוקף מ-1 בינואר 2026",
       "confidence": "high"
     }
   ]
