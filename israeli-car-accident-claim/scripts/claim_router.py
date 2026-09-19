@@ -10,7 +10,8 @@ Limitation Law, and the Traffic Regulations.
 Usage:
   python3 claim_router.py --damage none --injuries --my-fault no
   python3 claim_router.py --damage property --my-fault yes --other-insured yes
-  python3 claim_router.py --damage property --hit-and-run --injuries --my-insured no
+  python3 claim_router.py --damage property --hit-and-run --injuries --my-insured no --role pedestrian
+  python3 claim_router.py --injuries --my-insured no --role passenger --other-insured yes
   python3 claim_router.py --example
 """
 
@@ -37,8 +38,10 @@ URGENT_PAYMENT_MAX_YEARS = 2
 
 
 def route(injuries, hit_and_run, damage, my_fault, other_insured, my_comprehensive,
-          my_compulsory=True):
-    out = {"bodily_injury": None, "property_damage": None, "police": None,
+          my_compulsory=True, role=None):
+    out = {"notice": ("General routing under PLATD, not legal advice and not a determination "
+                      "of your entitlement. Confirm with a lawyer before relying on it."),
+           "bodily_injury": None, "property_damage": None, "police": None,
            "time_limits": [], "notes": []}
 
     # Bodily injury: no-fault (PLATD). Claim from your OWN compulsory insurer regardless
@@ -46,30 +49,74 @@ def route(injuries, hit_and_run, damage, my_fault, other_insured, my_comprehensi
     # which is the express condition in PLATD Section 12(a).
     if injuries:
         untraced_or_uninsured = hit_and_run or other_insured is False
-        if untraced_or_uninsured and my_compulsory is False:
-            out["bodily_injury"] = (
-                "Bodily injury is no-fault under PLATD. You have no compulsory insurer of "
-                "your own (pedestrian, cyclist, or an occupant of an uninsured vehicle) and "
-                "the responsible vehicle is untraced or uninsured, so Karnit (קרנית) is the "
-                "address: Section 12(a) covers a victim who has no insurer to claim from. "
-                "Karnit also pays the hospital its treatment costs."
+        base = ("Bodily injury is no-fault under PLATD: liability is absolute and there is no "
+                "contributory-negligence reduction (Section 2(c)). ")
+        if role == "pedestrian":
+            if untraced_or_uninsured:
+                out["bodily_injury"] = base + (
+                    "As a pedestrian or cyclist hit by an untraced or uninsured vehicle you "
+                    "have no insurer to claim from, so Karnit (קרנית) is the address "
+                    "(Section 12(a)(1)-(2)). Karnit also pays the hospital its treatment costs."
+                )
+            else:
+                out["bodily_injury"] = base + (
+                    "As a pedestrian or cyclist, claim from the compulsory insurer of the "
+                    "vehicle that hit you (Section 2(a)); if several vehicles were involved, "
+                    "all their drivers are liable jointly and severally (Section 3(b)). "
+                    "Karnit is not the address while that insurer exists."
+                )
+            if untraced_or_uninsured:
+                out["bodily_injury"] += (
+                    " If ANOTHER vehicle involved in the same accident was traced and insured, "
+                    "you can claim from its insurer instead (Section 3(b) makes all involved "
+                    "drivers liable jointly and severally), and Karnit is then closed to you."
+                )
+        elif my_compulsory is not False:
+            out["bodily_injury"] = base + (
+                "You were in an insured vehicle, so you (driver or passenger) claim from THAT "
+                "vehicle's compulsory insurance (ביטוח חובה), regardless of who caused the "
+                "accident (Section 3(a); in a single-vehicle accident, Section 2(a))."
             )
-        else:
-            out["bodily_injury"] = (
-                "Bodily injury is no-fault under PLATD: each injured person claims from the "
-                "compulsory insurance (ביטוח חובה) of the vehicle they were in or hit by, "
-                "regardless of who caused the accident (allocation rule, Section 3(a)). "
-                "Liability is absolute and there is no contributory-negligence reduction "
-                "(Section 2(c))."
-            )
+            if role is None:
+                out["bodily_injury"] += (
+                    " This assumes you were INSIDE an insured vehicle. If you were a pedestrian "
+                    "or cyclist, re-run with --role pedestrian: a car you own at home does not "
+                    "make you insured for this accident."
+                )
             if untraced_or_uninsured:
                 out["bodily_injury"] += (
                     " The other driver being untraced or uninsured does NOT send you to "
-                    "Karnit: you have a compulsory insurer of your own, so Karnit is closed "
-                    "to you (Section 12(a) requires that the victim has no insurer to claim "
-                    "from). Karnit is for a pedestrian or cyclist hit by an untraced vehicle, "
-                    "or an occupant of an uninsured vehicle."
+                    "Karnit: you have an insurer to claim from, and Section 12(a) opens Karnit "
+                    "only to a victim who has none."
                 )
+        elif role == "passenger":
+            out["bodily_injury"] = base + (
+                "You were a passenger in an UNINSURED vehicle. Under Section 3(a) only that "
+                "vehicle's driver is liable to its occupants, even if the other vehicle is "
+                "insured and traced, and that driver has no insurer, so the claim generally "
+                "goes to Karnit (Section 12(a)(2)). Exception: a passenger who knew the vehicle "
+                "was being used without permission (for example stolen) is excluded "
+                "(Section 7(2))."
+            )
+        elif role == "driver":
+            out["bodily_injury"] = (
+                "As the driver of an uninsured vehicle, PLATD Section 7(5) may exclude you from "
+                "compensation altogether (an owner who let someone else drive uninsured and was "
+                "hurt on that drive is excluded too, Section 7(6)). Exceptions exist: Section 7A "
+                "lets a driver who drove with the owner's permission and neither knew nor could "
+                "reasonably have known there was no insurance claim from Karnit, and under "
+                "Section 7B dependants may claim from Karnit even where the victim could not. "
+                "Whether any exception applies to you is a question for a lawyer; this tool "
+                "does not decide it."
+            )
+        else:
+            out["bodily_injury"] = base + (
+                "You said you have no compulsory insurer of your own. The route depends on "
+                "--role: a pedestrian or cyclist claims from the insurer of the vehicle that "
+                "hit them (Karnit only if it is untraced or uninsured); an occupant of an "
+                "uninsured vehicle goes to Karnit even if the other vehicle is insured "
+                "(Sections 3(a), 12(a)(2)). Re-run with --role."
+            )
         out["notes"].append(
             "The PLATD claim is exclusive (Section 8): you have no tort claim against the "
             "other driver for bodily injury, except where someone caused the accident "
@@ -97,6 +144,16 @@ def route(injuries, hit_and_run, damage, my_fault, other_insured, my_comprehensi
                 "cover. Your OWN car's damage is covered only by your comprehensive (מקיף) "
                 "policy, not by compulsory insurance."
             )
+        elif hit_and_run:
+            out["property_damage"] = (
+                "The driver who damaged your car is untraced, so there is nobody to claim the "
+                "property damage from. Only your own comprehensive (מקיף) covers it; Karnit pays "
+                "bodily injury only, never property."
+                if my_comprehensive else
+                "The driver who damaged your car is untraced and you have no comprehensive "
+                "policy, so the property damage is in practice unrecoverable unless the driver "
+                "is later identified. Karnit pays bodily injury only, never property."
+            )
         elif my_fault == "no":
             if my_comprehensive:
                 out["property_damage"] = (
@@ -106,6 +163,14 @@ def route(injuries, hit_and_run, damage, my_fault, other_insured, my_comprehensi
                     "Insurance Contract Law Section 62 and refunds your deductible once paid in "
                     "full. Alternative: claim directly against the at-fault driver's third-party "
                     "cover, or sue them."
+                )
+            elif other_insured is False:
+                out["property_damage"] = (
+                    "Property damage is fault-based and you are not at fault. The other driver "
+                    "has no compulsory insurance; third-party (צד ג') property cover is a "
+                    "separate policy, so ask whether they hold one and claim against it if so. "
+                    "Otherwise sue the driver personally (small claims for smaller sums). Karnit "
+                    "pays bodily injury only, never property."
                 )
             else:
                 out["property_damage"] = (
@@ -193,9 +258,13 @@ def main():
     p.add_argument("--my-fault", choices=["yes", "no", "unknown"], default="unknown")
     p.add_argument("--other-insured", choices=["yes", "no", "unknown"], default="unknown")
     p.add_argument("--my-insured", choices=["yes", "no"], default="yes",
-                   help="Do YOU have compulsory insurance of your own for this ride "
-                        "(no for a pedestrian, a cyclist, or an occupant of an uninsured "
-                        "vehicle). This is what gates Karnit under PLATD Section 12(a).")
+                   help="Was the vehicle you were IN covered by compulsory insurance "
+                        "(no for an occupant of an uninsured vehicle). Ignored with --role "
+                        "pedestrian. With Section 12(a), this gates Karnit.")
+    p.add_argument("--role", choices=["driver", "passenger", "pedestrian"], default=None,
+                   help="Your position in the accident. Needed with --my-insured no: a "
+                        "pedestrian or cyclist and an occupant of an uninsured vehicle route "
+                        "differently (PLATD Sections 2(a), 3, 12(a)).")
     p.add_argument("--my-comprehensive", action="store_true", help="You hold a comprehensive (מקיף) policy")
     p.add_argument("--example", action="store_true")
     args = p.parse_args()
@@ -208,7 +277,7 @@ def main():
     other_insured = {"yes": True, "no": False, "unknown": None}[args.other_insured]
     my_compulsory = args.my_insured == "yes"
     result = route(args.injuries, args.hit_and_run, args.damage, args.my_fault,
-                   other_insured, args.my_comprehensive, my_compulsory)
+                   other_insured, args.my_comprehensive, my_compulsory, args.role)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

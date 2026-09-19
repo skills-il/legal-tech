@@ -20,7 +20,7 @@ A serious or lasting-injury claim is assessed by a single medical expert appoint
 
 ### Exclusivity of the PLATD cause of action (§8)
 
-`מי שתאונת דרכים מקנה לו עילת תביעה על פי חוק זה... לא תהיה לו עילת תביעה על פי פקודת הנזיקין בשל נזק גוף, זולת אם נפגע בתאונה שנגרמה על ידי אדם אחר במתכוון`. A road-accident victim therefore cannot sue the other driver in tort for bodily injury. §8(ב) extends the bar to a person who would have had a claim but for §22(ב), and §8(ג) preserves the tort claim of someone who never had a PLATD cause of action at all. This is why a §7 exclusion is so serious: the fallback route is closed too.
+`מי שתאונת דרכים מקנה לו עילת תביעה על פי חוק זה... לא תהיה לו עילת תביעה על פי פקודת הנזיקין בשל נזק גוף, זולת אם נפגע בתאונה שנגרמה על ידי אדם אחר במתכוון`. A road-accident victim therefore cannot sue the other driver in tort for bodily injury. §8(ב) extends the bar to a person who would have had a claim but for §22(ב), and §8(ג) preserves the tort claim of someone who never had a PLATD cause of action at all. Whether a §7-excluded person is such a someone, and so keeps a tort route, is a question the statute text does not settle and the case law must answer. Do not assert it either way; route to a lawyer.
 
 ### Electric bikes and scooters are outside PLATD
 
@@ -64,7 +64,7 @@ Two safety valves exist off §7:
 - §7א: a person who drove **by permission** of the owner or keeper without insurance, and who neither knew nor could reasonably have known, may claim from Karnit as a victim entitled under §12(ב).
 - §7ב: dependants may claim `גם אם הנפגע עצמו לא היה זכאי לכך לפי סעיף 7`, and where the victim drove uninsured they claim from Karnit.
 
-If any of §7 applies and no valve helps, the confident "you are covered regardless of fault" does not hold, the tort fallback is closed by §8, and the user needs a lawyer to assess their position.
+If any of §7 applies and no valve helps, the confident "you are covered regardless of fault" does not hold, whether any tort route survives under §8(ג) is a case-law question, and the user needs a lawyer to assess their position.
 
 ## Preserve the medical paper trail
 

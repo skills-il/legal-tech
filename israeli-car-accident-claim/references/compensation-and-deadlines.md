@@ -29,7 +29,8 @@ Set by תקנות הפיצויים לנפגעי תאונות דרכים (חיש�
 | Hospitalization | `שני פרומיל מן הסכום המקסימלי כפול מספר הימים` that the victim was hospitalized (0.2% of the maximum per day), תקנה 2(א)(1) |
 | Permanent disability | `אחוז אחד מן הסכום המקסימלי כפול אחוזי הנכות לצמיתות` (1% of the maximum per disability point), תקנה 2(א)(2), assessed on the Bituach Leumi work-injury disability tests |
 | Age reduction | Where the victim was 30 or older on the day of the accident, the disability component is reduced `באחוז אחד לכל שנה שמלאה לו מעל לשלושים שנה` (1% per year over 30). It applies to the disability component only, not to the hospitalization component, תקנה 3 |
-| Neither hospitalization nor permanent disability | The agreed or awarded sum, capped at `עשרה אחוזים מהסכום המקסימלי` (10% of the maximum), תקנה 2(ב) |
+| Neither hospitalization nor permanent disability, OR non-pecuniary harm not covered by the two heads above | The agreed or awarded sum, capped at `עשרה אחוזים מהסכום המקסימלי` (10% of the maximum), תקנה 2(ב). Both limbs are in the text (`לא היה הנפגע זכאי לפיצוי לפי תקנת משנה (א) או שסבל נזק שאינו נזק ממון שאינו מכוסה`), so a hospitalized or disabled victim can receive this on top of the formula |
+| Overall ceiling | The total non-pecuniary award `לא יעלו על` the maximum (PLATD §4(א)(3)), so a formula result above 100% is cut to 100% |
 | Death | `עשרים וחמישה אחוזים מן הסכום המקסימלי` to the estate (25% of the maximum), תקנה 4 |
 
 **The shekel value of `הסכום המקסימלי` is deliberately not stated here.** PLATD §4(א)(3) fixes it at `מאה אלף לירות` with a power to increase it, and §4(ב) links it to the Consumer Price Index from the law's commencement. Secondary sources circulate several different current figures. Quote the formula, then look up the current ceiling in an up-to-date source before putting a number in front of a user.

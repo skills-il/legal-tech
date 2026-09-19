@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-car-accident-claim",
   "schemaVersion": "1.0",
-  "generated_at": "2026-06-23",
+  "generated_at": "2026-09-19T20:25:10+00:00",
   "revised_at": "2026-08-09",
   "claims": [
     {
@@ -838,6 +838,74 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "platd-joint-several-3b",
+      "claim": "PLATD §3(ב): a person hurt outside the vehicles in a multi-vehicle accident may claim from all the drivers jointly and severally.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "יהיו הנוהגים חייבים כלפיו יחד ולחוד",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-tort-preserved-8c",
+      "claim": "PLATD §8(ג): the §8(א) tort bar does not affect the tort claim of someone who has no cause of action under PLATD.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "אין בהוראת סעיף קטן (א) כדי לגרוע מתביעה על פי פקודת הנזיקין של מי שאין לו עילת תביעה על פי חוק זה",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "karnit-uninsured-driver-12a2",
+      "claim": "PLATD §12(א)(2): Karnit compensates where the driver liable has no compulsory insurance, which is the case of an occupant of an uninsured vehicle (liable driver under §3(א) is his own driver).",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "אין לנוהג ביטוח לפי פקודת הביטוח",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-uninsured-driver-excluded-7-5",
+      "claim": "PLATD §7(5): a person who drove a vehicle without compulsory insurance is not entitled to compensation.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "מי שנהג ברכב ללא ביטוח לפי פקודת הביטוח",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-knowing-passenger-7-2",
+      "claim": "PLATD §7(2): a person who was in the vehicle knowing it was being driven without permission is not entitled to compensation.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "וכן מי שהיה מצוי ברכב ביודעו שהנוהגים בו כאמור",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:29:09+00:00",
+      "appears_in": [
+        "scripts/claim_router.py"
       ]
     }
   ]
