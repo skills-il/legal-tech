@@ -173,6 +173,270 @@
       "confidence": "high",
       "fetched_at": "2026-08-11T00:00:00Z",
       "notes": "Added after a pre-push expert review found the skill discussed הצמדה without citing the provision that governs it. This is THE section for a buyer asking about a parking attachment: it is both the power to attach and the list of things that can never be attached, so it is the only rule by which an impossible 'attachment' can be identified."
+    },
+    {
+      "claim_id": "mekarkein-s125a-settlement-proviso",
+      "claim": "Conclusive evidence for settled land does not derogate from ss.93-97 of the Land Rights Settlement Ordinance.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "אולם אין בכך כדי לגרוע מהוראות סעיפים 93 עד 97 לפקודת הסדר זכויות במקרקעין",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s127b-bankruptcy-carveout",
+      "claim": "The s.127(b) carve-out is limited to an avoidance claim on bankruptcy or winding-up grounds.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "ובלבד שטענה לביטול העסקה מחמת פשיטת הרגל או הפירוק שהיתה עומדת אילו בוצעה העסקה במועדה",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s129-capacity-note",
+      "claim": "סעיף 129: s.129 provides for a note where a person's legal capacity was removed or restricted.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "כי כשרותו המשפטית של בעל מקרקעין או של בעל זכות במקרקעין נשללה או הוגבלה על פי חוק, ירשום הרשם",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s130-court-note",
+      "claim": "סעיף 130: s.130 lets a court order a note in any proceeding concerning a right in land.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "בית המשפט רשאי, בכל הליך שלפניו בענין זכות במקרקעין, להורות על רישום הערה כפי שנקבע.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s131-blocking",
+      "claim": "סעיף 131: s.131: while a note under s.128, 129 or 130 stands, no contradicting transaction is registered.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "לא תירשם עסקה הסותרת את תוכן ההערה, כל עוד לא נמחקה ההערה.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s132-deletion",
+      "claim": "סעיף 132: s.132(a): a note under ss.126, 128 or 129 is deleted by court order or when the Registrar is satisfied that the interested parties consented or its ground lapsed.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "תימחק על פי צו של בית משפט או אם הוכח, להנחת דעתו של הרשם, אחד מאלה",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s57a-hundredths",
+      "claim": "s.57(a): the common-property share is not computed beyond hundredths (statutory, not merely practice).",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "בחישוב שיעורו של חלק כאמור לא יעברו את תחום חלקי המאה",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s57b-balconies",
+      "claim": "s.57(b): balconies and external walls are excluded from floor area unless the bylaws provide otherwise.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "לא יובאו בחשבון שטחם של גזוזטראות ושל קירות חיצוניים",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-2026-electronic-18",
+      "claim": "2026 fee for an electronically signed extract (including a consolidated one) is 18 NIS (item 7(a2), indexed; 15 NIS in 2016 terms).",
+      "claim_type": "amount",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "18 (15 ש״ח מתואם לשנת 2016)",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-2026-certified-88",
+      "claim": "2026 fee for a certified paper extract is 88 NIS (item 7(a)).",
+      "claim_type": "amount",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "88 (74 ש״ח מתואם לשנת 2016)",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-2026-merukaz-154",
+      "claim": "2026 fee for a paper consolidated condominium extract is 154 NIS (item 7(a1)).",
+      "claim_type": "amount",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "154 (130 ש״ח מתואם לשנת 2016)",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-indexed-1-january",
+      "claim": "תקנה 2(ב) לתקנות המקרקעין (אגרות): fees are indexed on 1 January each year by the November CPI.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "סכומי האגרות לפי תקנת משנה (א) ישתנו ב־1 בינואר של כל שנה לפי שיעור השינוי של המדד",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "references/domain-checklist.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govil-extract-types-full",
+      "claim": "The registry offers a full regular extract containing all current registered information.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח רגיל מלא: כולל את כל המידע העדכני על הנכס כפי שרשום בפנקסי המקרקעין.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-extract-types-historical",
+      "claim": "The historical extract also includes deleted entries.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח היסטורי: כולל גם רישומים שנמחקו.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-extract-types-merukaz",
+      "claim": "The consolidated extract holds general information on all owners in a condominium.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח מרוכז: מכיל מידע כללי על כל בעלי הדירות בבית משותף.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-digital-original",
+      "claim": "The online extract is official and an original only in digital form, not when printed, and bears an approved electronic signature.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "הנסח רשמי ומוכר כמסמך מקורי רק בצורה דיגיטלית ולא כשהוא מודפס.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-ordering-site",
+      "claim": "Extracts are ordered on the 'מקרקעין ברשת' site (mekarkein-online.justice.gov.il); an apostilled extract is also available.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נכנסים לאתר מקרקעין ברשת.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "mekarkein-online-site",
+      "claim": "The ordering site mekarkein-online.justice.gov.il/voucher/main is the registry's online extract service.",
+      "claim_type": "url",
+      "source_url": "https://mekarkein-online.justice.gov.il/voucher/main",
+      "raw_snippet": "נסח היסטורי",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
     }
   ]
 }

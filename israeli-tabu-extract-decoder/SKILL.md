@@ -44,7 +44,10 @@ These need no opinion on this buyer's title, so the refusal in the legal notice 
 
 1. **Order your own extract.** Do not work from the seller's lawyer's copy. It is a counterparty
    document of unknown vintage, and it may be a consolidated extract, which structurally cannot show
-   this unit's attachments. The register is public (`סעיף 124`) and anyone may obtain a copy.
+   this unit's attachments. The register is public (`סעיף 124`) and anyone may obtain a copy: order it
+   online at `מקרקעין ברשת` (https://mekarkein-online.justice.gov.il/voucher/main) with block, parcel
+   and sub-parcel. In 2026 an electronically signed extract costs 18 NIS (fees are indexed every
+   1 January). The extract types and fees are in `references/entry-types.md` section 9.
 2. **An extract speaks only as at the moment it was produced.** Re-check before signing and before
    each payment, not once at the start.
 3. **Register a caveat in your own favour, early.** The skill explains caveats as things other people
@@ -69,7 +72,7 @@ They prove different things and they are not interchangeable. `references/regist
 
 This is the question most guides skip entirely.
 
-- For **settled land** (`מקרקעין מוסדרים`, land registered following settlement of title), registration is **conclusive evidence** of its content.
+- For **settled land** (`מקרקעין מוסדרים`, land registered following settlement of title), registration is **conclusive evidence** of its content, though the same subsection preserves reopening under ss.93-97 of the Settlement Ordinance.
 - For **unsettled land** (`מקרקעין לא מוסדרים`), registration is only **prima facie** evidence.
 
 Say which one applies before you characterise anything on the page as established. If you cannot tell from what the user supplied, say so and tell them how to find out, rather than defaulting to the stronger reading.
@@ -92,7 +95,7 @@ Check three things and report each as a question rather than a verdict:
 
 - Do the fractions add up to the whole?
 - Does every seller in the proposed transaction actually appear here?
-- Is a deceased person still registered? If so, the estate has to be dealt with before anything transfers, which is a real and common blocker.
+- Is a deceased person still registered? If so, the estate has to be dealt with before anything transfers, which is a real and common blocker. Distinguish it from a completed transfer line of type ירושה or צוואה, where the heirs are already registered. A seller holding only a צו ירושה or צו קיום צוואה while the deceased is still registered is not yet the registered owner, and the inheritance must be registered before or with the sale (`סעיף 7`).
 
 Where the registered owner is the State or a public land body and the resident appears as `חוכר לדורות`, that is a normal registered right, not a defect. A lease over five years is a `חכירה` and over twenty five years a `חכירה לדורות`.
 
@@ -105,15 +108,15 @@ Do not summarise this block. Go entry by entry, name the type, and give the cate
 | `משכנתה` with a `דרגה` | A mortgage, ranked. A later transaction by the owner cannot defeat a purchaser at the mortgage's execution sale |
 | A discharged rank | Does **not** necessarily mean the rank is free. A vacant rank can be refilled by a later mortgage where its terms so provide |
 | `עיקול` | An attachment recorded by a court or enforcement authority |
-| `הערת אזהרה` | A note that someone undertook **in writing** to transact. **While it stands unerased** it blocks a contradicting registration and shields the beneficiary against a later attachment or insolvency, subject to an avoidance carve-out. It is **not** ownership |
-| Note requiring a third party's consent | Any dealing is conditioned on that party's agreement. Extremely common and easy to skim past |
+| `הערת אזהרה` | A note that someone undertook **in writing** to transact. **While it stands unerased** it blocks a contradicting registration and shields the beneficiary against a later attachment or insolvency, subject to a bankruptcy or winding-up avoidance carve-out. It is **not** ownership. Name the beneficiary (developer, lender, earlier buyer?). It comes off only by court order or on the Registrar being satisfied of consent or a lapsed ground (`סעיף 132`) |
+| Note requiring a third party's consent (`סעיף 128`) | Any dealing is conditioned on that party's agreement, and nothing contradicting it can be registered while it stands (`סעיף 131`). Extremely common and easy to skim past |
 | `זיקת הנאה` | A charge for someone's benefit that carries **no** right to possess |
 | `הצמדה` (`סעיף 55(ג)`) | A specified part of the common property attached to this unit, treated for all purposes as part of it. Stairwells, lifts, shelters and installations serving all owners can **never** be attached. Verify the specific bay against the תשריט in the צו רישום בית משותף |
 | Registered lease | An encumbrance a buyer inherits |
 
 ### Step 5, in a condominium, read the shares and the bylaws separately
 
-The share in the common property attached to a unit is the ratio of its floor area to the total floor area of all units unless the bylaws say otherwise, computed in hundredths. This is why the fraction rarely matches an intuition about size, and it is not an error.
+The share in the common property attached to a unit is the ratio of its floor area to the total floor area of all units unless the bylaws say otherwise, computed in hundredths by statute, with balconies and external walls left out of the floor area (`סעיף 57(ב)`). This is why the fraction rarely matches an intuition about size, and it is not an error.
 
 Registered bylaws bind **anyone who later becomes an owner**. So a parking space or storeroom a seller describes as "belonging to the apartment" belongs to it only if the registered position says so. Where the user is relying on a promise, tell them the register is what carries over.
 
@@ -183,10 +186,12 @@ Go to Step 7. Establish the regime, name the document that stands in place of an
 
 | Source | URL | What to check |
 |---|---|---|
-| חוק המקרקעין | https://he.wikisource.org/wiki/חוק_המקרקעין | Sections 3, 5, 7, 57, 62, 85, 86, 124, 125, 126, 127, 128 |
-| תקנות המקרקעין (אגרות) | https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29 | The extract categories in the fee schedule, and the current fees |
+| חוק המקרקעין | https://he.wikisource.org/wiki/חוק_המקרקעין | Sections 3, 5, 7, 55(ג), 57, 62, 85, 86, 124 to 132 |
+| תקנות המקרקעין (אגרות) | https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29 | Item 7: the 2026 extract fees (18 NIS electronic, 88 paper, 154 paper consolidated) |
+| Extract ordering service | https://www.gov.il/he/service/land_registration_extract | Extract types, the online route, and the digital-original rule |
+| מקרקעין ברשת | https://mekarkein-online.justice.gov.il/voucher/main | Where the extract is ordered |
 
-For how to obtain an extract, its current fee, and the exact set of extract types offered today, send the user to the Land Registry's own service pages. Those pages could not be read first-hand when this skill was written, so this skill deliberately states no fee and no ordering procedure rather than repeating figures it could not verify.
+Fees change every 1 January, so quote the year with any figure and re-check the service page if the year has turned.
 
 ## Bundled Resources
 
@@ -213,6 +218,6 @@ For how to obtain an extract, its current fee, and the exact set of extract type
 | The user asks whether the title is clean | Outside the skill | Say plainly that this is an advocate's call, then give them the structured list of what is recorded so the conversation with the advocate is short |
 | The apartment cannot be found in the register | A different registration regime | Go to Step 7 and identify the regime rather than reporting a failure |
 | An entry appears that the references do not name | The register carries further note types prescribed by regulation | Say what the entry appears to be, say you cannot categorise it with confidence, and route it |
-| The user has a printout and asks if it is official | Format and authenticity rules live on the registry's service pages | Do not assert a rule this skill could not verify. Route them to the registry to confirm the status of what they hold |
+| The user has a printout and asks if it is official | The digital-original rule applies to the extract ordered online | A printout of an ONLINE extract is not the original; the signed digital file is. A certified paper extract issued by a registry office is a separate official product. If they cannot tell which they hold, order a fresh one |
 | The user wants to know what the property is worth | Outside the skill | Route to `israeli-property-appraisal` |
 | A registered owner has died | The estate must be dealt with before transfer | State the blocker as a category and route to an advocate; do not advise on the succession route |

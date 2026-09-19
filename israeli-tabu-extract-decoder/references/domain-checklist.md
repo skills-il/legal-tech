@@ -3,21 +3,15 @@
 Generated: 2026-08-11. Every statutory row was verified against the source's own text layer on
 he.wikisource.org, sliced directly from the rendered page so each quoted snippet is contiguous.
 
-## A deliberate scope decision, recorded up front
+## Scope decision on fees and ordering: REOPENED 2026-09-19
 
-The government service pages that describe how to obtain an extract, what it costs, the exact set of
-extract types offered today, and the rules about a printed copy, **could not be read first-hand**
-when this skill was written. They return 403 to a plain request and serve an interstitial to a
-headless browser.
-
-Rather than repeat those details from a secondary summary, **this skill states no fee, no ordering
-procedure, and no printed-copy rule, and routes the user to the registry instead.** That is a
-deliberate trade: it costs the skill some convenience, and it removes an entire class of confidently
-wrong, quietly stale answers. The statutory layer, which is what the skill is actually for, is fully
-verified.
-
-Anyone updating this skill should try those pages again first. If they become readable, the fee, the
-type list, and the ordering flow are the first things to add, each with an as-of date.
+The first release stated no fee, no ordering procedure and no printed-copy rule, because the registry
+pages could not be read first-hand. On 2026-09-19 the service page
+(https://www.gov.il/he/service/land_registration_extract) rendered in a real browser, and the fee
+schedule was read in the consolidated regulations (wikisource) with the 2026 figures. So the skill now
+states the three extract types, the online route (`מקרקעין ברשת`), the digital-original rule, and the
+2026 fees (18 NIS electronic, 88 NIS certified paper, 154 NIS paper consolidated), each with its year.
+Fees are indexed every 1 January (תקנה 2(ב)): re-read item 7 of the schedule each cycle.
 
 ## Must cover (core)
 
@@ -75,6 +69,10 @@ type list, and the ordering flow are the first things to add, each with an as-of
 
 ## Out of scope (explicit, with rationale)
 
+Re-litigated 2026-09-19: "ordering an extract" was split. Telling the user HOW to order is now in
+scope (captured); ordering it FOR them stays out (payment and identity). Every other row is kept: each
+is either a reserved profession, a sibling skill, or absent from the extract.
+
 - Valuation, comparable sales, price medians: `israeli-property-appraisal`, and a valuation is
   reserved to a licensed appraiser.
 - Purchase tax, betterment tax, rental agreements, general transaction guidance: `israeli-real-estate`.
@@ -98,18 +96,20 @@ type list, and the ordering flow are the first things to add, each with an as-of
 - "The first mortgage was paid off, so rank one is free." `סעיף 86` allows a vacant rank to be
   refilled.
 - "The extract shows building violations, debts, or the real apartment size." It shows none of these.
-- Any specific extract fee. Fees are index-linked and change; this skill deliberately states none.
+- A fee quoted without its year. Fees are index-linked and change every 1 January; the skill quotes 2026 figures with the year.
 
 ## Open items for the next update
 
-1. Retry the registry service pages. If readable, add the current fee with an as-of date, the exact
-   extract types offered, the ordering flow, and the status of a printed copy.
+1. DONE 2026-09-19: fee, extract types, ordering route and printed-copy status added (see top).
 2. The property-activity alert service. Neither its cost nor its effectiveness is stated anywhere in
    this skill, because neither could be verified first-hand; do not describe it as free, and do not
    rank it against other precautions, until a readable registry page says so.
 3. The Judea and Samaria register's extract categories and standing rules, from a readable source.
-4. Whether a caveat's erasure rules should be covered in full, which matters when a user is trying to
-   remove one rather than read one.
+4. PARTLY DONE 2026-09-19: s.132(a) deletion grounds are stated (court order, or the Registrar
+   satisfied of consent or a lapsed ground, after notice). The procedure for applying is still routed.
+5. Deferred 2026-09-19 (unverified first-hand): the ILA online rights-confirmation service and fee; the
+   Ministry of Construction new-build registration-status service; the Corporations Authority pledges
+   search route and fee; the Judea and Samaria extract service URL.
 
 ## Authoritative sources
 

@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "legal-tech",
   "tags": {
     "he": [
@@ -57,6 +57,11 @@
     {
       "url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
       "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/land_registration_extract",
+      "type": "regulator",
       "language": "he"
     }
   ],
