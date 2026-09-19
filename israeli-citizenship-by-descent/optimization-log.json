@@ -1,0 +1,28 @@
+{
+  "cycles": [
+    {
+      "version": "2.2.0",
+      "date": "2026-09-19",
+      "lessons": [
+        "Israel: digital apostille via the Ministry of Justice notaries authority for digitally signed certificates; a printout of a digitally signed PIBA certificate is not an original (State Comptroller Feb 2026). Add one sentence once a gov.il snippet is captured.",
+        "Coverage MAJOR deferred (unverified against primary sources, word cap 4986/5000): born-in-Vienna is not Austrian citizenship (Heimatrecht, post-1918 Polish citizenship of Galician Jews); Germany §14 StAG discretionary naturalization from abroad; Poland marriage-to-foreigner and illegitimate-child mother-line rules (1920 Act); minors applying; Lithuania after the failed 2024 referendum.",
+        "Discretionary MINOR deferred: Hungary language can be re-checked at any stage; Czechia §31 exclusions (Decree 33/1945, 1946 Transcarpathia treaty); Greek route 30 EUR fee and 15-month estimate.",
+        "SKILL.md is at 4986/5000 words. Next cycle should move the Tier 3 table or the document pipeline detail into references/ before adding content.",
+        "Italy: CJEU referral from Corte cost. order 147/2026 pending; re-check the outcome each cycle.",
+        "Expert CRITICAL fixed this cycle: §15 StAG residence limb (Nr. 4) and refused-naturalization limb (Nr. 3) had been described as closed to non-citizens. Intake now asks residence 1933-45."
+      ],
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Is the Portuguese Sephardic citizenship route still open in 2026?",
+          "Help me write my Israeli will and split inheritance among my children",
+          "I have a Cypriot grandparent, can I get a Cyprus passport?"
+        ]
+      }
+    }
+  ]
+}

@@ -28,7 +28,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
@@ -125,14 +125,19 @@
       "language": "he"
     },
     {
-      "url": "https://www.gov.il/he/pages/news-exit-with-foriegn-passport-300926",
+      "url": "https://embassies.gov.il/atlanta/en/announcements/aug26en",
       "type": "regulator",
-      "language": "he"
+      "language": "en"
     },
     {
       "url": "https://www.gov.il/en/service/summaryinfofromthepopulationregistrylisting",
       "type": "regulator",
       "language": "en"
+    },
+    {
+      "url": "https://www.cortecostituzionale.it/uploads/release/6a61f20b04366.pdf",
+      "type": "court",
+      "language": "it"
     }
   ],
   "domain_checklist_version": 2

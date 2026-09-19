@@ -59,11 +59,12 @@ def field(label):
         return ""
 
 
-FIELDS = ["anchor", "origin", "story", "docs_have", "chain", "prior_filing"]
+FIELDS = ["anchor", "origin", "residence", "story", "docs_have", "chain", "prior_filing"]
 
 PROMPTS = {
     "anchor": "Anchor ancestor (name + relationship, e.g. 'paternal grandfather')",
     "origin": "Their country/region of origin",
+    "residence": "Where they LIVED 1933-1945 (city, country), separately from citizenship",
     "story": "What happened and when (emigration / flight / persecution / loss of citizenship + dates)",
     "docs_have": "Documents you already have (comma-separated)",
     "chain": "Living chain from the ancestor to you (each birth/marriage/name change)",
@@ -75,6 +76,7 @@ def render(case):
     print("== Ancestry and documents worksheet ==\n")
     anchor = case.get("anchor", "")
     origin = case.get("origin", "")
+    residence = case.get("residence", "")
     story = case.get("story", "")
     docs_have = case.get("docs_have", "")
     chain = case.get("chain", "")
@@ -85,6 +87,7 @@ def render(case):
     print("----------------------------------------")
     print(f"Anchor ancestor : {anchor or '(fill in)'}")
     print(f"Origin          : {origin or '(fill in)'}")
+    print(f"Residence 33-45 : {residence or '(fill in)'}")
     print(f"Family story    : {story or '(fill in)'}")
     print(f"Documents on hand: {docs_have or '(none listed)'}")
     print(f"Chain           : {chain or '(fill in)'}")
@@ -110,6 +113,7 @@ def run_blank():
     for label in [
         "Anchor ancestor (name + relationship)",
         "Country/region of origin",
+        "Where they lived 1933-1945 (city, country)",
         "What happened and when",
         "Documents you already have",
         "Living chain from the ancestor to you",
@@ -119,6 +123,33 @@ def run_blank():
     print("Starting document checklist:")
     for i, d in enumerate(GENERIC_DOCS, 1):
         print(f"  [ ] {i}. {d}")
+
+
+def load_case(path):
+    """Read a --case file, failing with a readable message instead of a traceback."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except OSError as e:
+        sys.exit(f"error: cannot read case file {path}: {e.strerror}")
+    except json.JSONDecodeError as e:
+        sys.exit(f"error: {path} is not valid JSON (line {e.lineno}, column {e.colno})")
+    if not isinstance(data, dict):
+        sys.exit(f"error: {path} must hold a JSON object with keys: {', '.join(FIELDS)}")
+    unknown = sorted(k for k in data if k not in FIELDS)
+    if unknown:
+        print(f"warning: ignoring unknown keys {unknown}; expected: {', '.join(FIELDS)}",
+              file=sys.stderr)
+    case = {}
+    for f in FIELDS:
+        v = data.get(f)
+        if isinstance(v, list):
+            v = ", ".join(str(x) for x in v)
+        if v not in (None, ""):
+            case[f] = str(v)
+    if not case:
+        sys.exit(f"error: {path} has no recognised field; expected: {', '.join(FIELDS)}")
+    return case
 
 
 def main():
@@ -131,10 +162,7 @@ def main():
         p.add_argument("--" + f.replace("_", "-"), dest=f, default=None)
     args = p.parse_args()
 
-    case = {}
-    if args.case:
-        with open(args.case, encoding="utf-8") as fh:
-            case.update(json.load(fh))
+    case = load_case(args.case) if args.case else {}
     for f in FIELDS:
         if getattr(args, f):
             case[f] = getattr(args, f)
