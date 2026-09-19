@@ -1,6 +1,13 @@
 {
   "cycles": [
     {
+      "version": "1.2.2",
+      "date": "2026-09-20",
+      "lessons": [
+        "Fresh post-ship router review found the s.8 exclusivity note firing unconditionally, contradicting the s.7 branch fixed in 1.2.1: when hedging a claim in prose, grep the SCRIPT for the same assertion."
+      ]
+    },
+    {
       "version": "1.2.1",
       "date": "2026-09-19",
       "lessons": [

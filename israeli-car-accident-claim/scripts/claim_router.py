@@ -117,11 +117,24 @@ def route(injuries, hit_and_run, damage, my_fault, other_insured, my_comprehensi
                 "uninsured vehicle goes to Karnit even if the other vehicle is insured "
                 "(Sections 3(a), 12(a)(2)). Re-run with --role."
             )
-        out["notes"].append(
-            "The PLATD claim is exclusive (Section 8): you have no tort claim against the "
-            "other driver for bodily injury, except where someone caused the accident "
-            "deliberately."
-        )
+        # Section 8(a) bars tort only for a person the accident GIVES a PLATD cause of
+        # action. A Section 7-excluded person has none, and Section 8(c) expressly
+        # preserves the tort claim of such a person, so the flat "no tort claim" note
+        # must not reach him.
+        if my_compulsory is False and role == "driver":
+            out["notes"].append(
+                "Do not assume the tort route is closed either. Section 8(a) bars a tort "
+                "claim only for a person to whom the accident gives a PLATD cause of "
+                "action, and Section 8(c) preserves the tort claim of a person who has "
+                "none. Whether a Section 7-excluded driver falls inside Section 8(c) is a "
+                "case-law question for a lawyer; this tool does not decide it."
+            )
+        else:
+            out["notes"].append(
+                "The PLATD claim is exclusive (Section 8): you have no tort claim against the "
+                "other driver for bodily injury, except where someone caused the accident "
+                "deliberately."
+            )
         out["notes"].append(
             "Lasting disability is assessed by a single medical expert appointed by the court "
             "(Section 6a), NOT by a ועדה רפואית. Beware Section 6b: a disability percentage "
