@@ -891,6 +891,94 @@
       "claim_id": "germany-15-exclusion-conviction",
       "claim": "§15 StAG excludes a person finally sentenced to two years or more for intentional offences.",
       "raw_snippet": "rechtskräftig zu einer Freiheits- oder Jugendstrafe von zwei Jahren oder mehr verurteilt worden sind"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-anschluss-austrians-excluded",
+      "claim": "German administrative guidance: Art. 116(2) GG does not as a rule apply to Austrians who acquired German citizenship through the 1938 Anschluss and were reclaimed as citizens by the restored Republic of Austria from 27 April 1945, nor to their descendants.",
+      "source_url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6",
+      "raw_snippet": "und mit der Wiederherstellung der Republik Österreich seit dem 27.4.1945 von dieser wieder als Staatsangehörige in Anspruch genommen worden sind, und ihre Abkömmlinge grundsätzlich keine Anwendung",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T02:30:00Z"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-anschluss-15-stag-too",
+      "claim": "The same BMI guidance states that §15 StAG likewise does not apply to those Anschluss Austrians and their descendants.",
+      "source_url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6",
+      "raw_snippet": "§ 15 findet daher auf die vorgenannten österreichischen Staatsangehörigen und ihre Abkömmlinge ebenfalls keine Anwendung.",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T02:30:00Z"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-bverwg-1990-anschluss",
+      "claim": "BVerwG 27.3.1990 (1 C 5.87): Art. 116(2) GG does not apply to descendants of people who were Austrian citizens before the 1938 Anschluss, became German through it, were expatriated on racial grounds, and were reclaimed by the restored Austria with effect from 27 April 1945.",
+      "source_url": "https://www.mpil.de/en/pub/publications/archive/rspr/r86.cfm?fuseaction_rspr=act&act=r8693_88",
+      "raw_snippet": "Art.116 Abs.2 GG gilt nicht für die Abkömmlinge von Personen, die vor dem sog. Anschluß Österreichs an das Deutsche Reich im Jahre 1938 österreichische Staatsbürger waren"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "austria-did-not-reclaim-1925-loss",
+      "claim": "Austria did not reclaim former Austrian citizens who had realised a loss ground under the Austrian citizenship Act of 30 July 1925 (for example by acquiring a foreign citizenship), which is the carve-out leaving a German claim open.",
+      "source_url": "https://www.mpil.de/en/pub/publications/archive/rspr/r86.cfm?fuseaction_rspr=act&act=r8693_88",
+      "raw_snippet": "lediglich die ehemaligen österreichischen Staatsbürger nicht in Anspruch genommen, die in der Zeit des Anschlusses an das Deutsche Reich einen Verlusttatbestand nach dem österreichischen Bundesgesetz über den Erwerb und Verlust der Landes- und Bundesbürgerschaft vom 30. Juli 1925"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "austria-heimatrecht-1918-galicia",
+      "claim": "The Austrian citizenship law of 5 December 1918 conferred citizenship on those with Heimatrecht in a commune of the republic, excluding people with Heimatrecht in Galicia, so Galician-origin residents of Vienna did not become Austrian citizens.",
+      "source_url": "https://hdgoe.at/staatsbuergergesetz-rassistische-optionspraxis",
+      "raw_snippet": "ausgenommen, er/sie war in Dalmatien, Istrien oder Galizien heimatberechtigt gewesen"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "saint-germain-art70-pertinenza",
+      "claim": "Treaty of Saint-Germain Art. 70: a person with rights of citizenship (pertinenza, i.e. Heimatrecht) in former Austro-Hungarian territory obtained, to the exclusion of Austrian nationality, the nationality of the state exercising sovereignty there.",
+      "source_url": "https://www.dipublico.org/doc/instrumentos/145.html",
+      "raw_snippet": "shall obtain ipso facto to the exclusion of Austrian nationality the nationality of the State exercising sovereignty over such territory"
     }
   ]
 }

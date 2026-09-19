@@ -28,7 +28,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
@@ -138,6 +138,11 @@
       "url": "https://www.cortecostituzionale.it/uploads/release/6a61f20b04366.pdf",
       "type": "court",
       "language": "it"
+    },
+    {
+      "url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6",
+      "type": "regulator",
+      "language": "de"
     }
   ],
   "domain_checklist_version": 2

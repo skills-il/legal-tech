@@ -1,6 +1,16 @@
 {
   "cycles": [
     {
+      "version": "2.2.1",
+      "date": "2026-09-20",
+      "lessons": [
+        "Resolved this cycle (were deferred in 2.2.0): the Anschluss-Austrian exclusion from the German routes, and the Vienna Heimatrecht point.",
+        "The Anschluss exclusion is 'grundsätzlich', with narrow carve-outs (German before 1938 or by descent; Austria did not reclaim the person under the 1925 Act loss grounds). The skill states the rule and names the exceptions without trying to adjudicate them.",
+        "The BVA's applicant-facing Merkblatt does not mention the Austria exclusion at all; it lives in the BMI Anwendungshinweise and the case law. Re-check when the BVA leaflet is next revised.",
+        "Still deferred: Germany §14 discretionary naturalization; Poland marriage and mother-line rules; minors; Lithuania; digital apostille; Hungary language re-check; Czech exclusions."
+      ]
+    },
+    {
       "version": "2.2.0",
       "date": "2026-09-19",
       "lessons": [

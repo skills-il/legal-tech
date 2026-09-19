@@ -74,6 +74,9 @@ Re-litigated 2026-09-19: none of the rows below is something an ordinary user of
 ---
 
 ## Authoritative sources
+
+- https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6 - BMI Anwendungshinweise zum StAG, Nr. 15.0 (Stand 1.5.2025): Art. 116(2) and §15 do not apply to Anschluss Austrians reclaimed by Austria from 27.4.1945, or to their descendants. Note the BVA's applicant-facing Merkblatt does not mention this exclusion at all, so families meet it late. The §15 limb rests on an administrative instruction, while the Art. 116(2) limb rests on case law.
+- https://www.mpil.de/en/pub/publications/archive/rspr/r86.cfm?fuseaction_rspr=act&act=r8693_88 - BVerwG 27.3.1990 - 1 C 5.87, BVerwGE 85, 108 (via MPIL), on the children of a Vienna-born Austrian father and a Berlin-born mother expatriated under the 11th Ordinance, including the carve-out for those Austria did not reclaim. The court's own example of a 1925-Act loss ground, voluntary foreign military service, was undone by the amendment of 18 January 1946, so do not offer wartime Allied service as the escape route.
 - https://www.bva.bund.de/EN/Services/Citizens/ID-Documents-Law/Citizenship/116GG_15StA.html - Germany §116(2) vs §15; both in force 2021-08-20.
 - https://www.auswaertiges-amt.de/en/2664476-2664476 - 2024 reform, dual citizenship effective 2024-06-27.
 - https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Erwerb-durch-Anzeige/Staatsbuergerschaft_Verfolgte_Nationalsozialismus_und-direkte_Nachkommen - Austria §58c.
