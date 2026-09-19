@@ -7,8 +7,8 @@ Coverage contract for the skill. Every "Must cover" row is grounded in a claim i
 | Topic | Source / statute | Why core |
 |-------|------------------|----------|
 | Dual-track jurisdiction: rabbinical court vs. family court | חוק שיפוט בתי דין רבניים (נישואין וגירושין), תשי"ג-1953; חוק בית המשפט לענייני משפחה, תשנ"ה-1995 | The first structural choice in every Israeli divorce; the get is exclusive to the rabbinical court, most everything else is concurrent. |
-| Joinder (כריכה) of ancillary matters to the divorce claim | Case law; three cumulative conditions (genuine claim / genuine joinder / lawful joinder) | Validity is not filing order alone; the rabbinical court has no child-support jurisdiction without both parties' consent. Chronology is only a tie-breaker. |
-| Mandatory intake: Request to Resolve a Dispute + MAHUT meetings | חוק להסדר התדיינויות בסכסוכי משפחה, תשע"ה-2014 | You generally cannot litigate before this step; up to four MAHUT meetings within 45 days, 60-day stay of proceedings. |
+| Joinder (כריכה) of ancillary matters to the divorce claim | Case law; three cumulative conditions (genuine claim / genuine joinder / lawful joinder) | Validity is not filing order alone; child support: from 18.11.2025 (two-year temporary provision, 1953 law s.3) the rabbinical court has exclusive jurisdiction when joined to a divorce claim, without consent; before that, consent of both was required. Chronology is only a tie-breaker. |
+| Mandatory intake: Request to Resolve a Dispute + MAHUT meetings | חוק להסדר התדיינויות בסכסוכי משפחה, תשע"ה-2014 | You generally cannot litigate before this step; up to four MAHUT meetings within 45 days (+15), stay of 45/60 days plus 10 plus 15 (about 70/85), s.3(e). |
 | Urgent-relief (סעד דחוף) carve-out + domestic-violence protective order | חוק למניעת אלימות במשפחה, התשנ"א-1991; kolzchut yishuv-sikhsukh page | Safety-critical: DV, exit-from-country, urgent maintenance, and medical relief are NOT barred by the intake stay; decided within about 14 days. |
 | Property balancing (איזון משאבים) default 50/50 and what is excluded | חוק יחסי ממון בין בני זוג, תשל"ג-1973, ס' 5 | The core money question; the exclusions (pre-marriage, gift/inheritance, NII benefits, injury compensation) are the most misunderstood part. |
 | Section 8 deviation from equal division; pension/manager's insurance/severance in the balance | חוק יחסי ממון, ס' 8; kolzchut izun page | The court can order an unequal split and fix the valuation date; future rights accrued in the marriage are balanced. |
@@ -36,7 +36,7 @@ Coverage contract for the skill. Every "Must cover" row is grounded in a claim i
 | Pension-split mechanics and actuarial math | Deep actuarial domain of its own | Cross-reference the `israeli-pension-advisor` skill. |
 | Binding legal advice / actual court filing and drafting for signature | Requires a licensed advocate; unauthorized practice risk | Recommend a family lawyer (עורך דין לענייני משפחה). |
 | Detailed tax math on asset transfers (exact exemption mechanics, sections, amounts) | Separate tax domain | A tax adviser / accountant. The skill still flags the general מס שבח / מס רכישה exemption qualitatively. |
-| Non-Jewish religious-community divorce specifics | Different religious-court systems | The relevant religious court; out of this skill's Jewish-track focus. |
+| Non-Jewish, mixed, same-sex, and civil-abroad divorce specifics | Different forums; reviewed 2026-09-19: users do ask, so SKILL.md Step 0 now triages them (1953 law s.1 scope; property law s.13(b)) and routes to a lawyer, but forum-by-forum procedure stays out | A lawyer; the relevant religious court or the family court. |
 
 ## Property-balancing (איזון משאבים) sub-dimensions
 
@@ -45,7 +45,9 @@ Included in the balance by default (ס' 5, "כלל נכסי בני הזוג"):
 - Future rights accrued during the marriage: pension, manager's insurance (ביטוח מנהלים), and severance pay (פיצויי פרישה).
 - The family home and other real estate acquired during the marriage.
 - Vehicles, business value, securities, and other property acquired during the marriage.
-- Joint and individual debts accrued during the marriage (netted against assets).
+- Joint and individual debts accrued during the marriage (netted against assets), EXCEPT debts connected with excluded assets (s.6(a)); a negative net position is flagged for a lawyer (s.6(b)).
+- Scope gates: marriage before 1.1.1974 (s.14, s.19), foreign domicile at the wedding (s.15), a property agreement (s.3(a)).
+- Protective measures (s.11) and the family-home sale stay for minor children (s.6א).
 
 Deviation from equal division (ס' 8): the 50/50 default is not guaranteed. The court can order an unequal division and fix the valuation/severance date qualitatively where an equal split would be unjust. `scripts/izun_mashabim.py` computes only the equal balance and does not model this.
 

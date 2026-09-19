@@ -33,14 +33,16 @@ Commingling caveat: an excluded asset can be dragged back into the pool if it wa
 
 ## Step 3: subtract debts
 
-Net joint and marital debts (mortgage balance, loans, overdrafts) against the pool. Balancing is on net worth, not gross assets.
+Net each spouse's debts (mortgage balance, loans, overdrafts) against the pool, EXCEPT debts connected with excluded assets: section 6(a) deducts debts `למעט חובות בקשר לנכסים שאין לאזן שוויים`. A mortgage on a pre-marriage apartment leaves the balance together with the apartment. A debt only partly connected with an excluded asset (for example a refinanced mortgage partly spent on a family car) should be split into two lines, and how to split it is a lawyer question. Balancing is on net worth, not gross assets.
+
+If a spouse's debts exceed their balanceable assets, the section 6(b) half-the-difference formula would make the other spouse share the deficit. Courts do not apply that mechanically, especially to debts not taken for the family; flag it for a lawyer rather than presenting the figure as owed.
 
 ## Step 4: compute the equalizing payment
 
-1. Pool value = (sum of balanceable assets) minus (marital debts).
+1. Pool value = (sum of balanceable assets) minus (debts not connected with excluded assets).
 2. Each spouse's share = Pool value / 2.
 3. For each spouse, net position = (value of balanceable assets currently in their name) minus (debts in their name).
-4. Equalizing payment = the spouse whose net position is above half pays the difference to the other, so both end at the half share.
+4. Default-rule difference = how far the higher net position sits above the half share. Under the 50/50 default that is the amount that would move to equalize, but it is arithmetic on your own classification, not a finding of what anyone owes; section 8 lets a court vary it.
 
 The bundled script `scripts/izun_mashabim.py` does this arithmetic once you have classified each line as balanceable or excluded.
 

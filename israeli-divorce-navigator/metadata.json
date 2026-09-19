@@ -4,8 +4,8 @@
     "en": "Israeli Divorce Navigator"
   },
   "display_description": {
-    "he": "אינו ייעוץ משפטי. מלווה אתכם צעד אחר צעד בתהליך הגירושין בישראל: איפה מגישים (בית דין רבני מול בית משפט לענייני משפחה) ואיך נושאים נכרכים לתביעה, השלב המקדים החובה של יישוב הסכסוך ופגישות מהו\"ת (כולל החריג לסעד דחוף ולצו הגנה), איזון משאבים וברירת המחדל של חצי-חצי לפי חוק יחסי ממון, מזונות אישה מול מזונות ילדים והלכת בע\"מ 919/15, משמורת, הכתובה, והגט כולל סנקציות על סרבנות. מקבלים מפת דרכים, גיליון איזון משאבים וטיוטת סעיפים להסכם. משתמשים בזה כשמתחילים או מתמודדים עם גירושין וצריכים להבין מה קורה ובאיזה סדר. לא לחישוב חלוקת פנסיה (לזה יש israeli-pension-advisor), ותמיד כדאי עורך דין משפחה להגשה עצמה.",
-    "en": "Not legal advice. Walks you step by step through the Israeli divorce process: where to file (rabbinical court vs. family court) and how matters get joined (kricha), the mandatory dispute-resolution intake and MAHUT meetings (including the urgent-relief and protective-order carve-out), property balancing and the default 50/50 split under the marital-property law, spousal maintenance vs. child support and the Bagatz 919/15 ruling, custody, the ketubah, and the get including refusal sanctions. You get a roadmap, a property-balancing worksheet, and draft agreement clauses. Use it when you are starting or facing a divorce and need to understand what happens and in what order. Do NOT use it for pension-split math (use israeli-pension-advisor), and always get a family lawyer for the actual filing."
+    "he": "אינו ייעוץ משפטי. מלווה אתכם צעד אחר צעד בתהליך הגירושין בישראל: איפה מגישים (בית דין רבני מול בית משפט לענייני משפחה) ואיך נושאים נכרכים לתביעה, השלב המקדים החובה של יישוב הסכסוך ופגישות מהו\"ת (כולל החריג לסעד דחוף ולצו הגנה), איזון משאבים וברירת המחדל של חצי-חצי לפי חוק יחסי ממון, מזונות אישה מול מזונות ילדים והלכת בע\"מ 919/15, משמורת, הכתובה, והגט כולל סנקציות על סרבנות. מקבלים מפת דרכים, גיליון איזון משאבים ורשימת נושאים שההסכם צריך לכסות. משתמשים בזה כשמתחילים או מתמודדים עם גירושין וצריכים להבין מה קורה ובאיזה סדר. לא לחישוב חלוקת פנסיה (לזה יש israeli-pension-advisor), ותמיד כדאי עורך דין משפחה להגשה עצמה.",
+    "en": "Not legal advice. Walks you step by step through the Israeli divorce process: where to file (rabbinical court vs. family court) and how matters get joined (kricha), the mandatory dispute-resolution intake and MAHUT meetings (including the urgent-relief and protective-order carve-out), property balancing and the default 50/50 split under the marital-property law, spousal maintenance vs. child support and the Bagatz 919/15 ruling, custody, the ketubah, and the get including refusal sanctions. You get a roadmap, a property-balancing worksheet, and a checklist of what the agreement must cover. Use it when you are starting or facing a divorce and need to understand what happens and in what order. Do NOT use it for pension-split math (use israeli-pension-advisor), and always get a family lawyer for the actual filing."
   },
   "tags": {
     "he": [
@@ -24,7 +24,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "category": "legal-tech",
   "supported_agents": [
     "claude-code",
