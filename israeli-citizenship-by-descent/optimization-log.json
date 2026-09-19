@@ -1,6 +1,13 @@
 {
   "cycles": [
     {
+      "version": "2.2.2",
+      "date": "2026-09-20",
+      "lessons": [
+        "Legal-gate hardening applied: a negative eligibility statement needs a named route back (BVA or a lawyer) when the official leaflet omits the rule, because a reader can act on a negative without ever checking it."
+      ]
+    },
+    {
       "version": "2.2.1",
       "date": "2026-09-20",
       "lessons": [

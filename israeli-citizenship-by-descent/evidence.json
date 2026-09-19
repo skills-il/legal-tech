@@ -979,6 +979,22 @@
       "claim": "Treaty of Saint-Germain Art. 70: a person with rights of citizenship (pertinenza, i.e. Heimatrecht) in former Austro-Hungarian territory obtained, to the exclusion of Austrian nationality, the nationality of the state exercising sovereignty there.",
       "source_url": "https://www.dipublico.org/doc/instrumentos/145.html",
       "raw_snippet": "shall obtain ipso facto to the exclusion of Austrian nationality the nationality of the State exercising sovereignty over such territory"
+    },
+    {
+      "claim_id": "bva-merkblatt-omits-austria",
+      "claim": "The BVA's applicant-facing Merkblatt on Art. 116(2) naturalization explains the 11th Ordinance loss but never mentions Austria, the Anschluss or 1938 (zero occurrences of Österreich / Anschluss / 1938 across its 26 pages, verified by full-text search on 2026-09-20), which is why families meet the exclusion late.",
+      "claim_type": "feature",
+      "source_url": "https://www.germany.info/resource/blob/2738136/5767c4d40b3174171893147d94b0e554/paket-a-data.pdf",
+      "fetched_at": "2026-09-20T03:30:00Z",
+      "raw_snippet": "dies traf auf alle deutschen Staatsangehörigen, die als Juden verfolgt wurden zu,",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     }
   ]
 }
