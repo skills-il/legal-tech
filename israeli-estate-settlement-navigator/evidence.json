@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-estate-settlement-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-18T00:00:00Z",
+  "generated_at": "2026-09-20T00:00:00Z",
   "claims": [
     {
       "claim": "The official death certificate (תעודת פטירה) for a death in Israel is issued by the Population and Immigration Authority (רשות האוכלוסין וההגירה).",
@@ -727,6 +727,43 @@
         "references/domain-checklist.md"
       ],
       "fetched_at": "2026-08-18T00:00:00Z"
+    },
+    {
+      "claim": "Regulation 3(b) of the Bituach Leumi (Burial Grant) Regulations, 5736-1976: where the deceased is a person to whom section 266 of the Law does not apply, the burial society may charge a service fee or any other payment. Regulation 3(a) frames its enumerated cases as charges in connection with the burial and the erection of the headstone.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_109.htm",
+      "raw_snippet": "3. (א) על אף האמור בתקנה 2 תהיה חברה רשאית לגבות בקשר לקבורה ולהקמת המצבה אגרת שירותים או תשלום אחר בנוסף לדמי הקבורה לפי תקנות אלה במקרים אלו בלבד: ... (ב) הובא לקבורה מי שסעיף 266 לחוק לא חל לגביו, תהיה החברה רשאית לגבות אגרת שירותים או כל תשלום אחר.",
+      "claim_id": "burial-charge-reg-3b",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The one-year vehicle-licence renewal granted to the relatives of a deceased owner is the only renewal available without the order; after that year the heirs can attend the licensing bureau, once the succession or probate order is in hand, and renew.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%91%D7%A2%D7%9C%D7%95%D7%AA_%D7%9C%D7%A8%D7%9B%D7%91_%D7%A9%D7%9C_%D7%91%D7%9F_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%95%D7%AA%D7%95",
+      "raw_snippet": "משרד הרישוי יאשר הנפקת חידוש רישיון רכב לקרובי הנפטר לשנה אחת בלבד ... לאחר שנה, היורשים יוכלו להגיע למשרד הרישוי",
+      "claim_id": "vehicle-licence-renewal-after-year",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The Registrar for Inheritance Matters issues a digital order sent automatically by email to the applicant or their lawyer. After a request for the action is filed, the Registrar transmits the digital order directly to the banks, insurance companies and relevant government bodies (Land Registry / Tabu, Ministry of Transport, Israel Land Authority, Tax Authority, Corporations Authority and others), which spares the beneficiaries from presenting the order to those bodies. The digital-order service covers orders issued by the Registrar from 1998 onward.",
+      "source_url": "https://www.gov.il/blobFolder/guide/guide_with_will/he/guide_with_will_file.pdf",
+      "raw_snippet": "איך ולמי מועבר צו קיום צוואה? הרשם מנפיק צו דיגיטלי הנשלח אוטומטית לכתובת הדואר האלקטרוני (למייל) של מגיש הבקשה או עורך הדין שמייצג אותו. לאחר הגשת בקשה לפעולה, מועבר הצו הדיגיטלי ישירות ע\"י הרשם גם לבנקים, חברות הביטוח וגופי הממשלה הרלוונטיים, כגון לשכת רישום המקרקעין (ה\"טאבו\"), משרד התחבורה, רשות מנהל מקרקעי ישראל, רשות המיסים, רשות התאגידים ועוד. בכך נחסך לזוכים הצורך בהצגת הצו בעת קבלת שירות מגופים אלה ונמנעת האפשרות לזיוף הצו.",
+      "claim_id": "digital-order-transmission",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "note": "Official Administrator General / Registrar for Inheritance Matters guide (מדריך לזוכיו של מנוח שהותיר צוואה, תשפ\"ד-2023), PDF extracted with pdftotext. Note the trigger: transmission follows a filed request for the action, it is not automatic on grant.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ],
   "skill": "israeli-estate-settlement-navigator"

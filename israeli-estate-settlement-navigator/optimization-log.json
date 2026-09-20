@@ -12,6 +12,19 @@
         "Not addressed this cycle and worth a decision next time: the skill is silent on the deceased's final income-tax year, on deregistering a self-employed deceased at מע\"מ / מס הכנסה / ביטוח לאומי, and on the מנהל עיזבון and האפוטרופוס הכללי routes. None appear in domain-checklist.md even as out-of-scope. Decide explicitly whether they belong here or in a sibling skill, and record the answer.",
         "scripts/generate_timeline.py does not surface the only two hard statutory deadlines the skill knows about (firearm surrender at 30 days, enduring-POA residual authority ending at 90 days). Consider adding them as flagged rows rather than planning offsets."
       ]
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-20",
+      "lessons": [
+        "The burial-charge section presented regulations 3(a) and 4(a) as a closed list of six lawful charges. Regulation 3(b) was missing: where section 266 of the Law does not apply to the deceased (broadly a non-resident), the society may charge a service fee or any other payment at will. The skill's 'outside the list, refuse' instruction was therefore wrong for that family. Both files now branch on whether section 266 applies before checking the list at all.",
+        "Regulation 3(a) is framed as covering charges 'in connection with the burial AND the erection of the headstone'. That is the statutory hook for the separate headstone cost the skill already states elsewhere, and the wording now carries it.",
+        "The vehicle note's 'the licensing authority will not reissue the license at all' read as a permanent brick. The one-year renewal is the only renewal available WITHOUT the order; once the succession or probate order is in hand the heirs can renew at the licensing bureau. Rewritten as a window problem, with the warning intact.",
+        "Fees and the objection procedure remain deliberately unquoted here: they belong to israeli-wills-inheritance, which was updated in the same batch. Do not add fee figures to this skill.",
+        "Open from the prior cycle and still open: the deceased's final tax year and self-employed deregistration, digital assets and online accounts, and primary-source verification of the 'inheritance transfer adds no יד' and mandatory-insurance-void claims in the vehicle note.",
+        "Soft divergence with israeli-wills-inheritance left unresolved this cycle: that skill says the granted order is transmitted digitally to banks and the Land Registry, while this skill still tells the family to 'present the order'. Not a factual contradiction, but the two describe different user actions for the same step.",
+        "Reconciled the order-delivery divergence with israeli-wills-inheritance against the official Administrator General guide (gov.il guide_with_will PDF). Both prior wordings were partly wrong: the wills skill said the granted order is transmitted digitally (true, but it reads as automatic on grant), and this skill said 'present the order' (the pre-digital action). The source is explicit that the trigger is 'לאחר הגשת בקשה לפעולה' -- the Registrar transmits the digital order to banks, insurers, the Tabu, the Ministry of Transport, RMI, the Tax Authority and the Corporations Authority only after a request for the action is filed, and for those bodies presentation is then spared. The asset-transfer section now states the trigger, names the bodies, and still tells the family to keep the digital order and a certified copy for any body outside the transmission. Service covers orders from 1998 onward."
+      ]
     }
   ]
 }
