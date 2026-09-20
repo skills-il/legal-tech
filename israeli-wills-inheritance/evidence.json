@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-wills-inheritance",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-09-20",
   "claims": [
     {
       "id": "witnessed-will-no-lawyer",
@@ -463,6 +463,172 @@
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "רשאי להסתלק מחלקו בעיזבון גם לטובת בני משפחה של מוריש המנויים",
       "confidence": "high"
+    },
+    {
+      "id": "section-14a-representation",
+      "claim": "Children of an heir who predeceased the deceased inherit in that heir's place, and the same applies down the line to the children of any relative who predeceased",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "ילדו של מוריש שמת לפניו והשאיר ילדים, הילדים יורשים במקומו, ועל דרך זו יורשים ילדים של כל אחד מקרובי המוריש שמת לפניו",
+      "confidence": "high"
+    },
+    {
+      "id": "section-14a-carveout-spouse",
+      "claim": "Representation under Section 14(a) does NOT apply where the deceased left a spouse together with parents or grandparents as described in Section 11(a)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "הוראות אלה לא יחולו כאשר המוריש הניח בן זוג וכן הורים או הורי הורים כאמור בסעיף 11(א), או אחד מאלה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-14b-equal-split",
+      "claim": "Children inheriting by representation split equally between them what they take that way",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "ילדים היורשים לפי סעיף קטן (א) חולקים ביניהם בשווה מה שירשו בדרך זו",
+      "confidence": "high"
+    },
+    {
+      "id": "section-14c-unfit-child-line",
+      "claim": "Where an heir found unfit to inherit is the deceased's child or that child's descendant, the unfit heir's children DO inherit in their place unless the court is satisfied the deceased wished otherwise (amended 2024, תשפ״ד-3)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "ילדו או צאצא ילדו של מוריש שנמצא פסול לרשת והשאיר ילדים, הילדים יורשים במקומו; ואולם, בית המשפט רשאי לקבוע שהילדים לא יירשו במקומו של הפסול לרשת, אם שוכנע שהיה זה רצון המוריש שלא יירשו",
+      "confidence": "high"
+    },
+    {
+      "id": "section-14d-unfit-other-relative",
+      "claim": "Where the heir found unfit to inherit is a relative other than the deceased's child or that child's descendant, their children do NOT inherit in their place unless the court is satisfied the deceased wished they should (amended 2024)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "קרוב של מוריש שאינו ילדו או צאצא ילדו שנמצא פסול לרשת והשאיר ילדים, הילדים אינם יורשים במקומו; ואולם, בית המשפט רשאי לקבוע שהילדים יירשו במקומו של הפסול לרשת, אם שוכנע שהיה זה רצון המוריש",
+      "confidence": "high"
+    },
+    {
+      "id": "section-66b-partial-will",
+      "claim": "Where the deceased willed only part of their property, a probate order is given over that part and a succession order over the remainder",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "ציווה המוריש חלק מנכסיו, יינתן על אותו חלק צו קיום, ועל הנותר – צו ירושה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-21b-deposit-prima-facie",
+      "claim": "A will deposited and kept in deposit until the testator's death is prima facie evidence that the person named in it as testator made it and that it was made no later than the day of deposit",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "צוואה שהופקדה ונשמרה בפקדון לפי סעיף זה עד מותו של המצווה תהיה ראיה לכאורה שהאדם הנקוב בה כמצווה עשה את הצוואה ושנעשתה לכל המאוחר ביום ההפקדה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-22f-authority-prima-facie",
+      "claim": "A will made before an authority is prima facie evidence that the person named in it as testator made it and that it was made on the day and at the place stated in it",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "צוואה בפני רשות תהיה ראיה לכאורה שהאדם הנקוב בה כמצווה עשה את הצוואה ושנעשתה ביום ובמקום הנקובים בה כיום העשיה ומקומה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-35-oral-will-carveout",
+      "claim": "Section 35 voids a bequest to whoever wrote, witnessed or took part in making the will, or to that person's spouse, but expressly EXCEPTS an oral will",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "הוראת צוואה, פרט לצוואה בעל־פה, המזכה את מי שערך אותה או היה עד לעשייתה או לקח באופן אחר חלק בעריכתה, והוראת צוואה המזכה בן־זוגו של אחד מאלה – בטלה",
+      "confidence": "high"
+    },
+    {
+      "id": "fee-bereaved-exemption-scope",
+      "claim": "The war/hostile-act/military-service fee exemption in regulation 4(5) attaches to an applicant for a SUCCESSION ORDER or an application connected to one, not to every application at the Registrar",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94_(%D7%90%D7%92%D7%A8%D7%95%D7%AA_%D7%94%D7%A8%D7%A9%D7%9D_%D7%9C%D7%A2%D7%A0%D7%99%D7%A0%D7%99_%D7%99%D7%A8%D7%95%D7%A9%D7%94)",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "מגיש בקשה למתן צו ירושה או בקשר אליו, שהוא בן זוגו, ילדו, אביו, אמו או אחיו של מי שנפטר – (א) עקב פעולות מלחמה אחרי יום ט״ז בכסלו התש״ח (29 בנובמבר 1947) או שהוא נפגע פגיעת איבה",
+      "confidence": "high"
+    },
+    {
+      "id": "digital-order-transmission-on-request",
+      "claim": "The granted digital order is emailed automatically to the applicant or their lawyer, but onward transmission to banks, insurers and government bodies (Tabu, Ministry of Transport, Israel Land Authority, Tax Authority, Corporations Authority) happens only after a בקשה לפעולה is filed, not automatically on grant",
+      "claim_type": "procedure",
+      "source_url": "https://www.gov.il/blobFolder/guide/guide_with_will/he/guide_with_will_file.pdf",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "הרשם מנפיק צו דיגיטלי הנשלח אוטומטית לכתובת הדואר האלקטרוני (למייל) של מגיש הבקשה או עורך הדין שמייצג אותו. לאחר הגשת בקשה לפעולה, מועבר הצו הדיגיטלי ישירות ע\"י הרשם גם לבנקים, חברות הביטוח וגופי הממשלה הרלוונטיים, כגון לשכת רישום המקרקעין (ה\"טאבו\"), משרד התחבורה, רשות מנהל מקרקעי ישראל, רשות המיסים, רשות התאגידים ועוד.",
+      "confidence": "high",
+      "source_note": "מדריך לזוכיו של מנוח שהותיר צוואה, האפוטרופוס הכללי והממונה על ענייני ירושה, תשפ\"ד-2023, section 'איך ולמי מועבר צו קיום צוואה?'. Snippet is word-for-word from the PDF text layer; comma and period positions are normalised because pdftotext misorders them inside RTL runs."
     }
   ]
 }

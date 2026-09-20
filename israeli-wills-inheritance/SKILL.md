@@ -1,11 +1,11 @@
 ---
 name: israeli-wills-inheritance
 description: >-
-  Draft a legally-valid Israeli will and navigate the inheritance process under the
-  Succession Law 1965. Drafts a witnessed will (צוואה בעדים), which Israeli law does
-  not require a lawyer for (one is still recommended): the testator writes the wishes,
-  dates and signs, and two witnesses (who may not be beneficiaries or their spouses)
-  sign. Explains the four will types, depositing the will with the Inheritance
+  Not legal advice. Draft an Israeli will in the form the Succession Law 1965 requires
+  and navigate the inheritance process. Drafts a witnessed will (צוואה בעדים), which
+  Israeli law does not require a lawyer for (one is still recommended): the testator
+  writes the wishes, dates and signs, and two witnesses (who may not be beneficiaries
+  or their spouses) sign. Explains the four will types, depositing the will with the
   Registrar, and obtaining a succession order (צו ירושה, when there is no will) or a
   probate order (צו קיום צוואה, when there is a will). Use when a user asks to "write
   a will", "deposit my will", "get a succession order", "my parent died without a will",
@@ -61,7 +61,7 @@ Israel's Succession Law recognises four will forms. Pick the right one, then dra
 
 **The rules that void a bequest (state them every time):**
 - A witness must be an adult and not legally incompetent (Section 24).
-- A beneficiary, or a beneficiary's spouse, must NOT be a witness. More broadly (Section 35), a bequest in favour of anyone who **wrote the will, witnessed it, or otherwise took part in making it**, or in favour of that person's spouse, is VOID. This matters here: if a beneficiary dictates or prepares the will, the gift to them can be attacked. So have a neutral person handle the wording, and use two neutral adult witnesses who inherit nothing.
+- A beneficiary, or a beneficiary's spouse, must NOT be a witness. More broadly (Section 35), a bequest in favour of anyone who **wrote the will, witnessed it, or otherwise took part in making it**, or in favour of that person's spouse, is VOID. Section 35 opens with an express carve-out for an oral will (פרט לצוואה בעל־פה), so it does not bite on a deathbed will under Section 23. This matters here: if a beneficiary dictates or prepares the will, the gift to them can be attacked. So have a neutral person handle the wording, and use two neutral adult witnesses who inherit nothing.
 
 To draft, collect: the testator's full name + Teudat Zehut, the bequests (who gets what), any guardian wish for minor children, and whether to name an executor (מנהל עיזבון). Then produce the Hebrew will using the structure in `references/will-templates.md`: a clear-mind declaration, a clause revoking earlier wills, numbered bequests, an optional executor clause, date and place, the testator's signature line, and the two-witness confirmation clause (the Section 20 wording) with name/ID/signature lines.
 
@@ -70,11 +70,13 @@ To draft, collect: the testator's full name + Teudat Zehut, the bequests (who ge
 - **You cannot contract about a future inheritance (Section 8).** An agreement about a living person's estate, and a waiver of a future inheritance, are both void. A gift meant to take effect only on death is void unless it is made as a will under this law. Section 27 adds that an undertaking to make, change, or revoke a will has no effect, and a will clause purporting to bar its own revocation is void.
 - **Mutual wills between spouses (צוואה הדדית, Section 8א)** are a separate regime, not just two wills signed together. While both spouses are alive, a spouse who wants to revoke must give the other written notice, and that cancels BOTH wills. After one spouse dies, the survivor can only revoke by disclaiming what they were due under the deceased's mutual will (before distribution) or by returning everything they inherited under it (after distribution). A clause completely barring revocation during both lives is itself void. Recommend a lawyer before drafting one.
 
-Always tell the user: print it, sign by hand in front of both witnesses at the same sitting (everyone signs the same copy, in each other's presence), and keep the original safe. Remind them to update the will after a major life change (marriage, divorce, a new child), because Israeli law does NOT automatically cancel a gift to an ex-spouse on divorce. For anything beyond simple bequests (a business, foreign assets, a trust, minor children needing a guardian, or a likely dispute), recommend a licensed inheritance lawyer.
+Always tell the user, in this order. First: this is an automatic draft, no advocate has reviewed it, and one should before they sign. Beyond simple bequests (a business, foreign assets, a trust, minor children needing a guardian, or a likely dispute) that review is not optional. Only then: print it, sign by hand in front of both witnesses at one sitting (all signing the same copy, in each other's presence), and keep the original safe. Remind them to update the will after a major life change (marriage, divorce, a new child), because Israeli law does NOT automatically cancel a gift to an ex-spouse on divorce.
 
 ### Job 2: Deposit the will with the Inheritance Registrar
 
 Depositing the will with the Inheritance Registrar (הרשם לענייני ירושה) is OPTIONAL, a will is fully valid without it. Deposit safeguards the original from loss or tampering and records that it existed. Walk the user to the gov.il will-deposit service / the Registrar's online portal (inheritance.justice.gov.il). The deposit can be made either by attending a Registrar office in person or remotely online, but only the testator can do it, and only the testator can take the will back. Make clear deposit is not a stamp of validity, the will still has to meet the form requirements above.
+
+**What deposit actually buys, and it is not nothing (Section 21(b)).** A will that was deposited and stayed in deposit until the testator's death is **prima facie evidence** (ראיה לכאורה) that the person named in it as testator made it, and that it was made no later than the day of deposit. That is the real reason to deposit: it takes the two facts most often attacked after a death, "is this his signature" and "when was this written", and puts the burden on whoever wants to dispute them. Say this, rather than presenting deposit as mere safekeeping. Section 22(f) gives the same prima facie effect to a will made before an authority, as to both the maker and the date and place stated in it. Neither provision makes a defective will good, and neither forecloses a challenge, it shifts who has to prove what.
 
 **The deposit fee, and when it is waived.** The fee schedule lists 126 NIS for depositing a will, but item 5א exempts the deposit entirely if the testator has not deposited an earlier will in the five years before. In practice a first deposit, or one made five or more years after the last, is free. Say this rather than quoting the 126 alone, because most users depositing a will are exempt.
 
@@ -87,19 +89,27 @@ This is where users go to the wrong door. The rule is simple:
 | Situation | Order to request | What it does |
 |-----------|------------------|--------------|
 | The deceased left NO will | Succession order (צו ירושה) | Declares the legal heirs (spouse, children, parents, per the Succession Law order) and their shares. |
-| The deceased left a will | Probate / will-execution order (צו קיום צוואה) | Gives the will binding effect and distributes the estate as written in it. |
+| The deceased left a will covering the WHOLE estate | Probate / will-execution order (צו קיום צוואה) | Gives the will binding effect and distributes the estate as written in it. |
+| The deceased willed only PART of the property | BOTH: a probate order on the willed part, a succession order on the remainder (Section 66(b)) | The willed part passes under the will, the rest passes to the legal heirs. |
+
+**The choice is not binary, and this is the case agents get wrong.** A will that disposes of the apartment and says nothing about the bank account, the car, or a later-acquired asset is a partial will, and it is common. Section 66(b) says that where the deceased willed part of their property, a probate order is given over that part and a succession order over the remainder. Do not make the user pick one door: they need both orders, and the family structure has to be set out for the intestate remainder exactly as in a no-will file. Ask explicitly whether the will covers everything before answering, and treat "I am not sure" as the partial case until the will is read.
 
 Both applications go to the **Inheritance Registrar** (הרשם לענייני ירושה), filed online at the Registrar's portal. The Registrar, not a court, issues most orders.
 
 **Three doors, not two.** A file leaves the Registrar for the **Family Court** only on the grounds listed in Section 67א: an objection was filed; the State or one of its institutions is a party; the Attorney General or their representative opens or joins a proceeding; the Public Trustee (האפוטרופוס הכללי) represents someone whose property it manages; or the Registrar decides to transfer it. The AG and Public Trustee grounds are the practical ones, they routinely pull in files with minor or legally incapacitated heirs. Separately, a **religious court** (rabbinical, sharia, druze) may issue a succession order or a probate order under Section 155, but only if every party concerned has consented in writing.
 
-**Fees.** State the rule, not just one number, because the amounts reindex every 1 January by CPI. The base fee for a succession-order or probate-order application is 597 NIS, and filing online costs 85% of the listed fee, which is where the commonly-quoted 507 NIS comes from. A separate publication fee of 66 NIS applies. The full schedule, the other seven fee rows, and the exemptions are in `references/orders-and-process.md`. Bereaved first-degree relatives (spouse, child, parent, sibling) of someone who died in war operations or in a hostile act, or in military service, are exempt from the fee entirely. Once granted, the digital order is transmitted to banks, the Land Registry (Tabu), and other bodies so heirs can act on it.
+**Fees.** State the rule, not just one number, because the amounts reindex every 1 January by CPI. The base fee for a succession-order or probate-order application is 597 NIS, and filing online costs 85% of the listed fee, which is where the commonly-quoted 507 NIS comes from. A separate publication fee of 66 NIS applies. The full schedule, the other seven fee rows, and the exemptions are in `references/orders-and-process.md`. Regulation 4(5) exempts a bereaved first-degree relative (spouse, child, father, mother, sibling) of someone who died in war operations, as a casualty of a hostile act, or in military service, but the exemption attaches to an **applicant for a succession order, or an application connected to one**, not to every application at the Registrar. Do not offer it as a blanket exemption. Once granted, the digital order is emailed automatically to the applicant (or their lawyer). Onward transmission is NOT automatic: the Registrar sends it directly to a bank, insurer or government body (the Land Registry / Tabu, the Ministry of Transport, the Israel Land Authority, the Tax Authority, the Corporations Authority) only after a בקשה לפעולה is filed for that body. Both common expectations are wrong: it does not reach the bank by itself, and the heirs need not hand-carry it.
 
 **The objection window:** the Registrar publishes notice of the application and sets a period for objections which by law cannot be shorter than two weeks; in practice this is 14 days. An objection (התנגדות) can be filed within that period as long as the order has not yet been issued. Tell heirs to expect this waiting period.
 
 **Tax:** there is no estate or inheritance tax in Israel. The estate tax law was repealed for anyone who died after 31 March 1981, and receiving an inheritance is not itself a taxable event. Do not let a user think otherwise. The real tax exposure comes later, on SELLING an inherited asset, where מס שבח (land appreciation tax) or capital gains tax can arise. Route that question to a tax professional rather than answering it here.
 
-**Who inherits when there is NO will (Section 11):** the surviving spouse takes the household chattels including the family car, and of the rest of the estate the spouse takes one-half when the deceased left children (or their descendants) or parents, two-thirds when the deceased left only siblings (or their descendants) or grandparents, and the whole estate if none of those relatives survive. The children share the remaining portion equally (a deceased child's share passes to their own children). If the deceased left no children, that remaining portion goes to the parents and their line, then to grandparents and their line (see `references/orders-and-process.md`). Give the actual fraction, not just "spouse and children".
+**Who inherits when there is NO will (Section 11):** the surviving spouse takes the household chattels including the family car, and of the rest of the estate the spouse takes one-half when the deceased left children (or their descendants) or parents, two-thirds when the deceased left only siblings (or their descendants) or grandparents, and the whole estate if none of those relatives survive. The children share the remaining portion equally. If the deceased left no children, that remaining portion goes to the parents and their line, then to grandparents and their line (see `references/orders-and-process.md`). Give the actual fraction, not just "spouse and children".
+
+**Representation, and the carve-out that reverses it (Section 14).** This is the most-asked intestacy question after the spouse's share, and it has a limb that is routinely stated backwards.
+- **The rule (Section 14(a)).** A child of the deceased who died before them and left children of their own is replaced by those children, who inherit in their place; the same applies down the line to the children of any relative of the deceased who died before them. Under Section 14(b) those children split equally between them whatever they take by representation, so a predeceased child's one-third is divided among that child's own children, not shared out to the surviving siblings.
+- **The carve-out (the closing limb of Section 14(a)).** Representation does NOT operate where the deceased left a surviving spouse together with parents or grandparents as described in Section 11(a). So where a widow or widower survives alongside the deceased's parents or grandparents, the children of a parent or grandparent who predeceased do NOT step up into that share. Never tell a user that a predeceased parent's line always steps up: in the parents' and grandparents' line it depends on whether a spouse survived. The statutory drafting here is terse, so where this configuration actually arises, say that it is the Registrar who applies it on the facts and that it is worth a lawyer.
+- **An heir found unfit to inherit, as amended in 2024 (Section 14(c)-(d)).** Where the unfit heir is the deceased's child or that child's descendant, their children DO inherit in their place, unless the court is satisfied it was the deceased's wish that they should not. Where the unfit heir is any other relative, their children do NOT inherit in their place, unless the court is satisfied it was the deceased's wish that they should. The default flips depending on which line the unfit heir sits in.
 
 Two things that change the spouse's real take, and that agents routinely omit:
 - **The apartment proviso, inside Section 11(a)(2).** In the two-thirds case, if the spouse had been married to the deceased for three years or more and was living with them at that time in an apartment that is wholly or partly part of the estate, the spouse takes the deceased's ENTIRE share in that apartment, plus two-thirds of what remains of the rest. For a childless couple facing the deceased's siblings this decides whether the widow or widower owns the home outright.
@@ -142,10 +152,10 @@ Result: The correct order, where to file it, and what it costs.
 ## Bundled Resources
 
 ### Scripts
-- `scripts/inheritance_helper.py` -- two deterministic checks: which order to request (based on whether a will exists) and whether a proposed witness is a beneficiary. Run: `python3 scripts/inheritance_helper.py order --has-will no`
+- `scripts/inheritance_helper.py` -- two deterministic checks: which order to request (`--has-will yes|no|partial`, where `partial` returns the Section 66(b) both-orders answer) and whether a proposed witness is disqualified under Section 35, taking `--beneficiaries`, optional `--beneficiary-spouses`, and `--witnesses`. The witness check exits non-zero when it finds a disqualified or duplicated witness, so a caller can branch on it. Run: `python3 scripts/inheritance_helper.py order --has-will no`
 
 ### References
-- `references/will-templates.md` -- ready-to-fill Hebrew templates for the witnessed will and the handwritten will, plus the witness attestation clause. Consult when drafting.
+- `references/will-templates.md`: ready-to-fill Hebrew templates for the witnessed will and the handwritten will, plus the witness attestation clause. Consult when drafting.
 - `references/orders-and-process.md` -- the succession-order vs probate-order decision, the Registrar application steps, fees, and the legal-heir order. Consult when handling a death.
 - `references/domain-checklist.md` -- coverage contract for this skill (used by maintenance).
 
@@ -162,28 +172,30 @@ These help confirm current procedure and terminology; the will drafting itself i
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Kol-Zchut: witnessed will | https://www.kolzchut.org.il/he/צוואה_בעדים | No-lawyer requirement, signing procedure, witness disqualification |
-| Kol-Zchut: will types | https://www.kolzchut.org.il/he/צוואה | The four valid will forms |
-| Kol-Zchut: will deposit | https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים | Deposit is optional, how it works |
-| Kol-Zchut: succession order | https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה | The no-will order, online application, fees |
-| Kol-Zchut: probate order | https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_קיום_צוואה | The with-will order |
-| Kol-Zchut: objection to an order | https://www.kolzchut.org.il/he/התנגדות_למתן_צו_ירושה | The 14-day objection window |
-| Succession Law 1965 (full text) | https://he.wikisource.org/wiki/חוק_הירושה | Sections 6, 8, 8א, 11, 19, 20, 22, 23, 24, 25, 26, 27, 35, 39, 55, 56, 67, 67א, 147, 155 |
-| Registrar fee regulations (full schedule) | https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29 | Every fee row, the 85% online rule, the 1 January indexation, the exemptions |
-| Estate Tax Law (repealed) | https://he.wikisource.org/wiki/חוק_מס_עזבון | Confirms the repeal for deaths after 31 March 1981 |
-| Inheritance Registrar portal | https://inheritance.justice.gov.il/ | Where the orders are filed online |
+| Kol-Zchut: witnessed will | https://www.kolzchut.org.il/he/צוואה_בעדים | No-lawyer rule, signing, witness disqualification |
+| Kol-Zchut: will types | https://www.kolzchut.org.il/he/צוואה | The four will forms |
+| Kol-Zchut: will deposit | https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים | Optional; how it works |
+| Kol-Zchut: succession order | https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה | No-will order, online filing, fees |
+| Kol-Zchut: probate order | https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_קיום_צוואה | With-will order |
+| Kol-Zchut: objection to an order | https://www.kolzchut.org.il/he/התנגדות_למתן_צו_ירושה | 14-day objection window |
+| Succession Law 1965 (full text) | https://he.wikisource.org/wiki/חוק_הירושה | Sections 6, 8, 8א, 11, 14, 19, 20, 21, 22, 23, 24, 25, 26, 27, 35, 39, 55, 56, 66, 67, 67א, 147, 155 |
+| Registrar fee regulations (full schedule) | https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29 | Fee rows, 85% online rule, 1 January indexation, exemptions |
+| Estate Tax Law (repealed) | https://he.wikisource.org/wiki/חוק_מס_עזבון | Repeal, deaths after 31 March 1981 |
+| Inheritance Registrar portal | https://inheritance.justice.gov.il/ | Online filing of orders |
 
 ## Gotchas
 
 - **The witnessed will has FOUR elements, not three (Section 20).** Agents routinely write "testator declares and signs, witnesses sign" and drop the fourth: the witnesses must CONFIRM IN WRITING ON THE WILL, by their signature, that the testator declared and signed. Without that confirmation clause the will is defective. Always include the Section 20 witness-confirmation wording.
-- **A beneficiary, their spouse, OR anyone who helped prepare the will must not benefit if they were involved in making it (Section 35).** The witness rule is the common case, but Section 35 is broader: a gift to whoever wrote, witnessed, or took part in making the will (or their spouse) is void. Since an AI is helping draft, make sure a beneficiary is not the one preparing it, and use two neutral witnesses.
+- **A beneficiary, their spouse, OR anyone who helped prepare the will must not benefit if they were involved in making it (Section 35).** The witness rule is the common case, but Section 35 is broader: a gift to whoever wrote, witnessed, or took part in making the will (or their spouse) is void, except in an oral will, which Section 35 expressly carves out. Since an AI is helping draft, make sure a beneficiary is not the one preparing it, and use two neutral witnesses.
 - **The testator must be 18+ and of sound mind (Section 26).** A will by a minor, a legally incompetent person, or someone who did not understand what they were signing is void. Do not draft for a minor.
 - **A witnessed will is not legally required to go through a lawyer or notary, but recommend one anyway.** The Succession Law allows a witnessed will with just the testator and two qualified witnesses, so agents should not claim notarization is mandatory. Still advise the user that an inheritance lawyer's review reduces the risk of a later challenge.
+- **There are three order cases, not two (Section 66(b)).** Succession order (צו ירושה) for NO will; probate order (צו קיום צוואה) when a will covers the estate; and BOTH orders when the will covers only part of the property, a probate order on the willed part and a succession order on the remainder. Agents default to a binary answer and send partial-will families away with half an estate unresolved.
+- **Representation stops where a spouse meets the parents' line (Section 14(a)).** Children step into a predeceased heir's place, but not where the deceased left a spouse together with parents or grandparents under Section 11(a). Do not state representation as an unqualified rule.
 - **Do not confuse the two orders.** Succession order (צו ירושה) is for NO will; probate order (צו קיום צוואה) is for WHEN there IS a will. The Inheritance Registrar issues both online; the Family Court enters only on a Section 67א ground (objection filed, the State is a party, the Attorney General initiates or joins, the Public Trustee represents a party, or the Registrar transfers it), not as the default.
 - **A will does nothing until the probate order issues (Section 39).** No right can be claimed under a will, and the will cannot be relied on as a will, unless a probate order has been granted. Heirs holding the paper cannot make a bank move on it.
 - **Never tell a user a flawed will is void.** Section 25 lets the Registrar or the court admit a will despite a missing date, a missing signature, or a witness-competence problem, so long as the מרכיב היסוד survives and the decision-maker has no doubt about the testator's true intent. Draft properly, but describe defects as curable.
 - **The will does not reach the pension or the life policy (Section 147).** Those pass by the מוטבים designation held at the fund or insurer, outside the estate.
-- **Deposit is not validity.** Depositing the will with the Registrar protects the paper, it does not make an otherwise-defective will valid, and skipping deposit does not make a valid will invalid.
+- **Deposit is not validity, but it is evidence (Section 21(b)).** Depositing the will protects the paper and does not make a defective will good. It does make the will prima facie evidence that the named testator made it and that it was made no later than the day of deposit, which is the reason to bother. Skipping deposit does not make a valid will invalid.
 
 ## Troubleshooting
 
@@ -195,6 +207,10 @@ Solution: that bequest to them can be voided. Re-sign the will with two neutral 
 Cause: succession order (צו ירושה) is for estates with NO will.
 Solution: when a will exists, apply for a probate order (צו קיום צוואה) instead, at the Inheritance Registrar.
 
+### Error: "There is a will but it only mentions the apartment"
+Cause: treating a partial will as though the choice of order were binary.
+Solution: this is Section 66(b). Apply for a probate order over the willed part AND a succession order over everything the will does not cover. Set out the legal heirs for the remainder as in a no-will file.
+
 ### Error: "Is my typed will valid without a lawyer?"
 Cause: assuming a lawyer or notary is required.
-Solution: a typed witnessed will is legally valid if the testator dates and signs it and declares before two qualified witnesses who also confirm it in writing. The law does not require a lawyer for a simple estate, but having an inheritance lawyer review the will is recommended to reduce the chance it is challenged.
+Solution: the Succession Law accepts a typed witnessed will where the testator dates and signs it and declares before two qualified witnesses who confirm it in writing. The law does not require a lawyer for a simple estate, but having an inheritance lawyer review the will is recommended to reduce the chance it is challenged.

@@ -2,7 +2,7 @@
 
 Generated: 2026-06-18. Revised: 2026-08-01 (v2) via research on: kolzchut.org.il (צוואה בעדים, צוואה, הפקדת צוואה, צו ירושה, צו קיום צוואה), gov.il / inheritance.justice.gov.il (the Inheritance Registrar). Statute: Succession Law 1965 (חוק הירושה תשכ"ה-1965); תקנות הירושה (אגרות הרשם לעניני ירושה), התשנ"ח-1998; חוק מס עזבון (ביטול), התשמ"א-1981.
 
-Scope: help an Israeli (1) draft a legally-valid will (focus on the witnessed will), (2) deposit it with the Inheritance Registrar, and (3) obtain a succession order or a probate order. Drafting binding enduring power of attorney, guardianship, and contested-estate litigation are out of scope.
+Scope: help an Israeli (1) draft a will in the statutory form (focus on the witnessed will), (2) deposit it with the Inheritance Registrar, and (3) obtain a succession order or a probate order. Drafting binding enduring power of attorney, guardianship, and contested-estate litigation are out of scope.
 
 ## Must cover (core)
 - [ ] The four will types under the Succession Law: בכתב יד (handwritten), בעדים (witnesses), בפני רשות (before an authority), בעל פה (oral / שכיב מרע). source: kolzchut צוואה. why core: the user must know which form fits.

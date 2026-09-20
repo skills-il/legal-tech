@@ -7,11 +7,16 @@ After a death, the estate is released only once the right order is issued by the
 | Did the deceased leave a will? | Order | Hebrew | What it does |
 |---|---|---|---|
 | No will | Succession order | צו ירושה | Declares the legal heirs and their shares by law. |
-| Yes, there is a will | Probate / will-execution order | צו קיום צוואה | Gives the will binding legal effect and distributes per its provisions. |
+| Yes, and it covers the whole estate | Probate / will-execution order | צו קיום צוואה | Gives the will binding legal effect and distributes per its provisions. |
+| Yes, but it covers only PART of the property | BOTH orders (Section 66(b)) | צו קיום צוואה + צו ירושה | A probate order over the willed part, a succession order over the remainder. |
+
+**Partial wills (Section 66(b)).** ציווה המוריש חלק מנכסיו, יינתן על אותו חלק צו קיום, ועל הנותר צו ירושה. A will that disposes of the apartment and is silent on the bank account, the car, or a later-acquired asset is a partial will, and it is common. The family must apply for both orders, and the legal heirs have to be set out for the intestate remainder exactly as in a no-will file. Confirm what the will actually covers before choosing; treat an unread or uncertain will as the partial case.
 
 Both are filed with the **Inheritance Registrar**, online at the Registrar portal (inheritance.justice.gov.il). The Registrar issues most orders.
 
 A will is inert until its order issues: under Section 39 no right can be claimed under a will, and it cannot be relied on as a will, unless a probate order has been granted.
+
+**Deposit and evidence (Sections 21(b) and 22(f)).** A will deposited with the Registrar and kept in deposit until the testator's death is prima facie evidence (ראיה לכאורה) that the person named in it as testator made it, and that it was made no later than the day of deposit. A will made before an authority carries the same prima facie effect as to its maker and as to the day and place stated in it. Neither cures a formal defect nor forecloses a challenge; both shift the burden onto whoever disputes authorship or date.
 
 ## Which forum: Registrar, Family Court, or religious court
 
@@ -33,7 +38,7 @@ If a fee was already paid to the Registrar and the matter then moves to court un
 2. Identify the deceased and (for a succession order) the legal heirs, or (for a probate order) submit the ORIGINAL will.
 3. Pay the fees (see the schedule below).
 4. The Registrar publishes a notice and sets a period for objections, which by law cannot be shorter than two weeks and in practice is 14 days. An objection (התנגדות) can be filed within that period as long as the order has not yet been issued.
-5. After the objection window the order is issued. Orders are now issued digitally only; the Registrar does not print orders or hand out copies at its offices. The digital order is transmitted to banks, the Land Registry (Tabu), insurers, and other bodies, so heirs can act on it.
+5. After the objection window the order is issued. Orders are now issued digitally only; the Registrar does not print orders or hand out copies at its offices. The digital order is emailed automatically to the applicant or their lawyer. Onward transmission is per-body and is NOT automatic on grant: under the Registrar's guide (מדריך לזוכיו של מנוח שהותיר צוואה, תשפ"ד-2023), the order is sent directly by the Registrar to banks, insurers and the relevant government bodies (the Land Registry / Tabu, the Ministry of Transport, the Israel Land Authority, the Tax Authority, the Corporations Authority and others) only once a בקשה לפעולה has been filed. The point of the mechanism is that the heirs then do not have to present the order to get service from those bodies, and the order cannot be forged, but it is triggered by the family, not by the grant.
 
 ## The full fee schedule
 
@@ -64,7 +69,13 @@ The surviving spouse takes the household chattels including the family car. Of t
 - with children (or their descendants) OR with the deceased's parents: the spouse takes **one-half**;
 - with the deceased's siblings (or their descendants) or grandparents: the spouse takes **two-thirds**;
 - if none of those relatives survive: the spouse takes the **whole** estate.
-The remaining share goes to the first surviving class: children split it equally (a deceased child's share passes to that child's own children); if there are no descendants, the parents and their line; then grandparents and their line.
+The remaining share goes to the first surviving class: children split it equally; if there are no descendants, the parents and their line; then grandparents and their line.
+
+### Representation: who steps into a predeceased heir's place (Section 14)
+- **Section 14(a), the rule.** A child of the deceased who died before them leaving children is replaced by those children, and the same applies to the children of any relative of the deceased who died before them.
+- **Section 14(a), the closing limb.** These provisions do NOT apply where the deceased left a spouse together with parents or grandparents as described in Section 11(a). So where a surviving spouse stands alongside the deceased's parents or grandparents, the children of a predeceased parent or grandparent do not step up into that share. State representation as an unqualified rule and you get this configuration backwards.
+- **Section 14(b).** Children inheriting by representation split equally between them what they take that way. A predeceased child's share goes to that child's own children, not to the surviving siblings.
+- **Section 14(c)-(d), as amended in 2024 (תשפ״ד-3).** Where an heir found unfit to inherit (פסול לרשת) is the deceased's child or that child's descendant, the unfit heir's children DO inherit in their place, unless the court is satisfied the deceased wished otherwise. Where the unfit heir is any other relative, their children do NOT inherit in their place, unless the court is satisfied the deceased wished they should. The default flips with the line.
 
 This is the core of Section 11. For the exact split in a specific family, the succession-order application asks for the family structure and the Registrar applies the law.
 
