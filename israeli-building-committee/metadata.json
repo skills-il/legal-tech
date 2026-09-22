@@ -1,14 +1,14 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "legal-tech",
   "display_name": {
     "he": "ועד בית בבית משותף",
     "en": "Israeli Building Committee (Vaad Bayit)"
   },
   "display_description": {
-    "he": "אינו ייעוץ משפטי. עוזר לדיירים בבית משותף לנהל את ועד הבית או להתנהל מולו. מחשב כמה כל דירה משלמת לפי שטח הדירה, כמו שקובע חוק המקרקעין, ומנסח הודעות לוואטסאפ, הזמנה לאסיפה, פרוטוקול, השוואת הצעות מחיר וסיכום תקציב. מתאים כששואלים אם חלוקה שווה חוקית, אם קומת הקרקע משלמת על המעלית, איך גובים חוב דמי ועד, מי מתקן נזילה מהשכן או מה עושים כששכן השתלט על הגג. חשוב כי טעות בחלוקה או בדרך הפעולה מובילה לריבים ולתביעות שנכשלות. לא מתאים לסכסוך עם משכיר, לתמ\"א 38 ופינוי בינוי, לליקויי בנייה בדירה חדשה או לתביעה קטנה, ולא מנסח כתב תביעה.",
-    "en": "Not legal advice. Helps residents of an Israeli shared building run or deal with the vaad bayit. Splits costs by floor area as the Land Law requires, and drafts WhatsApp notices, meeting invitations, minutes, repair quote comparisons and budget summaries. Use when someone asks whether an equal split is lawful, whether the ground floor pays for the elevator, how to collect unpaid fees, who fixes a leak from the neighbour, or what to do when a neighbour takes over the roof. It matters because a wrong split or wrong route leads to feuds and failed claims. Not for landlord disputes, TAMA 38 or pinui binui, new-apartment defects or small claims, and it does not draft a statement of claim."
+    "he": "אינו ייעוץ משפטי. עוזר לדיירים בבית משותף לנהל את ועד הבית או להתנהל מולו. מחשב כמה כל דירה משלמת לפי שטח הדירה, ברירת המחדל שבחוק המקרקעין, או לפי התקנון הרשום כשהוא קובע שיעור אחר, ומנסח הודעות לוואטסאפ, הזמנה לאסיפה, פרוטוקול, השוואת הצעות מחיר וסיכום תקציב. מתאים כששואלים אם חלוקה שווה חוקית, אם קומת הקרקע משלמת על המעלית, איך גובים חוב דמי ועד, מי מתקן נזילה מהשכן או מה עושים כששכן השתלט על הגג. חשוב כי טעות בחלוקה או בדרך הפעולה מובילה לריבים ולתביעות שנכשלות. לא מתאים לסכסוך עם משכיר, לתמ\"א 38 ופינוי בינוי, לליקויי בנייה בדירה חדשה או לתביעה קטנה, ולא מנסח כתב תביעה.",
+    "en": "Not legal advice. Helps residents of an Israeli shared building run or deal with the vaad bayit. Splits costs by floor area, the Land Law default, or by the registered takanon where it sets another rate, and drafts WhatsApp notices, meeting invitations, minutes, repair quote comparisons and budget summaries. Use when someone asks whether an equal split is lawful, whether the ground floor pays for the elevator, how to collect unpaid fees, who fixes a leak from the neighbour, or what to do when a neighbour takes over the roof. It matters because a wrong split or wrong route leads to feuds and failed claims. Not for landlord disputes, TAMA 38 or pinui binui, new-apartment defects or small claims, and it does not draft a statement of claim."
   },
   "tags": {
     "he": [

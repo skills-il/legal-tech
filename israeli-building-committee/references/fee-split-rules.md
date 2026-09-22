@@ -8,9 +8,25 @@ Statute: Land Law 1969 (חוק המקרקעין, התשכ"ט-1969), Chapter 6. A
 2. Where none is registered or it is silent: the **standard takanon** (s.64).
 3. The statute's default: **floor area ratio** (s.58(a)).
 
+A takanon can be registered by a single owner before any apartment is sold, which is the ordinary case for a new building, and once registered it binds everyone who buys later (s.63, s.62(c)). So a building may lawfully split equally even though no current owner ever agreed to it. Establish whether a takanon is registered before applying any default.
+
 Two limits apply at every level:
 - A payment of a kind or rate not set in the law binds an owner only with his consent (s.62(a); standard takanon s.12(b)).
 - Attaching part of the common property to one apartment needs all owners (s.62(a)), and is never allowed for stairwells, the elevator or shelters (s.55(c)).
+
+### The contested case: amending a registered takanon to an equal split
+
+s.62(a) lets owners holding two thirds of the common property amend a takanon, but bars imposing
+payments "מסוג או בשיעור שלא פורשו בחוק זה" without the consent of the owners they fall on. Whether
+a move from floor area to an equal split crosses that line is unsettled: s.58(a) itself contemplates
+"שיעור השתתפות אחר" set in the takanon, which supports the reading that the two thirds power alone
+suffices. Do not state either reading as settled. Get the affected owners' consent, or put it to the
+Mafkach under s.72(a).
+
+Three situations, which lead to different answers:
+1. A registered takanon sets the equal split: it binds, including a developer-registered one (s.62(c), s.63). Route is amendment or a challenge before the Mafkach.
+2. No registered takanon, or it is silent: s.64 applies the standard takanon and the s.58(a) floor-area default governs. An equal split is practice with no legal basis.
+3. An assembly resolution imposed the equal split: standard takanon s.12(b) means it has no effect against an owner who did not consent to it.
 
 ## 2. What the fees cover
 

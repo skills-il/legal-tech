@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-building-committee",
-  "generated_at": "2026-09-16T09:00:00Z",
+  "generated_at": "2026-09-22T14:09:05.252768+00:00",
   "claims": [
     {
       "claim_id": "s52-bayit-meshutaf",
@@ -791,18 +791,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/fee-split-rules.md"
-      ]
-    },
-    {
-      "claim_id": "kz-fees-equal-split",
-      "claim": "Kol Zchut: a decision that all apartments pay a fixed equal amount, not by floor area, is lawful only if all owners agreed.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%95%D7%A2%D7%93_%D7%91%D7%99%D7%AA",
-      "raw_snippet": "היא חוקית רק בתנאי שכל בעלי הדירות הסכימו לכך",
-      "fetched_at": "2026-09-16T09:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-fees-empty",
@@ -813,7 +804,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-fees-tenant",
@@ -824,7 +817,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-online-system",
@@ -835,7 +830,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-mafkach-fee",
@@ -846,7 +843,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-mafkach-fee-update",
@@ -857,7 +856,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-mafkach-office",
@@ -868,7 +869,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-mafkach-protocol",
@@ -879,7 +882,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-mafkach-lawyer",
@@ -890,7 +895,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-repair-roof",
@@ -923,7 +930,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-roof-common",
@@ -956,7 +965,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-vaad-mgmt-co",
@@ -967,7 +978,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-tenant-vote",
@@ -978,7 +991,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-elevator-66-known-bad",
@@ -989,7 +1004,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "kz-noise-police",
@@ -1011,7 +1028,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
     },
     {
       "claim_id": "s59f-optout",
@@ -1220,6 +1239,18 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s63-single-owner",
+      "claim": "A takanon may be registered even while the whole bayit meshutaf, all its apartments, is owned by one person (Land Law s.63, סעיף 63). Combined with s.62(c) this binds everyone who buys later.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תקנון ניתן לרישום אף בשעה שהבית המשותף על כל דירותיו הוא בבעלותו של אדם אחד",
+      "fetched_at": "2026-09-22T14:06:12.650548+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md"
       ]
     }
   ]

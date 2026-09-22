@@ -1,6 +1,6 @@
 ---
 name: israeli-building-committee
-description: "Not legal advice. Helps residents of an Israeli bayit meshutaf run or deal with the vaad bayit (ועד בית): splits building costs by floor area under the Land Law, drafts WhatsApp notices, meeting invitations, minutes, repair quote tables and budget summaries, writes escalating reminders for unpaid דמי ועד, and builds fact sheets for neighbour disputes like נזילה מהשכן or a roof takeover. Use when a resident asks how much each apartment pays, whether the ground floor pays for the elevator, how to collect unpaid fees, who fixes a leak, or what to do with no committee. Prevents the usual wrong answers (equal split, invented exemptions) that start fights and sink claims. Do NOT use for lease disputes with a landlord (israeli-rental-agreements), TAMA 38 or pinui binui (israeli-urban-renewal-owner-guide), new-apartment contractor defects (israeli-home-defect-report), or filing a small claim (israeli-small-claims-court)."
+description: "Not legal advice. Helps residents of an Israeli bayit meshutaf run or deal with the vaad bayit (ועד בית): splits building costs by floor area, or by the registered takanon, drafts WhatsApp notices, meeting invitations, minutes, repair quote tables and budget summaries, writes escalating reminders for unpaid דמי ועד, and builds fact sheets for neighbour disputes like נזילה מהשכן or a roof takeover. Use when a resident asks how much each apartment pays, whether the ground floor pays for the elevator, how to collect unpaid fees, who fixes a leak, or what to do with no committee. Prevents the usual wrong answers (equal split, invented exemptions) that start fights and sink claims. Do NOT use for lease disputes with a landlord (israeli-rental-agreements), TAMA 38 or pinui binui (israeli-urban-renewal-owner-guide), new-apartment contractor defects (israeli-home-defect-report), or filing a small claim (israeli-small-claims-court)."
 license: MIT
 compatibility: "No network and no script execution required. The fee split is done inline; scripts/fee_split.py is an optional helper for hosts that can run Python."
 ---
@@ -24,11 +24,13 @@ Most Israeli apartment buildings are run by volunteer neighbours who have never 
 Ask the user, in plain words:
 
 1. Is the building registered as a bayit meshutaf (two or more apartments registered in the condominium register, Land Law s.52)? If not sure, say so and continue: an unregistered building with at least two apartments is still covered by Chapter 6A (ss.77A-77C), which applies the cost-sharing and dispute rules and runs it by the standard bylaws.
-2. Is there a registered takanon (bylaws)? A registered takanon binds later owners too (s.62(c)). Where none was registered, or it is silent on a point, the **standard takanon (takanon mutzai)** in the Law's schedule applies (s.64).
+2. Is there a registered takanon (bylaws)? A registered takanon binds later owners too (s.62(c)), including one a single owner registered before any apartment was sold, which is the ordinary case in a new building (s.63). So the building may lawfully split costs on a basis no current owner ever agreed to. Where none was registered, or it is silent on a point, the **standard takanon (takanon mutzai)** in the Law's schedule applies (s.64).
 3. Is there an active vaad (representation)? Every bayit meshutaf must have one (s.65).
 4. Is the user an owner or a tenant? This changes who pays what and who votes (Step 7).
 
 If a registered takanon exists, its text wins on cost split and procedure, subject to s.62(a). Ask the user to paste the relevant clause rather than guessing.
+
+If the user does not know whether one is registered, do not guess and do not fall through to the default. Tell them how to find out: order a nesach rishum of the bayit meshutaf and ask to inspect the building file (עיון בתיק הבית המשותף) at the Land Registry office (לשכת רישום המקרקעין) for the area, through gov.il land-registry services. That file holds the registered takanon, the registration order, each apartment's floor area and the attachments, which is everything Step 2 needs.
 
 ### Step 2: Split costs (the core calculation)
 
@@ -38,7 +40,7 @@ If a registered takanon exists, its text wins on cost split and procedure, subje
 |---|---|---|
 | What counts in the floor area? | The apartment's floor area. Balconies and external walls are NOT counted unless the takanon says otherwise | s.57(b) |
 | Attached roof, yard or storage? | Counted at the rate set in the takanon; if none, at a rate the Mafkach sets | s.57(c) |
-| Equal amount per apartment? | Lawful only if all owners agreed | Kol Zchut, s.62(a) |
+| Equal amount per apartment? | Lawful where a registered takanon sets that rate (s.58(a)), including one the developer registered before any sale, which binds later buyers (s.63, s.62(c)). Without such a takanon an assembly resolution does not bind an owner who did not consent, and a two thirds majority alone is not enough. See references/fee-split-rules.md for the contested amendment case | s.58(a), s.62(a), standard takanon s.12(b) |
 | Owner who "does not use" a service? | s.58(a) has no non-use exemption. Only a registered takanon or that owner's own agreement changes the share | s.58(a) |
 | Nobody lives in the apartment? | Still pays | Kol Zchut |
 | Wing with a separate entrance? | If the takanon separates that wing's maintenance, only its owners pay for it | s.59 |
@@ -154,7 +156,7 @@ Write notices in the neighbourly register Israelis use in building groups. Never
 
 ### Example 1: "How much should each apartment pay for the roof?"
 User: "We're a 6-apartment building, the roof waterproofing quote came in. Everyone says split it equally. Is that right?"
-Actions: Ask whether a registered takanon sets a different rate. If not, apply s.58(a): ask for each apartment's floor area (without balconies, s.57(b)) and any attached roof or yard, compute each share inline, show the table, and note that an equal split requires every owner's agreement.
+Actions: Ask whether a registered takanon sets a different rate. If not, apply s.58(a): ask for each apartment's floor area (without balconies, s.57(b)) and any attached roof or yard, compute each share inline, show the table, and note that an equal split holds only where a registered takanon sets that rate; without one it does not bind an owner who did not consent.
 Result: A per-apartment table plus a WhatsApp message explaining the split and the source.
 
 ### Example 2: "Ground floor refuses to pay for the elevator"
@@ -181,7 +183,7 @@ Result: A factual letter plus an evidence log template.
 
 ## Gotchas
 
-- **Equal split by default.** Agents divide costs equally per apartment. The statute splits by floor area (s.58(a)); equal splits need every owner's agreement.
+- **Equal split by default.** Agents divide costs equally per apartment. The statute splits by floor area (s.58(a)) unless a registered takanon sets another rate; absent one, an equal split does not bind an owner who did not consent (standard takanon s.12(b)).
 - **Inventing a non-use exemption.** Agents say the ground floor does not pay for the elevator. The ground floor is exempt only from **installing** a new elevator under s.59F(b)(2); everyone pays maintenance and operation (s.59F(b)(3)), and s.58(a) contains no non-use exemption.
 - **Tenants pay improvements.** Agents put all vaad payments on the tenant. The lease law puts current maintenance on the tenant and excludes buying or upgrading fixed systems (s.25I(b)(1)).
 - **Inventing Mafkach fees and deadlines.** The fee tracks the magistrate court fee and changes; the appeal period is set in regulations. Route to the source instead of quoting a number.
