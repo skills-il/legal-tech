@@ -5,7 +5,7 @@ Built from an aggregator sweep of the Kol-Zchut bereavement hub
 rights guide ("זכותון ליורשים ולקרובי אדם שנפטר לתקופה הסמוכה למוות"), then
 verified against gov.il, btl.gov.il, kolzchut.org.il, and justice.gov.il.
 
-`domain_checklist_version: 2` (re-litigated 2026-08-18)
+`domain_checklist_version: 3` (re-litigated 2026-09-25)
 
 ## Must cover (core)
 
@@ -42,6 +42,13 @@ verified against gov.il, btl.gov.il, kolzchut.org.il, and justice.gov.il.
 | הסמכות השיורית של 90 יום בייפוי כוח מתמשך | The 90-day residual authority of an enduring power of attorney after death (ס' 32כד(ב) לחוק הכשרות המשפטית והאפוטרופסות) | Covered (added v1.2.0). Previously stated as a flat lapse |
 | משטר האחריות לפי אופן החלוקה (ס' 126 / 127 / 128) | Heir liability turns on HOW the estate was divided; s.128(a) exposes each heir to the value of the whole estate where creditors were not invited, s.128(b) puts the burden of proving value on the heir | Covered (added v1.2.0). The prior text cited ss.100-106, which govern the estate administrator, not heir liability |
 | מקבלי פיצויי הפיטורים במות עובד | Severance on death is paid to the statutory שאירים (ס' 5 לחוק פיצויי פיטורים), not to the יורשים, and not out of the estate | Covered (added v1.2.0) |
+| הוראת השעה בסעיף 5(ב1) לחוק פיצויי פיטורים | For a death from 7.10.2023 until one year after the home-front special-situation declaration of that date ended, only spouse and dependent child are שאירים, and heirs step in where there are none | Covered (added v1.3.0). The flat s.5 statement was wrong for every death in the period; exact end date and the effect of the 28.2.2026 declaration flagged as unverified |
+| הנפטר כמעסיק (מטפל סיעודי / עוזרת בית) | Death = dismissal of a caregiver or housekeeper the deceased employed; wages, notice, recuperation, vacation, severance are estate debts | Covered (added v1.3.0), payroll routed to `foreign-caregiver-payroll` |
+| כספים שמשתחררים בלי צו (מוטבים, סכומים נמוכים) | Named beneficiaries in gemel / life insurance, and small balances released under circulars 2014-2-3 and 2017-9-8 | Covered (added v1.3.0); thresholds deliberately not quoted |
+| תיקי הוצאה לפועל נגד הנפטר | Execution files against a deceased debtor: registration-only measures until an order, two-year closure notice (תקנה 10א לתקנות ההוצאה לפועל) | Covered (added v1.3.0, body + reference) |
+| מס שבח במכירת דירה שהתקבלה בירושה וחלוקת עיזבון | Heir steps into the deceased's purchase date and value; s.49ב(5) exemption; first division among heirs not a sale (s.5(ג)(4)) unless outside consideration | Covered (added v1.3.0) |
+| פטירה בחו"ל | Burial abroad grant (s.267), registry update before the order for an Israeli ID holder | Covered (added v1.3.0); repatriation logistics not covered |
+| היקף סעיף 266 לחוק הביטוח הלאומי | s.266 covers anyone who died in Israel and a resident who died abroad; reg 3(b) free charging applies only outside it | Covered (fixed v1.3.0). v1.2.1 wrongly glossed a non-resident as outside s.266 |
 | שירות "ליווי לאחר פטירה" ב-gov.il | The government one-stop post-death service for a first-degree relative | Covered (added v1.2.0) |
 
 ## Should cover (advanced / adjacent)
@@ -59,7 +66,7 @@ verified against gov.il, btl.gov.il, kolzchut.org.il, and justice.gov.il.
 
 ## Out of scope (explicit)
 
-Every row below was re-litigated on 2026-08-18 against two questions: would an ordinary
+Every row below was re-litigated on 2026-08-18, and again on 2026-09-25, against two questions: would an ordinary
 bereaved family plausibly ASK for it, and has it become capturable since the row was written.
 A row that stays out of scope still gets a real answer in the form of a route, never silence.
 
@@ -73,10 +80,12 @@ A row that stays out of scope still gets a real answer in the form of a route, n
 | תביעות ביטוח חיים | Life-insurance claims | Skill `israeli-survivor-benefits-navigator` |
 | עיזבון במחלוקת / נכסים בחו"ל | Contested estates, foreign or complex assets | A licensed lawyer (state the facts, still recommend counsel) |
 | החלטות רפואיות בסוף החיים | End-of-life medical decisions, hospice, organ donation | Medical / other guides, out of scope here |
-| מיסוי הנפטר והעיזבון | The deceased's final-year income-tax return, tax on estate income after death, and closing a self-employed deceased's file at מס הכנסה / מע"מ / ביטוח לאומי. KNOWN GAP identified 2026-08-18: this is a real obligation set with its own deadlines, and it was previously absent from this checklist entirely, not even as an out-of-scope row. v1.2.0 adds a signpost in the body naming it and routing onward. The procedures themselves were deliberately NOT written, because this cycle did not verify them at a primary source and an unverified tax procedure is worse than an honest gap. Decide next cycle whether to verify and cover here, or to create a sibling skill | Tax Authority; a רואה חשבון or יועץ מס |
+| מיסוי הנפטר והעיזבון | The deceased's final-year return, tax on estate income, and closing a self-employed deceased's VAT and NI files. Re-litigated 2026-09-25: users DO ask, so the capturable part is now stated (Income Tax Ordinance s.120: the legal personal representative is liable; Form 2805 heirs' declaration to close the file; VAT Form 18 is the only official VAT closure page and names no death route). Still out of scope: filing deadlines, computations, who signs at VAT, because no official source states them | Tax Authority assessing office; a רואה חשבון or יועץ מס |
 | מינוי מנהל עיזבון | Appointing an estate administrator. Signposted in the body from v1.2.0; the application procedure is not covered | A licensed lawyer |
-| יורשים קטינים / נעדרים / בחו"ל, והאפוטרופוס הכללי | Minor, absent, or overseas heirs, and the Administrator General's role. Signposted in the body from v1.2.0 | A licensed lawyer |
-| נכסים דיגיטליים וחשבונות מקוונים | Digital assets and online accounts. Deferred 2026-08-18 over the discretionary edit cap; carried in optimization-log.json | Not yet routed |
+| יורשים קטינים / נעדרים / בחו"ל, והאפוטרופוס הכללי | Minor, absent, or overseas heirs, and the Administrator General's role. Re-litigated 2026-09-25: still out of scope because the Administrator General's supervision procedure was not verified at a primary source this cycle; the body now adds the verified fact that with no heir the State inherits (Succession Law s.17) | A licensed lawyer |
+| נכסים דיגיטליים וחשבונות מקוונים | Digital assets and online accounts. Resolved 2026-09-25 (CARRY-STALE after two deferrals): no Israeli statute located; provider routes (Google deceased-user request, Apple Legacy Contact) and the keep-the-phone-line-for-2FA rule are now in the money-and-tax reference, with credit cards in the cascade | Covered in `references/money-tax-and-employment-after-death.md` |
+| דייר ממשיך בדיור ציבורי | A relative who lived with a public-housing tenant may, under conditions, be a continuing tenant (no threshold stated here: unsourced). Logged 2026-09-25, NOT covered: the primary source (Public Housing Law / company procedure) was not verified this cycle | Next cycle; meanwhile the lease step should not be read as applying to public housing |
+| הסכם בין יורשים / הסתלקות | Heirs' agreement and renunciation (Succession Law s.6: only before division, in favour of the deceased's spouse, child, or sibling; s.6A widens the beneficiaries for heirs of a person who died in the Swords of Iron war period, e.g. hostile-action victims and fallen soldiers). Belongs to the order process | Skill `israeli-wills-inheritance` |
 
 ## Authoritative sources
 
@@ -98,6 +107,9 @@ A row that stays out of scope still gets a real answer in the form of a route, n
 - Legal Capacity and Guardianship Law, 5722-1962 (full text, fetchable): https://www.nevo.co.il/law_html/law00/70325.htm
 - Bituach Leumi (Burial Grant) Regulations, 5736-1976 (full text, fetchable): https://www.nevo.co.il/law_html/law01/039_109.htm
 - Firearms Law, 5709-1949 (full text, fetchable): https://www.nevo.co.il/law_html/law00/72225.htm
+- Note 2026-09-25: nevo.co.il IP-blocked this machine mid-cycle. Hebrew Wikisource carries the
+  consolidated texts (Succession Law, Severance Pay Law, National Insurance Law, Land Taxation
+  Law, Income Tax Ordinance, Execution Regulations) and is fetchable by curl.
 - gov.il post-death accompaniment (one-stop): https://www.gov.il/he/service/post-death-accompaniment
 
 ## Source reachability (recorded 2026-08-18)
@@ -107,8 +119,9 @@ This matters for the evidence gate, not for users. Three access classes were mea
 - Fetchable by plain `curl`: btl.gov.il burial page, all four nevo statute pages above, the
   Mizrahi-Tefahot deceased-account page.
 - HTTP 403 to `curl` and to WebFetch, readable in a real browser: the three gov.il service pages.
-- Behind a Cloudflare/CloudFront challenge and readable by NO automated path: every
-  `kolzchut.org.il` URL, `itur.mof.gov.il`, `harb.cma.gov.il`. These are alive for humans but
+- Behind a Cloudflare/CloudFront challenge: every `kolzchut.org.il` URL (but the Wayback
+  Machine raw endpoint `web.archive.org/web/<timestamp>id_/<url>` returns the full page, found
+  2026-09-25, and is used for new evidence entries), `itur.mof.gov.il`, `harb.cma.gov.il`. These are alive for humans but
   cannot be verified by the gate, so statutory claims were re-anchored to the nevo primaries
   above and Kol-Zchut is retained only as a human-facing reading link.
 

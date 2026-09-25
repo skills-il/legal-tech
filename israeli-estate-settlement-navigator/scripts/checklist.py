@@ -56,6 +56,20 @@ BY_ASSET = {
         ("Outstanding invoices, debts, and standing orders",
          "חשבוניות פתוחות, חובות והוראות קבע"),
     ],
+    "caregiver": [
+        ("Caregiver's employment contract, payslips, and pension-fund severance deposits",
+         "חוזה ההעסקה של המטפל, תלושי שכר והפקדות הפיצויים לקרן הפנסיה"),
+        ("Foreign-worker permit details (if a foreign caregiver)",
+         "פרטי היתר העסקת עובד זר (אם מדובר במטפל זר)"),
+    ],
+    "credit_card": [
+        ("Each card issuer and the recurring charges on each card",
+         "כל חברת אשראי והחיובים החוזרים בכל כרטיס"),
+    ],
+    "digital": [
+        ("Phone, email, and cloud accounts; keep the phone line until two-factor codes are moved",
+         "טלפון, דואר אלקטרוני וחשבונות ענן; להשאיר את הקו עד שקודי האימות הדו-שלבי הועברו"),
+    ],
     "employer": [
         ("Employer payroll / HR contact",
          "פרטי שכר / משאבי אנוש אצל המעסיק"),

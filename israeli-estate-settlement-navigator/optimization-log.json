@@ -25,6 +25,26 @@
         "Soft divergence with israeli-wills-inheritance left unresolved this cycle: that skill says the granted order is transmitted digitally to banks and the Land Registry, while this skill still tells the family to 'present the order'. Not a factual contradiction, but the two describe different user actions for the same step.",
         "Reconciled the order-delivery divergence with israeli-wills-inheritance against the official Administrator General guide (gov.il guide_with_will PDF). Both prior wordings were partly wrong: the wills skill said the granted order is transmitted digitally (true, but it reads as automatic on grant), and this skill said 'present the order' (the pre-digital action). The source is explicit that the trigger is 'לאחר הגשת בקשה לפעולה' -- the Registrar transmits the digital order to banks, insurers, the Tabu, the Ministry of Transport, RMI, the Tax Authority and the Corporations Authority only after a request for the action is filed, and for those bodies presentation is then spared. The asset-transfer section now states the trigger, names the bodies, and still tells the family to keep the digital order and a certified copy for any body outside the transmission. Service covers orders from 1998 onward."
       ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-09-25",
+      "lessons": [
+        "Severance Pay Law s.5(b1) (Amendment 34, Swords of Iron temporary provision) was missing: for a death from 7.10.2023 until one year after the end of the home-front special-situation declaration of that date, only spouse and dependent child are sheirim and heirs step in otherwise. Declaration lifted end of October 2025 (IDI), so the period plausibly ends about end of October 2026. OPEN: exact end date not checked in Reshumot, effect of the new 28.2.2026 declaration unknown, and whether the Labour Minister extended it. Re-check next cycle; once the period has clearly ended, reword as historical for deaths inside it.",
+        "s.266 gloss corrected: s.266 covers anyone who died in Israel (resident or not) and a resident who died abroad. The v1.2.1 example 'such as a non-resident' was wrong.",
+        "s.133 limb restored ('or another special reason'). Limb-dropping on statutory paraphrase recurred; re-read every paraphrased section against wikisource each cycle.",
+        "nevo.co.il IP-blocked this machine mid-cycle. Hebrew Wikisource (action=raw for reading, /wiki/ URL for evidence) and the Wayback id_ endpoint for kolzchut both pass --check-sources. 8 zchuton claims were re-anchored to the Wayback snapshot. 29 remain unreachable (kolzchut subpages, mizrahi-tefahot WAF, gov.il PDF).",
+        "CARRY resolved: deceased's tax file (s.120 ITO + Form 2805 stated; deadlines still deliberately unstated), digital assets (CARRY-STALE, now covered in the money reference), credit cards, s.5(c)(4) first-division trap, generate_timeline hard deadlines (already present at HEAD).",
+        "Deferred (MAJOR, unverified at primary source): public-housing continuing tenant (dayar mamshich); the lease-termination step should not be read as applying to Amidar/Amigur. Needs the Public Housing Law / company procedure.",
+        "Deferred (discretionary, over the batch cap of 3): HMO row should say cancel supplementary insurance (shaban) rather than 'deregister'; vehicle spouse route without an order (death certificate + affidavit per Kol-Zchut) instead of 'may have a simplified route'; letter templates for credit-card closure, caregiver termination, VAT/NI closure; mourning-leave note; headstone state-funded categories list; death-at-home / burial licence / autopsy-waiver 72h logistics; repatriation logistics.",
+        "Mortgage payment deferral after a borrower's death: still unverified (bank-specific); not written.",
+        "Coverage audit flagged heirs' agreement and renunciation (Succession Law s.6) as a hand-off gap: routed to israeli-wills-inheritance in the checklist; verify that skill carries it.",
+        "SKILL.md body is at ~4,970 of 5,000 words. The next addition must move another section (e.g. the firearm or safe-deposit notes) to references/ first.",
+        "Panel fix round 1 (2026-09-25): s.5(b1) end date stated as 28.10.2026 per Hebrew Wikipedia citing Y.P. 13830 p.9858 (secondary; the Reshumot item itself was not opened). RE-CHECK right after 28.10.2026 and look for a Labour Minister extension order under s.5(b1)(4); once the period has closed, reword as a rule for deaths inside the period.",
+        "Deferred minors from the Expert: employer-side housekeeping when the deceased employed a caregiver (close the household-employer file at Bituach Leumi, notify the Population Authority for a foreign caregiver); scripts polish (Hebrew [!] footer, 'day'/'days', timeline rows for Form 2805 and execution-office warnings); s.120(c) 40% on-account payment where heirs are unknown.",
+        "Deferred from Legal: the frontmatter description does not open with the legal clause (the site description does); changing it triggers Phase 5.7, so do it in a cycle that runs the holdout.",
+        "s.6 renunciation paraphrase in domain-checklist now carries the s.6A war-period widening; any future renunciation text must cite both."
+      ]
     }
   ]
 }

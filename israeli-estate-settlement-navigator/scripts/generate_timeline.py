@@ -48,11 +48,17 @@ MILESTONES = [
         "יידוע קופות גמל, פנסיה וחברות ביטוח", "30d", False),
     (14, "Notify the employer; claim final salary, vacation redemption, and severance. Severance "
          "on death goes to the statutory sheirim under Severance Pay Law 5723-1963 s.5, who are "
-         "not necessarily the heirs",
+         "not necessarily the heirs (for a death in the s.5(b1) determining period, heirs step in "
+         "where there is no spouse or dependent child)",
         "יידוע המעסיק; דרישת שכר אחרון, פדיון חופשה ופיצויים. הפיצויים משולמים לשאירים לפי סעיף 5 "
-        "לחוק פיצויי פיטורים, שאינם בהכרח היורשים", "30d", False),
-    (21, "Cancel standing orders; notify utilities, HMO, municipality, subscriptions",
-        "ביטול הוראות קבע; יידוע תשתיות, קופת חולים, עירייה, מנויים", "30d", False),
+        "לחוק פיצויי פיטורים, שאינם בהכרח היורשים (במות עובד בתקופה הקובעת של סעיף 5(ב1), "
+        "היורשים באים במקום באין בן זוג או ילד תלוי)", "30d", False),
+    (14, "If the deceased employed a caregiver or housekeeper: the death ends the employment; "
+         "settle last salary, notice, recuperation, vacation, and severance as estate debts",
+        "אם הנפטר העסיק מטפל או עוזרת בית: הפטירה מסיימת את ההעסקה; יש לסלק שכר אחרון, "
+        "הודעה מוקדמת, הבראה, חופשה ופיצויים כחובות העיזבון", "30d", False),
+    (21, "Cancel standing orders; notify utilities, HMO, municipality, subscriptions, card issuers",
+        "ביטול הוראות קבע; יידוע תשתיות, קופת חולים, עירייה, מנויים, חברות אשראי", "30d", False),
     (30, "Confirm with Bituach Leumi and actively claim survivor benefits (separate skill)",
         "אימות מול ביטוח לאומי ותביעת קצבת שאירים באופן פעיל (סקיל נפרד)", "30d", False),
     (30, "DEADLINE: surrender the deceased's firearm to the police, or have it deactivated "
