@@ -8,7 +8,7 @@ For every finding record six things:
 
 1. Room or location, specific enough to find again ("kitchen, under the sink", not "kitchen")
 2. What is wrong, described factually, no diagnosis of cause
-3. Whether it is visible today (this selects the notice rule later, so never leave it blank)
+3. Whether a reasonable inspection today would find it (this selects the notice rule later, so never leave it blank; the statutory test is whether it COULD have been discovered at handover, not whether anyone noticed it)
 4. A photograph, with something in frame for scale, and a second wider shot for context
 5. The date
 6. The schedule row it plausibly falls in, marked as provisional
@@ -59,11 +59,11 @@ Adapt this, do not recite it. Skip what does not apply.
 
 One table, one row per defect, kept as a file the buyer can attach and resend.
 
-| # | Date | Room / location | What is wrong (factual) | Visible at handover | Photo ref | Provisional schedule row | Notified on | Contractor response | Repair attempts |
+| # | Date | Room / location | What is wrong (factual) | Discoverable at handover | Photo ref | Provisional schedule row | Notified on | Contractor response | Repair attempts |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | 2026-08-10 | Kitchen, under sink | Damp patch on cupboard base, approx 15 cm, wood swollen | No | IMG_0412, IMG_0413 | Pipes | | | |
 
-The last three columns are what make the log worth keeping after the handover. Repair attempts matter because self-repair at the contractor's expense depends on counting repairs that failed within two years of the notice, and nobody reconstructs that later from memory.
+The last three columns are what make the log worth keeping after the handover. Repair attempts matter because self-repair at the contractor's expense depends on counting repairs that failed within two years of the notice (current law; for a pre-2011 apartment the record still matters as evidence), and nobody reconstructs that later from memory.
 
 ## Handover protocol, what to sign
 
@@ -74,7 +74,7 @@ Do not advise refusing to sign. Advise controlling what is signed.
 - Photograph every page of the signed protocol, including the attached list, before handing it back.
 - Record the water and electricity meter readings on the protocol.
 - If the contractor refuses to attach the list or record reservations, handwrite on the protocol, above the signature, that the signature confirms receipt of possession only and does not constitute acceptance of the apartment's condition or a waiver of any claim. Photograph it, then send the list separately the same day by a traceable method.
-- A waiver demanded as the price of handing over the keys is void by statute, so the buyer is not choosing between the keys and their rights. Say this, because the pressure in the room is designed to make them believe otherwise.
+- For an apartment under the current law (contract from 06.04.2011), a waiver demanded as the price of handing over the keys is void by statute (s.7A(b)), so the buyer is not choosing between the keys and their rights. Say this, because the pressure in the room is designed to make them believe otherwise.
 
 ## Demand letter template
 
@@ -113,12 +113,24 @@ Fill every bracket. Send by a method that proves delivery and keep the proof. Ad
 העתק נשלח בדואר רשום / בדואר אלקטרוני ביום [תאריך].
 ```
 
+Sub-buyer (קונה משנה) of an apartment under the current law: replace clauses 1 and 2 with:
+
+```
+1. אני הח"מ, [שם מלא], ת"ז [מספר], רכשתי את הדירה ברחוב [כתובת] מ[שם
+   הקונה הראשון], שרכש אותה מכם לפי הסכם מכר מיום [תאריך ההסכם המקורי].
+2. הדירה הועמדה לרשות הקונה הראשון ביום [תאריך המסירה המקורי].
+```
+
+For a pre-2011 apartment the old text did not name the sub-buyer; route a sub-buyer's letter to an advocate.
+
 Notes on drafting:
+
+- The letter is the buyer's own and is signed by the buyer in their own name. Never add a representative or "on behalf of" line, and never add legal argument or citations beyond ss.4a and 4b.
 
 - Clause 5 is the operative one and must not be dropped. The law requires giving the contractor a proper opportunity to repair, and a letter that skips it, or that announces the buyer will repair and bill, weakens the position.
 - Clause 4 is the buyer's own assertion, and it must stay that way. Do not rewrite it as a finding by this skill that a defect sits in a particular statutory period. The buyer states the dates and asserts the contractor is liable; the characterisation is theirs to make and a lawyer's to settle.
-- Clause 7 makes the letter serve double duty as the statutory notice of non-conformity, which is what protects the one-year deadline for anything visible at handover.
-- Never tell the user their deadline is safe, or that it is missed and the matter is over. Report the position and its limits, including the third clock (limitation) and the separate s.4a(b) rule for a hidden load-bearing defect, and route the conclusion to an advocate.
+- Clause 7 makes the letter serve double duty as the statutory notice of non-conformity, which is what protects the one-year deadline for anything discoverable at handover.
+- Never tell the user their deadline is safe, or that it is missed and the matter is over. Report the position and its limits, including the third clock (limitation) and the separate s.4a(b) rule for a hidden load-bearing defect (current law), and route the conclusion to an advocate.
 - Do not put a shekel figure in the letter. Quantifying damage is a licensed valuer's or engineer's work and an invented number will be used against the buyer.
 - Do not assert that a defect is structural or fundamental. Describe what is visible and let the engineer classify.
 - Keep the deadline realistic. Fourteen days for a written response is normal and reasonable, and an unreasonably short deadline invites the argument that no proper opportunity was given.

@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-home-defect-report",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-26T19:12:18Z",
+  "generated_at": "2026-10-12T16:20:00Z",
   "claims": [
     {
       "claim": "Schedule item 1 to the Sale (Apartments) Law 1973: defects in metalwork and carpentry products, including aluminium and plastic, carry a bedek period of 2 years",
@@ -184,7 +184,7 @@
       "fetched_at": "2026-08-10T00:00:00Z"
     },
     {
-      "claim": "Section 4b(b): the buyer may repair at the seller's expense only where the defect recurred after the seller repaired it once or more within two years of the buyer's notice, OR the repair is urgent and the seller did not repair within a reasonable time",
+      "claim": "Section 4b(b): the buyer may repair at the seller's expense only where the defect recurred after the seller repaired it once or more within two years of the buyer's notice, OR the repair is urgent and the seller did not repair within a reasonable time (current law only: s.4b(b) was added by Amendment 5, 2011)",
       "claim_type": "law",
       "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
       "raw_snippet": "חזרה והתגלתה אי-ההתאמה או אי-ההתאמה היסודית לאחר שהמוכר תיקן אותה פעם אחת או יותר במשך שנתיים שתחילתן במועד הודעת הקונה או קונה המשנה בדבר אי-ההתאמה או אי-ההתאמה היסודית, או שתיקונה של אי-ההתאמה או אי-ההתאמה היסודית דחוף והמוכר לא תיקן אותה בתוך זמן סביר ממועד הודעת הקונה או קונה המשנה כאמור, רשאי הקונה או קונה המשנה לתקנה והמוכר יישא בהוצאות התיקון.",
@@ -243,7 +243,7 @@
       "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
       "confidence": "high",
       "fetched_at": "2026-08-10T00:00:00Z",
-      "claim": "Section 7A(b): a waiver, INCLUDING A WRITTEN ONE, of the buyer's rights regarding late delivery or a non-conformity or a fundamental non-conformity, where that waiver is made a CONDITION of transferring rights, of carrying out repairs in the apartment, or of placing the apartment at the buyer's disposal, is VOID",
+      "claim": "Section 7A(b): a waiver, INCLUDING A WRITTEN ONE, of the buyer's rights regarding late delivery or a non-conformity or a fundamental non-conformity, where that waiver is made a CONDITION of transferring rights, of carrying out repairs in the apartment, or of placing the apartment at the buyer's disposal, is VOID (the defect limb was added by Amendment 5, so it applies only to apartments under the current law)",
       "raw_snippet": "ויתור, לרבות בכתב, על זכויות מצד הקונה או קונה המשנה בקשר לאיחור במסירה לפי סעיף 5א או לאי-התאמה או אי-התאמה יסודית, המהווה תנאי להעברת זכויות מקונה לקונה משנה, לביצוע תיקונים בדירה או להעמדת הדירה לרשות הקונה – בטל."
     },
     {
@@ -261,8 +261,11 @@
       "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
       "confidence": "high",
       "fetched_at": "2026-08-10T00:00:00Z",
-      "claim": "A buyer may file a complaint about construction defects against a registered contractor with the Registrar of Contractors at the Ministry of Construction and Housing, but only after having approached the contractor in writing demanding repair and the contractor not having handled it to the buyer's satisfaction",
-      "raw_snippet": "לפני הגשת התלונה יש לפנות בכתב אל הקבלן, ורק אם הקבלן לא טיפל בפנייה לשביעות רצון הקונה, ניתן לפנות בתלונה לרשם הקבלנים."
+      "claim": "Kol Zchut states, as practice guidance, that a buyer may file a complaint about construction defects against a registered contractor with the Registrar of Contractors at the Ministry of Construction and Housing, but only after having approached the contractor in writing demanding repair and the contractor not having handled it to the buyer's satisfaction (the Ministry itself imposes no prior-demand condition, see registrar-who-may-file-govil)",
+      "raw_snippet": "לפני הגשת התלונה יש לפנות בכתב אל הקבלן, ורק אם הקבלן לא טיפל בפנייה לשביעות רצון הקונה, ניתן לפנות בתלונה לרשם הקבלנים.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim_id": "registrar-form-url",
@@ -271,7 +274,10 @@
       "confidence": "medium",
       "fetched_at": "2026-08-10T00:00:00Z",
       "claim": "The Registrar of Contractors complaint is filed via the online government form at govforms.gov.il",
-      "raw_snippet": "טופס תלונה מקוון נגד קבלן"
+      "raw_snippet": "טופס תלונה מקוון נגד קבלן",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim_id": "registrar-scope-limit",
@@ -280,7 +286,10 @@
       "confidence": "high",
       "fetched_at": "2026-08-10T00:00:00Z",
       "claim": "The Registrar of Contractors role is disciplinary and not arbitration: it does not resolve financial disputes between the parties and does not handle matters already before a court",
-      "raw_snippet": "רשם הקבלנים לא מטפל במחלוקות כספיות בין הצדדים או בתלונות שנידונות בבית המשפט"
+      "raw_snippet": "רשם הקבלנים לא מטפל במחלוקות כספיות בין הצדדים או בתלונות שנידונות בבית המשפט",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim_id": "schedule-applies-post-2011",
@@ -289,7 +298,10 @@
       "confidence": "high",
       "fetched_at": "2026-08-10T00:00:00Z",
       "claim": "The current Schedule defect periods apply to apartments purchased after 6 April 2011; earlier purchases are governed by the previous version of the Schedule",
-      "raw_snippet": "תקופות הבדק על דירה שחוזה המכר לגביה נכרת מיום 06.04.2011 ואילך, ובתנאי שבניית הדירה לא הסתיימה לפני מועד זה, הן:"
+      "raw_snippet": "תקופות הבדק על דירה שחוזה המכר לגביה נכרת מיום 06.04.2011 ואילך, ובתנאי שבניית הדירה לא הסתיימה לפני מועד זה, הן:",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "The current Schedule periods apply to an apartment whose sale contract was concluded on or after 06.04.2011, provided construction did not finish before that date",
@@ -298,7 +310,10 @@
       "raw_snippet": "תקופות הבדק על דירה שחוזה המכר לגביה נכרת מיום 06.04.2011 ואילך, ובתנאי שבניית הדירה לא הסתיימה לפני מועד זה, הן:",
       "confidence": "high",
       "claim_id": "split-date-2011",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "Apartments purchased before 06.04.2011, or whose construction finished before that date, are governed by the older Schedule even if they were sold on afterwards",
@@ -307,7 +322,10 @@
       "raw_snippet": "תקופות הבדק לדירות שנרכשו לפני יום 06.04.2011 או שבנייתן הסתיימה לפני יום זה, אף אם נמכרו לאחר מכן, הן:",
       "confidence": "high",
       "claim_id": "pre2011-applies",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "Under the pre-2011 Schedule, piping including heating and gutters carries a bedek period of only 2 years, compared with 4 years under the current Schedule",
@@ -316,7 +334,10 @@
       "raw_snippet": "צנרת כולל מערכת הסקה ומרזבים – שנתיים.",
       "confidence": "high",
       "claim_id": "pre2011-pipes",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "Under the pre-2011 Schedule, damp penetration in the roof, walls and shelter carries a bedek period of 3 years",
@@ -325,7 +346,10 @@
       "raw_snippet": "חדירת רטיבות בגג, בקירות ובמקלט – 3 שנים.",
       "confidence": "high",
       "claim_id": "pre2011-damp",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "Under the pre-2011 Schedule, through-cracks in walls and ceilings carry a bedek period of 5 years",
@@ -334,7 +358,10 @@
       "raw_snippet": "סדקים עוברים בקירות ובתקרות – 5 שנים.",
       "confidence": "high",
       "claim_id": "pre2011-cracks",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "Under the pre-2011 Schedule, significant peeling of exterior cladding carries a bedek period of 7 years",
@@ -343,7 +370,10 @@
       "raw_snippet": "קילופים ניכרים בחיפויים חיצוניים – 7 שנים.",
       "confidence": "high",
       "claim_id": "pre2011-cladding",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "A waiver of the contractor's defect liability is ineffective even where the buyer agreed to it of their own free will, and the scope of liability may be varied only in the buyer's favour",
@@ -352,7 +382,10 @@
       "raw_snippet": "לא ניתן לוותר לבטל או להקטין את אחריות הקבלן, אפילו אם הקונה הסכים לכך. מותר לשנות את היקף האחריות של הקבלן רק אם השינוי הוא לטובת הקונה.",
       "confidence": "high",
       "claim_id": "waiver-invalid-even-if-agreed",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "For defects in the parts that bear the building's load and affect its stability and safety, the bedek period is 20 years",
@@ -361,7 +394,10 @@
       "raw_snippet": "לליקויים בחלקים שנושאים בעומס הבניין ומשפיעים על יציבותו ובטיחותו, תקופת הבדק היא 20 שנה.",
       "confidence": "high",
       "claim_id": "yesodit-20y-kz",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "For a hidden defect that could not be discovered at handover, such as internal piping, notice must be given close to the time of discovery, even if more than a year has passed",
@@ -370,7 +406,10 @@
       "raw_snippet": "אם מדובר בליקוי נסתר שאי אפשר היה לגלות במועד מסירת הדירה (למשל צנרת פנימית), צריך להודיע עליו לקבלן בסמוך למועד הגילוי (גם אם עברה יותר משנה).",
       "confidence": "high",
       "claim_id": "hidden-defect-late-notice",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim": "Kol Zchut guidance (NOT a legal requirement) treats approaching the contractor in writing as the expected step before filing with the Registrar of Contractors. The Ministry's own service page imposes no such precondition.",
@@ -379,7 +418,10 @@
       "raw_snippet": "לפני הגשת התלונה יש לפנות בכתב אל הקבלן, ורק אם הקבלן לא טיפל בפנייה לשביעות רצון הקונה, ניתן לפנות בתלונה לרשם הקבלנים.",
       "confidence": "high",
       "claim_id": "registrar-prerequisite",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim": "The Registrar of Contractors complaint is handled on the disciplinary level and is not intended to resolve the dispute between the contractor and the residents or the buyer",
@@ -388,7 +430,10 @@
       "raw_snippet": "התלונה מטופלת במישור המשמעתי ולא נועדה לפתור את הסכסוך בין הקבלן לדיירים או לרוכש הדירה",
       "confidence": "high",
       "claim_id": "registrar-disciplinary",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim": "The Registrar of Contractors does not handle monetary disputes between the parties or complaints that are being litigated in court",
@@ -397,7 +442,10 @@
       "raw_snippet": "רשם הקבלנים לא מטפל במחלוקות כספיות בין הצדדים או בתלונות שנידונות בבית המשפט",
       "confidence": "high",
       "claim_id": "registrar-not-money",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim": "A complaint about the apartment itself is filed by the apartment owner. The contractor must be listed in the contractors register. Kol Zchut describes the house-committee route for common property; the Ministry states it as a recommendation, not a bar.",
@@ -406,7 +454,10 @@
       "raw_snippet": "תלונה לגבי הדירה תוגש על ידי בעל הדירה בלבד.",
       "confidence": "high",
       "claim_id": "registrar-who",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). This Kol Zchut page was last edited 3 Mar 2025."
     },
     {
       "claim": "A civil lawsuit may also be filed against the contractor in court, in addition to the Registrar complaint route",
@@ -415,7 +466,10 @@
       "raw_snippet": "כמו כן ניתן להגיש נגד הקבלן תביעה משפטית.",
       "confidence": "high",
       "claim_id": "civil-suit-available",
-      "fetched_at": "2026-08-10T00:00:00Z"
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403). Page last edited 4 Aug 2026; yesodit-20y-kz and hidden-defect-late-notice sit inside collapsed FAQ answers, matched against document textContent."
     },
     {
       "claim_id": "section-4-he",
@@ -523,6 +577,331 @@
       "raw_snippet": "היתה אי־ההתאמה נובעת מעובדות שהמוכר ידע או היה עליו לדעת עליהן בעת גמירת החוזה ולא גילה אותן לקונה, זכאי הקונה להסתמך עליה על אף האמור בסעיפים 14 ו־15 או בכל הסכם, ובלבד שנתן למוכר הודעה עליה מיד לאחר שגילה אותה.",
       "confidence": "high",
       "fetched_at": "2026-08-26T19:12:18Z"
+    },
+    {
+      "claim_id": "pre2011-schedule-primary",
+      "claim_type": "threshold",
+      "claim": "Primary text of the pre-2011 Schedule as enacted by Amendment 3 (1990): nine rows, piping 2 years, damp 3, machines 3, stairwell cladding 3, ground-floor paving subsidence 3, parking/pavement/path paving subsidence 3, through-cracks 5, exterior cladding 7, any other non-fundamental non-conformity 1",
+      "source_url": "https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf",
+      "raw_snippet": "(1) צנרת כולל מערכת הסקה ומרזבים - שנתיים; (2) חדירת רטיבות בגג, בקירות ובמקלט - שלוש שנים; (3) מכונות, מנועים ודוודים - שלוש שנים; (4) קילוף חיפויים בחדרי מדרגות - שלוש שנים; (5) שקיעת מרצפות בקומת קרקע - שלוש שנים; (6) שקיעת מרצפות בחניות, במדרכות, בשבילים בשטח הבנין - שלוש שנים; (7) סדקים עוברים בקירות ובתקרות - חמש שנים; (8) קילופים ניכרים בחיפויים חיצוניים - שבע שנים; (9) כל אי-התאמה אחרת, שאינה אי-התאמה יסודית - שנה אחת.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "pre2011-old-4a4",
+      "claim_type": "law",
+      "claim": "Pre-2011 text, old s.4(a)(4): a fundamental non-conformity discovered even after the warranty period is a breach where it makes the apartment unfit for its purpose. There is no 20-year period in the pre-2011 text.",
+      "source_url": "https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf",
+      "raw_snippet": "(4) התגלתה, אף לאחר תקופת האחריות, אי-התאמה יסודית שבגללה אין הדירה מתאימה ליעודה;",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "pre2011-old-4a5",
+      "claim_type": "law",
+      "claim": "Pre-2011 text, old s.4(a)(5): failure to give the buyer warnings about special features of the property or maintenance and use instructions, where the circumstances required them, is a breach",
+      "source_url": "https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf",
+      "raw_snippet": "(5) בנסיבות הענין היה על המוכר לתת לקונה אזהרות בדבר תכונות מיוחדות של הנכס או הוראות תחזוקה ושימוש, והן לא ניתנו או שאין הן מתאימות.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "pre2011-old-4b",
+      "claim_type": "law",
+      "claim": "Pre-2011 text of s.4b (סעיף 4ב): only the duty to give the seller a proper opportunity to repair; no self-repair gateways",
+      "source_url": "https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf",
+      "raw_snippet": "4ב. התגלתה אי-התאמה או אי התאמה יסודית הניתנות לתיקון, על הקונה לתת למוכר הזדמנות נאותה לתקנה, ועל המוכר לתקנה תוך זמן סביר.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "pre2011-old-7a",
+      "claim_type": "law",
+      "claim": "Pre-2011 text of s.7A (סעיף 7א): only a bar on contracting out except in the buyer's favour; no s.7A(b)",
+      "source_url": "https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf",
+      "raw_snippet": "7א. אין להתנות על הוראות חוק זה, אלא לטובת הקונה.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment3-publication",
+      "claim_type": "date",
+      "claim": "Amendment 3 was published in ספר החוקים 1327 on 2.8.1990",
+      "source_url": "https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf",
+      "raw_snippet": "ספר החוקים 1327, י\"א באב התש\"ן, 2.8.1990",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-20y",
+      "claim_type": "law",
+      "claim": "Amendment 5 (2011) replaced s.4(a)(4)-(5) with the 20-year fundamental-defect regime and added s.4(a)(6) on maintenance instructions",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "(2) במקום פסקאות (4) ו־(5) יבוא: \"(4) בתוך תקופה של 20 שנים שתחילתה בעת העמדת הדירה לרשות הקונה בידי המוכר (להלן – תקופת הבדק לאי־התאמה יסודית), התגלתה אי־התאמה יסודית",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-4a-b",
+      "claim_type": "law",
+      "claim": "Amendment 5 added s.4a(b), the notice limb for a hidden fundamental non-conformity",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "(4) אחרי סעיף קטן (א) יבוא: \"(ב) הקונה או קונה המשנה יהיה זכאי להסתמך על אי־התאמה יסודית שלא היה ניתן לגלותה בבדיקה סבירה בעת העמדת הדירה לרשותו",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-4b-b",
+      "claim_type": "law",
+      "claim": "Amendment 5 added s.4b(b), the two self-repair gateways",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "(2) אחרי סעיף קטן (א) יבוא: \"(ב) חזרה והתגלתה אי־ההתאמה או אי־ההתאמה היסודית לאחר שהמוכר תיקן אותה פעם אחת או יותר במשך שנתיים",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-7a-b",
+      "claim_type": "law",
+      "claim": "Amendment 5 added s.7A(b) voiding a waiver made a condition of transfer, repairs or handover, and wrote the sub-buyer into s.7A",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "12. בסעיף 7א לחוק העיקרי – (1) בכל מקום, אחרי \"הקונה\" יבוא \"או קונה המשנה\"; (2) האמור בו יסומן \"(א)\" ואחריו יבוא: \"(ב) בלי לגרוע מהוראות סעיף קטן (א), ויתור, לרבות בכתב",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-sub-buyer",
+      "claim_type": "law",
+      "claim": "Amendment 5 defined the sub-buyer (קונה משנה) and wrote it into s.4",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "\"קונה משנה\" – מי שרוכש דירה מקונה וכן חליפיו וחליפי הקונה;",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-commencement",
+      "claim_type": "date",
+      "claim": "Amendment 5 was published in ספר החוקים 2293 on 6.4.2011, the split date",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "ספר החוקים 2293, ב' בניסן התשע\"א, 6.4.2011",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "transitional-s11c",
+      "claim_type": "law",
+      "claim": "Section 11(c) (סעיף 11(ג)): Amendment 5 does not apply to an apartment in a BUILDING whose construction finished, or whose sale contract was concluded, before Amendment 5 commenced; such an apartment is governed by the law as worded on the eve of Amendment 5",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "(ג) חוק המכר (דירות) (תיקון מס' 5), התשע\"א-2011 (בסעיף קטן זה – תיקון מס' 5), לא יחול על דירה בבניין שבנייתו הסתיימה או שחוזה המכר לגביה נכרת לפני תחילתו של תיקון מס' 5; על דירה כאמור יחולו הוראות חוק המכר (דירות), התשל\"ג-1973, כנוסחו ערב יום התחילה של תיקון מס' 5.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z"
+    },
+    {
+      "claim_id": "transitional-s11b",
+      "claim_type": "law",
+      "claim": "Section 11(b) (סעיף 11(ב)): Amendment 3 (1990) does not apply to an apartment whose building was finished, or whose contract was concluded, before its publication; the pre-1990 text governs those",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "(ב) חוק המכר (דירות) (תיקון מס' 3), התש\"ן-1990, לא יחול על דירה בבנין שבנייתו נסתיימה או שחוזה המכר לגביה נכרת לפני פרסומו (להלן – יום הפרסום); על דירה כאמור יחולו הוראות חוק המכר (דירות), התשל\"ג-1973, כנוסחו ערב יום הפרסום.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z"
+    },
+    {
+      "claim_id": "late-payment-interest-5b",
+      "claim_type": "law",
+      "claim": "Section 5B (סעיף 5ב): contractual late-payment interest charged by the seller is capped at a rate set by the Minister",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "שיעור מרבי של ריבית פיגורים 5ב. (א) נקבע בחוזה המכר כי איחור בתשלום יזכה את המוכר בריבית פיגורים, לא יעלה שיעור הריבית על השיעור שקבע השר",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z"
+    },
+    {
+      "claim_id": "supreme-court-2026-reduced",
+      "claim_type": "case_law",
+      "claim": "Supreme Court, Justice Alex Stein (Mintz and Wilner JJ. concurring), August 2026, buyers v. Shimi Ashkeloni: a buyer who did not give the contractor an opportunity to repair keeps the claim, but compensation is limited to the seller's own repair cost, not the market price. Reported by Bizportal on 18.08.2026; the judgment text and case number were not read directly.",
+      "source_url": "https://www.bizportal.co.il/takdin/news/article/20039450",
+      "raw_snippet": "רוכש דירה שאינו מאפשר לקבלן לתקן ליקויים בה, יקבל פיצוי מופחת - אך הפיצוי לא יישלל לחלוטין. כך קובע לראשונה שופט בית המשפט העליון, אלכס שטיין.",
+      "confidence": "medium",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "corroborated_by": [
+        "https://www.beithamishpat.co.il/post/court-2841",
+        "https://www.nadlancenter.co.il/article/15214"
+      ]
+    },
+    {
+      "claim_id": "supreme-court-2026-cap",
+      "claim_type": "case_law",
+      "claim": "In that ruling the compensation is capped at the repair cost to the seller, which falls significantly below market price (about 20% in that case)",
+      "source_url": "https://www.bizportal.co.il/takdin/news/article/20039450",
+      "raw_snippet": "הפיצוי שייפסק לטובתו יהא מוגבל לעלות התיקון למוכר הדירה - סכום שנופל באופן משמעותי ממחיר השוק\". במקרה בו דן שטיין, מדובר בפער של 20%",
+      "confidence": "medium",
+      "fetched_at": "2026-10-12T15:30:00Z"
+    },
+    {
+      "claim_id": "registrar-bedek-track",
+      "claim_type": "regulator",
+      "claim": "The Registrar's service page frames defect complaints as complaints filed during the bedek period",
+      "source_url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "raw_snippet": "תלונות שהוגשו במהלך תקופת הבדק בגין עבודות לקויות שביצע קבלן רשום, לפי המפורט בתיקון לחוק המכר (דירות) (תיקון מס' 3), התש\"ן-1990",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T15:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T15:30:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12; page states it was last updated 01.09.2026."
+    },
+    {
+      "claim_id": "amendment9-7ab",
+      "claim_type": "law",
+      "claim": "Amendment 9 (2022) inserted the late-delivery limb into s.7A(b)",
+      "source_url": "https://fs.knesset.gov.il/24/law/24_lsr_628987.pdf",
+      "raw_snippet": "3. בסעיף 7א(ב) לחוק העיקרי, אחרי \"בקשר\" יבוא \"לאיחור במסירה לפי סעיף 5א או\".",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment9-commencement",
+      "claim_type": "date",
+      "claim": "Amendment 9 took effect seven days after publication; published 30.6.2022, so in force from 07.07.2022",
+      "source_url": "https://fs.knesset.gov.il/24/law/24_lsr_628987.pdf",
+      "raw_snippet": "5. תחילתו של חוק זה שבעה ימים מיום פרסומו.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment9-publication",
+      "claim_type": "date",
+      "claim": "Amendment 9 was published in ספר החוקים 2983 on 30.6.2022",
+      "source_url": "https://fs.knesset.gov.il/24/law/24_lsr_628987.pdf",
+      "raw_snippet": "ספר החוקים 2983, א' בתמוז התשפ\"ב, 30.6.2022",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-s5-standard",
+      "claim_type": "law",
+      "claim": "Amendment 5 replaced the s.5 standard 'suitable to what is customary in the circumstances' with 'of high quality'; pre-2011 apartments keep the older standard",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "(2) בסעיף קטן (ג), במקום \"מתאים למקובל בנסיבות העניין\" יבוא \"באיכות גבוהה בהתחשב בנסיבות העניין\".",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "amendment5-s2-maintenance",
+      "claim_type": "law",
+      "claim": "Amendment 5 added the duty to attach maintenance and use instructions to the contract (s.2(a1))",
+      "source_url": "https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf",
+      "raw_snippet": "\"(א1) המוכר יצרף לחוזה המכר, בעת חתימתו, את המפרט וכן את הוראות התחזוקה והשימוש חתומות בידיו",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "image",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "PDF is a scanned image with a bidi-garbled text layer; rendered with pdftoppm and transcribed by reading the page image."
+    },
+    {
+      "claim_id": "supreme-court-2026-edges",
+      "claim_type": "case_law",
+      "claim": "In the August 2026 ruling Stein J. noted edge cases: full denial where the buyer acted in flagrant bad faith and deliberately frustrated the repair; and a deep breakdown of trust may let the buyer refuse the contractor's repair",
+      "source_url": "https://www.bizportal.co.il/takdin/news/article/20039450",
+      "raw_snippet": "אם הקונה נהג בחוסר תום לב משווע וסיכל במכוון את התיקון בידי הקבלן, ניתן יהיה לשלול לחלוטין את הפיצוי. ואם בשל טיבם של הליקויים או התנהגותו הקודמת של הקבלן נוצר משבר אמון עמוק בין הצדדים, ייתכן שהקונה יוכל לסרב לביצוע התיקונים בידי הקבלן.",
+      "confidence": "medium",
+      "fetched_at": "2026-10-12T16:20:00Z"
+    },
+    {
+      "claim_id": "supreme-court-2026-gap",
+      "claim_type": "case_law",
+      "claim": "The gap between market price and the seller's repair cost was about 20% in that case and, per the court, could reach 75%",
+      "source_url": "https://www.bizportal.co.il/takdin/news/article/20039450",
+      "raw_snippet": "במקרה בו דן שטיין, מדובר בפער של 20% - שלדבריו עשוי לגדול ולהגיע לכדי 75%.",
+      "confidence": "medium",
+      "fetched_at": "2026-10-12T16:20:00Z"
+    },
+    {
+      "claim_id": "supreme-court-2026-outcome",
+      "claim_type": "case_law",
+      "claim": "The Supreme Court reversed the Tel Aviv District Court and restored the Bat Yam Magistrates' Court judgment against Shimi Ashkeloni, concerning defects the buyers repaired themselves within the bedek year",
+      "source_url": "https://www.bizportal.co.il/takdin/news/article/20039450",
+      "raw_snippet": "שטיין קיבל את ערעורם של גיל עמירן ויעקב חדד על פסק דינו של בית המשפט המחוזי בתל אביב, והחזיר על כנו את פסק דינו של בית משפט השלום בבת-ים. הוא קבע, כי חברת שמי אשקלוני תפצה אותם חלקית על תיקון ליקויי בנייה שביצעו בעצמם בתוך שנת הבדק",
+      "confidence": "medium",
+      "fetched_at": "2026-10-12T16:20:00Z"
+    },
+    {
+      "claim_id": "registrar-free",
+      "claim_type": "regulator",
+      "claim": "A complaint to the Registrar of Contractors is free",
+      "source_url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "raw_snippet": "השירות ניתן ללא עלות",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12; page last updated 01.09.2026."
+    },
+    {
+      "claim_id": "small-claims-no-advocate",
+      "claim_type": "guidance",
+      "claim": "Small-claims court takes money claims without representation by an advocate, save exceptional cases",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
+      "raw_snippet": "להגשת התביעה לא נדרש ייצוג על ידי עורך דין. במקרים חריגים בית המשפט יכול לאשר לצדדים להיות מיוצגים על-ידי עורך דין.",
+      "confidence": "high",
+      "fetched_at": "2026-10-12T16:20:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-12T16:20:00Z",
+      "verification_note": "Rendered in Playwright 2026-10-12 (curl gets 403)."
+    },
+    {
+      "claim_id": "distress-separate-head",
+      "claim_type": "case_law",
+      "claim": "Distress (עוגמת נפש) is awarded in construction-defect claims separately from the cost of repairs; in the August 2026 case the Magistrates' Court awarded 3,000 NIS for distress alongside 16,550 NIS repair cost",
+      "source_url": "https://www.nadlancenter.co.il/article/15214",
+      "raw_snippet": "סכום זה כולל עלות תיקונים בסך 16,550 ש\"ח ופיצוי בסך 3,000 ש\"ח בגין עוגמת נפש",
+      "confidence": "medium",
+      "fetched_at": "2026-10-12T16:20:00Z"
     }
   ]
 }

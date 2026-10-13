@@ -1,6 +1,6 @@
 # Domain Coverage Checklist, israeli-home-defect-report
 
-Generated: 2026-08-10. Revised 2026-08-26 (v1.1.0) via research on: nevo.co.il (consolidated text of חוק המכר (דירות), תשל"ג-1973, version current to 18-09-2023 following תיקון 9), kolzchut.org.il (אחריות קבלן לליקויים בדירה חדשה, הגשת תלונה לרשם הקבלנים), govforms.gov.il.
+Generated: 2026-08-10. Revised 2026-08-26 (v1.1.0). Revised 2026-10-12 (v1.2.0): pre-2011 Schedule and the pre-2011 wording of ss.4, 4a, 4b and 7A read from the Knesset PDF of Amendment 3 (1990); Amendment 5 (2011) read from its Knesset PDF; the August 2026 Supreme Court ruling on denying the opportunity to repair (via Bizportal, Beit HaMishpat and Nadlan Center reports). Earlier research on: nevo.co.il (consolidated text of חוק המכר (דירות), תשל"ג-1973, version current to 18-09-2023 following תיקון 9), kolzchut.org.il (אחריות קבלן לליקויים בדירה חדשה, הגשת תלונה לרשם הקבלנים), govforms.gov.il.
 
 Every statutory row below was verified against the RAW HTML text layer of the source, not against a WebFetch summary and not against a marketing blog. Several widely-repeated blog figures are wrong (see "Known bad figures" at the end).
 
@@ -10,8 +10,9 @@ Every statutory row below was verified against the RAW HTML text layer of the so
 
 The single most common way to get this skill wrong is to encode one table. There are two, and the split is by the date the sale contract was concluded.
 
-- [ ] Split rule: current Schedule applies where the sale contract was concluded on or after 06.04.2011 AND construction did not finish before that date - source: https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה - why core: applying the current table to a pre-2011 apartment overstates the buyer's rights, and applying the old table to a new one understates them. Both are actionable errors.
-- [ ] Pre-2011 apartments keep the old table even if resold later - source: same - why core: a sub-buyer (קונה משנה) of an older apartment inherits the older periods, which is counter-intuitive.
+- [ ] Split rule: current Schedule applies where the sale contract was concluded on or after 06.04.2011 AND construction of the BUILDING did not finish before that date - source: s.11(c), https://www.nevo.co.il/law_html/law00/72490.htm, and Kol Zchut. The contract that counts is the ORIGINAL sale contract with the contractor, not a resale; and a handover before 06.04.2011 settles it as pre-2011 (building limb), whatever contract date is given - why core: applying the current table to a pre-2011 apartment overstates the buyer's rights, and applying the old table to a new one understates them. Both are actionable errors.
+- [ ] Pre-2011 apartments keep the old table even if resold later; the schedule follows the ORIGINAL contract with the contractor, never a resale contract - source: same - why core: a sub-buyer (קונה משנה) of an older apartment inherits the older periods, which is counter-intuitive. Note the old text did not name the sub-buyer at all, so whether one can rely on it is routed to an advocate.
+- [ ] Pre-2011 apartments run on the pre-2011 TEXT of the law (s.11(c), "כנוסחו ערב יום התחילה של תיקון מס' 5"): no 20-year fundamental period (old s.4(a)(4), fundamental non-conformity found even after the warranty that makes the apartment unfit for its purpose), no s.4a(b), no s.4b(b), no s.7A(b), no sub-buyer - source: https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf and https://fs.knesset.gov.il/18/law/18_lsr_300642.pdf - why core: v1.1.0 quoted all of those to pre-2011 buyers, whose only live routes today are exactly the fundamental-defect, hidden-defect, specification and concealment routes.
 
 Current Schedule (contract on/after 06.04.2011), all TEN items enumerated separately. Source for all ten: https://www.nevo.co.il/law_html/law00/72490.htm
 
@@ -26,7 +27,7 @@ Current Schedule (contract on/after 06.04.2011), all TEN items enumerated separa
 - [ ] (9) חיפויי חוץ detachment, peeling or crumbling, 7 years
 - [ ] (10) any other non-conformity that is not fundamental, 1 year
 
-Pre-2011 Schedule, enumerated separately. Source: https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה
+Pre-2011 Schedule, enumerated separately. Primary source: the Schedule as enacted by Amendment 3, ספר החוקים 1327, 2.8.1990, p.185, https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf (read from the PDF image; all nine rows match Kol Zchut)
 
 - [ ] צנרת incl. heating and gutters, 2 years (NOT 4)
 - [ ] חדירת רטיבות in roof, walls and shelter, 3 years
@@ -65,16 +66,18 @@ Pre-2011 Schedule, enumerated separately. Source: https://www.kolzchut.org.il/he
 
 ### Right to repair, and the demand letter
 
-- [ ] s.4b(a): the buyer MUST give the seller a proper opportunity to repair, and the seller must repair within a reasonable time - source: nevo - why core: a buyer who repairs first and demands money after generally loses. This makes the demand letter a legal step, not a formality.
-- [ ] s.4b(b): self-repair at the seller's expense only where the defect RECURRED after the seller repaired it once or more within two years of the notice, OR the repair is urgent and the seller did not repair in reasonable time - source: nevo - why core: these are the only two statutory gateways to self-help.
+- [ ] s.4b(a): the buyer MUST give the seller a proper opportunity to repair, and the seller must repair within a reasonable time - source: nevo - why core: this makes the demand letter a legal step, not a formality.
+- [ ] Consequence of NOT giving a proper opportunity before repairing or suing: the claim survives but compensation is limited to the seller's own repair cost, not the market price; full denial only for extreme bad faith. Where the seller WAS given a proper opportunity and let it pass, this reduction does not apply on its face and recovery is an advocate question - source: Supreme Court, Stein J., August 2026, as reported at https://www.bizportal.co.il/takdin/news/article/20039450 - why core: v1.1.0 told users they would lose the claim, which pushes a user with spreading damage to live with it.
+- [ ] s.4b(b) (current law only): self-repair at the seller's expense only where the defect RECURRED after the seller repaired it once or more within two years of the notice, OR the repair is urgent and the seller did not repair in reasonable time - source: nevo - why core: these are the only two statutory gateways to self-help.
 
 ### Waiver and the handover protocol
 
 - [ ] s.7A(a): no contracting out of the law except in the buyer's favour - source: nevo - why core: contract clauses shortening bedek periods are ineffective, and users assume their contract overrides the statute.
-- [ ] s.7A(b): a waiver, including a written one, of defect or late-delivery rights that is made a CONDITION of handover, of repairs, or of transfer of rights, is VOID (בטל) - source: nevo - why core: this is exactly the pressure applied at the keys handover.
-- [ ] A waiver is ineffective even where the buyer agreed freely, for example in exchange for a discount - source: Kol Zchut FAQ - why core: it is the buyer's most common self-inflicted worry and the answer is reassuring and correct.
+- [ ] s.7A(b) (defect limb added by Amendment 5, so current law only): a waiver, including a written one, of defect or late-delivery rights that is made a CONDITION of handover, of repairs, or of transfer of rights, is VOID (בטל) - source: nevo - why core: this is exactly the pressure applied at the keys handover.
+- [ ] A settlement signed freely AFTER handover for payment is not one of the three s.7A(b) conditions and may bind the buyer for what it covers: never call it "void anyway"; scope the release, keep hidden/fundamental/common-property defects out, route to an advocate, never draft it - source: s.7A(b) text - why core: "sign this for 15,000 and close all defects" is a common real offer.
+- [ ] A contract term or price concession that contracts out of the law is ineffective even where the buyer agreed freely, for example in exchange for a discount at signing or handover (s.7A(a)) - source: Kol Zchut FAQ - why core: it is the buyer's most common self-inflicted worry and the answer is reassuring and correct. Distinguish a compromise of a known dispute after handover (row below).
 - [ ] Correct framing of signing the protocol: signing cannot legally waive the contractor's liability, but a signed factual statement that the apartment is defect-free is an evidentiary admission that a court will weigh. The remedy is to record reservations in writing on the protocol rather than to refuse to sign - why core: the popular framing ("sign and you lose everything") is legally wrong but the practical advice attached to it is right, so the skill must separate the two.
-- [ ] s.5(c): where the seller supplied no compliant מפרט, the burden of proving the item was of high quality rests on the SELLER - source: nevo - why core: a free extra argument most buyers never raise.
+- [ ] s.5(c): where the seller supplied no compliant מפרט, the burden of proving the item was of high quality rests on the SELLER - source: nevo - why core: a free extra argument most buyers never raise. Pre-2011 apartments: the older standard, "מתאים למקובל בנסיבות העניין" (Amendment 5 s.7).
 - [ ] s.4(a)(6): failure to deliver הוראות תחזוקה ושימוש is itself a breach - source: nevo - why core: commonly omitted by contractors and independently actionable.
 
 ### Remedies and forums
@@ -90,8 +93,11 @@ Pre-2011 Schedule, enumerated separately. Source: https://www.kolzchut.org.il/he
 - [ ] קונה משנה (sub-buyer) inherits the rights, and the clock still runs from the ORIGINAL handover, not from the resale - source: nevo, definitions and s.4 - why: common in second-hand purchases of nearly-new apartments.
 - [ ] Common property (רכוש משותף): route through the elected house committee where one exists, which the Ministry recommends. An individual owner is NOT barred from filing - source: https://www.gov.il/he/service/complaint-about-constractor - why: a large share of real defects (roof sealing, exterior cladding, yard development) are in common property, and a fabricated bar shuts a user with no functioning committee out of the only free route.
 - [ ] Distinguishing normal wear, user-caused damage and a genuine defect, so the log does not get discredited wholesale by one bad entry.
-- [ ] Evidence hygiene for the log: date, room, photograph with scale reference, and whether the defect was visible at handover, since visibility is what selects the notice rule.
-- [ ] Recurrence tracking, because s.4b(b) self-help depends on counting repairs within a two-year window, which nobody tracks unless told to.
+- [ ] Evidence hygiene for the log: date, room, photograph with scale reference, and whether the defect could have been discovered by a reasonable inspection at handover, since that is what selects the notice rule (s.4a(a)(1) vs (2)).
+- [ ] Signed the protocol with no remarks and found a defect weeks later: notify now with dated photos and evidence dating it to before move-in; the real risk is the s.4(a)(2) "buyer caused it" argument, not the deadline.
+- [ ] Damp under the current Schedule spans three rows by cause (sealing 4, piping 4, thermal 3): report the range, never one row.
+- [ ] Withholding contract payments or self-help set-off against a defect claim: do not advise it (breach, s.5B late-payment interest); route to the purchase advocate.
+- [ ] Recurrence tracking, because s.4b(b) self-help (current law) depends on counting repairs within a two-year window, which nobody tracks unless told to.
 - [ ] Interaction with התיישנות (general limitation) as a separate outer bound on suing, flagged as a lawyer question rather than answered. MUST be surfaced to the user whenever a window end-date is reported, since a cover period is not a filing deadline.
 - [ ] What happens between the demand letter and a claim: conduct at the contractor's repair visit (attend, photograph, date, sign nothing accepting the repair), re-inspection, the licensed מהנדס opinion and when it becomes worth its cost, the small-claims track, מומחה מטעם בית המשפט, and עוגמת נפש as a distinct head of damage - why: this is the half of "what do I actually do" that v1.0.0 stopped short of, and repair-visit records are what the s.4b(b) gateway is counted from.
 
@@ -117,6 +123,8 @@ Recorded so a future update does not "correct" the skill back to them:
 - "sunken floor tiles are ריצוף, 2 years": no. The statute expressly puts שקיעת מרצפות on the ground floor, in parking, on pavements and on paths inside item (4) פיתוח חצר at 3 years. v1.0.0 truncated the row and misrouted them.
 - "a complaint to the Registrar requires a prior written demand": no such requirement on the Ministry's page.
 - "an individual owner cannot complain about common property": the Ministry says any citizen may file and the committee route is only recommended.
+- "a buyer who repairs without giving the contractor a chance loses the claim": the Supreme Court (August 2026) held the award is reduced to the contractor's repair cost, not denied.
+- "structural defects in any apartment carry a 20-year period": only under the current law. The pre-2011 text has no 20-year period at all.
 - "a recent amendment changed the defect regime": the last substantive change is תיקון 5 (2011); תיקון 9 (2022) touched late delivery and waiver. Later amendments recorded against this law are indirect (a Knesset committee renaming) and do not touch defects.
 
 ## Authoritative sources
