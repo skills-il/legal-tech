@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.4.0] - 2026-10-25
+
+### Fixed
+- Annual leave table mixed calendar days with work days (it said 16 days in year 5, 18 in year 6, 21 from year 7). For a 5-day week the Annual Leave Law gives 12 work days through year 5, then 14, 15, 16, 17, 18, 19 and 20 from year 12; where the Shortened Work Week extension order applies the figures are 12, then 17 for years 6-8 and 23 from year 9, and the employee gets the higher. Seniority counts in calendar years. Fixed in SKILL.md, SKILL_HE.md, both references and the contract generator.
+- Notice for a daily or hourly paid employee did not reach a full month after one year. Year 2 is 14 days plus a day per two months worked in year 2, year 3 is 21 days plus a day per two months, and a full month only after 3 years. Fixed in the tables, the clause template and the generator, which also no longer rounds the monthly-paid 2.5-day steps down.
+- Severance for an hourly or daily paid employee was stated as two weeks per year (the 1.3.0 change). The Severance Pay (Rates for a Wage Worker) Regulations, 1983, made under section 12(ב), set it at one month per year for all work since 1 August 1983, so every employee gets one month per year.
+- Travel expenses were described as optional and tax-exempt. Under the extension order they are mandatory at any position scope (reduced bus fare up to 22.60 NIS a day, or a monthly pass if cheaper), cannot be waived, and are taxable.
+- Section 14 was described as needing a signed consent. Since 2008 the pension extension order applies it automatically to the mandatory 6%; the 2.33% top-up needs a written notice to the fund with a copy to the employee. Severance for any unfunded period (such as the 6-month pension wait) is still owed.
+- The 5-day work day is 8.6 hours on four days plus one 7.6-hour short day, not 8.4 hours. Child-illness absence is up to 8 days (16 for a single parent), not 6. The non-compete test is "reasonable and one of an open list of circumstances" (Check Point), not four cumulative conditions.
+- Post-signing steps said to register each new employee with Bituach Leumi within 7 days and report monthly on Form 126. A new employer opens a deductions file with the Tax Authority and Bituach Leumi opens its file automatically; the monthly report and payment is Form 102 by the 15th, and Form 126 is the semi-annual and annual report. The 7-day deadline belongs to Form 101.
+
+### Added
+- Pension salary base: mandatory contributions apply only to the lower of base salary and the national average wage (13,769 NIS in 2026) unless the contract promises more, with a matching clause placeholder.
+- Holiday pay for hourly and daily paid workers after 3 months; the 75-day rule for their annual leave; family-illness sick days; pregnancy protection against the probation clause; a fixed-term contract row; 18 leave days for employees under 18; a travel and holiday-pay clause and an hourly-rate option in the clause templates.
+- The household-worker clauses moved to references/household-workers.md, with a summary kept in Step 1b.
+- Pension deposit deadline (7 business days after paying salary or 15 days after month end, whichever is earlier), the 2026 National Insurance brackets (7,703 and 51,910 NIS), and that convalescence pay is owed only after a full year.
+
 ## [1.3.0] - 2026-08-30
 
 ### Fixed

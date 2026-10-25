@@ -25,6 +25,7 @@ Usage:
 
 import argparse
 import sys
+import calendar
 from datetime import datetime, timedelta
 from typing import Optional
 
@@ -45,12 +46,15 @@ SEVERANCE_RATE = 0.0833             # 8.33%
 HISHTALMUT_EMPLOYER_RATE = 0.075    # 7.5%
 HISHTALMUT_EMPLOYEE_RATE = 0.025    # 2.5%
 HAVRA_A_DAILY_RATE = 451.5          # NIS per day, private-sector rate for havra'a year 2026
-                                    # (1.7.2025-30.6.2026), per the extension order published 18.08.2026.
-                                    # A signed agreement to raise it to 451.5 awaits a Ministry of
-                                    # Labor extension order, then applies retroactively. Verify before use.
+                                    # (1.7.2025-30.6.2026), per the extension order published 18.08.2026
+                                    # (raised from 418). Verify before use for a later havra'a year.
 MINIMUM_WAGE_MONTHLY = 6443.85      # NIS, effective 2026-04-01 (prior: 6,247.67)
 MINIMUM_WAGE_HOURLY = 35.40         # NIS, based on 182 hours/month (42h x 52 / 12)
-STANDARD_WORK_HOURS_DAY = 8.4       # hours per day, 5-day week (5 x 8.4 = 42)
+PENSION_SALARY_CAP_2026 = 13769     # NIS, national average wage: the statutory pension base is the
+                                    # LOWER of base salary and this figure, unless the contract says more
+STANDARD_WORK_HOURS_DAY = 8.6       # hours on 4 days of a 5-day week, plus one short day:
+STANDARD_SHORT_DAY_HOURS = 7.6      # (4 x 8.6 + 7.6 = 42), per the shortened-work-week extension order
+TRAVEL_DAILY_CEILING = 22.60        # NIS per day, travel-expenses extension order (verify before use)
 STANDARD_WORK_HOURS_WEEK = 42.0     # hours per week (since 2018-04-01)
 STANDARD_WORK_DAYS_WEEK = 5         # days
 
@@ -64,13 +68,16 @@ HAVRA_A_DAYS = {
 }
 HAVRA_A_DAYS_20_PLUS = 10
 
-# Annual leave days by seniority (5-day work week)
+# Annual leave, net WORK days for a 5-day week, by calendar year of seniority.
+# Statutory (Annual Leave Law, 1951, converted from calendar days to work days):
 ANNUAL_LEAVE_DAYS = {
-    1: 12, 2: 12, 3: 12, 4: 12,
-    5: 16,
-    6: 18,
+    1: 12, 2: 12, 3: 12, 4: 12, 5: 12,
+    6: 14, 7: 15, 8: 16, 9: 17, 10: 18, 11: 19,
 }
-ANNUAL_LEAVE_DAYS_7_PLUS = 21
+ANNUAL_LEAVE_DAYS_12_PLUS = 20
+# Where the Shortened Work Week extension order applies (the higher figure wins):
+SHORT_WEEK_ORDER_LEAVE = {1: 12, 2: 12, 3: 12, 4: 12, 5: 12, 6: 17, 7: 17, 8: 17}
+SHORT_WEEK_ORDER_LEAVE_9_PLUS = 23
 
 SICK_DAYS_PER_MONTH = 1.5
 SICK_DAYS_MAX = 90
@@ -83,36 +90,52 @@ def get_havra_a_days(seniority_years: int) -> int:
     return HAVRA_A_DAYS.get(seniority_years, 5)
 
 
-def get_annual_leave_days(seniority_years: int) -> int:
-    """Return minimum annual leave days for given seniority (5-day week)."""
-    if seniority_years >= 7:
-        return ANNUAL_LEAVE_DAYS_7_PLUS
-    return ANNUAL_LEAVE_DAYS.get(seniority_years, 12)
+def get_annual_leave_days(seniority_years: int, short_week_order: bool = False) -> int:
+    """Return minimum annual leave WORK days for a 5-day week.
+
+    By default returns the statutory figure. With short_week_order=True, returns
+    the higher of the statute and the Shortened Work Week extension order.
+    """
+    statutory = (ANNUAL_LEAVE_DAYS_12_PLUS if seniority_years >= 12
+                 else ANNUAL_LEAVE_DAYS.get(seniority_years, 12))
+    if not short_week_order:
+        return statutory
+    order = (SHORT_WEEK_ORDER_LEAVE_9_PLUS if seniority_years >= 9
+             else SHORT_WEEK_ORDER_LEAVE.get(seniority_years, 12))
+    return max(statutory, order)
 
 
-def calculate_notice_period_days(seniority_months: int, pay_basis: str = "monthly") -> int:
+def calculate_notice_period_days(seniority_months: int, pay_basis: str = "monthly") -> float:
     """Calculate notice period in days based on seniority and pay basis.
 
     The first-year ladder differs by pay basis (Prior Notice for Dismissal and
     Resignation Law, 2001):
       - monthly-paid (oved be'mascoret): months 1-6 = 1 day/month;
         months 7-12 = 6 days + 2.5 days per month from month 7.
-      - daily/hourly-paid (oved be'sachar): a flat 1 day per month worked across
-        the whole first year (up to 12 days at year-end).
-    From year 2 onward both reach 30 days (1 month).
+      - daily/hourly-paid (oved be'sachar): 1 day per month worked in year 1;
+        in year 2, 14 days + 1 day per 2 months worked in year 2; in year 3,
+        21 days + 1 day per 2 months worked in year 3; after 3 years, 30 days.
+    A monthly-paid worker reaches 30 days (1 month) from year 2.
     """
-    if seniority_months > 12:
-        return 30  # 1 month, both pay bases
-
+    # seniority_months = COMPLETED months. A completed year moves the worker into
+    # the next band (12 completed months = first month of year 2).
     if pay_basis == "hourly":
-        # Daily/hourly worker: 1 day per month worked, all 12 months.
-        return min(seniority_months, 12)
+        if seniority_months < 12:
+            return seniority_months  # 1 day per month worked
+        if seniority_months < 24:
+            return 14 + (seniority_months - 12) // 2
+        if seniority_months < 36:
+            return 21 + (seniority_months - 24) // 2
+        return 30
+
+    if seniority_months >= 12:
+        return 30  # monthly-paid: 1 month from one year of seniority
 
     # Monthly-paid worker.
     if seniority_months <= 6:
         return seniority_months  # 1 day per month
     months_after_6 = seniority_months - 6
-    return 6 + int(months_after_6 * 2.5)
+    return 6 + months_after_6 * 2.5  # e.g. 9 months = 13.5 days, not rounded down
 
 
 def calculate_benefits(salary: float, work_percent: float) -> dict:
@@ -124,7 +147,8 @@ def calculate_benefits(salary: float, work_percent: float) -> dict:
     severance_component = adjusted_salary * SEVERANCE_RATE
     hishtalmut_employer = adjusted_salary * HISHTALMUT_EMPLOYER_RATE
     hishtalmut_employee = adjusted_salary * HISHTALMUT_EMPLOYEE_RATE
-    havra_a_first_year = get_havra_a_days(1) * HAVRA_A_DAILY_RATE
+    # Pro-rated to position scope; owed only after 12 months, then retroactively.
+    havra_a_first_year = get_havra_a_days(1) * HAVRA_A_DAILY_RATE * (work_percent / 100.0)
 
     total_employer_cost = (
         adjusted_salary
@@ -147,6 +171,8 @@ def calculate_benefits(salary: float, work_percent: float) -> dict:
         "notice_period_month1": calculate_notice_period_days(1),
         "notice_period_month6": calculate_notice_period_days(6),
         "notice_period_year2": calculate_notice_period_days(24),
+        "notice_period_hourly_month18": calculate_notice_period_days(18, pay_basis="hourly"),
+        "notice_period_hourly_month30": calculate_notice_period_days(30, pay_basis="hourly"),
         # Daily/hourly-paid (oved be'sachar) first-year notice differs: 1 day/month.
         "notice_period_hourly_month12": calculate_notice_period_days(12, pay_basis="hourly"),
         "notice_period_monthly_month12": calculate_notice_period_days(12, pay_basis="monthly"),
@@ -180,8 +206,17 @@ def generate_contract(
         start_dt = datetime.now()
     start_formatted = start_dt.strftime("%d/%m/%Y")
 
-    # Probation end date (6 months)
-    probation_end = start_dt + timedelta(days=180)
+    # Probation end date: 6 calendar months, ending the day before the same date
+    # 6 months later; when that date does not exist (31 Aug -> no 31 Feb), the
+    # period ends on the last day of the target month.
+    month = start_dt.month - 1 + 6
+    year = start_dt.year + month // 12
+    month = month % 12 + 1
+    last_day = calendar.monthrange(year, month)[1]
+    if start_dt.day <= last_day:
+        probation_end = datetime(year, month, start_dt.day) - timedelta(days=1)
+    else:
+        probation_end = datetime(year, month, last_day)
     probation_formatted = probation_end.strftime("%d/%m/%Y")
 
     position_percent = f"{work_percent:.0f}%"
@@ -224,6 +259,7 @@ The Employee's responsibilities include: [DESCRIBE RESPONSIBILITIES].
 - **Employment type:** {work_type}
 - **Probation period (Tkufat Nisayon):** 6 months, ending {probation_formatted}
 - During probation, either party may terminate; the statutory notice period applies (there is no statutory "shortened notice" during probation).
+- Probation does not affect statutory protections, including the Employment of Women Law (from 6 months a pregnant employee may be dismissed only with a permit).
 - Successful completion of probation does not require formal notice; employment continues automatically.
 
 ---
@@ -231,11 +267,11 @@ The Employee's responsibilities include: [DESCRIBE RESPONSIBILITIES].
 ## 4. Work Hours / She'ot Avoda / שעות עבודה
 
 - **Work days:** Sunday through Thursday (5-day work week)
-- **Daily hours:** {STANDARD_WORK_HOURS_DAY} hours (per Hours of Work and Rest Law, as amended April 2018)
-- **Weekly hours:** {STANDARD_WORK_HOURS_WEEK} hours
+- **Daily hours (full-time):** {STANDARD_WORK_HOURS_DAY} hours on four days and {STANDARD_SHORT_DAY_HOURS} hours on one fixed short day (42-hour week since April 2018)
+- **Weekly hours (full-time):** {STANDARD_WORK_HOURS_WEEK} hours{"" if work_percent == 100 else f"; this position: {STANDARD_WORK_HOURS_WEEK * work_percent / 100:.1f} hours [ADJUST DAYS / HOURS]"}
 - **Position scope:** {position_percent} of full-time position
 - **Overtime:** Per Hours of Work and Rest Law -- 125% for first 2 extra hours, 150% thereafter.
-- **Weekly rest:** Friday-Saturday (at least 36 consecutive hours).
+- **Weekly rest:** at least 36 consecutive hours, including the Employee's day of rest [Friday-Saturday].
 
 ---
 
@@ -244,6 +280,8 @@ The Employee's responsibilities include: [DESCRIBE RESPONSIBILITIES].
 - **Gross monthly salary:** {format_currency(adj_salary)}
 - **Payment date:** No later than the 9th of the following month (per Protection of Wages Law / Chok Haganat HaSachar)
 - **Payment method:** Bank transfer to Employee's designated account
+- **Travel expenses:** reimbursed per the travel-expenses extension order, the reduced bus fare up to {format_currency(TRAVEL_DAILY_CEILING)} a day or a monthly pass if cheaper (taxable)
+- **Holiday pay (hourly/daily paid only):** after 3 months, for holidays the Employee was due to work but did not
 
 ---
 
@@ -256,12 +294,20 @@ The Employee's responsibilities include: [DESCRIBE RESPONSIBILITIES].
 | Pension (Tagmulim) | {PENSION_EMPLOYER_RATE*100:.1f}% = {format_currency(benefits['pension_employer'])} | {PENSION_EMPLOYEE_RATE*100:.1f}% = {format_currency(benefits['pension_employee'])} |
 | Severance (Pitzuim) | {SEVERANCE_RATE*100:.2f}% = {format_currency(benefits['severance_component'])} | -- |
 
+Amounts above are computed on the full gross salary. **Salary base for contributions:**
+[the full gross base salary / the base salary up to the national average wage].
+The statutory minimum is the lower of the base salary and the national average
+wage ({format_currency(PENSION_SALARY_CAP_2026)} in 2026); contributing on the full
+salary is a contractual undertaking and must be stated expressly.
+
 **Pension fund:** [FUND NAME, e.g., Meitav Dash, Menora, Harel, Migdal]
 
 ### Section 14 Arrangement / Hasdarot Saif 14 / הסדרות סעיף 14
 
-In accordance with Section 14 of the Severance Pay Law, 1963, the Employer's
-contributions to the pension fund / insurance policy as detailed above shall
+In accordance with Section 14 of the Severance Pay Law, 1963, and the General
+Authorization under it as applied by the pension extension order (automatic for
+the mandatory 6%), the Employer's contributions to the pension fund / insurance
+policy as detailed above shall
 constitute full and complete severance pay for the Employee in respect of the
 salary on which said contributions were made and for the period they were made.
 
@@ -269,14 +315,20 @@ The Employee hereby agrees and acknowledges that the Employer's contributions
 to the pension insurance fund shall come in lieu of the severance pay the
 Employee is entitled to for said salary components, such that the Employer
 shall be released from any additional severance payment obligation with respect
-to these components.
+to these components. For the 2.33% completion (8.33% in total), the Employer
+shall notify the fund in writing, with a copy to the Employee, that Section 14
+also applies to it.
 
 **Employee acknowledgment:** _____________________ Date: __________
 
-**Severance basis (if Section 14 is NOT elected):** Absent a Section 14
-arrangement, the Employee's statutory severance under the Severance Pay Law,
-1963 (Section 12) is one month's last salary for each year of employment with
-the Employer, pro-rated for partial years, payable on termination.
+**Severance basis (for any salary or period not covered by Section 14
+deposits):** The Employee's statutory severance under the Severance Pay Law,
+1963 (Section 12, and for an hourly or daily paid Employee the 1983 Regulations
+under s.12(b)) is one month's last salary for each year of employment with the
+Employer, pro-rated for partial years, payable on termination. Any period for
+which no severance deposits were made (for example the pension waiting period)
+is owed at the last salary when the employment ends in circumstances that
+entitle the Employee to severance.
 
 ---
 
@@ -297,7 +349,8 @@ the Employer, pro-rated for partial years, payable on termination.
 The Employee shall receive convalescence pay (Dmei Havra'a) per the applicable
 extension order, based on seniority:
 
-- **Year 1:** 5 days = {format_currency(5 * HAVRA_A_DAILY_RATE)} (at current daily rate of {format_currency(HAVRA_A_DAILY_RATE)})
+- **Year 1:** 5 days = {format_currency(benefits['havra_a_first_year'])} (daily rate {format_currency(HAVRA_A_DAILY_RATE)} for havra'a year 2026{"" if work_percent == 100 else f", pro-rated to {position_percent}"})
+- Owed only after 12 months of employment, then retroactively from the start date, at the rate in force for the havra'a year paid
 - Payment: Annual lump sum, typically in June-July
 - Days increase with seniority per the extension order table
 
@@ -305,13 +358,22 @@ extension order, based on seniority:
 
 ## 9. Annual Leave / Chofsha Shnatit / חופשה שנתית
 
-Per the Annual Leave Law (1951):
-- **Years 1-4:** {get_annual_leave_days(1)} work days per year
-- **Year 5:** {get_annual_leave_days(5)} work days per year
-- **Year 6:** {get_annual_leave_days(6)} work days per year
-- **Year 7+:** {get_annual_leave_days(7)} work days per year
+No less than the Annual Leave Law (1951) and, where it applies, the extension
+order on the shortened work week, whichever is higher. Work days per calendar
+year of seniority, 5-day week:
 
-{"Adjusted for part-time: " + str(int(get_annual_leave_days(1) * work_percent / 100)) + " days in year 1" if work_percent < 100 else ""}
+| Seniority | Statute | Shortened Work Week extension order |
+|-----------|---------|-------------------------------------|
+| Years 1-5 | {get_annual_leave_days(1)} | {get_annual_leave_days(1, True)} |
+| Year 6 | {get_annual_leave_days(6)} | {get_annual_leave_days(6, True)} |
+| Year 7 | {get_annual_leave_days(7)} | {get_annual_leave_days(7, True)} |
+| Year 8 | {get_annual_leave_days(8)} | {get_annual_leave_days(8, True)} |
+| Year 9 | {get_annual_leave_days(9)} | {get_annual_leave_days(9, True)} |
+| Year 10 | {get_annual_leave_days(10)} | {get_annual_leave_days(10, True)} |
+| Year 11 | {get_annual_leave_days(11)} | {get_annual_leave_days(11, True)} |
+| Year 12+ | {get_annual_leave_days(12)} | {get_annual_leave_days(12, True)} |
+
+{"Part-time: an employee working fewer HOURS on every work day accrues the same number of leave days; an employee working fewer DAYS a week accrues leave pro-rated to days worked. A first calendar year that starts mid-year is pro-rated." if work_percent < 100 else ""}
 
 ---
 
@@ -323,7 +385,7 @@ Per the Annual Leave Law (1951):
   - Day 1: No payment
   - Days 2-3: 50% of daily salary
   - Day 4 onward: 100% of daily salary
-- **Medical certificate:** Required from day 1 of absence (or per company policy)
+- **Medical certificate:** As the Employer reasonably specifies (commonly from day 1 of absence)
 
 ---
 
@@ -333,14 +395,14 @@ Either party may terminate this agreement by providing written notice:
 
 | Seniority | Monthly-paid (oved be'mascoret) | Daily/hourly-paid (oved be'sachar) |
 |-----------|----------------------------------|-------------------------------------|
-| Months 1-6 | 1 day per month of employment | 1 day per month worked (all 12 months) |
-| Months 7-12 | 6 days + 2.5 days per additional month | 1 day per month worked (all 12 months) |
-| Year 2+ | 30 days (1 month) | 30 days (1 month) |
+| Months 1-6 | 1 day per month of employment | 1 day per month worked |
+| Months 7-12 | 6 days + 2.5 days per additional full month | 1 day per month worked |
+| Year 2 | 30 days (1 month) | 14 days + 1 day per 2 months worked in year 2 |
+| Year 3 | 30 days (1 month) | 21 days + 1 day per 2 months worked in year 3 |
+| After 3 years | 30 days (1 month) | 30 days (1 month) |
 
-The first-year ladders differ by pay basis: a daily/hourly-paid worker earns a
-flat 1 day of notice per month worked across the whole first year (up to 12 days
-at year-end), while a monthly-paid worker earns the 6-days-plus-2.5-per-month
-schedule for months 7-12.
+The ladders differ by pay basis for the first three years: a daily/hourly-paid
+worker reaches a full month of notice only after 3 years.
 
 ---
 
@@ -376,16 +438,17 @@ Schedule A attached hereto.
 
 ## 14. Non-Compete / Ee Tcharut / אי-תחרות
 
-For a period of [RECOMMENDED: 6-12] months following termination of employment,
+For a period of [NUMBER, as short as the protected interest justifies] months following termination of employment,
 the Employee shall not directly engage with the following specific competitors:
 [LIST SPECIFIC COMPETITORS].
 
 This restriction is limited to [DESCRIBE SPECIFIC SCOPE/FIELD].
 
-Note: Israeli courts enforce non-compete clauses narrowly. This clause is
-subject to the balancing test established by Israeli Supreme Court precedent,
-weighing the Employer's legitimate business interests against the Employee's
-right to earn a livelihood under Basic Law: Human Dignity and Liberty.
+Note: Under the National Labor Court's Check Point ruling (ע"ע 164/99), a
+post-employment restriction is generally void and is given effect only if it is
+reasonable and protects a recognized interest such as a genuine trade secret,
+special costly training, or special consideration paid for the restriction
+[STATE WHICH ONE APPLIES].
 
 ---
 
@@ -411,7 +474,7 @@ right to earn a livelihood under Basic Law: Human Dignity and Liberty.
 | **Total employer cost** | **{format_currency(benefits['total_employer_cost'])}** |
 
 *Note: Does not include Bituach Leumi (employer portion), Dmei Havra'a,
-travel allowance, or other variable costs.*
+travel expenses (mandatory, up to {format_currency(TRAVEL_DAILY_CEILING)} a day), or other variable costs.*
 
 ---
 

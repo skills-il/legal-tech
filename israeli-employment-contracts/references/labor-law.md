@@ -7,25 +7,25 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 ### Severance Pay Law (Chok Pitzuyei Pitoorim), 1963
 
 - **Entitlement:** Employee who completed at least 1 year of employment and was dismissed is entitled to severance pay
-- **Calculation:** Last monthly salary multiplied by years of employment
+- **Calculation:** Last monthly salary multiplied by years of employment. This applies to hourly and daily paid workers too: s.12(א) gives an עובד בשכר two weeks, but the Severance Pay (Rates for a Wage Worker) Regulations, 1983, raised it to one month per year for all work from 1 August 1983
 - **Resignation:** Generally no severance upon resignation, with exceptions (relocation, health, employer breach)
-- **Section 14:** A payment to a pension/provident fund does NOT replace severance unless a collective agreement so provides or the Minister of Labour approved it (in practice, the General Authorization, י"פ תשנ"ח 4394). The 8.33% figure comes from that Authorization, not from Section 14. Requires:
-  - Written agreement with employee
-  - Contributions to qualifying pension fund or insurance policy
-  - General approval from the Minister of Labor (published in 1998)
-  - Once activated, employer is exempt from additional severance calculation
+- **Section 14:** A payment to a pension/provident fund does NOT replace severance unless a collective agreement so provides or the Minister of Labour approved it (in practice, the General Authorization, י"פ תשנ"ח 4394). The 8.33% figure comes from that Authorization, not from Section 14. In practice:
+  - Since 2008 the pension extension order applies Section 14 automatically to the mandatory 6% severance deposits, with no separate agreement
+  - Applying it to the 2.33% top-up (8.33% in total) requires the employer's written notice to the fund with a copy to the employee
+  - Deposits replace severance only for the salary and period they cover; an unfunded period (for example the 6-month pension wait) still owes severance at the last salary when employment ends in circumstances that entitle the employee to severance
 - **Partial year:** Pro-rata calculation for employment exceeding full years
-- **Payment deadline:** Within 15 days of termination (or date entitlement is established)
+- **Payment deadline:** Due on termination of employment
 
 ### Annual Leave Law (Chok Chofsha Shnatit), 1951
 
-- **Minimum days** (for 5-day work week):
-  - Years 1-4: 12 days
-  - Year 5: 16 days
-  - Year 6: 18 days
-  - Year 7+: 21 days
-- **Accrual:** From the first day of employment
-- **Redemption:** Unused leave can be redeemed only upon termination; employer cannot force monetary redemption during employment (except days exceeding 7-day minimum balance)
+- **Minimum days** (net WORK days for a 5-day work week; seniority counted in calendar years from 1 January):
+  - Under the statute: years 1-5: 12 days; year 6: 14; year 7: 15; year 8: 16; year 9: 17; year 10: 18; year 11: 19; year 12+: 20
+  - Where the Shortened Work Week extension order applies (most private 5-day workplaces): years 1-5: 12; years 6-8: 17; year 9+: 23. The employee gets the higher of the two
+  - The statute's own figures are calendar days including Fridays and Saturdays (e.g. 16 calendar days = 12 work days through year 5); never mix the two
+  - The extension order does not cover workplaces with fewer than 4 employees, government and municipal companies, collectively-agreed 5-day weeks, or household workers
+- **Accrual:** From the first day of employment; a full-year entitlement assumes at least 200 work days in the year, fewer days give a pro-rated share
+- **Carry-over:** With the employer's consent the employee may use part of the leave (at least 7 days a year) and add the rest to leave in the next two years
+- **Redemption:** Unused leave can be redeemed only upon termination, for the final year and the 3 years before it
 - **Scheduling:** Employer sets vacation dates, but must allow at least 7 consecutive days once per year if employee requests
 - **Part-time:** Pro-rata based on work days per week
 
@@ -39,19 +39,18 @@ This reference covers the key Israeli labor laws and regulations that govern emp
   - Day 4 onward: 100% of daily wage
 - **Medical certificate:** Required; employer may specify from which day
 - **Pregnancy/birth:** Separate provisions under Employment of Women Law
-- **Family member illness:** Employee may use up to 6 sick days per year for child illness (up to 16-year-old child), 6 days for parent illness
+- **Family member illness (charged to the employee's sick days):** a child under 16, up to 8 days a year (16 for a single parent); a spouse, up to 6; a parent, up to 6
 
 ### Hours of Work and Rest Law (Chok She'ot Avoda U'Menucha), 1951
 
 - **Standard work week:** 42 hours (reduced from 43 via the collective labor agreement extended in April 2018; further transition-order step)
-- **Standard work day (5-day week):** 8.4 hours per day
-- **Standard work day (6-day week):** 8 hours per day
+- **Standard work day (5-day week):** 8.6 hours on four days plus one fixed short day of 7.6 hours (6-day week: up to 8 hours, Friday up to 7)
 - **Overtime pay:**
   - First 2 overtime hours: 125% of regular hourly rate
   - Each additional hour: 150% of regular hourly rate
-- **Daily maximum:** 12 hours (including overtime)
+- **Daily maximum:** 12 hours including overtime, and no more than 16 overtime hours a week
 - **Weekly rest:** Minimum 36 consecutive hours; for Jewish employees, includes Shabbat (Saturday)
-- **Night work:** 7-hour day for night shifts (21:00 - 06:00)
+- **Night work:** a shift with at least 2 hours between 22:00 and 06:00 is limited to a 7-hour day
 - **Exemptions:** Certain management/trust positions may be exempt, but exemption is narrowly interpreted by courts
 
 ### Notice to Employee and Job Candidate (Employment Conditions and Screening and Hiring Procedures) Law, 5762-2002 (Chok Hodaa LeOved VeLeMuamad LaAvoda)
@@ -59,15 +58,17 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 Originally enacted as the Notification to Employee Law; the title was expanded by amendment to cover job candidates and screening and hiring procedures. Commonly still referred to as "Chok Hodaa LeOved".
 
 - **Written notice required:** Employer must provide written details of employment terms within 30 days of start
-- **Required information:**
+- **Required information (s.2(a)):**
   - Identity of employer and employee
-  - Start date
+  - Start date, and the term if the contract is fixed-term (or a statement that it is not)
   - Job description and main duties
   - Name/title of direct supervisor
-  - Total salary and breakdown of components
-  - Work day/week length
-  - Rest day
-  - All social benefits (pension, education fund, etc.)
+  - Total payments as wages and the payment dates (or grade and rank where pay follows a collective-agreement scale)
+  - Length of the regular work day or week
+  - Weekly rest day
+  - Types of social-benefit payments by employer and employee, and the bodies they are actually paid to
+  - Where a collective agreement applies through the employer or its employers' organization: the name and address of the workers' organization party to it
+  - The notice must state that it does not derogate from any right under law, extension order, collective agreement or contract
 - **Changes:** Any change in terms must be notified in writing within 30 days
 - **Penalty:** Failure to provide notification creates a rebuttable presumption in favor of the employee in disputes
 
@@ -106,7 +107,8 @@ The most significant extension order in Israeli labor law:
   - Employer: 6.5% of salary (pension) + up to 8.33% (severance component)
   - Employee: 6% of salary
 - **Fund choice:** Employee has the right to choose their pension fund
-- **Employer must deposit:** Within 7 days of salary payment
+- **Salary base:** Mandatory contributions are computed on the LOWER of the base gross salary (no overtime) and the national average wage (13,769 NIS in 2026), unless the contract provides a higher base
+- **Employer must deposit:** Within 7 business days of paying the salary, or within 15 days after the end of the month the money is for, whichever is earlier
 
 ### Convalescence Pay Extension Order (Dmei Havra'a)
 
@@ -124,23 +126,18 @@ The most significant extension order in Israeli labor law:
 
 ### Travel Allowance Extension Order
 
-- **Coverage:** Reimbursement for commuting expenses
-- **Tax-exempt ceiling:** Published annually by Tax Authority
-- **Calculation:** Based on public transport cost or per-kilometer rate for drivers
-- **Common practice:** Many employers provide fixed monthly travel allowance up to the tax-exempt ceiling
+- **Coverage:** Mandatory for every employee, at any position scope, for each day they need transport to reach work (not on days the employer provides transport). Cannot be waived
+- **Amount:** the reduced bus fare up to 22.60 NIS a day, or the cost of a monthly regional or national pass, whichever is cheaper
+- **Tax:** the reimbursement is taxable income; income tax, National Insurance and health tax are withheld from it
 
 ## Key Case Law
 
 ### Non-Compete (Haskamot Ee Tcharut)
 
-**Check Point (National Labor Court, ע"ע 164/99, Frumer and Check Point Software Technologies v. Radguard)** and subsequent rulings established that non-compete clauses are enforceable only when:
-1. Employer has a legitimate protectable interest (genuine trade secrets, not general skills)
-2. Restriction is reasonable in scope, geography, and time
-3. Employee received special consideration beyond standard compensation
-4. Restriction does not disproportionately harm the employee's livelihood
+**Check Point (National Labor Court, ע"ע 164/99, Frumer and Check Point Software Technologies v. Radguard)** (4 June 1999) and subsequent rulings held that a post-employment restriction is generally void and is given effect only if reasonable and at least ONE of these circumstances exists (an open list): a genuine trade secret with a real probability of misuse; a special, costly investment in the employee's training; special consideration paid for the restriction itself; or a duty of good faith or fiduciary duty that justifies it.
 
 **Practical impact:**
-- Courts rarely enforce non-compete beyond 6-12 months
+- Keep the duration as short as the protected interest justifies
 - Israel-wide restrictions are disfavored
 - Global restrictions are almost never enforced
 - Confidentiality clauses are far more enforceable than non-compete
@@ -195,6 +192,6 @@ Source: Income Tax Ordinance, Section 45a (<https://www.kolzchut.org.il/he/%D7%9
 
 - **Ministry of Economy and Industry (Misrad HaKalkala):** Sets minimum wage, publishes extension orders, labor inspection
 - **National Insurance Institute (Bituach Leumi):** Social insurance, work injury, maternity, unemployment
-- **Tax Authority (Rashut HaMisim / Mas Hachnasa):** Income tax withholding, employer reporting (Forms 101, 102, 126)
+- **Tax Authority (Rashut HaMisim / Mas Hachnasa):** Income tax withholding, employer reporting (Form 101 from the employee; Form 102 monthly, by the 15th, for both tax and National Insurance; Form 126 semi-annual and annual)
 - **Labor Courts (Beit Din LaAvoda):** Exclusive jurisdiction for employment disputes
 - **Pension Supervisor (Memune Al Shuk HaHon):** Regulates pension funds, education funds

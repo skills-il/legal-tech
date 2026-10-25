@@ -29,6 +29,22 @@
         "Expert review caught: live-in caregivers fall outside the Hours of Work and Rest Law overtime provisions (Gluten line) so overtime is a global payment not per-hour 125/150, and courts recognized a ~25h (not 36h) weekly rest for live-in care workers. Added.",
         "Expert review caught: the meshek-bayit NI track has its own rates (age/status dependent) and QUARTERLY cadence, NOT Step 6's regular-employer monthly Form 126 rates. Added a warning + route to the BL rates page rather than quoting a single household rate (rate-table-completeness caution)."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-10-25",
+      "lessons": [
+        "CRITICAL fixed: v1.3.0 'fix' stated hourly/daily severance as two weeks per year from s.12(א); the 1983 Rates for a Wage Worker Regulations under s.12(ב) made it one month per year from 1.8.1983. Lesson: when a statute delegates a rate to regulations, open the regulations before encoding the statute's default.",
+        "CRITICAL fixed: annual-leave table mixed calendar days (16/18/21) with work days; now statutory net table + Shortened Work Week extension order (12/17/23), calendar-year seniority, 200-day rule, youth 18 days.",
+        "CRITICAL fixed: daily/hourly notice in years 2-3 (14 + 1 per 2 months; 21 + 1 per 2 months; month after 3 years). Script boundaries use COMPLETED months.",
+        "CRITICAL fixed: Step 6 claimed per-employee BL registration within 7 days and monthly Form 126; actual: deductions file opened via Tax Authority, BL file automatic, monthly Form 102 by the 15th, Form 126 semi-annual/annual. The 7-day rule belongs to Form 101.",
+        "CRITICAL fixed: travel expenses are mandatory at any scope (22.60 NIS/day or monthly pass), non-waivable and TAXABLE; holiday pay for hourly workers after 3 months; family-illness sick days (child 8, single parent 16, spouse 6, parent 6).",
+        "CARRY resolved: pension salary base (lower of base salary and the national average wage, 13,769 NIS in 2026).",
+        "Also fixed: Section 14 automatic since 2008 for the 6% (written notice to fund for 2.33%); unfunded-period severance; workday 8.6 x 4 + 7.6 (not 8.4); non-compete test is reasonable AND one of an open list (Check Point), not 'all four'; Example 2 vs script reconciled.",
+        "Deferred MAJOR (no primary source rendered, word cap at ~4,960/5,000): global overtime and the special-trust-position exclusion for senior hires; Patents Law s.134 service-invention compensation waiver; hearing (shimua) caveat in probation; a full hourly pay path in the script (--pay-basis). Revisit next cycle; moving more body text to references may be needed first.",
+        "Description has no opening legal clause because the owner removed 'legal advice' openers 2026-10-08/09 and this skill's opener was only that clause; legal-review accepts null prefix for the legal domain.",
+        "SKILL.md body is near the 5,000-word cap; household-worker detail moved to references/household-workers.md this cycle."
+      ]
     }
   ]
 }

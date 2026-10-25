@@ -35,30 +35,40 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 3. Start Date and Probation / תאריך התחלה ותקופת ניסיון
 
 **English:**
-> The Employee's employment shall commence on [DATE] ("Start Date"). The first six (6) months of employment shall constitute a probation period ("Probation Period"). During the Probation Period, either party may terminate this Agreement by providing notice as required by law. Completion of the Probation Period shall not require any formal confirmation; employment shall continue on the same terms.
+> The Employee's employment shall commence on [DATE] ("Start Date"). The first six (6) months of employment shall constitute a probation period ("Probation Period"). During the Probation Period, either party may terminate this Agreement by providing notice as required by law. The Probation Period does not affect any statutory protection, including the Employment of Women Law. Completion of the Probation Period shall not require any formal confirmation; employment shall continue on the same terms.
 
 **Hebrew / עברית:**
-> עבודת העובד/ת תחל ביום [תאריך] ("מועד ההתחלה"). ששת (6) החודשים הראשונים להעסקה יהוו תקופת ניסיון ("תקופת הניסיון"). במהלך תקופת הניסיון, כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת כנדרש בחוק. סיום תקופת הניסיון אינו מחייב אישור פורמלי; ההעסקה תמשיך באותם תנאים.
+> עבודת העובד/ת תחל ביום [תאריך] ("מועד ההתחלה"). ששת (6) החודשים הראשונים להעסקה יהוו תקופת ניסיון ("תקופת הניסיון"). במהלך תקופת הניסיון, כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת כנדרש בחוק. תקופת הניסיון אינה גורעת מכל הגנה שבדין, לרבות לפי חוק עבודת נשים. סיום תקופת הניסיון אינו מחייב אישור פורמלי; ההעסקה תמשיך באותם תנאים.
 
 ---
 
 ## 4. Work Hours / שעות עבודה
 
 **English:**
-> The Employee shall work [5] days per week (Sunday through Thursday), [8.4] hours per day, for a total of [42] hours per week, in accordance with the Hours of Work and Rest Law, 1951 (as amended in 2018 by the expansion order shortening the standard work week). Overtime work shall be compensated at the rates prescribed by law: 125% for the first two overtime hours and 150% for each additional hour thereafter. The Employee shall be entitled to a weekly rest period of at least 36 consecutive hours.
+> The Employee shall work [5] days per week (Sunday through Thursday), [8.6] hours on four days and [7.6] hours on one fixed short day, for a total of [42] hours per week, in accordance with the Hours of Work and Rest Law, 1951 (as amended in 2018 by the expansion order shortening the standard work week). Overtime work shall be compensated at the rates prescribed by law: 125% for the first two overtime hours and 150% for each additional hour thereafter. The Employee shall be entitled to a weekly rest period of at least 36 consecutive hours.
 
 **Hebrew / עברית:**
-> העובד/ת יעבוד/תעבוד [5] ימים בשבוע (ראשון עד חמישי), [8.4] שעות ביום, סה"כ [42] שעות בשבוע, בהתאם לחוק שעות עבודה ומנוחה, תשי"א-1951 (כפי שתוקן בשנת 2018 בצו ההרחבה לקיצור שבוע העבודה). עבודה בשעות נוספות תפוצה בשיעורים הקבועים בחוק: 125% עבור שתי השעות הנוספות הראשונות ו-150% עבור כל שעה נוספת לאחר מכן. העובד/ת זכאי/ת למנוחה שבועית של 36 שעות רצופות לפחות.
+> העובד/ת יעבוד/תעבוד [5] ימים בשבוע (ראשון עד חמישי), [8.6] שעות בארבעה ימים ו-[7.6] שעות ביום מקוצר קבוע אחד, סה"כ [42] שעות בשבוע, בהתאם לחוק שעות עבודה ומנוחה, תשי"א-1951 (כפי שתוקן בשנת 2018 בצו ההרחבה לקיצור שבוע העבודה). עבודה בשעות נוספות תפוצה בשיעורים הקבועים בחוק: 125% עבור שתי השעות הנוספות הראשונות ו-150% עבור כל שעה נוספת לאחר מכן. העובד/ת זכאי/ת למנוחה שבועית של 36 שעות רצופות לפחות.
 
 ---
 
 ## 5. Salary / שכר
 
 **English:**
-> The Employee's gross monthly salary shall be [AMOUNT] NIS ("Salary"). The Salary shall be paid no later than the 9th day of the month following the month in which the work was performed, in accordance with the Protection of Wages Law, 1958. Payment shall be made by bank transfer to the Employee's designated bank account. The Employee shall receive a detailed monthly payslip as required by law.
+> The Employee's gross monthly salary shall be [AMOUNT] NIS ("Salary"). [For an hourly-paid Employee instead: The Employee's wage shall be [AMOUNT] NIS per hour, not below the statutory hourly minimum wage (35.40 NIS as of 1 April 2026), for the hours actually worked as recorded in the attendance record.] The Salary shall be paid no later than the 9th day of the month following the month in which the work was performed, in accordance with the Protection of Wages Law, 1958. Payment shall be made by bank transfer to the Employee's designated bank account. The Employee shall receive a detailed monthly payslip as required by law.
 
 **Hebrew / עברית:**
-> השכר החודשי ברוטו של העובד/ת יהיה [סכום] ש"ח ("השכר"). השכר ישולם לא יאוחר מהיום ה-9 לחודש שלאחר החודש בו בוצעה העבודה, בהתאם לחוק הגנת השכר, תשי"ח-1958. התשלום יבוצע בהעברה בנקאית לחשבון הבנק המיועד של העובד/ת. העובד/ת יקבל/תקבל תלוש שכר חודשי מפורט כנדרש בחוק.
+> השכר החודשי ברוטו של העובד/ת יהיה [סכום] ש"ח ("השכר"). [לעובד/ת בשכר שעתי במקום זאת: שכר העובד/ת יהיה [סכום] ש"ח לשעה, לא פחות משכר המינימום השעתי החוקי (35.40 ש"ח נכון ל-1 באפריל 2026), עבור השעות שעבד/ה בפועל כפי שנרשמו ברישום הנוכחות.] השכר ישולם לא יאוחר מהיום ה-9 לחודש שלאחר החודש בו בוצעה העבודה, בהתאם לחוק הגנת השכר, תשי"ח-1958. התשלום יבוצע בהעברה בנקאית לחשבון הבנק המיועד של העובד/ת. העובד/ת יקבל/תקבל תלוש שכר חודשי מפורט כנדרש בחוק.
+
+---
+
+## 5a. Travel Expenses and Holiday Pay / החזר הוצאות נסיעה ודמי חגים
+
+**English:**
+> The Employer shall reimburse the Employee's travel expenses to and from work for each day the Employee needs transport, in accordance with the extension order on travel expenses: the reduced bus fare up to the daily ceiling (22.60 NIS as of signing), or the cost of a monthly pass, whichever is cheaper. The reimbursement is taxable income. [For an hourly or daily paid Employee:] After 3 months of employment, the Employee shall be paid for holidays on which the Employee was due to work but did not, in accordance with the applicable extension order.
+
+**Hebrew / עברית:**
+> המעסיק יחזיר לעובד/ת את הוצאות הנסיעה לעבודה וממנה עבור כל יום שבו נדרשת לו/ה תחבורה, בהתאם לצו ההרחבה בדבר השתתפות המעביד בהוצאות נסיעה: תעריף נסיעה מוזל באוטובוס עד התקרה היומית (22.60 ש"ח במועד החתימה), או עלות חופשי חודשי, לפי הזול מביניהם. ההחזר הוא הכנסה החייבת במס. [לעובד/ת בשכר שעתי או יומי:] לאחר 3 חודשי עבודה ישולמו לעובד/ת דמי חגים עבור ימי חג שבהם היה/הייתה אמור/ה לעבוד ולא עבד/ה, בהתאם לצו ההרחבה החל.
 
 ---
 
@@ -68,8 +78,9 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > The Employer shall contribute to a comprehensive pension fund chosen by the Employee as follows:
 > - Pension (Tagmulim): 6.5% of the Salary (Employer) / 6% of the Salary (Employee)
 > - Severance component: 8.33% of the Salary (Employer)
+> - "Salary" for these contributions: [the Employee's full gross base salary / the base salary up to the national average wage]. The statutory minimum is the lower of the base salary and the national average wage; contributing on the full salary is a contractual undertaking and must be stated expressly.
 >
-> **Section 14 Arrangement:** In accordance with Section 14 of the Severance Pay Law, 1963, and the General Approval of the Minister of Labor dated June 30, 1998, the Employer's contributions to the pension fund as set forth above shall constitute the Employee's full and complete severance pay for the salary on which said contributions are made and for the period they are made. Upon termination of employment, the Employee shall receive the accumulated pension fund balance in lieu of calculated severance pay. The Employer shall have no further severance obligation beyond the amounts deposited.
+> **Section 14 Arrangement:** In accordance with Section 14 of the Severance Pay Law, 1963, and the General Authorization of the Minister of Labour under it (י"פ תשנ"ח 4394), as applied by the extension order for comprehensive pension insurance, the Employer's contributions to the pension fund as set forth above shall constitute the Employee's full and complete severance pay for the salary on which said contributions are made and for the period they are made. Upon termination of employment, the Employee shall receive the accumulated pension fund balance in lieu of calculated severance pay. The Employer shall have no further severance obligation in respect of that salary and that period. [If the severance component is 8.33%:] The Employer shall notify the fund in writing, with a copy to the Employee, that Section 14 also applies to the 2.33% completion of severance pay.
 >
 > The Employee acknowledges and agrees to this Section 14 arrangement.
 >
@@ -79,8 +90,9 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > המעסיק יפריש לקרן פנסיה מקיפה לבחירת העובד/ת כדלקמן:
 > - תגמולים: 6.5% מהשכר (מעסיק) / 6% מהשכר (עובד/ת)
 > - פיצויים: 8.33% מהשכר (מעסיק)
+> - "שכר" לעניין ההפרשות: [מלוא שכר הבסיס ברוטו של העובד/ת / שכר הבסיס עד גובה השכר הממוצע במשק]. המינימום החוקי הוא הנמוך מבין שכר הבסיס לבין השכר הממוצע במשק; הפרשה על מלוא השכר היא התחייבות חוזית ויש לציין אותה במפורש.
 >
-> **הסדר סעיף 14:** בהתאם לסעיף 14 לחוק פיצויי פיטורים, תשכ"ג-1963, ולאישור הכללי של שר העבודה מיום 30 ביוני 1998, הפרשות המעסיק לקרן הפנסיה כמפורט לעיל יהוו את מלוא פיצויי הפיטורים של העובד/ת בגין השכר שעליו בוצעו ההפרשות ובגין התקופה שבעדה בוצעו. עם סיום ההעסקה, העובד/ת יקבל/תקבל את יתרת קרן הפנסיה המצטברת במקום פיצויי פיטורים מחושבים. למעסיק לא תהיה חובת פיצויים נוספת מעבר לסכומים שהופקדו.
+> **הסדר סעיף 14:** בהתאם לסעיף 14 לחוק פיצויי פיטורים, תשכ"ג-1963, ולאישור הכללי של שר העבודה לפיו (י"פ תשנ"ח 4394), כפי שהוחל בצו ההרחבה לביטוח פנסיוני מקיף, הפרשות המעסיק לקרן הפנסיה כמפורט לעיל יהוו את מלוא פיצויי הפיטורים של העובד/ת בגין השכר שעליו בוצעו ההפרשות ובגין התקופה שבעדה בוצעו. עם סיום ההעסקה, העובד/ת יקבל/תקבל את יתרת קרן הפנסיה המצטברת במקום פיצויי פיטורים מחושבים. למעסיק לא תהיה חובת פיצויים נוספת בגין אותו שכר ואותה תקופה. [אם רכיב הפיצויים הוא 8.33%:] המעסיק יודיע לקופה בכתב, עם העתק לעובד/ת, שסעיף 14 חל גם על השלמת פיצויי הפיטורים בשיעור 2.33%.
 >
 > העובד/ת מאשר/ת ומסכים/ה להסדר סעיף 14 זה.
 >
@@ -127,7 +139,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > - Years 16-19: 9 days
 > - Year 20+: 10 days
 >
-> Payment shall be calculated at the prevailing daily rate as published by the Ministry of Economy. Payment is typically made as an annual lump sum in June or July.
+> Entitlement arises only after the Employee completes 12 months of employment, and is then paid retroactively from the Start Date. Payment shall be pro-rated to the Employee's position scope and calculated at the daily rate in force for the havra'a year paid. Payment is typically made as an annual lump sum in June or July.
 
 **Hebrew / עברית:**
 > העובד/ת זכאי/ת לדמי הבראה בהתאם לצו ההרחבה החל, לפי לוח הזמנים הבא:
@@ -138,27 +150,27 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > - שנים 16-19: 9 ימים
 > - שנה 20+: 10 ימים
 >
-> התשלום יחושב לפי התעריף היומי העדכני כפי שמפורסם על ידי משרד הכלכלה. התשלום מבוצע בדרך כלל כסכום חד-פעמי שנתי ביוני או יולי.
+> הזכאות נוצרת רק לאחר שהעובד/ת משלים/ה 12 חודשי עבודה, ואז משולמת רטרואקטיבית ממועד ההתחלה. התשלום יחושב באופן יחסי להיקף המשרה ולפי התעריף היומי שבתוקף לשנת ההבראה שעבורה משולם. התשלום מבוצע בדרך כלל כסכום חד-פעמי שנתי ביוני או יולי.
 
 ---
 
 ## 9. Annual Leave / חופשה שנתית
 
 **English:**
-> The Employee shall be entitled to paid annual leave in accordance with the Annual Leave Law, 1951:
-> - Years 1-4: 12 work days per year
-> - Year 5: 16 work days per year
-> - Year 6: 18 work days per year
-> - Year 7+: 21 work days per year
+> The Employee shall be entitled to paid annual leave of no less than the minimum under the Annual Leave Law, 1951, and, where it applies, the extension order on the shortened work week, whichever is higher. For a 5-day work week, in work days per calendar year of seniority:
+> - Years 1-5: 12 work days
+> - Year 6: [14 under the statute / 17 under the extension order] work days
+> - Years 7-8: [15 and 16 under the statute / 17 under the extension order] work days
+> - Year 9 onward: [17 rising to 20 under the statute / 23 under the extension order] work days
 >
 > Leave scheduling shall be coordinated with the Employer. The Employee is entitled to at least one vacation period of 7 or more consecutive days per year upon request. Unused leave may accumulate as permitted by law.
 
 **Hebrew / עברית:**
-> העובד/ת זכאי/ת לחופשה שנתית בתשלום בהתאם לחוק חופשה שנתית, תשי"א-1951:
-> - שנים 1-4: 12 ימי עבודה בשנה
-> - שנה 5: 16 ימי עבודה בשנה
-> - שנה 6: 18 ימי עבודה בשנה
-> - שנה 7+: 21 ימי עבודה בשנה
+> העובד/ת זכאי/ת לחופשה שנתית בתשלום שלא תפחת מהמינימום לפי חוק חופשה שנתית, תשי"א-1951, ובמקום שהוא חל, לפי צו ההרחבה לשבוע עבודה מקוצר, הגבוה מביניהם. לשבוע עבודה של 5 ימים, בימי עבודה לכל שנה קלנדרית של ותק:
+> - שנים 1-5: 12 ימי עבודה
+> - שנה 6: [14 לפי החוק / 17 לפי צו ההרחבה] ימי עבודה
+> - שנים 7-8: [15 ו-16 לפי החוק / 17 לפי צו ההרחבה] ימי עבודה
+> - משנה 9 ואילך: [17 ועד 20 לפי החוק / 23 לפי צו ההרחבה] ימי עבודה
 >
 > תיאום מועדי החופשה ייעשה עם המעסיק. העובד/ת זכאי/ת לפחות לתקופת חופשה אחת של 7 ימים רצופים או יותר בשנה לפי בקשה. ימי חופשה שלא נוצלו יצטברו כמותר בחוק.
 
@@ -192,7 +204,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > - Months 7-12 of employment: 6 days plus 2.5 days for each month beyond the 6th
 > - After 1 year of employment: 30 days (one month)
 >
-> For a DAILY/HOURLY-paid employee (oved be'sachar) the first-year ladder differs: 1 day of notice per month worked across the whole first year (up to 12 days at year-end); after 1 year the entitlement reaches 30 days (one month).
+> For a DAILY/HOURLY-paid employee (oved be'sachar): 1 day of notice per month worked during the first year; during the second year, 14 days plus 1 day for every two months worked in that year; during the third year, 21 days plus 1 day for every two months worked in that year; after 3 years, 30 days (one month).
 >
 > During the notice period, the Employee shall continue to fulfill their duties unless otherwise agreed. The Employer may waive the notice period and pay the Employee in lieu of notice.
 
@@ -202,7 +214,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > - חודשים 7-12 להעסקה: 6 ימים ועוד 2.5 ימים לכל חודש מעבר לשישי
 > - לאחר שנת עבודה: 30 ימים (חודש)
 >
-> לעובד בשכר (יומי/שעתי) הסולם של השנה הראשונה שונה: יום הודעה אחד לכל חודש עבודה לכל אורך השנה הראשונה (עד 12 ימים בסוף השנה); לאחר שנה הזכאות מגיעה ל-30 ימים (חודש).
+> לעובד בשכר (יומי/שעתי): יום הודעה אחד לכל חודש עבודה בשנה הראשונה; בשנה השנייה, 14 ימים ועוד יום אחד לכל שני חודשי עבודה באותה שנה; בשנה השלישית, 21 ימים ועוד יום אחד לכל שני חודשי עבודה באותה שנה; אחרי 3 שנים, 30 ימים (חודש).
 >
 > במהלך תקופת ההודעה המוקדמת, העובד/ת ימשיך/תמשיך למלא את תפקידו/ה אלא אם הוסכם אחרת. המעסיק רשאי לוותר על תקופת ההודעה המוקדמת ולשלם לעובד/ת תמורת הודעה מוקדמת.
 
@@ -251,14 +263,14 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 14. Non-Compete / אי-תחרות
 
 **English:**
-> For a period of [6-12] months following the termination of employment, the Employee shall not, directly or indirectly, engage in employment, consulting, or any business activity with the following entities: [LIST SPECIFIC COMPETITORS].
+> For a period of [NUMBER, as short as the protected interest justifies] months following the termination of employment, the Employee shall not, directly or indirectly, engage in employment, consulting, or any business activity with the following entities: [LIST SPECIFIC COMPETITORS].
 >
 > This restriction is limited to [SPECIFIC FIELD/SCOPE] and to the geographic area of [SPECIFY].
 >
 > The parties acknowledge that this clause is subject to Israeli law and the balancing test applied by Israeli courts, weighing the Employer's legitimate business interests against the Employee's fundamental right to earn a livelihood as protected by Basic Law: Human Dignity and Liberty. This clause shall be interpreted narrowly and shall not apply to the extent it is found unenforceable.
 
 **Hebrew / עברית:**
-> למשך תקופה של [6-12] חודשים לאחר סיום ההעסקה, העובד/ת לא יעסוק/תעסוק, במישרין או בעקיפין, בהעסקה, ייעוץ או כל פעילות עסקית עם הגופים הבאים: [רשימת מתחרים ספציפיים].
+> למשך תקופה של [מספר, קצר ככל שהאינטרס המוגן מצדיק] חודשים לאחר סיום ההעסקה, העובד/ת לא יעסוק/תעסוק, במישרין או בעקיפין, בהעסקה, ייעוץ או כל פעילות עסקית עם הגופים הבאים: [רשימת מתחרים ספציפיים].
 >
 > הגבלה זו מוגבלת לתחום [תחום/היקף ספציפי] ולאזור הגיאוגרפי של [לפרט].
 >
