@@ -65,6 +65,39 @@
           "I already started the job three months ago and my employer hasn't paid pension (negative, routes to workplace-rights)"
         ]
       }
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-10-25",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "H1 at-will pre-signing (he)",
+          "H2 net salary from gross (negative, payroll)",
+          "H3 18-month client non-solicit before signing"
+        ]
+      },
+      "resolved": [
+        "Carry resolved: references/standard-negotiation-language.md now has wording for 18 red flags (was 8).",
+        "Carry resolved: weekly rest and on-call (additional-clause-checks §2, incl. s.9D1 hiring-condition ban); non-solicitation (§1, stated as unsettled); Notice to Employee Law consequences (s.5, s.5A) in notice-to-employee-disclosures.md; youth minimum wage table; s.45a figure made exact (8,148 / 679, unchanged since 2024); pay secrecy (§6, regional ruling, not binding); Employment of Women hora'at sha'a noted to 31.3.2027.",
+        "Carry closed as out of scope (domain-checklist.md): resignation deemed dismissal ss.6/7/8 (post-hire, workplace-rights sibling); remote work from abroad (no primary source verified, nothing asserted).",
+        "Deferred LOW (legal gate, 1.3.0) closed: the gate re-ran with no TIER_A_TAX requirement; verdict PASS."
+      ],
+      "lessons": [
+        "Three rounds: judge r1 found 13 snippet/claim mismatches plus Section 14 'needs the General Authorization' (wrong since 2008); expert r1 found 2 CRITICALs (keren hishtalmut above the ceiling graded as a defect; overtime daily norm missing); arithmetic r1 found notice at 12 completed months scored 21 instead of 30, leave year off by one, and an impossible 120-125% employer-cost band.",
+        "Repair introduced defects twice: the author's first 8.6-hour sentence said 8.6 net on all five days is not overtime (Kol Zchut: one overtime hour on the short day), and the part-time leave note overcorrected to 'same days for all part-timers' (days pro-rate below 200 / 240 working days). Both caught on re-review.",
+        "A reviewer asserted the '14 notice days outside leave' rule was unsourced; Kol Zchut states it. Verified, kept.",
+        "Deferred MINOR (expert): notice below the statute graded Blocker regardless of which party it binds; consider Major for an employer-side void shortfall.",
+        "Deferred MINOR (expert): s.41A2 protection for an employee whose spouse or co-parent serves in reserves (and the 2026 temporary provision).",
+        "Deferred MINOR (expert): missing start date graded Blocker; consider Major.",
+        "Deferred MINOR (expert): outside-work/exclusivity bans, employee warranties and indemnities, the 14-day notice before leave of more than 7 days.",
+        "Deferred MINOR: the script still grades leave and sick days for a full-time 5-day week only (no 6-day week, no days-worked pro-rating); the prose covers it.",
+        "Sibling disagreement for the lead: israeli-employment-contracts states the non-compete test as cumulative (all four conditions) and says Israeli law has no work-for-hire for works (Copyright Law s.34 says otherwise); its leave table mixes gross and net (year 5 = 16, year 6 = 18 labelled as 5-day net)."
+      ]
     }
   ]
 }

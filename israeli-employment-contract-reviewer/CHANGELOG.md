@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.5.0] - 2026-10-25
+
+### Fixed
+- Pension waiting period: the test is whether the candidate held pension insurance at hire (and whether a branch extension order gives day 1), not "first job". Step 1 now asks it, with the age threshold (21 men, 20 women).
+- Non-compete: any ONE legitimate interest (trade secret, special consideration, special funded training, good faith) can support a restriction, so a paid non-compete is more likely to be enforced, not less. The test was stated as cumulative.
+- Section 14: applies automatically since 2008 to the mandatory severance deposits; the "double liability" row and the "needs the General Authorization" framing are gone. The loss from a narrow salary definition is on fixed components that enter the severance base, not bonuses or overtime. Added the salary-raise trade-off.
+- Inventions: "Employee Inventions Law" does not exist. Now Patents Law s.132 and s.134 (compensation waiver) and Copyright Law s.34.
+- Notice: 12 completed months carries a month's notice (partial months are not counted); the hourly schedule moves at 12, 24 and 36 completed months.
+- Annual leave: the statute alone gives 17 net days in year 9, not 15. The script's gross-to-net conversion now matches Kol Zchut row for row, leave seniority counts by calendar year, part-time workers accrue the same number of days, and a minor gets 18.
+- Overtime: the 42-hour week is from an extension order in force since 1 April 2018; added the 5-day (8.6 / 7.6) and 6-day (8 / 7) daily norms so a lawful Sunday to Thursday schedule is not flagged. Global overtime remedy re-sourced.
+- Keren hishtalmut above the tax ceiling is a note, not a defect, and is no longer negotiated down.
+- Payslip duty re-cited to Wage Protection Law s.24; payday to ss.9-10. The Notice to Employee list now follows s.2 (direct supervisor, workers' organisation, contractor terms, the no-derogation statement).
+- Pregnancy carve-out graded Minor when the contract is merely silent, since the protection applies regardless.
+- Severity labels aligned between SKILL.md and the red-flag checklist. Unsourced figures removed (confidentiality "3-5 years", the 120-125% employer-cost band).
+- `scripts/contract_sanity_check.py`: `--non-pension-fund` (5% tagmulim floor), `--full-section-14` (8.33% only when a full waiver is intended), `--leave-year`, `--minor`.
+
+### Added
+- `references/additional-clause-checks.md`: non-solicitation, rest-day work and on-call duty (s.9D1), longer contractual notice, leave forfeiture, manpower contractors, pay secrecy, minors, privacy and monitoring.
+- Miluim: the 29.4.2026 extension order adds 30 days of dismissal protection and bars unpaid leave for reservists with 60+ days in the year.
+- Youth minimum wage table (from 1 April 2026), Notice to Employee Law consequences (s.5, s.5A), ten more negotiation clauses, `references/domain-checklist.md`.
+- Step 1 asks for every annex (NDA and IP assignment, option plan, policies).
+
+### Changed
+- Descriptions no longer open with "Not legal advice" / "אינו ייעוץ משפטי", per the owner decision of 2026-10-08/09. The legal notice section is unchanged.
+
 ## [1.4.0] - 2026-08-30
 
 ### Fixed

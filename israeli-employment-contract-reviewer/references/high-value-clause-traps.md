@@ -14,8 +14,9 @@ is purely contractual.
 
 So a clause reading "pension in accordance with law" or "as required by the Expansion Order" on
 a salary above the ceiling lawfully funds only the part up to it. Every shekel above the ceiling
-carries no statutory contribution at all, and the gap silently shrinks the severance component
-too.
+carries no statutory contribution at all. The severance for that slice is not lost on a
+dismissal, because the statutory liability remains, but the employee loses it on resignation and
+loses the fund growth on it.
 
 **What to check:** does the contract state the base the percentages apply to? **What to ask
 for:** "contributions shall be computed on the employee's full gross salary, with no ceiling."
@@ -33,8 +34,8 @@ document the candidate never sees before signing.
   25%. Outside that track the gain is ordinary employment income at marginal rates. A contract
   silent on the route is a major finding, not a footnote.
 - **The trustee must hold the options, or the shares issued on their exercise, for a blocking
-  period of at least two years.** Sources differ on whether that clock runs from the allocation
-  date or from the end of the tax year of allocation, so confirm the plan's own wording. A
+  period of 24 months from the day the shares were allotted and deposited with the trustee**
+  (Income Tax Ordinance s.102, capital-gains track). A
   disposal inside the blocking period collapses the capital track.
 - **The plan and the trustee arrangement must be in place before the grant.** Ask the employer
   which route the plan uses and when it was filed rather than assuming it qualifies.
@@ -79,8 +80,14 @@ vacation, and havra'a simultaneously. Ask for express continuity of seniority fo
 
 Section 41A of the Discharged Soldiers (Return to Work) Law prohibits dismissal because of
 reserve service, and dismissal during service or within 30 days of its end requires a permit
-from the employment committee where the service passed the statutory threshold. Reserve pay is
-routed through the employer, who is reimbursed by Bituach Leumi. Ask for pension accrual to
+from the employment committee where the service passed the statutory threshold. An extension
+order published 29 April 2026 (Yalkut HaPirsumim 14498) widens this for a reservist who served
+60 or more cumulative reserve days in the calendar year, including at least seven consecutive
+days: the dismissal ban also covers the 30 days that follow those first 30, unless there are
+special reasons and the dismissal is not because of the service. The same order bars sending a
+reservist on unpaid leave (chal"at) in the 30 days that follow the statutory 30, unless there
+are special reasons unrelated to the service and the employee consents, or the employee asks
+for it. Ask for pension accrual to
 continue during service, and reject any clause treating reserve absence as unpaid leave or as a
 performance factor.
 
@@ -101,12 +108,12 @@ A fixed allowance is the case where a base-only definition genuinely costs the e
 
 ## 8. The Section 30(a)(5) "position of special trust" recital
 
-A clause reciting that the role is one of management or requires a special degree of personal
-trust, and that the Hours of Work and Rest Law therefore does not apply, is the companion trap
-to global overtime. Section 30(a)(5) is read narrowly: it needs genuine autonomy over one's own
-hours, no attendance reporting, and seniority and pay commensurate with management. An employer
-that requires the employee to clock in has usually defeated its own defence. The recital in the
-contract does not bind a court, so flag it and check the attendance-reporting clause.
+Hours of Work and Rest Law s.30(a)(5) excludes "employees in management roles or in roles that
+require a special degree of personal trust" from the hours and overtime rules. A clause reciting
+that the role is such a position, and that the law therefore does not apply, is the companion trap
+to global overtime. The recital is a claim to check, not a conclusion: whether a role qualifies is
+decided on its actual facts. Flag it, and note any clause elsewhere requiring attendance
+reporting or fixed hours, which sits awkwardly with the claim.
 
 ## Sources
 
@@ -126,13 +133,13 @@ Each row is `Red flag | Why it is a problem | Action`.
 | Red flag | Why it is a problem | Action |
 |----------|--------------------|---------|
 | "Pension contributions in accordance with law / the Expansion Order", with no salary base stated | The Expansion Order compels contributions only on the LOWER of base gross or the average wage in the economy (13,769 NIS per month in 2026). On a salary well above that ceiling a "per law" clause lawfully funds only the part up to it, and the employee usually discovers this years later | Major, and among the most expensive silent terms in an Israeli tech contract. Require "contributions computed on full gross salary with no ceiling" |
-| "The employee's position is one of management or requires a special degree of personal trust, therefore the Hours of Work and Rest Law shall not apply" | Recites section 30(a)(5), the companion trap to global overtime. Read narrowly: it needs genuine autonomy over one's hours and no time reporting, and the recital does not bind a court | Major. Flag it, and check whether the contract elsewhere requires attendance reporting |
+| "The employee's position is one of management or requires a special degree of personal trust, therefore the Hours of Work and Rest Law shall not apply" | Recites the s.30(a)(5) exclusion, the companion trap to global overtime. The recital does not decide whether the role qualifies; the facts do | Major. Flag it, and check whether the contract elsewhere requires attendance reporting or fixed hours |
 | Fixed-term contract with no early-exit clause, or a term ending just short of 12 months | Severance Pay Law section 9 deems non-renewal a dismissal that triggers severance; section 3 presumes dismissal shortly before the first year was severance avoidance. Early employer termination owes the balance of the term unless an exit clause exists | Major. An 11-month term is the classic avoidance pattern |
 | "The employer may recover or retain the severance component on dismissal in circumstances not entitling the employee to severance" | Severance is denied or reduced only under sections 16 to 17, and only by a labour court. The Section 14 General Authorization also requires the employer to waive recovery IN ADVANCE | Blocker. Void, and next to a Section 14 clause it can defeat the waiver itself |
 | Clause terminating employment on a sale, merger or intra-group transfer and re-hiring the employee as a new starter | Resets seniority for severance, notice, vacation and havra'a. Israeli law treats continuity across a change of employer as substantive | Major. Require express continuity of seniority on any transfer or change of control |
 | "The employer may vary the role, terms, reporting line or place of work at its discretion" | It cannot authorise a unilateral pay cut, and a material worsening lets the employee resign WITH severance under section 11(a) | Major. Carve out pay, scope and location, and preserve the section 11(a) right expressly |
-| Contract silent on miluim, or treating reserve absence as unpaid leave or a performance factor | Section 41A of the Discharged Soldiers (Return to Work) Law bars dismissal because of reserve service, and dismissal during service or within 30 days of its end needs a permit from the employment committee | Blocker for a penalising clause, major for silence. Require pension accrual to continue during service |
+| Contract silent on miluim, or treating reserve absence as unpaid leave or a performance factor | Section 41A of the Discharged Soldiers (Return to Work) Law bars dismissal because of reserve service, and dismissal during service or within 30 days of its end needs a permit from the employment committee. The 29.4.2026 extension order adds a further 30 days of dismissal protection for a reservist with 60+ cumulative days in the year including 7 consecutive, and bars unpaid leave in the 30 days after the statutory 30 | Blocker for a penalising clause, major for silence. Require pension accrual to continue during service |
 | Option or RSU grant with no stated Section 102 route, no post-termination exercise window and no acceleration terms | The grant is often worth more than a year of salary. The trustee capital-gains track taxes the gain at 25% and needs a two-year trustee holding period; outside it the gain is ordinary income at marginal rates. A 90-day exercise window is what most often destroys a grant entirely | Major. Name the 102 route, state the window, spell out acceleration. See `references/high-value-clause-traps.md` |
 | "The employee shall use accrued vacation during the notice period", or an advance-notice clause silent on garden leave | The employer may not force the employee to consume accrued leave during the notice period unless it does so in good faith and for genuine operational reasons, and at least 14 days of the notice period must fall outside vacation. Separately, the employer may waive actual work and pay `chalef hoda'a mukdemet` instead, which ends the relationship immediately. Section 4A of the Sick Pay Law also bars dismissal during an employee's accrued sick-pay entitlement, subject to the exceptions in s.4A(b) | Major. Strike the forced-vacation clause or cap it so at least 14 notice days stay outside leave, and make the garden-leave option explicit and symmetrical |
-| Clause permitting "immediate dismissal without notice or hearing", or defining cause so broadly that every dismissal becomes one | The right to a hearing (`shimua`) is a good-faith duty applied to private employers and cannot be waived in advance | Major. Strike the waiver and require a hearing before any dismissal decision |
-| Keren hishtalmut stated as a percentage of full salary with no ceiling | Employer contributions above the tax-exempt salary ceiling (15,712 NIS per month in 2026) are taxed to the employee in the month of deposit | Minor to major by salary. Cap at the ceiling or state who bears the tax above it |
+| Clause permitting "immediate dismissal without notice or hearing", or defining cause so broadly that every dismissal becomes one | The right to a hearing (`shimua`) before dismissal belongs to every employee whatever their tenure, and the National Labour Court has applied it in the private sector as well as the public one | Major. Strike the clause and require a hearing before any dismissal decision |
+| Keren hishtalmut stated as a percentage of full salary with no ceiling | Not a defect. Employer contributions above the tax-exempt salary ceiling (15,712 NIS per month in 2026) are still the employee's money; the excess is simply taxed as the employee's income in the month of deposit | Note only. Tell the employee about the tax so it is not a surprise; do not ask to cap the contribution |
