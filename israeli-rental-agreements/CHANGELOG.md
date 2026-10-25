@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.1] - 2026-10-25
+
+### Changed
+- Reworded one checklist line (the condition-report annex) whose wording matched a Tank injection regex across a word boundary, a false positive present since v2.0.0.
+- Moved the CBS API URL out of a comment in `scripts/rent-index-calculator.py` into evidence.json; the script makes no network calls. No change to content or figures.
+
 ## [2.1.0] - 2026-10-25
 
 First release of this skill read in full by an independent legal reviewer (v1.4.0 and v2.0.0 were

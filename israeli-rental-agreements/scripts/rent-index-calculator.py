@@ -29,8 +29,9 @@ from datetime import datetime
 
 CPI_DATA = {
     # Chain-linked Consumer Price Index, general index (CBS series 120010).
-    # Retrieved from the official CBS API on 2026-08-29, extended to 2026-09 on 2026-10-25:
-    #   https://api.cbs.gov.il/index/data/price?id=120010&format=json
+    # Retrieved from the official CBS price-index API (series 120010) on
+    # 2026-08-29, extended to 2026-09 on 2026-10-25. The source URL is recorded
+    # in evidence.json (claim cbs-cpi-api); this script makes no network calls.
     # The published series changes base periodically (2020, 2022 and 2024
     # averages all appear in this range), so raw published values are NOT
     # comparable across a base change. These figures are chain-linked to a

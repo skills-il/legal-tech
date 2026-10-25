@@ -469,7 +469,7 @@
       "raw_snippet": "מדד המחירים לצרכן - כללי",
       "fetched_at": "2026-10-25T09:30:00+00:00",
       "appears_in": [
-        "scripts/rent-index-calculator.py"
+        "scripts/rent-index-calculator.py (comment, by claim id)"
       ]
     },
     {

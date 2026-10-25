@@ -87,7 +87,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 
 1. **Always get a signed receipt** (kabala, קבלה) listing the exact amount and date
 2. **Photograph the apartment** on move-in day with timestamps. Send photos to the landlord by email for a documented record
-3. **Create a property condition report** (protokol matzav dira, פרוטוקול מצב דירה) and attach it to the contract as an appendix (nispach, נספח)
+3. **Create a property condition report** (protokol matzav dira, פרוטוקול מצב דירה) and annex it to the contract (nispach, נספח)
 4. **For bank guarantees**: ensure the guarantee document specifies the same conditions as the contract for releasing funds
 5. **For personal guarantors**: have the deed state a fixed sum, which caps their exposure by contract. Against a private landlord, Guarantee Law chapter 2 (s.21, s.27) does not apply, so the contract is what protects them
 6. **Never agree to a shtar chov** without consulting a lawyer. A shtar chov can be enforced as debt through the Execution Office without a court hearing
