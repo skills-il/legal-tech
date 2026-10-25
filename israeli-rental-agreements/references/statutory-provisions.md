@@ -38,7 +38,11 @@ treated as the contract between them; if a provision required by 25ג is missing
 did not agree otherwise, the model lease's provision on that matter is read in.
 
 Before relying on this, confirm whether such regulations have in fact been prescribed and are
-in force. If they have not, the route is unavailable and the answer changes.
+in force. If they have not, the route is unavailable and the answer changes. Status as of
+October 2026: the Minister circulated DRAFT regulations for public comment on 2.2.2026 (comments
+closed 23.2.2026), covering an extension option with CPI-linked rent and the landlord's repair
+duty. We found no publication of final regulations, so treat 25ד as not yet operative and
+re-check before relying on it.
 
 ## 25ה / 25ו - Suitable for living, and fit for habitation
 
@@ -87,10 +91,33 @@ damage was caused by unreasonable use.
 - 9(ב): a tenant intending to self-repair must give the landlord reasonable advance notice.
 - 9(ג): no notice is required where the defect is urgent.
 
-These are two different remedies and neither is "deduct the invoice from the rent". Remedy (2) is
-measured by lost value, not by repair cost. A tenant who simply pays less rent is in arrears,
-which gives the landlord a 25י(ג)(1) ground to realise the guarantee and a basis to sue for
-possession.
+These are two different remedies. Remedy (2) is measured by lost value, not by repair cost.
+
+### Section 25 - set-off
+
+`חובות שהצדדים חבים זה לזה עקב השכירות ניתנים לקיזוז`: debts the parties owe each other by reason
+of the tenancy may be set off. Section 25 sits inside the "23 to 25ה" range of 25יד(2), so in a
+residential lease it can be varied only in the tenant's favour: a clause barring set-off is void.
+So a tenant who demanded the repair, waited out the 25ח(ב) period, gave the 9(ב) notice (unless
+urgent) and repaired, holds a 9(א)(1) debt for reasonable expenses that may be set off against
+rent. What is NOT protected is withholding rent without following that procedure, or setting off
+more than reasonable expenses: if the set-off is not justified, the shortfall is arrears, which
+gives the landlord a 25י(ג)(1) ground to realise the guarantee and a basis to sue for possession.
+
+### Section 22 - assignment and sub-letting
+
+22(א): the tenant may not assign the lease or sublet without the landlord's consent; but if the
+landlord refuses on unreasonable grounds or sets unreasonable conditions, then in a lease of land
+the tenant may make the transaction without consent (22(א)(1)), and the court may permit it on
+conditions it sees fit, in a lease of land `על אף האמור בחוזה השכירות` (22(א)(2)). 22(ב): for
+land, consent is given in advance and in writing. Section 22 is not in the 25יד(2) list, so a
+contract may arguably vary 22(א)(1), but it cannot remove the court's 22(א)(2) power.
+
+### Section 19 - no agreed term, or holding over
+
+19(א): where no term was agreed, or the parties carried on after the agreed term without fixing a
+new one, either party may end the tenancy by reasonable advance notice. Section 11 obliges the
+landlord to allow use of the apartment without disturbance by them or on their behalf.
 
 ## 25ט - Payments
 
@@ -118,9 +145,9 @@ cheque and a guarantors' deed.
 
 **25י(ב)** caps the CUMULATIVE amount of guarantees `הכרוכה בהוצאה כספית לשוכר`, expressly a bank
 guarantee or cash, at the lower of: the rent for one third of the lease term, or three months'
-rent. From 30.9.2026, per ס"ח 3510 of 31.3.2026, a guarantee from a `נותן ערבות אחר` (a licensed
+rent. Since 30.9.2026, per ס"ח 3510 of 31.3.2026, a guarantee from a `נותן ערבות אחר` (a licensed
 credit provider, a deposit-and-credit services licensee, a stablecoin payment-services licensee,
-or an insurer) is added alongside the bank guarantee and counts inside the same ceiling.
+or an insurer) sits alongside the bank guarantee and counts inside the same ceiling.
 
 **A lease with an option.** 25י(ב)(1) measures the ceiling against the rent payable
 `בעד שליש מתקופת השכירות`. Where the lease carries an option to extend, it is not settled whether
@@ -181,7 +208,8 @@ student, pupil or worker dormitories; one subject to the Tenant Protection Law; 
 months or less with no option to extend; a lease over ten years where the landlord has no right to
 cancel earlier; a lease whose monthly rent EXCEEDS 20,000 NIS or another sum set by the Minister,
 that sum being updated on 1 January each year by the change in the CPI, rounded to the nearest
-10 NIS and published in רשומות; and other classes the Minister prescribes.
+10 NIS and published in רשומות (the CPI has risen since 2017, so the current figure is above
+20,000); and other classes the Minister prescribes.
 
 **25טו(ב) does NOT exclude family leases.** It provides only that section 25יד(2) does not apply
 to a lease between a landlord and a tenant who is their `קרוב` (spouse, sibling, parent,
@@ -196,13 +224,25 @@ prohibitions in 25ט(ב) fall on the LANDLORD, not on the head tenant.
 ## חוק הערבות, התשכ"ז-1967 - guarantors
 
 Relevant whenever a lease is backed by personal guarantors, which the 25י(ב) ceiling does not
-reach. Chapter 2 of the Guarantee Law applies to a guarantee given by an `ערב יחיד`.
+reach.
+
+**Scope first.** Chapter 1 binds every guarantor. **s.8**: the guarantor and the debtor are liable
+jointly and severally, but the creditor may not demand performance from the guarantor without first
+demanding it from the debtor, unless the guarantor waived that, a receivership or winding-up order
+was made against the debtor, or the debtor died, is abroad, or the demand involves special
+difficulty. Chapter 2 (ss.18-32) applies only to a guarantee an `ערב יחיד` gives to a `נושה`, and
+s.19 defines `נושה` as `מי שמתן הלוואות הוא במהלך עסקיו הרגיל, אף אם אינו עיסוקו העיקרי`, someone
+who lends money in the ordinary course of business. A private landlord is normally not a נושה, so
+the chapter 2 rules below usually do NOT protect a residential-lease guarantor. They matter where
+the creditor is, for example, a bank or a licensed credit provider.
 
 - **s.19** `ערב יחיד`: a guarantor who is not a corporation, excluding the debtor's spouse and the debtor's partner. `ערב מוגן`: an ערב יחיד whose guarantee contract states a sum not exceeding a statutory ceiling (a higher ceiling applies where the guaranteed obligation is for buying a home for the debtor, their adult children or their parents).
-- **s.20** those ceilings are updated on 1 January and 1 July each year by the CPI. Check the current published figure rather than quoting an old one. A residential-lease guarantee is normally well below the lower ceiling, so the guarantor is usually an ערב מוגן.
+- **s.20** those ceilings are updated on 1 January and 1 July each year by the CPI. Check the current published figure rather than quoting an old one.
 - **s.21(א)** an ערב יחיד guarantees only the sum stated in the guarantee contract, plus the additions in s.25. **s.21(ב): if no fixed sum is stated, the ערב יחיד is released from the guarantee entirely.**
 - **s.22-23** the creditor must disclose specified particulars to an ערב יחיד before the guarantee is made, with consequences for non-disclosure.
 - **s.27** an action may not be brought against an ערב מוגן until judgment has been given against the debtor AND the Execution Registrar has certified that all reasonable execution proceedings against the debtor were taken. Narrow exceptions apply where the debtor has died, been declared incapable, had a receivership order made, or left the country permanently.
 
-So a guarantors' deed is not the open-ended exposure it looks like: an unstated sum releases the
-guarantor outright, and a protected guarantor cannot be pursued before the tenant has been.
+So where chapter 2 applies, an unstated sum releases the guarantor outright and a protected
+guarantor cannot be pursued before the tenant has been. Against an ordinary private landlord,
+only s.8 applies, and a fixed sum in the deed protects the guarantor only because the contract
+says so.

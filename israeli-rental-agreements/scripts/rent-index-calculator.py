@@ -10,11 +10,16 @@ this script calculates the adjusted rent based on historical CPI changes.
 
 Usage:
     python scripts/rent-index-calculator.py --rent 5000 --start-date 2024-01 --end-date 2026-03
-    python scripts/rent-index-calculator.py --rent 7500 --start-date 2023-06 --end-date 2025-12
+    python scripts/rent-index-calculator.py --rent 7500 --start-date 2025-08 --end-date 2026-09 --floor
 
-Note: This script uses approximate CPI data based on publicly available indices
-from the Central Bureau of Statistics (CBS / Lishkat HaStatistika HaMerkazit).
-For exact calculations, consult the official CBS data at www.cbs.gov.il.
+--floor applies a floor clause (rent never falls below the base rent), which
+many Israeli leases include. Without it, a fall in the CPI lowers the rent.
+
+Note: CPI values are the official CBS series 120010, chain-linked (see CPI_DATA).
+Rounding in the published index means results can differ from the CBS online
+calculator by a few agorot. Your lease may fix a different base index (for
+example the index "known" on the signing date rather than the index for the
+signing month): always follow the contract's own definition.
 """
 
 import argparse
@@ -22,12 +27,9 @@ import sys
 from datetime import datetime
 
 
-# Approximate CPI index values (base: average 2020 = 100)
-# Source: Central Bureau of Statistics (Lishkat HaStatistika HaMerkazit)
-# These are representative monthly values. For exact values, consult CBS.
 CPI_DATA = {
     # Chain-linked Consumer Price Index, general index (CBS series 120010).
-    # Retrieved from the official CBS API on 2026-08-29:
+    # Retrieved from the official CBS API on 2026-08-29, extended to 2026-09 on 2026-10-25:
     #   https://api.cbs.gov.il/index/data/price?id=120010&format=json
     # The published series changes base periodically (2020, 2022 and 2024
     # averages all appear in this range), so raw published values are NOT
@@ -49,7 +51,8 @@ CPI_DATA = {
     "2025-05": 113.77, "2025-06": 114.10, "2025-07": 114.54, "2025-08": 115.31,
     "2025-09": 114.65, "2025-10": 115.20, "2025-11": 114.65, "2025-12": 114.65,
     "2026-01": 114.32, "2026-02": 114.54, "2026-03": 114.98, "2026-04": 116.31,
-    "2026-05": 115.98, "2026-06": 115.98, "2026-07": 116.31
+    "2026-05": 115.98, "2026-06": 115.98, "2026-07": 116.31, "2026-08": 117.08,
+    "2026-09": 116.53
 }
 
 
@@ -76,7 +79,7 @@ def get_cpi(date_key: str) -> float:
 
 
 def calculate_adjustment(
-    original_rent: float, start_date: str, end_date: str
+    original_rent: float, start_date: str, end_date: str, floor: bool = False
 ) -> dict:
     """
     Calculate rent adjustment based on CPI change between two dates.
@@ -92,6 +95,9 @@ def calculate_adjustment(
     cpi_change_ratio = end_cpi / start_cpi
     cpi_change_percent = (cpi_change_ratio - 1) * 100
     adjusted_rent = original_rent * cpi_change_ratio
+    floor_applied = floor and adjusted_rent < original_rent
+    if floor_applied:
+        adjusted_rent = original_rent
     rent_difference = adjusted_rent - original_rent
 
     return {
@@ -104,6 +110,7 @@ def calculate_adjustment(
         "cpi_change_percent": cpi_change_percent,
         "adjusted_rent": adjusted_rent,
         "rent_difference": rent_difference,
+        "floor_applied": floor_applied,
     }
 
 
@@ -116,9 +123,9 @@ def main():
         epilog=(
             "Example:\n"
             "  python rent-index-calculator.py --rent 5000 --start-date 2024-01 --end-date 2026-03\n"
-            "  python rent-index-calculator.py --rent 7500 --start-date 2023-06 --end-date 2025-12\n"
+            "  python rent-index-calculator.py --rent 7500 --start-date 2025-08 --end-date 2026-09 --floor\n"
             "\n"
-            "Note: CPI data is approximate. For exact values, consult CBS (www.cbs.gov.il)."
+            "Note: CPI data is the official CBS series 120010, chain-linked across base changes."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -133,13 +140,26 @@ def main():
         "--start-date",
         type=str,
         required=True,
-        help="Contract start month (YYYY-MM format, e.g., 2024-01)",
+        help=(
+            "Base index month, as the lease defines it (YYYY-MM). Many leases use the "
+            "index KNOWN at signing, i.e. the last one published (one or two months "
+            "before the signing month), not the signing month itself"
+        ),
     )
     parser.add_argument(
         "--end-date",
         type=str,
         required=True,
-        help="Adjustment target month (YYYY-MM format, e.g., 2026-03)",
+        help=(
+            "Index month for the adjustment (YYYY-MM), again as the lease defines it: "
+            "often the index known on the payment or adjustment date"
+        ),
+    )
+
+    parser.add_argument(
+        "--floor",
+        action="store_true",
+        help="Apply a floor clause: the rent never falls below the original rent",
     )
 
     args = parser.parse_args()
@@ -168,7 +188,7 @@ def main():
         sys.exit(1)
 
     # Calculate adjustment
-    result = calculate_adjustment(args.rent, start, end)
+    result = calculate_adjustment(args.rent, start, end, floor=args.floor)
 
     if result.get("error"):
         print(f"\nError: {result['message']}")
@@ -182,15 +202,18 @@ def main():
     print("=" * 60)
 
     print(f"\n  Original Rent (שכירות מקורית):     {result['original_rent']:,.2f} NIS")
-    print(f"  Contract Start (תחילת חוזה):       {result['start_date']}")
-    print(f"  Adjustment Date (מועד התאמה):       {result['end_date']}")
-    print(f"\n  Start CPI Index (מדד התחלה):        {result['start_cpi']:.1f}")
-    print(f"  End CPI Index (מדד סיום):           {result['end_cpi']:.1f}")
+    print(f"  Base index month (חודש מדד בסיס):  {result['start_date']}")
+    print(f"  Adjustment index month (מדד התאמה): {result['end_date']}")
+    print(f"\n  Start CPI Index (מדד התחלה):        {result['start_cpi']:.2f}")
+    print(f"  End CPI Index (מדד סיום):           {result['end_cpi']:.2f}")
     print(f"  CPI Change (שינוי מדד):             {result['cpi_change_percent']:+.2f}%")
 
     print(f"\n  {'=' * 50}")
     print(f"  Adjusted Rent (שכירות מותאמת):      {result['adjusted_rent']:,.2f} NIS")
 
+    if result['floor_applied']:
+        print(f"  Floor clause applied: the CPI fell, rent stays at the base")
+        print(f"  (סעיף רצפה: המדד ירד, השכירות נשארת בסכום הבסיס)")
     if result['rent_difference'] >= 0:
         print(f"  Increase (העלאה):                   +{result['rent_difference']:,.2f} NIS/month")
     else:
@@ -199,11 +222,16 @@ def main():
     print(f"\n  {'=' * 50}")
     print(f"\n  FORMULA (נוסחה):")
     print(f"  Adjusted Rent = Original Rent x (End CPI / Start CPI)")
-    print(f"  {result['adjusted_rent']:,.2f} = {result['original_rent']:,.2f} x ({result['end_cpi']:.1f} / {result['start_cpi']:.1f})")
+    indexed = result['original_rent'] * result['end_cpi'] / result['start_cpi']
+    print(f"  {indexed:,.2f} = {result['original_rent']:,.2f} x ({result['end_cpi']:.2f} / {result['start_cpi']:.2f})")
+    if result['floor_applied']:
+        print(f"  Floor clause: {indexed:,.2f} is below the base, so the rent stays {result['original_rent']:,.2f}")
 
     print(f"\n  DISCLAIMER (הערה חשובה):")
-    print(f"  CPI values used are approximate. For exact calculations,")
-    print(f"  consult the Central Bureau of Statistics (CBS) at www.cbs.gov.il.")
+    print(f"  CPI values are the official CBS series, chain-linked; small")
+    print(f"  rounding differences from the CBS online calculator are possible.")
+    print(f"  Enter the index months your lease names: 'known index' clauses")
+    print(f"  mean an index one or two months before that month.")
     print(f"  Your rental contract may specify a different base index or")
     print(f"  adjustment formula. Always refer to your specific contract terms.")
     print()

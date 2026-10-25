@@ -11,7 +11,7 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 | Verify landlord identity | זהות המשכיר | Request copy of Teudat Zehut | Signing with someone who is not the actual owner |
 | Confirm property ownership | בעלות על הנכס | Request Tabu extract (nesach tabu, נסח טאבו) | Property may have liens or multiple owners |
 | Check for power of attorney | ייפוי כוח | If signing with agent, verify notarized POA | Unauthorized representatives signing on behalf of owner |
-| Verify no bankruptcy proceedings | הליכי פשיטת רגל | Check with Execution Office (Hotza'a LaPo'al) | Landlord under bankruptcy cannot legally lease |
+| Check for insolvency proceedings | הליכי חדלות פירעון | Ask, and check the Official Receiver records | A trustee may control the property, so confirm the landlord can grant the lease |
 
 ### Property Verification
 
@@ -89,15 +89,16 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 2. **Photograph the apartment** on move-in day with timestamps. Send photos to the landlord by email for a documented record
 3. **Create a property condition report** (protokol matzav dira, פרוטוקול מצב דירה) and attach it to the contract as an appendix (nispach, נספח)
 4. **For bank guarantees**: ensure the guarantee document specifies the same conditions as the contract for releasing funds
-5. **Never agree to a shtar chov** without consulting a lawyer. A shtar chov can be enforced as debt through the Execution Office without a court hearing
+5. **For personal guarantors**: have the deed state a fixed sum, which caps their exposure by contract. Against a private landlord, Guarantee Law chapter 2 (s.21, s.27) does not apply, so the contract is what protects them
+6. **Never agree to a shtar chov** without consulting a lawyer. A shtar chov can be enforced as debt through the Execution Office without a court hearing
 
 ## Section 6: Maintenance and Repairs (Tachzuka v'Tikunim, תחזוקה ותיקונים)
 
 | Clause | Hebrew | What to Verify | Red Flag |
 |--------|--------|---------------|----------|
-| Landlord structural repairs | תיקוני מבנה של המשכיר | Roof, walls, plumbing, electrical, water heater | Contract shifts structural costs to tenant |
-| Tenant maintenance | תחזוקה שוטפת של השוכר | Day-to-day upkeep, light bulbs, minor fixes | Tenant responsible for everything |
-| Repair cost threshold | סף עלות תיקון | Amount above which landlord pays | No threshold defined |
+| Landlord repairs | תיקונים של המשכיר | Every non-minor defect not caused by the tenant's unreasonable use (25ח(ב)); there is no statutory list of structural items | Contract shifts those costs to the tenant |
+| Tenant repairs | תיקונים של השוכר | Defects from the tenant's unreasonable use (25ח(א)); minor (קל ערך) defects are outside the landlord's 25ח(ב) duty | Tenant responsible for everything |
+| Repair cost threshold | סף עלות תיקון | At most a definition of what counts as minor (קל ערך) | A sum below which the tenant pays non-minor repairs: VOID, since 25ח(ב) may be varied only in the tenant's favour (25יד(2)) |
 | Response time for repairs | זמן תגובה לתיקונים | How quickly landlord must respond | No response time obligation |
 | Emergency repairs | תיקוני חירום | Tenant can arrange emergency repairs | No provision for emergencies |
 | Appliance responsibility | אחריות מכשירים | Who repairs/replaces included appliances | Unclear ownership of appliances |
@@ -105,10 +106,9 @@ A detailed checklist of every clause to verify in an Israeli residential rental 
 ### Fair-Rental Provision Requirements
 
 Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, חוק שכירות הוגנת, formally sections 25א to 25טו of the Rental and Borrowing Law, 5731-1971):
-- The **landlord** must maintain structural elements: roof, exterior walls, plumbing systems, electrical wiring, water heating systems
-- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, section 25ח(ג) applies s.9(א): repair and claim reimbursement of reasonable expenses (keep receipts, and give reasonable notice first under s.9(ב) unless the defect is urgent), or reduce the rent in proportion to the lost value. Deducting the invoice from the rent is NOT one of the remedies
-- The **tenant** is responsible for day-to-day maintenance, minor repairs from normal use, and defects caused by the tenant's improper use
-- A clause that shifts ALL repair costs to the tenant is void to the extent it overrides the landlord's statutory duty. The fair-rental provisions cannot be contracted around and can only be waived in the tenant's favor
+- The **landlord** must repair a non-minor defect within 30 days of the tenant's request, and an urgent defect within 3 days. If the deadline is missed, section 25ח(ג) applies s.9(א): repair and claim reimbursement of reasonable expenses (keep receipts, and give reasonable notice first under s.9(ב) unless the defect is urgent), or reduce the rent in proportion to the lost value. Reasonable expenses so incurred may be set off against rent (s.25, non-waivable under 25יד(2)); withholding rent without that procedure is arrears
+- The **tenant** is responsible for defects caused by the tenant's unreasonable use (25ח(א)); the landlord's duty does not reach minor (קל ערך) defects
+- A clause that shifts ALL repair costs to the tenant is void to the extent it overrides the landlord's statutory duty. Under 25יד the listed provisions, 25ח(ב),(ג) included, may be varied only in the tenant's favour
 
 ## Section 7: Utilities and Municipal Charges (Cheshbonot v'Tashlumim Ironiyim)
 
@@ -131,9 +131,9 @@ Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, ח�
 
 | Clause | Hebrew | What to Verify | Red Flag |
 |--------|--------|---------------|----------|
-| Notice period | תקופת הודעה מוקדמת | 60-90 days is standard | Very long notice period (120+ days) |
+| Notice period | תקופת הודעה מוקדמת | Statutory minimum for a cancellation clause: 90 days landlord, 60 tenant (25יג(ב)) | Shorter than the statutory minimum |
 | Early termination by tenant | ביטול מוקדם ע"י השוכר | Conditions, penalty, replacement tenant | No right to terminate early under any condition |
-| Early termination by landlord | ביטול מוקדם ע"י המשכיר | Must have legal grounds | Landlord can terminate at will |
+| Early termination by landlord | ביטול מוקדם ע"י המשכיר | A no-cause right is valid only if the tenant has an equivalent one (25יג(א)), with at least 90 days' notice (25יג(ב)) | Landlord-only right to cancel at will (VOID) |
 | Penalty for early exit | קנס ביטול מוקדם | Should be reasonable | Penalty equals remaining rent |
 | Finding a replacement | מציאת מחליף | Process and approval conditions | Landlord has unreasonable approval power |
 | Return condition | מצב החזרה | "Normal wear and tear" (blai savir) clause | "Perfect condition" requirement |
@@ -143,7 +143,7 @@ Under the 2017 fair-rental provisions (commonly called Chok Schirut Hogenet, ח�
 | Clause | Hebrew | Concern |
 |--------|--------|---------|
 | Non-compete / exclusive use | שימוש בלעדי | Restrictions on how you use the property |
-| Subletting prohibition | איסור השכרת משנה | May be too restrictive |
+| Subletting prohibition | איסור השכרת משנה | Does not remove the court's power to permit a sublet or assignment the landlord refuses unreasonably (s.22(א)(2)) |
 | Pet clause | סעיף חיות מחמד | If you have pets, ensure it is permitted |
 | Renovation restrictions | הגבלות שיפוצים | Cannot hang pictures, paint, etc. |
 | Landlord entry rights | זכות כניסה למשכיר | No statutory notice period exists, so negotiate one into the contract explicitly |
@@ -173,14 +173,14 @@ Clauses to challenge, with the statutory basis. Those marked VOID are unenforcea
 |----------|------------|---------------------|
 | Landlord-only right to cancel without breach | תניה לביטול בלא עילה | VOID under 25יג(א) unless the tenant has an equivalent right. Common and rarely challenged |
 | Deposit exceeds the statutory cap | פיקדון מעל המותר בחוק | Void as to the excess: the lower of 3 months' rent or one-third of the lease value, counting only monetary-outlay guarantees |
-| Guarantors' deed with no fixed sum | ערבות ללא סכום קצוב | Under s.21(ב) of the Guarantee Law this releases an ערב יחיד entirely. A landlord relying on it has nothing |
+| Clause barring set-off | איסור קיזוז | VOID: s.25 makes debts arising from the tenancy set-off-able, and 25יד(2) bars varying it against the tenant |
 | Tenant charged for installations or building insurance | חיוב השוכר במיתקנים או בביטוח מבנה | Void under 25ט(ב)(1)-(2). Covers a replacement boiler, AC or solar system |
 | Tenant charged the landlord's broker fee | חיוב השוכר בדמי תיווך של המשכיר | Void under 25ט(ב)(3) where the broker acted for the landlord |
 | Tenant pays for all repairs | השוכר משלם על כל התיקונים | Contradicts 25ח(ב); the tenant is liable only for defects from unreasonable use |
 | Waiver of tenant rights | סעיף ויתור על זכויות | Void to the extent it varies a 25יד(2) provision against the tenant, and 25ו cannot be varied at all |
 | Landlord concealed a known defect | הסתרת פגם ידוע על ידי המשכיר | Breaches 25ג and item 7 of the Second Schedule |
 | Promissory note demanded | דרישת שטר חוב | Enforceable through the Execution Office without a full hearing. Outside the 25י(ב) ceiling, so the amount is a matter of negotiation, but 25י(ג),(ד) still govern realising it |
-| No written contract | ללא חוזה כתוב | Does not void the lease (25ב expressly), but leaves the terms hard to prove and triggers 25ד gap-filling |
+| No written contract | ללא חוזה כתוב | Does not void the lease (25ב expressly), but leaves the terms hard to prove; 25ד gap-filling applies only if a model lease has been prescribed (only a draft exists) |
 | No property condition report | ללא פרוטוקול מצב דירה | Landlord can attribute pre-existing damage to the tenant |
 | Unlimited landlord entry | זכות כניסה בלתי מוגבלת | No statutory notice period exists; whatever the contract says is what governs, so negotiate it |
 | Unclear Arnona responsibility | אחריות ארנונה לא ברורה | Arnona is the tenant's under 25ט(א) as occupier, but the classification and amount should be verified |

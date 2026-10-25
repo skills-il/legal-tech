@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.1.0] - 2026-10-25
+
+First release of this skill read in full by an independent legal reviewer (v1.4.0 and v2.0.0 were
+verified by the author only). Two statutory errors were found and corrected, plus the time-sensitive
+items now in force.
+
+### Fixed
+- Guarantors: chapter 2 of the Guarantee Law (s.21, a guarantee capped at or void without a stated sum; s.27, the protected-guarantor exhaustion rule) applies only where the creditor lends money in the ordinary course of business (ss.18-19). A private landlord normally does not, so the skill no longer tells a guarantor that an unstated sum releases them. Chapter 1 (s.8, demand on the tenant first) is stated as the rule that binds every guarantor.
+- Set-off: section 25 makes debts arising from the tenancy set-off-able and 25יד(2) makes that non-waivable against the tenant. Reasonable expenses of a repair done after the landlord missed the 25ח(ב) deadline, with s.9(ב) notice, may be set off against rent. The skill previously said any such deduction was arrears.
+- Whether 25י(ג)-(ה) bind a deed signed by a third-party guarantor is now flagged as arguable rather than settled.
+- `references/fair-rental-law-summary.md` rewritten: it still carried errors SKILL.md had already corrected (landlord termination "per contract", landlord entry, the wear-and-tear test, an oral lease giving "minimal protection", an invented deposit-interest rule, a wrong Second Schedule list).
+- `references/contract-checklist.md`: no statutory "structural" repair list; cancellation and notice rows follow 25יג.
+- Reference links: the gov.il page carries the amendment, not a sample contract; Israel has no rent control.
+- Replaced the recommended `israel-law` MCP, which is not published, with `israel-statistics`.
+
+### Added
+- Eviction: expiry of the term and s.19(א) reasonable notice where no term was agreed or the parties held over; the possession track cited as regulation 81 of the Civil Procedure Regulations 2018 (possession only, defence within 30 days). Self-help: s.11 undisturbed use, Land Law ss.18(ב) and 19.
+- The 2026 "noten arvut acher" guarantee in section 25י is now in force (since 30.9.2026).
+- Section 25טו(4): the threshold has been indexed every January since 2018, so it is now above 20,000 NIS.
+- The model lease under 25ד: a draft was circulated for comment on 2.2.2026; no final regulations found.
+- Landlord tax: the 2026 exemption ceiling (5,654 NIS a month, partial below 11,308) and the 10% track.
+- Calculator: CPI through 2026-09, a `--floor` option for floor clauses, and help text on the "known index" base convention.
+
 ## [2.0.0] - 2026-08-30
 
 Second pass on the same skill, from an expert legal review that followed the v1.4.0 release. v1.4.0

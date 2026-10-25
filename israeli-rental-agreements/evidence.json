@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-rental-agreements",
-  "generated_at": "2026-08-29T20:26:40+00:00",
+  "generated_at": "2026-10-25T11:30:00+00:00",
   "claims": [
     {
       "claim_id": "broker-fee-25tet",
@@ -12,7 +12,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "exclusions-25tu",
@@ -48,18 +50,22 @@
         "SKILL_HE.md",
         "references/fair-rental-law-summary.md",
         "references/contract-checklist.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "tax-exemption-2026",
-      "claim": "Residential rental income is fully tax-exempt up to 5,654 NIS/month (2026), with a partial exemption between 5,654 and 11,308 NIS/month. Hebrew forms as they appear in SKILL_HE.md: 5,654 ש\"ח, 11,308 ש\"ח.",
+      "claim": "Residential rental income is fully tax-exempt up to 5,654 NIS/month (2026), with a partial exemption above 5,654 and below 11,308 NIS/month. Hebrew forms as they appear in SKILL_HE.md: 5,654 ש\"ח, 11,308 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%9E%D7%A1_%D7%A2%D7%9C_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9E%D7%94%D7%A9%D7%9B%D7%A8%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
       "raw_snippet": "משכירי דירות למגורים עשויים לקבל פטור ממס על הכנסותיהם משכר הדירה בחודש שבו הכנסות אלה לא עולות על 5,654 ₪ (נכון ל-2026)",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:30:00+00:00"
     },
     {
       "claim_id": "notice-asymmetry-90-60",
@@ -70,7 +76,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "repair-deadlines-30-3",
@@ -83,19 +91,23 @@
         "SKILL_HE.md",
         "references/fair-rental-law-summary.md",
         "references/contract-checklist.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "small-claims-jurisdiction",
-      "claim": "Small claims court hears claims up to NIS 39,900. Hebrew form as it appears in SKILL_HE.md: 39,900 ש\"ח. The filing fee is 1% of the claim amount, minimum NIS 50.",
+      "claim": "Small claims court hears money claims up to NIS 39,900 (as of January 2026). Hebrew form as it appears in SKILL_HE.md: 39,900 ש\"ח. (The 1% / NIS 50 fee is a separate entry, small-claims-fee-1pct.)",
       "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
       "raw_snippet": "תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/fair-rental-law-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:30:00+00:00"
     },
     {
       "claim_id": "kolzchut-renters-hub",
@@ -106,7 +118,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "govil-rent-law",
@@ -143,7 +157,7 @@
     },
     {
       "claim_id": "cbs-cpi",
-      "claim": "The Central Bureau of Statistics publishes the Consumer Price Index, on the 15th of every month, on its CPI subject page. Israeli rental contracts index rent to that published figure. CBS home pages: https://www.cbs.gov.il/he/Pages/default.aspx and https://www.cbs.gov.il/en/Pages/default.aspx",
+      "claim": "The Central Bureau of Statistics publishes the Consumer Price Index on the 15th of every month, so a month's index is published in the following month and the index 'known' on a date lags the calendar month. Israeli rental contracts index rent to that published figure. CBS home pages: https://www.cbs.gov.il/he/Pages/default.aspx and https://www.cbs.gov.il/en/Pages/default.aspx",
       "source_url": "https://www.cbs.gov.il/he/subjects/Pages/%D7%9E%D7%93%D7%93-%D7%94%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D-%D7%9C%D7%A6%D7%A8%D7%9B%D7%9F.aspx",
       "raw_snippet": "מדד המחירים לצרכן מתפרסם בכל 15 לחודש ומשפיע על כולנו.",
       "fetched_at": "2026-08-11T00:00:00Z",
@@ -166,7 +180,9 @@
         "SKILL_HE.md",
         "references/fair-rental-law-summary.md",
         "references/contract-checklist.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "written-form-25bet",
@@ -194,9 +210,9 @@
     },
     {
       "claim_id": "document-structure-sections",
-      "claim": "Document-structure references only, not legal claims: the 2017 amendment is often described as inserting Chapter 9 into the Rental and Borrowing Law, and the contract-review checklist is organized into Section 1, Section 2, Section 3, Section 4, Section 5, Section 6, Section 7, Section 8, and Section 9 (party details, property description, lease term, rent, deposits, maintenance, utilities, termination, special clauses). These are headings in this skill's own reference files, not citations to a numbered statutory section.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%95%D7%9B%D7%A8%D7%99_%D7%93%D7%99%D7%A8%D7%95%D7%AA",
-      "raw_snippet": "Document-structure references only, not legal claims: the 2017 amendment is often described as inserting Chapter 9 into the Rental and Borrowing Law, and the contract-review checklist is organized into Section 1, Section 2, Section 3, Section 4, Section 5, Section 6, Section 7, Section 8, and Section 9 (party details, property description, lease term, rent, deposits, maintenance, utilities, termination, special clauses). These are headings in this skill's own reference files, not citations to a numbered statutory section.",
+      "claim": "Structural headings inside this skill's own reference files (statutory-provisions.md, fair-rental-law-summary.md, contract-checklist.md). Not an external legal claim.",
+      "source_url": "https://github.com/skills-il/legal-tech/tree/master/israeli-rental-agreements",
+      "raw_snippet": "Document-structure references only, not legal claims: the contract-review checklist is organized into Section 1, Section 2, Section 3, Section 4, Section 5, Section 6, Section 7, Section 8, and Section 9 (party details, property description, lease term, rent, deposits, maintenance, utilities, termination, special clauses). These are headings in this skill's own reference files, not citations to a numbered statutory section.",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -210,11 +226,13 @@
       "claim": "The small-claims filing fee is 1% of the claim amount, and in any case not less than NIS 50 (50 ש\"ח).",
       "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
       "raw_snippet": "גובה האגרה הוא 1% מסכום התביעה, ובכל מקרה לא פחות מ-50 ₪.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:30:00+00:00"
     },
     {
       "claim_id": "reference-url-inventory",
@@ -263,14 +281,16 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/fair-rental-law-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:45:00+00:00"
     },
     {
       "claim_id": "other-guarantor-2026",
-      "claim": "An amendment published in Sefer HaChukkim 3510 on 31.3.2026 adds a guarantee from a 'notenn aruvah acher' (licensed credit provider, deposit-and-credit services licensee, stablecoin payment-services licensee, or insurer) to section 25י, effective 30.9.2026. Official publication: Sefer HaChukkim 3510, https://fs.knesset.gov.il/25/law/25_lsr_12846788.pdf",
+      "claim": "An amendment in Sefer HaChukkim 3510 of 31.3.2026 (חוק התוכנית הכלכלית ... לשנת התקציב 2026) added a guarantee from a 'noten arvut acher' (נותן ערבות אחר: licensed credit provider, deposit-and-credit services licensee, stablecoin payment-services licensee, or insurer) to section 25י, in force since 30.9.2026 (the consolidated text marked commencement on that date). Official publication: https://fs.knesset.gov.il/25/law/25_lsr_12846788.pdf",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
       "raw_snippet": "בעל רישיון למתן אשראי, בעל רישיון למתן שירותי פיקדון ואשראי",
-      "fetched_at": "2026-08-29T18:33:09+00:00",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -408,7 +428,7 @@
     },
     {
       "claim_id": "guarantor-fixed-sum",
-      "claim": "Guarantee Law 5727-1967 section 21 (סעיף 21)(ב): where no fixed sum is stated in the guarantee contract, an ערב יחיד is released from the guarantee entirely.",
+      "claim": "Guarantee Law 5727-1967 section 21 (סעיף 21)(ב): where no fixed sum is stated in the guarantee contract, an ערב יחיד is released from the guarantee entirely. SCOPE: chapter 2 rule, applies only where the creditor is a נושה who lends in the ordinary course of business (ss.18-19); a private landlord normally is not (see guarantee-ch2-scope).",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
       "raw_snippet": "לא נקוב בחוזה הערבות סכום קצוב – פטור ערב יחיד מערבותו",
       "fetched_at": "2026-08-29T20:26:40+00:00",
@@ -420,7 +440,7 @@
     },
     {
       "claim_id": "protected-guarantor-exhaustion",
-      "claim": "Guarantee Law section 27 (סעיף 27): no action may be brought against an ערב מוגן until judgment has been given against the debtor AND the Execution Registrar has certified that all reasonable execution proceedings were taken.",
+      "claim": "Guarantee Law section 27 (סעיף 27): no action may be brought against an ערב מוגן until judgment has been given against the debtor AND the Execution Registrar has certified that all reasonable execution proceedings were taken. SCOPE: chapter 2 rule, applies only where the creditor is a נושה who lends in the ordinary course of business (ss.18-19); a private landlord normally is not (see guarantee-ch2-scope).",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
       "raw_snippet": "לא תוגש תובענה נגד ערב מוגן אלא לאחר שנתקיימו שניים אלה",
       "fetched_at": "2026-08-29T20:26:40+00:00",
@@ -444,12 +464,276 @@
     },
     {
       "claim_id": "cbs-cpi-api",
-      "claim": "The bundled rent calculator's CPI table is taken from the official CBS price-index API, series 120010 (general CPI), chain-linked across base changes.",
+      "claim": "The bundled rent calculator's CPI table is taken from the official CBS price-index API, series 120010 (general CPI), chain-linked across base changes, through 2026-09 (2026-08 = 105.8 and 2026-09 = 105.3 on the 2024-average base).",
       "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json",
       "raw_snippet": "מדד המחירים לצרכן - כללי",
-      "fetched_at": "2026-08-29T20:26:40+00:00",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
       "appears_in": [
         "scripts/rent-index-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "tax-10pct-track",
+      "claim": "A landlord who does not take the exemption may pay tax on residential rent under a reduced 10% track (מסלול מס מופחת בשיעור 10%) or under the regular track.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%9E%D7%A1_%D7%A2%D7%9C_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9E%D7%94%D7%A9%D7%9B%D7%A8%D7%AA_%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "מסלול מס מופחת בשיעור 10% או במסלול מס מלא המחושב לפי מדרגות המס להכנסה שאינה מיגיעה אישית",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25T09:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "model-lease-draft-2026",
+      "claim": "The Justice Minister circulated DRAFT regulations prescribing a model residential lease (חוזה מצוי) for public comment on Monday 2.2.2026 (article of 3.2.2026, 'אמש (ב')'), comments due 23.2; the draft covers a CPI-linked option period and a landlord repair duty. No final publication was found as of 2026-10-25.",
+      "source_url": "https://www.nadlancenter.co.il/article/13836",
+      "raw_snippet": "שר המשפטים יריב לוין הפיץ אמש (ב') להערות הציבור טיוטת תקנות לקביעת \"חוזה מצוי לשכירות למגורים\"",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md"
+      ]
+    },
+    {
+      "claim_id": "model-lease-draft-comments",
+      "claim": "Comments on the draft model-lease regulations were due by 23.2 (2026).",
+      "source_url": "https://www.nadlancenter.co.il/article/13836",
+      "raw_snippet": "ולהגיש הערות עד ל-23.2.",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
+      "appears_in": [
+        "references/statutory-provisions.md"
+      ]
+    },
+    {
+      "claim_id": "cpi-rose-since-2017",
+      "claim": "The CPI has risen since 2017, so the 25טו(4) threshold, indexed every January, is now above 20,000 NIS. From CBS series 120010: January-on-January changes 2018 +0.1%, 2019 +1.2%, 2020 +0.3%, 2021 -0.4%, 2022 +3.1% (cumulative about +4.3% to Jan 2022), and the bundled chain-linked table rises from 100.00 (2022-01) to 116.53 (2026-09).",
+      "source_url": "https://api.cbs.gov.il/index/data/price?id=120010&format=json&download=false&startPeriod=01-2017&endPeriod=01-2022&PageSize=100",
+      "raw_snippet": "\"percentYear\":3.1,\"currBase\":{\"baseDesc\":\"2020 ממוצע\",\"value\":102.8}",
+      "fetched_at": "2026-10-25T09:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md"
+      ]
+    },
+    {
+      "claim_id": "setoff-s25",
+      "claim": "Section 25 (סעיף 25) of the Rental and Borrowing Law: debts the parties owe each other by reason of the tenancy may be set off.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "חובות שהצדדים חבים זה לזה עקב השכירות ניתנים לקיזוז",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md",
+        "references/contract-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "derogation-25yudalef-2",
+      "claim": "Section 25יד(2): sections 6, 8-10, 15, 21(ב)-(ג), 23 to 25ה (which includes s.25 set-off), 25ח(א)(1),(ב),(ג) and 25ט-25יג may be varied only in the tenant's favour.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "אין להתנות על הוראות סעיפים 6",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "holdover-s19",
+      "claim": "Section 19(א) (סעיף 19(א)): where no lease term was agreed, or the parties carried on after the agreed term without fixing a new one, either party may end the tenancy by reasonable advance notice.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "רשאי כל צד לסיים את השכירות על ידי מתן הודעה לצד השני זמן סביר מראש",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "quiet-use-s11",
+      "claim": "Section 11 (סעיף 11): the landlord must allow the tenant to use the property for the lease term without disturbance by the landlord or on the landlord's behalf.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "ללא הפרעה מצדו או מטעמו",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "return-s20",
+      "claim": "Section 20(א): at the end of the lease term the tenant returns the property free of any person or property.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "כשהוא פנוי מכל אדם או נכס",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "guarantor-s8-demand-first",
+      "claim": "Guarantee Law s.8 (סעיף 8, Chapter 1 of the Guarantee Law, binds every guarantor): the creditor may not demand performance from the guarantor without first demanding it from the debtor, except where the guarantor waived it, a receivership or winding-up order was made against the debtor, or the debtor died, is abroad, or the demand involves special difficulty.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "אין הנושה רשאי לדרוש מן הערב מילוי ערבותו בלי שדרש תחילה מן החייב קיום חיובו",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "guarantee-ch2-scope",
+      "claim": "Guarantee Law ss.18-19 (סעיפים 18-19): chapter 2 applies only to a guarantee given by an ערב יחיד to a נושה, and נושה means someone who lends money in the ordinary course of business, so a private landlord is normally not one.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "מי שמתן הלוואות הוא במהלך עסקיו הרגיל, אף אם אינו עיסוקו העיקרי",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md",
+        "references/contract-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "guarantee-ch2-scope-18",
+      "claim": "Guarantee Law s.18: chapter 2 applies to a guarantee given by an ערב יחיד to a נושה.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "יחולו על ערבות שנתן ערב יחיד לנושה",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "references/statutory-provisions.md"
+      ]
+    },
+    {
+      "claim_id": "land-law-s18b",
+      "claim": "Land Law s.18(ב) (סעיף 18(ב)): where a person seized land unlawfully, the lawful possessor may, within 30 days of the seizure, use reasonable force to remove them.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "תוך שלושים ימים מיום התפיסה",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "land-law-s19",
+      "claim": "Land Law s.19 (סעיף 19): one who removes land from the possessor otherwise than under s.18(ב) must return it to the possessor.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "מי שמוציא מקרקעין מידי המחזיק שלא כאמור בסעיף 18(ב) חייב להחזירם למחזיק",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "land-law-s16-17",
+      "claim": "Land Law ss.16-17 (סעיפים 16-17): claims for delivery of land and to prevent interference with its use.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "המחזיק במקרקעין זכאי לדרוש מכל מי שאין לו זכות לכך שיימנע מכל מעשה שיש בו משום הפרעה לשימוש במקרקעין",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "eviction-reg81",
+      "claim": "Civil Procedure Regulations 5779-2018 (תקנות סדר הדין האזרחי, התשע\"ט-2018), regulation 81 (תקנה 81), chapter 12: a תביעה לפינוי מושכר may not include further remedies (money claims go in a separate proceeding) and the defence is filed within 30 days of service.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "raw_snippet": "כתב הגנה בתביעה לפינוי מושכר יוגש בתוך שלושים ימים ממועד המצאת כתב התביעה",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "eviction-reg81-possession-only",
+      "claim": "Regulation 81(א): an eviction claim under that chapter may not include additional remedies.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%90%D7%96%D7%A8%D7%97%D7%99",
+      "raw_snippet": "לא תכיל סעדים נוספים",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "second-schedule-address",
+      "claim": "Second Schedule item (1) is the address of the let apartment; the guarantee is not a Schedule item.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "חוזה שכירות למגורים יכלול, בין השאר, את אלה:",
+      "fetched_at": "2026-10-25T11:30:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fair-rental-law-summary.md"
+      ]
+    },
+    {
+      "claim_id": "assignment-s22",
+      "claim": "Section 22(א) (סעיף 22): assigning or subletting needs the landlord's consent, but if the landlord refuses on unreasonable grounds or sets unreasonable conditions, in a lease of land the tenant may proceed without consent and the court may permit the transaction despite the lease; s.22 is not in the 25יד(2) list.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "אם לא הסכים המשכיר לעסקה מטעמים בלתי סבירים או התנה את הסכמתו בתנאים בלתי סבירים",
+      "fetched_at": "2026-10-25T13:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/fair-rental-law-summary.md",
+        "references/contract-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "assignment-s22-court",
+      "claim": "Section 22(א)(2): in a lease of land the court may permit the transaction despite the lease terms.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "ובשכירות של מקרקעין רשאי בית המשפט לעשות כן על אף האמור בחוזה השכירות",
+      "fetched_at": "2026-10-25T13:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md",
+        "references/contract-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "assignment-s22b",
+      "claim": "Section 22(ב): for a lease of land, consent is given in advance and in writing.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94",
+      "raw_snippet": "לעניין שכירות במקרקעין, תיעשה מראש ובכתב",
+      "fetched_at": "2026-10-25T13:00:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/statutory-provisions.md"
+      ]
+    },
+    {
+      "claim_id": "guarantee-ch2-ends-s32",
+      "claim": "Guarantee Law chapter 2 (פרק ב׳) runs ss.18-32: s.31 (עדיפות) and s.32 (אי התנאה) apply to 'this chapter'; chapter 3 (הוראות שונות) begins at s.33 (שמירת דינים).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A2%D7%A8%D7%91%D7%95%D7%AA",
+      "raw_snippet": "חוק זה בא להוסיף על כל דין אחר ולא לגרוע ממנו",
+      "fetched_at": "2026-10-25T13:00:00+00:00",
+      "appears_in": [
+        "references/statutory-provisions.md"
       ]
     }
   ]
