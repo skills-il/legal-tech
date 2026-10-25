@@ -426,22 +426,45 @@ This obligation shall survive the termination of employment for a period of
 
 ## 13. Intellectual Property / Kinyan Ruchani / קניין רוחני
 
-All intellectual property, inventions, designs, works, software, documentation,
-and any other work product created by the Employee for the purposes of and
-during the employment, and any service invention (Patents Law s.132), shall be
-the sole and exclusive property of the Employer. Work outside the scope of the
-employment, made on the Employee's own time, is not included.
+(a) All works, software, documentation, designs and other work product created
+by the Employee for the purposes of and in the course of the employment, and
+every service invention under Patents Law s.132 (an invention reached as a
+result of and during the service), belong to the Employer ("Work Product"). To
+the extent any right does not vest in the Employer by law, the Employee hereby
+irrevocably assigns it to the Employer, worldwide, including patents,
+copyrights, trade secrets and other intellectual property rights.
 
-The Employee hereby assigns to the Employer all rights, title, and interest
-in and to such work product, including all patents, copyrights, and other
-intellectual property rights. Compensation for a service invention (Patents Law
-s.134): [STATE THE AGREED TERMS, OR THAT THE SALARY IS THE FULL CONSIDERATION];
-absent an agreement, the Compensation and Royalties Committee decides it.
+(b) Subject to and without derogating from Patents Law s.132, work outside the
+scope of the employment, made on the Employee's own time, without use of the
+Employer's resources or confidential information, and that is not a service
+invention, is not Work Product. [OPTIONAL, NEGOTIATED: also treat as Work
+Product any work made using the Employer's confidential information or
+resources.]
 
-The Employee shall disclose any pre-existing intellectual property in
-Schedule A attached hereto.
+(c) The Employee shall notify the Employer IN WRITING of every invention reached
+as a result of or during the service (Patents Law s.131), shall not include a
+s.132(b) "vests in me absent reply" statement in such a notice. The Employee shall sign all documents and
+take all reasonable actions needed to perfect the Employer's rights, during and
+after the employment.
 
-**Pre-existing IP disclosure (Schedule A):** [ATTACH OR WRITE "NONE"]
+(d) Compensation for service inventions (Patents Law s.134): [DEFAULT: the Salary
+is full and final consideration and no further compensation or royalties are
+due; this is an agreement within the meaning of s.134 / OR STATE AGREED TERMS].
+
+(e) All pre-existing IP, whether or not listed in Schedule A, remains the
+Employee's. Incorporating
+it, or third-party or open-source material, into Work Product requires the
+Employer's prior written approval; the Employee grants the Employer a
+non-exclusive, perpetual, irrevocable, worldwide, royalty-free, fully paid-up,
+transferable and sublicensable licence to use, reproduce, modify, create
+derivative works of, distribute and otherwise exploit it as part of or in
+connection with the Work Product, surviving termination.
+
+(f) Moral rights (works other than software) are personal and not transferable;
+to the extent the law permits, the Employee consents to the Employer's
+attribution practice and to modifications in the ordinary course of business.
+
+**Pre-existing IP (Schedule A):** [ATTACH OR WRITE "NONE"]
 
 ---
 
@@ -616,12 +639,27 @@ Current rates (2025-2026):
         employee_id=args.employee_id,
     )
 
+    # Self-test: drafter notes must never appear in the contract body.
+    if "DRAFTING NOTE" in contract:
+        sys.exit("internal error: a drafting note leaked into the contract body")
+
     if args.output:
         with open(args.output, "w", encoding="utf-8") as f:
             f.write(contract)
         print(f"Contract written to {args.output}", file=sys.stderr)
     else:
         print(contract)
+
+    # Drafting note for the user, kept out of the contract body.
+    print(
+        "\nDRAFTING NOTE (not part of the contract): section 13(d) is the s.134 "
+        "compensation agreement. Absent an agreement, the Compensation and Royalties "
+        "Committee decides compensation; whether a waiver is enforceable in particular "
+        "circumstances is a question for counsel. The Employer should answer every "
+        "invention notice in writing within six months: Patents Law s.132(b) operates "
+        "by statute and the contract cannot be relied on to override it.",
+        file=sys.stderr,
+    )
 
 
 if __name__ == "__main__":

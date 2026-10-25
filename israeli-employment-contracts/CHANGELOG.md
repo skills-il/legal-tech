@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.3] - 2026-10-25
+
+### Fixed
+- The 1.4.2 own-time carve-out in the IP clause could act as an agreement giving service inventions to the employee. The Patents Law s.132 test is causal (an invention reached as a result of and during the service), not job scope or working hours. The carve-out is now subject to s.132 and excludes service inventions, in the template (EN and HE), the generator and the skill text.
+- Pre-existing IP licence-back now has workable terms: non-exclusive, perpetual, irrevocable, worldwide, royalty-free, transferable and sublicensable, surviving termination. Incorporating third-party or open-source material needs prior written approval.
+- The generator's IP section now matches the template (assignment, written disclosure under s.131, cooperation, licence-back, moral rights).
+
+### Added
+- s.132(b) silence point, a default s.134 compensation wording with a counsel caveat, and a moral-rights consent for works other than software.
+
 ## [1.4.2] - 2026-10-25
 
 ### Fixed

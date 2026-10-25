@@ -1691,6 +1691,60 @@
       ],
       "verified_via": "browser",
       "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "patents-s131-written-notice",
+      "claim": "Patents Law s.131 (Section 131 / סעיף 131): the employee must notify the employer in writing of any invention reached as a result of or during the service, as soon as possible, and of any patent application.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4539.htm",
+      "raw_snippet": "עובד חייב להודיע למעבידו בכתב על כל אמצאה שהגיע אליה עקב שירותו או בתקופת שירותו, סמוך ככל האפשר לאחר שהמציא אותה, וכן על כל בקשת פטנט שהגיש.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "patents-s132b-silence",
+      "claim": "Patents Law s.132(b): if the employee's s.131 notice states that absent a contrary reply within six months the invention vests in the employee, and the employer does not reply, it does not vest in the employer.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4539.htm",
+      "raw_snippet": "הודיע העובד בהודעתו לפי סעיף 131 כי בהעדר תשובה נוגדת של המעביד, תוך ששה חדשים מיום מתן הודעת העובד, תקום האמצאה לקנין העובד, ולא נתן המעביד תשובה נוגדת כאמור, לא תקום האמצאה לקנין המעביד.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "copyright-s45-moral-rights",
+      "claim": "Copyright Law s.45: moral rights exist for artistic, dramatic, musical or literary works except computer software, and are personal and non-transferable.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "raw_snippet": "הזכות המוסרית היא אישית ואינה ניתנת להעברה",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "copyright-s45-software-excluded",
+      "claim": "Moral rights do not apply to computer software.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "raw_snippet": "או יצירה ספרותית, למעט תוכנת מחשב, שיש בה זכות יוצרים, תהיה ביחס ליצירתו זכות מוסרית",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     }
   ]
 }

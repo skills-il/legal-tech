@@ -237,24 +237,40 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 13. Intellectual Property / קניין רוחני
 
 **English:**
-> All intellectual property, inventions, improvements, designs, works, software, documentation, and any other work product created by the Employee for the purposes of and during the employment, and any service invention within the meaning of the Patents Law, 1967, s.132, shall be the sole and exclusive property of the Employer ("Work Product"). Work outside the scope of the employment, made on the Employee's own time, is not Work Product. [OPTIONAL, NEGOTIATED: also work made using the Employer's confidential information or resources]
+> (a) Work Product. All works, software, documentation, designs and other work product created by the Employee for the purposes of and in the course of the employment, and every service invention within the meaning of section 132 of the Patents Law, 1967 (an invention the Employee reached as a result of and during the service), shall be the sole and exclusive property of the Employer ("Work Product"). To the extent any right in Work Product does not vest in the Employer by law, the Employee hereby irrevocably assigns it to the Employer, worldwide, including all patents, copyrights, trade secrets and other intellectual property rights.
 >
-> The Employee hereby irrevocably assigns to the Employer all rights, title, and interest in and to such Work Product, including all patents, copyrights, trade secrets, and other intellectual property rights, worldwide.
+> (b) Own-time work. Subject to and without derogating from section 132 of the Patents Law, work that is outside the scope of the employment, made on the Employee's own time, without use of the Employer's resources or confidential information, and that is not a service invention, is not Work Product. [OPTIONAL, NEGOTIATED: also treat as Work Product any work made using the Employer's confidential information or resources.]
 >
-> The Employee shall promptly disclose to the Employer any invention or creation made during employment. The Employee shall execute all documents and take all actions reasonably requested by the Employer to perfect the Employer's rights in the Work Product. Compensation for a service invention (Patents Law, 1967, s.134): [STATE THE AGREED COMPENSATION TERMS, OR THAT THE SALARY IS THE FULL CONSIDERATION]; absent an agreement, the Compensation and Royalties Committee decides it.
+> [DRAFTING NOTE, DO NOT COPY INTO THE CONTRACT: without the optional sentence in (b), off-scope own-time work made with Employer resources is neither included nor excluded and is left to sections 34 and 132; decide deliberately whether to include it.]
 >
-> The Employee represents that all pre-existing intellectual property is listed in Schedule A attached hereto. Pre-existing IP remains the Employee's; where the Employee incorporates it into Work Product, the Employee grants the Employer a [non-exclusive / exclusive], [royalty-free] licence to use it as part of that Work Product.
+> (c) Disclosure. The Employee shall notify the Employer in writing of every invention reached as a result of or during the service, as soon as possible after making it, as section 131 of the Patents Law requires, and of any patent application filed. The Employee shall not include in such a notice a statement under section 132(b) that the invention will vest in the Employee absent a contrary reply. The Employee shall sign all documents and take all reasonable actions the Employer requests to perfect its rights in the Work Product, during and after the employment.
+>
+> (d) Compensation for service inventions. [DEFAULT:] The Employee agrees that the Salary and other consideration under this Agreement are full and final consideration for any service invention and for all rights under this section, and that the Employee is not entitled to further compensation or royalties, including under section 134 of the Patents Law; this is an agreement within the meaning of section 134. [OR: STATE THE AGREED COMPENSATION TERMS.]
+>
+> [DRAFTING NOTE, DO NOT COPY INTO THE CONTRACT: absent an agreement, the Compensation and Royalties Committee decides compensation under s.134. Whether a waiver is enforceable in particular circumstances is a question for counsel. Practice note on (c): the Employer should answer every invention notice in writing within six months; s.132(b) operates by statute, and the contract cannot be relied on to override it.]
+>
+> (e) Pre-existing IP. All pre-existing intellectual property, whether or not listed in Schedule A, remains the Employee's. Where the Employee incorporates pre-existing IP or any third-party or open-source material into Work Product, the Employee shall first obtain the Employer's written approval, and the Employee grants the Employer a non-exclusive, perpetual, irrevocable, worldwide, royalty-free, fully paid-up, transferable and sublicensable licence to use, reproduce, modify, create derivative works of, distribute and otherwise exploit that pre-existing IP as part of or in connection with the Work Product. This licence survives termination.
+>
+> (f) Moral rights (for works other than software). Moral rights are personal and cannot be transferred. To the extent the law permits, the Employee consents to the Employer's attribution practice and to modifications of the works in the ordinary course of the Employer's business.
 >
 > **Schedule A -- Pre-existing IP:** [LIST OR "NONE"]
 
 **Hebrew / עברית:**
-> כל הקניין הרוחני, ההמצאות, השיפורים, העיצובים, היצירות, התוכנה, התיעוד וכל תוצר עבודה אחר שנוצר על ידי העובד/ת לצורך ההעסקה ובמהלכה, וכל אמצאת שירות כמשמעותה בסעיף 132 לחוק הפטנטים, התשכ"ז-1967, יהיו רכושו הבלעדי של המעסיק ("תוצרי עבודה"). עבודה שמחוץ להיקף ההעסקה, שנעשתה בזמנו/ה הפרטי של העובד/ת, אינה תוצר עבודה. [אופציונלי, בהסכמה: גם עבודה שנעשתה תוך שימוש במידע הסודי או במשאבי המעסיק]
+> (א) תוצרי עבודה. כל היצירות, התוכנה, התיעוד, העיצובים ויתר תוצרי העבודה שהעובד/ת יצר/ה לצורך ההעסקה ובמהלכה, וכל אמצאת שירות כמשמעותה בסעיף 132 לחוק הפטנטים, התשכ"ז-1967 (אמצאה שהעובד/ת הגיע/ה אליה עקב שירותו/ה ובתקופת שירותו/ה), יהיו רכושו הבלעדי של המעסיק ("תוצרי עבודה"). ככל שזכות כלשהי בתוצרי העבודה אינה מוקנית למעסיק על פי דין, העובד/ת ממחה אותה בזאת למעסיק באופן בלתי חוזר ובכל העולם, לרבות פטנטים, זכויות יוצרים, סודות מסחריים ויתר זכויות הקניין הרוחני.
 >
-> העובד/ת ממחה/ה בזאת באופן בלתי חוזר למעסיק את כל הזכויות, הבעלות והאינטרס בתוצרי העבודה, לרבות כל הפטנטים, זכויות היוצרים, הסודות המסחריים וזכויות הקניין הרוחני האחרות, ברחבי העולם.
+> (ב) עבודה בזמן פרטי. בכפוף לסעיף 132 לחוק הפטנטים ובלי לגרוע ממנו, עבודה שמחוץ להיקף ההעסקה, שנעשתה בזמנו/ה הפרטי של העובד/ת, בלי שימוש במשאבי המעסיק או במידע הסודי שלו, ושאינה אמצאת שירות, אינה תוצר עבודה. [אופציונלי, בהסכמה: לראות כתוצר עבודה גם עבודה שנעשתה תוך שימוש במידע הסודי או במשאבי המעסיק.]
 >
-> העובד/ת יגלה/תגלה למעסיק באופן מיידי כל המצאה או יצירה שנעשתה במהלך ההעסקה. העובד/ת יבצע/תבצע את כל המסמכים ויינקט/תינקט את כל הפעולות הסבירות שיתבקשו על ידי המעסיק לשכלול זכויות המעסיק בתוצרי העבודה. תמורה בעד אמצאת שירות (חוק הפטנטים, התשכ"ז-1967, סעיף 134): [לפרט את תנאי התמורה המוסכמים, או שהשכר הוא מלוא התמורה]; באין הסכם, הוועדה לענייני פיצויים ותמלוגים מכריעה בה.
+> [הערת ניסוח, לא להעתיק לחוזה: בלי המשפט האופציונלי בסעיף (ב), עבודה בזמן פרטי שמחוץ להיקף ההעסקה ונעשתה במשאבי המעסיק לא נכללת ולא מוחרגת, ונשארת לסעיפים 34 ו-132; יש להחליט במודע אם לכלול אותה.]
 >
-> העובד/ת מצהיר/ה כי כל הקניין הרוחני הקיים מפורט בנספח א' המצורף להסכם. קניין רוחני קיים נשאר של העובד/ת; אם העובד/ת משלב/ת אותו בתוצר עבודה, הוא/היא מעניק/ה למעסיק רישיון [לא בלעדי / בלעדי], [ללא תמלוגים], להשתמש בו כחלק מאותו תוצר.
+> (ג) הודעה. העובד/ת יודיע/תודיע למעסיק בכתב על כל אמצאה שהגיע/ה אליה עקב שירותו/ה או בתקופת שירותו/ה, סמוך ככל האפשר לאחר שהמציא/ה אותה, כנדרש בסעיף 131 לחוק הפטנטים, וכן על כל בקשת פטנט שהגיש/ה. העובד/ת לא יכלול/תכלול בהודעה כזו הצהרה לפי סעיף 132(ב) שהאמצאה תקום לקניינו/ה בהעדר תשובה נוגדת. העובד/ת יחתום/תחתום על כל המסמכים וינקוט/תנקוט בכל הפעולות הסבירות שהמעסיק יבקש לשכלול זכויותיו בתוצרי העבודה, במהלך ההעסקה ולאחריה.
+>
+> (ד) תמורה בעד אמצאת שירות. [ברירת מחדל:] העובד/ת מסכים/ה שהשכר וכל תמורה אחרת לפי הסכם זה הם התמורה המלאה והסופית בעד כל אמצאת שירות ובעד כל הזכויות לפי סעיף זה, ושאינו/ה זכאי/ת לתמורה או לתמלוגים נוספים, לרבות לפי סעיף 134 לחוק הפטנטים; זהו הסכם כמשמעותו בסעיף 134. [או: לפרט את תנאי התמורה המוסכמים.]
+>
+> [הערת ניסוח, לא להעתיק לחוזה: באין הסכם, הוועדה לענייני פיצויים ותמלוגים תכריע בתמורה לפי סעיף 134. האם ויתור כזה אכיף בנסיבות מסוימות היא שאלה לעורך דין. הערה מעשית לסעיף (ג): על המעסיק להשיב בכתב לכל הודעה על אמצאה תוך שישה חודשים; סעיף 132(ב) פועל מכוח החוק, ואין להסתמך על החוזה כדי לגבור עליו.]
+>
+> (ה) קניין רוחני קיים. כל קניין רוחני קיים, בין שהוא מפורט בנספח א' ובין שלא, נשאר של העובד/ת. אם העובד/ת משלב/ת בתוצר עבודה קניין רוחני קיים או חומר של צד שלישי או קוד פתוח, עליו/ה לקבל תחילה אישור בכתב מהמעסיק, והעובד/ת מעניק/ה למעסיק רישיון שאינו ייחודי, לצמיתות, בלתי חוזר, בכל העולם, ללא תמלוגים, שהתמורה בעדו שולמה במלואה, ניתן להעברה ולמתן רישיונות משנה, להשתמש בקניין הרוחני הקיים, לשכפל, לשנות, ליצור יצירות נגזרות, להפיץ ולנצל אותו בכל דרך אחרת כחלק מתוצר העבודה או בקשר אליו. רישיון זה עומד בתוקפו גם לאחר סיום ההעסקה.
+>
+> (ו) זכות מוסרית (ליצירות שאינן תוכנה). הזכות המוסרית היא אישית ואינה ניתנת להעברה. ככל שהדין מתיר, העובד/ת מסכים/ה לאופן שבו המעסיק נוהג לציין את שם היוצר ולשינויים ביצירות במהלך העסקים הרגיל של המעסיק.
 >
 > **נספח א' -- קניין רוחני קיים:** [רשימה או "אין"]
 

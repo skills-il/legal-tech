@@ -191,7 +191,7 @@ Freedom of occupation (Basic Law: Freedom of Occupation, and Human Dignity and L
 - Recommendation: Use robust confidentiality clauses instead, which are far more enforceable
 
 **Intellectual Property assignment:**
-- Default rule: the employer owns an employee's service invention and a work made for and during the work, unless agreed otherwise. Neither covers work outside the job, or a contractor, who keeps ownership absent assignment (Copyright Law s.35)
+- Default rule: the employer owns an employee's service invention and a work made for and during the work, unless agreed otherwise. The s.132 test is causal (as a result of and during the service), not job description or hours. A contractor keeps copyright absent assignment (s.35)
 - Patent Law Section 132: a service invention (reached as a result of and during the service) belongs to the employer. Absent an agreement on compensation, the Compensation and Royalties Committee decides it (s.134), so state them expressly
 - Copyright Law 2007, Section 34: the employer is first owner of a work the employee made for and during the work
 - An explicit IP clause still sets the scope (side projects, pre-existing IP) and the s.134 terms
@@ -301,7 +301,7 @@ Actions: Draft the full contract, then add the Step 1b domestic clauses: Bituach
 - Israeli non-compete clauses are nearly unenforceable unless very narrowly scoped. Agents trained on US employment law will draft broad non-competes that Israeli courts routinely strike down. Always prefer robust confidentiality clauses instead.
 - Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
 - The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
-- Agents often claim Israeli IP ownership is ambiguous without a clause. It is not: ss.132 and 34 vest service inventions and works made for the job in the employer. Draft the clause for scope and s.134 terms, never inventions outside the job.
+- IP ownership is not ambiguous without a clause: ss.132 and 34 vest service inventions and works made for the job in the employer. Draft for scope and s.134 terms; any own-time carve-out must be subject to s.132.
 - The convalescence pay (Dmei Havra'a) rate for havra'a year 2026 is 451.5 NIS/day, raised from 418 by the extension order of 18 August 2026. An employer who paid at 418 owes 33.50 NIS per havra'a day.
 - Annual leave tables in training data often mix calendar-day and work-day figures (e.g. "16 days in year 5"). For a 5-day week the statutory minimum is 12 WORK days through year 5; 16 is the calendar-day figure. Never write a calendar-day number into a work-day clause.
 - Section 14 only covers severance for the salary and period its deposits cover. If deposits start mid-employment, the earlier period still owes severance at the last salary; do not present a mid-tenure Section 14 arrangement as wiping out prior-year severance liability.

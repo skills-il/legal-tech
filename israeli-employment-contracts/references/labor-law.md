@@ -161,7 +161,8 @@ Israeli courts use a multi-factor test focusing on:
 ### Patent Law, Section 132 (Service Inventions)
 
 - Section 132(a): an employee's invention reached as a result of and during the service (a service invention) belongs to the employer, absent another agreement
-- It does not reach inventions outside the service, such as side projects
+- The test is causal: reached as a result of and during the service, even outside formal duties or working hours. A contractual own-time carve-out must be made subject to s.132, or it can act as an agreement giving the invention away
+- Section 131: the employee must notify the employer in writing; under s.132(b) an employer who stays silent for six months on a notice stating the invention will vest in the employee loses it
 - Section 134: absent an agreement on whether and how much compensation the employee gets for a service invention, the Compensation and Royalties Committee decides it
 - So the contract should state the compensation terms expressly
 - Employment contract should address: assignment scope, disclosure obligations, compensation terms

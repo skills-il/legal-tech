@@ -56,6 +56,16 @@
         "Hourly notice at 12 completed months = 14 days (Prior Notice Law: 'during the second year'); matches workplace-rights-navigator.",
         "Still deferred: global overtime and the trust-position exclusion (kolzchut pages 404, no primary text rendered); a --pay-basis option in the script. SKILL.md body is at 4,997/5,000 words, so the next addition must move text to references/ first."
       ]
+    },
+    {
+      "version": "1.4.3",
+      "date": "2026-10-25",
+      "round": "post-ship-fix",
+      "lessons": [
+        "1.4.2 shipped a narrowed IP clause without review and it carried a CRITICAL: an own-time carve-out can operate as a s.132 'other agreement'. Signed contract text must pass an expert review before shipping, even when the change looks like a narrowing.",
+        "Deferred MINOR: confidentiality overlap (off-scope own-time work that uses trade secrets has no ownership remedy unless the optional bracket is used) and a post-employment invention-disclosure tail; flag in template next cycle.",
+        "Deferred: global overtime and trust-position exclusion; --pay-basis and deposit-rate options in the script. SKILL.md body is at exactly 5,000 words: move text to references/ before adding anything."
+      ]
     }
   ]
 }
