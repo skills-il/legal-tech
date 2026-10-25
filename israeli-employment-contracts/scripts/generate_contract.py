@@ -427,9 +427,10 @@ This obligation shall survive the termination of employment for a period of
 ## 13. Intellectual Property / Kinyan Ruchani / קניין רוחני
 
 All intellectual property, inventions, designs, works, software, documentation,
-and any other work product created by the Employee during the course of
-employment and/or using the Employer's resources shall be the sole and
-exclusive property of the Employer.
+and any other work product created by the Employee for the purposes of and
+during the employment, and any service invention (Patents Law s.132), shall be
+the sole and exclusive property of the Employer. Work outside the scope of the
+employment, made on the Employee's own time, is not included.
 
 The Employee hereby assigns to the Employer all rights, title, and interest
 in and to such work product, including all patents, copyrights, and other

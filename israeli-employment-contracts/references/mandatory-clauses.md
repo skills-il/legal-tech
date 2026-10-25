@@ -237,24 +237,24 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 13. Intellectual Property / קניין רוחני
 
 **English:**
-> All intellectual property, inventions, improvements, designs, works, software, documentation, and any other work product created by the Employee during the course of employment and/or using the Employer's resources shall be the sole and exclusive property of the Employer ("Work Product").
+> All intellectual property, inventions, improvements, designs, works, software, documentation, and any other work product created by the Employee for the purposes of and during the employment, and any service invention within the meaning of the Patents Law, 1967, s.132, shall be the sole and exclusive property of the Employer ("Work Product"). Work outside the scope of the employment, made on the Employee's own time, is not Work Product. [OPTIONAL, NEGOTIATED: also work made using the Employer's confidential information or resources]
 >
 > The Employee hereby irrevocably assigns to the Employer all rights, title, and interest in and to such Work Product, including all patents, copyrights, trade secrets, and other intellectual property rights, worldwide.
 >
 > The Employee shall promptly disclose to the Employer any invention or creation made during employment. The Employee shall execute all documents and take all actions reasonably requested by the Employer to perfect the Employer's rights in the Work Product. Compensation for a service invention (Patents Law, 1967, s.134): [STATE THE AGREED COMPENSATION TERMS, OR THAT THE SALARY IS THE FULL CONSIDERATION]; absent an agreement, the Compensation and Royalties Committee decides it.
 >
-> The Employee represents that all pre-existing intellectual property is listed in Schedule A attached hereto. Any IP not listed in Schedule A that is used in connection with the Employee's work shall be deemed assigned to the Employer.
+> The Employee represents that all pre-existing intellectual property is listed in Schedule A attached hereto. Pre-existing IP remains the Employee's; where the Employee incorporates it into Work Product, the Employee grants the Employer a [non-exclusive / exclusive], [royalty-free] licence to use it as part of that Work Product.
 >
 > **Schedule A -- Pre-existing IP:** [LIST OR "NONE"]
 
 **Hebrew / עברית:**
-> כל הקניין הרוחני, ההמצאות, השיפורים, העיצובים, היצירות, התוכנה, התיעוד וכל תוצר עבודה אחר שנוצר על ידי העובד/ת במהלך ההעסקה ו/או תוך שימוש במשאבי המעסיק יהיו רכושו הבלעדי של המעסיק ("תוצרי עבודה").
+> כל הקניין הרוחני, ההמצאות, השיפורים, העיצובים, היצירות, התוכנה, התיעוד וכל תוצר עבודה אחר שנוצר על ידי העובד/ת לצורך ההעסקה ובמהלכה, וכל אמצאת שירות כמשמעותה בסעיף 132 לחוק הפטנטים, התשכ"ז-1967, יהיו רכושו הבלעדי של המעסיק ("תוצרי עבודה"). עבודה שמחוץ להיקף ההעסקה, שנעשתה בזמנו/ה הפרטי של העובד/ת, אינה תוצר עבודה. [אופציונלי, בהסכמה: גם עבודה שנעשתה תוך שימוש במידע הסודי או במשאבי המעסיק]
 >
 > העובד/ת ממחה/ה בזאת באופן בלתי חוזר למעסיק את כל הזכויות, הבעלות והאינטרס בתוצרי העבודה, לרבות כל הפטנטים, זכויות היוצרים, הסודות המסחריים וזכויות הקניין הרוחני האחרות, ברחבי העולם.
 >
 > העובד/ת יגלה/תגלה למעסיק באופן מיידי כל המצאה או יצירה שנעשתה במהלך ההעסקה. העובד/ת יבצע/תבצע את כל המסמכים ויינקט/תינקט את כל הפעולות הסבירות שיתבקשו על ידי המעסיק לשכלול זכויות המעסיק בתוצרי העבודה. תמורה בעד אמצאת שירות (חוק הפטנטים, התשכ"ז-1967, סעיף 134): [לפרט את תנאי התמורה המוסכמים, או שהשכר הוא מלוא התמורה]; באין הסכם, הוועדה לענייני פיצויים ותמלוגים מכריעה בה.
 >
-> העובד/ת מצהיר/ה כי כל הקניין הרוחני הקיים מפורט בנספח א' המצורף להסכם. כל קניין רוחני שאינו מפורט בנספח א' ונעשה בו שימוש בקשר לעבודת העובד/ת ייחשב כממוחה למעסיק.
+> העובד/ת מצהיר/ה כי כל הקניין הרוחני הקיים מפורט בנספח א' המצורף להסכם. קניין רוחני קיים נשאר של העובד/ת; אם העובד/ת משלב/ת אותו בתוצר עבודה, הוא/היא מעניק/ה למעסיק רישיון [לא בלעדי / בלעדי], [ללא תמלוגים], להשתמש בו כחלק מאותו תוצר.
 >
 > **נספח א' -- קניין רוחני קיים:** [רשימה או "אין"]
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.2] - 2026-10-25
+
+### Fixed
+- IP ownership: the skill said Israeli law has no automatic work-for-hire and that ownership without an IP clause is ambiguous. By default the employer owns a service invention (Patents Law s.132) and a work an employee made for and during the work (Copyright Law s.34), unless agreed otherwise. Neither rule covers work outside the job, and a contractor keeps copyright absent assignment (s.35). An explicit IP clause sets the scope (side projects, pre-existing IP) and the s.134 compensation terms.
+- The IP clause template and generator no longer claim work merely because Employer resources were used, or deem unlisted pre-existing IP assigned. They now cover work made for the purposes of and during the employment plus service inventions; pre-existing IP stays the employee's, under a licence placeholder.
+
 ## [1.4.1] - 2026-10-25
 
 ### Fixed

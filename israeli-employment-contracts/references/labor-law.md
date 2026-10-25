@@ -160,16 +160,18 @@ Israeli courts use a multi-factor test focusing on:
 
 ### Patent Law, Section 132 (Service Inventions)
 
-- Inventions created by employees in the course of their duties belong to the employer
+- Section 132(a): an employee's invention reached as a result of and during the service (a service invention) belongs to the employer, absent another agreement
+- It does not reach inventions outside the service, such as side projects
 - Section 134: absent an agreement on whether and how much compensation the employee gets for a service invention, the Compensation and Royalties Committee decides it
 - So the contract should state the compensation terms expressly
 - Employment contract should address: assignment scope, disclosure obligations, compensation terms
 
 ### Copyright Law, 2007 (Section 34)
 
-- Works created by an employee in the course of employment belong to the employer (unless otherwise agreed)
+- The employer is the first owner of copyright in a work an employee created for the purposes of and during the work, unless agreed otherwise
 - Applies to software, documentation, designs, and other copyrightable works
-- Independent contractors retain copyright unless explicitly assigned in the contract
+- Section 35(a): in a commissioned work the creator is the first owner unless agreed otherwise, expressly or impliedly, so contractors keep copyright absent assignment
+- So a contract IP clause is about scope (side projects, pre-existing IP, the job boundary) and s.134 compensation, not about curing an ambiguous default
 
 ## Tax Treatment of Employee Pension Contributions
 

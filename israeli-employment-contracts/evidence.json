@@ -1649,6 +1649,48 @@
       ],
       "verified_via": "browser",
       "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "copyright-s34-employer-first-owner",
+      "claim": "Copyright Law 2007 s.34 (Section 34 / סעיף 34): the employer is the first owner of copyright in a work an employee created for the purposes of and during the work, unless agreed otherwise.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "raw_snippet": "מעביד הוא הבעלים הראשון של זכות היוצרים ביצירה שנוצרה על ידי עובדו לצורך עבודתו ובמהלכה, אלא אם כן הוסכם אחרת.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "copyright-s35-commissioned-creator",
+      "claim": "Copyright Law s.35(a) (Section 35 / סעיף 35): in a commissioned work the creator is the first owner unless agreed otherwise, expressly or impliedly.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "raw_snippet": "ביצירה שנוצרה לפי הזמנה, הבעלים הראשון של זכות היוצרים בה, כולה או חלקה, הוא היוצר, אלא אם כן הוסכם אחרת בין המזמין והיוצר, במפורש או במשתמע.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "patents-s132-service-invention",
+      "claim": "Patents Law s.132(a) (Section 132 / סעיף 132): an employee's invention reached as a result of and during the service is a service invention and belongs to the employer absent another agreement.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4539.htm",
+      "raw_snippet": "אמצאה של עובד, שהגיע אליה עקב שירותו ובתקופת שירותו (להלן – אמצאת שירות), תקום לקנין מעבידו, אם אין ביניהם הסכם אחר לענין זה",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     }
   ]
 }

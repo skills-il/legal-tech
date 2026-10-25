@@ -191,10 +191,10 @@ Freedom of occupation (Basic Law: Freedom of Occupation, and Human Dignity and L
 - Recommendation: Use robust confidentiality clauses instead, which are far more enforceable
 
 **Intellectual Property assignment:**
-- Israeli law does not have automatic work-for-hire for all works (unlike US law)
-- Patent Law Section 132: Inventions by employees generally belong to the employer if created in the course of employment. Absent an agreement on compensation, the Compensation and Royalties Committee decides it (s.134), so state them expressly
-- Copyright: Works created in the scope of employment belong to the employer (Copyright Law 2007, Section 34)
-- Explicit IP assignment clause is strongly recommended, especially for software and technology
+- Default rule: the employer owns an employee's service invention and a work made for and during the work, unless agreed otherwise. Neither covers work outside the job, or a contractor, who keeps ownership absent assignment (Copyright Law s.35)
+- Patent Law Section 132: a service invention (reached as a result of and during the service) belongs to the employer. Absent an agreement on compensation, the Compensation and Royalties Committee decides it (s.134), so state them expressly
+- Copyright Law 2007, Section 34: the employer is first owner of a work the employee made for and during the work
+- An explicit IP clause still sets the scope (side projects, pre-existing IP) and the s.134 terms
 - Consider including a pre-existing IP disclosure schedule
 
 ### Step 5: Compliance Checklist Before Signing
@@ -271,7 +271,7 @@ Actions:
 2. Build: Generate the full contract using Step 3, filling every mandatory section the offer letter omitted (Section 14 election, pension fund, Keren Hishtalmut, convalescence, leave, sick days, notice period, IP assignment)
 3. Calculate: Apply current benefit rates from Step 2, verifying the gross salary meets the minimum wage floor
 4. Checklist: Run Step 5 to confirm all mandatory items are present
-Result: A complete bilingual employment contract built from the partial draft, ready for legal review and signing. If the user instead wants an independent pre-signing audit of a contract someone else drafted, point them to the `israeli-employment-contract-reviewer` skill.
+Result: A complete bilingual employment contract built from the partial draft, ready for legal review and signing. For an independent audit of someone else's draft, use `israeli-employment-contract-reviewer`.
 
 ### Example 4: Contractor vs. Employee Assessment
 User says: "I have someone working for me full-time from our office, should they be a contractor or employee?"
@@ -284,7 +284,7 @@ Result: The classification indicators, the misclassification risk, and next step
 
 ### Example 5: Salaried Nanny Employed by a Household
 User says: "We are hiring a nanny 4 days a week, draft the employment contract"
-Actions: Draft a full employment contract (minimum wage, pension, convalescence, one-month-per-year severance, a Notice to Employee), then add the domestic-worker clauses: register the household as an employer with Bituach Leumi on the meshek-bayit track and pay National Insurance for her, fix the weekly schedule with a signed hours log (the burden of proving hours is on the household), and state the 36-hour weekly rest. Note this is a local salaried worker, so foreign-caregiver permit and payroll rules do not apply.
+Actions: Draft the full contract, then add the Step 1b domestic clauses: Bituach Leumi meshek-bayit registration, a signed hours log (the burden of proof is on the household), and the 36-hour weekly rest. She is a local salaried worker, so foreign-caregiver rules do not apply.
 
 ## Bundled Resources
 
@@ -301,7 +301,7 @@ Actions: Draft a full employment contract (minimum wage, pension, convalescence,
 - Israeli non-compete clauses are nearly unenforceable unless very narrowly scoped. Agents trained on US employment law will draft broad non-competes that Israeli courts routinely strike down. Always prefer robust confidentiality clauses instead.
 - Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
 - The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
-- Israeli law does not recognize automatic "work-for-hire" for all intellectual property as US law does. Agents drafting contracts without an explicit IP assignment clause will leave IP ownership ambiguous, especially for software.
+- Agents often claim Israeli IP ownership is ambiguous without a clause. It is not: ss.132 and 34 vest service inventions and works made for the job in the employer. Draft the clause for scope and s.134 terms, never inventions outside the job.
 - The convalescence pay (Dmei Havra'a) rate for havra'a year 2026 is 451.5 NIS/day, raised from 418 by the extension order of 18 August 2026. An employer who paid at 418 owes 33.50 NIS per havra'a day.
 - Annual leave tables in training data often mix calendar-day and work-day figures (e.g. "16 days in year 5"). For a 5-day week the statutory minimum is 12 WORK days through year 5; 16 is the calendar-day figure. Never write a calendar-day number into a work-day clause.
 - Section 14 only covers severance for the salary and period its deposits cover. If deposits start mid-employment, the earlier period still owes severance at the last salary; do not present a mid-tenure Section 14 arrangement as wiping out prior-year severance liability.
