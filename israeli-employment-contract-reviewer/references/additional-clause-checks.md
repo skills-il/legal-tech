@@ -101,7 +101,7 @@ binding precedent, and the national labour court has not ruled.
 ## 7. A minor's contract (under 18)
 
 - The minimum wage is a percentage of the adult figure (see `references/numerical-sanity-checks.md`).
-- An employee under 18 is entitled to 18 days of annual leave regardless of seniority (Youth Labour Law s.27(a)). They are counted the way the Annual Leave Law counts days, weekly rest included, so on a 5-day week that is 14 working days.
+- An employee under 18 is entitled to 18 days of annual leave regardless of seniority (Youth Labour Law s.27(a)). They are counted the way the Annual Leave Law counts days, weekly rest included, so that is 14 working days on a 5-day week and 16 on a 6-day week.
 - The written notice of terms is due within 7 days of starting, not 30.
 - Ask the age before grading pay or leave, or the adult blockers will fire on a lawful contract.
 

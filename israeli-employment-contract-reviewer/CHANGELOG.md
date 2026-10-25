@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.2] - 2026-10-25
+
+### Fixed
+- A minor's 18 leave days are 16 working days on a 6-day week (14 on a 5-day week). The script takes `--six-day-week` with `--minor`, so a 6-day-week minor given 14 days is now flagged.
+
 ## [1.5.1] - 2026-10-25
 
 ### Fixed

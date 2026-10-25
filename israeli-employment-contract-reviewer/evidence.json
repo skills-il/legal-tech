@@ -2377,7 +2377,7 @@
     },
     {
       "claim_id": "leave-law-s3-weekly-rest-counted",
-      "claim": "Annual Leave Law s.3: the leave days in s.3(a) include one weekly rest day for every seven leave days, so s.3(a) days (including a minor's 18 read in by Youth Labour Law s.27(a)) are gross; converted for a 5-day week as for adults, 18 gross is 14 working days.",
+      "claim": "Annual Leave Law s.3: the leave days in s.3(a) include one weekly rest day for every seven leave days, so s.3(a) days (including a minor's 18 read in by Youth Labour Law s.27(a)) are gross; converted for a 5-day week as for adults, 18 gross is 14 working days on a 5-day week and 16 on a 6-day week (18 minus one rest day per seven).",
       "source_url": "https://he.wikisource.org/wiki/חוק_חופשה_שנתית",
       "raw_snippet": "בימי החופשה לא ייכלל אלא מנוחה שבועית אחת לכל שבעה ימי חופשה.",
       "fetched_at": "2026-10-25T10:30:00Z",

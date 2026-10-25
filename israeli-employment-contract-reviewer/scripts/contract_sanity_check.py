@@ -31,7 +31,7 @@ MANDATORY_PENSION_EMPLOYEE_MIN = 6.0  # Expansion Order floor. 7% is credit-opti
 KH_EMPLOYER_STD = 7.5
 # Under 18: Youth Labour Law s.27(a) reads 18 days into Annual Leave Law s.3(a),
 # which counts GROSS days (weekly rest included). Converted like the adult ladder,
-# that is 14 net working days on a 5-day week.
+# that is 14 net working days on a 5-day week and 16 on a 6-day week.
 MINOR_VACATION_GROSS_DAYS = 18
 KH_EMPLOYEE_STD = 2.5
 
@@ -122,6 +122,13 @@ def statutory_net_vacation_days(tenure_years: int) -> int:
     return 5 * (gross // 7) + min(gross % 7, 5)
 
 
+def minor_net_days(gross: int, six_day_week: bool = False) -> int:
+    """A minor's gross days as working days: one weekly rest day per seven leave days."""
+    if six_day_week:
+        return gross - gross // 7
+    return 5 * (gross // 7) + min(gross % 7, 5)
+
+
 def required_vacation_days(tenure_years: int, extension_order_applies: bool = True) -> int:
     """Minimum annual leave in NET working days for a 5-day week.
 
@@ -151,6 +158,7 @@ def check(
     full_section_14: bool = False,
     leave_year: int | None = None,
     minor: bool = False,
+    six_day_week: bool = False,
 ) -> list[Finding]:
     findings: list[Finding] = []
     # Leave ladders are indexed by the year of service being worked, and the
@@ -243,7 +251,7 @@ def check(
         )
 
     required_vacation = (
-        5 * (MINOR_VACATION_GROSS_DAYS // 7) + min(MINOR_VACATION_GROSS_DAYS % 7, 5)
+        minor_net_days(MINOR_VACATION_GROSS_DAYS, six_day_week)
         if minor
         else required_vacation_days(tenure_years, extension_order_applies)
     )
@@ -339,7 +347,8 @@ def main() -> int:
         default=None,
         help="Calendar leave year of service (the starting calendar year is year 1). Defaults to completed years + 1.",
     )
-    parser.add_argument("--minor", action="store_true", help="The employee is under 18: 18 gross leave days (14 net on a 5-day week) regardless of seniority.")
+    parser.add_argument("--minor", action="store_true", help="The employee is under 18: 18 gross leave days (14 working days on a 5-day week, 16 on a 6-day week) regardless of seniority.")
+    parser.add_argument("--six-day-week", action="store_true", help="With --minor: the employee works a 6-day week.")
     parser.add_argument("--example", action="store_true", help="Run with a sample contract")
     parser.add_argument("--self-test", action="store_true", help="Run golden-case assertions for the notice schedules")
     args = parser.parse_args()
@@ -407,6 +416,8 @@ def main() -> int:
         # A minor is owed 18 gross days regardless of seniority: 14 net on a 5-day week.
         assert any("vacation" in f.field for f in check(6.5, 6.0, 6.0, 30, 6, "monthly", 12, 18, 7.5, minor=True)), "minor 12 < 14"
         assert not any("vacation" in f.field for f in check(6.5, 6.0, 6.0, 30, 6, "monthly", 14, 18, 7.5, minor=True)), "minor 14 net is enough"
+        assert any("vacation" in f.field for f in check(6.5, 6.0, 6.0, 30, 6, "monthly", 14, 18, 7.5, minor=True, six_day_week=True)), "6-day-week minor needs 16"
+        assert not any("vacation" in f.field for f in check(6.5, 6.0, 6.0, 30, 6, "monthly", 16, 18, 7.5, minor=True, six_day_week=True)), "6-day-week minor 16 is enough"
         print("All golden cases passed.")
         return 0
 
@@ -472,6 +483,7 @@ def main() -> int:
         full_section_14=args.full_section_14,
         leave_year=args.leave_year,
         minor=args.minor,
+        six_day_week=args.six_day_week,
     )
     print(format_findings(findings))
     return 0
