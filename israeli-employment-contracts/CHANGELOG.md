@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.1] - 2026-10-25
+
+### Fixed
+- The Section 14 clause (template, generator and the Step 2 summary) said deposits are "full and complete" severance. They replace severance in full only at 8.33%; at 6% they replace it only in proportion (about 72%), and the balance stays owed.
+- Monthly-paid notice rows relabelled months 7-11: a full month applies from 12 completed months, as the Prior Notice Law says. For an hourly worker, 12 completed months is already the second year (14 days).
+- Leave under 200 work days now states the formula: days worked / 200 x the calendar-day entitlement, rounded down.
+
+### Added
+- A hearing (shimua) is required before any dismissal, including during probation.
+- Patents Law s.134: without an agreement on service-invention compensation, the Compensation and Royalties Committee decides it. The IP clause now has a placeholder for the agreed terms.
+- The 6-day-week statutory leave table, in references/labor-law.md.
+
 ## [1.4.0] - 2026-10-25
 
 ### Fixed

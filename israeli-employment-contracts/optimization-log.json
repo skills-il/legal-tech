@@ -45,6 +45,17 @@
         "Description has no opening legal clause because the owner removed 'legal advice' openers 2026-10-08/09 and this skill's opener was only that clause; legal-review accepts null prefix for the legal domain.",
         "SKILL.md body is near the 5,000-word cap; household-worker detail moved to references/household-workers.md this cycle."
       ]
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-10-25",
+      "round": "post-ship-fix",
+      "lessons": [
+        "Prose and generator/template drift: three of four judge round-2 items were the script or clause template still saying what the prose had dropped (6-12 months, Supreme Court, missing leave rows). After any prose fix, grep scripts/ and references/ for the old value.",
+        "Section 14 clause wording must be conditional on the deposit rate: full replacement only at 8.33%.",
+        "Hourly notice at 12 completed months = 14 days (Prior Notice Law: 'during the second year'); matches workplace-rights-navigator.",
+        "Still deferred: global overtime and the trust-position exclusion (kolzchut pages 404, no primary text rendered); a --pay-basis option in the script. SKILL.md body is at 4,997/5,000 words, so the next addition must move text to references/ first."
+      ]
     }
   ]
 }

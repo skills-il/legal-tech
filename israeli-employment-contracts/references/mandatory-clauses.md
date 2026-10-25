@@ -35,10 +35,10 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 3. Start Date and Probation / תאריך התחלה ותקופת ניסיון
 
 **English:**
-> The Employee's employment shall commence on [DATE] ("Start Date"). The first six (6) months of employment shall constitute a probation period ("Probation Period"). During the Probation Period, either party may terminate this Agreement by providing notice as required by law. The Probation Period does not affect any statutory protection, including the Employment of Women Law. Completion of the Probation Period shall not require any formal confirmation; employment shall continue on the same terms.
+> The Employee's employment shall commence on [DATE] ("Start Date"). The first six (6) months of employment shall constitute a probation period ("Probation Period"). During the Probation Period, either party may terminate this Agreement by providing notice as required by law. The Probation Period does not affect any statutory protection, including the Employment of Women Law, or the duty to hold a hearing before dismissal. Completion of the Probation Period shall not require any formal confirmation; employment shall continue on the same terms.
 
 **Hebrew / עברית:**
-> עבודת העובד/ת תחל ביום [תאריך] ("מועד ההתחלה"). ששת (6) החודשים הראשונים להעסקה יהוו תקופת ניסיון ("תקופת הניסיון"). במהלך תקופת הניסיון, כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת כנדרש בחוק. תקופת הניסיון אינה גורעת מכל הגנה שבדין, לרבות לפי חוק עבודת נשים. סיום תקופת הניסיון אינו מחייב אישור פורמלי; ההעסקה תמשיך באותם תנאים.
+> עבודת העובד/ת תחל ביום [תאריך] ("מועד ההתחלה"). ששת (6) החודשים הראשונים להעסקה יהוו תקופת ניסיון ("תקופת הניסיון"). במהלך תקופת הניסיון, כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת כנדרש בחוק. תקופת הניסיון אינה גורעת מכל הגנה שבדין, לרבות לפי חוק עבודת נשים, ומחובת השימוע לפני פיטורים. סיום תקופת הניסיון אינו מחייב אישור פורמלי; ההעסקה תמשיך באותם תנאים.
 
 ---
 
@@ -80,7 +80,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > - Severance component: 8.33% of the Salary (Employer)
 > - "Salary" for these contributions: [the Employee's full gross base salary / the base salary up to the national average wage]. The statutory minimum is the lower of the base salary and the national average wage; contributing on the full salary is a contractual undertaking and must be stated expressly.
 >
-> **Section 14 Arrangement:** In accordance with Section 14 of the Severance Pay Law, 1963, and the General Authorization of the Minister of Labour under it (י"פ תשנ"ח 4394), as applied by the extension order for comprehensive pension insurance, the Employer's contributions to the pension fund as set forth above shall constitute the Employee's full and complete severance pay for the salary on which said contributions are made and for the period they are made. Upon termination of employment, the Employee shall receive the accumulated pension fund balance in lieu of calculated severance pay. The Employer shall have no further severance obligation in respect of that salary and that period. [If the severance component is 8.33%:] The Employer shall notify the fund in writing, with a copy to the Employee, that Section 14 also applies to the 2.33% completion of severance pay.
+> **Section 14 Arrangement:** In accordance with Section 14 of the Severance Pay Law, 1963, and the General Authorization of the Minister of Labour under it (י"פ תשנ"ח 4394), as applied by the extension order for comprehensive pension insurance, the Employer's contributions to the severance component as set forth above shall come in place of severance pay for the salary on which they are made and for the period they are made: in full where the severance component is 8.33%, and only in proportion to the amount deposited where it is 6% (about 72% of the statutory amount, the balance remaining owed). Upon termination of employment, the Employee shall receive the accumulated severance balance in lieu of calculated severance pay, to the extent set out above. Where the severance component is 8.33%, the Employer shall have no further severance obligation in respect of that salary and that period; where it is below 8.33% (such as 6%), the Employer is released only for the share the deposits cover (deposit rate / 8.33%), and, where the Employee is entitled to severance, shall pay on termination the completion: the difference between 8.33% and the rate deposited in each year, multiplied by the last salary. [If the severance component is 8.33%:] The Employer shall notify the fund in writing, with a copy to the Employee, that Section 14 also applies to the 2.33% completion of severance pay.
 >
 > The Employee acknowledges and agrees to this Section 14 arrangement.
 >
@@ -92,7 +92,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > - פיצויים: 8.33% מהשכר (מעסיק)
 > - "שכר" לעניין ההפרשות: [מלוא שכר הבסיס ברוטו של העובד/ת / שכר הבסיס עד גובה השכר הממוצע במשק]. המינימום החוקי הוא הנמוך מבין שכר הבסיס לבין השכר הממוצע במשק; הפרשה על מלוא השכר היא התחייבות חוזית ויש לציין אותה במפורש.
 >
-> **הסדר סעיף 14:** בהתאם לסעיף 14 לחוק פיצויי פיטורים, תשכ"ג-1963, ולאישור הכללי של שר העבודה לפיו (י"פ תשנ"ח 4394), כפי שהוחל בצו ההרחבה לביטוח פנסיוני מקיף, הפרשות המעסיק לקרן הפנסיה כמפורט לעיל יהוו את מלוא פיצויי הפיטורים של העובד/ת בגין השכר שעליו בוצעו ההפרשות ובגין התקופה שבעדה בוצעו. עם סיום ההעסקה, העובד/ת יקבל/תקבל את יתרת קרן הפנסיה המצטברת במקום פיצויי פיטורים מחושבים. למעסיק לא תהיה חובת פיצויים נוספת בגין אותו שכר ואותה תקופה. [אם רכיב הפיצויים הוא 8.33%:] המעסיק יודיע לקופה בכתב, עם העתק לעובד/ת, שסעיף 14 חל גם על השלמת פיצויי הפיטורים בשיעור 2.33%.
+> **הסדר סעיף 14:** בהתאם לסעיף 14 לחוק פיצויי פיטורים, תשכ"ג-1963, ולאישור הכללי של שר העבודה לפיו (י"פ תשנ"ח 4394), כפי שהוחל בצו ההרחבה לביטוח פנסיוני מקיף, הפרשות המעסיק לרכיב הפיצויים כמפורט לעיל יבואו במקום פיצויי הפיטורים בגין השכר שעליו בוצעו ההפרשות ובגין התקופה שבעדה בוצעו: במלואם כשרכיב הפיצויים הוא 8.33%, ורק באופן יחסי לסכום שהופקד כשהוא 6% (כ-72% מהסכום הסטטוטורי, והיתרה נשארת חוב). עם סיום ההעסקה, העובד/ת יקבל/תקבל את יתרת הפיצויים המצטברת במקום פיצויי פיטורים מחושבים, בהיקף המפורט לעיל. כשרכיב הפיצויים הוא 8.33%, למעסיק לא תהיה חובת פיצויים נוספת בגין אותו שכר ואותה תקופה; כשהוא נמוך מ-8.33% (למשל 6%), המעסיק משוחרר רק בחלק שההפרשות מכסות (שיעור ההפרשה חלקי 8.33%), ואם העובד/ת זכאי/ת לפיצויי פיטורים, ישלם המעסיק בסיום ההעסקה השלמה: ההפרש בין 8.33% לשיעור שהופרש בכל שנה, כפול השכר האחרון. [אם רכיב הפיצויים הוא 8.33%:] המעסיק יודיע לקופה בכתב, עם העתק לעובד/ת, שסעיף 14 חל גם על השלמת פיצויי הפיטורים בשיעור 2.33%.
 >
 > העובד/ת מאשר/ת ומסכים/ה להסדר סעיף 14 זה.
 >
@@ -201,7 +201,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 **English:**
 > Either party may terminate this Agreement by providing written notice. For a MONTHLY-paid employee:
 > - Months 1-6 of employment: 1 day of notice per month of employment
-> - Months 7-12 of employment: 6 days plus 2.5 days for each month beyond the 6th
+> - Months 7-11 of employment (before 12 full months): 6 days plus 2.5 days for each full month beyond the 6th
 > - After 1 year of employment: 30 days (one month)
 >
 > For a DAILY/HOURLY-paid employee (oved be'sachar): 1 day of notice per month worked during the first year; during the second year, 14 days plus 1 day for every two months worked in that year; during the third year, 21 days plus 1 day for every two months worked in that year; after 3 years, 30 days (one month).
@@ -211,7 +211,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 **Hebrew / עברית:**
 > כל צד רשאי לסיים הסכם זה במתן הודעה מוקדמת בכתב. לעובד במשכורת חודשית:
 > - חודשים 1-6 להעסקה: יום הודעה אחד לכל חודש עבודה
-> - חודשים 7-12 להעסקה: 6 ימים ועוד 2.5 ימים לכל חודש מעבר לשישי
+> - חודשים 7-11 להעסקה (לפני 12 חודשים מלאים): 6 ימים ועוד 2.5 ימים לכל חודש מלא מעבר לשישי
 > - לאחר שנת עבודה: 30 ימים (חודש)
 >
 > לעובד בשכר (יומי/שעתי): יום הודעה אחד לכל חודש עבודה בשנה הראשונה; בשנה השנייה, 14 ימים ועוד יום אחד לכל שני חודשי עבודה באותה שנה; בשנה השלישית, 21 ימים ועוד יום אחד לכל שני חודשי עבודה באותה שנה; אחרי 3 שנים, 30 ימים (חודש).
@@ -241,7 +241,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 >
 > The Employee hereby irrevocably assigns to the Employer all rights, title, and interest in and to such Work Product, including all patents, copyrights, trade secrets, and other intellectual property rights, worldwide.
 >
-> The Employee shall promptly disclose to the Employer any invention or creation made during employment. The Employee shall execute all documents and take all actions reasonably requested by the Employer to perfect the Employer's rights in the Work Product.
+> The Employee shall promptly disclose to the Employer any invention or creation made during employment. The Employee shall execute all documents and take all actions reasonably requested by the Employer to perfect the Employer's rights in the Work Product. Compensation for a service invention (Patents Law, 1967, s.134): [STATE THE AGREED COMPENSATION TERMS, OR THAT THE SALARY IS THE FULL CONSIDERATION]; absent an agreement, the Compensation and Royalties Committee decides it.
 >
 > The Employee represents that all pre-existing intellectual property is listed in Schedule A attached hereto. Any IP not listed in Schedule A that is used in connection with the Employee's work shall be deemed assigned to the Employer.
 >
@@ -252,7 +252,7 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 >
 > העובד/ת ממחה/ה בזאת באופן בלתי חוזר למעסיק את כל הזכויות, הבעלות והאינטרס בתוצרי העבודה, לרבות כל הפטנטים, זכויות היוצרים, הסודות המסחריים וזכויות הקניין הרוחני האחרות, ברחבי העולם.
 >
-> העובד/ת יגלה/תגלה למעסיק באופן מיידי כל המצאה או יצירה שנעשתה במהלך ההעסקה. העובד/ת יבצע/תבצע את כל המסמכים ויינקט/תינקט את כל הפעולות הסבירות שיתבקשו על ידי המעסיק לשכלול זכויות המעסיק בתוצרי העבודה.
+> העובד/ת יגלה/תגלה למעסיק באופן מיידי כל המצאה או יצירה שנעשתה במהלך ההעסקה. העובד/ת יבצע/תבצע את כל המסמכים ויינקט/תינקט את כל הפעולות הסבירות שיתבקשו על ידי המעסיק לשכלול זכויות המעסיק בתוצרי העבודה. תמורה בעד אמצאת שירות (חוק הפטנטים, התשכ"ז-1967, סעיף 134): [לפרט את תנאי התמורה המוסכמים, או שהשכר הוא מלוא התמורה]; באין הסכם, הוועדה לענייני פיצויים ותמלוגים מכריעה בה.
 >
 > העובד/ת מצהיר/ה כי כל הקניין הרוחני הקיים מפורט בנספח א' המצורף להסכם. כל קניין רוחני שאינו מפורט בנספח א' ונעשה בו שימוש בקשר לעבודת העובד/ת ייחשב כממוחה למעסיק.
 >

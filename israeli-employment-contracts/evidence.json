@@ -1516,6 +1516,139 @@
       ],
       "verified_via": "browser",
       "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "prior-notice-law-hourly-years",
+      "claim": "Prior Notice for Dismissal and Resignation Law s.3: a wage worker gets 1 day per month in year 1; during the second year 14 days plus 1 per two months; during the third year 21 days plus 1 per two months; after the third year a month. 12 completed months = in the second year (14 days).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%95%D7%9C%D7%94%D7%AA%D7%A4%D7%98%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "במהלך שנת עבודתו השניה – של 14 ימים, בתוספת של יום אחד בשל כל שני חודשי עבודה בשנה האמורה;",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "prior-notice-law-monthly-after-year1",
+      "claim": "Monthly-paid: from the seventh month to the end of the first year 6 days plus 2.5 per month; after the first year a month.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%95%D7%9C%D7%94%D7%AA%D7%A4%D7%98%D7%A8%D7%95%D7%AA",
+      "raw_snippet": "לאחר שנת עבודתו הראשונה – של חודש ימים.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "annual-leave-6day-statute-table",
+      "claim": "Annual Leave Law, 6-day week, net days: years 1-5: 14; 6: 16; 7: 18; 8: 19; 9: 20; 10: 21; 11: 22; 12: 23; 13: 24; 14+: 24.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_6_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "6 שנים 16 18 7 שנים 18 21 8 שנים 19 22 9 שנים 20 23 10 שנים 21 24 11 שנים 22 25 12 שנים 23 26 13 שנים 24 27 14 שנים ומעלה 24 28",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "references/labor-law.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "annual-leave-under-200-formula",
+      "claim": "Under 200 work days: days worked / 200 x gross days, rounded down; e.g. 150/200 x 23 = 17.25.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "150 חלקי 200 כפול 23 (מספר הימים ברוטו) - סה\"כ 17.25 ימים, כולל ימי המנוחה השבועית.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "annual-leave-under-200-round-down",
+      "claim": "Fractional results under 200 days are rounded down.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "אם מתקבל מספר שאינו שלם בחישוב ימי החופשה למי שעבד פחות מ-200 ימים באותה שנה, המספר יעוגל כלפי מטה.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "hearing-before-dismissal",
+      "claim": "The employer must hold a hearing before dismissal, with a written summons a reasonable time ahead setting out the claims; the employee may bring a representative.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%9E%D7%95%D7%A2_%D7%9C%D7%A4%D7%A0%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "על המעסיק לתת לעובד זימון בכתב לשימוע זמן סביר לפני הליך, ולפרט בזימון את הטענות כנגד העובד",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "patents-s134-compensation",
+      "claim": "Patents Law s.134: absent an agreement on whether and how much compensation for a service invention, the Compensation and Royalties Committee decides. (Section 134 / סעיף 134; s.134)",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4539.htm",
+      "raw_snippet": "באין הסכם הקובע אם זכאי העובד לתמורה בעד אמצאת שירות, ובאיזו מידה ובאילו תנאים, ייקבע הדבר על ידי הועדה לעניני פיצויים ותמלוגים",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-law.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "s14-full-release-only-8-33",
+      "claim": "Deposits replace severance in full only if the employer deposited 8.33% monthly; below that, the employer pays a severance completion at the end of employment if the employee is entitled to severance.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק בתנאי שהמעסיק הפריש את מלוא פיצויי הפיטורים - 8.33% מדי חודש. אם המעסיק הפריש פחות מ- 8.33% עליו לשלם לעובד השלמת פיצויי פיטורים בתום יחסי העבודה, בתנאי שהעובד זכאי לפיצויי פיטורים.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "s14-completion-formula",
+      "claim": "The completion for each year is the difference between 8.33% and the rate actually deposited, multiplied by the last salary.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "ישלים המעסיק עבור כל אחת מהשנים שבהן הועברו ההפרשות לביטוח הפנסיוני, את החלק מפיצויי הפיטורים שלא הועבר לביטוח הפנסיוני (ההפרש בין 8.33% מהשכר ובין שיעור ההפרשות שבוצע בכל שנה) במכפלת השכר האחרון.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-clauses.md",
+        "scripts/generate_contract.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     }
   ]
 }

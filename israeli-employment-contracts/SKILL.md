@@ -33,7 +33,7 @@ Ask the user what type of employment relationship they need to document:
 
 ### Step 1b: Domestic and Household Workers (Oved Meshek Bayit)
 
-A salaried cleaner, nanny, or caregiver employed directly by a household is a regular employee: "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות לעובדים שכירים". The full contract applies, plus domestic clauses detailed in `references/household-workers.md`: the household reports and pays National Insurance on the Bituach Leumi meshek-bayit track (its own rates, paid QUARTERLY, not Step 6's monthly Form 102 rates); a signed hours log, since the burden of proving hours is on the employer; weekly rest of at least 36 hours (live-in caregivers: courts recognized at least 25); live-in caregivers whose hours cannot be supervised get a genuine global overtime payment instead of per-hour 125%/150%, while a live-out worker on a fixed schedule gets per-hour overtime; lodging and meals in kind never push cash pay below the minimum wage. Household workers fall outside the Shortened Work Week extension order for annual leave. A FOREIGN caregiver (permit, licensed bureau, deposit fund) is the `foreign-caregiver-payroll` skill.
+A salaried cleaner, nanny, or caregiver employed directly by a household is a regular employee: "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות לעובדים שכירים". The full contract applies, plus domestic clauses detailed in `references/household-workers.md`: the household reports and pays National Insurance on the Bituach Leumi meshek-bayit track (its own rates, paid QUARTERLY, not Step 6's monthly Form 102 rates); a signed hours log, since the burden of proving hours is on the employer; weekly rest of at least 36 hours (live-in caregivers: courts recognized at least 25); live-in caregivers whose hours cannot be supervised get a genuine global overtime payment instead of per-hour 125%/150%, while a live-out worker on a fixed schedule gets per-hour overtime; lodging and meals in kind never push cash pay below the minimum wage. A FOREIGN caregiver (permit, licensed bureau, deposit fund) is the `foreign-caregiver-payroll` skill.
 
 ### Step 2: Calculate Mandatory Benefits
 
@@ -57,7 +57,7 @@ All rates below are current as of 2025-2026. Verify rates annually as they may b
 **Section 14 (Saif 14) arrangement:**
 Section 14 is a PROHIBITION with exceptions, not a permission. It provides that a payment to a provident fund, pension fund or similar `לא יבוא במקום פיצויי פיטורים` UNLESS an applicable collective agreement so provides, or the Minister of Labour has approved it (the General Authorization, אישור כללי, י"פ תשנ"ח 4394). Since 2008 the pension extension order applies Section 14 AUTOMATICALLY to the mandatory 6% severance deposits, with no separate agreement. To apply it to the 2.33% top-up as well (8.33% in total, which fully funds the month-per-year rate), the employer notifies the fund in writing with a copy to the employee. When it applies:
 - Deposits count as severance for the salary and period they cover
-- On termination the employee receives the fund balance instead of calculated severance for that salary and period
+- On termination the employee receives the fund balance instead of calculated severance for that salary and period: in full at 8.33%; below that only for its share, the employer owing the balance
 - The contract should state the fund, whether severance deposits are 6% or 8.33%, and that the 2.33% notice to the fund is given
 
 **Statutory severance (Pitzuei Piturin, Severance Pay Law 1963):**
@@ -102,7 +102,7 @@ Seniority is counted in CALENDAR years (a year starting 1 January), not annivers
 | Year 11 | 19 days | 23 days |
 | Year 12+ | 20 days | 23 days |
 
-The Shortened Work Week extension order covers most private workplaces that moved to a 5-day week, and the employee gets whichever figure is higher. It does NOT cover, among others, workplaces with fewer than 4 employees, government and municipal companies, collectively-agreed 5-day weeks, and household workers, which fall back to the statutory column. Employees under 18 get 18 days a year regardless of seniority. These are minimums; many employers offer more. A full-year entitlement assumes at least 200 work days in the year; fewer days give a pro-rated share.
+The Shortened Work Week extension order covers most private workplaces that moved to a 5-day week, and the employee gets whichever figure is higher. It does NOT cover, among others, workplaces with fewer than 4 employees, government and municipal companies, collectively-agreed 5-day weeks, and household workers, which fall back to the statutory column. Employees under 18 get 18 days a year regardless of seniority. These are minimums; many employers offer more. Under 200 work days in the year, the entitlement is days worked / 200 x the calendar-day figure, rounded down.
 
 **Sick leave (Machala):**
 - Accrual: 1.5 days per month of employment (18 days per year)
@@ -116,7 +116,7 @@ The Shortened Work Week extension order covers most private workplaces that move
 | Seniority | Monthly-paid employee | Daily/hourly-paid employee |
 |-----------|----------------------|---------------------------|
 | Months 1-6 | 1 day per month worked | 1 day per month worked |
-| Months 7-12 | 6 days + 2.5 days per full month from month 7 | 1 day per month worked |
+| Months 7-11 | 6 days + 2.5 days per full month from month 7 | 1 day per month worked |
 | Year 2 | 1 month | 14 days + 1 day per 2 months worked in year 2 |
 | Year 3 | 1 month | 21 days + 1 day per 2 months worked in year 3 |
 | After 3 years | 1 month | 1 month |
@@ -155,7 +155,7 @@ The contract must include these sections:
 
 1. **Parties** -- Employer and employee full details, ID numbers
 2. **Position and description** -- Title, responsibilities, reporting line
-3. **Start date and probation** -- Tkufat Nisayon, commonly 6 months (no statutory requirement). Probation never removes the notice period or pregnancy protection: dismissal for pregnancy is barred from day one, and from 6 months a pregnant employee cannot be dismissed without a permit from the Employment of Women Law supervisor, including when notice given during probation takes effect after 6 months
+3. **Start date and probation** -- Tkufat Nisayon, commonly 6 months (no statutory requirement). Probation never removes the notice period or pregnancy protection: dismissal for pregnancy is barred from day one, and from 6 months a pregnant employee cannot be dismissed without a permit from the Employment of Women Law supervisor, including when notice given during probation takes effect after 6 months. Any dismissal, in probation or after, requires a prior hearing (shimua) with written notice of the reasons
 4. **Work hours** -- Daily/weekly hours, overtime policy
 5. **Salary** -- Gross monthly amount, payment date (no later than the 9th of the following month per Protection of Wages Law)
 6. **Pension and severance** -- Fund name, contribution rates, Section 14 election
@@ -192,7 +192,7 @@ Freedom of occupation (Basic Law: Freedom of Occupation, and Human Dignity and L
 
 **Intellectual Property assignment:**
 - Israeli law does not have automatic work-for-hire for all works (unlike US law)
-- Patent Law Section 132: Inventions by employees generally belong to the employer if created in the course of employment, but employee may be entitled to compensation if the invention has special value
+- Patent Law Section 132: Inventions by employees generally belong to the employer if created in the course of employment. Absent an agreement on compensation, the Compensation and Royalties Committee decides it (s.134), so state them expressly
 - Copyright: Works created in the scope of employment belong to the employer (Copyright Law 2007, Section 34)
 - Explicit IP assignment clause is strongly recommended, especially for software and technology
 - Consider including a pre-existing IP disclosure schedule

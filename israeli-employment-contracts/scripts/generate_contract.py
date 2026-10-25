@@ -31,11 +31,12 @@ from typing import Optional
 
 
 # --- Current rates ---
-# Last verified: 2026-05-09. Update annually when extension orders change.
+# Last verified: 2026-10-25. Update annually when extension orders change.
 # Sources:
 #   Minimum wage: Histadrut announcement, effective 2026-04-01
 #     https://global.histadrut.org.il/news/israels-minimum-wage-to-rise-by-3-3/
-#   Dmei Havra'a (private sector): Kolzchut -- frozen at 2023 level
+#   Dmei Havra'a (private sector): Kolzchut -- 451.5 NIS/day from havra'a year 2026,
+#     retroactively, per the extension order published 18.08.2026
 #     https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94
 #   Work hours: Hours of Work and Rest Law, 1951, as amended by extension order
 #     effective 2018-04-01 (workweek reduced from 43 to 42 hours)
@@ -111,7 +112,8 @@ def calculate_notice_period_days(seniority_months: int, pay_basis: str = "monthl
     The first-year ladder differs by pay basis (Prior Notice for Dismissal and
     Resignation Law, 2001):
       - monthly-paid (oved be'mascoret): months 1-6 = 1 day/month;
-        months 7-12 = 6 days + 2.5 days per month from month 7.
+        months 7-11 = 6 days + 2.5 days per full month from month 7;
+        30 days (1 month) from 12 completed months.
       - daily/hourly-paid (oved be'sachar): 1 day per month worked in year 1;
         in year 2, 14 days + 1 day per 2 months worked in year 2; in year 3,
         21 days + 1 day per 2 months worked in year 3; after 3 years, 30 days.
@@ -307,15 +309,19 @@ salary is a contractual undertaking and must be stated expressly.
 In accordance with Section 14 of the Severance Pay Law, 1963, and the General
 Authorization under it as applied by the pension extension order (automatic for
 the mandatory 6%), the Employer's contributions to the pension fund / insurance
-policy as detailed above shall
-constitute full and complete severance pay for the Employee in respect of the
-salary on which said contributions were made and for the period they were made.
+policy as detailed above shall come in place of severance pay in respect of the
+salary on which said contributions were made and for the period they were made:
+in full where the severance component is 8.33%, and only in proportion to the
+amount deposited where it is 6% (about 72%, the balance remaining owed).
 
 The Employee hereby agrees and acknowledges that the Employer's contributions
 to the pension insurance fund shall come in lieu of the severance pay the
-Employee is entitled to for said salary components, such that the Employer
-shall be released from any additional severance payment obligation with respect
-to these components. For the 2.33% completion (8.33% in total), the Employer
+Employee is entitled to for said salary components. At 8.33% the Employer is
+released from any additional severance payment obligation for that salary and
+period; below 8.33% (such as 6%) the Employer is released only for the share the
+deposits cover (deposit rate / 8.33%) and, where the Employee is entitled to
+severance, pays on termination the completion: the difference between 8.33% and
+the rate deposited in each year, multiplied by the last salary. For the 2.33% completion (8.33% in total), the Employer
 shall notify the fund in writing, with a copy to the Employee, that Section 14
 also applies to it.
 
@@ -373,7 +379,7 @@ year of seniority, 5-day week:
 | Year 11 | {get_annual_leave_days(11)} | {get_annual_leave_days(11, True)} |
 | Year 12+ | {get_annual_leave_days(12)} | {get_annual_leave_days(12, True)} |
 
-{"Part-time: an employee working fewer HOURS on every work day accrues the same number of leave days; an employee working fewer DAYS a week accrues leave pro-rated to days worked. A first calendar year that starts mid-year is pro-rated." if work_percent < 100 else ""}
+{"Part-time: an employee working fewer HOURS on every work day accrues the same number of leave days; an employee who works fewer than 200 days in the year accrues days worked / 200 x the calendar-day entitlement, rounded down. A first calendar year that starts mid-year is pro-rated." if work_percent < 100 else ""}
 
 ---
 
@@ -396,7 +402,7 @@ Either party may terminate this agreement by providing written notice:
 | Seniority | Monthly-paid (oved be'mascoret) | Daily/hourly-paid (oved be'sachar) |
 |-----------|----------------------------------|-------------------------------------|
 | Months 1-6 | 1 day per month of employment | 1 day per month worked |
-| Months 7-12 | 6 days + 2.5 days per additional full month | 1 day per month worked |
+| Months 7-11 | 6 days + 2.5 days per additional full month | 1 day per month worked |
 | Year 2 | 30 days (1 month) | 14 days + 1 day per 2 months worked in year 2 |
 | Year 3 | 30 days (1 month) | 21 days + 1 day per 2 months worked in year 3 |
 | After 3 years | 30 days (1 month) | 30 days (1 month) |
@@ -427,7 +433,9 @@ exclusive property of the Employer.
 
 The Employee hereby assigns to the Employer all rights, title, and interest
 in and to such work product, including all patents, copyrights, and other
-intellectual property rights.
+intellectual property rights. Compensation for a service invention (Patents Law
+s.134): [STATE THE AGREED TERMS, OR THAT THE SALARY IS THE FULL CONSIDERATION];
+absent an agreement, the Compensation and Royalties Committee decides it.
 
 The Employee shall disclose any pre-existing intellectual property in
 Schedule A attached hereto.

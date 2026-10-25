@@ -23,7 +23,8 @@ This reference covers the key Israeli labor laws and regulations that govern emp
   - Where the Shortened Work Week extension order applies (most private 5-day workplaces): years 1-5: 12; years 6-8: 17; year 9+: 23. The employee gets the higher of the two
   - The statute's own figures are calendar days including Fridays and Saturdays (e.g. 16 calendar days = 12 work days through year 5); never mix the two
   - The extension order does not cover workplaces with fewer than 4 employees, government and municipal companies, collectively-agreed 5-day weeks, or household workers
-- **Accrual:** From the first day of employment; a full-year entitlement assumes at least 200 work days in the year, fewer days give a pro-rated share
+- **6-day week (statute, net work days):** years 1-5: 14; year 6: 16; year 7: 18; year 8: 19; year 9: 20; year 10: 21; year 11: 22; year 12: 23; year 13+: 24 (gross calendar days 16/18/21/22/23/24/25/26/27/28, the same gross ladder as the 5-day week)
+- **Accrual:** From the first day of employment. Under 200 work days in the year: days worked / 200 x the gross calendar-day figure, rounded down (e.g. 150 days in a 23-day year = 17.25)
 - **Carry-over:** With the employer's consent the employee may use part of the leave (at least 7 days a year) and add the rest to leave in the next two years
 - **Redemption:** Unused leave can be redeemed only upon termination, for the final year and the 3 years before it
 - **Scheduling:** Employer sets vacation dates, but must allow at least 7 consecutive days once per year if employee requests
@@ -52,6 +53,7 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 - **Weekly rest:** Minimum 36 consecutive hours; for Jewish employees, includes Shabbat (Saturday)
 - **Night work:** a shift with at least 2 hours between 22:00 and 06:00 is limited to a 7-hour day
 - **Exemptions:** Certain management/trust positions may be exempt, but exemption is narrowly interpreted by courts
+- **Hearing before dismissal:** the employer must hold a hearing (shimua) before any dismissal, with a written summons a reasonable time ahead that sets out the claims against the employee; the employee may bring a representative
 
 ### Notice to Employee and Job Candidate (Employment Conditions and Screening and Hiring Procedures) Law, 5762-2002 (Chok Hodaa LeOved VeLeMuamad LaAvoda)
 
@@ -159,8 +161,8 @@ Israeli courts use a multi-factor test focusing on:
 ### Patent Law, Section 132 (Service Inventions)
 
 - Inventions created by employees in the course of their duties belong to the employer
-- Employee may be entitled to compensation if the invention has "special value" beyond what the salary covers
-- Disputes resolved by a Patents Compensation Committee
+- Section 134: absent an agreement on whether and how much compensation the employee gets for a service invention, the Compensation and Royalties Committee decides it
+- So the contract should state the compensation terms expressly
 - Employment contract should address: assignment scope, disclosure obligations, compensation terms
 
 ### Copyright Law, 2007 (Section 34)
