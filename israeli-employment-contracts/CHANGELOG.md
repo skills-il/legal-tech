@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.4] - 2026-10-25
+
+### Fixed
+- Contract generator, IP clause (c): restored the missing "and" before "shall not include". Wording only.
+
 ## [1.4.3] - 2026-10-25
 
 ### Fixed

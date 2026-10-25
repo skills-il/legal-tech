@@ -442,9 +442,9 @@ Product any work made using the Employer's confidential information or
 resources.]
 
 (c) The Employee shall notify the Employer IN WRITING of every invention reached
-as a result of or during the service (Patents Law s.131), shall not include a
-s.132(b) "vests in me absent reply" statement in such a notice. The Employee shall sign all documents and
-take all reasonable actions needed to perfect the Employer's rights, during and
+as a result of or during the service (Patents Law s.131), and shall not include
+a s.132(b) "vests in me absent reply" statement in such a notice. The Employee
+shall sign all documents and take all reasonable actions needed to perfect the Employer's rights, during and
 after the employment.
 
 (d) Compensation for service inventions (Patents Law s.134): [DEFAULT: the Salary
