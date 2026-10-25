@@ -144,7 +144,7 @@ Operational summary of Step 1. Cite the section rather than calling a statutory 
 | Tenant | Repair defects caused by their own unreasonable use | 25ח(א) |
 | Tenant | Notify the landlord of defects needing repair, which starts the 30/3-day clock | 25ח(ב) |
 
-On **entry**: there is no statutory notice period; the contract governs, so negotiate one in. On **subletting or assigning**, s.22 needs the landlord's consent, given in advance and in writing; if the landlord refuses on unreasonable grounds or sets unreasonable conditions, the tenant may proceed without it, and a court may permit the deal despite the lease. Where a sublet happens, 25טו(ג) keeps the repair duties and the 25ט(ב) prohibitions on the head landlord.
+On **entry**: there is no statutory notice period; the contract governs, so negotiate one in. On **subletting or assigning**, s.22 needs the landlord's consent, given in advance and in writing; if the landlord refuses on unreasonable grounds or sets unreasonable conditions, the tenant may proceed without it (a lease may arguably exclude this), and a court may permit the deal despite the lease. In a sublet, 25טו(ג) keeps the repair duties and the 25ט(ב) prohibitions on the head landlord.
 
 ### Step 6: Termination, Eviction, and Dispute Resolution
 
@@ -239,7 +239,7 @@ These MCP servers in the skills-il directory pair well with this skill:
 - **israel-statistics**: CBS price indices with a linkage calculator. Use it to compute an index-linked rent from the official CPI for months beyond the bundled table.
 - **kolzchut**: Kol Zchut, Israel's plain-language rights portal, for current guidance on tenant and landlord rights.
 
-Confirm load-bearing numbers against the primary source.
+Verify numbers against the primary source.
 
 ## Troubleshooting
 

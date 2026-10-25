@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.2] - 2026-10-25
+
+### Changed
+- Section 22: the body now says, as the reference already did, that a lease may arguably exclude the tenant's right to proceed without consent after an unreasonable refusal (s.22 is outside the 25יד(2) list); the court's power to permit the deal survives any lease term.
+- Calculator: when a floor clause applies, the output says "No change" instead of "Increase +0.00".
+
 ## [2.1.1] - 2026-10-25
 
 ### Changed

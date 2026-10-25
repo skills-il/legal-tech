@@ -47,7 +47,7 @@
       ]
     },
     {
-      "version": "2.1.0 / 2.1.1",
+      "version": "2.1.0 / 2.1.1 / 2.1.2",
       "date": "2026-10-25",
       "lessons": [
         "First independent read of the whole skill (v1.4.0 and v2.0.0 were author-verified only). Expert found 3 CRITICALs across rounds, all confirmed in primary text: Guarantee Law chapter 2 (s.21, s.27) applies only to a נושה lending in the ordinary course of business (ss.18-19), not a private landlord; s.25 set-off is non-waivable via 25יד(2), so reasonable repair expenses after the 25ח/9 procedure may be set off; s.22 assignment/sublet (consent in advance and in writing; unreasonable refusal lets the tenant proceed; court may permit despite the lease). Lesson: the previous cycles' corrections were each correct in isolation but encoded a rule without checking the SCOPE section of the statute it came from (Guarantee Law s.18) or the neighbouring sections of the same law (s.22, s.25).",
@@ -55,12 +55,11 @@
         "CARRY resolved: CPI table now through 2026-09; calculator has --floor (index-linkage floor clause); 2026 model lease confirmed still a draft (circulated 2.2.2026, comments to 23.2) and stated as such; 25י 'noten arvut acher' now in force (30.9.2026).",
         "DEFERRED (minor, word cap): 25טו(א)(1)(ב) מעון and (5) Minister-prescribed exclusions are in statutory-provisions.md but not in the SKILL.md table. SKILL.md body is at the 5,000-word cap; next cycle should move the Step 6 dispute table or Step 4 detail to references to make room.",
         "DEFERRED (minor, carried since 2.0.0): no current-year 25טו(4) figure; no רשומות notice found. Text now states only that the figure is above 20,000. Search Yalkut HaPirsumim for 'הודעת השכירות והשאילה (עדכון סכום)' next cycle.",
-        "DEFERRED (minor): SKILL.md body states the 22(א)(1) self-help right flatly; statutory-provisions.md carries the nuance that a contract may arguably vary it (s.2(ג), s.22 outside 25יד(2)) while 22(א)(2) court power survives.",
-        "DEFERRED (cosmetic): calculator prints 'Increase +0.00' when the floor applies.",
         "CARRY still open from 2026-06-25: 2024 broker ethics regulations not addressed.",
         "Panel: Judge 3 rounds (r1 FAIL 3 broken/11 unjustified, r2 FAIL 1 unjustified, r3 PASS); Expert 3 rounds (r1 FAIL 2 critical, r2 FAIL 1 critical, r3 PASS). Description unchanged, so Phase 5.7 holdout not run.",
         "Value-add gate (5 workflow cases, search-enabled baseline): with=1.00 without=0.47 delta=+0.53 PASS. Baseline already gets the guarantor-deed and set-off cases right; the delta comes from the void landlord-only cancellation clause, the 25ט(ב) building-insurance/boiler bar, and the 6-month guarantee ceiling.",
-        "2.1.1 (same day, post-ship): Tank injection-regex false positive matched across a word boundary in the condition-report annex line (present since v2.0.0, Tank failed on every sync since); reworded. SkillSpector moved from CAUTION to DO_NOT_INSTALL on the 2.1.0 sync with only medium findings (URL in a .py comment, 'Autonomous Decision Making' on statute paraphrases of s.22/s.18(ב)); URL moved to evidence.json. If the verdict persists, it is the aggregate-inflation issue, not a content defect."
+        "2.1.1 (same day, post-ship): Tank injection-regex false positive matched across a word boundary in the condition-report annex line (present since v2.0.0, Tank failed on every sync since); reworded. SkillSpector moved from CAUTION to DO_NOT_INSTALL on the 2.1.0 sync with only medium findings (URL in a .py comment, 'Autonomous Decision Making' on statute paraphrases of s.22/s.18(ב)); URL moved to evidence.json. If the verdict persists, it is the aggregate-inflation issue, not a content defect.",
+        "2.1.2 (same day, post-pass touch-ups requested by the lead): body s.22 line now carries the 'lease may arguably exclude 22(א)(1)' nuance; calculator prints 'No change' when the floor applies."
       ]
     }
   ]

@@ -215,7 +215,9 @@ def main():
     if result['floor_applied']:
         print(f"  Floor clause applied: the CPI fell, rent stays at the base")
         print(f"  (סעיף רצפה: המדד ירד, השכירות נשארת בסכום הבסיס)")
-    if result['rent_difference'] >= 0:
+    if result['floor_applied']:
+        print(f"  No change (ללא שינוי):              rent stays at the base")
+    elif result['rent_difference'] >= 0:
         print(f"  Increase (העלאה):                   +{result['rent_difference']:,.2f} NIS/month")
     else:
         print(f"  Decrease (הפחתה):                   {result['rent_difference']:,.2f} NIS/month")
