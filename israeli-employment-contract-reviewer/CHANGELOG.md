@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.1] - 2026-10-25
+
+### Fixed
+- A FULL Section 14 severance release with deposits below 8.33% (or no stated rate) is now named as a Major finding; the employee keeps the claim to the uncovered share.
+- Part-time leave: the rule is now quoted from Annual Leave Law s.3(b) and (c): days worked / 200 for a full-year employee under 200 days, / 240 for a part-year one, fractions not counted.
+
 ## [1.5.0] - 2026-10-25
 
 ### Fixed

@@ -1969,7 +1969,8 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/section-14-trap-guide.md"
+        "references/section-14-trap-guide.md",
+        "references/red-flag-checklist.md"
       ],
       "verified_via": "browser",
       "verified_at": "2026-10-25T10:30:00Z"
@@ -2316,9 +2317,69 @@
     },
     {
       "claim_id": "youth-labour-s27-18-days",
-      "claim": "Youth Labour Law s.27(a): for a minor, Annual Leave Law s.3(a) is read with 18 days, so the minor's 18 days are counted as that section counts days (gross, weekly rest included).",
+      "claim": "Youth Labour Law s.27(a): for a minor, Annual Leave Law s.3(a) is read with 18 days.",
       "source_url": "https://he.wikisource.org/wiki/חוק_עבודת_הנוער",
       "raw_snippet": "לגבי נער יש לקרוא בסעיף 3(א) לחוק חופשה שנתית, תשי״א–1951 , ”18 יום“ במקום ”14 יום“.",
+      "fetched_at": "2026-10-25T10:30:00Z",
+      "appears_in": [
+        "references/additional-clause-checks.md",
+        "references/numerical-sanity-checks.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "leave-law-s3b-200",
+      "claim": "Annual Leave Law s.3(b): where the relationship lasted the whole year and the employee worked fewer than 200 days, leave is pro-rated by days worked / 200; a fraction of a day is not counted.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חופשה_שנתית",
+      "raw_snippet": "פחות מ־200 ימים – יהיה מספר ימי החופשה חלק יחסי ממספר הימים שלפי סעיף קטן (א), כיחס מספר ימי העבודה בפועל אל המספר 200; חלק של יום חופשה לא יובא במנין.",
+      "fetched_at": "2026-10-25T10:30:00Z",
+      "appears_in": [
+        "references/numerical-sanity-checks.md"
+      ]
+    },
+    {
+      "claim_id": "leave-law-s3c-240",
+      "claim": "Annual Leave Law s.3(c): where the relationship lasted part of the year and the employee worked fewer than 240 days, leave is pro-rated by days worked / 240.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חופשה_שנתית",
+      "raw_snippet": "פחות מ־240 ימים – יהיה מספר ימי החופשה חלק יחסי ממספר הימים שלפי סעיף קטן (א), כיחס מספר ימי העבודה בפועל אל המספר 240; חלק של יום חופשה לא יובא במנין.",
+      "fetched_at": "2026-10-25T10:30:00Z",
+      "appears_in": [
+        "references/numerical-sanity-checks.md"
+      ]
+    },
+    {
+      "claim_id": "s14-full-release-only-8-33",
+      "claim": "Deposits replace severance in full only if the employer deposited 8.33% monthly; below that, the employer pays a severance completion at the end of employment if the employee is entitled to severance.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק בתנאי שהמעסיק הפריש את מלוא פיצויי הפיטורים - 8.33% מדי חודש. אם המעסיק הפריש פחות מ- 8.33% עליו לשלם לעובד השלמת פיצויי פיטורים בתום יחסי העבודה, בתנאי שהעובד זכאי לפיצויי פיטורים.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "s14-completion-formula",
+      "claim": "The completion for each year is the difference between 8.33% and the rate actually deposited, multiplied by the last salary.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "ישלים המעסיק עבור כל אחת מהשנים שבהן הועברו ההפרשות לביטוח הפנסיוני, את החלק מפיצויי הפיטורים שלא הועבר לביטוח הפנסיוני (ההפרש בין 8.33% מהשכר ובין שיעור ההפרשות שבוצע בכל שנה) במכפלת השכר האחרון.",
+      "fetched_at": "2026-10-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "claim_id": "leave-law-s3-weekly-rest-counted",
+      "claim": "Annual Leave Law s.3: the leave days in s.3(a) include one weekly rest day for every seven leave days, so s.3(a) days (including a minor's 18 read in by Youth Labour Law s.27(a)) are gross; converted for a 5-day week as for adults, 18 gross is 14 working days.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חופשה_שנתית",
+      "raw_snippet": "בימי החופשה לא ייכלל אלא מנוחה שבועית אחת לכל שבעה ימי חופשה.",
       "fetched_at": "2026-10-25T10:30:00Z",
       "appears_in": [
         "references/additional-clause-checks.md",

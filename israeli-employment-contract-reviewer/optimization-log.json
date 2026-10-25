@@ -67,7 +67,7 @@
       }
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "date": "2026-10-25",
       "holdout_before": 1.0,
       "holdout_after": 1.0,
@@ -96,7 +96,8 @@
         "Deferred MINOR (expert): missing start date graded Blocker; consider Major.",
         "Deferred MINOR (expert): outside-work/exclusivity bans, employee warranties and indemnities, the 14-day notice before leave of more than 7 days.",
         "Deferred MINOR: the script still grades leave and sick days for a full-time 5-day week only (no 6-day week, no days-worked pro-rating); the prose covers it.",
-        "Sibling disagreement for the lead: israeli-employment-contracts states the non-compete test as cumulative (all four conditions) and says Israeli law has no work-for-hire for works (Copyright Law s.34 says otherwise); its leave table mixes gross and net (year 5 = 16, year 6 = 18 labelled as 5-day net)."
+        "Sibling disagreement for the lead: israeli-employment-contracts states the non-compete test as cumulative (all four conditions) and says Israeli law has no work-for-hire for works (Copyright Law s.34 says otherwise); its leave table mixes gross and net (year 5 = 16, year 6 = 18 labelled as 5-day net).",
+        "1.5.1 (same day): named a FULL Section 14 release below 8.33% as Major (cross-skill alignment with employment-contracts and workplace-rights); part-time leave rule re-cited to Annual Leave Law s.3(b)/(c) (200 for a full-year relationship, 240 for part-year); youth leave gross reading given its own statute entry. Judge r4 caught an over-broad youth claim, fixed in r5."
       ]
     }
   ]

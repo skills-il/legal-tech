@@ -18,14 +18,14 @@ Rate: 451.5 NIS/day private sector for havra'a year 2026 (1 July 2025 to 30 June
 difference, 33.50 NIS a day. 511.6 NIS/day public sector. Public-sector and some
 sectoral agreements use their own, higher day tables; do not reuse the private ladder there.
 
-## Job scope pro-rates most things, but not leave days
+## Job scope: what pro-rates, and how leave days do
 
 Ask for the employment scope (`heikef misra`) before running any of the checks below. Dmei
 havra'a, the pension base, sick accrual and the minimum-wage floor pro-rate to scope. Annual
 leave turns on days actually worked, not hours: an employee who works shorter days but every
 working day accrues the SAME number of leave days as a full-time one, only worth less. Leave days
 do pro-rate for someone who works fewer DAYS: a full-year employee with fewer than 200 working
-days in the year, or a part-year employee with fewer than 240, gets a proportional share. Pro-rating
+days in the year, or a part-year employee with fewer than 240, gets days worked / 200 (or / 240) of the table entitlement, a fraction of a day not counted (Annual Leave Law s.3(b) and (c)). Pro-rating
 leave days for a shorter-hours contract understates the entitlement; not pro-rating them for a
 3-days-a-week contract overstates it.
 Running the monthly minimum-wage floor against a part-time contract without pro-rating it first produces a false blocker.
