@@ -65,6 +65,19 @@
         "Validator headroom is the binding constraint on this skill: EN body was ~4,990 words at HEAD against a 5,000 cap, so every addition this cycle had to be paid for by condensing pre-existing prose. HE body remains over the soft cap (5,107 vs 5,000) and predates this cycle. Next substantive update should move a whole step (Step 5, the largest at ~500 words) into references/ rather than shaving sentences.",
         "29 of 45 evidence source URLs are kolzchut pages that are Cloudflare-blocked to plain fetch and can only be verified through the browser. This cycle browser-verified the 16 new claims plus the 4 pre-existing overtime claims; the remaining 25 pre-existing unreachable claims were carried on --allow-unreachable and have not been browser-verified since they were written."
       ]
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-10-25",
+      "lessons": [
+        "RESOLVED CARRY: holiday (chag) work vs holiday pay, global overtime validity, youth on the weekly rest day (all sourced to Kol Zchut, now in Step 4 + reference).",
+        "CRITICAL fixed: vacation table ignored the shortened-work-week extension order (23 days from year 9 for most 5-day workplaces) and labelled gross days as 6-day leave. The live vacation-days checker shipped both errors plus a part-time multiplier; regenerated.",
+        "CRITICAL fixed: severance script netted the fund balance against statutory severance under a 6% Section 14 deposit. Deposits release only rate/8.33; the employer owes the rest whatever the fund returns. The same netting was mirrored in the reference and the checker FAQ; it took 3 review rounds to find every mirror.",
+        "Fixed: havra'a checker still on 418; havra'a wrongly said exempt from national insurance; the reservist one-day deduction is a 2024 and 2025 law only; notice boundaries (month at 12 full months monthly, 36 hourly) in skill, reference and checker; 8-hour day replaced by 8.6/7.6 and 8/7 norms; s.5 and s.7 severance cases added; unsourced 150% remedy and Form 161A note removed.",
+        "Deferred MINOR: vacation checker defaults to the extension-order option; severance script's salary-history 'higher of two methods' framing (per-period applies to scope cuts, not every pay cut); havra'a 7-year claim window and notice-before-year eligibility; youth hours limits (8/day, 40/week, 7 before rest day); disability '25+' threshold in references/harassment-and-disability.md unverified; havra'a checker 'years' ordinal vs completed ambiguity and 5% scope steps.",
+        "Word cap is still the binding constraint: both files sit at ~4,990-5,000 words after moving Steps 10-11 detail to references/harassment-and-disability.md. Next cycle should move another full step (Step 12 or Step 5) to references before adding anything.",
+        "Process: all 107 evidence snippets were re-verified against browser renders this cycle (kolzchut 403s plain fetch); 4 stale snippets fixed, including one page that now redirects."
+      ]
     }
   ]
 }

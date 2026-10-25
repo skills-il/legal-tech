@@ -42,7 +42,7 @@ Enumerate each hour tier on each day type. The rest-day premium and the overtime
 
 | Row | Covered? |
 |-----|----------|
-| Annual leave table by seniority, both the calendar-day gross column and the 5-day-week net column | Yes |
+| Annual leave table by seniority: statutory gross, 6-day-week absence days, 5-day statute-only, and the shortened-work-week extension order column that covers most 5-day workplaces | Yes |
 | Sick pay: day 1 at 0%, days 2-3 at 50%, day 4 onward at 100%; accrual 1.5 days/month; 90-day cap | Yes |
 | Child sick days, including the malignant-illness and dialysis tracks | Yes |
 | Convalescence pay: days by seniority, private and public daily rates | Yes |
@@ -59,17 +59,17 @@ Enumerate each hour tier on each day type. The rest-day premium and the overtime
 |-----|----------|
 | Travel reimbursement (Travel-to-Work Extension Order) | Yes |
 | Motzaei Shabbat and Friday-into-Shabbat boundary rules for the rest-day premium | Partly, summarised in `entitlements-calculator.md` |
-| Global overtime pay arrangements (gmul globali) | No, deferred |
-| Holiday (chag) pay as distinct from weekly rest day | No, deferred |
-| Youth employed on the weekly rest day: the employment is unlawful, but the overtime premium is still owed | No, deferred |
+| Global overtime pay arrangements (gmul globali) | Yes, `entitlements-calculator.md` (2026-10-25) |
+| Holiday (chag) pay as distinct from weekly rest day | Yes, Step 4 + `entitlements-calculator.md` (2026-10-25) |
+| Youth employed on the weekly rest day: the employment is unlawful, but the overtime premium is still owed | Yes, Step 4 + `entitlements-calculator.md` (2026-10-25) |
 
 ## Out of scope (explicit)
 
-- **Drafting or reviewing an employment contract.** Routed to `israeli-employment-contracts` and `israeli-employment-contract-reviewer`. Reviewed 2026-08-19: still out of scope; a user asking this is asking for a different work product, not a missing rate. (Reviewed 2026-08-19)
-- **Reserve-duty (miluim) pay and protections.** Routed to `israeli-miluim-manager`. Reviewed 2026-08-19: an ordinary user would ask for it, and the routing already answers them; the figures are maintained in that skill and duplicating them here would create a drift surface. (Reviewed 2026-08-19)
-- **Salary negotiation and market rates.** Routed to `israeli-tech-salary-negotiator`; not a statutory entitlement. (Reviewed 2026-08-19)
-- **Foreign-worker and live-in caregiver specific regimes** (25-hour weekly rest, caregiver rest-day compensation). Named and pointed at, not enumerated; a distinct statutory regime with its own rate structure. (Reviewed 2026-08-19)
-- **Sector-specific collective agreements and extension orders** (cleaning, security, catering, waiting staff). The skill states the statutory floor and that a more favourable agreement prevails; enumerating every sector's grid is a different skill. (Reviewed 2026-08-19)
+- **Drafting or reviewing an employment contract.** Routed to `israeli-employment-contracts` and `israeli-employment-contract-reviewer`. Reviewed 2026-08-19: still out of scope; a user asking this is asking for a different work product, not a missing rate. (Reviewed 2026-10-25)
+- **Reserve-duty (miluim) pay and protections.** Routed to `israeli-miluim-manager`. Reviewed 2026-08-19: an ordinary user would ask for it, and the routing already answers them; the figures are maintained in that skill and duplicating them here would create a drift surface. (Reviewed 2026-10-25)
+- **Salary negotiation and market rates.** Routed to `israeli-tech-salary-negotiator`; not a statutory entitlement. (Reviewed 2026-10-25)
+- **Foreign-worker and live-in caregiver specific regimes** (25-hour weekly rest, caregiver rest-day compensation). Named and pointed at, not enumerated; a distinct statutory regime with its own rate structure. (Reviewed 2026-10-25)
+- **Sector-specific collective agreements and extension orders** (cleaning, security, catering, waiting staff). The skill states the statutory floor and that a more favourable agreement prevails; enumerating every sector's grid is a different skill. Re-opened 2026-10-25 for one order that is NOT sector-specific: the shortened-work-week extension order covers most 5-day workplaces and changes the vacation count for most users, so it is now in Step 2 and the vacation tool. (Reviewed 2026-10-25)
 
 ## Authoritative sources
 

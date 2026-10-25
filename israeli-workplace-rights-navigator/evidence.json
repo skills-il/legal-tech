@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-workplace-rights-navigator",
-  "generated_at": "2026-08-29T21:46:48+00:00",
+  "generated_at": "2026-10-25T10:19:57Z",
   "claims": [
     {
       "claim_id": "min-wage-2026",
@@ -14,7 +14,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "havraa-private-418",
@@ -27,19 +29,23 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "havraa-increase-451",
       "claim": "An employer who already paid havra'a for 2026 at the old NIS 418 rate must top up to NIS 451.5, a difference of NIS 33.50 per havra'a day. The applicable rate follows the havra'a year, not the payment date.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
-      "raw_snippet": "אם דמי ההבראה שולמו לפי התעריף של 418 ₪, העובד זכאי להשלמה של 33.50 ₪ עבור כל יום הבראה",
+      "raw_snippet": "תעריף דמי ההבראה התעדכן ביום 18.08.2026 לגבי התקופה שהחל מ-1.7.2025 ועד 30.6.2026. מעסיקים שכבר שילמו דמי הבראה עבור תקופה זו לפי התעריף הישן (418 ש\"ח), יצטרכו לשלם הפרשים לסכום העדכני של 451.5 ש\"ח.",
       "fetched_at": "2026-08-29T21:46:48+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "havraa-public-511",
@@ -52,7 +58,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "havraa-days-table",
@@ -64,7 +72,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "dmei-nesia-cap-2026",
@@ -76,7 +86,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "severance-tax-exemption-ceiling-2026",
@@ -88,7 +100,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "pregnancy-dismissal-6-month-permit-a",
@@ -99,18 +113,22 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "pregnancy-dismissal-6-month-permit-b",
-      "claim": "Dismissal of a pregnant employee because of the pregnancy is prohibited from her first day of work regardless of seniority, under section 9(a) (סעיף 9(א)) of the Employment of Women Law.",
+      "claim": "Dismissal of a pregnant employee because of the pregnancy is prohibited from her first day of work regardless of seniority (a discrimination ground under the Equal Employment Opportunities Law), separate from the 6-month permit rule in Employment of Women Law s.9(a) (סעיף 9(א)).",
       "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_בהיריון",
       "raw_snippet": "אסור למעסיק לפטר עובדת בהיריון אם הסיבה לפיטורים היא ההיריון, בלי קשר לוותק של העובדת.",
       "fetched_at": "2026-06-26T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "pay-slip-wage-protection-s24",
@@ -122,7 +140,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "maternity-full-allowance",
@@ -133,7 +153,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "maternity-partial-allowance-a",
@@ -144,7 +166,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "maternity-partial-allowance-b",
@@ -155,7 +179,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "maternity-daily-cap-2026",
@@ -166,18 +192,22 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "child-sick-single-parent-110",
       "claim": "Up to 110 days of absence where the child has a malignant illness or is on dialysis and the OTHER parent did not take leave for the child, subject to at least one year of tenure and the child being under 18. The condition is the other parent's non-use, not single-parent status as such.",
       "source_url": "https://www.kolzchut.org.il/he/ימי_מחלה_עקב_מחלת_ילד",
-      "raw_snippet": "ימי מחלה עקב מחלת ילד",
+      "raw_snippet": "עובדים שילדיהם חולי סרטן או מטופלים בדיאליזה, זכאים להיעדר עד 110 ימים בשנה אם: עבדו שנה לפחות אצל אותו מעסיק ילדיהם מתחת לגיל 18 ההורה השני לא נעדר מהעבודה לצורך הטיפול בילד",
       "fetched_at": "2026-07-26T19:34:02Z",
       "appears_in": [
         "references/entitlements-calculator.md"
       ],
-      "note": "Condition corrected from 'single parent' to 'the other parent did not take leave'; verified on the Hebrew page."
+      "note": "Condition corrected from 'single parent' to 'the other parent did not take leave'; verified on the Hebrew page.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "child-sick-two-parent-90",
@@ -187,11 +217,13 @@
       "fetched_at": "2026-07-26T19:34:02Z",
       "appears_in": [
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "child-sick-general-8-18",
-      "claim": "Up to 8 sick days a year for a child under 16. The quota is per employee and does not vary with the scope of the position or the number of children. Where the child has a serious illness or a permanent disability the quota is 18 days a year. (Supersedes the earlier '16 days' figure.)",
+      "claim": "Up to 8 sick days a year for a child under 16. The quota is per employee and does not vary with the scope of the position or the number of children. Where the child has a serious illness or a permanent disability the quota is 18 days a year.",
       "source_url": "https://www.kolzchut.org.il/he/ימי_מחלה_עקב_מחלת_ילד",
       "raw_snippet": "כל עובד יכול לנצל עד 8 ימי מחלה בשנה עבור מחלת ילדיו שגילם אינו עולה על 16 (אלא אם מדובר במחלה קשה או לקות קבועה, שאז ניתן לנצל עד 18 ימים)",
       "fetched_at": "2026-07-26T19:14:28Z",
@@ -199,7 +231,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "sick-pay-graduated-a",
@@ -212,7 +246,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "sick-pay-graduated-b",
@@ -225,7 +261,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "sick-pay-graduated-c",
@@ -238,14 +276,18 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "vacation-table",
-      "claim": "Annual leave by seniority for a 5-day week under the Annual Leave Law: net entitlement days 12 (years 1-5), 14 (year 6), 15 (7), 16 (8), 17 (9), 18 (10), 19 (11), 20 (12), 20 (13), 20 (14+); gross days including Friday and Saturday 16, 18, 21, 22, 23, 24, 25, 26, 27, 28.",
-      "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_5_ימים",
-      "raw_snippet": "1- 4 שנים (* החל מיום 01.01.2017) 12 16 5 שנים 12 16 6 שנים 14 18 7 שנים 15 21 8 שנים 16 22 9 שנים 17 23 10 שנים 18 24 11 שנים 19 25 12 שנים 20 26 13 שנים 20 27 14 שנים ומעלה 20 28",
-      "fetched_at": "2026-06-25T00:00:00Z",
+      "claim": "Annual Leave Law statute-only table for a 5-day week: net days 12 (years 1-5), 14 (6), 15 (7), 16 (8), 17 (9), 18 (10), 19 (11), 20 (12), 20 (13), 20 (14+); gross days 16, 18, 21, 22, 23, 24, 25, 26, 27, 28.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "6 שנים 14 18 7 שנים 15 21 8 שנים 16 22 9 שנים 17 23 10 שנים 18 24 11 שנים 19 25 12 שנים 20 26 13 שנים 20 27 14 שנים ומעלה 20 28",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -262,7 +304,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "overtime-rates-b",
@@ -274,7 +318,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "overtime-rates-c",
@@ -286,7 +332,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "overtime-rates-d",
@@ -298,7 +346,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "mandatory-pension-rates-18-5",
@@ -312,7 +362,9 @@
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
       ],
-      "note": "Employer split (6.5% tagmulim, 6% pitzuyim, 12.5% total) is stated on the same page. The 72% figure is arithmetic: 6 divided by 8.33 is about 0.72."
+      "note": "Employer split (6.5% tagmulim, 6% pitzuyim, 12.5% total) is stated on the same page. The 72% figure is arithmetic: 6 divided by 8.33 is about 0.72.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "section-45a-credit-a",
@@ -325,7 +377,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "section-45a-credit-b",
@@ -338,7 +392,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "section-45a-credit-c",
@@ -351,7 +407,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "severance-section-14-a",
@@ -377,7 +435,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "severance-section-14-c",
@@ -390,7 +450,9 @@
         "SKILL_HE.md",
         "references/entitlements-calculator.md",
         "references/labor-laws-summary.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "severance-section-14-d",
@@ -415,7 +477,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "notice-period-b",
@@ -427,7 +491,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "form-106",
@@ -437,7 +503,9 @@
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "harassment-25-employees",
@@ -448,7 +516,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "disability-25-employees",
@@ -459,11 +529,13 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "worked-examples",
-      "claim": "Illustrative worked examples use arithmetic derived from the statutory rate of one month's salary per year of employment and from the convalescence day rate: 15,000 x 3.33 = 50,000; 7 x 418 = 2,926; (7-1) x 418 = 2,508; 7 x 418 x 0.5 = 1,463; a daily wage of 500 gives 0 on day 1 and 250 on days 2-3. Illustrative values: NIS 0, NIS 250, 0 ש\"ח, 250 ש\"ח, 500 ש\"ח, 1,254 ש\"ח, 1,463 ש\"ח, 2,508 ש\"ח, 2,926 ש\"ח, 15,000 ש\"ח, 50,000 ש\"ח, 15,000 NIS, 50,000 NIS.",
+      "claim": "Illustrative worked examples use arithmetic derived from the statutory rate of one month's salary per year of employment and from the convalescence day rate: 15,000 x 3.33 = 50,000; 7 x 418 = 2,926; (7-1) x 418 = 2,508; 7 x 418 x 0.5 = 1,463; a daily wage of 500 gives 0 on day 1 and 250 on days 2-3. Illustrative values: NIS 0, NIS 250, 0 ש\"ח, 250 ש\"ח, 500 ש\"ח, 1,254 ש\"ח, 1,463 ש\"ח, 2,508 ש\"ח, 2,926 ש\"ח, 15,000 ש\"ח, 50,000 ש\"ח, 15,000 NIS, 50,000 NIS. At the 6% Section 14 minimum the deposits release 6/8.33, about 72%, so the completion is about 28% of the statutory figure: on NIS 50,000 that is about NIS 14,000 (14,000 ₪, 28%).",
       "source_url": "https://www.nevo.co.il/law_html/law01/p189_001.htm",
       "raw_snippet": "שיעורם של פיצויי הפיטורים הוא: שכר חודש אחד לכל שנת עבודה בעובד במשכורת אצל אותו מעסיק",
       "fetched_at": "2026-06-25T00:00:00Z",
@@ -477,12 +549,14 @@
       "claim_id": "ref-url-kolzchut-home",
       "claim": "Kol Zchut (All-Rights) plain-language rights portal.",
       "source_url": "https://www.kolzchut.org.il/he",
-      "raw_snippet": "אתר הזכויות של ישראל בסיוע משרד המשפטים ומערך הדיגיטל הלאומי",
+      "raw_snippet": "אתר הזכויות של ישראל",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "ref-url-nevo-severance",
@@ -500,12 +574,14 @@
       "claim_id": "ref-url-btl-maternity",
       "claim": "Bituach Leumi maternity benefits index page listing birth grant, birth allowance and pregnancy-preservation benefit.",
       "source_url": "https://www.btl.gov.il/benefits/maternity/Pages/default.aspx",
-      "raw_snippet": "הריון ולידה מענק לידה דמי לידה שמירת הריון",
+      "raw_snippet": "מענק לידה שמירת היריון דמי לידה",
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "ref-url-gov-labor-ministry",
@@ -532,8 +608,8 @@
         "SKILL_HE.md"
       ],
       "note": "Previous gov.il URL (departments/labor_courts_in_israel) is a hard 404 as of 2026-07-26, verified in a browser, not merely bot-blocked as the prior cycle recorded.",
-      "verified_via": "kolzchut page text read through the site MediaWiki API in a browser; snippet replaced with verbatim page text (the previous value was a generated summary)",
-      "verified_at": "2026-08-15"
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "ref-url-kolzchut-minwage",
@@ -544,7 +620,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "ref-url-kolzchut-zikui",
@@ -554,7 +632,9 @@
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "references/entitlements-calculator.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim": "Up to 8 sick days a year for a child under 16, per employee rather than per child and independent of the scope of the position; 18 days where the child has a serious illness or a permanent disability. The second parent has a quota only where they also work and did not take leave for the child on the same days.",
@@ -566,7 +646,9 @@
         "references/entitlements-calculator.md"
       ],
       "claim_id": "child-sick-days-8-and-18",
-      "fetched_at": "2026-07-26T19:34:02Z"
+      "fetched_at": "2026-07-26T19:34:02Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim": "The public-sector convalescence pay rate was updated to NIS 511.60 per day with effect from 1 June 2026, replacing NIS 471.40 which had applied for the preceding three years, per the circular of the Commissioner of Wages and Labour Agreements dated 8 June 2026.",
@@ -579,7 +661,9 @@
         "references/labor-laws-summary.md"
       ],
       "claim_id": "havraa-public-511-6-june-2026",
-      "fetched_at": "2026-07-26T19:08:30Z"
+      "fetched_at": "2026-07-26T19:08:30Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim": "A claim for delayed-wage penalty compensation must be filed within 60 days of the late payment, extendable by the court to 90 days, and in any case not after a year from the date the wage was considered delayed.",
@@ -593,7 +677,9 @@
         "scripts/severance-calculator.py"
       ],
       "claim_id": "halana-limitation-60-days",
-      "fetched_at": "2026-07-26T19:08:30Z"
+      "fetched_at": "2026-07-26T19:08:30Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim": "Unused annual leave days may be accumulated and used in the following two years of work unless a better arrangement is agreed.",
@@ -606,23 +692,26 @@
         "references/entitlements-calculator.md"
       ],
       "claim_id": "vacation-accrual-cap",
-      "fetched_at": "2026-07-26T19:08:30Z"
+      "fetched_at": "2026-07-26T19:08:30Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
+      "claim_id": "vacation-redemption-window",
       "claim": "On termination an employee may redeem unused leave from the last year of work and the 3 years preceding it, and days shown on the pay slip may be redeemed even beyond the limitation period.",
-      "source_url": "https://www.kolzchut.org.il/he/חופשה_שנתית",
-      "raw_snippet": "עובד זכאי לפדיון ימי חופשה שלא ניצל בשנת עבודתו האחרונה וב-3 השנים שקדמו לה",
-      "note": "Sections 7 and 31 of the Annual Leave Law, 1951.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%A9%D7%A0%D7%AA%D7%99%D7%AA",
+      "raw_snippet": "רשאי עם סיום העסקתו לפדות את ימי החופשה שלא ניצל ושהיה רשאי לצבור בשנה שבה סיים לעבוד וב-3 השנים שקדמו לה.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/entitlements-calculator.md"
-      ],
-      "claim_id": "vacation-redemption-window",
-      "fetched_at": "2026-07-26T19:08:30Z"
+      ]
     },
     {
-      "claim": "Releasing severance monies held in a pension or provident fund runs through Form 161: the employer completes the employer part (notice of cessation of employment) and notifies the fund of the status of the severance monies, and the employee completes the employee part. The employee then elects between withdrawal under the exemption, pension continuity (retzef kitzba) and severance continuity (retzef pitzuyim). The older procedure used a separate Form 161A for the employee's part; a source referring to 161A is describing the pre-unification process.",
+      "claim": "Releasing severance monies held in a pension or provident fund runs through Form 161: the employer completes the employer part (notice of cessation of employment) and notifies the fund of the status of the severance monies, and the employee completes the employee part. The employee then elects between withdrawal under the exemption, pension continuity (retzef kitzba) and severance continuity (retzef pitzuyim).",
       "source_url": "https://www.kolzchut.org.il/he/משיכת_כספי_פיצויי_פיטורים_מקופת_גמל_או_מהביטוח_הפנסיוני",
       "raw_snippet": "טופס 161 - הודעה על פרישה מעבודה",
       "appears_in": [
@@ -630,7 +719,9 @@
       ],
       "claim_id": "severance-release-forms-161",
       "fetched_at": "2026-07-26T19:42:28Z",
-      "note": "Claim text updated to the unified Form 161 (employer part / employee part); the cited page names Form 161 itself."
+      "note": "Claim text updated to the unified Form 161 (employer part / employee part); the cited page names Form 161 itself.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25"
     },
     {
       "claim_id": "youth-minwage-bands-2026",
@@ -639,7 +730,7 @@
       "raw_snippet": "עד 16\n\t70%\t4,510.7 ₪\t26.07 ₪\n\nעד 17\n\t75%\t4,832.89 ₪\t27.94 ₪\n\nעד 18\n\t83%\t5,348.4 ₪\t30.92 ₪\n\nחניך *\n\t60%\t3,866.31 ₪\t22.35 ₪",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -654,7 +745,7 @@
       "raw_snippet": "שכר המינימום החודשי לבני נוער מחושב כאחוזים משכר המינימום למבוגר (6,443.85 ₪) בהתאם לגילם",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -668,7 +759,7 @@
       "raw_snippet": "משרה מלאה לבני נוער היא בהיקף של 40 שעות בשבוע (או 173 שעות בחודש).",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -682,7 +773,7 @@
       "raw_snippet": "חניך הוא נער עד גיל 18 העובד כדי לרכוש מקצוע על-ידי עבודה מעשית מודרכת ולימוד בשיעורי מקצוע המאושרים לפי חוק החניכות",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -697,7 +788,7 @@
       "raw_snippet": "בחודש שבו חל יום הולדת של הנער, ישולם לו שכר באופן יחסי לפי גילו בכל אחד מחלקי החודש.",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -711,7 +802,7 @@
       "raw_snippet": "בשעתיים הנוספות הראשונות - תוספת של 25% מהשכר הרגיל עבור שעת עבודה, כלומר שכרו של העובד בכל אחת מהשעתיים הנוספות הראשונות יהיה 175% משכר עבודתו הרגיל",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -727,7 +818,7 @@
       "raw_snippet": "בכל שעה נוספת מעבר לשעתיים הנוספות הראשונות - תוספת של 50% מהשכר הרגיל, כלומר שכרו של העובד בכל אחת מהשעות הנוספות הללו יהיה 200% משכר עבודתו הרגיל",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -742,7 +833,7 @@
       "raw_snippet": "הגמול עבור שעות נוספות בשבת ישולם לפי שיטה מצטברת (עד לכדי 200%).",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -756,7 +847,7 @@
       "raw_snippet": "עובדים במשכורת חודשית זכאים לתוספת של 50% מערך שכרם היומי עבור שעות עבודתם בימי המנוחה השבועית וכן למנוחת פיצוי ללא ניכוי משכרם",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -771,7 +862,7 @@
       "raw_snippet": "עובדים שעתיים או יומיים זכאים לשכר של 150% משכרם הרגיל עבור שעות עבודתם בימי המנוחה השבועית וכן למנוחת פיצוי ללא תשלום",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -785,7 +876,7 @@
       "raw_snippet": "אסור להחליף את ימי מנוחת הפיצוי בתשלום כספי, אלא חובה לאפשר לעובד לצאת לחופשה בפועל. לא ניתן לפדות את מנוחת הפיצוי בכסף בסיום יחסי העבודה.",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -799,7 +890,7 @@
       "raw_snippet": "אם שעות העבודה בשבת הן בגדר שעות נוספות, אזי המעסיק אינו חייב להפריש לפיצויים ולביטוח הפנסיוני עבור שעות אלה.",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "references/entitlements-calculator.md",
         "references/domain-checklist.md"
@@ -812,7 +903,7 @@
       "raw_snippet": "עובד שעבד במנוחה השבועית ללא אישור המעסיק במפורש או במשתמע, לא יהיה זכאי לתשלום גמול עבור העסקה במנוחה השבועית.",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "references/entitlements-calculator.md",
         "references/domain-checklist.md"
@@ -825,7 +916,7 @@
       "raw_snippet": "מנוחה של שעה וחצי עבור כל שעת עבודה בזמן המנוחה השבועית, מבלי לפגוע בגובה השכר הקבוע לאותו חודש או תקופה.",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "references/entitlements-calculator.md"
       ]
@@ -837,7 +928,7 @@
       "raw_snippet": "בכל מקרה שבו חל על העובד הסכם, חוזה או נוהג הקובעים תמורה עבור עבודה בחג בשיעור גבוה מזה שנקבע בחוק, תחול ההוראה המיטיבה עם העובד.",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "references/entitlements-calculator.md",
         "references/domain-checklist.md"
@@ -850,10 +941,550 @@
       "raw_snippet": "חוק שעות עבודה ומנוחה - סעיף 17",
       "fetched_at": "2026-08-19T00:00:00Z",
       "verified_via": "browser",
-      "verified_at": "2026-08-19T00:00:00Z",
+      "verified_at": "2026-10-25",
       "appears_in": [
         "references/entitlements-calculator.md",
         "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-ext-order-table",
+      "claim": "Under the shortened-work-week extension order a 5-day employee gets 12 net days (years 1-5), 17 (years 6-8) and 23 (year 9 onward), taking the higher of statute and order.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "1- 4 שנים (* החל מיום 01.01.2017) 12 16 5 שנים 12 16 6-8 שנים 17 23 9 שנים ומעלה 23 31",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-ext-order-scope",
+      "claim": "The extension order applies to most workplaces that moved to a 5-day week; the employee is entitled to the higher of the statute and the order.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "צו זה חל על מרבית מקומות העבודה שעברו לשבוע עבודה בן 5 ימים, בהתאם לענפים המפורטים בתוספת השנייה לצו.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-ext-order-higher",
+      "claim": "Where the statute and the extension order differ, the employee gets the higher number of days.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "בכל מקרה שבו מספר ימי החופשה המופיעים בחוק שונה ממספר הימים המופיע בצו ההרחבה, העובד יהיה זכאי למספר ימי החופשה הגבוה מביניהם.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-ext-order-exclusions",
+      "claim": "The extension order does not cover domestic work, workplaces with fewer than 4 employees, collective-agreement transitions, or government and municipal companies.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "עבודה במשק בית (עוזרות בית, מטפלים וכו') מקום עבודה שמועסקים בו פחות מ-4 עובדים עובדים ומעסיקים שהמעבר לשבוע עבודה בן 5 ימים הוסדר או יוסדר לגביהם בהסכם קיבוצי עובדים בחברה ממשלתית עובדים בחברה עירונית",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-6day-table",
+      "claim": "On a 6-day week the days of actual absence are 14 (years 1-5), 16 (6), 18 (7), 19 (8), 20 (9), 21 (10), 22 (11), 23 (12), 24 (13), 24 (14+) against gross 16 to 28.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_6_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "1- 4 שנים (* החל מיום 01.01.2017) 14 16 5 שנים 14 16 6 שנים 16 18 7 שנים 18 21 8 שנים 19 22 9 שנים 20 23 10 שנים 21 24 11 שנים 22 25 12 שנים 23 26 13 שנים 24 27 14 שנים ומעלה 24 28",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-calendar-year",
+      "claim": "Seniority for annual leave is counted in calendar years (from 1 January), per Annual Leave Law s.1.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "סעיף 1 לחוק חופשה שנתית מגדיר \"שנת עבודה\" כפרק זמן של 12 חודשים, שתחילתו אחד בינואר של כל שנה.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-partial-day-same",
+      "claim": "Leave accrues the same way for full-day and partial-day work.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "הצבירה נעשית באותו אופן למי שעובדים יום עבודה מלא ולמי שעובדים בהיקף של יום עבודה חלקי",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-200-days",
+      "claim": "A full-year employee who worked fewer than 200 days gets a proportional share of the gross days, rounded down; a partial-year employee needs 240 days for the full quota.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "עובד שעבד אצל המעסיק כל השנה, החל מחודש ינואר ועד חודש דצמבר פחות מ-200 ימים, זכאי לחלק יחסי ממספר הימים ברוטו (כולל שישי ושבת) שצוינו בטבלאות.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-240-days",
+      "claim": "A partial-year employee who worked at least 240 days gets the full table quota.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%99%D7%A9%D7%95%D7%91_%D7%9E%D7%A1%D7%A4%D7%A8_%D7%99%D7%9E%D7%99_%D7%94%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%94%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D_%D7%91%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%A9%D7%91%D7%94%D7%9D_%D7%9E%D7%95%D7%A0%D7%94%D7%92_%D7%A9%D7%91%D7%95%D7%A2_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%9F_5_%D7%99%D7%9E%D7%99%D7%9D",
+      "raw_snippet": "עובד שהקשר המשפטי עם מעסיקו נמשך רק בחלק מהשנה, ועבד לפחות 240 ימים באותה שנה, זכאי לחופשה שנתית בהתאם לימים שצויינו בטבלאות.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "vacation-youth-18",
+      "claim": "Working youth get 18 calendar days of annual leave regardless of seniority, which is 14 or 16 days of actual absence.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%A9%D7%A0%D7%AA%D7%99%D7%AA_%D7%9C%D7%91%D7%A0%D7%99_%D7%A0%D7%95%D7%A2%D7%A8_%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
+      "raw_snippet": "נער או נערה הזכאים ל-18 ימי חופשה, יוכלו לנצל בפועל 14 או 16 ימי חופשה בלבד, מכיוון שהכמות של 18 הימים כוללת גם את ימי המנוחה השבועיים",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-rate-updated-18-08-2026",
+      "claim": "The private-sector havra'a rate was updated on 18.08.2026 for 1.7.2025 to 30.6.2026; employers who paid NIS 418 must pay the difference up to NIS 451.5.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "תעריף דמי ההבראה התעדכן ביום 18.08.2026 לגבי התקופה שהחל מ-1.7.2025 ועד 30.6.2026. מעסיקים שכבר שילמו דמי הבראה עבור תקופה זו לפי התעריף הישן (418 ש\"ח), יצטרכו לשלם הפרשים לסכום העדכני של 451.5 ש\"ח.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-tax-and-social",
+      "claim": "Convalescence pay is subject to income tax, national insurance and health tax, but is not part of the wage for pension deposits or severance.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "דמי הבראה חייבים במס הכנסה, בדמי ביטוח לאומי ודמי ביטוח בריאות', אך לא נכללים בשכר שממנו יש להפריש לביטוח פנסיוני ובשכר המשמש לחישוב פיצויי פיטורים.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-public-more-days",
+      "claim": "Public-sector employees get more convalescence days than the private-sector table; state employees by grade under Takshir chapter 28.2.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "הטבלה הבאה מפרטת את מספר ימי ההבראה לעובדים במגזר הפרטי (במגזר הציבורי מספרם גבוה יותר).",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-public-takshir-28-2",
+      "claim": "State employees are entitled to more convalescence days by grade and profession, per Takshir chapter 28.2.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
+      "raw_snippet": "עובדי מדינה זכאים למספר גבוה יותר של דמי הבראה בהתאם לדירוג ולמקצוע שלהם. למידע נוסף ראו פרק 28.2 בתקש\"יר",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-reduction-law-2025",
+      "claim": "The Freeze and Reduction of Convalescence Pay Law for 2025, published 27.3.2025, required one convalescence day to be deducted from havra'a paid in 2025.",
+      "source_url": "https://www.malam-payroll.com/%D7%97%D7%95%D7%A7-%D7%94%D7%A7%D7%A4%D7%90%D7%94-%D7%95%D7%94%D7%A4%D7%97%D7%AA%D7%94-%D7%A9%D7%9C-%D7%93%D7%9E%D7%99-%D7%94%D7%91%D7%A8%D7%90%D7%94-%D7%91%D7%A9%D7%A0%D7%AA-2025-%D7%94%D7%A0%D7%97/",
+      "raw_snippet": "ביום 27.3.2025 פורסם ברשומות חוק הקפאה והפחתה של דמי הבראה בשנת 2025 התשפ\"ה-2025",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-reduction-law-2025-scope",
+      "claim": "The deduction applied to havra'a paid in 2025, except a worker employed by an individual outside a business, such as a domestic worker.",
+      "source_url": "https://www.malam-payroll.com/%D7%97%D7%95%D7%A7-%D7%94%D7%A7%D7%A4%D7%90%D7%94-%D7%95%D7%94%D7%A4%D7%97%D7%AA%D7%94-%D7%A9%D7%9C-%D7%93%D7%9E%D7%99-%D7%94%D7%91%D7%A8%D7%90%D7%94-%D7%91%D7%A9%D7%A0%D7%AA-2025-%D7%94%D7%A0%D7%97/",
+      "raw_snippet": "בחוק נקבע כי מעסיק יפחית לעובד מתשלום דמי ההבראה בשנת 2025 , במועד התשלום, את \"מחיר יום הבראה\" (כפי שהוגדר בחוק) החל לגבי אותו עובד. ההפחתה כאמור, תחול על שכרו של עובד שזכאי לפי הסכם או נוהג לדמי הבראה בשנת 2025, למעט עובד המועסק על ידי יחיד שלא במסגרת עסק או משלח יד, לדוגמא- עובד במשק בית המועסק כאמור.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-reduction-to-assessing-officer",
+      "claim": "The deducted amount is passed to the assessing officer as if it were tax withheld at source.",
+      "source_url": "https://www.malam-payroll.com/%D7%97%D7%95%D7%A7-%D7%94%D7%A7%D7%A4%D7%90%D7%94-%D7%95%D7%94%D7%A4%D7%97%D7%AA%D7%94-%D7%A9%D7%9C-%D7%93%D7%9E%D7%99-%D7%94%D7%91%D7%A8%D7%90%D7%94-%D7%91%D7%A9%D7%A0%D7%AA-2025-%D7%94%D7%A0%D7%97/",
+      "raw_snippet": "מנגנון העברת התשלום על ידי המעסיקים יהיה באמצעות העברתו לפקיד השומה כאילו היה מס שנוכה במקור",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "chag-work-rates",
+      "claim": "Work on a holiday: monthly employees get an addition of 50% of the daily wage; hourly employees 150% per hour; daily employees 150% of the daily wage.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%99%D7%9E%D7%99_%D7%97%D7%92",
+      "raw_snippet": "עובדים במשכורת חודשית - זכאים לתוספת של 50% מהשכר היומי שלהם עבור כל יום חג שבו הם עבדו. זאת בנוסף לשכר החודשי הקבוע שלהם באותו חודש. עובדים שמקבלים שכר לפי שעה - זכאים לשכר של 150% מהתעריף השעתי על כל שעה שבה עבדו במשך החג.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "chag-work-substitute-rest",
+      "claim": "Employees who work a holiday also get a substitute rest day without deduction from pay or leave.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%99%D7%9E%D7%99_%D7%97%D7%92",
+      "raw_snippet": "בנוסף לתשלום המוגדל, העובדים זכאים ליום מנוחה חלופי ללא ניכוי משכרם או ממכסת ימי החופש שלהם.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "chag-work-forced-250",
+      "claim": "Hourly or daily employees made to work a holiday against their will also get holiday pay, 250% in total.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A2%D7%9C_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%99%D7%9E%D7%99_%D7%97%D7%92",
+      "raw_snippet": "יהיו זכאים לקבל בנוסף גם דמי חגים בשיעור 100% משכרם היומי וסה\"כ שכר בגובה 250% משכרם הרגיל.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "dmei-chagim-3-months",
+      "claim": "Hourly, daily or piece-rate employees are entitled to holiday pay after completing 3 months, subject to the other conditions.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%97%D7%92%D7%99%D7%9D",
+      "raw_snippet": "עובד שמקבל משכורת שלא על בסיס חודשי (כלומר עובד בשכר שעתי, בשכר יומי או בשכר לפי תפוקה), העונה על שלושת התנאים הבאים: הוא השלים 3 חודשי עבודה במקום העבודה.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "dmei-chagim-monthly-9",
+      "claim": "Monthly employees may be absent on 9 holiday days without a pay cut and without charging vacation.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%97%D7%92%D7%99%D7%9D",
+      "raw_snippet": "עובדים אלה זכאים להיעדר ב-9 ימי חג, החל מיום עבודתם הראשון מבלי שמשכורתם החודשית תקטן",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "global-ot-conditions",
+      "claim": "A global overtime payment is valid only if genuine and reflecting actual average overtime, shown separately on the pay slip; excess hours are still owed.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99_%D7%A2%D7%91%D7%95%D7%A8_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA,_%D7%A9%D7%91%D7%AA_%D7%95%D7%97%D7%92",
+      "raw_snippet": "על המעסיק להפריד בתלוש השכר בין רכיב השכר הבסיסי לבין הרכיב של שעות נוספות גלובליות כאשר העובד עובד מספר שעות נוספות גבוה יותר מהתשלום הגלובלי המשולם לו עבור שעות נוספות, הוא זכאי לקבל מהמעסיק תוספת תשלום עבור השעות הנוספות העודפות",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "global-ot-125",
+      "claim": "The global addition must be at least 125% of the minimum wage or the employee's base wage.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99_%D7%A2%D7%91%D7%95%D7%A8_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%91%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA,_%D7%A9%D7%91%D7%AA_%D7%95%D7%97%D7%92",
+      "raw_snippet": "גובה התוספת חייב להיות לפחות 125% משכר המינימום או משכר הבסיס של העובד.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "youth-rest-day-prohibited-premium-owed",
+      "claim": "Employing a youth during the weekly rest (at least 36 consecutive hours) is prohibited outright with no permit possible, but an employer who did so must still pay the overtime premium.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A0%D7%95%D7%97%D7%94_%D7%A9%D7%91%D7%95%D7%A2%D7%99%D7%AA_%D7%9C%D7%A0%D7%95%D7%A2%D7%A8_%D7%A2%D7%95%D7%91%D7%93",
+      "raw_snippet": "האיסור להעביד בני נוער במהלך המנוחה השבועית הוא מוחלט. בשונה מעובדים בוגרים, לא ניתן לקבל היתר להעסקת נוער במנוחה השבועית. מי שמעסיק בני נוער במנוחה השבועית, למרות שמדובר בהעסקה המנוגדת לחוק, חייב לשלם להם גמול עבור שעות נוספות.",
+      "fetched_at": "2026-10-25T09:56:29Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-reduction-2024-and-reservists",
+      "claim": "The 2025 day reduction and rate freeze funded benefits for reservists and followed the same reduction and freeze carried out in 2024.",
+      "source_url": "https://www.malam-payroll.com/%D7%94%D7%A4%D7%97%D7%AA%D7%AA-%D7%99%D7%95%D7%9D-%D7%94%D7%91%D7%A8%D7%90%D7%94-%D7%95%D7%90%D7%99-%D7%A2%D7%93%D7%9B%D7%95%D7%9F-%D7%9E%D7%97%D7%99%D7%A8-%D7%99%D7%95%D7%9D-%D7%94%D7%91%D7%A8%D7%90/",
+      "raw_snippet": "ההנחיות והוראות הביצוע להפחתת יום הבראה ואי עדכון מחיר הבראה בשנת 2025 דומות להנחיות והוראות הביצוע שהיו שנה שעברה לפיהן בוצעה הפחתת יום הבראה ואי עדכון מחיר הבראה בשנת 2024.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-reduction-reservist-purpose",
+      "claim": "The 2025 reduction of a convalescence day was for the benefit of reservists.",
+      "source_url": "https://www.malam-payroll.com/%D7%94%D7%A4%D7%97%D7%AA%D7%AA-%D7%99%D7%95%D7%9D-%D7%94%D7%91%D7%A8%D7%90%D7%94-%D7%95%D7%90%D7%99-%D7%A2%D7%93%D7%9B%D7%95%D7%9F-%D7%9E%D7%97%D7%99%D7%A8-%D7%99%D7%95%D7%9D-%D7%94%D7%91%D7%A8%D7%90/",
+      "raw_snippet": "הסכם קיבוצי שעניינו הפחתת יום הבראה ואי עדכון מחיר יום הבראה בשנת 2025 לטובת הטבות לחיילי מילואים",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "workday-5day-8-6",
+      "claim": "In the private sector the week is 42 hours; on a 5-day week overtime is owed above 8.6 hours on four days and above 7.6 hours on the short day.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA",
+      "raw_snippet": "עובד שמועסק 5 ימים בשבוע יהיה זכאי במשך 4 ימים בשבוע לגמול שעות נוספות על כל שעה שמעבר ל-8 שעות ו-36 דקות בכל יום (8.6 שעות), נטו ללא הפסקה, ובמשך יום אחד בשבוע (היום המקוצר) על כל שעה שמעבר ל-7 שעות ו-36 דקות בכל יום (7.6 שעות)",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "workday-6day-8-7",
+      "claim": "On a 6-day private-sector week overtime is owed above 8 hours on a regular day, above 7 hours on Friday and above 42 hours a week.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA",
+      "raw_snippet": "מי שעובד 6 ימים בשבוע במגזר הפרטי, יהיה זכאי לגמול שעות נוספות על כל שעה שמעבר ל-8 שעות ביום עבודה רגיל, על כל שעה שמעבר ל-7 שעות עבודה ביום שישי ועל כל שעה שמעבר ל-42 שעות שבועיות רגילות.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "workweek-public-40",
+      "claim": "In the public sector the work week is 40 hours.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%9E%D7%95%D7%9C_%D7%A2%D7%91%D7%95%D7%A8_%D7%A9%D7%A2%D7%95%D7%AA_%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA",
+      "raw_snippet": "במגזר הציבורי, שבוע העבודה עומד על 40 שעות עבודה",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labor-laws-summary.md"
+      ]
+    },
+    {
+      "claim_id": "severance-s7-resign-after-birth",
+      "claim": "A worker who resigns within nine months of giving birth (or receiving a child for adoption, surrogacy or foster care) to care for the child is treated as dismissed for severance purposes; the rule extends to a father under conditions.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "התפטרה עובדת, תוך תשעה חדשים מיום שילדה, על מנת לטפל בילדה – יראו לענין חוק זה את התפטרותה כפיטורים",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "severance-s5-death-of-employee",
+      "claim": "When an employee dies, the employer pays severance to the survivors as if it had dismissed the employee.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "נפטר עובד, ישלם המעסיק לשאיריו פיצויים כאילו פיטר אותו.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s14-automatic-6",
+      "claim": "Section 14 applies automatically to the 6% severance deposit required by the mandatory pension extension order.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9E%D7%A8%D7%90%D7%A9_%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_(%D7%A1%D7%A2%D7%99%D7%A3_14)",
+      "raw_snippet": "על ההפרשות שהמעסיק מפריש לרכיב הפיצויים בביטוח הפנסיוני בהתאם לחובתו לפי צו ההרחבה (6% מהשכר החל משנת 2014) חל באופן אוטומטי ההסדר של סעיף 14 לחוק פיצויי פיטורים.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "scripts/severance-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "s14-completion-notice",
+      "claim": "The completion to 8.33% falls under Section 14 only if the employer gives the fund written notice with a copy to the employee.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9E%D7%A8%D7%90%D7%A9_%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_(%D7%A1%D7%A2%D7%99%D7%A3_14)",
+      "raw_snippet": "מעסיק המפריש לרכיב הפיצויים גם השלמת פיצויי פיטורים (כך שסה\"כ הוא מפריש 8.33% מהשכר לרכיב הפיצויים), רשאי להודיע בהודעה בכתב לקופה עם העתק לעובד, שסעיף 14 חל גם על השלמת פיצויי הפיטורים.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md",
+        "scripts/severance-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "s14-proportional-rest-owed",
+      "claim": "Unless 8.33% was deposited from day one on the whole salary with Section 14 applied to all of it, the Section 14 money replaces only the proportional part of severance and the employer pays the rest.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9E%D7%A8%D7%90%D7%A9_%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%94%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_(%D7%A1%D7%A2%D7%99%D7%A3_14)",
+      "raw_snippet": "בכל מקרה אחר - הכספים שהצטברו ברכיב הפיצויים שעליהם הוחל סעיף 14 יבואו במקום החלק היחסי של פיצויי הפיטורים שהמעסיק צריך לשלם, ואת יתרת הפיצויים על המעסיק לשלם לעובד",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "references/entitlements-calculator.md",
+        "scripts/severance-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "notice-statute-monthly",
+      "claim": "Prior Notice Law s.3: a monthly employee gets 1 day per month in the first six months, 6 days plus 2.5 per month from the seventh month to the end of the first year, and a month after the first year.",
+      "source_url": "https://www.efraty.com/%d7%9e%d7%99%d7%93%d7%a2-%d7%a9%d7%99%d7%9e%d7%95%d7%a9%d7%99/%d7%9e%d7%99%d7%93%d7%a2-%d7%a9%d7%99%d7%9e%d7%95%d7%a9%d7%99-%d7%9c%d7%9e%d7%a2%d7%a1%d7%99%d7%a7/%d7%97%d7%95%d7%a7-%d7%94%d7%95%d7%93%d7%a2%d7%94-%d7%9e%d7%95%d7%a7%d7%93%d7%9e%d7%aa/",
+      "raw_snippet": "(1) במהלך ששת חודשי עבודתו הראשונים – של יום אחד בשל כל חודש עבודה; (2) במהלך התקופה החל בחודש השביעי לעבודתו עד תום שנת עבודתו הראשונה – של 6 ימים, בתוספת של יומיים וחצי בשל כל חודש עבודה בתקופה האמורה; (3) לאחר שנת עבודתו הראשונה – של חודש ימים.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "notice-hourly-tiers",
+      "claim": "Hourly or daily employees: 1 day per month up to a year, 14 days plus a day per two months in the second year, 21 days plus a day per two months in the third year, a month from 3 years.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "עובד במהלך שנת עבודתו השנייה זכאי לתקופת הודעה מוקדמת של 14 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השנייה. עובד בשנת עבודתו השלישית זכאי ל-21 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השלישית. עובד בעל ותק של 3 שנים ומעלה זכאי להודעה מוקדמת של חודש ימים.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "notice-one-year-month",
+      "claim": "A monthly employee with one year of seniority or more is owed a month's notice; below a year, partial months are not counted.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%93%D7%A2%D7%94_%D7%9E%D7%95%D7%A7%D7%93%D7%9E%D7%AA_%D7%9C%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "עובד בעל ותק של שנת עבודה אחת ואילך זכאי להודעה מוקדמת של חודש ימים. עובד בעל ותק של פחות משנת עבודה זכאי ליום הודעה מוקדמת בגין כל אחד מ-6 חודשי העבודה הראשונים, ויומיים וחצי בגין כל חודש עבודה מלא נוסף (חלקי חודש אינם נלקחים בחשבון).",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "child-sick-single-parent-16",
+      "claim": "A single parent (horeh atzmai) may charge up to 8 additional days, up to 16 days a year, for a child's illness.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94_(%D7%94%D7%99%D7%A2%D7%93%D7%A8%D7%95%D7%AA_%D7%91%D7%A9%D7%9C_%D7%9E%D7%97%D7%9C%D7%AA_%D7%99%D7%9C%D7%93)_%D7%9C%D7%94%D7%95%D7%A8%D7%94_%D7%A2%D7%A6%D7%9E%D7%90%D7%99_(%D7%94%D7%95%D7%A8%D7%94_%D7%99%D7%97%D7%99%D7%93)",
+      "raw_snippet": "עובדים שהם הורים עצמאיים (הורים יחידים), זכאים לזקוף על חשבון ימי המחלה שלהם עד 8 ימים נוספים בגין מחלת ילדיהם, ובסה\"כ עד 16 ימים בשנה.",
+      "fetched_at": "2026-10-25T10:19:57Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-25",
+      "appears_in": [
+        "references/entitlements-calculator.md"
       ]
     }
   ]

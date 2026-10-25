@@ -225,24 +225,23 @@ Notes:
         print(f"  Estimated total contributions: {format_nis(estimated_contributions)}")
         print(f"    (Based on last salary, actual may differ)")
 
+        full_rate = 100.0 / 12  # 8.33%: the rate that funds a month's salary per year
+        # 8.33 as written on a pay slip is the full 1/12 rate
+        released_share = 1.0 if args.monthly_contribution_rate >= 8.33 else args.monthly_contribution_rate / full_rate
+        # Section 14 deposits replace only the PROPORTIONAL part of severance
+        # (deposit rate / 8.33%). The employer still owes the rest of the statutory
+        # figure, and investment returns in the fund belong to the employee: they
+        # do not offset the unreleased part.
+        completion = severance * (1.0 - released_share)
+        print(f"  Share of severance released by the deposits: {released_share:.0%}")
+        if completion > 0:
+            print(f"  Unreleased part the employer must pay on top: {format_nis(completion)}")
         if args.fund_balance is not None:
             print(f"  Actual fund balance: {format_nis(args.fund_balance)}")
-            difference = args.fund_balance - severance
-
-            if difference >= 0:
-                print(f"  Fund balance EXCEEDS statutory severance by {format_nis(difference)}")
-                print(f"  Employee receives the fund balance: {format_nis(args.fund_balance)}")
-            else:
-                print(f"  Fund balance is BELOW statutory severance by {format_nis(abs(difference))}")
-                if args.monthly_contribution_rate >= 8.33:
-                    print(f"  If Section 14 fully applies: employee receives fund balance ({format_nis(args.fund_balance)})")
-                    print(f"  If Section 14 partially applies: employer owes the difference ({format_nis(abs(difference))})")
-                else:
-                    print(f"  At a deposit rate of {args.monthly_contribution_rate:.4g}% a FULL Section 14 release")
-                    print(f"  is not available, so the employer owes the difference ({format_nis(abs(difference))})")
-                    print("  even where the signed arrangement is valid.")
         else:
-            print("  (Use --fund-balance to compare with actual accumulated amount)")
+            print("  (Use --fund-balance to see the total the employee should end up with)")
+        print("  Assumes deposits at this rate on the full salary from day one. Months")
+        print("  without deposits, or deposits on part of the salary, increase what is owed.")
 
         print()
 
@@ -250,28 +249,22 @@ Notes:
     print("Payment Summary:")
     print(f"  {'Claim value (higher method)' if history_mode else 'Statutory severance'}:  {format_nis(severance)}")
 
-    if args.section14 and args.fund_balance is not None:
-        print(f"  Section 14 balance:   {format_nis(args.fund_balance)}")
-        if args.fund_balance >= severance:
-            print(f"  Effective amount:     {format_nis(args.fund_balance)}")
-            print("  (Fund balance covers the statutory figure in full.)")
+    if args.section14:
+        if completion > 0:
+            print(f"  Completion payment owed by the employer: {format_nis(completion)}")
+            if args.fund_balance is not None:
+                print(f"  Employee receives: fund balance {format_nis(args.fund_balance)} "
+                      f"+ completion {format_nis(completion)} = {format_nis(args.fund_balance + completion)}")
+            print(f"  At {args.monthly_contribution_rate:.4g}% the deposits release only part of the obligation, so")
+            print("  the completion is owed even where the fund grew past the statutory figure.")
         else:
-            gap = severance - args.fund_balance
-            rate = args.monthly_contribution_rate
-            if rate >= 8.33:
-                print(f"  If Section 14 applies IN FULL:   {format_nis(args.fund_balance)} "
-                      "(the fund balance is the whole entitlement and the employer owes nothing on the gap)")
-                print(f"  If it does NOT apply in full:    {format_nis(severance)} "
-                      f"(fund balance plus a completion payment of {format_nis(gap)})")
-                print("  Which applies turns on whether a valid signed Section 14 arrangement exists.")
-            else:
-                print(f"  Completion payment owed:         {format_nis(gap)}")
-                print(f"  Total entitlement:               {format_nis(severance)}")
-                print(f"  At a deposit rate of {rate:.4g}%, a FULL Section 14 release is not available:")
-                print("  a full release requires the 1/12 (8.33%) rate, or 6% plus a supplementary")
-                print("  arrangement covering the remainder. So the completion payment is owed even")
-                print("  where the signed arrangement is perfectly valid. Check the pay slip for the")
-                print("  rate actually deposited before accepting the fund balance as the whole sum.")
+            if args.fund_balance is not None:
+                print(f"  If Section 14 applies to the full 8.33%: the fund balance "
+                      f"({format_nis(args.fund_balance)}) is the whole entitlement.")
+            print("  The 6% mandatory deposit falls under Section 14 automatically; the completion")
+            print("  to 8.33% is covered only if the employer gave the fund written notice applying")
+            print("  Section 14 to it. Without that notice, the employer owes the gap between the")
+            print("  statutory figure and the released part, paid first from the non-Section-14 money.")
 
     print()
     print("Important Reminders:")

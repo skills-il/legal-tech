@@ -35,24 +35,26 @@ All entitlements below are **minimum legal requirements**. Collective agreements
 
 ### Step 2: Vacation Days (Chofsha Shnatit)
 
-Per the **Annual Leave Law, 1951 (Chok Chufsha Shnatit)**, every employee is entitled to paid vacation based on seniority. The statutory table counts calendar days (including weekly rest days); for a 5-day work week the "net" figure is the actual working days of absence:
+Per the **Annual Leave Law, 1951 (Chok Chufsha Shnatit)**, paid vacation rises with seniority. The statute counts GROSS days, which include the weekly rest days, so the days an employee can actually take off depend on the work week. Most 5-day workplaces are also covered by the shortened-work-week extension order (tzav harchava, maavar leshavua avoda mekutzar), which states NET days and is more generous; the employee gets the higher of the two.
 
-| Years of Employment | Gross Days (calendar, 6-day basis) | Net Working Days (5-day week) |
-|---------------------|-------------------------------------|-------------------------------|
-| 1-5 | 16 | 12 |
-| 6 | 18 | 14 |
-| 7 | 21 | 15 |
-| 8 | 22 | 16 |
-| 9 | 23 | 17 |
-| 10 | 24 | 18 |
-| 11 | 25 | 19 |
-| 12 | 26 | 20 |
-| 13 | 27 | 20 |
-| 14+ | 28 | 20 |
+| Years | Gross (statute) | 6-day week: actual days | 5-day week, statute only | 5-day week, extension order |
+|-------|-----------------|--------------------------|--------------------------|-----------------------------|
+| 1-5 | 16 | 14 | 12 | 12 |
+| 6 | 18 | 16 | 14 | 17 |
+| 7 | 21 | 18 | 15 | 17 |
+| 8 | 22 | 19 | 16 | 17 |
+| 9 | 23 | 20 | 17 | 23 |
+| 10 | 24 | 21 | 18 | 23 |
+| 11 | 25 | 22 | 19 | 23 |
+| 12 | 26 | 23 | 20 | 23 |
+| 13 | 27 | 24 | 20 | 23 |
+| 14+ | 28 | 24 | 20 | 23 |
 
 **Key rules:**
-- Gross days include Fridays and Saturdays (weekly rest). For a 5-day work week, count only the working-day column (net) when scheduling actual time off
-- Part-time employees earn vacation proportionally based on actual days worked in the year
+- The extension-order column applies to most 5-day workplaces. It does NOT cover domestic work, workplaces with fewer than 4 employees, government or municipal companies, or workplaces whose move to a 5-day week was settled by a collective agreement; those use the statute-only column
+- Seniority is counted in calendar years (January to December): someone who started in October has year 2 from the next 1 January
+- Accrual is the same for full and partial work days. A full-year employee who worked fewer than 200 days gets a proportional share of the gross days, rounded down
+- Working youth (under 18) get 18 calendar days a year regardless of seniority: 14 days off on a 5-day week, 16 on a 6-day week
 - Unused vacation days can carry forward with employer consent, typically over the next two years of employment; beyond that the employer may require the employee to use them
 - The employer sets the vacation schedule but must consider the employee's requests. The employee must receive at least 7 consecutive days per year if requested
 - Collective agreements (heskemim kibbutziyim) in sectors and many individual contracts grant more generous leave than the table above
@@ -92,7 +94,7 @@ A short absence may be covered by an HMO short sick certificate, no doctor's vis
 Per the **Hours of Work and Rest Law, 1951 (Chok Sha'ot Avoda U'Menucha)**:
 
 **Standard work hours:**
-- Maximum regular work day: 8 hours (or as defined by collective agreement)
+- Regular work day (private sector): on a 5-day week 8.6 hours on four days and 7.6 on the short day; on a 6-day week 8 hours, 7 on Friday. Overtime starts above these, or above 42 hours a week. The public sector works a 40-hour week
 - Maximum work week: 42 hours
 - Weekly rest day: at least 36 consecutive hours (typically Friday evening to Saturday evening for Jewish employees)
 
@@ -114,6 +116,10 @@ Per the **Hours of Work and Rest Law, 1951 (Chok Sha'ot Avoda U'Menucha)**:
 - Overtime must be compensated in pay, not comp time (unless a valid collective agreement allows it)
 - Certain sectors and positions (managers, those requiring a high degree of personal trust) may be exempt from overtime rules under specific legal conditions
 - The employer must keep accurate records of work hours
+- Holiday (chag) work is not the rest-day premium: 150% (a monthly employee gets +50% of the daily wage) plus a substitute rest day. Separately, hourly and daily employees with 3 months' service get holiday pay (dmei chagim) for holidays they do not work, and one made to work the holiday gets both, 250% in total
+- A global overtime payment (gmul globali) is lawful only if agreed, genuine, shown separately on the pay slip, and matched to the overtime actually worked; hours beyond it are still owed
+- Employing a youth on the weekly rest day is prohibited outright, but the employer still owes the overtime premium for those hours
+- Detail on all three: `references/entitlements-calculator.md`
 
 **Minimum wage (Chok Schar Minimum, 1987):**
 - As of 1 April 2026 the minimum wage is **6,443.85 NIS per month** for a full-time position and **35.40 NIS per hour**
@@ -147,9 +153,7 @@ Per the **Employment of Women Law, 1954 (Chok Avdat Nashim)**. The leave is now 
 
 See `references/labor-laws-summary.md` for how the 5 days are charged (vacation vs sick) and the full transfer rules.
 
-**Additional protections:** fertility treatments (absences as sick days, protected from termination), adoption (similar leave entitlements), and nursing mothers (1 hour less per day for 4 months, full pay). Conditions in `references/labor-laws-summary.md`.
-
-**After a miscarriage.** The Employment of Women Law protections apply after a miscarriage, not only after a birth, and labour-court authority has held that cutting hours in that protected period breaches the law. Treat a reduction, role change or dismissal in that window as a protected-period breach, not an ordinary management decision.
+**Additional protections:** fertility treatments, adoption, nursing mothers (1 hour less per day for 4 months, full pay), and the same protected period after a miscarriage, where a cut in hours breaches the law. Conditions in `references/labor-laws-summary.md`.
 
 ### Step 6: Severance Pay (Pitzuyei Piturim)
 
@@ -173,14 +177,15 @@ python3 scripts/severance-calculator.py --help
 **When severance is owed:**
 - Employer-initiated termination (piturim)
 - Employee resignation due to health, relocation for marriage, or materially worsened conditions. CRITICAL on the last: the employee must FIRST give written notice and a real chance to correct. Resigning without that forfeits the severance entirely (in certain cases recognized by law)
-- Death of the employer (individual employer)
+- A parent who resigns within 9 months of the birth (or of receiving a child for adoption, surrogacy or foster care) to care for the child: treated as dismissal (a father or second parent only under extra conditions)
+- Death of the employee (paid to the survivors) or of an individual employer
 - Employer bankruptcy
 
 **Section 14 arrangement:**
 - Section 14 is a prohibition, not a permission: fund contributions replace severance only under a collective agreement or the General Authorization (י"פ תשנ"ח 4394)
 - Under this arrangement, the accumulated fund replaces the obligation to pay severance separately
 - Two severance rates get confused and the gap is money. The minimum is **6%**, and **8.33%** (1/12) fully funds the statutory month-per-year, the rate a FULL release requires (from the General Authorization, not Section 14). At 6% the fund covers about 72%, so a **completion payment (hashlamat pitzuyim)** is owed. Read the deposit rate off the pay slip
-- Upon termination, the employee receives the accumulated fund balance as severance
+- Upon termination, the employee receives the fund balance, plus the completion where deposits were below 8.33%; fund returns never offset that completion
 
 **Tax exemption on severance:**
 - Severance pay is exempt from income tax up to a ceiling per year of tenure. The 2026 ceiling is **13,750 NIS per year of employment** (the exempt amount is the lower of this figure times years of service, or 1.5 times the last monthly salary times years of service). Verify the current ceiling, which is updated annually
@@ -210,12 +215,13 @@ Every employee who has completed at least one year of employment is entitled to 
 
 **Daily rate:**
 - Updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is NIS 451.5 per day, raised from 418; an employer who paid at 418 owes NIS 33.50 per havra'a day. The rate follows the havra'a year, not the payment date. Public sector: NIS 511.6.
-- For 2025 and 2026, employers are required to deduct one convalescence day from each employee's annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist support
+- Rate updated on 18.08.2026, retroactive to 1.7.2025. Public-sector employees also get MORE days than the table above, by grade (Takshir ch. 28.2)
+- In 2024 and 2025 a temporary statute (Freeze and Reduction of Convalescence Pay Law) made employers deduct one convalescence day and pass it to the Tax Authority for reservist benefits; domestic workers of a private individual were excluded. No such law was found for 2026, so do not apply the deduction to 2026 without checking
 
 **Payment:**
 - Usually paid once a year, typically in June-September
 - Appears as a separate line on the pay slip (tlush maskoret)
-- Taxable income but not subject to social security deductions
+- Subject to income tax, national insurance and health tax, but not part of the wage for pension deposits or for severance
 - Part-time employees receive proportional pay based on their work percentage
 
 ### Step 8: Pension and Savings (Pnsia)
@@ -232,15 +238,13 @@ Since the **Mandatory Pension Law extension order (Tzav Harchava, 2008)**:
 
 **Key rules:**
 - Applies to all employees after 6 months of employment for those without prior pension coverage (contributions are then paid retroactively to day 1), or immediately if the employee already has a pension fund
-- The employee chooses the pension fund (keren pensia, bituach menahalim, or kupat gemel)
+- The employee chooses the fund (keren pensia, bituach menahalim, or kupat gemel)
 - Contributions are calculated on the gross salary up to the maximum insurable salary
-- An employer who fails to make pension contributions violates the law and faces penalties
 
 **Tax benefit on the employee's 6% contribution (Section 45a):**
 - The employee's 6% pension contribution qualifies for a 35% income-tax credit under Section 45a of the Income Tax Ordinance
 - The credit is applied automatically by the payroll system on the pay slip, subject to the annual ceiling (approximately NIS 8,148 in 2026)
-- The credit materially lowers the net cost of the employee's pension deduction. If a pay slip shows the full 6% deducted without a matching credit line, the employee may be entitled to a retroactive correction
-- Contributions above 7% of salary do not receive the credit and become fully taxable
+- A pay slip showing the 6% deduction with no matching credit line may entitle the employee to a retroactive correction. Employee contributions above 7% of salary earn no credit
 
 ### Step 9: Termination Procedures (Halichei Piturim)
 
@@ -250,11 +254,11 @@ Israeli law requires specific procedures before terminating an employee:
 
 | Employment Duration | Notice Period |
 |--------------------|---------------|
-| First 6 months | 1 day per month worked |
-| 6-12 months | 6 days + 2.5 days per month after the 6th |
-| 1+ years | 1 month |
+| First 6 full months | 1 day per month worked |
+| 7 to 11 full months | 6 days + 2.5 days per full month after the 6th |
+| 12 full months and more | 1 month |
 
-This is a summary. For the exact month-by-month figures for both monthly-paid and hourly/daily employees, use the detailed table in `references/entitlements-calculator.md`, which is the authoritative source for notice-period calculations.
+Month-by-month figures, including the separate scale for hourly and daily employees: `references/entitlements-calculator.md`.
 
 **Pre-termination hearing (shima):**
 - The employer must hold a hearing before deciding, after advance written notice stating the reasons under consideration, and must genuinely weigh the employee's answer
@@ -264,65 +268,20 @@ This is a summary. For the exact month-by-month figures for both monthly-paid an
 - Pregnant women with at least 6 months of tenure: cannot be terminated without a permit from the Ministry of Labor (Employment of Women Law s.9(a)). Below 6 months no permit is needed, but a dismissal because of the pregnancy is still unlawful discrimination
 - Employees on sick leave: protected during the first 90 days of accumulated sick leave
 - Employees on the Birth and Parenting Period: protected during leave and for 60 days after
-- Employees on reserve duty (miluim): protected during the service and 30 days after, for call-ups over 2 consecutive days. Swords of Iron long call-ups extend this to 60 days after, for someone who served at least 60 days in the statutory windows. Dismissal inside the window needs Defense Ministry employment-committee approval (and, for days 31 to 60, the Labor Ministry oversight committee). Verify the current rule, the extensions are periodically renewed
+- Employees on reserve duty (miluim): protected during the service and 30 days after (60 after long Swords of Iron call-ups); dismissal in the window needs committee approval. Windows and approvals: israeli-miluim-manager
 - Employees who filed complaints (e.g., sexual harassment, safety): protected from retaliatory dismissal
 
-**Wrongful termination remedies:** reinstatement (hashava la'avoda), compensation for damages, and increased severance pay (up to 150% for particularly egregious termination).
+**Wrongful termination remedies:** reinstatement (hashava la'avoda) or compensation for damages; a collective agreement may add enhanced severance.
 
 For hearing requirements, the remedy where it was defective (damages without proof of damage), limitation periods, and which court to file in, see the termination workflow in the reference file.
 
 ### Step 10: Workplace Harassment (Hatrada Minit)
 
-Per the **Sexual Harassment Prevention Law, 1998 (Chok Meni'at Hatrada Minit)**:
-
-**Employer obligations:**
-- Every employer with more than 25 employees must adopt a written sexual harassment prevention policy (takanon)
-- Appoint a designated officer (memune) to handle complaints
-- Conduct training on harassment prevention
-- Employers with fewer than 25 employees must still comply with the law but are not required to have a written policy
-
-**What constitutes sexual harassment under the law:**
-- Physical conduct of a sexual nature
-- Repeated sexual propositions after the person has shown disinterest
-- Repeated references to a person's sexuality when they have shown disinterest
-- Degrading or humiliating treatment related to gender, sexuality, or sexual orientation
-- Publication of intimate photographs without consent
-
-**Filing a complaint:**
-- Internal complaint to the designated officer (memune) at the workplace
-- External complaint to the police (for criminal aspects)
-- Civil lawsuit in labor court (beit din la'avoda)
-- Complaint to the Equal Employment Opportunities Commission (Netzivut Shivyon Hizdamnuyot Ba'avoda)
-- Routes: the employer's harassment officer, the police, and a compensation claim in the labor court. Ask a lawyer about the filing deadline, which differs by route
-
-**Protections:**
-- The complainant is protected from retaliation (cannot be fired, demoted, or have conditions worsened)
-- The employer must investigate complaints within a reasonable time
-- Failure to act on complaints exposes the employer to liability
-
-**Service orderers.** Duties under this law reach beyond the direct employer to a business that engages workers through a contractor or manpower agency (mazminey sherut), so the site operator is not off the hook for agency staff. This matters for cleaning, security, catering and agency staff, who previously fell between the contractor and the site operator with neither taking responsibility.
+Per the **Sexual Harassment Prevention Law, 1998**: an employer with more than 25 employees must adopt a written prevention policy (takanon), and every employer must appoint a complaints officer (memune), act on complaints within a reasonable time, and not retaliate against a complainant. Routes: the internal officer, the police for criminal aspects, a labour-court claim, or the Equal Employment Opportunities Commission; the filing deadline differs by route. Duties also reach a business that uses contractor or agency staff (mazminey sherut). What counts as harassment and the full complaint path: `references/harassment-and-disability.md`.
 
 ### Step 11: Disability Accommodations
 
-Per the **Equal Rights for People with Disabilities Law, 1998 (Chok Shivyon Zchuyot Le'anashim Im Mugbaluyot)**:
-
-**Employer obligations:**
-- Provide reasonable accommodations (hat'amot) for employees with disabilities
-- Cannot discriminate in hiring, promotion, or termination based on disability
-- Must ensure physical accessibility of the workplace
-
-**Reasonable accommodations include:**
-- Modified work hours or schedules
-- Accessible workstation equipment
-- Work-from-home arrangements when feasible
-- Modified job duties that do not fundamentally change the role
-- Additional break time as needed
-
-**Key rules:**
-- Applies to employers with 25+ employees (some provisions apply to smaller employers)
-- The employer is not required to make accommodations that impose an "undue burden" (natel bilti savir)
-- The employee should notify the employer of the need for accommodations
-- Disputes can be brought before the Equal Employment Opportunities Commission or labor court
+Per the **Equal Rights for People with Disabilities Law, 1998**: the employer must provide reasonable accommodations (modified hours, equipment, remote work where feasible, adjusted duties) unless they impose an undue burden, and may not discriminate in hiring, promotion or dismissal. Disputes go to the Equal Employment Opportunities Commission or the labour court. Detail: `references/harassment-and-disability.md`.
 
 A reservist's partner may have their own paid-absence entitlement under the 29 April 2026 extension order; see the reference file.
 
@@ -337,12 +296,12 @@ Under the Travel-to-Work Extension Order, almost every employee who needs transp
 
 **Pay slip (Tlush Maskoret):**
 
-Under the Wage Protection Law s.24 the employer must give a detailed pay slip for each pay period, no later than the ninth day after payday, itemizing gross pay, every component (base, overtime, convalescence) and every deduction (income tax, national insurance, health tax, pension). It is the employee's primary tool for checking that the entitlements above were actually paid. Failing to provide a proper slip violates the law.
+Under the Wage Protection Law s.24 the employer must give a detailed pay slip for each pay period, no later than the ninth day after payday, itemizing every pay component and deduction. It is the main tool for checking that the entitlements above were paid.
 
 **Post-dismissal and injury paths (Bituach Leumi):**
 
-- **Unemployment benefit (dmei avtala):** after dismissal, an employee who meets the qualifying period may claim unemployment benefit from Bituach Leumi. Register at the Employment Service (Sherut HaTaasuka) and file a claim with Bituach Leumi
-- **Work-injury benefit (nifgaei avoda):** an employee injured at work or on the way to/from work, or who develops an occupational illness, may claim a work-injury benefit (including injury allowance and, if relevant, a disability pension) from Bituach Leumi
+- **Unemployment benefit (dmei avtala):** register at the Employment Service, then claim from Bituach Leumi; timing matters (reference file)
+- **Work-injury benefit (nifgaei avoda):** an injury at work or on the commute, or an occupational illness, is claimed from Bituach Leumi
 
 ## Examples
 
@@ -350,7 +309,7 @@ Under the Wage Protection Law s.24 the employer must give a detailed pay slip fo
 
 User says: "I've worked at my company for 6 years. How many vacation days am I entitled to?"
 
-From the Step 2 table: year 6 = 18 gross calendar days = 14 net working days on a 5-day week. Quote the net figure, since that is what they schedule off. Check for a collective agreement giving more, and cover carry-forward (normally needs employer consent, except in the reference file's emergency and reserve-duty cases).
+From the Step 2 table, year 6 is 18 gross days: 16 days off on a 6-day week, and on a 5-day week 17 days where the shortened-week extension order applies (most workplaces) or 14 where it does not. Ask which applies and quote the days they can actually take off. Check for a collective agreement giving more, and cover carry-forward (normally needs employer consent, except in the reference file's emergency and reserve-duty cases).
 
 ### Example 2: Severance Pay After Termination
 
@@ -358,11 +317,11 @@ User says: "I was fired after 3 years and 4 months. My last salary was 15,000 NI
 
 Actions:
 1. Run `python3 scripts/severance-calculator.py --salary 15000 --years 3 --months 4`
-2. Ask to SEE the signed Section 14 arrangement and check the deposit rate on the pay slip: at the 6% minimum the fund covers only about 72% of the statutory figure, so a completion payment is owed
+2. Check the deposit rate on the pay slip (Section 14 covers the 6% mandatory deposit automatically; the completion to 8.33% needs the employer's written notice to the fund): at the 6% minimum the fund covers only about 72% of the statutory figure, so a completion payment is owed
 3. Advise on the 15-day deadline and penalty interest, and on the 60-day limitation that kills the penalty claim
 4. Verify a hearing (shima) was held before termination
 
-Result: approximately NIS 50,000 (15,000 x 3.33). A full Section 14 arrangement replaces this with the fund balance. Full termination workflow in `references/entitlements-calculator.md`.
+Result: approximately NIS 50,000 (15,000 x 3.33). A full 8.33% Section 14 arrangement replaces this with the fund balance; at 6% the employer adds about NIS 14,000 (28%) on top of the fund, whatever its returns. Full termination workflow in `references/entitlements-calculator.md`.
 
 ### Example 3: Sick Leave Rights
 
@@ -384,12 +343,13 @@ Two separate breaches. The employer must hold a shimua BEFORE deciding, and comp
 ### References
 - `references/labor-laws-summary.md` -- Key Israeli labour laws with names, years and provisions. Use to identify which law applies.
 - `references/entitlements-calculator.md` -- Seniority tables for vacation, sick and convalescence pay, plus the termination workflow: Section 14 validity, Form 161, proportional havraa, pay in lieu of notice, unemployment timing, the hearing remedy, limitation periods, where to file. Read it on any dismissal question.
+- `references/harassment-and-disability.md` -- Sexual-harassment definitions and complaint routes, and disability-accommodation detail.
 
 ## Gotchas
 
 - Israeli sick pay is graduated: 0% day 1, 50% days 2-3, 100% from day 4. Agents trained on US or European norms assume 0% or 100% throughout and get this wrong.
 - The work week is 42 hours (since April 2018). Older training data says 43 or 45, which corrupts every overtime calculation.
-- Vacation days are counted in calendar days on a 6-day basis. Converting to a 5-day week uses the statutory gross-to-net mapping in Step 2 (18 gross = 14 net in year 6), NOT a 5/6 multiplier.
+- Vacation days in the statute are GROSS (they include rest days). Never quote the gross figure as days off, and never use a 5/6 multiplier: read the work-week column in Step 2, and for a 5-day week check the extension order, which gives up to 23 days where the statute gives 17 to 20.
 - Severance is due within 15 days of termination, after which penalty interest accrues automatically. Do not cite a 30-day or "reasonable time" standard from another jurisdiction.
 - The pre-termination hearing (shimua) is mandatory and has no US at-will equivalent. Omitting it can render a dismissal unlawful regardless of the grounds.
 
@@ -398,7 +358,7 @@ Two separate breaches. The employer must hold a shimua BEFORE deciding, and comp
 
 - **The halana penalty EXPIRES**: 60 days from receiving the late payment (court may extend to 90), or one year from the sum falling due, whichever is earlier. Telling an employee to demand it without the deadline is worse than silence, because negotiating past it forfeits the claim.
 - **Do not let the employee sign a general waiver (kitav vitur) to get their money.** An employer may not condition severance on one, and signing extinguishes every other right here. Take it away, read it, do not sign at the meeting.
-- Vacation redemption is capped: accrual is limited to the current year plus the two preceding, with a 3-year limitation. But check the pay slip, since days the employer's own record shows may still be redeemable.
+- Vacation redemption is capped: on termination the employee redeems the unused days of the final year plus the 3 preceding calendar years. But check the pay slip, since days the employer's own record shows may still be redeemable beyond that.
 
 ## Reference Links
 

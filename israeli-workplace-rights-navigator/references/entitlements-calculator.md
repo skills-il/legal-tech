@@ -4,30 +4,30 @@ Quick-reference tables for calculating employee entitlements based on years of e
 
 ## Vacation Days (Annual Leave Law, 1951)
 
-The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. In a 5-day workplace, the statutory "net" column reflects actual working days of absence (Fridays and Saturdays are excluded because they are weekly rest).
+The Annual Leave Law states GROSS days, which include the weekly rest days. The days of actual absence depend on the work week: so read the work-week column below; do not convert with a ratio. Most 5-day workplaces are also covered by the extension order on the move to a shortened work week (צו ההרחבה בדבר מעבר לשבוע עבודה מקוצר), which states NET days; where the statute and the order differ, the higher number applies.
 
-| Years of Employment | Gross Days (6-day calendar) | Net Working Days (5-day week) |
-|---------------------|-----------------------------|-------------------------------|
-| 1 | 16 | 12 |
-| 2 | 16 | 12 |
-| 3 | 16 | 12 |
-| 4 | 16 | 12 |
-| 5 | 16 | 12 |
-| 6 | 18 | 14 |
-| 7 | 21 | 15 |
-| 8 | 22 | 16 |
-| 9 | 23 | 17 |
-| 10 | 24 | 18 |
-| 11 | 25 | 19 |
-| 12 | 26 | 20 |
-| 13 | 27 | 20 |
-| 14+ | 28 | 20 |
+| Years (calendar years) | Gross (statute) | 6-day week: days of absence | 5-day week, statute only | 5-day week, extension order |
+|------------------------|-----------------|-----------------------------|--------------------------|-----------------------------|
+| 1-5 | 16 | 14 | 12 | 12 |
+| 6 | 18 | 16 | 14 | 17 |
+| 7 | 21 | 18 | 15 | 17 |
+| 8 | 22 | 19 | 16 | 17 |
+| 9 | 23 | 20 | 17 | 23 |
+| 10 | 24 | 21 | 18 | 23 |
+| 11 | 25 | 22 | 19 | 23 |
+| 12 | 26 | 23 | 20 | 23 |
+| 13 | 27 | 24 | 20 | 23 |
+| 14+ | 28 | 24 | 20 | 23 |
 
 **Notes:**
-- The "5/6 multiplier" commonly quoted online is a rough approximation; use the statutory table above for accuracy.
-- Part-time employees: proportional to work days actually performed in the year (not to the headline position percentage).
+- Who the extension order does NOT cover: domestic work, a workplace with fewer than 4 employees, government and municipal companies, employers whose move to a 5-day week was settled by a collective agreement, and employers the order's supervisory committee exempted. They use the statute-only column.
+- Seniority runs by calendar year (1 January to 31 December, Annual Leave Law s.1). An employee who started in October 2011 had 1 year of seniority in 2011 and 2 in 2012, although the first year's quota is pro-rated to the days actually worked.
+- A full-year employee who worked at least 200 days (paid sick days count) gets the full quota. Below 200 days: gross days x days worked / 200, rounded down, then converted to days of absence. A partial-year employee (joined or left mid-year) needs 240 days for the full quota; below that, gross x days / 240, rounded down.
+- Accrual is identical for full-day and partial-day work, so do NOT scale the quota by a part-time percentage for someone who works short days on every working day.
+- Working youth (under 18): 18 calendar days a year regardless of seniority, which is 14 or 16 days of actual absence depending on the work week.
+- The "5/6 multiplier" commonly quoted online is wrong; use the table.
 - Accumulation: unused days can carry forward with employer consent to the following two years; collective agreements may extend this.
-- Payout on termination: unused accumulated days must be paid (pidyon chufsha), SUBJECT TO the accrual cap (current year plus the two preceding) and the 3-year limitation on an Annual Leave Law claim, so do not simply sum every day ever accrued. Important carve-out: where the pay slip itself shows a larger accrued balance, the employee may be able to redeem those days at termination even beyond the limitation period, because the employer's own record acknowledges the debt. Check the pay slip before writing days off.
+- Payout on termination: unused accumulated days must be paid (pidyon chufsha) for the final year of work and the 3 calendar years preceding it, so do not simply sum every day ever accrued. Important carve-out: where the pay slip itself shows a larger accrued balance, the employee may be able to redeem those days at termination even beyond the limitation period, because the employer's own record acknowledges the debt. Check the pay slip before writing days off.
 - Source: kolzchut.org.il, Annual Leave Law 1951 and the 2016 amendment.
 
 ## Sick Days (Sick Pay Law, 1976)
@@ -60,7 +60,7 @@ The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. 
 | Child with a serious illness or a permanent disability | 18 days |
 | Child with a malignant illness or on dialysis, where the other parent also takes leave | up to 90 days EACH (not a shared pool) |
 | Child with a malignant illness or on dialysis, where the other parent did NOT take leave (needs 1 year tenure, child under 18) | up to 110 days |
-| Single parent (sole custody), child under 16 | 16 days |
+| Single parent (horeh atzmai under the Single-Parent Families Law), child under 16 | up to 16 days (8 more) |
 
 **The quota is per PARENT, not per child.** A parent of five children has the same 8 days as a parent
 of one, and the quota does not scale with part-time hours. The second parent has a quota only where they also work AND did not take leave
@@ -107,23 +107,27 @@ OR vacation days at the employee's choice, and does not require the employer's c
 
 **2026 increase, now in force:** the extension order published on 18 August 2026 raised the private-sector rate from NIS 418 to NIS 451.5 for havra'a year 2026 (1.7.2025 to 30.6.2026). An employer who already paid at NIS 418 owes NIS 33.50 for each havra'a day. The applicable rate follows the havra'a year, not the payment date.
 
-**Reservist-support deduction (2025-2026):** For each employee, the employer must deduct one day's worth of convalescence pay from the annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist benefits. This applies as long as the temporary order remains in force.
+**Reservist-support deduction (2024 and 2025 only):** the Freeze and Reduction of Convalescence Pay Law for 2025 (published 27.3.2025, following a 2024 law) required the employer to deduct one convalescence day from the havra'a paid in 2025 and pass it to the assessing officer as if it were tax withheld, to fund reservist benefits. It did not apply to a domestic worker employed by an individual outside a business. No equivalent law for 2026 was found as of October 2026; do not deduct a day from 2026 havra'a without a source.
+
+**Tax and social treatment:** convalescence pay is subject to income tax, national insurance and health tax, but it is not part of the wage for pension deposits or for computing severance.
+
+**Public sector:** the daily rate is NIS 511.6 (from 1.6.2026), and public-sector employees are entitled to MORE days than the private-sector table above, by grade and profession (Takshir chapter 28.2 for state employees). The private table is only a floor for them.
 
 **Note:** The daily rate is updated by extension order. Public sector employees receive a higher rate (NIS 511.6 in 2026) per collective agreement. Check the Ministry of Economy website for the current rate.
 
 ### Calculation Example
 
-Employee with 5 years of seniority (2026 rate, before reservist-support deduction):
+Private-sector employee with 5 years of seniority (havra'a year 2026 rate):
 ```
 Convalescence pay = 7 days x NIS 451.5 = NIS 3,160.50
-After 1-day deduction: (7 - 1) x NIS 451.5 = NIS 2,709
 ```
 
 Part-time employee (50% position) with 5 years:
 ```
 Convalescence pay = 7 days x NIS 451.5 x 50% = NIS 1,580.25
-After proportional 1-day deduction: (7 - 1) x NIS 451.5 x 50% = NIS 1,354.50
 ```
+
+For havra'a paid during 2025, the 2025 law reduced the payment by one day's value (see above).
 
 ## Travel Reimbursement (Dmei Nesia, Travel-to-Work Extension Order)
 
@@ -186,6 +190,22 @@ Overtime premiums sit in s.16 and the weekly-rest-day premium in s.17. On a rest
 - Where an agreement, contract or established practice gives a higher rate than the statute, the more favourable term applies.
 - Source: kolzchut.org.il "גמול עבור העסקה במנוחה השבועית"; Hours of Work and Rest Law s.17.
 
+### Holiday work vs holiday pay (two different rights)
+
+- **Working on a holiday (chag):** a monthly employee gets an addition of 50% of the daily wage for each holiday worked, on top of the monthly salary; an hourly employee gets 150% for each hour; a daily employee 150% of the daily wage. Every employee who worked the holiday also gets a substitute rest day (paid for a monthly employee, unpaid for hourly and daily). An hourly or daily employee made to work the holiday against their will ("mitoch kofach") also gets holiday pay, 250% in total; the employer bears the burden of showing the work was voluntary. Security, hotels, event halls, manpower-agency and foreign care workers have their own terms.
+- **Holiday pay (dmei chagim) for NOT working:** an hourly, daily or piece-rate employee is paid for a holiday they did not work if they have completed 3 months, would otherwise have worked that day, and worked (or were absent with consent) on the day before and after. It does not depend on job scope, cannot be waived, and does not apply to a holiday falling on a Saturday, or on a Friday in a 5-day workplace. The accepted measure is an ordinary day's pay without travel. A monthly employee instead keeps full salary for up to 9 holiday days, not charged to vacation.
+- Source: kolzchut.org.il "תשלום על עבודה בימי חג", "דמי חגים".
+
+### Global overtime (gmul globali)
+
+A fixed monthly overtime payment in place of an hour-by-hour calculation is recognised only if: the employee clearly agreed to it and to the average hours it covers; it is genuine (paid for overtime actually worked, not unconditionally); it reflects the statutory rates and no more hours than the law allows (at least 125% of the base or minimum wage); it matches the average overtime actually worked; and the pay slip shows it separately from base pay. A "global" sum paid whether or not overtime is worked is a fiction: it counts as base pay for pension and other provisions. Hours worked beyond what the global payment covers are still owed. The employee's wage per hour actually worked must not fall below the minimum wage.
+- Source: kolzchut.org.il "גמול גלובלי עבור עבודה בשעות נוספות, שבת וחג".
+
+### Working youth on the weekly rest day
+
+A youth's weekly rest is at least 36 consecutive hours, and employing a youth during it is prohibited outright; no permit can be obtained, unlike for adults. An employer who employed a youth then anyway must still pay the overtime premium for those hours, so the illegality never reduces the pay owed.
+- Source: kolzchut.org.il "מנוחה שבועית לנוער עובד".
+
 ## Notice Period (Prior Notice Law, 2001)
 
 ### Monthly Salaried Employees
@@ -203,17 +223,18 @@ Overtime premiums sit in s.16 and the weekly-rest-day premium in s.17. On a rest
 | 9 months | 13.5 days |
 | 10 months | 16 days |
 | 11 months | 18.5 days |
-| 12 months | 21 days |
-| 1 year+ | 1 full month |
+| 12 full months and more | 1 full month |
 
 ### Hourly/Daily Employees
 
 | Employment Duration | Notice Period |
 |--------------------|---------------|
-| First year | 1 day per month worked |
-| Second year | 14 days + 1 day per 2 months in year 2 |
-| Third year | 21 days + 1 day per 2 months in year 3 |
-| 3 years+ | 1 full month |
+| First year (0 to 11 full months) | 1 day per month worked |
+| Second year (12 to 23 full months) | 14 days + 1 day per 2 full months in year 2 |
+| Third year (24 to 35 full months) | 21 days + 1 day per 2 full months in year 3 |
+| 36 full months and more | 1 full month |
+
+Count FULL months completed when notice is given: someone who has completed 12 months is already past the first year.
 
 ## Severance Pay (Severance Pay Law, 1963)
 
@@ -253,9 +274,8 @@ The 13,750 figure is updated annually, verify the current ceiling. Severance abo
 
 When Section 14 applies (most common arrangement):
 - Employer contributes to a pension/provident fund as severance: 6% is the extension-order minimum, 8.33% is the rate that fully funds the statutory severance and is required for a full Section 14 release
-- Upon termination, the employee receives the **accumulated fund balance** (not the formula calculation)
-- The fund balance may be higher or lower than the formula calculation depending on investment returns
-- Employee retains the right to any difference if the fund balance is lower than the statutory amount (only if the employer did not fully comply with Section 14)
+- Upon termination, the employee receives the **accumulated fund balance**, which may be higher or lower than the formula depending on investment returns
+- Only a full 8.33% deposit with Section 14 applied to all of it makes the fund balance the whole entitlement. Otherwise the Section 14 money replaces only the proportional part (deposit rate / 8.33%), and the employer pays the rest of the statutory figure: about 28% at the 6% minimum. Fund returns belong to the employee and do not offset that completion, so a fund that grew past the formula does NOT mean nothing is owed
 
 ## Pension Contributions (Mandatory Since 2008)
 
@@ -268,8 +288,8 @@ When Section 14 applies (most common arrangement):
 | **Total with a full Section 14 arrangement** | **6.0%** | **14.83%** | **20.83%** |
 
 If the employer deposits only the 6% minimum, the accumulated severance component covers roughly 72%
-of the statutory one-month-per-year, and the employee is owed a completion payment (hashlamat pitzuyim)
-for the difference. Read the actual rate off the pay slip before assuming the fund balance is the whole
+of the statutory one-month-per-year, and the employer owes a completion payment (hashlamat pitzuyim)
+of the remaining ~28% of statutory severance, not offset by fund returns. Read the actual rate off the pay slip before assuming the fund balance is the whole
 entitlement.
 
 **Eligibility timeline:**
@@ -288,7 +308,7 @@ The employee's 6% pension contribution qualifies for a 35% income-tax credit und
 | Annual ceiling on pension contributions eligible for the credit | approx. NIS 8,148 |
 | Where it appears | Pay slip (tlush maskoret) and Form 106 |
 
-Contributions above 7% of salary, or above the annual ceiling, do not receive the credit and remain fully taxable.
+Employee contributions above 7% of salary, or above the annual ceiling, earn no credit.
 
 Source: [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני)
 
@@ -307,11 +327,13 @@ Source: [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/זיכוי_מ�
 ## Termination: getting the money out (the steps the entitlement tables do not cover)
 
 ### 1. Is the Section 14 arrangement actually valid?
-This is the highest-value binary question at dismissal. Section 14 requires a SIGNED written arrangement
-conforming to the General Approval, usually in the contract or a separate annex. Ask to see it.
-- Valid and full: the employee receives the fund balance and the employer owes nothing further.
-- Absent, partial, or funded below the full 1/12: the employee receives the fund balance PLUS a
-  completion payment (hashlamat pitzuyim) up to the statutory one-month-per-year.
+This is the highest-value question at dismissal. Section 14 applies AUTOMATICALLY to the 6% severance
+deposit the mandatory pension extension order requires. A completion to 8.33% is covered only if the
+employer gave the fund written notice, with a copy to the employee, applying Section 14 to it.
+- Full 8.33% from day one on the whole salary, with Section 14 applied to all of it: the fund balance is
+  the whole entitlement and the employer owes nothing further.
+- Any other case: the Section 14 money replaces only the PROPORTIONAL part of severance (deposit rate /
+  8.33%), and the employer pays the rest. Fund returns belong to the employee and do not offset that rest.
 Deposits at the 6% extension-order minimum cover roughly 72% of statutory severance, so the completion
 claim is the normal case, not the exception.
 
@@ -319,9 +341,7 @@ claim is the normal case, not the exception.
 The money usually sits in a pension or provident fund, not with the employer, so the entitlement alone
 does not produce a payment. The chain: the employer completes PART A of the unified Form 161 (notice of
 cessation of employment) and notifies the fund of the status of the severance monies; the employee then
-completes PART B of the same form. Withdrawal generally also needs an employer release letter. Note the
-older process used a separate Form 161A for the employee's part; if a source or an employer refers to
-161A, it is describing the pre-unification procedure. The employee then elects between withdrawing under the exemption, retzef
+completes PART B of the same form. Withdrawal generally also needs an employer release letter.  The employee then elects between withdrawing under the exemption, retzef
 kitzba (pension continuity) and retzef pitzuyim (severance continuity). That election is effectively
 irreversible and shapes lifetime tax, so flag it as a decision to take advice on rather than a form to
 tick.
