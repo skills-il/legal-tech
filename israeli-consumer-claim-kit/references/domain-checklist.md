@@ -1,6 +1,6 @@
 # Domain checklist: israeli-consumer-claim-kit
 
-Research date: 2026-10-07. Primary text: the consolidated Consumer Protection Law 1981 on Hebrew Wikisource (bot-maintained from the Knesset National Legislation Database, last revision 2026-09-30 "כניסה לתוקף"), the two sets of regulations on Wikisource, and the Knesset Reshumot PDF for the 2024 aggravated-violator law. Kol Zchut, gov.il and consumers.org.il were read through a real browser (they return 403 to curl because of Cloudflare, but load with HTTP 200 in a browser). Every number below has a verbatim snippet in `evidence.json` unless marked UNVERIFIED.
+Research date: 2026-10-07, re-checked 2026-10-29 (Wikisource revision of 2026-10-29; no amendment to the encoded rules found). Primary text: the consolidated Consumer Protection Law 1981 on Hebrew Wikisource (bot-maintained from the Knesset National Legislation Database, last revision 2026-09-30 "כניסה לתוקף"), the two sets of regulations on Wikisource, and the Knesset Reshumot PDF for the 2024 aggravated-violator law. Kol Zchut, gov.il and consumers.org.il were read through a real browser (they return 403 to curl because of Cloudflare, but load with HTTP 200 in a browser). Every number below has a verbatim snippet in `evidence.json` unless marked UNVERIFIED.
 
 Abbreviations: CPL = חוק הגנת הצרכן, התשמ"א-1981. Cancellation Regs = תקנות הגנת הצרכן (ביטול עסקה), התשע"א-2010. Warranty Regs = תקנות הגנת הצרכן (אחריות ושירות לאחר מכירה), התשס"ו-2006.
 
@@ -60,7 +60,7 @@ Abbreviations: CPL = חוק הגנת הצרכן, התשמ"א-1981. Cancellation 
 ### E. Complaint channels and court
 - [ ] Consumer Protection and Fair Trade Authority | online public-inquiries form, ; information is used for investigation, supervision and enforcement; it is an enforcement body and does not obtain individual compensation (Kol Zchut describes it as an independent enforcement arm) | source: https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority | why core: set expectations.
 - [ ] Israel Consumer Council (statutory consumer organisation) | complaint lobby with online, accessible and Word forms; handles a complaint only after the consumer approached the business in writing | source: https://www.consumers.org.il/category/complaint-form ; https://www.kolzchut.org.il/he/פנייה_למועצה_הישראלית_לצרכנות | why core: a second reason to send a written demand first.
-- [ ] Small claims | ceiling NIS 30,000 base indexed, NIS 39,900 in 2026 (Courts Law s.60(1) annotation; Kol Zchut: "נכון לינואר 2026"); individuals only (not companies); no lawyer as a rule | source: https://he.wikisource.org/wiki/חוק_בתי_המשפט ; https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה | why core: escalation path in every letter.
+- [ ] Small claims | ceiling NIS 30,000 base indexed, NIS 39,900 in 2026 (Courts Law s.60(1) annotation; Kol Zchut: "נכון לינואר 2026"); individuals only (not companies); the filing itself is handed off to israeli-small-claims-court | source: https://he.wikisource.org/wiki/חוק_בתי_המשפט ; https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה | why core: escalation path in every letter.
 - [ ] Pre-suit demand letter | no general legal requirement for a demand letter before a small-claims suit (no such rule found); BUT (1) s.31א(ב) requires a prior written request for exemplary damages, (2) the Consumer Council requires a prior written approach, (3) cancellations must be notified via a s.14ט channel | why core: frames the letter as both evidence and statutory precondition.
 
 ## Should cover (advanced / edge cases)
@@ -69,17 +69,34 @@ Abbreviations: CPL = חוק הגנת הצרכן, התשמ"א-1981. Cancellation 
 - [ ] Foreign-travel services sold at a distance (s.14ג2) | dealer may offer the foreign provider's cancellation policy instead of the statutory right, with prior disclosure; burden of proof on dealer | source: s.14ג2 | why.
 - [ ] Continuing medical-services deals (ss.13ה to 13ז) | 30-day cancellation without fee per Kol Zchut | why: elder-care users.
 - [ ] Overcharge in continuing deals (s.13ד1) | refund within 4 business days plus interest plus a fixed costs payment | source: s.13ד1 | why. (Not in evidence.json.)
-- [ ] Telecom-specific lateness rules | the CPL rule already covers telecom where service depends on equipment at the consumer (s.18א(ג)(1)(ב)). A separate Communications Law technician regime was NOT researched or verified; treat as UNVERIFIED.
+- [x] Telecom-specific lateness rules | the CPL rule already covers telecom where service depends on equipment at the consumer (s.18א(ג)(1)(ב)). The Communications Law text has no technician-lateness provision (checked 2026-10-29); licence terms were not read.
 - [ ] Insurance-company home services | Kol Zchut says the technician law does not apply to services on behalf of insurers; not located in statute text (medium).
 - [ ] Credit-card transaction cancellation mechanics | Cancellation Regs reg.4 (card company credits the consumer when it can recover from the dealer); timeshare deals have a 30-day issuer hold (CPL s.14ב). A general chargeback right under the Debit Cards Law was NOT researched.
 - [ ] Administrative fines | per Kol Zchut, refusing an in-store cancellation exposes the dealer to NIS 25,350 (corporation) / 8,065 (individual) as of 2025; the s.22ג schedule amounts are CPI-updated every 1 January (s.22ט(ב)), so treat the figure as year-specific.
 
-## Follow-up for the next update (raised by the 2026-10-07 expert review, not yet evidenced)
-- Ministry of Communications public-complaints unit as an escalation route for telecom licensees (no primary reference recorded yet).
-- Sale Law route for defects in goods outside the Warranty Regulations.
-- Limitation periods.
-- Warranty extras: furniture mechanisms, extended-warranty withdrawal, parallel importers, warranty certificate duties.
-- Minors and the Legal Capacity Law.
+## Follow-up items from the 2026-10-07 review, resolved 2026-10-29
+- [x] Ministry of Communications public-complaints unit | COVERED in Step 5 table. gov.il guide page https://www.gov.il/he/pages/subjects (read in a browser 2026-10-29): online public-inquiries form, email pnyot@moc.gov.il, fax, post; the Ministry forwards the complaint to the company and asks for the written approach and the company's answer to be attached. There is no separate gov.il service page for it. Telecom exit fees (Communications Law s.51א(ב), s.51ד(ב)) COVERED in Track B money rules. No separate technician-lateness regime appears in the Communications Law text (grep for the technician provisions found none); licence-level service terms were not read and stay unverified.
+- [x] Sale Law route for defects outside the Warranty Regulations | COVERED in Track C. Sale Law 1968 s.14 (notice "מיד"), s.15 (hidden defect: rescission barred after 2 years from delivery, other remedies after 4), s.16 (concealment lifts both), s.17 (reasonable detail). Remedy amounts (Contracts (Remedies) Law, s.28 price reduction) stay out of scope: court-determined.
+- [x] Limitation | COVERED in Step 5: Prescription Law 1958 s.5(1), seven years for a non-land claim, running from the cause of action (s.6). The statutory cancellation windows and the Sale Law notice rule are shorter and are the deadlines that bite. No separate limitation for s.18א compensation was found.
+- [x] Warranty extras | COVERED in Track C "Common objections": importer = manufacturer (reg.18; no parallel-import exception found in the regulations, Free Import Order not read), warranty sticker in place of the certificate (CPL s.18א(א1)(2)), transfer to a new owner (reg.17), withdrawal from a long-term service sold with the goods until the warranty period ends (reg.16(ב)). Furniture mechanisms were already covered (reg.1). Whether an extended warranty is also a s.13ד continuing transaction is interpretation and is NOT asserted.
+- [x] Minors and the Legal Capacity Law | COVERED in Track D: s.5 (parent cancels within one month of learning), s.6 (age-typical deals and an innocent seller, unless real harm), s.6א (credit or instalment purchase has no validity without consent). CPL s.3 does not mention minors; minors appear only in Chapter E2 (s.22כז) and s.7א, so the skill does not cite s.3 for them.
+
+## Added in the 2026-10-29 update (aggregator sweep of Kol Zchut's consumer category)
+- [x] In-store courses and domestic lodging/travel/leisure | Cancellation Regs reg.2(3), schedule items 8-9: 14 days from the agreement and at least 14 non-rest days before the service.
+- [x] Seller insolvency before delivery | Payment Services Law s.18: the issuer stops transfers once it learns of the application; refund no later than 8 business days after the order.
+- [x] Door-to-door caveat | CPL s.14(ב1): the dealer may still sue for significant deterioration; s.14(ג) perishables.
+- [x] In-store proof | reg.3(א) accepts "הוכחה אחרת" besides an invoice, till slip or exchange note.
+- [x] Services in door-to-door and distance cancellations (raised by the 2026-10-29 arithmetic review) | s.14(א)(2): door-to-door service runs from the deal or the details; a one-off service only before it starts; s.14(ב)(1) and s.14ה(ב1): proportional price for a started continuing service. Added to Step 2 and to the script (`--subject`, `--started`).
+- [x] s.32 scope (raised by the 2026-10-29 judge and expert) | covers material deception (s.2) and every s.3(ב) limb; clock from when the consumer LEARNED; consumer returns the goods where delivered (s.32(ב)).
+- [x] Sale Law notice clock and remedies (raised by the 2026-10-29 expert) | s.14(א) earlier of on-receipt inspection or discovery; s.16 "ידע או היה עליו לדעת"; Remedies Law s.7(ב) extension before cancelling for a non-fundamental breach; template defaults to repair or replace.
+## Follow-up for the next update (arithmetic review 2026-10-29, not blocking)
+- [ ] Deadline roll-forward: a last day on Shabbat or a holiday moves to the next working day (Interpretation Law s.10(ג)); the script prints the raw date.
+- [ ] Coordinated time given as a range: no `--range-end` input; SKILL.md says count from the end of the range.
+- [ ] No-show line states NIS 600 even when run before five hours have passed.
+- [ ] Defect ordering for listed in-store goods: fixed in 1.1.0 (Sale Law note first, reg.2(1) lines suppressed); re-check on the next cycle.
+- [ ] A started one-off service with `--reason defect`: add a line that a defective service is a contract-breach claim.
+- [ ] Distance deal by a vulnerable buyer without `--conversation`: say why there is no 4-month right.
+- [ ] Future: CPL s.16ד call-recording duty (Amendment 74), in force from 22.3.2027 per the Wikisource tag. From then a letter about a deal made in a marketing call can demand the recording within 10 business days. Not current law on 2026-10-29; add on the first update after that date.
 
 ## Out of scope (explicit, with rationale)
 - Drafting court pleadings, filing on the user's behalf, or predicting outcomes | the skill drafts letters/complaints the user signs; litigation strategy is legal advice reserved to advocates (Chamber of Advocates Law), and must be framed as information only.
@@ -113,7 +130,7 @@ Abbreviations: CPL = חוק הגנת הצרכן, התשמ"א-1981. Cancellation 
 
 ## Could not verify
 - Exact commencement date of the current wording of s.18א(ג)-(ד) and whether earlier wording governs older events (not extracted).
-- Any separate telecom technician regime under the Communications Law.
+- Telecom licence-level service terms (the Communications Law text itself has no technician-lateness provision).
 - Whether any order postponed the aggravated-violator law's commencement (none listed; medium).
 - Kol Zchut's statement that insurer home services are excluded from the technician law (no statutory text located).
 - Note on `evidence.json`: several raw_snippets are verbatim statute text and therefore contain the statute's own en dash character; they were not edited to keep them verbatim.

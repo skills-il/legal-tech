@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-consumer-claim-kit",
   "schemaVersion": "1.0",
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-29T18:00:00Z",
   "claims": [
     {
       "id": "tech-window-2h",
@@ -93,7 +93,7 @@
       "raw_snippet": "החוק אינו חל על שירותים הניתנים במענו של הצרכן מטעם חברות ביטוח.",
       "confidence": "medium",
       "verified_via": "browser",
-      "verified_at": "2026-10-07"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "dist-14-days-goods",
@@ -410,7 +410,7 @@
       "raw_snippet": "תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
       "confidence": "high",
       "verified_via": "browser",
-      "verified_at": "2026-10-07"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "cpa-complaint-url",
@@ -439,7 +439,7 @@
       "raw_snippet": "הרשות להגנת הצרכן ולסחר הוגן היא זרוע אכיפה עצמאית",
       "confidence": "medium",
       "verified_via": "browser",
-      "verified_at": "2026-10-07"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "council-complaint-url",
@@ -459,7 +459,7 @@
       "raw_snippet": "המועצה הישראלית לצרכנות תטפל בתלונות שיוגשו אליה רק לאחר שנעשתה פנייה בכתב מצד הצרכן לבית העסק.",
       "confidence": "medium",
       "verified_via": "browser",
-      "verified_at": "2026-10-07"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "aggravated-chapter",
@@ -506,7 +506,7 @@
       "raw_snippet": "אפשר להגיש לבית המשפט תביעה לקבלת ההחזר ובנוסף לתבוע פיצוי כספי בסכום של עד 10,000 ₪.",
       "confidence": "high",
       "verified_via": "browser",
-      "verified_at": "2026-10-07"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "kz-instore-fine-2025",
@@ -517,7 +517,7 @@
       "raw_snippet": "עיצום כספי בגובה 25,350 ₪ אם העסק הוא תאגיד או 8,065 ₪ אם העסק אינו תאגיד (נכון לשנת 2025)",
       "confidence": "medium",
       "verified_via": "browser",
-      "verified_at": "2026-10-07"
+      "verified_at": "2026-10-29"
     },
     {
       "id": "returnpolicy-7-days",
@@ -814,6 +814,327 @@
       "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
       "source_fetched_at": "2026-10-07T15:00:00Z",
       "raw_snippet": "בתוך 14 ימים מיום עשיית העסקה ועד יומיים, שאינם ימי מנוחה, קודם למועד תחילת השירות",
+      "confidence": "high"
+    },
+    {
+      "id": "comm-51a-cell-exit-fee",
+      "claim": "Communications Law s.51A(b): a cellular operator may not charge a subscriber who cancels, or withhold a benefit; only remaining end-equipment instalments and accrued debts (סעיף 51א)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_(%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D)",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "ביטל מנוי של מפעיל רט״ן את הסכם ההתקשרות עמו, לא יגבה ממנו מפעיל הרט״ן תשלום, ולא ימנע ממנו הטבה שהיה מקבל אלמלא הביטול; על אף האמור, מפעיל רט״ן רשאי לגבות את יתרת תשלומי המנוי בעבור ציוד הקצה כאמור בסעיף 51ב, וחובות שצבר המנוי;",
+      "confidence": "high"
+    },
+    {
+      "id": "comm-51d-other-exit-fee",
+      "claim": "Communications Law s.51D(b): same rule for licensed providers (internet, landline, broadcasting) and bundled deals (סעיף 51ד)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_(%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D)",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "ביטל מנוי את הסכם ההתקשרות, לא יגבה ממנו ספק מורשה או ממפעיל רט״ן, לפי העניין, תשלום, ולא ימנע ממנו הטבה שהיה מקבל אלמלא הביטול; על אף האמור, ספק מורשה או מפעיל רט״ן כאמור רשאי לגבות את יתרת תשלומי המנוי בעבור ציוד הקצה כאמור בסעיף 51ה, וחובות שצבר המנוי.",
+      "confidence": "high"
+    },
+    {
+      "id": "comm-51d-subscriber-5000",
+      "claim": "Communications Law s.51D(a): 'subscriber' = average monthly bill under NIS 5,000; licensed provider includes a broadcasting licensee (סעיף 51ד)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_(%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D)",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "(1) מי שהתקשר בהסכם התקשרות עם ספק מורשה, וממוצע החשבונות החודשיים שלו נמוך מ־5,000 שקלים חדשים;",
+      "confidence": "high"
+    },
+    {
+      "id": "pay-s18-insolvency-8-days",
+      "claim": "Payment Services Law s.18(b) (סעיף 18): after the order, except a rehabilitation order, the provider refunds within eight business days the amounts charged during the stop period",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "ניתן לגבי המוטב צו כאמור בסעיף קטן (א) למעט צו לפתיחת הליכים המורה על הפעלת מוטב שהוא תאגיד לשם שיקומו הכלכלי, נותן שירותי התשלום למשלם, ישיב למשלם, בהקדם האפשרי אך לא יאוחר משמונה ימי עסקים מיום מתן הצו, את הכספים שחויב בהם המשלם במסגרת אותה פעולת תשלום מובטחת במהלך תקופת הפסקת הזיכוי",
+      "confidence": "high"
+    },
+    {
+      "id": "pay-s18-stop-transfers",
+      "claim": "Payment Services Law s.18(a) (סעיף 18): goods with non-immediate supply paid by a guaranteed payment; once an insolvency/receivership/liquidation application is published or served, the provider stops transferring from when it learned of it until the decision",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "נעשתה עסקת יסוד בין משלם למוטב המספק נכסים באספקה שאינה מיידית, ובשלה נתן המשלם הוראת תשלום לביצוע פעולת תשלום מובטחת, והובא לידיעת נותן שירותי התשלום למשלם או נותן שירותי התשלום למוטב שהם צד לפעולת התשלום המובטחת, כי הוגשה לבית המשפט, לגבי המוטב, בקשה למתן צו לכינוס נכסים או צו פירוק או כי הוגשה לגביו בקשה לצו לפתיחת הליכים לפי חוק חדלות פירעון ושיקום כלכלי, התשע״ח–2018, והבקשה לצו כאמור פורסמה לפי דין או הומצאה לנותן שירותי התשלום, יפסיק נותן שירותי התשלום להעביר את הכספים האמורים להיות משולמים במסגרת פעולת התשלום החל במועד שבו נודע לו על הגשת הבקשה עד למועד ההחלטה בה (בסעיף זה – תקופת הפסקת הזיכוי)",
+      "confidence": "high"
+    },
+    {
+      "id": "canc-reg2-3-courses",
+      "claim": "Cancellation Regs reg.2(3): services in schedule items 8-9 (domestic lodging/travel/leisure, courses): within 14 days of the agreement and at least 14 non-rest days before the service",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "(3) לרכישת שירות כאמור בפרט (8) ו־(9) לתוספת – בתוך 14 ימים מיום עשיית ההסכם ובלבד שהביטול ייעשה 14 ימים שאינם ימי מנוחה לפחות, קודם למועד תחילת השירות;",
+      "confidence": "high"
+    },
+    {
+      "id": "canc-sched-9-courses",
+      "claim": "Cancellation Regs schedule item 9: courses and classes",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "(9) חוגים וקורסים למעט קורס כהגדרתו בחוק הפיקוח על מכונים פסיכומטריים",
+      "confidence": "high"
+    },
+    {
+      "id": "canc-reg3a-other-proof",
+      "claim": "Cancellation Regs reg.3(a): invoice, till slip, exchange note or other proof of the deal, its date, amount and payment method",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "ובלבד שהצרכן הציג חשבונית או סרט קופה או פתק החלפה המעידים על עצם ביצוע העסקה עם העוסק או הוכחה אחרת לגבי עצם ביצוע העסקה, מועדה, הסכום ששולם בעדה ואמצעי התשלום.",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-14b1-deterioration",
+      "claim": "CPL s.14(b1): door-to-door cancellation does not prevent the dealer suing for significant deterioration; s.14(c) perishables excluded",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "אין בהוראות סעיף קטן (ב) כדי לגרוע מזכותו של עוסק לתבוע את נזקיו, בשל כך שערך הנכס נושא העסקה פחת כתוצאה מהרעה משמעותית במצבו. (ג) הוראות סעיף קטן (א) או סעיף 14ג1(ב) לא יחולו על עסקה בטובין פסידים.",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-18a-a1-sticker",
+      "claim": "CPL s.18A(a1)(2): a valid original warranty sticker; the dealer may not demand the warranty certificate",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "הציג צרכן לעוסק טובין שמודבקת עליהם מדבקת אחריות תקפה ומקורית, לא ידרוש העוסק מהצרכן להציג את תעודת האחריות כתנאי למתן שירות בהתאם לחיוביו לפי תעודת האחריות.",
+      "confidence": "high"
+    },
+    {
+      "id": "war-reg16b-long-term-service",
+      "claim": "Warranty Regs reg.16(b): a long-term service sold with the goods may be withdrawn from until the end of the warranty period (תקנה 16)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "עוסק שהתחייב או הציע לצרכן שירות ארוך טווח כבר במעמד מכירת הטובין, במסגרת עסקת המכירה, ימסור לצרכן באותו מועד את הפרטים המנויים בתקנת משנה (א), וזכאי הצרכן שהתחייב בעסקת מכירה כאמור לחזור בו מהעסקה לשירות ארוך טווח, עד תום תקופת האחריות שנקבעה לטובין.",
+      "confidence": "high"
+    },
+    {
+      "id": "war-reg17-transfer",
+      "claim": "Warranty Regs reg.17: rights pass to a later owner (תקנה 17)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "זכויות הנתונות לצרכן על פי תקנות אלה או על פי תעודת האחריות או חוזה השירות, לגבי טובין אשר הבעלות בהם הועברה לצרכן אחר, יהיו נתונות לנעבר.",
+      "confidence": "high"
+    },
+    {
+      "id": "war-reg18-importer",
+      "claim": "Warranty Regs reg.18: the importer is treated as the manufacturer (תקנה 18)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "בטובין מיובאים יראו את מי שייבא אותם כיצרן לענין תקנות אלה.",
+      "confidence": "high"
+    },
+    {
+      "id": "sale-s14-immediate-notice",
+      "claim": "Sale Law s.14: buyer must notify the seller of non-conformity immediately; otherwise cannot rely on it (סעיף 14)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "על הקונה להודיע למוכר על אי־התאמה מיד לאחר מועד הבדיקה לפי סעיף 13(א) או (ב) או מיד לאחר שגילה אותה, הכל לפי המוקדם יותר. (ב) לא הודיע הקונה על אי־ההתאמה כאמור בסעיף קטן (א), אין הוא זכאי להסתמך עליה.",
+      "confidence": "high"
+    },
+    {
+      "id": "sale-s15-hidden-2-4-years",
+      "claim": "Sale Law s.15: hidden non-conformity, immediate notice; no rescission after two years from delivery, no other remedies after four years (סעיף 15)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "לא היתה אי־ההתאמה ניתנת לגילוי בבדיקה סבירה, זכאי הקונה להסתמך עליה על אף האמור בסעיף 14, ובלבד שנתן למוכר הודעה עליה מיד לאחר שגילה אותה; אולם במכירת נכס נד אין הקונה זכאי לחזור בו מן החוזה אם נתן הודעה כאמור לאחר שעברו שנתיים ממסירת הממכר, ואין הוא זכאי ליתר התרופות בשל הפרת חוזה אם נתן את ההודעה לאחר שעברו ארבע שנים ממסירת הממכר.",
+      "confidence": "high"
+    },
+    {
+      "id": "sale-s16-concealment",
+      "claim": "Sale Law s.16: concealment by the seller lifts the s.14-15 limits (סעיף 16)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "היתה אי־ההתאמה נובעת מעובדות שהמוכר ידע או היה עליו לדעת עליהן בעת גמירת החוזה ולא גילה אותן לקונה, זכאי הקונה להסתמך עליה על אף האמור בסעיפים 14 ו־15 או בכל הסכם, ובלבד שנתן למוכר הודעה עליה מיד לאחר שגילה אותה.",
+      "confidence": "high"
+    },
+    {
+      "id": "sale-s17-detail",
+      "claim": "Sale Law s.17(a): notice must describe the non-conformity in reasonable detail (סעיף 17)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "קונה המודיע על אי־התאמה יפרט אותה פירוט סביר ויתן למוכר הזדמנות נאותה לבדוק את הממכר.",
+      "confidence": "high"
+    },
+    {
+      "id": "pres-s5-seven-years",
+      "claim": "Prescription Law s.5(1): seven years for a claim not concerning land (סעיף 5)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "מתיישנת תביעה שלא הוגשה עליה תובענה (להלן – תקופת ההתיישנות) היא – (1) בשאינו מקרקעין – שבע שנים;",
+      "confidence": "high"
+    },
+    {
+      "id": "cap-s5-one-month",
+      "claim": "Legal Capacity Law s.5: a minor's act without consent can be cancelled by the representative within one month of learning of it (סעיף 5)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9B%D7%A9%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%AA_%D7%95%D7%94%D7%90%D7%A4%D7%95%D7%98%D7%A8%D7%95%D7%A4%D7%A1%D7%95%D7%AA",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "פעולה משפטית של קטין שנעשתה שלא בהסכמת נציגו ניתנת לביטול – (1) על ידי נציגו, ואם אין לקטין נציג – על ידי היועץ המשפטי לממשלה, תוך חודש ימים לאחר שנודע להם על הפעולה; (2) אם לא נודע לנציג או ליועץ המשפטי לממשלה על הפעולה – על ידי הקטין, תוך חודש ימים לאחר שהיה לבגיר.",
+      "confidence": "high"
+    },
+    {
+      "id": "cap-s6-customary",
+      "claim": "Legal Capacity Law s.6: age-typical acts, or with a party who did not know of minority, not cancellable unless real harm (סעיף 6)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9B%D7%A9%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%AA_%D7%95%D7%94%D7%90%D7%A4%D7%95%D7%98%D7%A8%D7%95%D7%A4%D7%A1%D7%95%D7%AA",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "פעולה משפטית של קטין שדרכם של קַטינים בגילו לעשות כמוה, וכן פעולה משפטית בין קטין לבין אדם שלא ידע ולא היה עליו לדעת שהוא קטין, אינה ניתנת לביטול כאמור בסעיף 5, אף שנעשתה שלא בהסכמת נציגו, אלא אם היה בה משום נזק של ממש לקטין או לרכושו.",
+      "confidence": "high"
+    },
+    {
+      "id": "cap-s6a-credit",
+      "claim": "Legal Capacity Law s.6A: a minor's purchase on credit or instalments has no validity without consent (סעיף 6א)",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9B%D7%A9%D7%A8%D7%95%D7%AA_%D7%94%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%AA_%D7%95%D7%94%D7%90%D7%A4%D7%95%D7%98%D7%A8%D7%95%D7%A4%D7%A1%D7%95%D7%AA",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "פעולה משפטית של קטין שהיא רכישת נכס באשראי או במקח־אגב־שכירות, שכירות נכס או קבלת שירות באשראי, אין לה תוקף, על אף האמור בסעיפים 5 ו־6, כל עוד לא באה עליה הסכמת נציגו; לענין סעיף זה, ”אשראי“ – לרבות תשלום בשיעורים.",
+      "confidence": "high"
+    },
+    {
+      "id": "moc-complaint-form",
+      "claim": "Ministry of Communications: recommended route is the public-inquiries form; topics include internet, cellular, landline, cable and satellite",
+      "claim_type": "official_url",
+      "source_url": "https://www.gov.il/he/pages/subjects",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "באמצעות טופס פניות ציבור",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "id": "moc-attach-company-answer",
+      "claim": "MoC: attach the written approach to the company and the company's written answer",
+      "claim_type": "official_url",
+      "source_url": "https://www.gov.il/he/pages/subjects",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "ולצרף אליו את פנייתך בכתב לחברה ואת התשובה בכתב שניתנה על ידי החברה (אם התקבלה).",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "id": "moc-forwards-to-company",
+      "claim": "MoC: the complaint is forwarded to the relevant communications company",
+      "claim_type": "official_url",
+      "source_url": "https://www.gov.il/he/pages/subjects",
+      "source_fetched_at": "2026-10-29T17:00:00Z",
+      "raw_snippet": "על מנת לטפל בפנייתך, היא תועבר לחברת התקשורת הרלוונטית.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-29"
+    },
+    {
+      "id": "rem-s7b-extension",
+      "claim": "Contracts (Remedies) Law s.7(b) (סעיף 7): non-fundamental breach, cancellation only after giving an extension",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%28%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%91%D7%A9%D7%9C_%D7%94%D7%A4%D7%A8%D7%AA_%D7%97%D7%95%D7%96%D7%94%29",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "היתה הפרת החוזה לא יסודית, זכאי הנפגע לבטל את החוזה לאחר שנתן תחילה למפר ארכה לקיומו והחוזה לא קויים תוך זמן סביר לאחר מתן הארכה",
+      "confidence": "high"
+    },
+    {
+      "id": "sale-s13-inspect",
+      "claim": "Sale Law s.13(a) (סעיף 13): the buyer must inspect the goods immediately after receipt",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "על הקונה לבדוק את הממכר מיד לאחר קבלתו.",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-s32-full",
+      "claim": "CPL s.32(a)-(b) (סעיף 32): material deception or exploitation (ss.2-3); reasonable time from learning; refund in 7 days; goods returned where delivered; proportional price for a started continuing service",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "נעשתה עסקה והוברר כי נעשה לגביה מעשה או מחדל שיש בו משום הטעיה או ניצול מצוקה כאמור בסעיפים 2 ו־3, והם מהותיים בנסיבות הענין, ובהטעיה – אף אם לא העוסק היה המטעה, רשאי הצרכן לבטל את העסקה בתוך זמן סביר מהמועד שבו נודע לו על ההטעיה או מהמועד שבו נודע לו שפסק ניצול המצוקה, לפי העניין. (ב) בוטלה עסקה כאמור בסעיף קטן (א), ישיב העוסק לצרכן, בתוך שבעה ימים מיום שקיבל הודעה על הביטול, את התמורה ששילם הצרכן בעד העסקה, באותו אופן שבו שילם הצרכן, ואם היתה העסקה עסקה למכירת נכס – ישיב הצרכן לעוסק את הנכס נושא העסקה, בהעמדתו לרשות העוסק במקום שבו נמסר לצרכן; היתה העסקה עסקה מתמשכת שהוחל במתן השירות לפיה – ישלם הצרכן לעוסק את התמורה היחסית לפי תנאי העסקה, בעד השירות שניתן לו עד למסירת ההודעה על הביטול.",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-s3b-limbs",
+      "claim": "CPL s.3(b) (סעיף 3): unfair-influence limbs incl. preventing consultation, repeated visits and calls, exploiting limitation or language, threats, unrequested paid supply",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "(2) מנע מצרכן את האפשרות להתייעץ לגבי התקשרות בעסקה או לגבי תנאיה; (3) ערך ביקורים חוזרים ונשנים בבית צרכן כדי לשכנעו לקשור עמו עסקה, אף שהצרכן הביע, במפורש או במשתמע, את רצונו כי יימנע מכך; (4) ביצע פניות חוזרות ונשנות לצרכן או לבני משפחתו כדי לקשור עסקה, אף שהביעו, במפורש או במשתמע, את רצונם כי יחדל מכך; (5) ניצל מוגבלות נפשית, שכלית או גופנית של צרכן; (6) ניצל את העובדה שצרכן אינו יודע את השפה שבה נקשרת העסקה במידה מספקת לשם הבנת העסקה; (7) איים או נקט אמצעי הפחדה כלשהו כלפי צרכן או כלפי בני משפחתו; (8) סיפק לצרכן נכס או שירות בתשלום, ללא בקשה מפורשת של הצרכן;",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-14a2-service",
+      "claim": "CPL s.14(a)(2) (סעיף 14): door-to-door service, 14 days from deal or details; continuing even if started; one-off only if not started",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "(2) בשירות, תוך ארבעה־עשר ימים מיום עשיית ההסכם או מיום קבלת הפרטים שנקבעו בתקנות לפי סעיף קטן (ד), לפי המאוחר, כמפורט להלן: בעסקה מתמשכת – בין אם הוחל במתן השירות ובין אם לאו, ובעסקה שאינה עסקה מתמשכת – אם טרם הוחל במתן השירות.",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-14b1-proportional",
+      "claim": "CPL s.14(b)(1) (סעיף 14): cancelled door-to-door continuing service already started, consumer pays proportional price",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "ולעניין ביטול עסקה מתמשכת לפי סעיף קטן (א)(2), אם הוחל במתן השירות – ישלם הצרכן את התמורה היחסית בעד השירות שניתן לו",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-14e-b1-proportional",
+      "claim": "CPL s.14E(b1): cancelled distance continuing deal already started, consumer pays proportional price",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "בוטלה עסקה מתמשכת כאמור בסעיף 14ג(ג) או 14ג1(ג), שהוחל במתן השירות לפיה, ישלם הצרכן את התמורה היחסית בעד השירות שניתן לו.",
+      "confidence": "high"
+    },
+    {
+      "id": "comm-51b-instalments",
+      "claim": "Communications Law s.51B(a) (סעיף 51ב): no immediate repayment of end-equipment instalments on cancellation; subscriber continues on schedule",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_(%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D)",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "הוסכם בין מנוי לבין מפעיל רט״ן על תשלום לשיעורין בעבור ציוד קצה שרכש המנוי ממפעיל הרט״ן, וביטל המנוי את הסכם ההתקשרות עם מפעיל הרט״ן, לא יהיה רשאי מפעיל הרט״ן להעמיד לפירעון מיידי את יתרת התשלומים של המנוי בעבור ציוד הקצה שרכש כאמור, והמנוי יהיה רשאי להמשיך לשלם את התשלום לשיעורין במועדים ובסכומים כפי שהיה עליו לשלם אלמלא הביטול.",
+      "confidence": "high"
+    },
+    {
+      "id": "comm-51e-instalments",
+      "claim": "Communications Law s.51E (סעיף 51ה): same for licensed providers and bundled deals",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_(%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D)",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "הוסכם בהסכם התקשרות על תשלום לשיעורין בעבור ציוד קצה שרכש המנוי מספק מורשה או ממפעיל רט״ן, וביטל המנוי את הסכם ההתקשרות, לא יהיה רשאי הספק המורשה או מפעיל הרט״ן, לפי העניין, להעמיד לפירעון מיידי את יתרת התשלומים של המנוי בעבור ציוד הקצה שרכש כאמור, והמנוי יהיה רשאי להמשיך לשלם את התשלום לשיעורין במועדים ובסכומים כפי שהיה עליו לשלם אלמלא הביטול;",
+      "confidence": "high"
+    },
+    {
+      "id": "canc-sched-8-abroad",
+      "claim": "Cancellation Regs schedule item 8: lodging, travel, vacation and leisure services, except those carried out wholly outside Israel",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-29T18:00:00Z",
+      "raw_snippet": "שירותי הארחה, נסיעה, חופש ובילוי למעט אם הם מתבצעים במלואם מחוץ לישראל כאמור בתקנה 6(א)(12)",
+      "confidence": "high"
+    },
+    {
+      "id": "cpl-14c1e-adds",
+      "claim": "CPL s.14C1(e): the extended right adds to ss.14 and 14C and does not limit them",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-29T19:00:00Z",
+      "raw_snippet": "(ה) הוראות סעיף זה באות להוסיף על הוראות סעיפים 14 ו־14ג ולא לגרוע מהן.",
       "confidence": "high"
     }
   ]

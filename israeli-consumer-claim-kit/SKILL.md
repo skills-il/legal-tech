@@ -1,6 +1,6 @@
 ---
 name: israeli-consumer-claim-kit
-description: "Not legal advice. Drafts Israeli consumer demand letters, cancellation notices and complaints that the user signs and sends. Use when a technician, delivery or gas inspection was hours late or never came (chok hatechnaim), when cancelling a purchase made online, by phone, at the door, at a sales event or in a shop, or a subscription (bitul iska), including the 4-month right for seniors, olim and people with disabilities, when a warranty repair is refused or overdue, or when complaining to the Consumer Protection Authority or the Consumer Council. It works out the statutory figure first (300 or 600 NIS, the cancellation deadline, the fee cap) because guides often get these wrong. Do NOT use for filing the court claim itself (use israeli-small-claims-court), for seller-side compliance (use israeli-ecommerce-compliance), for flight compensation (use israeli-flight-compensation), or for bank and card fees (use israeli-consumer-fee-fighter)."
+description: "Drafts Israeli consumer demand letters, cancellation notices and complaints that the user signs and sends. Use when a technician, delivery or gas inspection was hours late or never came (chok hatechnaim), when cancelling a purchase made online, by phone, at the door, at a sales event or in a shop, or a subscription (bitul iska), including the 4-month right for seniors, olim and people with disabilities, when a warranty repair is refused or overdue, or when complaining to the Consumer Protection Authority or the Consumer Council. It works out the statutory figure first (300 or 600 NIS, the cancellation deadline, the fee cap) because guides often get these wrong. Do NOT use for filing the court claim itself (use israeli-small-claims-court), for seller-side compliance (use israeli-ecommerce-compliance), for flight compensation (use israeli-flight-compensation), or for bank and card fees (use israeli-consumer-fee-fighter)."
 license: MIT
 compatibility: "No network required. The optional helper script needs Python 3. On chat surfaces without code execution, apply the rules in the tables by hand."
 ---
@@ -31,8 +31,8 @@ Ask what happened, then pick a track. If two apply (a late technician on a warra
 |---|---|---|
 | A. Late or no-show visit | Technician, installer, delivery, gas inspection, cable/router service | CPL s.18A(c)-(f) |
 | B. Cancel a purchase | Bought by phone, online, at the door, at a sales event, in a shop, or a subscription, and wants out | CPL s.14, s.14C, s.14C1, s.14E, s.13D; Cancellation Regs 2010 |
-| C. Warranty repair | Electrical, electronic or gas product not repaired, repaired late, or charged for | Warranty Regs 2006 |
-| D. Exploited consumer | Pressure, exploitation of a disability, or a buyer who did not understand the language of the deal | CPL s.3 and s.32, plus s.14C1 for seniors, olim and people with disabilities, plus a complaint to the Authority (Chapter E2) |
+| C. Warranty repair | Electrical, electronic or gas product not repaired, repaired late, or charged for; any other defective product | Warranty Regs 2006; Sale Law 1968 for goods outside them |
+| D. Exploited consumer | Pressure, deception, exploitation of a disability, or a buyer who did not understand the language of the deal | CPL s.2, s.3 and s.32, plus s.14C1 for seniors, olim and people with disabilities, plus a complaint to the Authority (Chapter E2) |
 
 ### Step 1: Collect the facts before computing anything
 
@@ -70,7 +70,7 @@ python3 scripts/claim_check.py cancel --type instore --goods listed --received 2
 | In kind | A voucher or service instead of cash only if the consumer was told they may choose cash and agreed; the provider must prove it |
 | Defence | No compensation if the delay came from circumstances the provider did not know of, and should not have known of, when the appointment was set, or could not have foreseen, AND could not prevent (s.18A(f)) |
 
-So for a 10:00 appointment, arrival at 12:00 is lawful, NIS 300 is owed from 14:00, and NIS 600 from 15:00. If nobody came at all, NIS 600 applies once 15:00 passed. The right depends on the time passing, not on the user staying home, but the user has to be able to show nobody came: being home until then, the company's own record, or a call log. A user who left at 11:00 cannot know whether the technician came at 12:30, so ask. The statute counts from "the hour that was coordinated". If the company gave a range instead of an hour, say so to the user and show the figure counted from the end of the range as the safer claim.
+So for a 10:00 appointment, arrival at 12:00 is lawful, NIS 300 is owed from 14:00, and NIS 600 from 15:00. If nobody came at all, NIS 600 applies once 15:00 passed. The right depends on the time passing, not on the user staying home, but the user has to be able to show nobody came: being home until then, the company's own record, or a call log. A user who left at 11:00 cannot know whether the technician came at 12:30, so ask. The statute counts from "the hour that was coordinated"; if the company gave a range, tell the user and count from the end of the range as the safer claim.
 
 **Track B, cancellation.**
 
@@ -78,24 +78,28 @@ So for a 10:00 appointment, arrival at 12:00 is lawful, NIS 300 is owed from 14:
 |---|---|---|
 | Distance sale (online, phone, mail), goods | 14 days from receipt of the goods or of the disclosure document, whichever is later | s.14C(c)(1) |
 | Distance sale, one-off service | Within 14 days and at least two non-rest days before the service | s.14C(c)(2) |
-| Door-to-door, including a phone approach followed by the seller coming to the home | 14 days from delivery or receipt of the required details, whichever is later | s.1 definition, s.14(a)(1) |
+| Door-to-door, including a phone approach followed by the seller coming to the home | Goods: 14 days from delivery or receipt of the required details, whichever is later. Services: 14 days from the deal or receipt of the details, whichever is later; a one-off service only if it has not started | s.1 definition, s.14(a)(1)-(2) |
 | Senior (65), oleh (less than five years since the certificate), person with a disability | Four months: for door-to-door deals (s.14C1(b)), and for distance deals ONLY if the deal included a conversation with the dealer, electronic included (s.14C1(c)) | s.14C1 |
 | Continuing deal (subscription) | Ends within three business days of notice, six business days if sent by registered mail | s.13D(c) |
 | In-store, schedule goods above NIS 50: furniture, home and garden equipment, electrical and electronic devices, unopened goods, ordered goods not yet supplied, water purifiers, watches | 14 days from receipt | Cancellation Regs reg.2(1) |
 | In-store, clothing and footwear | Two non-rest days after purchase, price tag not removed | reg.2(2) |
 | In-store, jewelry up to NIS 3,000 | Two non-rest days after purchase | reg.2(7) |
 | In-store services in schedule items 10-19 (cosmetics, long-term vacation clubs, discount clubs, telecom and internet providers, broadcasters, gyms, dating clubs, lotteries) | 14 days from the deal or the written contract, whichever is later, even if the service started | reg.2(4) |
+| In-store courses and classes (not psychometric-exam courses), and lodging, travel or leisure services not carried out wholly abroad (schedule items 8-9) | Within 14 days of the agreement, and at least 14 non-rest days before the service starts | reg.2(3) |
 | Goods or services bought at a sales event the dealer invited people to | Goods: 14 days from receipt. A one-off service: within 14 days and at least two non-rest days before it starts | reg.2(5), schedule item 20 |
 
-In-store conditions (reg.2-3): the goods must be returned undamaged and unused. Return in the original packaging is enough proof of non-use. For furniture, home equipment, electrical devices, water purifiers and watches, opening the packaging is not use by itself, but **connecting to electricity, gas or water is use**. The user must show an invoice, till slip or exchange note. A franchisee that posts a notice may refuse refunds for goods bought at another branch (reg.3(e)). Items not on the schedule have no statutory in-store right; only the shop's posted policy applies.
+In-store conditions (reg.2-3): the goods must be returned undamaged and unused. Return in the original packaging is enough proof of non-use. For furniture, home equipment, electrical devices, water purifiers and watches, opening the packaging is not use by itself, but **connecting to electricity, gas or water is use**. The user must show an invoice, till slip, exchange note, or other proof of the deal, its date, the amount paid and the payment method (reg.3(a)). A franchisee that posts a notice may refuse refunds for goods bought at another branch (reg.3(e)). Items not on the schedule have no statutory in-store right; only the shop's posted policy applies.
 
 Money rules:
 
-- **Door-to-door:** the dealer returns the full price paid, with NO cancellation fee. Only an installation charge of up to NIS 100 is allowed (s.14(b)). The same applies to the 4-month door-to-door right.
+- **Door-to-door:** the dealer returns the full price paid, with NO cancellation fee. Only an installation charge of up to NIS 100 is allowed (s.14(b)). The same applies to the 4-month door-to-door right. The dealer keeps a separate right to sue for a significant deterioration in the goods (s.14(b1)), and perishable goods have no door-to-door right (s.14(c)).
 - **Distance, no reason given:** refund within 14 days of the notice, and the dealer must cancel the charge and give a copy of the charge-cancellation notice. The fee is capped at 5% of the price or NIS 100, whichever is LOWER, and shipping and packaging count inside that cap (s.14E). Installation charge capped at NIS 100.
 - **Distance, because of a defect, non-conformity, late delivery or other dealer breach:** refund within 14 days and NO fee at all (s.14E(a)(1)).
+- **Services:** a continuing service (a subscription) cancelled after it started, under s.14, s.14C or s.14C1, still costs the proportional price of the service already given (s.14(b)(1) for door-to-door, s.14E(b1) for distance), on top of any fee. Under the regular 14-day right, a one-off service sold door-to-door can be cancelled only before it starts (s.14(a)(2)), and one bought at a distance only up to two non-rest days before it (s.14C(c)(2)). The 4-month right in s.14C1 states no such condition, so for a senior, oleh or person with a disability a started one-off service may still be arguable; say it is unsettled.
 - **In-store:** refund no later than seven business days, same payment method; fee capped at 5% or NIS 100, whichever is lower, plus a card-clearing charge only if the shop proves it paid one (regs 4-5).
 - **Instalments for goods never delivered:** after notifying the dealer of cancellation, the user can tell the card issuer to stop the remaining guaranteed payments (Payment Services Law 2019, s.17).
+- **The seller collapsed before delivering:** this covers goods supplied later (not on the spot) and paid by a guaranteed payment. Once an insolvency, receivership or liquidation application against the seller is published or served on the payment provider, the provider stops transferring the payments, from when it learned of the application until the decision. If the order is granted, it refunds the payments charged during that stop period no later than eight business days after the order; an order to operate the company for its rehabilitation brings no refund (Payment Services Law s.18). Money already transferred to the seller is claimed in the insolvency proceeding instead. Tell the user to notify the card issuer in writing.
+- **Telecom subscription (cellular, internet, landline, cable or satellite TV):** on cancellation the provider may not charge an exit fee, claw back a benefit or withhold one; it may collect only the remaining instalments for end equipment, on their original schedule and not all at once (s.51B(a), s.51E), and debts already accrued (Communications Law s.51A(b) for cellular, s.51D(b) for the others, which covers a subscriber whose average monthly bill is under NIS 5,000). The continuing-deal timing above still applies.
 - **Return-policy sign (s.4C):** if the shop breaches its own posted policy, the consumer may return within seven days of the refusal for full price in the original payment method. If no sign is posted, the shop is presumed to allow returns.
 - The dealer may ask a senior, oleh or person with a disability for one certificate proving status and may not demand further proof (s.14C1(d)).
 - Exclusions exist (perishables, food, made-to-measure goods, furniture assembled in the home, jewelry above NIS 3,000, travel within seven non-rest days of the service, and more). Check `references/rules-and-letters.md` before demanding a refund.
@@ -117,11 +121,16 @@ Valid ways to send a cancellation (s.14I): by phone or in person, registered mai
 
 For a LATE repair the demand is: complete the repair now. Failure to repair under warranty is on the s.31A list, so the letter can serve as the written request for exemplary damages.
 
+**Warranty objections** (parallel importer, "go to the importer", no certificate, extended warranty): answers with sections are in `references/rules-and-letters.md` section 6.
+
+**Goods outside the Warranty Regulations**, and claims against the SELLER alongside them: Sale Law 1968. Notice is due immediately after the on-receipt inspection or after discovering the defect, WHICHEVER IS EARLIER (s.13, s.14(a)), and late notice loses the claim (s.14(b)), so ask when the defect could first have been seen. Only a hidden defect runs from discovery, and even then rescission ends two years and other remedies four years after delivery (s.15), unless the seller knew or should have known and did not disclose (s.16). Default demand: repair or replace by a date, otherwise cancellation and a refund; a breach that is not fundamental needs an extension first (Contracts (Remedies) Law s.7(b)). Full rules in section 6 of the reference.
+
 **Track D, exploited consumer.**
 
 - Seniors, olim and people with disabilities: use the 4-month right above when it applies.
-- After those 4 months, or for anyone else: exploiting a consumer's mental, cognitive or physical limitation, or the fact that the consumer did not understand the language of the deal well enough, is unfair influence (s.3(b)(5)-(6)). Under s.32 the consumer may cancel within a **reasonable time** from when the exploitation ended, and the dealer refunds within seven days, the same way the consumer paid. This is not a fixed deadline, so tell the user to act quickly and describe the facts precisely.
+- After those 4 months, or for anyone else: s.32 lets the consumer cancel a deal involving deception (s.2) or unfair influence (s.3: exploiting a limitation or the language barrier, blocking consultation, repeated visits or calls, threats, unrequested paid supply) that was MATERIAL in the circumstances, within a **reasonable time** from when they learned of the deception or that the exploitation had ended. The dealer refunds within seven days, the same way the consumer paid; the consumer makes the goods available where delivered (s.32(a)-(b)). Not a fixed deadline, so act quickly. Detail in section 6 of the reference.
 - Also file a detailed complaint with the Authority (Step 5).
+- **The buyer is a minor (under 18):** a minor's purchase made without a parent's consent can be cancelled by the parent within one month of learning of it, or, if the parent never learned of it, by the minor within one month of turning 18 (Legal Capacity Law s.5). Purchases that minors of that age customarily make, or a deal with a seller who did not and should not have known the buyer was a minor, cannot be cancelled this way unless they caused real harm (s.6). A purchase, rental or service on credit or in instalments has no validity until the parent consents (s.6A). The letter is signed by the parent and offers to return the item.
 
 **Exemplary damages (s.31A), the lever behind Tracks B and C.** A court may award up to NIS 10,000 per breach without proof of damage, and up to NIS 50,000 for a repeat, continuing or aggravated breach, but ONLY for breaches on the s.31A list (refusing a distance-sale refund, charging after a subscription was cancelled, breaching the return-policy sign, failing to repair under warranty, and others). The technician law is NOT on that list; it has its own fixed 300 or 600. A suit for exemplary damages requires a prior written request (email counts), which is what the letter in Step 3 is.
 
@@ -148,7 +157,10 @@ Email with a read receipt, the company's website form (screenshot the confirmati
 |---|---|---|
 | Israel Consumer Council complaint form | Takes up an individual complaint, after a written approach to the business | Not a court; cannot force payment |
 | Consumer Protection and Fair Trade Authority | Uses complaints for investigation, supervision and enforcement | Does not recover money for an individual |
+| Ministry of Communications public-complaints unit (cellular, internet, landline, cable and satellite TV) | Forwards the complaint to the company; attach the written approach and the company's answer | Not a court; cannot award compensation |
 | Small claims court | Can order payment, up to NIS 39,900 in 2026 | Hand off to `israeli-small-claims-court` for the filing itself |
+
+**Time limits:** a court claim generally prescribes seven years after the cause of action (Prescription Law s.5(1)), but the cancellation windows above and the Sale Law's immediate-notice rule are far shorter and usually decide the case.
 
 **Track D extra:** Chapter E2 of the Consumer Protection Law, added in 2024 (reported to take effect on 4 October 2024), lets the Commissioner declare a dealer an "aggravated violator" when it targets seniors, olim, people with disabilities, minors or people who did not know the language of the deal. Payment providers then stop paying the dealer, and the Execution Office stops new collection files, closes existing ones and returns the money collected to the debtors (s.22LB(b)). A consumer cannot trigger this directly. The route is a detailed complaint to the Authority, so for an exploited parent, file the Authority complaint in addition to the cancellation letter.
 
@@ -166,7 +178,7 @@ A call followed by a visit to the home is door-to-door under the statute, and he
 
 ### Sofa bought in a shop last week
 
-Furniture is on the in-store schedule: 14 days from receipt, provided it is returned undamaged and unused, with the receipt. A sofa that was sat on for a week may be argued to be "used", so say that the shop may contest it. If it was assembled in the home (by anyone), the reg.6 exclusion applies and there is no statutory right; check the shop's posted policy instead.
+Furniture is on the in-store schedule: 14 days from receipt, provided it is returned undamaged and unused, with the receipt or other proof of the deal. A sofa that was sat on for a week may be argued to be "used", so say that the shop may contest it. If it was assembled in the home (by anyone), the reg.6 exclusion applies and there is no statutory right; check the shop's posted policy instead.
 
 ### Refrigerator not repaired
 
@@ -186,6 +198,9 @@ Track C: a refrigerator is a home-repair item, and when the fault stops it cooli
 | Cancellation Regulations 2010 | https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29 | In-store periods, exclusions, refund deadline |
 | Payment Services Law 2019 | https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D | s.17, stopping instalments for goods never delivered |
 | Warranty Regulations 2006 | https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29 | Repair deadlines, failed-repair remedy |
+| Sale Law 1968 | https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8 | s.14-16, notice of non-conformity |
+| Communications Law | https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_(%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D) | s.51A, s.51D, telecom exit fees |
+| Ministry of Communications complaints | https://www.gov.il/he/pages/subjects | Complaint form and attachments for telecom |
 | Authority complaint form | https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority | Online complaint |
 | Consumer Council complaints | https://www.consumers.org.il/category/complaint-form | Individual complaint forms |
 | Kol Zchut, late technician | https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%91%D7%92%D7%99%D7%9F_%D7%90%D7%99%D7%97%D7%95%D7%A8_%D7%98%D7%9B%D7%A0%D7%90%D7%99_%D7%90%D7%95_%D7%90%D7%99%D7%A9_%D7%A9%D7%99%D7%A8%D7%95%D7%AA | Plain-language summary |
@@ -207,8 +222,11 @@ Track C: a refrigerator is a home-repair item, and when the fault stops it cooli
 - **Do not inflate the claim with exemplary damages.** NIS 10,000 is a maximum a court may award, only for breaches on the s.31A list, and the technician law is not on it.
 - **"The Authority will get your money back" is false.** It is an enforcement body. Money comes from the dealer, the Consumer Council's handling, or small claims.
 - **"Three failed repairs means a new product" is not in the Warranty Regulations.** When a repair fails, the manufacturer chooses between new goods and a refund.
-- **After the 4 months, the elderly buyer is not out of options.** s.32 allows cancelling a deal made through exploitation within a reasonable time after the exploitation ended.
+- **After the 4 months, the elderly buyer is not out of options.** s.32 allows cancelling a deal made through material exploitation or deception within a reasonable time from when the buyer learned that the exploitation had ended (or learned of the deception).
 - **The aggravated-violator law is from 2024** and is not new.
+- **A parallel importer is still the manufacturer.** Agents accept "we are only a parallel importer" as a dead end; reg.18 puts the warranty duties on whoever imported the goods. When the shop says "go to the importer", it is right about the warranty duties, so redirect the warranty letter, unless the importer cannot be located and the item cost more than NIS 400 (reg.19); a Sale Law claim against the shop also stays open.
+- **The Sale Law clock usually starts at delivery, not discovery.** Notice is due right after the on-receipt inspection or discovery, whichever is earlier; only a hidden defect runs from discovery.
+- **Do not cite s.3 for a minor.** s.3 has no limb about age; a minor's purchase is cancelled under the Legal Capacity Law, within one month of the parent learning of it.
 
 ## Troubleshooting
 

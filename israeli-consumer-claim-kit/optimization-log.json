@@ -1,0 +1,18 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-29",
+      "lessons": [
+        "Future: CPL s.16D call-recording duty (Amendment 74) in force 22.3.2027; add a letter line demanding the recording within 10 business days on the first update after that date.",
+        "Deferred discretionary: claim_check.py has no --goods option for schedule services (reg.2(3)-(5)) or sales events; the tables cover them by hand.",
+        "Deferred discretionary: home heater is a Second Schedule home-repair item with no listed day count (general reg.10(a) deadline applies); spare-parts 7-year First Schedule figure could be stated.",
+        "Unverified: telecom licence-level technician terms; Free Import Order duties of parallel importers; whether an extended warranty is a s.13D continuing transaction.",
+        "Deferred (arith review MINOR): last day of a 14-day period that falls on Shabbat or a holiday moves to the next working day (Interpretation Law s.10(c)); script prints the raw date. Add with evidence next cycle.",
+        "Deferred (arith review MINOR): a coordinated RANGE has no --range-end flag; SKILL.md says count from the end of the range.",
+        "Deferred (expert MINOR): s.18A(a1)(4) serial-number alternative to the warranty sticker, and refusing a sticker/certificate is itself on the s.31A list.",
+        "Deferred (arith MINOR): in-store exclusions not checked by the script (paid by voucher reg.6(c), supply requested >6 months later reg.6(b), new car item 21)."
+      ]
+    }
+  ]
+}

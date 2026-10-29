@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Offline checks for Israeli consumer claims. Not legal advice: the figures
-assume the facts you enter are accurate and complete.
+"""Offline checks for Israeli consumer claims. The figures are general
+information and assume the facts you enter are accurate and complete.
 
 Two sub-commands:
 
@@ -24,8 +24,8 @@ import argparse
 import calendar
 from datetime import date, datetime, timedelta
 
-FOOTER = ("Not legal advice. The result assumes the facts entered are accurate; "
-          "check exclusions and exceptions before sending a demand.")
+CAVEAT = ("General information only. This figure rests on the facts you entered; "
+          "review the exclusions and exceptions before you send a demand.")
 
 WAIT_WINDOW_H = 2          # s.18A(c)(2): waiting may not exceed 2 hours past the coordinated time
 TIER_1_AFTER_WINDOW_H = 2  # s.18A(d)(1): NIS 300 once 2 hours passed beyond the waiting window
@@ -50,6 +50,13 @@ FEE_PCT = 0.05             # s.14E(b)(1), Cancellation Regs reg.5(a)
 FEE_CAP_NIS = 100
 INSTALL_CAP_NIS = 100      # s.14(b)(2), s.14E(b2)
 INSTORE_MIN_PRICE = 50     # Cancellation Regs reg.1
+SALE_LAW_NOTE = ("For a defect, the in-store cancellation rules are not the route: use the Warranty "
+                 "Regulations for electrical, electronic and gas goods above NIS 150, and the Sale Law "
+                 "1968 against the seller. Under the Sale Law, notify the seller immediately after "
+                 "inspecting the goods on receipt or after discovering the defect, whichever is earlier "
+                 "(s.13-14); late notice loses the claim, and only a hidden defect runs from discovery "
+                 "(s.15).")
+JEWELRY_MAX_NIS = 3000     # Cancellation Regs reg.2(7), reg.6
 
 
 def _hm(s: str) -> datetime:
@@ -63,7 +70,7 @@ def technician(a: argparse.Namespace) -> None:
             print(f"  - {v}")
         print("A one-off paid call-out (plumber, electrician) is not on this list, so no "
               "fixed 300/600 applies. Describe the lateness in an ordinary demand instead.")
-        print(FOOTER)
+        print(CAVEAT)
         return
 
     print(f"Category: {COVERED[a.category]} (covered by s.18A(c)(1)).")
@@ -72,7 +79,7 @@ def technician(a: argparse.Namespace) -> None:
               "told you may refuse it, or the wait at home exceeded two hours, the compensation "
               f"is NIS {PHONE_RULE_NIS} (s.18A(d)(2)). The 300/600 time tiers apply only when an "
               "hour was coordinated.")
-        print(FOOTER)
+        print(CAVEAT)
         return
 
     coord = _hm(a.coordinated)
@@ -91,7 +98,7 @@ def technician(a: argparse.Namespace) -> None:
             print("Arrival is earlier than the coordinated time. If the technician came early, there "
                   "is no lateness. If the visit ran past midnight, re-run with --next-day. "
                   "Use 24-hour times (13:00, not 1:00).")
-            print(FOOTER)
+            print(CAVEAT)
             return
         late_h = (arr - coord).total_seconds() / 3600
         if late_h > MAX_PLAUSIBLE_LATE_H:
@@ -119,7 +126,7 @@ def technician(a: argparse.Namespace) -> None:
           "count from the NEW time instead; a later notice leaves the original time standing. Not owed if the delay came from circumstances the "
           "provider did not and should not have known of when the time was set, or could not "
           "foresee, and could not prevent (s.18A(f)).")
-    print(FOOTER)
+    print(CAVEAT)
 
 
 def _add_months(d: date, months: int) -> date:
@@ -129,20 +136,25 @@ def _add_months(d: date, months: int) -> date:
     return date(y, m, min(d.day, calendar.monthrange(y, m)[1]))
 
 
-def _distance_notes() -> None:
+def _distance_notes(subject: str) -> None:
     print("No right to cancel a distance sale (s.14C(d)) for: perishable goods; lodging, travel, "
           "vacation or leisure if cancelling within seven non-rest days before the service; "
           "computer information; goods made specially for you; recordable goods once the original "
           "packaging was opened.")
-    print("A one-off service bought at a distance must be cancelled at least two non-rest days "
-          "before it is due (s.14C(c)(2)).")
+    if subject == "service-oneoff":
+        print("A one-off service bought at a distance must be cancelled at least two non-rest days "
+              "before it is due (s.14C(c)(2)).")
 
 
 def cancel(a: argparse.Namespace) -> None:
     if a.type == "continuing":
         print("Continuing transaction: the deal ends within 3 business days of the notice, "
               "or 6 business days if sent by registered mail (s.13D(c)). No deadline to cancel.")
-        print(FOOTER)
+        print("Telecom (cellular, internet, landline, cable or satellite TV): no exit fee and no "
+              "benefit clawback; only the remaining end-equipment instalments, on their original "
+              "schedule rather than all at once, and accrued debts (Communications Law s.51A(b), "
+              "s.51B(a), s.51D(b), s.51E).")
+        print(CAVEAT)
         return
 
     start = date.fromisoformat(a.received)
@@ -150,9 +162,19 @@ def cancel(a: argparse.Namespace) -> None:
     breach = a.reason == "defect"
 
     if a.type == "instore":
+        if a.subject != "goods":
+            print("In-store services (courses, travel and leisure in Israel, gyms, cosmetics, "
+                  "telecom, dating clubs and the other schedule items) are not computed here. Use "
+                  "the in-store rows of the Step 2 table (Cancellation Regs reg.2(3)-(5)).")
+            print(CAVEAT)
+            return
+        if breach:
+            print(SALE_LAW_NOTE)
+            print(CAVEAT)
+            return
         if a.price is not None and a.price <= INSTORE_MIN_PRICE:
             print(f"The in-store regulations apply only to goods priced above NIS {INSTORE_MIN_PRICE}.")
-            print(FOOTER)
+            print(CAVEAT)
             return
         if a.goods == "listed":
             last = start + timedelta(days=STANDARD_DAYS)
@@ -163,15 +185,20 @@ def cancel(a: argparse.Namespace) -> None:
             print("Clothing and footwear: until two non-rest days after purchase, price tag not "
                   "removed (reg.2(2)). Count the days yourself, skipping Shabbat and holidays.")
         elif a.goods == "jewelry":
+            if a.price is not None and a.price > JEWELRY_MAX_NIS:
+                print(f"Jewelry above NIS {JEWELRY_MAX_NIS:,} is excluded from the in-store right "
+                      "(reg.6), watches apart. Check the shop's posted return-policy sign (s.4C).")
+                print(CAVEAT)
+                return
             print("Jewelry up to NIS 3,000: until two non-rest days after purchase (reg.2(7)).")
         else:
             print("This item is not on the regulations' schedule, so there is no statutory in-store "
                   "right to cancel. Check the shop's posted return-policy sign (s.4C): if none is "
                   "posted, returns are presumed allowed, provided the goods did not deteriorate.")
-            print(FOOTER)
+            print(CAVEAT)
             return
         print("Conditions: the goods must be returned undamaged and unused (reg.2). Connecting to "
-              "electricity, gas or water counts as use. Bring the invoice or till slip (reg.3(a)). "
+              "electricity, gas or water counts as use. Bring the invoice, till slip, exchange note or other proof of the deal, its date, amount and payment method (reg.3(a)). "
               "A franchisee with a posted notice may refuse refunds at other branches (reg.3(e)).")
         print("Not covered (reg.6): furniture assembled in your home, made-to-measure goods, food, "
               "underwear and swimwear, jewelry above NIS 3,000, and more.")
@@ -179,17 +206,36 @@ def cancel(a: argparse.Namespace) -> None:
             print("There is no extended 4-month right for in-store purchases (s.14C1 covers "
                   "door-to-door and distance sales only).")
         print("Refund: no later than 7 business days, same payment method (reg.4(a)).")
-        if breach:
-            print("For a defect, these regulations are not the route: use the warranty or the "
-                  "shop's obligations for defective goods.")
-        elif a.price is not None:
+        if a.price is not None:
             fee = min(a.price * FEE_PCT, FEE_CAP_NIS)
             print(f"Maximum cancellation fee: NIS {fee:.2f} (5% or NIS 100, whichever is lower, "
                   "reg.5(a)), plus a card-clearing charge only if the shop proves it paid one.")
-        print(FOOTER)
+        print(CAVEAT)
         return
 
-    rule = "s.14C(c)(1)" if a.type == "distance" else "s.14(a)(1)"
+    if a.subject == "service-oneoff" and a.started:
+        if a.type == "doortodoor":
+            print("Regular right: a one-off service sold door-to-door can be cancelled only before "
+                  "it starts (s.14(a)(2)). It has started, so the 14-day right is gone.")
+        else:
+            print("Regular right: a one-off service bought at a distance had to be cancelled at least "
+                  "two non-rest days before it was due (s.14C(c)(2)). It has started, so the 14-day "
+                  "right is gone.")
+        if vulnerable and (a.type == "doortodoor" or a.conversation):
+            ext = _add_months(start, EXTENDED_MONTHS)
+            sub = "s.14C1(b)" if a.type == "doortodoor" else "s.14C1(c)"
+            print(f"Extended right for {a.status} ({sub}), until {ext.isoformat()}: that section "
+                  "states no 'not yet started' condition and adds to s.14 and s.14C rather than "
+                  "limiting them (s.14C1(e)), so cancelling a started one-off service may still be "
+                  "argued. Tell the user this is unsettled; the letter can cite s.14C1 without "
+                  "conceding the point.")
+        print("If there was pressure or deception, check s.32 as well.")
+        print(CAVEAT)
+        return
+    if a.type == "distance":
+        rule = "s.14C(c)(2)" if a.subject != "goods" else "s.14C(c)(1)"
+    else:
+        rule = "s.14(a)(2)" if a.subject != "goods" else "s.14(a)(1)"
     last = start + timedelta(days=STANDARD_DAYS)
     print(f"Standard right: cancel by {last.isoformat()} (14 days, {rule}). "
           "Send it a day early to be safe.")
@@ -202,16 +248,27 @@ def cancel(a: argparse.Namespace) -> None:
         else:
             print("No extended right: a distance sale gets 4 months only if the deal included a "
                   "conversation with the dealer, electronic included (s.14C1(c)).")
-    print("Count from the LATER of the deal date, receipt of the goods, or receipt of the "
-          "disclosure document. If the disclosure document never arrived, the clock may not "
-          "have started.")
+    if a.subject == "goods":
+        print("Count from the LATER of the deal date, receipt of the goods, or receipt of the "
+              "disclosure document. If the disclosure document never arrived, the clock may not "
+              "have started.")
+    else:
+        print("For a service, count from the LATER of the deal date or receipt of the disclosure "
+              "document. If the disclosure document never arrived, the clock may not have started.")
+    if a.subject == "service-continuing" and a.started:
+        src = "s.14(b)(1)" if a.type == "doortodoor" else "s.14E(b1)"
+        print("The service has started: the dealer may also keep the proportional price of the "
+              f"service already given ({src}).")
 
     if a.type == "doortodoor":
-        print("Door-to-door cancellation (s.14(b)): the dealer returns the full price paid, with "
+        paid = ("the price paid, less the proportional price of the service already given"
+                if a.subject == "service-continuing" and a.started else "the full price paid")
+        print(f"Door-to-door cancellation (s.14(b)): the dealer returns {paid}, with "
               f"no cancellation fee. Only an installation charge of up to NIS {INSTALL_CAP_NIS} is "
-              "allowed. Perishable goods are excluded (s.14(c)).")
+              "allowed. Perishable goods are excluded (s.14(c)). The dealer may still sue for a "
+              "significant deterioration in the goods (s.14(b1)).")
     else:
-        _distance_notes()
+        _distance_notes(a.subject)
         print("Refund within 14 days of the notice, with a copy of the charge-cancellation notice (s.14E).")
         if breach:
             print("Cancelling for a defect, non-conformity, late delivery or other dealer breach: "
@@ -220,7 +277,7 @@ def cancel(a: argparse.Namespace) -> None:
             fee = min(a.price * FEE_PCT, FEE_CAP_NIS)
             print(f"Maximum cancellation fee: NIS {fee:.2f} (5% or NIS 100, whichever is lower, "
                   "s.14E(b)(1)). Shipping and packaging count inside this cap.")
-    print(FOOTER)
+    print(CAVEAT)
 
 
 def main() -> None:
@@ -241,10 +298,14 @@ def main() -> None:
     c = sub.add_parser("cancel", help="cancellation deadline and fee")
     c.add_argument("--type", required=True, choices=["distance", "doortodoor", "instore", "continuing"])
     c.add_argument("--received", help="YYYY-MM-DD, the later of deal / delivery / disclosure document")
-    c.add_argument("--price", type=float)
+    c.add_argument("--price", type=float, help="price actually paid, in NIS")
     c.add_argument("--status", choices=["none", "senior", "oleh", "disability"], default="none")
     c.add_argument("--conversation", action="store_true", help="distance deal included a call or chat with the dealer")
     c.add_argument("--reason", choices=["no-reason", "defect"], default="no-reason")
+    c.add_argument("--subject", choices=["goods", "service-oneoff", "service-continuing"],
+                   default="goods", help="distance / door-to-door: goods, a one-off service, or a "
+                   "continuing service (subscription)")
+    c.add_argument("--started", action="store_true", help="the service has already started")
     c.add_argument("--goods", choices=["listed", "clothing", "jewelry", "other"], default="other",
                    help="in-store only: which schedule item the goods fall under")
 
