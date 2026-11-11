@@ -68,6 +68,23 @@
         "Watch: gov.il small_claims_courts_guide chapter 1 still shows the 15-day appeal period and pre-2021 venue grounds (place obligation created, place asset delivered); the consolidated reg 2(a) marks those paragraphs deleted. Do not reintroduce them from the guide.",
         "Ceiling 39,900 applies to filings in 2026; re-check on 1.1.2027 indexation."
       ]
+    },
+    {
+      "cycle": 3,
+      "version": "1.5.0",
+      "date": "2026-11-11",
+      "from_version": "1.4.0",
+      "summary": "Drift pass. Ceiling NIS 39,900, reg 6 fee (1%, min NIS 50 not indexed, round up to NIS 5) and the NIS 588 leave-to-appeal fee re-verified on the gov.il fee guide (updated 10.11.2026); no amendment to the regulations or Courts Law ss.60-64/79A since June 2026. Fixed online attachment limit 30 MB -> 70 MB; added online credit-card-only and 5-party limit, defendant ID number needed for execution, witness summons (60 days, fee deposit), Hebrew-only filing + interpreter 7 days, execution opening fee (regular track 1%, min NIS 109). Script now warns when run after the ceiling year. Removed the duplicate 'Filing tips by case type' table (word cap). Round 2 (Expert CRITICAL/MAJOR): s.60(a) exclusions (Labour Court exclusive jurisdiction, assigned rights), 7-year filing limitation, execution request only after 30 days from judgment, two-track execution opening fee (regular min NIS 109; shortened min NIS 103 + NIS 78), sole trader sued personally, plaintiff may request judgment without defence before the hearing. Practical hearing tips moved to references/evidence-guide.md (word cap). Judge PASS r1+r2, Expert FAIL r1 -> PASS r2, legal PASS.",
+      "lessons": [
+        "Still deferred: step-by-step personal service method (company registered office, attempts rule), settlement approval before the hearing, claim withdrawal and fee refund, third-party notice copies, extension of time for a defence, s.60(b) transfer ground.",
+        "Kol Zchut is stale on two points (30 MB, Hebrew or Arabic); prefer the gov.il service page.",
+        "Ceiling 39,900 and appeal fee 588 are 2026 figures; re-check after the 1.1.2027 indexation (CPI for December 2026 is published mid-January 2027).",
+        "Expert r2 MINOR: Example 4 quotes the shortened-track fee without the track's conditions (debtor's total execution debts up to NIS 100,000, no insolvency, not a limited-means debtor; no movable or land seizure). Add next cycle.",
+        "Expert MINOR deferred: s.63(a) representation by a Minister-designated organization; general s.60(b) unsuitability transfer ground.",
+        "Legal advisory: DB prompts reworded this cycle toward organising facts and required fields rather than drafting the pleading; keep that framing.",
+        "SKILL.md body is about 4,980 words; any addition needs an equal move to references/."
+      ],
+      "value_add": "PASS with=1.00 without=0.21 delta=+0.79 (4 cases: leave-to-appeal clock, internet-commerce venue + fee rounding, plaintiff service duty, defendant ID for execution)"
     }
   ]
 }

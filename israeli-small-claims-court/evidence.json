@@ -33,7 +33,7 @@
     },
     {
       "claim_id": "filing-fee",
-      "claim": "The filing fee is 1% of the claim amount and in any case not less than NIS 50 (50 ש\"ח). Applied to the tiers used in the skill: a claim up to NIS 5,000 (5,000 ש\"ח) pays the NIS 50 minimum, a claim of NIS 5,001 and above pays 1%, so a NIS 8,000 (8,000 ש\"ח) claim pays NIS 80 (80 ש\"ח) and a NIS 3,500 (3,500 ש\"ח) claim pays the minimum.",
+      "claim": "The filing fee is 1% of the claim amount and in any case not less than NIS 50 (50 ש\"ח); the 1% amount is then rounded UP to a multiple of NIS 5 (see fee-rounding-reg6). So a claim up to NIS 5,000 (5,000 ש\"ח) pays the NIS 50 minimum, a NIS 8,000 (8,000 ש\"ח) claim pays NIS 80 (80 ש\"ח), a NIS 3,500 (3,500 ש\"ח) claim pays the minimum, and a NIS 5,001 claim pays NIS 55.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
       "raw_snippet": "לשלם אגרה בגובה של 1% מסכום התביעה, ובכל מקרה לא פחות מ-50 ₪.",
       "fetched_at": "2026-06-04T00:00:00Z",
@@ -187,7 +187,8 @@
       "appears_in": [
         "SKILL.md Examples",
         "SKILL_HE.md דוגמאות",
-        "references/demand-letter-template.md"
+        "references/demand-letter-template.md",
+        "references/evidence-guide.md"
       ]
     },
     {
@@ -375,17 +376,6 @@
       "claim": "Digital filing is done from a computer, not a mobile phone, on the Judicial Authority site with national identification.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
       "raw_snippet": "יש להיכנס דרך המחשב (לא מטלפון נייד) אל אתר הרשות השופטת",
-      "fetched_at": "2026-09-13T12:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "online-filing-pdf-30mb",
-      "claim": "Only PDF files up to 30 MB in total may be attached to an online claim.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
-      "raw_snippet": "ניתן לצרף לכתב התביעה רק קובצי PDF במשקל כולל של עד 30 מגה",
       "fetched_at": "2026-09-13T12:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -813,6 +803,286 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "online-filing-pdf-70mb",
+      "claim": "Online filing accepts only PDF attachments, up to 70 MB in total",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "בהגשת תביעה מקוונת - ניתן לצרף לכתב התביעה רק קובצי PDF במשקל כולל של עד 70 מגה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "online-fee-credit-card-only",
+      "claim": "Online fee payment is by credit card only",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "תשלום האגרה באופן מקוון - בכרטיס אשראי בלבד.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "online-max-5-parties",
+      "claim": "Online filing allows up to 5 plaintiffs and 5 defendants; more must be filed manually",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "בהגשה מקוונת - ניתן לצרף לתביעה עד 5 תובעים ולתבוע עד 5 נתבעים. אם יש יותר מ-5 תובעים או 5 נתבעים, יש להגיש את התביעה באופן ידני.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "defendant-details-id-phone",
+      "claim": "The claim must state the defendant address, phone and ID number",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "יש לציין בכתב התביעה את הכתובת, את מספר הטלפון ואת מספר הזיהוי של הנתבע.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "defendant-id-needed-for-execution",
+      "claim": "Without the defendant ID number in the judgment no execution file can be opened",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "אפשר להגיש תביעה קטנה גם בלי מספר הזיהוי של הנתבע, אבל אז לא תהיה לתובע אפשרות לפתוח תיק בהוצאה לפועל לביצוע פסק הדין",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "osek-murshe-id-is-osek-number",
+      "claim": "For an osek murshe the owner ID number is usually the osek number on invoices",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "מספר תעודת הזהות של בעל העסק הוא בדרך כלל מספר העוסק, ולרוב הוא מופיע על חשבוניות או קבלות מהעסק.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "witness-details-in-claim",
+      "claim": "Witness name, mobile phone and email go in the claim; the plaintiff invites own witnesses",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "יש לצרף לכתב התביעה את הפרטים שלהם: שם מלא, מספר טלפון נייד וכתובת דואר אלקטרוני.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/evidence-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "witness-summons-60-days",
+      "claim": "A request to summon a witness is filed at least 60 days before the hearing",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "יש להגיש את הבקשה לזימון, עד לפחות 60 ימים לפני מועד הדיון.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/evidence-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "witness-fee-deposit",
+      "claim": "Compelling a witness requires depositing a witness fee set by the court",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "חיוב עד להעיד כרוך בהפקדת שכר עדות לעד, שיופקד על ידי מי שביקש את העדות (התובע או הנתבע). גובה שכר העדות יקבע על ידי בית המשפט.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/evidence-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "language-hebrew-only",
+      "claim": "The claim must be filed in Hebrew only; interpreter request in writing at least 7 days before the hearing",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "יש להגיש את התביעה בעברית בלבד.אם יש צורך במתורגמן בדיון, יש להגיש בקשה בכתב למזכירות בית המשפט לפחות 7 ימים לפני מועד הדיון.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "eca-opening-fee-regular-track",
+      "claim": "Execution file opening fee: 1% of updated debt or minimum NIS 109, added to the debt",
+      "source_url": "https://www.gov.il/he/service/opening_monetary_verdict_file",
+      "raw_snippet": "אגרת פתיחת תיק - אגרה בסך 1% מגובה החוב המעודכן או מינימום 109 ₪, הגבוה מביניהם. אגרות פתיחת תיק מתווספות",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "eca-25000-track-split",
+      "claim": "The execution service page splits by judgment amount above or below NIS 25,000",
+      "source_url": "https://www.gov.il/he/service/opening_monetary_verdict_file",
+      "raw_snippet": "מה גובה הסכום לתשלום שנקבע בפסק הדין גבוה מ- 25,000 ₪ נמוך מ- 25,000 ₪",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "ceiling-indexed-1-jan-2026",
+      "claim": "The ceiling was set to NIS 39,900 from 1 January 2026 by CPI indexation",
+      "source_url": "https://www.gov.il/he/pages/fee_guide?chapterIndex=3",
+      "raw_snippet": "סמכות בית המשפט לתביעות קטנות תעמוד מיום י\"ב בטבת התשפ\"ו (1 בינואר 2026) על 39,900 ₪.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "scripts/filing-fee-calculator.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "s60a-no-assigned-no-exclusive",
+      "claim": "Courts Law s.60(a): small claims cannot be on an assigned or endorsed right, nor within another court's exclusive jurisdiction",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "ובלבד שהתביעות אינן לפי זכות שהומחתה או שהוסבה ואינן בסמכותו הייחודית של בית משפט אחר",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "labour-court-exclusive-s24a1",
+      "claim": "Labour Court Law s.24(a)(1) (סעיף 24(א)(1) לחוק בית הדין לעבודה): the Regional Labour Court has exclusive jurisdiction over employee-employer claims arising from employment relations",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%99%D7%AA_%D7%94%D7%93%D7%99%D7%9F_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94&action=raw",
+      "raw_snippet": "בתובענות בין עובד או חליפו למעסיק או חליפו שעילתן ביחסי עבודה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "limitation-7-years-s5",
+      "claim": "Limitation Law s.5(1): a claim not concerning land is time-barred after seven years",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA&action=raw",
+      "raw_snippet": "בשאינו מקרקעין – שבע שנים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "limitation-starts-s6",
+      "claim": "Limitation Law s.6: the limitation period starts on the day the cause of action arose",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA&action=raw",
+      "raw_snippet": "תקופת ההתיישנות מתחילה ביום שבו נולדה עילת התובענה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eca-request-after-30-days",
+      "claim": "The execution request on a money judgment is filed after 30 days from the judgment, or from service if the judgment so requires, unless the judgment says otherwise",
+      "source_url": "https://www.gov.il/he/service/opening_monetary_verdict_file",
+      "raw_snippet": "יש להגיש את בקשת הביצוע לפתיחת תיק לאחר שחלפו 30 יום ממתן פסק הדין, או מיום מסירת פסק הדין לידי הנתבעים (החייבים) אם כך חויב בפסק הדין, אלא אם צוין אחרת בפסק הדין.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "eca-shortened-track-fee",
+      "claim": "Shortened track: opening fee 1% or minimum NIS 103 plus a one-time NIS 78 management fee",
+      "source_url": "https://www.gov.il/he/service/opening_monetary_verdict_file",
+      "raw_snippet": "אגרת פתיחת תיק - אגרה בסך 1% מגובה החוב המעודכן או מינימום 103 ₪, הגבוה מביניהם. אגרה חד פעמית של 78 ₪ עבור ניהול התיק במסלול המקוצר, בנוסף לאגרת פתיחת התיק.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "eca-shortened-track-max-25000",
+      "claim": "The shortened track handles debts up to NIS 25,000; such debts may also use the regular track",
+      "source_url": "https://www.gov.il/he/service/opening_monetary_verdict_file",
+      "raw_snippet": "ניתן לפתוח את התיק בחובות בסכום של עד 25,000 ₪ גם במסלול רגיל",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "osek-sued-as-private-person",
+      "claim": "A sole trader is sued as the business owner personally",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "כדי לתבוע עוסק פטור או עוסק מורשה, יש להגיש את התביעה נגד בעל או בעלת העסק, כאדם פרטי.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "judgment-without-defence-before-hearing",
+      "claim": "If no defence was filed in time, the plaintiff can ask for judgment on the claim alone before the hearing; the court decides",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "התובע יכול לבקש מבית המשפט לתת פסק דין לפי כתב התביעה בלבד, עוד לפני מועד הדיון. בית המשפט יחליט לפי שיקול דעתו",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
     }
   ]
 }

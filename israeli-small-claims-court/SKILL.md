@@ -26,7 +26,7 @@ Small claims court (Beit Mishpat LeTvi'ot Ktanot) is a division of the Magistrat
 | Lawyer representation | Only with the court's leave, for special reasons (Courts Law s.63(a)); with court approval and a power of attorney, a person who does not represent regularly, in the course of business or for pay may represent a party (s.63(b)) |
 | Who can be a plaintiff | Only an individual (including an osek murshe/patur); a company, partnership, or association cannot be a plaintiff (but can be a defendant) |
 | Max claims per plaintiff | If the plaintiff already filed more than 5 claims that year in the same court, the judge may decline to hear the claim and transfer it to the Magistrate Court |
-| Legal entities | Individuals file; companies and businesses can be sued as defendants |
+| Limitation period | A claim not concerning land is time-barred 7 years from the day the cause of action arose (Limitation Law ss.5(1), 6) |
 | Appeals | By leave only: a request for leave to appeal (bakashat reshut irur) to the District Court |
 
 **Types of claims accepted:**
@@ -51,6 +51,8 @@ Small claims court (Beit Mishpat LeTvi'ot Ktanot) is a division of the Magistrat
 | Family law matters | Handled by Family Court (Beit Mishpat LeMishpacha) |
 | Criminal complaints | Handled by criminal courts or police |
 | Class actions | The court hears a civil claim filed by an individual (Courts Law s.60(a)), so a class action cannot be filed here |
+| Another court's exclusive jurisdiction | Excluded by s.60(a). Above all, an employee's claim against an employer arising from the employment (unpaid wages, severance, pension) belongs to the Regional Labour Court (Labour Court Law s.24(a)(1)), even when framed as a "debt" |
+| A claim on an assigned right | Excluded by s.60(a): you cannot sue on a debt or right someone else assigned or endorsed to you |
 
 ### Step 2: Filing Process
 How to file a small claims case in Israel:
@@ -60,10 +62,10 @@ How to file a small claims case in Israel:
 | 1. Determine jurisdiction | קביעת סמכות מקומית | File where the defendant lives or has a place of business, or where the act or omission you are suing over happened (internet publication or commerce claims: see the jurisdiction table below) |
 | 2. Prepare the claim | הכנת כתב התביעה | Use the online structured form, or draft a claim with the contents required by reg. 3 (the official Form 1 was repealed for proceedings opened from 11.4.2025) |
 | 3. Calculate filing fee | חישוב אגרה | 1% of claim amount, rounded up to a multiple of NIS 5, minimum NIS 50 |
-| 4. Submit the claim | הגשת התביעה | Online through the Judicial Authority site (national digital identification, from a computer rather than a phone, PDF attachments up to 30 MB in total), or on paper at the court clerk's office in 3 full copies (plus one more for each additional defendant) |
+| 4. Submit the claim | הגשת התביעה | Online through the Judicial Authority site (national digital identification, from a computer rather than a phone, PDF attachments up to 70 MB in total, fee by credit card only, at most 5 plaintiffs and 5 defendants; above that file on paper), or on paper at the court clerk's office in 3 full copies (plus one more for each additional defendant) |
 | 5. Court sends summons | בית המשפט שולח הזמנה | The court sends the hearing summons to both parties by registered mail with delivery confirmation, and the defendant also gets a copy of the claim |
 | 6. Verify service (plaintiff's duty) | מסירה באחריות התובע | At least 60 days before the hearing, check Net HaMishpat / the national service center that the defendant actually received the claim + summons. If it has not been served by 60 days before the hearing, YOU must serve it at least 40 days before the hearing and file proof of service (ishur mesira). Without proof of service the judge cannot hear the case and your claim can be struck |
-| 7. Defendant responds | הנתבע מגיב | 30 days from service to file a defense (ktav hagana), in 3 copies, at the clerk's office, on Net HaMishpat or by mail (not by fax). A missing defense does not guarantee a win: the regulations allow judgment on the claim alone, but in practice the court usually still lets the defendant argue at the hearing |
+| 7. Defendant responds | הנתבע מגיב | 30 days from service to file a defense (ktav hagana), in 3 copies, at the clerk's office, on Net HaMishpat or by mail (not by fax). A missing defense does not guarantee a win: the plaintiff may ask for judgment on the claim alone even before the hearing, and the court decides at its discretion; in practice the court usually still lets the defendant argue at the hearing |
 | 8. Hearing scheduled | קביעת מועד דיון | Court sets hearing date; defendant is summoned to appear on the date noted in the summons |
 
 **Filing fee calculation:**
@@ -90,17 +92,18 @@ How to file a small claims case in Israel:
 | Field | Hebrew | What to Include |
 |-------|--------|----------------|
 | Plaintiff details (Tove'a) | תובע | Full name, Teudat Zehut, address, phone, email |
-| Defendant details (Nitba) | נתבע | Full name, Teudat Zehut or company number (if known), address |
+| Defendant details (Nitba) | נתבע | A sole trader (osek patur or murshe) is sued as the owner personally. Full name, address, phone, and Teudat Zehut or company number. You may file without the ID number, but then you cannot open an execution file on the judgment unless it states the defendant's ID number |
 | Claim amount (S'chum HaTvi'a) | סכום התביעה | Exact amount in NIS, with breakdown |
 | Factual description (Teur HaUvdot) | תיאור העובדות | Clear, chronological account of what happened |
 | Legal basis (Ilat HaTvi'a) | עילת התביעה | Why you are entitled to the claimed amount |
 | Evidence list (Reshimat Ra'ayot) | רשימת ראיות | List of documents relied on; attach them all at filing (a document not attached needs the court's leave) |
 | Place of the act or omission, relief sought | מקום המעשה או המחדל, הסעד | Where it happened and what you ask for |
-| Witness list | רשימת עדים | Witnesses you intend to bring |
+| Witness list | רשימת עדים | Full name, mobile phone and email of each witness. You invite your own witnesses; if one may not come, ask the clerk to summon them at least 60 days before the hearing (you deposit a witness fee the court sets) |
 | Hearing preference | העדפת אופן דיון | Whether you prefer a video hearing or a decision on the papers |
 | Claims filed last year | מספר תביעות קטנות בשנה האחרונה | How many small claims you filed in the past year |
 | Truth declaration | הצהרת אמת | Declaration that the contents are true or to the best of your knowledge, stating the source of that knowledge |
 | Length | אורך | The body of the claim may not exceed 5 pages (proceedings opened from 11.4.2025) |
+| Language | שפה | Hebrew only (Judicial Authority filing page, Oct 2026). Need an interpreter at the hearing? Apply in writing to the clerk at least 7 days before |
 
 ### Step 3: Preparing Your Case
 Evidence and documentation are critical for success in small claims court:
@@ -153,18 +156,7 @@ What to expect at the small claims court hearing:
 | 8. Summary arguments | טיעוני סיכום | Brief final statements from each party |
 | 9. Judgment (Psak Din) | פסק דין | Given at the end of the hearing; the court may defer it by up to 7 days |
 
-**Practical hearing tips:**
-
-| Tip | Details |
-|-----|---------|
-| Dress appropriately | Business casual; show respect for the court |
-| Be concise | Judges appreciate brief, clear presentations |
-| Stick to facts | Avoid emotional arguments; focus on evidence |
-| Address the judge | "Kvod HaShofet" (Your Honor) |
-| Bring all documents | Organized in a folder, tabbed for easy reference |
-| Arrive early | At least 30 minutes before scheduled time |
-| Be respectful to opponent | Judges notice hostile or aggressive behavior |
-| Accept mediation if offered | Often results in faster, mutually acceptable resolution |
+Practical hearing tips (dress, timing, tone): see `references/evidence-guide.md`.
 
 **If a party does not appear (works both ways):**
 
@@ -191,7 +183,7 @@ After the hearing, understanding the judgment and enforcement process:
 
 | Step | Hebrew | Details |
 |------|--------|---------|
-| 1. Payment not made | התשלום לא בוצע | If the defendant does not pay as the judgment requires, you can apply to the Execution Office |
+| 1. Payment not made | התשלום לא בוצע | Unless the judgment says otherwise, the execution request is filed only after 30 days from the day the judgment was given (or from service on the defendant, if the judgment so requires) |
 | 2. Open execution file (Tik Hotza'a LaPo'al) | פתיחת תיק הוצאה לפועל | File at the Execution Office with the judgment |
 | 3. Execution Office sends warning | הוצאה לפועל שולחת אזהרה | The debtor is served a warning (azhara) and has 20 days from service to pay or to apply for an installments order (Execution Law s.7) |
 | 4. Enforcement measures | אמצעי אכיפה | Wage garnishment, bank seizure, property liens |
@@ -201,7 +193,7 @@ After the hearing, understanding the judgment and enforcement process:
 
 | Item | Details |
 |------|---------|
-| Opening fee | A small opening fee applies; check the current amount on the Enforcement and Collection Authority site before filing, as it is updated periodically |
+| Opening fee | Added to the debt (gov.il, July 2026). Regular track: 1% of the updated debt or NIS 109, whichever is higher. A debt up to NIS 25,000 may instead use the shortened track: 1% or NIS 103, whichever is higher, plus a one-time NIS 78 management fee |
 | Lawyer for enforcement | Optional; many handle enforcement themselves |
 | Warning period | 20 days from service of the Execution Office warning, before enforcement measures |
 | Statute of limitations on enforcement | 25 years for court judgments |
@@ -249,14 +241,7 @@ Typical small claims cases and their specific considerations:
 | Auto repair disputes | Work order, invoices, independent mechanic opinion | Consumer protection, contract |
 | Professional services | Engagement letter, correspondence, deliverables | Contract law |
 
-**Filing tips by case type:**
-
-| Case Type | Recommended Preparation |
-|-----------|------------------------|
-| Consumer | Gather all receipts, warranty documents, and complaint correspondence. Send demand letter citing Consumer Protection Law. |
-| Landlord-tenant | Compile lease, move-in/move-out photos, all written communications. Reference Fair Rental Law provisions. |
-| Service | Document the contract terms, what was promised vs. delivered, and get an independent expert opinion if applicable. |
-| Debt collection | Show proof of debt (contract, invoices), demand letters sent, and any partial payments received. |
+For a preparation checklist per case type, see `references/evidence-guide.md`.
 
 ## Examples
 
@@ -274,7 +259,7 @@ Typical small claims cases and their specific considerations:
 
 ### Example 4: Enforcing a Judgment
 **Input:** "I won my small claims case but the defendant hasn't paid. What now?"
-**Output:** Explain the enforcement process: if the defendant has not paid as the judgment requires, open an execution file (tik hotza'a lapo'al) at the nearest Execution Office. Bring the original judgment and your identification. Pay the opening fee (a small fee; check the current amount on the Enforcement and Collection Authority site). The Execution Office will serve the defendant a warning notice (azhara), which gives 20 days from service to pay or apply for an installments order. If the defendant still does not pay, enforcement measures include: wage garnishment (ikul mishkoret), bank account seizure (ikul cheshbon bank), and property liens (shi'abud). A travel ban needs total adjudged debts of at least NIS 50,000, so it is not available on this judgment alone. Many defendants pay after receiving the Execution Office warning.
+**Output:** Explain the enforcement process: if the defendant has not paid as the judgment requires, once 30 days have passed since the judgment (unless it set another date), open an execution file (tik hotza'a lapo'al) at the nearest Execution Office. Bring the original judgment and your identification. Pay the opening fee (on the shortened track for a debt up to NIS 25,000: 1% or NIS 103, whichever is higher, plus NIS 78; it is added to the debt). The Execution Office will serve the defendant a warning notice (azhara), which gives 20 days from service to pay or apply for an installments order. If the defendant still does not pay, enforcement measures include: wage garnishment (ikul mishkoret), bank account seizure (ikul cheshbon bank), and property liens (shi'abud). A travel ban needs total adjudged debts of at least NIS 50,000, so it is not available on this judgment alone. Many defendants pay after receiving the Execution Office warning.
 
 ## Bundled Resources
 
@@ -299,6 +284,7 @@ Typical small claims cases and their specific considerations:
 - The small claims court jurisdiction limit (NIS 39,900 as of January 2026) is updated periodically by the Ministry of Justice. Agents using an outdated limit will give incorrect filing advice. Always verify the current threshold.
 - Filing fees in Israeli small claims court are calculated as 1% of the claim amount, rounded up to a multiple of NIS 5 (minimum NIS 50), not a flat fee. Agents familiar with US small claims (which use flat filing fees) will miscalculate costs.
 - The Israeli Execution Office (Hotza'a LaPo'al) enforcement process is a distinct post-judgment system with its own procedures and fees. Agents may confuse it with regular court enforcement or skip this step entirely when advising on judgment collection.
+- Agents treat the defendant's ID number as optional because the online form accepts a claim without it. It is optional for filing but not for collecting: the Judicial Authority warns that without the defendant's ID number in the judgment you cannot open an execution file if they do not pay. For a sole trader (osek murshe), the owner's ID number is usually the osek number printed on invoices and receipts.
 - Claims over internet publication or online commerce follow a special local-jurisdiction rule (reg. 2(b) of the Small Claims Procedure Regulations): they may be filed ONLY where the defendant or the plaintiff lives or has a place of business. It is a procedural rule for all internet claims, not a consumer-protection rule, and it removes the usual place-of-act option. Agents also tend to invent a "where the property is" ground for landlord disputes; the regulations have none.
 
 ## Reference Links

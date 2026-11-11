@@ -79,7 +79,8 @@ Israeli small claims court accepts various forms of evidence. The court may acce
 - Witnesses should testify about **what they saw or heard directly**, not opinions or assumptions
 - Prepare witnesses by reviewing the facts (but never coach them on what to say)
 - Notify witnesses of the hearing date well in advance
-- If a witness cannot attend, ask the court in advance how to proceed; a written statement is not guaranteed to be accepted
+- You invite your own witnesses. If one may not come, file a request with the court clerk to summon them at least 60 days before the hearing (the witness's full address, mobile phone if known, and why the testimony is needed); the requesting party deposits a witness fee the court sets (Judicial Authority filing page, Oct 2026)
+- A written statement instead of live testimony is not guaranteed to be accepted
 
 ## Organizing Your Evidence
 
@@ -119,7 +120,7 @@ Date        | Event
 2025-01-05  | Photographed apartment at move-out
 2025-01-10  | Sent email requesting deposit return
 2025-02-01  | Sent follow-up email (no response)
-2025-03-15  | 60 days passed, no deposit returned
+2025-03-01  | 60 days since the apartment was returned, no deposit
 2025-04-01  | Sent demand letter via registered mail
 2025-04-20  | Deadline in demand letter passed, no response
 2025-05-01  | Filed small claims case
@@ -164,6 +165,19 @@ Date        | Event
 | Quotes for completing/fixing work | Shows cost to make it right | Useful |
 
 ## Presenting Evidence in Court
+
+### Practical Hearing Tips
+
+| Tip | Details |
+|-----|---------|
+| Dress appropriately | Business casual; show respect for the court |
+| Be concise | Judges appreciate brief, clear presentations |
+| Stick to facts | Avoid emotional arguments; focus on evidence |
+| Address the judge | "Kvod HaShofet" (Your Honor) |
+| Bring all documents | Organized in a folder, tabbed for easy reference |
+| Arrive early | At least 30 minutes before scheduled time |
+| Be respectful to opponent | Judges notice hostile or aggressive behavior |
+| Accept mediation if offered | Often results in faster, mutually acceptable resolution |
 
 ### During Your Opening Statement
 

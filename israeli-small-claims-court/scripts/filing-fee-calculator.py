@@ -18,12 +18,16 @@ Magistrate Court (Beit Mishpat Shalom).
 """
 
 import argparse
+import datetime
 import math
 import sys
 
 
 # Constants
 SMALL_CLAIMS_MAX = 39900  # Maximum claim amount in NIS (as of January 2026)
+# The ceiling is re-indexed to the CPI every 1 January. This value is only
+# known to be correct for claims filed during this calendar year.
+CEILING_YEAR = 2026
 MINIMUM_FEE = 50  # Minimum filing fee in NIS
 FEE_PERCENTAGE = 0.01  # 1% of claim amount
 
@@ -148,6 +152,12 @@ def main():
         print(f"  Claim amount:                        {result['claim_amount']:,.2f} NIS")
         print(f"  Filing fee (usually awarded, not guaranteed): {result['actual_fee']} NIS")
         print(f"  Court costs (at judge's discretion):  Variable")
+
+    if datetime.date.today().year > CEILING_YEAR:
+        print(f"\n  STALE DATA WARNING:")
+        print(f"  The NIS {SMALL_CLAIMS_MAX:,} ceiling is the {CEILING_YEAR} figure. The ceiling is")
+        print(f"  re-indexed every 1 January, so check the current figure on gov.il")
+        print(f"  before relying on the limit check above.")
 
     print(f"\n  DISCLAIMER (הערה חשובה):")
     print(f"  Fee amounts are based on regulations as of January 2026.")
