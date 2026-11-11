@@ -26,3 +26,11 @@ E2  לא שילמתי מזונות ואמרו לי שיוציאו נגדי צו 
     -> in scope (mezonot is one of the five file types) but must flag the separate track
 E3  שלחתי מכתב התראה ללקוח והוא לא הגיב, מה השלב הבא
     -> israeli-client-payment-chaser boundary; pre-legal, no file exists yet
+
+# Added 2026-11-11 (v1.2.0), frozen before scoring, scored as additional holdout
+H1  עיקלו לי את החשבון ולא קיבלתי שום אזהרה, אם אגיש בקשה לשחרר זה יפגע בי?
+    -> in scope (deemed service on filing, release route)
+H2  יש לי חשבון משותף עם אשתי ועיקלו אותו בגלל החוב שלי בהוצאה לפועל
+    -> in scope (third-party money)
+H3  נפתח נגדי תיק מימוש משכנתא בהוצאה לפועל על הדירה, מה עושים?
+    -> route out (mortgage realisation is a separate track)

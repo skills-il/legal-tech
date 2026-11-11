@@ -9,7 +9,12 @@
         "improved": [],
         "regressed": [],
         "persistent_fail": [],
-        "stable_success": ["P6", "P7", "N3", "E3"]
+        "stable_success": [
+          "P6",
+          "P7",
+          "N3",
+          "E3"
+        ]
       },
       "lessons": [
         "Kol Zchut cancellation page lists four restrictions scoped to its own audience; the statute (s.66א) lists five. Read the statute, not the page list, for any enumeration.",
@@ -22,6 +27,38 @@
         "Deferred (Expert minor): fixed-sum 30-day payment-order clock comes from Kol Zchut; statute default is 20 days or the date in the azhara. Consider framing as 'usually printed on the azhara'.",
         "Judge/Expert loop took 4 rounds: each repair of a statutory enumeration introduced a new over-generalisation (card carve-out, waiting periods). Read every limb of the section before writing a summary sentence.",
         "Holdout eval could not discriminate old vs new description (identical trigger phrases); add harder edge queries next cycle, e.g. a restriction-warning query and a maintenance-arrest query."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-11",
+      "holdout_before": 0.857,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "H3 (mortgage realisation file)"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "P6",
+          "P7",
+          "N3",
+          "E3",
+          "H1",
+          "H2"
+        ]
+      },
+      "lessons": [
+        "Resolved this cycle: default-judgment set-aside (30 days, originating court, reg. 131), legal aid, fee exemption, s.69ד(ב) corporation bar, deadlines.py restriction/arrest/payment-order-rejection clocks, fixed-sum 30-day ability exam, war-period/reservist relief (current temporary order to 28.2.2027).",
+        "Deferred (Expert major, no primary source read): set-aside ex debito justitiae when the claim was never validly served is not bound by the 30 days (case law, e.g. רע\"א 5736/15). Read the judgment before writing it.",
+        "Deferred (Expert minor): a reg. 27 7-day request does not by itself stop the 20-day appeal clock; source not confirmed.",
+        "Deferred (Expert minor): 21-day appearance after a rejected objection or paraati (s.67(א1)(2)) is in Step 5 for paraati only, not in the Step 9 calendar; Sukkot, Pesach and Memorial Day recesses are not flagged by deadlines.py.",
+        "Deferred: unattachable movables (s.22), short track (s.20ב), closing the file (form 406), bring-order conditions and cancellation (relief 62) belong in a references/protected-assets.md; body is at ~4,900 words.",
+        "Kol Zchut says an in-presence restriction takes effect immediately; s.66ג(ג) says at the end of 30 days from imposition. Statute governs; re-check if Kol Zchut is corrected or the statute amended.",
+        "Reservist relief temporary order expires 28.2.2027: re-check for extension or removal next cycle.",
+        "Index-linked figures (wage table, 176,923.12) update 1.1.2027: re-read then.",
+        "Repairs again introduced over-generalisations in round 2 (dropped Bituach Leumi exception when trimming, fixed-sum warning stated without the personal-delivery limb). Re-read the full provision before compressing a rule."
       ]
     }
   ]
