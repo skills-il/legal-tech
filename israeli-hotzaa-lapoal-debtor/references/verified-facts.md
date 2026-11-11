@@ -110,10 +110,9 @@ URL: https://www.kolzchut.org.il/he/חדלות_פירעון_ושיקום_כלכ�
   so it must be re-read on every update rather than hardcoded from memory.
 
 ## Still to verify (NOT yet sourced, do not write into the skill)
-- Debtor-side fee exemptions
-- Legal-aid eligibility for debtors (only the s.74(ג) arrest-warning mention is sourced)
-- Setting aside a default judgment (reg. 130) timing
+- Legal-aid income thresholds (the scope of aid is sourced 2026-11-11; the figures are not)
 - Criminal liability for breaching a restriction
+- Whether a special-emergency notice under the 1991 regulations (reg. 4 freezes deadlines) is in force at the time of use
 
 ## הגבלות (restrictions) and how to lift them
 URL: https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל
@@ -175,3 +174,58 @@ URL: https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל
 - 30 days in the account, then attachable; maintenance exception except income support.
 
 ### Freshness: every figure above re-read 2026-09-13, none changed since 2026-08-19.
+
+## 2026-11-11 update (Kol Zchut rendered with Playwright; statute and regulations from he.wikisource)
+
+Every figure above re-read 2026-11-11: no change (wage table, 80% rule, 176,923.12, 75,000, 150,
+50,000, 150,000, 500/2,500, 10,000, 20,000/100,000, 3/4 + 3 years). All 67 Kol Zchut snippets in
+evidence.json re-found on the rendered pages. No debtor-relevant amendment to the Enforcement Law
+since 2026-09-13.
+
+### Service (s.7; Kol Zchut אזהרה לחייב, המצאה)
+- Filing any request in the file = full service of the azhara that day: "הגיש החייב בקשה בתיק הוצאה לפועל שנפתח נגדו, יראו אותו כמי שהומצאה לו האזהרה בהמצאה מלאה ביום הגשת הבקשה האמורה"
+- Digital viewing after identification = full service.
+- Partial service (taped to the door after 3 visits) suffices for most steps; restrictions, the evaders register, bring and arrest need full service or an appearance.
+- Ability examination: 21 days, or 30 in fixed-sum and pledge files (Kol Zchut אזהרה).
+
+### Lifting an attachment (Kol Zchut מדריך לחייב בהוצאה לפועל שיש עיקולים עליו או על רכושו; עיכוב הליכי גבייה לחייב שמשלם)
+- Form 214, section 4 item ה for a current account; three months of statements; account confirmation.
+- Usual grounds: payment order set and first payment made; arrangement with the creditor; court decision.
+- Form 351, paying debtor: three consecutive payments under a payment order, or one under the azhara table (up to 50,000). Decision within 45 days. Not in maintenance files.
+- Third party (e.g. joint account): the owner can ask for a stay and go to court to prove ownership.
+
+### Ability-exam exemptions (Kol Zchut פטור מהתייצבות לחקירת יכולת; s.67(א1); reg. 12א(ה))
+- No duty in maintenance, mortgage/pledge, non-monetary judgment or corporate-debtor files.
+- Pending payment-order request, timely objection, or paraati filed within 21 days: exempt while pending.
+- Payment-order request rejected: appear within 14 days of service of the summons.
+
+### Decisions and appeals (Kol Zchut ביטול החלטה ... ללא שמיעת הצד הנפגע; ערעור על החלטות רשם)
+- 7 days from learning of a decision given without hearing you: ask the registrar to cancel or change it.
+- Appeal: magistrates' court, 20 days from the decision (in presence) or from its service; as of right for the decisions listed in s.80(ב) (incl. exit/passport orders and paraati), otherwise with leave. Family-origin debt: appeal as of right to the family court, 15 days. No automatic stay.
+- Default judgment: set aside within 30 days of service of the judgment, in the court that gave it (Kol Zchut בקשה לביטול פסק דין שניתן בהיעדר הגנה).
+
+### Counting and filing (he.wikisource)
+- Interpretation Law s.10: day of service not counted; rest, recess or holiday days count unless they are the last days.
+- Enforcement (Recess) Regulations reg. 3: a last-day Friday is treated as a recess day.
+- Enforcement Regulations reg. 128(ב): office recess not counted for an objection.
+- Enforcement Regulations reg. 15א2 (from 31.8.2026): online filing after 23:59 Sun-Thu, or on Fri/Sat/rest day, counts as the next weekday.
+
+### Fees, legal aid, limited means
+- Fee schedule item (א)(7): a written request, including an objection, is fee-exempt.
+- Legal aid (Kol Zchut סיוע משפטי מטעם משרד המשפטים בתחום ההוצאה לפועל): free apart from a fee, by income, covers ability examination, payment order, paraati and objection, urgent track.
+- s.69ד(ב): limited-means debtor may not found or hold an interest in a corporation without prior registrar approval.
+
+### Reservist relief (temporary order until 28.2.2027)
+- Debtor or spouse who served in the reserves; notify the office with the call-up order; 3 months from the later of start of service or of the order, +3 months on notice if still serving; collection steps in reg. 3(א1)(2) of the special-emergency regulations are not taken; maintenance excluded except maintenance collected by Bituach Leumi.
+
+### Round 2 (2026-11-11, after judge and expert review)
+- s.80(ב): registrar decisions are appealable with leave, except a listed set appealable as of right, including s.19 (paraati) and s.66א(1),(2) (exit, passport); Kol Zchut excludes an exit order made in consolidation or limited-means proceedings. s.80(ג): no automatic stay.
+- reg. 27(ד): the 7-day request to cancel an ex parte decision does not apply to decisions under ss.19, 25, 48, 58.
+- s.19(א),(ב): a paraati claim does not stay collection by itself; stay only for special reasons recorded, with security unless the registrar decides otherwise.
+- s.81א1(ב1),(ב2),(ג): fixed-sum warning by registered mail with delivery confirmation (or personal delivery by the creditor's advocate after mail failed), refusal counts, filing only after 30 days, a fresh warning after a year.
+- s.74(ג1): no new 7-day warning for a repeat arrest in the same file.
+- s.67(ד): not appearing for the ability examination = treated as a debtor with means who evades.
+- s.66ג: restriction takes effect at the end of 30 days from service of the warning; in-presence imposition, at the end of 30 days from imposition (s.66ג(ג)). Kol Zchut's "takes effect immediately" for in-presence imposition is contradicted by the statute; the statute governs.
+- Kol Zchut המצאה: a request to cancel an attachment must be served on the creditor within 3 days.
+- Reservist order: later of start of service or of the order; +3 months on notice if still serving; earlier steps cancellable; registrar may decide otherwise on the creditor's request.
+- reg. 44א(א): a debtor's request to cancel an attachment is served on the creditor within 3 days by registered mail with delivery confirmation; (ב) creditor responds within 7 days.

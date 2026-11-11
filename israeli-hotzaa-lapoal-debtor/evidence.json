@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-hotzaa-lapoal-debtor",
   "schemaVersion": "1.0",
-  "generated_at": "2026-09-13T20:00:00Z",
+  "generated_at": "2026-11-11T12:00:00Z",
   "note": "kolzchut.org.il returns 403 to WebFetch; every snippet below was read from a Playwright browser render on 2026-08-19, hence verified_via=browser.",
   "claims": [
     {
@@ -12,7 +12,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "יש להגיש את ההתנגדות בתוך 30 ימים מיום המצאת האזהרה.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -23,7 +23,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "יש להגיש את ההתנגדות באמצעות טופס לבקשת התנגדות לביצוע שטר או תובענה (טופס 218).",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -34,7 +34,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הגשת ההתנגדות במועד, תעכב אוטומטית את הליכי הגבייה בהוצאה לפועל, והתביעה תועבר לדיון בפני בית המשפט.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -45,7 +45,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הגשת ההתנגדות באיחור, לא תעכב אוטומטית את הליכי הגבייה בהוצאה לפועל, ולכן יש להגיש בקשה נפרדת לעיכוב הליכים.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -56,7 +56,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "התצהיר צריך להיות חתום בפני עורך דין, שופט, רשם בהוצאה לפועל, עובד בית משפט, או עובד לשכת ההוצאה לפועל שהוסמך לכך.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -67,7 +67,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "ההתנגדות של החייב תיחשב כבקשת רשות להתגונן",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -78,7 +78,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "על הזוכה להמציא את ההחלטה או פסק הדין תוך 14 ימים ללשכת ההוצאה לפועל",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -89,7 +89,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "לזימון תור יש להיכנס לאתר זימון התורים או להתקשר למוקד המידע הטלפוני בטלפון *35592.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -100,7 +100,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "תביעה על חוב ברור, שיש עליו בדרך כלל ראיות בכתב, ובסכום מקסימלי של 75,000 ש\"ח",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -111,7 +111,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "גובה החוב עולה על הסכום המקסימלי של 75,000 ₪ נכון ליום הגשת התביעה.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -122,7 +122,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "אפשר להגיש התנגדות על חלק מסכום התביעה (ובכך, להסכים לחלק האחר) או על הסכום כולו.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -133,7 +133,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "ניתן להעלות טענת \"פרעתי\" בכל שלב של הליכי ההוצאה לפועל ובכל מועד",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -144,7 +144,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "יש להגיש בקשה בכתב על גבי טופס בקשת חייב בטענת פרעתי (טופס 236) ולסמן את סעד מס' 119.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -155,7 +155,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "ניתן להשתמש בטענת \"פרעתי\" רק אם פרעון החוב נעשה לאחר מתן פסק הדין. כלומר לא ניתן להעלות באמצעות טענת \"פרעתי\" השגות על פסק הדין עצמו.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -166,7 +166,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "אם הבקשה תוגש בתוך 21 ימים מיום המצאת האזהרה לחייב, הוא לא יידרש להתייצב לחקירת יכולת כל עוד בקשתו לא נדחתה.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -177,7 +177,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "אם נדחתה טענת \"פרעתי\" שטען החייב, עליו להתייצב לחקירת יכולת (או לפרוע את החוב) בתוך 21 ימים.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -188,7 +188,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הוא יטיל על החייב הוצאות מיוחדות אם מצא כי לא היה יסוד לטענה.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -199,7 +199,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "חייבים או זוכים שלא מיוצגים על ידי עורך דין, רשאים לבחור אם לבצע את ההגשות באופן מקוון או ידני.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -210,7 +210,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "להלן טבלת המצבים והסכומים, נכון לשנת 2026:",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -221,7 +221,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "אם הסכומים שצוינו בטבלה גבוהים מ-80% משכר הנטו של העובד, יושארו בידי העובד 80% משכר הנטו ולא סכומים אלה, כלומר במקרים אלה מותר לעקל 20% משכר הנטו של העובד.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -232,7 +232,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "במקרה שמדובר בתיק מזונות המגיעים מהחייב, ניתן לעקל את כל השכר.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -243,7 +243,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "ההגבלה על העיקול תחול על השכר למשך חודש ימים מהיום שהופקד (כלומר, אם החייב לא משך את הסכום שהופקד בתוך חודש, יהיה ניתן לעקל אותו).",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -254,7 +254,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "צו עיכוב יציאה מהארץ.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -265,7 +265,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הגבלה על קבלה, החזקה או הארכה של דרכון או תעודת מעבר.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -276,7 +276,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הגבלה על שימוש בכרטיסי חיוב (כרטיסי אשראי).",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -287,7 +287,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הגבלה על ייסוד תאגיד או כהונה בתאגיד.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -298,7 +298,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "יש למלא ולהגיש בקשה לביטול או עיכוב או חידוש הליכים והגבלות (טופס 214)",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -309,7 +309,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "במקרה כזה ההגבלה החדשה תיכנס לתוקף מייד, ללא צורך במשלוח התראה.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -320,7 +320,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "הבקשה לביטול הגבלות מוגשת לפי תיקים, ולכן אם יש הגבלה מסוימת במספר תיקים, יש להגיש את הבקשה לביטול בכל תיק בנפרד.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -331,18 +331,18 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "ועד מקסימום 24 שעות ממועד הביטול, הודעה על כך לגורמים הרלוונטיים",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
       "id": "restriction-appeal-leave",
-      "claim": "A decision on a restriction cannot be appealed directly; leave to appeal is required",
+      "claim": "A decision whether to cancel a restriction is appealed only with leave (the restriction order itself, for exit and passport, is appealable as of right)",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "על החלטה של רשם ההוצאה לפועל לבטל או לא לבטל הגבלה אי אפשר לערער ישירות לבית המשפט ויש לקבל רשות לערער.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -353,7 +353,7 @@
       "source_fetched_at": "2026-08-19T15:20:00Z",
       "raw_snippet": "בספטמבר 2019, נכנסה לתוקף רפורמה חדשה שמטרתה לייעל ולקצר את ההליכים, לתחום אותם בזמן ולאזן בין האינטרסים של החייב ושל הנושה. לפי החוק החדש, נערכת הבחנה עיקרית בין חובות בסכום נמוך מ-176,923.12 ₪ (נכון ל-2026) וחובות בסכום גבוה מזה.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -364,7 +364,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "יחיד/ה | 2,596 ₪ | 103.82 ₪",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -375,7 +375,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "שני בני זוג | 3,893 ₪ | 155.73 ₪",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -386,7 +386,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "שני בני זוג עם ילד | 4,516 ₪ | 180.65 ₪",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -397,7 +397,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "שני בני זוג עם 2 ילדים ומעלה | 5,139 ₪ | 205.56 ₪",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -408,7 +408,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "הורה עצמאי (רווק/ה, גרוש/ה, אלמן/ה וכו') + ילד | 4,250 ₪ | 170.01 ₪",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -419,7 +419,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "הורה עצמאי + 2 ילדים ומעלה | 5,289 ₪ | 211.54 ₪",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -430,7 +430,7 @@
       "source_fetched_at": "2026-08-19T15:21:00Z",
       "raw_snippet": "הוצאה לפועל וגבייה",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -441,7 +441,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "יש להגיש את הבקשה באמצעות מילוי טופס בקשה למתן צו חיוב תשלומים/שינוי צו חיוב בתשלומים (טופס 233).",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -452,7 +452,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "שאלון וכתב ויתור על סודיות (טופס 529) חתומים על ידי החייב.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -463,7 +463,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "בתיק מסוג פסק דין כספי או תיק שטרות - על החייב להגיש את את הבקשה תוך 20 ימים מהמועד שבו נמסרה לו האזהרה (המצאה) .",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -474,7 +474,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "בתיק מסוג תביעה על סכום קצוב - יעל החייב להגיש את הבקשה תוך 30 ימים מיום שנמסרה לו האזהרה (המצאה).",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -485,7 +485,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "חייב יכול להגיש את הבקשה גם במועד מאוחר יותר, אך לחוב שלו עלולים להתווסף ריביות ושכר טרחת עורך דין.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -496,7 +496,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "לאחר הגשת הבקשה, על החייב לשלם את התשלום החודשי במועד ובשיעור שהציע בבקשה, עד להחלטת רשם ההוצאה לפועל בבקשתו וכל עוד לא החליט רשם ההוצאה לפועל אחרת. הסכום המינימלי שאפשר לשלם הוא 150 ₪.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -507,7 +507,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "אישור הבקשה לא מעכב ולא מבטל אוטומטית את ההגבלות או העיקולים, ויש להגיש בקשה נפרדת לעיכוב או ביטול ההגבלות והעיקולים",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -518,7 +518,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "לא תתווסף ריבית פיגורים לקרן החוב שלו בהוצאה לפועל או שיופחתו 25% מהריביות בתיק",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -529,7 +529,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "לקבל את בקשת החייב ולתת צו תשלומים.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -540,7 +540,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "אם לחייב יש מספר תיקים, הרשם ישקול בזמן מתן ההחלטה על צו התשלומים האם לאחד את כל התיקים ולקבוע שהצו יחול על כל החובות.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -551,7 +551,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "או שהוא לא יכול לעמוד בהצעת הפריסה שנרשמה באזהרה (בתיקים עד 50,000 ש\"ח)",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -562,7 +562,7 @@
       "source_fetched_at": "2026-08-19T15:36:00Z",
       "raw_snippet": "6 תלושים המשכורת האחרונים או טופס 106 של המבקש, בן/בת זוגו ושאר בני ביתו הבגירים שמתגוררים איתו.",
       "verified_via": "browser",
-      "verified_at": "2026-08-19",
+      "verified_at": "2026-11-11",
       "confidence": "high"
     },
     {
@@ -1058,6 +1058,818 @@
       "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
       "source_fetched_at": "2026-09-13T22:30:00Z",
       "raw_snippet": "אם סך חובותיו של החייב אינו עולה על 150,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-bank-214",
+      "claim": "Lifting a bank-account attachment is requested on form 214, section 4 item ה (Form 214 / טופס 214, סעיף 4)",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הבקשה לביטול עיקול חשבון הבנק תוגש על גבי טופס בקשה לביטול / עיכוב / חידוש הליכים והגבלות (טופס 214), ולסמן בסעיף 4 בטופס \"ה. בקשה לביטול עיקול חשבון עו\"ש (עובר ושב)\".",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-salary-214",
+      "claim": "Lifting a salary attachment is requested on form 214, section 4",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הבקשה לביטול עיקול המשכורת תוגש על גבי טופס בקשה לביטול / עיכוב / חידוש הליכים והגבלות (טופס 214), ולסמן בסעיף 4 בטופס \"עיקול צד ג' מתחדש /עיקול משכורת\".",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-docs-statements",
+      "claim": "Attach three months of current-account statements",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "פירוט תנועות בחשבון הבנק (עובר ושב) משלושת החודשים האחרונים.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-docs-account",
+      "claim": "For a bank account, attach confirmation that the account is held",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אישור ניהול חשבון הבנק.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-ground-payorder",
+      "claim": "Registrar usually cancels where a monthly payment order was set and the first payment made",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "נקבע לחייב צו תשלומים חודשי והוא שילם לפחות את התשלום הראשון.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-ground-arrangement",
+      "claim": "... or the debtor reached a payment arrangement with the creditor",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "החייב הגיע להסדר תשלומים עם הזוכה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-ground-court",
+      "claim": "... or a court decision orders cancellation",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "החייב מחזיק בהחלטת בית משפט שקובעת שיש לבטל את העיקול על חשבון הבנק.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-third-party",
+      "claim": "Money belonging to a third party: that person can ask for a stay and go to court to prove ownership",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לחייב_בהוצאה_לפועל_שיש_עיקולים_עליו_או_על_רכושו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אם הרכוש שעוקל לא שייך לחייב אלא לצד שלישי (גורם או אדם אחר), יכול אותו אדם להגיש בקשה לעיכוב הליכים ולפנות לבית המשפט כדי להוכיח את בעלותו.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-351",
+      "claim": "Recognition as a paying debtor is requested on form 351 (Form 351 / טופס 351)",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשת חייב להכרה כ\"חייב משלם\" (טופס 351)",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-3-payments",
+      "claim": "Eligible after three consecutive payments under a payment order",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "שילם שלושה תשלומים ברציפות לפי צו תשלומים.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-table",
+      "claim": "... or one payment under the azhara table in files up to 50,000 NIS",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "שילם תשלום אחד לפי כללי \"טבלת המינהל\" (פריסת התשלומים שמופיעה באזהרה על פתיחת התיק בחובות של עד 50,000 ₪).",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-stays",
+      "claim": "May stay salary, current-account, movables and vehicle-seizure steps",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אם הבקשה תתקבל, הוא עשוי להיות זכאי לעיכוב של חלק מהליכי הגבייה הבאים:",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-45-days",
+      "claim": "Decision sent within 45 days",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הבקשה תועבר לגורם המוסמך בהוצאה לפועל, וההחלטה תישלח לחייב תוך 45 יום ממועד ההגשה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-no-mezonot",
+      "claim": "Not available in maintenance files",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אי אפשר להגיש בקשה או להכיר בחייב כ\"חייב משלם\" בתיק מזונות.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "deemed-service-kz",
+      "claim": "Filing any request in the file counts as full service of the azhara on that day",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/אזהרה_לחייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "ככלל, אם החייב הגיש בקשה כלשהי בתיק הוצאה לפועל שנפתח נגדו, ייחשב כאילו שהומצאה לו האזהרה בהמצאה מלאה ביום שהוא הגיש את הבקשה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "ability-exam-21-30",
+      "claim": "Ability examination within 21 days, or 30 in fixed-sum and pledge files",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/אזהרה_לחייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אז עליו להתייצב באחת מלשכות ההוצאה לפועל לחקירת יכולת בתוך 21 ימים (או 30 ימים בתיקים מסוג תביעה על סכום קצוב ותיקי משכון).",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "service-digital",
+      "claim": "Viewing a digital notice after identification counts as full service",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/המצאה_(מסירת_מסמך_רשמי_לנמען)_במסגרת_הליכי_הוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "המצאה בדרך של הזדהות דיגיטלית: אם האדם אישר צפייה בהודעה דיגיטלית לגבי תיק הוצאה לפועל, לאחר שהזדהה באותו אמצעי דיגיטלי, הצפייה תיחשב כהמצאה מלאה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "service-partial-door",
+      "claim": "Partial service: taped to the door after at least 3 visits",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/המצאה_(מסירת_מסמך_רשמי_לנמען)_במסגרת_הליכי_הוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "המסירה תיחשב להמצאה חלקית אם מבצע המסירה (למשל שליח או בא כוחו של הזוכה) הדביק את המסמך באופן פיזי על דלת ביתו של הנמען, בתנאי שקודם לכן ביקר במקום לפחות 3 ביקורים והנמען לא נמצא בביתו.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "service-partial-enough",
+      "claim": "Partial service is enough for most steps",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/המצאה_(מסירת_מסמך_רשמי_לנמען)_במסגרת_הליכי_הוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "ברוב המקרים אפשר להסתפק בהמצאה חלקית לצורך המשך נקיטת ההליכים השונים, ובמקרים מסוימים דורש החוק שמסמך יימסר בהמצאה מלאה בלבד.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "exempt-payorder-14",
+      "claim": "Pending payment-order request exempts from the ability examination; if rejected, appear within 14 days of service of the summons",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_מהתייצבות_לחקירת_יכולת_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "החייב הגיש בקשה לצו תשלומים, וכל עוד בקשתו לא נדחתה. אם דחה הרשם את בקשתו, החייב צריך להתייצב לחקירת יכולת בתוך 14 ימים מיום שהומצאה לו ההזמנה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "exempt-paraati-21",
+      "claim": "Paraati filed within 21 days exempts while pending",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_מהתייצבות_לחקירת_יכולת_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "החייב הגיש בקשה בטענת \"פרעתי\" בתוך 21 ימים מהיום שנמסרה לו האזהרה, וכל עוד בקשתו לא נדחתה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "exempt-mezonot",
+      "claim": "No ability-examination duty in maintenance files",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_מהתייצבות_לחקירת_יכולת_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשת הביצוע היא בקשה לביצוע פסק דין למזונות;",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "exempt-mortgage",
+      "claim": "No ability-examination duty in mortgage or pledge files",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_מהתייצבות_לחקירת_יכולת_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשת הביצוע היא למימוש משכנתא או משכון",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "exempt-objection",
+      "claim": "A pending objection exempts from the ability examination",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/פטור_מהתייצבות_לחקירת_יכולת_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "החייב הגיש התנגדות לביצוע שטר, וכל עוד התנגדותו לא נדחתה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "exparte-7-days",
+      "claim": "Request to cancel a registrar decision given without hearing you: 7 days from learning of it",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_החלטה_או_צו_של_רשם_ההוצאה_לפועל_שניתנו_ללא_שמיעת_הצד_הנפגע",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשה לביטול או לשינוי של החלטה או צו יש להגיש לרשם ההוצאה לפועל בכתב בתוך 7 ימים מהיום שבו נודע על מתן ההחלטה או הצו למי שרואה עצמו נפגע מהם.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "default-judgment-30",
+      "claim": "Set-aside of a default judgment within 30 days of service of the judgment",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_פסק_דין_שניתן_בהיעדר_הגנה_במעמד_צד_אחד",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשה לביטול פסק דין יש להגיש בתוך 30 ימים ממועד המצאת פסק הדין לידי הנתבע.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "default-judgment-court",
+      "claim": "Filed in the court that gave the judgment",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_פסק_דין_שניתן_בהיעדר_הגנה_במעמד_צד_אחד",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "את הבקשה יש להגיש לבית המשפט שנתן את פסק הדין.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "default-judgment-affidavit",
+      "claim": "With an affidavit explaining why no defence was filed",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_פסק_דין_שניתן_בהיעדר_הגנה_במעמד_צד_אחד",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "לשם כך עליו להגיש בקשה לבית המשפט שנתן את פסק הדין ולצרף תצהיר שבו יסביר את הסיבות לאי הגשת כתב הגנה במועד.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "default-judgment-restore",
+      "claim": "If set aside after enforcement began, the registrar may order the earlier position restored",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_פסק_דין_שניתן_בהיעדר_הגנה_במעמד_צד_אחד",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אם בוטל פסק הדין לאחר שהתחילו בביצועו במסגרת ההוצאה לפועל, רשאי רשם ההוצאה לפועל לצוות על החזרת המצב כפי שהיה לפני תחילת הביצוע.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-leave-20",
+      "claim": "Leave to appeal: magistrates court, 20 days from the decision if given in presence",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אם ההחלטה ניתנה בנוכחות המערער - יש להגיש בקשת רשות ערעור לבית משפט השלום בתוך 20 ימים מיום מתן ההחלטה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-family-15",
+      "claim": "Family-origin debt: 15 days",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אם ההחלטה שעליה מערערים ניתנה בנוכחות המערער - יש להגיש את הערעור בתוך 15 ימים מיום מתן ההחלטה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-family-no-leave",
+      "claim": "Family-origin debt: no leave needed, directly to family court",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אם מקור החוב הוא בענייני משפחה, אין צורך לבקש רשות לערער, ואפשר להגיש את הערעור ישירות לבית המשפט לענייני משפחה.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-no-stay",
+      "claim": "Appeal does not stay the file",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הגשת ערר, ערעור או בקשת רשות לערער לא מעכבת את ההליכים בתיק, ויש להגיש בקשה לעיכוב הליכים בנפרד",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "legal-aid-free",
+      "claim": "Legal aid free apart from a fee, by income",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_משפטי_מטעם_משרד_המשפטים_בתחום_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הסיוע המשפטי מוענק ללא תשלום (למעט תשלום אגרה) לחייבים ולזוכים העומדים בתנאי הזכאות לסיוע על-פי הכנסותיהם",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "legal-aid-exam",
+      "claim": "Covers ability examinations",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_משפטי_מטעם_משרד_המשפטים_בתחום_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "ייצוג בחקירת יכולת שבהן נבדק מצבו הכלכלי של החייב.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "legal-aid-payorder",
+      "claim": "Covers payment-order requests",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_משפטי_מטעם_משרד_המשפטים_בתחום_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הגשת בקשה לצו תשלומים של חייב בהוצאה לפועל.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "legal-aid-defence",
+      "claim": "Covers paraati and objection",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_משפטי_מטעם_משרד_המשפטים_בתחום_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "ייצוג בהליכים שמהותם הגנה כנגד החוב, כגון: טענת \"פרעתי\" או התנגדות לביצוע שטר.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "legal-aid-urgent",
+      "claim": "Urgent track",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_משפטי_מטעם_משרד_המשפטים_בתחום_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "במקרים דחופים כשנדרש סיוע משפטי דחוף ומיידי, יש אפשרות להליך מזורז",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s7-deemed-service",
+      "claim": "s.7: filing a request = full service that day unless the registrar orders otherwise",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "הגיש החייב בקשה בתיק הוצאה לפועל שנפתח נגדו, יראו אותו כמי שהומצאה לו האזהרה בהמצאה מלאה ביום הגשת הבקשה האמורה, אלא אם כן הורה רשם ההוצאה לפועל אחרת",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s7-full-service-needed",
+      "claim": "s.7: restrictions, evaders register, bring and arrest need an appearance or full service",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "אלא אם כן התייצב החייב בפני רשם ההוצאה לפועל, או שהומצאה לו אזהרה בדרך של המצאה מלאה",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s69d-b-corporation",
+      "claim": "s.69ד(ב): limited-means debtor may not found or hold an interest in a corporation without prior registrar approval",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "חייב מוגבל באמצעים לא ייסד תאגיד ולא יהיה בעל ענין בתאגיד, במישרין או בעקיפין, לרבות יחד עם אחר או באמצעות אחר, אלא אם כן אישר זאת רשם ההוצאה לפועל מראש",
+      "confidence": "high"
+    },
+    {
+      "id": "reg-128b-recess-objection",
+      "claim": "Reg. 128(ב): office recess not counted for an objection",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "תקופת פגרה של לשכת הוצאה לפועל לא תבוא במנין הימים שנקבעו בתקנות אלה או שקבע בית משפט",
+      "confidence": "high"
+    },
+    {
+      "id": "reg-15a2-cutoff",
+      "claim": "Reg. 15א2: online filing after 23:59 or on Friday/rest day counts as next weekday",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשה שהוגשה לאחר השעה 23:59 בימים א׳ עד ה׳ בשבוע או ביום ו׳ או ביום מנוחה",
+      "confidence": "high"
+    },
+    {
+      "id": "pagrot-reg3-friday",
+      "claim": "Recess regs reg. 3: last-day Friday treated as a recess day",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(פגרות)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "במניין ימי תקופה שנקבעה בחיקוק או שנקבעה בידי בית משפט, בידי רשם או בידי רשם הוצאה לפועל, יראו את יום ו׳ בשבוע כיום פגרה, אם הוא היום האחרון לפתיחת הליך או לביצועה של פעולה במהלך הליך בבית משפט או בלשכת הוצאה לפועל",
+      "confidence": "high"
+    },
+    {
+      "id": "pagrot-summer",
+      "claim": "Summer recess 21 July to 5 September",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(פגרות)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "פגרת הקיץ – מיום 21 ביולי עד יום 5 בספטמבר",
+      "confidence": "high"
+    },
+    {
+      "id": "parshanut-s10-a",
+      "claim": "Interpretation Law s.10: day of service not counted",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפרשנות",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "מקום שנקבעה תקופה קצובה במספר ימים או שבועות מיום פלוני, אותו יום לא יבוא במנין",
+      "confidence": "high"
+    },
+    {
+      "id": "parshanut-s10-c",
+      "claim": "Interpretation Law s.10: rest/recess/holiday days counted unless they are the last days",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפרשנות",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "במנין ימי תקופה יבואו גם ימי מנוחה, פגרה או שבתון שעל פי חיקוק, זולת אם הם הימים האחרונים שבתקופה",
+      "confidence": "high"
+    },
+    {
+      "id": "fees-request-exempt",
+      "claim": "Fee schedule: a written request, including an objection, is exempt",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(אגרות,_שכר_והוצאות)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשה בכתב, לרבות הגשת התנגדות לביצוע שטר או התנגדות לביצוע תביעה על סכום קצוב",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-notify",
+      "claim": "Reservist or spouse notifies the office with the call-up order",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "ובלבד שהודיע ללשכה שמתקיים לגביו האמור וצירף צו המעיד על שירות המילואים, על שם החייב או בן זוגו של החייב",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-3-months",
+      "claim": "Protection for three months from the start of reserve service",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "תקופה של שלושה חודשים שתחילתה במועד תחילת שירות המילואים או במועד תחילת הוראת השעה, לפי המאוחר שבהם",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-expiry",
+      "claim": "Temporary order in force until 28 February 2027",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "תוקפן של תקנות אלה עד יום כ״א באדר א׳ התשפ״ז (28 בפברואר 2027)",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-mezonot-excluded",
+      "claim": "Maintenance excluded except maintenance collected by Bituach Leumi",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "ההגנה הקבועה בתקנת משנה (א) לא תחול על חייב בתיק לגביית חוב מזונות לפי פסק דין למזונות, למעט חוב מזונות שגובה המוסד לביטוח לאומי",
+      "confidence": "high"
+    },
+    {
+      "id": "emerg-operational-steps",
+      "claim": "Operational steps barred: seizure of movables and vehicle, eviction, bring and arrest orders",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_בתי_המשפט_ולשכות_ההוצאה_לפועל_(סדרי_דין_במצב_חירום_מיוחד)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "עיקול ותפיסת מיטלטלין, תפיסת רכב, פינוי לרבות מסירת הודעת פינוי, צו הבאה וצו מאסר ולמעט רישום עיקול על רכב או מקרקעין",
+      "confidence": "high"
+    },
+    {
+      "id": "emerg-third-party",
+      "claim": "Third-party attachments and restriction requests barred",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_בתי_המשפט_ולשכות_ההוצאה_לפועל_(סדרי_דין_במצב_חירום_מיוחד)",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "בקשה להטלת עיקולים על כספי החייב, נכסיו או משכורתו המוחזקים אצל צד שלישי",
+      "confidence": "high"
+    },
+    {
+      "id": "mortgage-guide",
+      "claim": "Mortgage realisation files are their own track with a dedicated Kol Zchut guide for mortgage holders",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לנוטלי_משכנתא_על_דירת_מגורים_שנפתח_נגדם_תיק_הוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T12:00:00Z",
+      "raw_snippet": "מדריך זה מיועד לאנשים שיש להם משכנתא על דירת מגורים, ומתקשים בהחזרי ההלוואה, או שלא עמדו בתנאי ההלוואה ונפתח נגדם תיק הוצאה לפועל",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-as-of-right-list",
+      "claim": "Some registrar decisions are appealable as of right, without leave",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "על ההחלטות הבאות של רשם ההוצאה לפועל אפשר להגיש ערעור בזכות, ללא צורך בקבלת רשות, ישירות לבית משפט השלום או לבית המשפט לענייני משפחה (אם מדובר בחוב שמקורו בענייני משפחה):",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-exit-order-of-right",
+      "claim": "An exit order (other than one in consolidation or limited-means proceedings) is appealable as of right",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "צו עיכוב יציאה מן הארץ (למעט צו עיכוב יציאה מן הארץ שניתן במסגרת איחוד תיקים או כנגד חייב שהוכרז כמוגבל באמצעים).",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-paraati-of-right",
+      "claim": "Paraati decisions are appealable as of right",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "החלטות במסגרת טענת \"פרעתי\".",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "appeal-other-need-leave",
+      "claim": "Other registrar decisions need leave from the magistrates court",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/ערעור_על_החלטות_רשם_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "על כל החלטה או צו אחרים של רשם ההוצאה לפועל שלא נמצאים ברשימת ההחלטות והצווים לעיל, אי אפשר לערער ישירות, ויש לבקש רשות ערעור מבית משפט השלום.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "paying-debtor-creditor-30",
+      "claim": "Creditor has 30 days to respond to paying-debtor recognition",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/עיכוב_הליכי_גבייה_לחייב_בהוצאה_לפועל_שמשלם_את_חובו",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "הודעה על אישור הבקשה תועבר לזוכה בתיק, שיכול למסור את תגובתו תוך 30 ימים.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "attach-cancel-serve-3-days",
+      "claim": "A request to cancel an attachment must be served on the creditor within 3 days",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/המצאה_(מסירת_מסמך_רשמי_לנמען)_במסגרת_הליכי_הוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "כאשר חייב או צד שלישי (צד ג') מגיש בקשה לביטול עיקול, עליו להמציא העתק מהבקשה לידי הזוכה תוך 3 ימים.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "azhara-attaches-judgment",
+      "claim": "The azhara attaches the judgment or instrument the file is based on",
+      "claim_type": "procedure",
+      "source_url": "https://www.kolzchut.org.il/he/אזהרה_לחייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "לאזהרה יצורף פסק הדין, הפסיקתה, הצו, השטר, הוראת התשלום, המשכון, או שטר המשכנתא שבהסתמך עליו נפתח התיק.",
+      "verified_via": "browser",
+      "verified_at": "2026-11-11",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s81a1-b1-warning",
+      "claim": "s.81א1(ב1): fixed-sum creditor must first serve a warning by registered mail with delivery confirmation",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "ימציא לנתבע, בדואר רשום עם אישור מסירה, התראה בדבר כוונתו להגיש את התביעה כאמור לביצוע בהוצאה לפועל",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s81a1-b2-refusal",
+      "claim": "s.81א1(ב2): refusal to accept the warning counts as service",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "סירב הנתבע לקבל את ההתראה או לחתום על אישור מסירה, יראו את הנתבע כמי שהומצאה לו ההתראה כדין",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s81a1-c1-30-days",
+      "claim": "s.81א1(ג)(1): filing only after 30 days from service of the warning",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "לא תוגש בקשה לביצוע תביעה על סכום קצוב ללשכת ההוצאה לפועל אלא בתום שלושים ימים",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s81a1-c2-new-warning",
+      "claim": "s.81א1(ג)(2): after a year, a new warning is needed",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "ביקש התובע לבצע תביעה על סכום קצוב לאחר שחלפה שנה כאמור בפסקה (1) ימציא לנתבע התראה חדשה",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s19a-stay",
+      "claim": "s.19(א): stay pending a paraati decision only for special reasons recorded",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "רשאי רשם ההוצאה לפועל להורות על עיכוב ביצועו של פסק הדין, כולו או מקצתו, מטעמים מיוחדים שיירשמו",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s19b-security",
+      "claim": "s.19(ב): a stay comes with security unless the registrar decides otherwise",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "יצווה על הפקדת ערובה להבטחת קיום פסק הדין, זולת אם החליט, בהתחשב בנסיבות הענין, שלא לצוות כן",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s74c1-repeat-arrest",
+      "claim": "s.74(ג1): no new warning if one was sent before an earlier arrest in the same file",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "לא תישלח התראה לחייב אם נשלחה לו כבר התראה לפני ביצוע צו מאסר באותו תיק",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s67d-no-show",
+      "claim": "s.67(ד): not appearing for the ability examination = debtor with means who evades",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "לא התייצב חייב לחקירת יכולת במועד",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s80b-leave",
+      "claim": "s.80(ב): registrar decisions appealable with leave, some as of right",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "ניתנים לערעור, ברשות שופט בית משפט השלום לפני בית משפט השלום; אולם ערעור על החלטה לפי",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s80c-no-stay",
+      "claim": "s.80(ג): appeal does not stay proceedings",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "הוגש ערר או ערעור או בקשת רשות לערער לפי סעיף זה, אין בכך כדי לעכב הליך",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s66c-end-of-30",
+      "claim": "s.66ג(ב): restriction takes effect at the end of 30 days from service of the warning",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "וכי היא תיכנס לתוקף בתום 30 ימים מיום המצאתה",
+      "confidence": "high"
+    },
+    {
+      "id": "reg-27d-exclusions",
+      "claim": "Reg. 27(ד): the 7-day reg. 27 route does not apply to decisions under ss.19, 25, 48, 58",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "האמור בתקנה זו אינו חל על החלטה או צו שניתנו מכוח",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-extension",
+      "claim": "Extended by three more months if service has not ended, on notice",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "החייב טרם סיים את תקופת המילואים והוא הגיש הודעה על כך וצירף צו המעיד על שירות המילואים, תוארך תקופה זו בתקופה של שלושה חודשים נוספים",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-cancel-earlier-steps",
+      "claim": "Steps taken in the period before notice are cancelled on request",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "יבטל רשם ההוצאה לפועל את ההליך שננקט בתקופת הזכאות, אלא אם כן מצא כי בנסיבות העניין מוצדק להורות אחרת",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-registrar-override",
+      "claim": "Registrar may decide otherwise for special reasons at the creditor request",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "רשם הוצאה לפועל רשאי, לבקשת הזוכה, להחליט אחרת מטעמים מיוחדים",
+      "confidence": "high"
+    },
+    {
+      "id": "miluim-protected-spouse",
+      "claim": "Protected: whoever served or volunteered for reserves, and their spouse",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל_(סדרי_דין_בלשכות_ההוצאה_לפועל)_(חרבות_ברזל)_(שירות_מילואים)_(הוראת_שעה)",
+      "source_fetched_at": "2026-11-11T15:00:00Z",
+      "raw_snippet": "או התנדב לשירות מילואים, ובן זוגו",
+      "confidence": "high"
+    },
+    {
+      "id": "law-s81a1-b1-personal",
+      "claim": "s.81א1(ב1): if mail failed and the creditor has an advocate, personal delivery is allowed",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T16:00:00Z",
+      "raw_snippet": "לא הצליח המבקש להמציא לנתבע את ההתראה באופן האמור, והיה המבקש מיוצג על ידי עורך דין, יוכל עורך הדין להמציא את ההתראה באמצעות מסירה אישית",
+      "confidence": "high"
+    },
+    {
+      "id": "reg-44a-serve-3-days",
+      "claim": "Reg. 44א(א): debtor serves a request to cancel an attachment on the creditor within 3 days by registered mail with delivery confirmation",
+      "claim_type": "legal_reference",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "source_fetched_at": "2026-11-11T16:00:00Z",
+      "raw_snippet": "ימציא החייב, בתוך שלושה ימים ממועד הגשת הבקשה, העתק ממנה לזוכה או לבא כוחו, בדואר רשום עם אישור מסירה",
       "confidence": "high"
     }
   ]
