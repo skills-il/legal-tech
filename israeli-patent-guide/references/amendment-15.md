@@ -1,6 +1,8 @@
-# Amendment 15 to the Patents Law (proposed)
+# Amendment 15 to the Patents Law (lapsed bill)
 
-Official source: the bill as published in Reshumot, Government Bills 1920, 30 December 2025 (https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf). It is a bill, not law. As of 13 September 2026 the Knesset legislation database (bill 1045508) lists it as tabled for first reading, with no committee assigned and no publication date. Do not treat as in force, and re-check the stage before relying on it.
+Official source: the bill as published in Reshumot, Government Bills 1920, 30 December 2025 (https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf). It was tabled for first reading in the 25th Knesset (bill 1045508) and never received a first reading. The 25th Knesset's last session ended on 17 July 2026, and the 26th Knesset opened on 10 November 2026. As of 11 November 2026 the Knesset database lists no patents bill in the 26th Knesset. **It is not law and is not currently before the Knesset.** If a new government revives it, the text may change; read the new version rather than this summary.
+
+The list below records what the 2025 bill proposed, as background only.
 
 ### Headline changes proposed by Amendment 15
 
@@ -11,9 +13,8 @@ Official source: the bill as published in Reshumot, Government Bills 1920, 30 De
 5. **Staged effective dates.** Section 37(a) of the bill sets the general commencement at **1 month after publication**. Section 37(b)(1) defers commencement by **a further year** for examination on request, the provisional application route, and the confidential prior-art arrangement, so that ILPO and the bar can prepare; the Minister of Justice may postpone that date further by order.
 
 
-### Practical implications for filing today (September 2026)
+### Practical implications for filing today (November 2026)
 
-- **Do not assume the new regime is in force.** Until the bill clears its readings and the law is published, the automatic-queue + Section 18 Notice model still governs. Continue docketing Section 18 deadlines.
-- **Reconsider US-only provisional reliance.** If a domestic provisional becomes available in Israel, future filings may be structured to claim priority from an Israeli provisional rather than a US one. This is a strategy decision to revisit once the law is in force.
-- **Track the grace-period commencement.** A 12-month grace is helpful only if the conversion deadline is met. Even after Amendment 15 enters into force, public disclosure remains risky in jurisdictions without an equivalent grace (most of the EU and China).
-- **Monitor the ILPO site and the Knesset legislation database** for the final version of the text as the bill moves through the Knesset, and confirm the position with a licensed Israeli patent attorney before changing a filing strategy on the strength of a bill.
+- **The current regime governs**: automatic examination queue, the Section 18 demand with its 4-month response (Patents Regulations reg 36), no grace period beyond s.6, no domestic provisional.
+- **Do not plan around the proposed grace period or provisional route.** Even if a similar bill is enacted later, public disclosure stays risky in jurisdictions without an equivalent grace (most of the EU and China).
+- **Watch the Knesset legislation database and the ILPO site** for a revived bill, and confirm with a licensed Israeli patent attorney before changing a filing strategy.

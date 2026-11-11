@@ -1,12 +1,12 @@
 # ILPO Fee Schedule Summary
 
 Source: Israeli Patent Office (ILPO) official fee notice, Ministry of Justice.
-Official notice (PDF, Hebrew): https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf
+Official notice (PDF, Hebrew): https://www.gov.il/BlobFolder/news/ilpo-fees/he/news_fees-2026.pdf
 Landing page: https://www.gov.il/he/pages/ilpo-fees
 
-The notice is dated 22 December 2025 and the tariffs took effect 1 January 2026. Every figure below is transcribed from that notice. Fees are denominated in NIS and are updated annually in line with the Consumer Price Index, so re-verify before paying.
+The notice is dated 22 December 2025 and the tariffs took effect 1 January 2026. Every figure below is transcribed from that notice. Fees are denominated in NIS and are updated annually in line with the Consumer Price Index, so re-verify before paying. As of 11 November 2026 this is still the current notice; no 2027 notice has been published, and 2027 amounts must not be estimated.
 
-**Key structural point**: substantive examination is included in the national filing fee (and in the PCT national phase entry fee). There is no separate "examination fee" for a normal application. A separate fee applies only when accelerated examination is requested.
+**Key structural point**: substantive examination is included in the national filing fee (and in the PCT national fee, item 13). There is no separate "examination fee" for a normal application. A separate fee applies only when accelerated examination is requested.
 
 **Second key point**: the discount described below applies to only TWO rows in the entire patent schedule. Do not assume it reduces renewals, oppositions, PTE, or extension fees.
 
@@ -29,7 +29,7 @@ The reduction applies to exactly two fees:
 | National application filing (item 1) | 2,402 | 1,441 |
 | Notice of acceptance / grant (item 10) | 841 | 505 |
 
-To claim it, file a signed declaration of eligibility at the time of paying the fee. The declaration cannot be applied retroactively. If turnover crosses the threshold during prosecution, the reduction no longer applies to later payments.
+The notice tests turnover in the year preceding the year of filing. How eligibility is declared is not set out in the notice; confirm the procedure with ILPO when paying.
 
 The reduction does **NOT** apply to:
 - Renewal (maintenance) fees, at any band
@@ -70,16 +70,18 @@ Accelerated examination (item 8) is a two-part fee, and the amount depends on WH
 | On-the-spot examination following a third-party request (item 8(b)(2)) | 5,955 |
 | **Third-party total** | **17,865** |
 
-Accepted grounds for an applicant request: applicant age or health, a competing product on the market, an application that is the basis for others, green technology, or the Patent Prosecution Highway.
+Statutory grounds for an applicant request (Patents Law s.19A(a)): (1) advanced age or health; (2) a Registrar notice allowing acceleration because of a parallel examination abroad (PPH); (3) exploitation of the claimed invention by another, or a well-founded fear of it; (4) an unreasonably long time since filing or national-phase entry; (5) public interest; (6) special circumstances. The NIS 357 + 834 fees in item 8 apply only to grounds (3) to (6).
 
 
 ## PCT National Phase Entry
 
 | Fee | Full (2026, NIS) | Reduced (60%) |
 |---|---|---|
-| National fee under s.48d(a), examination included (item 13) | 2,402 | 1,441 |
+| National fee under s.48d(a), examination included (item 13) | 2,402 | not reduced (see note) |
 | Additional fee per claim in an international application designating Israel, from the 51st claim (item 4) | 616 each | not reduced |
 | Additional fee per 50 pages in an international application designating Israel, from page 101 (item 5) | 300 per 50 pages | not reduced |
+
+Note on item 13: the notice's 60% clause appears only in items 1 and 10, not in item 13, so the national fee is shown unreduced. WIPO's PCT Applicant's Guide (IL chapter) describes a reduction for applications first filed in Israel; confirm with ILPO before paying a reduced national fee. In any case a national phase that claims priority from the applicant's own earlier application is not a first application for that invention.
 
 As with a direct national filing, examination is covered by the entry fee. The claim and page supplements are frequently the larger surprise on national phase entry, since PCT specifications routinely run past 100 pages.
 
@@ -174,10 +176,8 @@ Appeals to the District Court are set by court regulations, not by this schedule
 
 ## Notes on Payment
 
-- Payments can be made online via ILPO's portal or by bank transfer to the Ministry of Justice account.
-- Foreign applicants must pay in NIS. The Bank of Israel official rate (https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/) applies on the payment date.
-- Payment confirmations should be retained as proof; ILPO may take several weeks to update its records.
-- VAT does NOT apply to official ILPO fees; it applies only to attorney or agent fees billed by private practitioners.
+- Fees are paid online through the government payments site (https://ecom.gov.il/patents), per the WIPO PCT Applicant's Guide, Israel chapter. Keep the payment confirmation.
+- Fees are in NIS. To budget in another currency, the Bank of Israel publishes representative rates (https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/).
 - The published notice states that where it conflicts with the fee notices published in Reshumot, the Reshumot text prevails.
 
 
@@ -194,9 +194,9 @@ Israel offers a fee reduction to qualifying applicants. The official wording is 
 
 **In every case the reduction applies only to a FIRST patent application for that particular invention.** A divisional, or a second application covering the same invention, does not qualify. Agents routinely miss this condition.
 
-To claim the reduction the applicant must submit a signed declaration of eligibility at the time of paying the fee. It cannot be applied retroactively.
+Confirm with ILPO how eligibility is declared when paying.
 
-**The reduction applies to exactly two fees in the entire patent schedule**: the national filing fee (2,402 becomes 1,441) and the notice of acceptance fee (841 becomes 505). It does **not** apply to renewal fees, accelerated examination, PTE fees, opposition fees, extension of time fees, claim or page fees, WIPO or ISA fees, or attorney fees.
+**The reduction applies to exactly two fees in the entire patent schedule**: the national filing fee (2,402 becomes 1,441) and the notice of acceptance fee (841 becomes 505). For the PCT national fee (item 13), see the note under "PCT National Phase Entry": the notice has no 60% clause there, WIPO's IL chapter describes a reduction for applications first filed in Israel, so confirm with ILPO. It does **not** apply to renewal fees, accelerated examination, PTE fees, opposition fees, extension of time fees, claim or page fees, WIPO or ISA fees, or attorney fees.
 
 **Important**: The threshold is turnover (gross revenue), not profit. A company with high revenue but operating at a loss does not qualify if revenue exceeds NIS 10 million.
 
