@@ -52,6 +52,11 @@ Enumerate each hour tier on each day type. The rest-day premium and the overtime
 | Mandatory pension rates and the s.45a tax credit | Yes |
 | Pay slip duty (Wage Protection Law s.24) | Yes |
 | Dismissal protections, pregnancy, harassment prevention, disability accommodation | Yes |
+| Sexual harassment definitions s.3(a)(1)-(6) incl. (5א), with which clauses need a prior shown disinterest and which (s.3(a)(6)(ג), abuse of authority in work relations) do not | Yes, `harassment-and-disability.md` (2026-11-12) |
+| Retaliation s.3(b) (not s.3(a)(7)), criminal penalties s.5 (2/3/4 years) | Yes (2026-11-12) |
+| Coworker dating: repetition requirement vs case-law presumption, peers / influence / authority rows, pre-existing relationship and promotion, breakup and retaliation, no statutory disclosure duty, messages after hours, employer response, customer harassment (s.10(b)) | Yes (2026-11-12) |
+| Employer duties: s.7(a)-(c), takanon for MORE than 25 employees, acharai (reg.4), complaint handling reg.5-6, decision within 7 working days reg.7 | Yes (2026-11-12) |
+| Complaint routes and limits: internal, police, labor court (s.10, 7-year limitation, no-proof compensation cap s.6(b)), EEOC as a complaint channel for workers against employers | Yes (2026-11-12) |
 
 ## Should cover (advanced)
 
@@ -80,3 +85,10 @@ Enumerate each hour tier on each day type. The rest-day premium and the overtime
 | Kol Zchut, minimum wage | https://www.kolzchut.org.il/he/שכר_מינימום |
 | Ministry of Labour | https://www.gov.il/he/pages/aboutlabor |
 | Nevo, Severance Pay Law | https://www.nevo.co.il/law_html/law01/p189_001.htm |
+
+## Known bad figures
+
+- Kol Zchut's takanon page states "more than 25" in one place and "25 and up" / "at least 25" in another; statute s.7(b) and reg.2(b)-(c) say MORE than 25. Statute governs (2026-11-12).
+- Kol Zchut still lists a rehabilitation-employment (mishtakem) exception; the matching statute subclause s.3(a)(6)(ו) is marked expired. Do not encode it (2026-11-12).
+- The complaints officer is "acharai" in the regulations; "memune" there means a supervisor. Earlier versions of this skill used "memune" (fixed 1.8.0).
+

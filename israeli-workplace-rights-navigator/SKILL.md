@@ -277,7 +277,7 @@ For hearing requirements, the remedy where it was defective (damages without pro
 
 ### Step 10: Workplace Harassment (Hatrada Minit)
 
-Per the **Sexual Harassment Prevention Law, 1998**: an employer with more than 25 employees must adopt a written prevention policy (takanon), and every employer must appoint a complaints officer (memune), act on complaints within a reasonable time, and not retaliate against a complainant. Routes: the internal officer, the police for criminal aspects, a labour-court claim, or the Equal Employment Opportunities Commission; the filing deadline differs by route. Duties also reach a business that uses contractor or agency staff (mazminey sherut). What counts as harassment and the full complaint path: `references/harassment-and-disability.md`.
+Per the **Sexual Harassment Prevention Law, 1998**: an employer with more than 25 employees must adopt a written prevention policy (takanon), and every employer must appoint a complaints officer (acharai, not "memune"), handle complaints without delay, and not retaliate against a complainant. A manager should not proposition a subordinate at all: case law presumes abuse of authority, and repeated propositions are harassment even with no prior refusal. Routes: the officer, the police, or a labour-court claim within 7 years. Duties also cover agency staff (mazminey sherut). Definitions, dating a coworker, and the full complaint path: `references/harassment-and-disability.md`.
 
 ### Step 11: Disability Accommodations
 

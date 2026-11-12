@@ -78,6 +78,18 @@
         "Word cap is still the binding constraint: both files sit at ~4,990-5,000 words after moving Steps 10-11 detail to references/harassment-and-disability.md. Next cycle should move another full step (Step 12 or Step 5) to references before adding anything.",
         "Process: all 107 evidence snippets were re-verified against browser renders this cycle (kolzchut 403s plain fetch); 4 stale snippets fixed, including one page that now redirects."
       ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-11-12",
+      "lessons": [
+        "Scoped update: harassment detail rewritten from the statute and regulations (s.3(a) table, s.3(b) retaliation, s.5-s.10, regs 4-8) plus a coworker-dating section; precondition for the workplace-dating screener tool.",
+        "Fixed: complaints officer is 'acharai' not 'memune'; EEOC is not a general harassment forum; civil limitation is 7 years (was 'differs by route'); takanon threshold is more than 25, so an employer of exactly 25 is exempt (reference said 'fewer than 25').",
+        "Unverified, not encoded: current CPI-indexed s.6(b) amount (no Reshumot notice found, 120,000 base used with 'CPI-linked'); criminal limitation period; a 2026 bill on s.9.",
+        "Case law on consensual relationships comes from Kol Zchut summaries (ע\"ע 274/06, ס\"ע 1319-07); case texts not read. Read them next cycle if the dating section grows.",
+        "CARRY: disability '25+' threshold in references/harassment-and-disability.md still unverified.",
+        "Word cap: SKILL.md at 4,992 words. Any further addition must move a step to references first."
+      ]
     }
   ]
 }

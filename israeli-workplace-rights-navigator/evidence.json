@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-workplace-rights-navigator",
-  "generated_at": "2026-10-25T10:19:57Z",
+  "generated_at": "2026-11-12T00:00:00Z",
   "claims": [
     {
       "claim_id": "min-wage-2026",
@@ -1485,6 +1485,786 @@
       "verified_at": "2026-10-25",
       "appears_in": [
         "references/entitlements-calculator.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a-intro",
+      "claim": "Section 3(a) of the law defines sexual harassment as any one of the listed acts.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "הטרדה מינית היא כל אחד ממעשים אלה:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a1-extortion",
+      "claim": "s.3(a)(1): extortion by threats where the demanded act is sexual.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "סחיטה באיומים, כמשמעותה בסעיף 428 לחוק העונשין, כאשר המעשה שהאדם נדרש לעשותו הוא בעל אופי מיני;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a2-indecent",
+      "claim": "s.3(a)(2): indecent acts under Penal Law ss.348-349.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "מעשים מגונים כמשמעותם בסעיפים 348 ו־349 לחוק העונשין;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a3-propositions",
+      "claim": "s.3(a)(3): REPEATED sexual propositions to a person who has shown the harasser they are not interested.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "הצעות חוזרות בעלות אופי מיני, המופנות לאדם אשר הראה למטריד כי אינו מעונין בהצעות האמורות;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a4-references",
+      "claim": "s.3(a)(4): repeated references focused on a person's sexuality after the person showed disinterest.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "התייחסויות חוזרות המופנות לאדם, המתמקדות במיניותו, כאשר אותו אדם הראה למטריד כי אינו מעונין בהתייחסויות האמורות;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a5-degrading",
+      "claim": "s.3(a)(5): a degrading or humiliating reference to sex or sexuality (no repetition or shown disinterest required).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "התייחסות מבזה או משפילה המופנית לאדם ביחס למינו או למיניותו, לרבות נטייתו המינית;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a5a-publication",
+      "claim": "s.3(a)(5א): publishing, without consent, an image, film or recording focused on a person's sexuality in circumstances where it may humiliate or degrade them; the statute lists defences.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "פרסום תצלום, סרט או הקלטה של אדם, המתמקד במיניותו, בנסיבות שבהן הפרסום עלול להשפיל את האדם או לבזותו, ולא ניתנה הסכמתו לפרסום, ואולם במשפט פלילי או אזרחי לפי פסקה זו תהא זו הגנה טובה למפרסם אם מתקיים אחד מאלה:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-def-showed",
+      "claim": "Definition: 'showed' (הראה) disinterest means by words or conduct, provided there was no reasonable doubt as to the meaning of the conduct.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "”הראה“ – במילים או בהתנהגות, ובלבד שלא היה ספק סביר לגבי משמעות ההתנהגות;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a6-no-disinterest",
+      "claim": "s.3(a)(6): propositions or references under (3) or (4) to the listed categories are harassment even if the recipient did NOT show disinterest.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "הצעות או התייחסויות כאמור בפסקאות (3) או (4), המופנות למי מהמנויים בפסקאות המשנה שלהלן, בנסיבות המפורטות בפסקאות משנה אלה, גם אם המוטרד לא הראה למטריד כי אינו מעונין בהצעות או בהתייחסויות האמורות:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3a6c-work",
+      "claim": "s.3(a)(6)(ג): the WORK subclause: to an employee within work relations, or a person in service, by abuse of authority (ניצול מרות) in work relations or service. The trigger is abuse of authority, not the mere existence of a manager-subordinate relationship.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "לעובד במסגרת יחסי עבודה, ולאדם בשירות במסגרת שירות – תוך ניצול מרות ביחסי עבודה או בשירות;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-def-work-framework",
+      "claim": "Definition of 'framework of work relations': the workplace, another place of employer activity, during work, or by abuse of authority in work relations anywhere (so an after-hours date can fall inside it if authority is abused).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "”מסגרת יחסי עבודה“ – מקום העבודה, מקום אחר שבו מתנהלת פעילות מטעם המעסיק, תוך כדי העבודה, או תוך ניצול מרות ביחסי העבודה בכל מקום שהוא;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s3b-retaliation",
+      "claim": "s.3(b) (NOT 3(a)(7)): retaliation (התנכלות) is harm of any kind originating in sexual harassment, or in a complaint or claim filed about it.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "התנכלות היא פגיעה מכל סוג שהוא שמקורה בהטרדה מינית, או בתלונה או בתביעה, שהוגשו על הטרדה מינית.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s4-prohibition",
+      "claim": "s.4: no person shall sexually harass another or retaliate against them.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "לא יטריד אדם מינית את זולתו ולא יתנכל לו.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s5a-penalty",
+      "claim": "s.5(a): harassment under s.3(a)(3), (4), (5), (6) carries 2 years' imprisonment.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "המטריד מינית אדם כאמור בסעיף 3(א)(3), (4), (5) ו־(6), דינו – מאסר שנתיים; המטריד מינית אדם כאמור בסעיף 3(א)(5א), דינו כדין הפוגע במזיד בפרטיות זולתו כאמור בסעיף 5 לחוק הגנת הפרטיות, התשמ״א–1981.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s5b-retaliation-penalty",
+      "claim": "s.5(b): retaliation carries 3 years' imprisonment.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "המתנכל לאדם כאמור בסעיף 3(ב), דינו – מאסר שלוש שנים.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s5c-both-penalty",
+      "claim": "s.5(c): harassment plus retaliation: 4 years.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "הטריד אדם מינית אדם אחר כאמור בסעיף קטן (א) והתנכל לו כאמור בסעיף קטן (ב), דינו – מאסר ארבע שנים.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s6a-tort",
+      "claim": "s.6(a): sexual harassment and retaliation are civil torts.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "הטרדה מינית והתנכלות הן עוולות אזרחיות, והוראות פקודת הנזיקין [נוסח חדש], יחולו עליהן בכפוף להוראות חוק זה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s6b-compensation",
+      "claim": "s.6(b): compensation without proof of damage up to NIS 120,000 (double for racist/hostile motive), indexed every 1 January to CPI from a base of August 2013, with the updated amount published in Reshumot.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "בית המשפט רשאי לפסוק בשל הטרדה מינית או בשל התנכלות פיצוי שלא יעלה על סך 120,000 שקלים חדשים, ובשל הטרדה מינית או בשל התנכלות שבוצעו מתוך מניע של גזענות או עוינות כלפי ציבור כאמור בסעיף 144ו לחוק העונשין – כפל הסכום האמור, ללא הוכחת נזק; סכום זה יעודכן ב־1 בינואר של כל שנה (בסעיף זה – יום העדכון), בהתאם לשיעור עליית המדד החדש לעומת המדד הבסיסי והודעה על הסכום המעודכן תפורסם ברשומות; לענין סעיף קטן זה –",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s6c-limitation",
+      "claim": "s.6(c): a civil claim under s.6 or s.7 filed after the period in s.5 of the Limitation Law from when the cause arose will not be heard; ss.18א-18ב of the Limitation Law do not apply.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "לא יזדקק בית המשפט או בית הדין לעבודה, לפי הענין, לתביעה בשל עוולה לפי סעיף זה או לפי סעיף 7, שהוגשה לאחר שחלפה התקופה הקבועה בסעיף 5 לחוק ההתיישנות, התשי״ח–1958 מיום שנוצרה העילה, והוראות סעיפים 18א ו־18ב לחוק האמור, לא יחולו על תביעה כאמור.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-limitation-7y",
+      "claim": "Limitation Law s.5(1): the limitation period for a non-land claim is seven years (hence 7 years for a s.6 claim).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "בשאינו מקרקעין – שבע שנים;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s6a-burden",
+      "claim": "s.6א: in an employee's claim for harm on a sexual-harassment background under s.7 of the Equal Employment Opportunities Law, the burden shifts to the employer, provided three years have not passed from when the cause arose.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "בתובענה של עובד או של דורש עבודה בשל פגיעה על רקע הטרדה מינית במסגרת יחסי עבודה, כאמור בסעיף 7 לחוק שוויון ההזדמנויות בעבודה, תהיה חובת ההוכחה על המעסיק כי לא פגע פגיעה כאמור באותו סעיף, אם הוכיח העובד או דורש העבודה כי התקיים האמור בפסקה מפסקאות (1) עד (3) שבסעיף 7(א) לחוק האמור, ובלבד שטרם חלפו שלוש שנים מיום שנוצרה העילה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s7a-reasonable-measures",
+      "claim": "s.7(a): every employer must take reasonable measures to prevent harassment/retaliation in work relations by its employee or a supervisor on its behalf, and handle each case: set an effective complaint route and handle cases effectively.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "מעסיק חייב לנקוט אמצעים סבירים, בנסיבות הענין, כדי למנוע הטרדה מינית או התנכלות במסגרת יחסי עבודה, על ידי עובדו, או על ידי ממונה מטעמו אף אם אינו עובדו, ולטפל בכל מקרה כאמור, ולשם כך עליו:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s7a2-handle",
+      "claim": "s.7(a)(2): handle known cases effectively, prevent recurrence and remedy the harm.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "לטפל ביעילות במקרה של הטרדה מינית או התנכלות שידע אודותיהם, וכן לעשות כל שביכולתו כדי למנוע את הישנות המעשים האמורים וכדי לתקן את הפגיעה שנגרמה למתלונן עקב ההטרדה או ההתנכלות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s7b-takanon",
+      "claim": "s.7(b): an employer of MORE THAN 25 employees must set and publish a takanon (policy).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "מעסיק המעסיק יותר מ־25 עובדים חייב, בנוסף לאמור בסעיף קטן (א), לקבוע תקנון שבו יובאו עיקרי הוראות החוק בדבר הטרדה מינית והתנכלות במסגרת יחסי עבודה ויפורטו בו דרכי הגשת התלונות שענינן הטרדה מינית או התנכלות והטיפול בהן, כפי שקבע המעסיק (להלן – תקנון); המעסיק יפרסם את התקנון בין עובדיו.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s7c-liability",
+      "claim": "s.7(c): an employer that failed its duties under (a)(1), (a)(2) and (b) is liable in tort for harassment by its employee or supervisor within work relations.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "מעסיק שלא מילא את חובותיו לפי סעיפים קטנים (א)(1) ו־(2) ו־(ב) יהיה אחראי לעוולה אזרחית לפי סעיף 6, או לעוולה אזרחית בשל פגיעה כאמור בסעיף 7 לחוק שוויון ההזדמנויות בעבודה, שעשה עובדו, או ממונה מטעמו אף אם אינו עובדו, במסגרת יחסי העבודה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s8-fine",
+      "claim": "s.8: failing to publish the takanon is an offence punishable by a fine plus an additional fine per week.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "לא פרסם מעסיק תקנון כאמור בסעיף 7(ב), דינו – קנס, וקנס נוסף לכל שבוע שבו נמשכה העבירה, בשיעור הקנס הקבוע בסעיף 61(ג) לחוק העונשין.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-s10-labor-court",
+      "claim": "s.10(a)(1): the Labor Court has exclusive jurisdiction over civil proceedings on harassment by an employer/supervisor of its employee, or by one employee of another, within work relations.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_למניעת_הטרדה_מינית",
+      "raw_snippet": "הטרדה מינית שעשה מעסיק, או ממונה מטעמו, לעובדו, או שעשה עובד לעובד אחר, במסגרת יחסי עבודה;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg4a-appoint",
+      "claim": "Reg.4(a): the employer shall appoint a person in charge (אחראי).",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "מעסיק ימנה אדם מטעמו לאחראי, וימנה יותר מאחראי אחד אם יש צורך בכך, כדי לאפשר גישה נוחה לאחראי, בהתחשב במספר מקומות העבודה ובפיזורם הגאוגרפי.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg4c-woman",
+      "claim": "Reg.4(c): where possible, appoint a woman; with multiple officers, at least one woman of every two.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "ככל שניתן, ימנה מעסיק אישה לאחראית; מינה המעסיק יותר מאחראי אחד, ימנה, ככל שניתן, אישה אחת לפחות מבין כל שני אחראים.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg4e-roles",
+      "claim": "Reg.4(e): the officer's roles: receiving complaints, investigating to make recommendations to the employer, advising employees.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "תפקידיו של אחראי הם:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg4h-small",
+      "claim": "Reg.4(h): an employer of fewer than ten employees may appoint itself as the officer.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "על אף האמור בתקנה זו, רשאי מעסיק קטן לקבוע את עצמו כאחראי; קבע מעסיק כאמור, יחולו עליו הוראות תקנות אלה לענין אחראי, בשינויים המחויבים.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg5a-complaint",
+      "claim": "Reg.5(a): a complaint goes to the officer, by the complainant or someone on their behalf, in writing or orally.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "תלונה תוגש לידי אחראי, על ידי המתלונן בעצמו או על ידי אדם אחר מטעמו, ויכול שתוגש בכתב או בעל פה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg6a2-investigate",
+      "claim": "Reg.6(a)(2): the officer investigates, hearing the complainant, the respondent and witnesses.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "יפעל לבירור התלונה, ולצורך כך, בין היתר, ישמע את המתלונן, את הנילון ועדים, אם ישנם, ויבדוק כל מידע שהגיע אליו בענין התלונה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg6d-no-delay",
+      "claim": "Reg.6(d): investigation must be efficient and without delay (no fixed number of days for the investigation itself).",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "בירור תלונה ייעשה ביעילות ובלא דיחוי.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg6e-confidentiality",
+      "claim": "Reg.6(e): maximal protection of dignity and privacy; the officer may not disclose information except as needed for the investigation or by law.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "בירור תלונה ייעשה תוך הגנה מרבית על כבודם ופרטיותם של המתלונן, הנילון ועדים אחרים, ובין היתר, לא יגלה אחראי מידע שהגיע אליו במהלך בירור התלונה אלא אם כן הוא חייב לעשות כן לשם הבירור עצמו או על פי דין.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg6f-interim",
+      "claim": "Reg.6(f): interim protection: the employer protects the complainant during the investigation and acts to separate the respondent from the complainant as far as possible.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "מעסיק יגן על המתלונן, במהלך בירור התלונה, מפני פגיעה בעניני עבודה כתוצאה מהגשת התלונה או מפני פגיעה אחרת במסגרת יחסי עבודה שיש בה כדי לשבש את בירור התלונה; בין היתר, יפעל המעסיק להרחקת הנילון מהמתלונן, ככל שניתן וככל שנראה לו נכון בנסיבות הענין.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg6i-no-complaint",
+      "claim": "Reg.6(i): if the employer learns of a case with no complaint, or the complaint is withdrawn, it must refer the case to the officer for investigation.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "נודע למעסיק על מקרה של הטרדה מינית או התנכלות במסגרת יחסי עבודה, ולא הוגשה תלונה או שהמתלונן חזר בו מתלונתו, יעביר את המקרה לבירור של אחראי; הועבר מקרה כאמור לבירור של אחראי או נודע לאחראי על מקרה כאמור, יקיים האחראי, ככל שניתן, בירור על אודות המקרה לפי תקנה זו, בשינויים המחויבים, ואם המתלונן חזר בו מתלונתו, יברר גם את סיבת החזרה מהתלונה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg7a-7days",
+      "claim": "Reg.7(a): after receiving the officer's summary, the employer decides without delay and within no more than 7 working days.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "קיבל מעסיק את סיכומו והמלצותיו של האחראי לפי תקנה 6(ז), יחליט, בלא דיחוי ובתוך תקופה שלא תעלה על 7 ימי עבודה, על הפעלת הסמכויות שבידיו לגבי כל אחד מאלה:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg7b-reasoned",
+      "claim": "Reg.7(b): written reasoned notice of the decision to complainant, respondent and officer; both may review the officer's summary.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "המעסיק יפעל בלא דיחוי לביצוע החלטתו לפי תקנת משנה (א) וימסור הודעה מנומקת בכתב על החלטתו למתלונן, לנילון ולאחראי; כן יאפשר המעסיק למתלונן ולנילון לעיין בסיכום האחראי ובהמלצותיו.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg8-publish",
+      "claim": "Reg.8: an employer of more than 25 employees adapts the model takanon and publishes it in a conspicuous place.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "יפרסם את התקנון המותאם לפי פסקאות (1) או (2) (להלן – התקנון המותאם) במקום בולט לעין שבשליטתו, ובמקרה הצורך יפרסם את התקנון המותאם ביותר ממקום אחד כאמור;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-takanon-work-framework-home",
+      "claim": "Model takanon item 3(4): work framework includes abuse of authority anywhere, including a supervisor's home.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "תוך ניצול מרות ביחסי העבודה בכל מקום שהוא (ובכלל זה בביתו של ממונה).",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-takanon-three-routes",
+      "claim": "Model takanon item 11(a): three routes (internal complaint, police, civil claim), which may be combined.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "אם אדם סבור שהטרידו אותו מינית או שהתנכלו לו, פתוחות לפניו שלוש אפשרויות לפי החוק – האדם יכול לבחור אם לנקוט באחת או יותר מבין האפשרויות האלה:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-takanon-civil-labor-court",
+      "claim": "Model takanon item 11(a)(3): the civil claim is usually filed in the regional labor court.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "הליך אזרחי: הנפגע יכול להגיש תביעה בבית המשפט (בדרך כלל – בבית הדין האזורי לעבודה) נגד –",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-takanon-sexual-past",
+      "claim": "Model takanon item 15(e)(2): the officer shall not ask about the complainant's sexual past unrelated to the respondent.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "לא ישאל אחראי שאלות בקשר לעבר המיני של מתלונן שאינו קשור לנילון, ולא יתחשב במידע על עברו המיני של המתלונן כאמור; האמור בפסקה זו לא יחול אם האחראי סבור שאם לא ישאל שאלות או יתחשב כאמור, ייגרם עוול בלתי ניתן לתיקון לנילון;",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-kz-ea274-06-case",
+      "claim": "Kolzchut summary names the case: National Labor Court, ע\"ע 274/06, 26/3/08.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_מינית_בין_ממונה_לכפיפה_יכולה_להיחשב_כהטרדה_מינית",
+      "raw_snippet": "שם התיק:\tע\"ע 274/06",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-ea274-06-no-disinterest",
+      "claim": "Per kolzchut summary of ע\"ע 274/06: in harassment by a holder of authority in work relations, no expression of non-consent is required, and proof shifts the burden to the authority-holder.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_מינית_בין_ממונה_לכפיפה_יכולה_להיחשב_כהטרדה_מינית",
+      "raw_snippet": "בהטרדה מינית במסגרת יחסי עבודה מצדו של בעל מרות, לא נדרשת הבעת אי הסכמה מצידה של עובדת. למעשה, הוכחת יסודות עילת ההטרדה המינית בנסיבות אלו, מעבירה את הנטל להפריך חזקה זו לכתפי בעל המרות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-ea274-06-initiative",
+      "claim": "Per kolzchut summary: even a manager responding to a subordinate's initiative can be abuse of authority; consent/seduction defences fail where the relationship is casual sex confined to work without real signs of mutual intent.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_מינית_בין_ממונה_לכפיפה_יכולה_להיחשב_כהטרדה_מינית",
+      "raw_snippet": "גם היענות של ממונה ליוזמתה של מי שכפופה לו לפיתוח קשר כלשהו עמו, יכולה להיחשב ניצול יחסי מרות. כל עוד מערכת היחסים שבין בעל המרות לעובדת מבוססת על יחסי מין מזדמנים, באופן שמוגבל למסגרת העבודה בלבד, מבלי שהוכחו סממנים אמיתיים המעידים על רצון הדדי לפיתוח מערכת יחסים - או אז לא תתקבלנה טענות הגנה בדבר הסכמה או פיתוי מצידה של עובדת.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-se1319-07-case",
+      "claim": "Kolzchut summary names the case: Beersheba Regional Labor Court, ס\"ע 1319-07, 07.04.2010.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_בהסכמה_בין_עובדת_לממונה_עליה_אינה_מנוגדת_לחוק_הטרדה_מינית",
+      "raw_snippet": "שם התיק:\tס\"ע 1319-07",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-se1319-07-consensual",
+      "claim": "Per kolzchut summary: a consensual relationship between a senior and a subordinate is not contrary to the law; beyond the authority relationship, proof is needed that it was against the subordinate's will.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_בהסכמה_בין_עובדת_לממונה_עליה_אינה_מנוגדת_לחוק_הטרדה_מינית",
+      "raw_snippet": "עוד קבע בית המשפט שמערכת יחסים בין בכיר לכפוף לו המתנהלת בהסכמה בין הצדדים אינה מנוגדת לחוק למניעת הטרדה מינית, וכי מלבד יחסי המרות יש צורך בהוכחה שהיחסים הרומנטים התקיימו בניגוד לרצונו של הצד הכפוף למרות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-se1319-07-purpose",
+      "claim": "Per kolzchut: the law's purpose is not to forbid free consensual relations between adults but to intervene where authority is abused.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_בהסכמה_בין_עובדת_לממונה_עליה_אינה_מנוגדת_לחוק_הטרדה_מינית",
+      "raw_snippet": "מטרתו של החוק למניעת הטרדה מינית במקום העבודה איננה לאסור על יחסים חופשיים מרצון בין בגירים; אלא להבדיל, להתערב במקום שמדובר ביחסים של ניצול מרות ביחסי העבודה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-abuse-def",
+      "claim": "Per kolzchut: 'abuse of authority' means misusing power to affect the subordinate's status and future to obtain consent.",
+      "source_url": "https://www.kolzchut.org.il/he/מערכת_יחסים_בהסכמה_בין_עובדת_לממונה_עליה_אינה_מנוגדת_לחוק_הטרדה_מינית",
+      "raw_snippet": "\"ניצול המרות\" משמעו שימוש לרעה בסמכותו ובכוחו של בעל המרות להשפיע על מעמדו ועל עתידו של הכפוף למרותו, כדי להשיג את הסכמתו של הכפוף לביצוע המעשים המיניים וכדי לכפות עליו את רצונו של בעל המרות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-presumption",
+      "claim": "Kolzchut: in a sexual relationship between a senior and a subordinate there is a presumption of authority; the senior must prove genuine mutual consent.",
+      "source_url": "https://www.kolzchut.org.il/he/ניצול_יחסי_מרות_בהטרדה_מינית",
+      "raw_snippet": "משמעות חזקת יחסי המרות היא שעל הצד הבכיר במערכת היחסים להוכיח כי מערכת היחסים התקיימה בהסכמה אמיתית והדדית של שני הצדדים ולא עקב ניצול יחסי המרות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-initiative-not-defence",
+      "claim": "Kolzchut: that the subordinate initiated does not by itself negate abuse of authority.",
+      "source_url": "https://www.kolzchut.org.il/he/ניצול_יחסי_מרות_בהטרדה_מינית",
+      "raw_snippet": "העובדה שמערכת היחסים החלה ביוזמת הכפיפ/ה לא שוללת (בפני עצמה) את האפשרות שמדובר בניצול יחסי מרות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-tests",
+      "claim": "Kolzchut: case-law tests include power gap, age gap, influence over status/future, and who initiated.",
+      "source_url": "https://www.kolzchut.org.il/he/ניצול_יחסי_מרות_בהטרדה_מינית",
+      "raw_snippet": "בפסיקה נקבעו מספר מבחנים שנועדו להכריע אם מערכת היחסים נבעה מניצול יחסי מרות:",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-indirect-authority",
+      "claim": "Kolzchut: authority can exist through indirect authority and influence, e.g. a manager over several teams.",
+      "source_url": "https://www.kolzchut.org.il/he/ניצול_יחסי_מרות_בהטרדה_מינית",
+      "raw_snippet": "יחסי מרות עשוים להתקיים גם במקרה שבו השליטה וההשפעה הן באמצעות סמכות ויכולת השפעה עקיפה, ולא רק במקרים של שליטה והשפעה ישירות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-influence-relations",
+      "claim": "Kolzchut: the National Labor Court recognised 'influence relations' between peers and superiors, lowering the bar to prove disinterest.",
+      "source_url": "https://www.kolzchut.org.il/he/ניצול_יחסי_מרות_בהטרדה_מינית",
+      "raw_snippet": "כשמתקיימים \"יחסי השפעה\" במקום העבודה, רף ההוכחה הנדרש מהמוטרד להוכיח כי לא היה מעוניין בהצעות או בהתייחסויות המיניות שהופנו כלפיו, הנו נמוך יותר מרף ההוכחה הנדרש בין חברים בעבודה במעמד זהה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-showed-disinterest-examples",
+      "claim": "Kolzchut: disinterest can be shown by words or unambiguous conduct (leaving the room, turning one's back, evasion).",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_להתמודדות_עם_הטרדה_מינית_במסגרת_העבודה",
+      "raw_snippet": "ניתן להראות חוסר עניין באמצעות מילים או בהתנהגות חד-משמעית, כגון: עזיבת החדר בפתאומיות, הפניית הגב, התחמקות ברורה, אמירה המבקשת להפסיק או אמירה מתחמקת שמהן ניכר חוסר העניין של המוטרד.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-one-event-repeat",
+      "claim": "Kolzchut: propositions repeated within minutes or within one event count as repeated.",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_להתמודדות_עם_הטרדה_מינית_במסגרת_העבודה",
+      "raw_snippet": "גם הצעות הנאמרות מספר פעמים במסגרת זמן קצרה של מספר דקות או במסגרת אירוע אחד, הן הצעות חוזרות.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-manager-absolute",
+      "claim": "Kolzchut guide (secondary framing, broader than statute): requires a manager to refrain entirely from sexual propositions/references to employees even without shown objection.",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_להתמודדות_עם_הטרדה_מינית_במסגרת_העבודה",
+      "raw_snippet": "החוק דורש ממנהל להימנע באופן מוחלט מהצעות ומהתייחסויות מיניות כלפי העובדים, אפילו הם לא הראו את התנגדותם לכך, שאם לא כן ניתן להאשים אותו בביצוע הטרדה מינית במסגרת העבודה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-civil-7y",
+      "claim": "Kolzchut: the limitation period for civil claims is seven years.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_אזרחית_בגין_הטרדה_מינית_בעבודה",
+      "raw_snippet": "תקופת ההתיישנות על תביעות אזרחיות בעקבות הטרדה מינית היא שבע שנים.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-civil-who",
+      "claim": "Kolzchut: the claim can be against the harasser and against the workplace.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_אזרחית_בגין_הטרדה_מינית_בעבודה",
+      "raw_snippet": "התביעה יכולה להיות מוגשת על-ידי המוטרד/ת כנגד המטריד/ה וכן כנגד מקום העבודה (בשל התנכלות או בשל אי קיום הוראות החוק לעניין נקיטת אמצעי מנע או קיום הליכי בירור).",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-police",
+      "claim": "Kolzchut: harassment is a criminal offence; the victim can file a police complaint.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_פלילית_בגין_הטרדה_מינית",
+      "raw_snippet": "הטרדה מינית הינה עבירה פלילית לפי החוק ועל כן הנפגע/ת ממנה רשאי/ת לפנות למשטרת ישראל ולהגיש תלונה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-police-limitation",
+      "claim": "Kolzchut: a criminal limitation period exists (length not stated); do not delay.",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_פלילית_בגין_הטרדה_מינית",
+      "raw_snippet": "קיימת תקופת התיישנות (שמתחילה ברגע ביצוע העבירה ונמשכת מספר שנים בהתאם לעבירה ולנסיבותיה). לאחר תקופת ההתיישנות לא ניתן להעמיד לדין פלילי אדם שנחשד בביצוע העבירה. לכן חשוב לא להשתהות בהגשת התלונה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-parallel",
+      "claim": "Kolzchut: an internal complaint does not block a police complaint or civil claim; the internal outcome does not bind them.",
+      "source_url": "https://www.kolzchut.org.il/he/טיפול_בתלונה_על_הטרדה_מינית",
+      "raw_snippet": "הגשת תלונה לאחראי למניעת הטרדה מינית במקום העבודה אינה חוסמת את האפשרות להגיש תלונה פלילית או תביעה אזרחית וההחלטה בסיום בירור התלונה במקום העבודה אינה מחייבת לגבי ההליכים האחרים.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-no-fixed-time",
+      "claim": "Kolzchut: the law sets no fixed period for the investigation, only 'without delay'.",
+      "source_url": "https://www.kolzchut.org.il/he/טיפול_בתלונה_על_הטרדה_מינית",
+      "raw_snippet": "החוק אינו מגדיר מסגרת זמן קבועה ונוקשה להליך הבירור, אך מהקביעה כי הבירור יעשה \"ללא דחוי\" משתמע שיש לפעול באופן המהיר ביותר האפשרי לשם בירור התלונה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-police-no-stay",
+      "claim": "Kolzchut: the employer must investigate even if a police complaint or civil claim was filed, unless an explicit order says otherwise.",
+      "source_url": "https://www.kolzchut.org.il/he/טיפול_בתלונה_על_הטרדה_מינית",
+      "raw_snippet": "החוק אינו מתיר למעסיק להימנע מקיום הליכי הבירור גם במקרה שבו הוגשה תלונה למשטרה או תביעה אזרחית, אלא אם המעסיק קיבל צו מפורש בעניין.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-retaliation-scope",
+      "claim": "Kolzchut: retaliation can target the victim, a witness, or anyone who supported the victim.",
+      "source_url": "https://www.kolzchut.org.il/he/התנכלות_הקשורה_בהטרדה_מינית",
+      "raw_snippet": "ההתנכלות יכולה להיות מופנת לנפגע/ת ההטרדה, לעד מטעמו/ה, או לכל אדם אחר שנקט עמדה לטובת הנפגע במסגרת ההליכים",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-kz-eeoc",
+      "claim": "Kolzchut: the Equal Employment Opportunities Commission handles worker complaints against employers and may sue on the worker's behalf in the labor court.",
+      "source_url": "https://www.kolzchut.org.il/he/נציבות_שוויון_הזדמנויות_בעבודה",
+      "raw_snippet": "הנציבות מסייעת בטיפול בתלונות של עובדים כנגד מעסיקים ובמקרים מתאימים אף מגישה תביעה אזרחית בשם העובד/ת בבית הדין לעבודה.",
+      "fetched_at": "2026-11-12",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-12"
+    },
+    {
+      "claim_id": "harass-reg2b-small-model",
+      "claim": "Reg.2(b): an employer of 25 or fewer employees meets its prevention duty by bringing the model takanon to every employee and supervisor.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "מעסיק המעסיק 25 עובדים או פחות יצא ידי חובת הוראות תקנת משנה (א) אם הביא את התקנון לדוגמה לידיעת כל עובד שלו וכל ממונה",
+      "fetched_at": "2026-11-12T00:00:00Z",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg2d-training",
+      "claim": "Reg.2(d): the employer must let employees attend prevention training during working hours organised by a representative workers organisation, unless it runs such training itself.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "מעסיק יאפשר לעובדיו להשתתף, במשך שעות העבודה, בפעולות הדרכה והסברה שענינן מניעת הטרדה מינית והתנכלות",
+      "fetched_at": "2026-11-12T00:00:00Z",
+      "appears_in": [
+        "references/harassment-and-disability.md"
+      ]
+    },
+    {
+      "claim_id": "harass-reg1-contractor",
+      "claim": "Reg.1: \"employee\" includes a manpower-contractor worker employed at the actual employer.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק)",
+      "raw_snippet": "לרבות עובד של קבלן כוח אדם המועסק אצל המעסיק בפועל",
+      "fetched_at": "2026-11-12T00:00:00Z",
+      "appears_in": [
+        "references/harassment-and-disability.md"
       ]
     }
   ]

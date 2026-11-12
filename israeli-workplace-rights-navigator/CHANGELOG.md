@@ -1,5 +1,20 @@
 # Changelog
 
+TODO(legal): 2026-11-12 legal-review BLOCK (Tier A2) on the companion "workplace dating" red/yellow/green screener tool was overridden by explicit owner decision ("continue with the red green yellow"). Mitigations: no "permitted" wording on green, disclaimerKey "legal" above the CTA and under the result, no reference to any real person in the tool or its marketing. Needs counsel review.
+
+## [1.8.0] - 2026-11-12
+
+### Fixed
+- The complaints officer under the employer-duties regulations is the "acharai"; "memune" there means a supervisor. Step 10 used the wrong term.
+- The Equal Employment Opportunities Commission is no longer presented as a general harassment forum.
+- Civil harassment claims: 7-year limitation (s.6(c) with the Limitation Law), not "differs by route".
+- Takanon duty is for MORE than 25 employees; an employer of 25 or fewer meets its duty with the model takanon (reg.2(b)).
+
+### Added
+- Statutory definitions table for s.3(a), including which clauses need a prior shown disinterest; retaliation is s.3(b).
+- Dating a coworker: repetition requirement vs the case-law presumption of abuse of authority, peers, influence relations, managers, consensual relationships, promotion, breakup, messages after hours, employer response, customer harassment.
+- Employer duties from regs 1, 2, 4 to 7; complaint routes with penalties (s.5), no-proof compensation cap (s.6(b)) and labor-court jurisdiction (s.10(a)).
+
 ## [1.7.0] - 2026-10-25
 
 ### Fixed
