@@ -1,7 +1,5 @@
 # Changelog
 
-TODO(legal): 2026-11-12 legal-review BLOCK (Tier A2) on the companion "workplace dating" red/yellow/green screener tool was overridden by explicit owner decision ("continue with the red green yellow"). Mitigations: no "permitted" wording on green, disclaimerKey "legal" above the CTA and under the result, no reference to any real person in the tool or its marketing. Needs counsel review.
-
 ## [1.8.0] - 2026-11-12
 
 ### Fixed
